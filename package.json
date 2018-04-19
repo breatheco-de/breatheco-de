@@ -1,0 +1,48 @@
+{
+  "name": "vanillajs-hello",
+  "version": "1.0.0",
+  "description": "Professional Boilerplate for Vanilla.js Web Apps",
+  "main": "index.js",
+  "scripts": {
+    "c9": "webpack-dev-server --mode development --open --host $IP --port $PORT",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/vanillajs-hello.git"
+  },
+  "keywords": [
+    "Vanilla.js",
+    "Boilerplate",
+    "WebPack",
+    "Boilerplate",
+    "BreatheCode"
+  ],
+  "author": "Alejandro Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/vanillajs-hello/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/vanillajs-hello#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^4.1.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.8.3",
+    "popper.js": "^1.14.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
