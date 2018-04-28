@@ -6,6 +6,12 @@ $ nvm install 8
 $ nvm use 8
 $ node -v
 ```
+
+#### install breathecode
+```sh
+npm install @breathecode/breathecode-cli -g
+```
+
 Check for the version on the output
 
 ##### Download the boilerplate using the BreatheCode CLI
