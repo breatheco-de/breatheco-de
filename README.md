@@ -16,7 +16,7 @@ Check for the version on the output
 
 ##### Download the boilerplate using the BreatheCode CLI
 ```
-$ breathecode start:vanillajs
+$ breathecode start:vanillajs -g
 ```
 ##### and install the npm package:
 ```
