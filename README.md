@@ -1,5 +1,13 @@
 # Hello World with Vanilla JS
 
+#### Make sure you have node version 8
+```sh
+$ nvm install 8
+$ nvm use 8
+$ node -v
+```
+Check for the version on the output
+
 ##### Download the boilerplate using the BreatheCode CLI
 ```
 $ breathecode start:vanillajs
