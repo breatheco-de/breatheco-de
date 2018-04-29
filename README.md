@@ -7,7 +7,7 @@ $ nvm use 8
 $ node -v
 ```
 
-#### install breathecode
+#### install the breathecode cli (command-line-interface)
 ```sh
 npm install @breathecode/breathecode-cli -g
 ```
