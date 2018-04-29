@@ -61,7 +61,7 @@ You are ready to go! You can commit & push to your new repository whenever you w
 
 ### REMEMBER:
 
-The application flow starts at **index.js**, you have to import any other files or assets into app.js in order for webpack to include them in the bundle.
+The application flow starts at **index.js**, you have to import any other files or assets into index.js in order for webpack to include them in the bundle.
 
 For example, inside index.js you can do:
 
