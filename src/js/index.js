@@ -1,12 +1,6 @@
-/*
-    This is your main stylesheet, you should use it only
-    to include other styles into your web app.
-*/
-//include jquery into the bundle and store its contents into the $ variable
 import $ from "jquery";
-//include bootstrap npm library into the bundle
-import 'bootstrap';
-//include your own styles
+import 'bootstrap'; //breathecode dom for more explicit errors
+import 'breathecode-dom';//include your own styles
 import '../style/index.scss';
 
 window.onload = function(){
