@@ -2,87 +2,53 @@
 
 #### Make sure you have node version 8
 ```sh
-$ nvm install 8
-$ nvm use 8
-$ node -v
+$ nvm i 8
 ```
 
 #### install the breathecode cli (command-line-interface)
 ```sh
-npm install @breathecode/breathecode-cli -g
+npm i breathecode-cli -g
 ```
-
-Check for the version on the output
 
 ##### Download the boilerplate using the BreatheCode CLI
 ```
-$ breathecode start:vanillajs -r
+$ bc start:vanillajs-project -r
 ```
 ##### and install the npm package:
 ```
 $ npm install
 ```
 
-## That is it! 
+## Start coding! 
 
-Start coding your Vanilla.js application.
+Start coding your Vanilla.js application, update the `index.html`, `index.css` or `index.js` depending on your needs.
 
-Note: If you ever want to manually install all of this read the [MANUAL.md file.](/MANUAL.md)
+## FAQ
 
-## How start coding?
+#### 1) How do I run my code in Cloud 9?
+Right click on `./index.html` and choose the __RUN__ option on the menu.
 
-Now you have an index.js that will start your javascript execution (like the window.onload).
+#### 2) Where do I write my code?
+It depends on the language, but you have `./src/js/index.js`, `./src/css/index.css` and `./index.html` respectively, you can add new `.html` as you please, just make sure to include the bundle.js using the `<script>` tag.
 
-###### Every time you save your source code (js & css files) you will have to re-build your bundle.
+__Note:__ remember that the JS workflow starts inside `window.onload`.
 
-```sh
-$ npm run build
-```
+#### 3) I don't see my changes.
+Remember that you have to re-bundle every time you update your SCSS or JS files `$ npm run build`. 
+Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
 
-###### Webpack will generate your bundle.js inside the public/bundle folder
+#### 4) I ran `$ npm run build` and I still don't see my changes
+Please check the output on the console after bundling; maybe you have an error when bundling. 
+Also, check the chrome inspector for errors on the console.
 
-Check that a public/bundle/bundle.js file has been created by Webpack. Read the output from the console that must be similar to this:
+#### 5) How do I include more images on my project?
+Just add them into your HTML file, the same way you did before knowing about WebPack.
 
-```sh
-> workspace@1.0.0 transpile-dev /home/ubuntu/workspace
-> webpack --config webpack.config.js
+#### 6) How do I include more JS files?
+If the JS file is not your own, you can import it using `<script>` tags on your index.html before the `</body>` closing tag. If the file is yours is better to add it using the import statement inside index.js content.
 
-Hash: 64f06c46f625967b3aeb
-Version: webpack 3.8.1
-Time: 99ms
-    Asset     Size  Chunks             Chunk Names
-bundle.js  2.52 kB       0  [emitted]  main
-   [0] ./src/bundle.js 51 bytes {0} [built]
-```
+#### 7) How can I run the development server?
+This boilerplate does not support the webpack development server; you have to `$ npm run build` every time you update your JS or SCSS files.
 
-###### NOTE: You have to re-bundle every time yo update your JS or CSS/SASS files.
-
-You are ready to go! You can commit & push to your new repository whenever you want.
-
-### REMEMBER:
-
-The application flow starts at **index.js**, you have to import any other files or assets into index.js in order for webpack to include them in the bundle.
-
-For example, inside index.js you can do:
-
-```js
-window.onload = function(){
-    console.log('hello world');
-}
-```
-
-To include images, styles or any other type of file just use the **import** command:
-
-```js
-
-    //This will include file.js into your bundle.
-    import 'js/file2.js';
-    
-    //this will include the styles at index.scss to your bundle.
-    import '../styles/index.scss';
-
-```
-
-1. All your JS and CSS code must go inside the src/ directory, and webpack will automaticly bundle them and export them into the public folder.
-
-2. The HTML code must be inside public/bundle/index.html
+#### 8) How do I publish the website?
+Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch), the `/docs` directory is ready for that.
