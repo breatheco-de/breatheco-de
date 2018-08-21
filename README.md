@@ -21,7 +21,7 @@ $ npm install
 
 ## Start coding! 
 
-Start coding your Vanilla.js application, update the index.html, index.css or index.js depending on your needs.
+Start coding your Vanilla.js application, update the `index.html`, `index.css` or `index.js` depending on your needs.
 
 ## FAQ
 
