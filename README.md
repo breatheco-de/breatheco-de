@@ -31,7 +31,7 @@ Right click on /docs/index.html and choose the RUN option on the menu9.
 It depends on the language, but you have index.js, index.css and index.html respectively.
 Note: remember that the JS workflow starts inside window.onload.
 ##### 3) I dont see my changes.
-Remember that you have to re-bundle every time you update your CSS or JS files `$ npm run build`.
+Remember that you have to re-bundle every time you update your SCSS or JS files `$ npm run build`.
 Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
 ##### 4) I runned `$ npm run build` and I still don't see my changes
 Please check the ourput on the console after bundling, mybe you have an error when bundling.
@@ -41,5 +41,7 @@ Just add them into your HTML file, the same way you did before knowing about web
 ##### 6) How do I include more JS files?
 If the JS file is not yours you can import it using `<scrip>` tags on your index.html before the `</body>` closing tag.
 If the file is yours is better to add it using the `import` statement inside index.js content. 
-##### 7) How do I publish the website?
+##### 7) How can I run the development server?
+This boilerplate does not contain a development server, you ahve to `$ npm run build` every time you update your JS or SCSS files.
+##### 8) How do I publish the website?
 Use the free hosting that comes with github pages, the `/docs` directory is ready.
