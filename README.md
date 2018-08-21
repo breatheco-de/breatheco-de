@@ -30,6 +30,7 @@ Right click on /docs/index.html and choose the RUN option on the menu9.
 
 #### 2) Where do I write my code?
 It depends on the language, but you have `index.js`, `index.css` and `index.html` respectively. 
+
 __Note:__ remember that the JS workflow starts inside `window.onload`.
 
 #### 3) I don't see my changes.
