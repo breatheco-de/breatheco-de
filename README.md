@@ -51,4 +51,4 @@ If the JS file is not your own, you can import it using `<script>` tags on your 
 This boilerplate does not support the webpack development server; you have to `$ npm run build` every time you update your JS or SCSS files.
 
 #### 8) How do I publish the website?
-Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch), the project is ready to be published.
+Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your master branch.
