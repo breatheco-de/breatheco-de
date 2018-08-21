@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils Inquirer should make an Input object with validation 1`] = `
+Object {
+  "message": "what is your plugin?",
+  "name": "plugins",
+  "type": "input",
+  "validate": [Function],
+}
+`;
+
+exports[`utils createArrowFunction should stringify an arrow function 1`] = `"() => 'app.js'"`;
+
+exports[`utils createAssetFilterFunction should stringify an assetFilterFunction 1`] = `
+"function (assetFilename) {
+ return assetFilename.endsWith('.js');
+}"
+`;
+
+exports[`utils createCommonsChunkPlugin should stringify an commonChunksPlugin 1`] = `"new webpack.optimize.CommonsChunkPlugin({name:'vendor',filename:'vendor-[hash].min.js'})"`;
+
+exports[`utils createDynamicPromise should stringify an array 1`] = `"() => new Promise((resolve) => resolve(['app.js','index.js']))"`;
+
+exports[`utils createDynamicPromise should stringify an single value 1`] = `"() => new Promise((resolve) => resolve('app.js'))"`;
+
+exports[`utils createExternalFunction should stringify an ExternalFunction 1`] = `
+"
+ function (context, request, callback) {
+ if (/js/.test(request)){
+   return callback(null, 'commonjs' + request);
+}
+callback();
+}"
+`;
+
+exports[`utils createRegularFunction should stringify an regular function 1`] = `
+"function () {
+ return 'app.js'
+}"
+`;
+
+exports[`utils createRequire should stringify an require statement 1`] = `"const webpack = require('webpack');"`;

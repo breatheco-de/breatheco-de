@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "9"
+  - "8"
+  - "7"
+  - "6"
+  - "5"
+  - "4"
+
+# Allow Travis tests to run in containers.
+sudo: false

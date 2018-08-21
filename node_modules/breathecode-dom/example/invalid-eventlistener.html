@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="">
+        <title>Example</title>
+    </head>
+    <body>
+        <a href="index.html">Back to index</a>
+        <div id="thediv"></div>
+        <script type="text/javascript">
+            window.onload = function(){
+                console.log("Website loaded");
+                let elm = document.querySelector('#thediv');
+                let dylan = function(){};
+                elm.addEventListener('click', dylan);
+            }
+        </script>
+        <script type="text/javascript" src="../dist/dom.js"></script>
+    </body>
+</html>
