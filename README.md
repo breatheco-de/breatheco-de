@@ -23,6 +23,10 @@ $ npm install
 
 Start coding your Vanilla.js application, update the `index.html`, `index.css` or `index.js` depending on your needs.
 
+## Publish your website! 
+
+This boilerplate is 100% compatible with the free github pages hosting. [Publish your website in 1 minute.](https://github.com/4GeeksAcademy/vanillajs-hello#8-how-do-i-publish-the-website)
+
 ## FAQ
 
 #### 1) How do I run my code in Cloud 9?
