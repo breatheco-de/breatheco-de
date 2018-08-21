@@ -25,7 +25,7 @@
     "url": "https://github.com/4GeeksAcademy/vanillajs-hello/issues"
   },
   "homepage": "https://github.com/4GeeksAcademy/vanillajs-hello#readme",
-  "dependencies":{
+  "dependencies": {
     "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
