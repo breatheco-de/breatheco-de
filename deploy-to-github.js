@@ -5,9 +5,10 @@ var path = require('path');
 var fs = require('fs');
 var remoteOriginUrl = require('remote-origin-url');
 
-if (!fs.existsSync(path.resolve(__dirname,'./git'))){
+if (!fs.existsSync(path.resolve(__dirname,'.git'))){
     Console.error("No repository found on this project");
     Console.help("Follow this steps to create a new repository for your project: http://kbroman.org/github_tutorial/pages/init.html");
+        return;
 }
 
 const origin = remoteOriginUrl.sync();
@@ -19,6 +20,7 @@ $ git remote get-url origin
 Add your remote by doing:
 $ git remote add origin <github_repository_url>
 `);
+    return;
 } 
 const compiler = webpack(require(path.resolve(__dirname, 'webpack.config.js')));
 compiler.run((err, stats) => {
