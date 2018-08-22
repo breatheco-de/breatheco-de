@@ -25,7 +25,10 @@ Start coding your Vanilla.js application, update the `index.html`, `index.css` o
 
 ## Publish your website! 
 
-This boilerplate is 100% compatible with the free github pages hosting. [Publish your website in 1 minute.](https://github.com/4GeeksAcademy/vanillajs-hello#8-how-do-i-publish-the-website)
+This boilerplate is 100% compatible with the free github pages hosting. Publish your website by runing:
+```sh
+$ npm run deploy
+```
 
 ## FAQ
 

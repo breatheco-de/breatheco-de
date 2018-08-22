@@ -7,7 +7,7 @@ module.exports = {
   ],
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'docs/')
+    path: path.resolve(__dirname, 'public/')
   },
   module: {
     rules: [
@@ -38,14 +38,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
   devtool: "source-map",
-  devServer: {
-    contentBase:  './dist',
-    hot: true,
-    disableHostCheck: true,
-    historyApiFallback: true
-  },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery',
       Popper: 'popper.js',

@@ -6,7 +6,8 @@
   "scripts": {
     "c9": "echo The webpack development server cannot be used on this project && echo Please run: $ npm run build",
     "dev-server": "echo The webpack development server cannot be used on this project,[0m Please run $ npm run build",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "deploy": "node deploy-to-github.js"
   },
   "repository": {
     "type": "git",
@@ -37,11 +38,14 @@
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "bc-console": "0.0.2",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
     "file-loader": "^1.1.11",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.8.3",
+    "remote-origin-url": "^1.0.0",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.6.0",
