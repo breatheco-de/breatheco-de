@@ -19,6 +19,11 @@ $ bc start:vanillajs-project -r
 $ npm install
 ```
 
+Build
+```sh
+$ npm run build
+```
+
 ## Start coding! 
 
 Start coding your Vanilla.js application, update the `index.html`, `index.css` or `index.js` depending on your needs.
