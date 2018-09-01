@@ -23,7 +23,7 @@ $ npm install
 
 Build the application for the first time...
 ```
-$ npm install
+$ npm run build
 ```
 And start coding your Vanilla.js application, update the `index.html`, `index.css` or `index.js` depending on your needs.
 
