@@ -45,6 +45,7 @@
     "file-loader": "^1.1.11",
     "gh-pages": "^1.2.0",
     "node-sass": "^4.8.3",
+    "parse-github-url": "^1.0.2",
     "remote-origin-url": "^1.0.0",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
