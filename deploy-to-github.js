@@ -44,6 +44,6 @@ compiler.run((err, stats) => {
             return;
         } 
         //https://<github_user>.github.io/<repository-name>
-        Console.success(`Your website has been deployed successfully here: https://${repository["owner"]}.github.io/${repository["name"]}`);
+        Console.success(`Your website has been deployed successfully here: https://${repository["owner"]}.github.io/${repository["name"]}/`);
     });
 });
