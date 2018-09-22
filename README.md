@@ -1,9 +1,6 @@
 # Hello World with Vanilla JS
 
-#### Make sure you have node version 8
-```sh
-$ nvm i 8
-```
+> Requirements: Make sure you have node version 8
 
 #### install the breathecode cli (command-line-interface)
 ```sh
