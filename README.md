@@ -1,4 +1,12 @@
-# Student External Profile
+<p align="center">
+  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
+</p>
+
+<p align="center">
+    <h2 align="center"> Student External Profile </h2>
+    <img src="https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012" />
+</p>
+
 
 This application serves like a Student Profile Showcase.
 
