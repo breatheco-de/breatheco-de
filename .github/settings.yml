@@ -1,0 +1,36 @@
+repository:
+  has_wiki: false
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: "bug"
+    color: c10000
+  - name: ":nerd_face: 4geeks student"
+    color: 7057ff
+  - name: "enhancement"
+    color: a2eeef
+  - name: "first-timers-only"
+    color: 69db89
+  - name: "good first issue"
+    color: 7057ff
+  - name: "help wanted"
+    color: 008672
+  - name: ":star: P1"
+    color: fbca04
+  - name: ":star: P2"
+    color: fbca04
+  - name: "post:lesson"
+    oldname: ":book: post: lesson"
+    color: 98bde2
+  - name: "post:howto"
+    oldname: ":grey_question: post: how to"
+    color: 98bde2
+  - name: "post:bug explanation"
+    oldname: ":bug: post: bug explanation"
+    color: 98bde2
+  - name: ":memo: bc-writter"
+    color: 98bde2
+  - name: ":computer: bc-coder"
+    color: 98bde2
+  - name: ":beetle: bc-inspector"
+    color: 98bde2
