@@ -11,7 +11,7 @@
 
 This application serves like a Student Profile Showcase.
 
-Each student must upload a `<your_full_name>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
+Each student must upload a `<your_github_username>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
 
 The `yml` file must be filled with all your personal and professional information, after complating the YML fill the application will automatically generate a student portfolio like the following:
 
