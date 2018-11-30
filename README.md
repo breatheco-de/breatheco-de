@@ -4,9 +4,9 @@
 
 <p align="center">
     <h2 align="center"> Student External Profile </h2>
+    <img src="https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012" />
+    <img src="https://api.travis-ci.org/4GeeksAcademy/student-external-profile.svg?branch=master" />
 </p>
-
-[![buddy pipeline](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012 "buddy pipeline")](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573)
 
 This application serves like a Student Profile Showcase.
 
@@ -21,6 +21,10 @@ The `yml` file must be filled with all your personal and professional informatio
 <p align="center">
   <a href="https://4geeksacademy.github.io/student-external-profile/sharu725" target="_blank">Wach Live Demo Here</a>
 </p>
+
+```
+Note: You can test your yaml syntax here: http://www.yamllint.com/
+```
 
 ## Completing the YML file
 
