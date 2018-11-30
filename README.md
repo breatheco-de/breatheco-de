@@ -7,7 +7,7 @@ Each student must upload a `<your_full_name>.yml` file inside `/src/students/` w
 The `yml` file must be filled with all your personal and professional information, after complating the YML fill the application will automatically generate a student portfolio like the following:
 
 <p align="center">
-  <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/static/yml.png">
+  <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/preview.png">
 </p>
 
 [Watch a live demo here](https://4geeksacademy.github.io/student-external-profile/sharu725).
