@@ -10,7 +10,9 @@ The `yml` file must be filled with all your personal and professional informatio
   <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/preview.png">
 </p>
 
+<p align="center">
 [Watch a live demo here](https://4geeksacademy.github.io/student-external-profile/sharu725).
+</p>
 
 ## Completing the YML file
 
