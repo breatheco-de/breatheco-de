@@ -6,11 +6,12 @@
     <h2 align="center"> Student External Profile </h2>
 </p>
 
-[![buddy pipeline](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012 "buddy pipeline")](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573)
+![Buddy Works Build](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012)
+![Travis Build](https://api.travis-ci.org/4GeeksAcademy/student-external-profile.svg?branch=master)
 
 This application serves like a Student Profile Showcase.
 
-Each student must upload a `<your_full_name>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
+Each student must upload a `<your_github_username>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
 
 The `yml` file must be filled with all your personal and professional information, after complating the YML fill the application will automatically generate a student portfolio like the following:
 
@@ -21,6 +22,10 @@ The `yml` file must be filled with all your personal and professional informatio
 <p align="center">
   <a href="https://4geeksacademy.github.io/student-external-profile/sharu725" target="_blank">Wach Live Demo Here</a>
 </p>
+
+```
+Note: You can test your yaml syntax here: http://www.yamllint.com/
+```
 
 ## Completing the YML file
 
