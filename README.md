@@ -11,7 +11,7 @@ The `yml` file must be filled with all your personal and professional informatio
 </p>
 
 <p align="center">
-[Watch a live demo here](https://4geeksacademy.github.io/student-external-profile/sharu725).
+  <a target="_blank">https://4geeksacademy.github.io/student-external-profile/sharu725)</a>
 </p>
 
 ## Completing the YML file
