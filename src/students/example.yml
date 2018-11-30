@@ -2,17 +2,6 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
-Motto: 5 words that define you.
-Bio: 1 paragraph to summarize your profile.
-Education.
-Desired focus (e.g: Front end, big data, mobile development, the cruise industry, etc).
-Your 2-3 most important past experiences with detailed description.
-Portfolio projects with detailed description.
-Skills.
-Badges won.
-Final Project Link.
-Github Contribution Chart  with 2 biggest contributions.
-
 template: "online-cv"
 skin: "orange"
 
@@ -20,12 +9,13 @@ skin: "orange"
 basic_info:
 
     # Your full name
-    name: Alan Doe
+    first_name: Clark
+    last_name: Kent
     
     # Define yourself in 4-5 words
     motto: I want to make things that make a difference
     
-    #focus
+    # focus
     focus: Mobile Development
     
     # You have 1 paragraph to make a great impression, summarize your career.
@@ -40,7 +30,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: profile.png
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
     email: hello@webjeda.com #optional

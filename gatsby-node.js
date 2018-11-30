@@ -24,8 +24,13 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
     `).then(result => {
-        
+      
+      let students = [];
       result.data.allStudentsYaml.edges.forEach(({ node }) => {
+        students.push({
+          github: node.basic_info.github,
+          full_name: node.basic_info.first_name + ' ' + node.basic_info.last_name
+        });
         createPage({
           path: node.basic_info.github,
           component: getTemplate(node.template || 'online-cv'),
@@ -35,7 +40,8 @@ exports.createPages = ({ actions, graphql }) => {
           },
         });
       });
+      
       resolve();
-      });
     });
+  });
 };

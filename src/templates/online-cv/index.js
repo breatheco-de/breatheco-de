@@ -3,15 +3,16 @@ import { graphql } from 'gatsby';
 
 export default ({ data }) => {
   const student = data.studentsYaml;
+  const { basic_info } = student;
     require(`./styles/skins/${student.skin || 'blue'}.scss`);
   return (
       <div>
         <div className="wrapper">
            <div className="sidebar-wrapper">
               <div className="profile-container">
-                 <img className="avatar" src="/online-cv/assets/images/profile.png" alt="profile" />
-                 <h1 className="name">Alan Doe</h1>
-                 <h3 className="tagline">Full Stack Developer</h3>
+                 <img className="avatar" src={basic_info.avatar} alt="profile" />
+                 <h1 className="name">{ basic_info.first_name + ' ' + basic_info.last_name }</h1>
+                 <h3 className="tagline">{ basic_info.motto }</h3>
               </div>
               <div className="contact-container container-block">
                  <ul className="list-unstyled contact-list">
@@ -19,7 +20,7 @@ export default ({ data }) => {
                     <li className="phone"><i className="fas fa-phone"></i> <a href="tel:012 345 6789">012 345 6789</a></li>
                     <li className="website"><i className="fas fa-globe-americas"></i> <a href="http://blog.webjeda.com" target="_blank" rel="noopener noreferrer">blog.webjeda.com</a></li>
                     <li className="linkedin"><i className="fab fa-linkedin"></i> <a href="https://linkedin.com/in/alandoe" target="_blank" rel="noopener noreferrer">alandoe</a></li>
-                    <li className="github"><i className="fab fa-github"></i> <a href="http://github.com/sharu725" target="_blank" rel="noopener noreferrer">{student.basic_info.github}</a></li>
+                    <li className="github"><i className="fab fa-github"></i> <a href="http://github.com/sharu725" target="_blank" rel="noopener noreferrer">{basic_info.github}</a></li>
                     <li className="twitter"><i className="fab fa-twitter"></i> <a href="https://twitter.com/@webjeda" target="_blank" rel="noopener noreferrer">@webjeda</a></li>
                  </ul>
               </div>
@@ -65,8 +66,7 @@ export default ({ data }) => {
               <section className="section summary-section">
                  <h2 className="section-title"> <span className="fa-stack fa-xs"> <i className="fas fa-circle fa-stack-2x"></i> <i className="fas fa-user fa-stack-1x fa-inverse"></i> </span> Career Profile</h2>
                  <div className="summary">
-                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can . Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
-                    <p>Second paragraph if required.</p>
+                    { basic_info.summary }
                  </div>
               </section>
               <section className="section experiences-section">
@@ -206,6 +206,12 @@ export const query = graphql`
         skin
         basic_info{
             github
+            first_name
+            last_name
+            motto
+            summary
+            github
+            avatar
         }
     }
   }
