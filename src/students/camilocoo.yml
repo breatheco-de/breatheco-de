@@ -1,0 +1,25 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+name: Camilo Contreras 
+Tagline: Full Stack Developer
+avatar: 
+
+email: camilo.coo250@gmail.com
+phone: 3057935972
+website:
+linkedin:
+github: camilocoo
+twitter: 
+stack-overflow: 
+
+languages: 
+
+  - idiom: english 
+    level: pofesional
+  
+  - idiom: spanish 
+    level: native 
+
