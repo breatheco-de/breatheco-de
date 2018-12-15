@@ -14,23 +14,23 @@ basic_info:
     
     # Define yourself in 4-5 words
     motto: 
-    
+      I love a challenge 
     # focus
     focus: 
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I'm currently an elementary school teacher. I am interested in using my 
+      education expertise to develop educational websites for students and 
+      teachers. I have a background in professional development. I have taught 
+      students and teachers. I have trained faculty and staff in technology 
+      education. 
 
       Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://avatars2.githubusercontent.com/u/45579135?s=400&u=4ca71af2490f687a3c555b4fdb84e79e263b6343&v=4
 
     # Contact Information
     email: sacosta1024@gmail.com #optional
@@ -43,7 +43,6 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
     github: sashaco
     
-    twitter: #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -54,8 +53,6 @@ basic_info:
       - idiom: Spanish
         level: Professional
 
-      - idiom: 
-        level: 
 
     # Interests or hobies
     interests:
@@ -86,8 +83,10 @@ education:
       time: 2006 - 2010
       details: |
         Attended psychology courses for child development focusing on both early
-        childhood and school age children. I have conducted resarch papers that
-        focused on 
+        childhood and school age children. I have conducted research papers that
+        focus on early child development. I have conducted research with my 
+        peers focusing on psychological issues that affects early child
+        development.
 
           - Bullet point
           - Bullet point
