@@ -32,13 +32,13 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://c9.io/andinoga
+    avatar: 
 
     # Contact Information
-    email: andinoga@gmail.com #optional
-    phone: 786.209.9552 #optional
-    website: none #optional
-    linkedin: https://www.linkedin.com/in/andinoga/ #optional
+    email: andinoga@gmail.com 
+    phone: 786.209.9552 
+    website: none 
+    linkedin: linkedin.com/andinoga
     
     #
     # ******** IMPORTANT *******
