@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "aqua"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gloria
+    last_name: Andino
+    
+    # Define yourself in 4-5 words
+    motto: What doesn't kill you makes you stronger<br>
+    Batman Lover <br>
+    I am Groot <br>
+    Kayak <br>
+    Twenty Concerts & Counting<br>
+    
+    # focus
+    focus: Building a unicorn game
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      My career until now has been choatic, fun and challenging. I have been able to learn from different companies how to become a 
+      well rounded individual. My love of learning as pulled me into a different direction now to learn how to code, build websites and possibly change the world. 
+      I have been able to adapt in very different positions, from managing a fast food resturant with over 75 employees, to handling over 100 
+      catastrophe cases in different states and learning how to exercise empathy and now by learning how to write computer talk and be able to build from a dream to reality. 
+      In the next 6 months I believe to acquire a junior developer position in a kick ass company. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://c9.io/andinoga
+
+    # Contact Information
+    email: andinoga@gmail.com #optional
+    phone: 786.209.9552 #optional
+    website: none #optional
+    linkedin: https://www.linkedin.com/in/andinoga/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: andinoga
+    
+    twitter: 'andinoga'
+    stack-overflow: # 10168357/andino
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Playing Drums
+
+      - item: Kayaking
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4 Geeks Academy 
+      time: 2018-2019
+      details: |
+        I learned how to use different programs to build beautiful sites. 
+
+    - degree: Bacherlor's in Business Administration
+      university: College of Business and Technology
+      time: 2012-2014
+      details: |
+        I learned how to build a business from scratch from making a business plan, to acquire funding, 
+        marketing, planning, human resource and finance. 
+          - Dean's List 2013 & 2014
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Claims Adjuster
+      time: 2017-2018
+      company: Assurant, Miami Florida
+      details: 
+      - Handled claims in different departments such as liability, homeowners, renters and auto. 
+      - Developed strategy and negotiated claims to timely conclusion.
+      - Investigated losses, evaluated liability and damages, negotiated and settled property claims.
+      - Coordinated with vendors and reviewed structure repair estimates.
+      - Managed catastrophic losses and after hour emergency situation.
+      - Handled California and out of State claims including Texas, New Hampshire, New Mexico, Maine, Pennsylvania, and Hawaii.
+      - Determined when to investigate potential fraudulent claims and prepare for subrogation.
+      - Consistent leader in customer service score using patience and sympathy to provide professional responses when 
+        speaking to a wide variety of people in various stages of expectation.
+
+    - role: Assistant Manager
+      time: 2010-2017
+      company: McDonalds, Miami Florida
+      details: 
+        - 
+       
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 20%
+
+      - name: Sketch & Photoshop
+        level: 0%
