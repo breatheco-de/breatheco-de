@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "white"
+
+
+basic_info:
+
+    
+    first_name: Yusniel
+    last_name: Espino Cardenas
+    
+    
+    motto: I like to take challenges under pressure.
+    
+    
+    focus: Be a developer 
+
+   avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    
+    email: eyusniel@gmail.com
+    phone: 7863086693
+    website: 
+    linkedin: alandoe #optional
+    
+    
+    github: espvtes
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+
+    
+    interests:
+      - item: Paint
+
+      - item: Solve problem
+
+      - item: work under the pressure
+
+# Your previous education
+education:
+    - degree: Lic Painter and Draftsman.
+      university: University of Camaguey "Vicentina de La Torre"
+      time: 2000 - 2006
+     
+        
+    
+   
+
+    assignments:
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 40%
+    
+    
