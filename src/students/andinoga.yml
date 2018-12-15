@@ -1,0 +1,106 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: andinoga@gmail.com
+  first_name: Gloria
+  focus: "Building a unicorn game"
+  github: andinoga
+  interests: 
+    - 
+      item: Reading
+    - 
+      item: "Playing Drums"
+    - 
+      item: Kayaking
+  languages: 
+    - 
+      idiom: English
+      level: Native
+    - 
+      idiom: Spanish
+      level: Professional
+  last_name: Andino
+  linkedin: linkedin.com/andinoga
+  motto: "Batman Wins"
+  phone: "786.209.9552"
+  stack-overflow: ~
+  summary: "My career until now has been choatic, fun and challenging. I have been able to learn from different companies how to become a \n\
+      well rounded individual. My love of learning as pulled me into a different direction now to learn how to code, build websites and possibly change the world. \n\
+      I have been able to adapt in very different positions, from managing a fast food resturant with over 75 employees, to handling over 100 \n\
+      catastrophe cases in different states and learning how to exercise empathy and now by learning how to write computer talk and be able to build from a dream to reality. \n\
+      In the next 6 months I believe to acquire a junior developer position in a kick ass company. \n"
+  twitter: andinoga
+  website: none
+education: 
+  - 
+    degree: "FullStack Web Developer"
+    details: "I learned how to use different programs to build beautiful sites. \n"
+    time: 2018-2019
+    university: "4 Geeks Academy"
+  - 
+    degree: "Bacherlor's in Business Administration"
+    details: |
+        I learned how to build a business from scratch from making a business plan, to acquire funding, 
+        marketing, planning, human resource and finance. 
+          - Dean's List 2013 & 2014
+    time: 2012-2014
+    university: "College of Business and Technology"
+experiences: 
+  - 
+    company: "Amazon, London"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: "UI Developer"
+    time: "2012 - 2014"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 0%
+      name: "Python & Django"
+    - 
+      level: 0%
+      name: "Javascript & jQuery"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 50%
+      name: "HTML5 & CSS"
+    - 
+      level: 20%
+      name: "Ruby on Rails"
+    - 
+      level: 0%
+      name: "Sketch & Photoshop"
+skin: blue
+template: online-cv
