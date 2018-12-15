@@ -1,0 +1,142 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+first_name: Camilo
+last_name: Contreras
+motto: Full Stack Developer
+avatar:
+summary: |
+Summarise your career here lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. You can [download this free resume/CV template here]().
+Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Donec quam felis, ultricies nec, pellentesque eu.
+Second paragraph if required.
+email: Camilo.coo250@gmail.com
+phone: 3057935972
+website:
+linkedin:
+github:
+twitter:
+stack-overflow:
+
+languages:
+- idiom: English
+level: Profesional
+
+- idiom: Spanish
+level: Native
+
+interests:
+- item: Gaming
+
+- item: Crypto
+
+education:
+- degree:
+university:
+time:
+details: |
+Describe your study here lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.
+- Bullet point
+- Bullet point
+- degree:
+university:
+time:
+details: |
+Describe your study here lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.
+- Bullet point
+- Bullet point
+experiences:
+- role:
+time:
+company:
+details: |
+Describe your role here lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. Donec quam felis, ultricies nec,
+pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+error sit voluptatem accusantium doloremque laudantium, totam rem
+aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+architecto beatae vitae dicta sunt explicabo.
+- Bullet point
+- Bullet point
+- role:
+time:
+company:
+details: |
+Describe your role here lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. Donec quam felis, ultricies nec,
+pellentesque eu, pretium quis, sem.
+- Bullet point
+- Bullet point
+- role: UI Developer
+time: 2012 - 2014
+company: Amazon, London
+details: |
+Describe your role here lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. Donec quam felis, ultricies nec,
+pellentesque eu, pretium quis, sem.
+- Bullet point
+- Bullet point
+projects:
+intro: >
+You can list your side projects or open source libraries in this
+section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+assignments:
+- title:
+link:
+tagline:
+
+- title:
+link:
+tagline:
+
+- title:
+link:
+tagline:
+
+- title:
+link:
+tagline:
+
+- title:
+link:
+tagline:
+
+skills:
+toolset:
+- name: Python & Django
+level: 0%
+
+- name: Javascript & jQuery
+level: 10%
+
+- name: Angular
+level: 0%
+
+- name: HTML5 & CSS
+level: 80%
+
+- name: Ruby on Rails
+level: 5%
+
+- name: Sketch & Photoshop
+level: 60%
