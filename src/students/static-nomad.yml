@@ -24,13 +24,13 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://avatars1.githubusercontent.com/u/45376194?s=460&v=4
 
     # Contact Information
     email: ms.melanieyoung@gmail.com #optional
-    phone:  #optional
-    website:  #optional
-    linkedin:  #optional
+    phone: 214-355-6692
+    website:  
+    linkedin: 
     
     #
     # ******** IMPORTANT *******
@@ -45,9 +45,6 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: 
-        level: 
-
       - idiom: Spanish
         level: Intermediate
 
@@ -57,42 +54,34 @@ basic_info:
 
       - item: Making Art
 
-      - item: 
-
 # Your previous education
 education: 
     - degree: MS Recreation Management
       university: Texas State
-      time: 2012 - 2014
-      details: |
+      time: 2011 - 2013
         
 
     - degree: BA Government
       university: University of Texas at Austin
       time: 2003 - 2005
-      details: |
+      details: Minor in Middle Eastern Studies
     
         
-
 # Your previous job experiences or voluntier
 experiences:
-    - role: 
-      time: 
-      company: 
-      details: |
+    - role: Customer Service Representative
+      time: September 2014 - Present
+      company: Social Security Administration
+      details: Research info. on Medicare, Retirement, and Disability; Explain legal info. to the public 
 
 
-    - role: 
-      time: 
-      company: 
-      details: |
+    - role: Vault Teller
+      time: April 2013 - September 2014
+      company: American Bank of Commerce
+      details: Responsible for balancing the bank vault 
      
 
-    - role: 
-      time: 
-      company: 
-      details: |
-        
+  
 
 # Your project portfolio
 projects:
@@ -122,14 +111,14 @@ projects:
 
 skills:
     toolset:
-      - name: 
-        level: 
+      - name: HTML
+        level: 100%
 
-      - name: 
-        level: 
+      - name: CSS
+        level: 90%
 
-      - name: 
-        level:
+      - name: Bootstrap
+        level: 90%
 
       - name: 
         level: 
