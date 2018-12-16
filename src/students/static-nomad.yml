@@ -20,7 +20,8 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     I am someone that looks for new challenges. 
+     I am someone that looks for new challenges. My adaptability has allowed me to do things like teach English in Egypt and Japan to both children and adults alike.
+     I currently educate people about Social Security and what their options are depending upon what stage they are in their lives. I am looking for my next opportunity to progress.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
@@ -89,24 +90,16 @@ projects:
      
 
     assignments:
-      - title: 
-        link: 
+      - title: Postcard developed with HTML and CSS
+        link: https://github.com/Static-nomad/my-postcard.git
         tagline: 
 
-      - title: 
-        link: 
+      - title: Faux Instagram feed developed with HTML and CSS
+        link: https://github.com/Static-nomad/fake-insta-feed.git
         tagline: 
 
-      - title: 
-        link: 
-        tagline: 
-
-      - title: 
-        link: 
-        tagline: 
-
-      - title: 
-        link: 
+      - title: Faux Instagram feed developd with HTML, CSS, and Bootstrap
+        link: https://github.com/Static-nomad/fake-insta-bootstrap.git
         tagline: 
 
 skills:
@@ -115,16 +108,7 @@ skills:
         level: 100%
 
       - name: CSS
-        level: 90%
+        level: 80%
 
       - name: Bootstrap
-        level: 90%
-
-      - name: 
-        level: 
-
-      - name: 
-        level: 
-
-      - name: 
-        level:
+        level: 80%
