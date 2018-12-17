@@ -57,6 +57,11 @@ basic_info:
 
 # Your previous education
 education: 
+    - coursework: Full Stack Developer 
+      school: 4GeeksAcademy
+      time: December 2018 - March 2019
+      
+
     - degree: MS Recreation Management
       university: Texas State
       time: 2011 - 2013
