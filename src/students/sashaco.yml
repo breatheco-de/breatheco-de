@@ -20,13 +20,17 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      I'm currently an elementary school teacher. I am interested in using my 
-      education expertise to develop educational websites for students and 
-      teachers. I have a background in professional development. I have taught 
-      students and teachers. I have trained faculty and staff in technology 
-      education. 
+      I'm currently an elementary school teacher. I have taught first grade for
+      five years and third grade for two years. I am interested in using my 
+      education expertise to develop educational websites and apps for students 
+      and teachers. I also have a background in professional development. I have 
+      trained faculty and staff how to effectively utlize technology in the 
+      classroom. I am very familiar with Microsoft Office 365 and Workplace by
+      Facebook. I have also held many leadership roles. In addtion to being the
+      technology liaison at my school site, I am the gradebook manager for the 
+      school site and also grade level chair or my third grade team.
 
-      Second paragraph if required.
+     
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
@@ -97,14 +101,23 @@ experiences:
       time: 2013 - Present
       company: Miami Dade County Public Schools, Miami, Florida 
       details: |
-        R.
+        Elementary school teacher. Taught first grade for five years. Taught 
+        third grade for two years. Responsible for educating up to 30 students
+        using the Florida State curriculum and state standards. Responsible
+        creating effective lesson plans that target students needs. Served as 
+        grade level chair for two years where I was responsible for my first
+        grade team. I worked closely with administration to create school 
+        improvement plans. Served as the technology liaison. In this role I was 
+        responsible for keeping track of the most updated EdTech tools. Then I 
+        had to train my faculty in those EdTech tools. I was the recipient of
+        the 2018-2019 teacher of the year award.
 
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Bank Teller
+      time: 2008 - 2011
+      company: CitiBank NA, New York, New York
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -115,18 +128,7 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    
 
 # Your project portfolio
 projects:
