@@ -119,11 +119,11 @@ experiences:
       time: 2008 - 2011
       company: CitiBank NA, New York, New York
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Assist customers with everyday banking needs. Cross sell banking 
+        products to clients. Responsible for loading and unloading ATM machines.
+        Kept track of money inventory. Ordered money for the branch. Responsible
+        for $22,000 in cash box. Work closely with personal bankers to 
+        familiarize myself with banking products.
 
           - Bullet point
           - Bullet point
@@ -161,19 +161,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 10%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 10%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 40%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 10%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 0%
