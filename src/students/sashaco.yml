@@ -167,7 +167,7 @@ skills:
         level: 10%
 
       - name: Angular
-        level: %
+        level: 0%
 
       - name: HTML5 & CSS
         level: 40%
@@ -176,4 +176,4 @@ skills:
         level: 10%
 
       - name: Sketch & Photoshop
-        level: %
+        level: 0%
