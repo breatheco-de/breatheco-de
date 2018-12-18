@@ -89,7 +89,21 @@ experiences:
       details: |
         Responsible for packing and wrapping of grocery products as they came
         down conveyor belt.
+        
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects as I continual to learn how to code.
 
+    assignments:
+      - title: Postcard
+        link: "https://github.com/Jaye24/Postcard"
+        tagline: "A simple postcard created using html5 and css."
+
+      - title: Simple Instagram Feed
+        link: "https://github.com/Jaye24/Intsagram-Feed"
+        tagline: "A static representation of an Instagram feed uisng HTML and CSS."
+      
 skills:
     toolset:
 
