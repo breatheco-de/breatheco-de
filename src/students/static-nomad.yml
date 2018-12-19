@@ -57,8 +57,8 @@ basic_info:
 
 # Your previous education
 education: 
-    - coursework: Full Stack Developer 
-      school: 4GeeksAcademy
+    - degree: Full Stack Developer training
+      university: 4GeeksAcademy
       time: December 2018 - March 2019
       
 
@@ -104,6 +104,10 @@ projects:
 
       - title: Faux Instagram feed developd with HTML, CSS, and Bootstrap
         link: https://github.com/Static-nomad/fake-insta-bootstrap.git
+        tagline: 
+        
+      - title: Collaborative webpage with HTML and Bootstrap
+        link: https://github.com/nachovz/git-collab-2018-2.git
         tagline: 
 
 skills:
