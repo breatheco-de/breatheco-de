@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars3.githubusercontent.com/u/25497978?s=400&v=4
+    avatar: https://pbs.twimg.com/profile_images/1073734307104071685/z_UhjNKI_400x400.jpg
 
     # Contact Information
     email: andinoga@gmail.com #
@@ -87,19 +87,18 @@ experiences:
       time: 2017 - Present
       company: Assurant, Miami
       details: |
-        Fast paced energetic environment and drive results while providing 
-        exceptional customer service. Reviewed property damage claim 
-        information from the Outside Adjuster, complete the investigation 
-        and resolve the claim. Exercised strong organizational abilities and 
-        empathetic interpersonal skills
-
-          - Investigate and adjust claims according to applicable laws and
-            policy provisions.
-          - Build and maintain effective internal and external working 
-            relationships. Collaborate with internal support teams and 
-            management as appropriate.
-          - Collabrated with Puerto Rico field office in handling over 
-            16,000 Hurricane Maria Claims. 
+        Fast paced energetic environment and results driven while providing 
+        exceptional customer service. Daily review of property damage claims 
+        information from the Independent Adjusters, complete the investigation 
+        process and resolve the claim. Exercise strong organizational abilities and 
+        empathetic interpersonal skills to assist the clients. 
+        Investigate and adjust claims according to applicable laws and
+        policy provisions.
+        Build and maintain effective internal and external working 
+        relationships. Collaborate with internal support teams and 
+        management as appropriate.
+        Collabrated with Puerto Rico field office in handling over 
+        16,000 Hurricane Maria Claims. 
 
     - role: Assistant Manager
       time: 2008 - 2017
@@ -111,9 +110,8 @@ experiences:
         workplace guidelines, training employees and 
         shift managers in food safety, customer service 
         and daily maintance and cleanliness
-
-          - Food Safety Certification 
-          - Outstanding Assistant Manager 2015
+        Food Safety Certification 
+        Outstanding Assistant Manager 2015
           
 # Your project portfolio
 projects:
