@@ -1,0 +1,159 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hector
+    last_name: Zambrano
+    
+    # Define yourself in 4-5 words
+    motto:  dedicated, good listener, team worker and honest
+    
+    # focus
+    focus: Web Stack Development, Front-End/Back-End/Database-Access
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      # Most of my working career I have worked for myself. I have always had an
+      I'm Computer Bachelors of Computer Sciences with more than 20 years of experience. 
+      I Started working applying my knowledge in programming and winning skills as lider 
+      and getting some manager roles. In this moment I keep doing manager roles but I love 
+      coding and that's why I keep studing new techs in programing as ReactJS.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://placehold.it/150x150
+
+    # Contact Information
+    email: hzambrano.ve@gmail.com #optional
+    phone: 863 877 5386 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/hector-zambrano-ve/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hjzambrano
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    # Interests or hobbies
+    interests:
+      - item: movies
+
+      - item: swinming
+
+      - item: technology (computers & coding)
+      
+      - item: reading
+
+# Your previous education
+education:
+    - degree: Managerial Development and Responsible Leadership
+      university: Universidad Simon Bolivar
+      time: 2012 - 2013
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Bachelor of Computer Science
+      university: Universidad Central de venezuela
+      time: 1992 - 1998
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Programmer Analyst
+      university: Universidad Jose Maria Vargas
+      time: 1986 - 1987
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Account Manager
+      time: 07/2015 - 12/2018
+      company: Coporacion ISC-Bunker Ramo de Venezuela
+      details: |
+        Responsible for development technological business with ours clients at differents sectors as finance, 
+        insurance, health, telecom, government and retails.
+
+    - role: System Manager
+      time:  08/2008 - 05/2015
+      company: DEL SUR Banco Universal, C.A.
+      details: |
+        Responsible for all development, implementation and maintenance of the different applications 
+        and alternative systems to the banking core including Internet Banking and other Web Apps.
+
+    - role: Project Manager / Product Manager / Systems Programer
+      time: 2012 - 2014
+      company: Publix Super Market
+      details: |
+        Responsible for packing and wrapping of grocery products as they came
+        down conveyor belt.
+        
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects as I continue to learn how to code.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/"
+        tagline: "A simple postcard created using html5 and css."
+
+      - title: Simple Instagram Feed
+        link: "https://github.com/"
+        tagline: "A static representation of an Instagram feed uisng HTML and CSS."
+      
+skills:
+    toolset:
+
+      - name: HTML5, CSS, Javascript
+        level: High
+
+      - name: ReactJS, Git, BitBuket, Jira
+        level: High
+
+      - name: Windows, Linux
+        level: High, Medium
+
+      - name: MS SQL Server & Oracle & Postgres
+        level: High
+
+      - name: Delphi, C++, C#, Java, OOP
+        level: High
