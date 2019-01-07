@@ -20,7 +20,6 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      # Most of my working career I have worked for myself. I have always had an
       I'm Computer Bachelors of Computer Sciences with more than 20 years of experience. 
       I Started working applying my knowledge in programming and winning skills as lider 
       and getting some manager roles. In this moment I keep doing manager roles but I love 
@@ -32,7 +31,7 @@ basic_info:
 
     # Contact Information
     email: hzambrano.ve@gmail.com #optional
-    phone: 863 877 5386 #optional
+    phone:  #optional
     website:  #optional
     linkedin: https://www.linkedin.com/in/hector-zambrano-ve/ #optional
     
@@ -65,7 +64,7 @@ basic_info:
 # Your previous education
 education:
     - degree: Managerial Development and Responsible Leadership
-      university: Universidad Simon Bolivar
+      university: Simon Bolivar University
       time: 2012 - 2013
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -78,7 +77,7 @@ education:
           - Bullet point
 
     - degree: Bachelor of Computer Science
-      university: Universidad Central de venezuela
+      university: Central University of venezuela
       time: 1992 - 1998
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -91,7 +90,7 @@ education:
           - Bullet point
 
     - degree: Programmer Analyst
-      university: Universidad Jose Maria Vargas
+      university: Jose Maria Vargas University
       time: 1986 - 1987
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -105,55 +104,93 @@ education:
 
 # Your previous job experiences or volunteer
 experiences:
+    - role: Software Factory Manager
+      time: 2019 - present
+      company: Coporacion ISC-Bunker Ramo de Venezuela
+      details: |
+        Responsible for development New Web Interfaces and Components for our QMATIC Orchestra Platform 
+        and development of new Applications that customers demand or need.
+
     - role: Account Manager
-      time: 07/2015 - 12/2018
+      time: 2015 - 2018
       company: Coporacion ISC-Bunker Ramo de Venezuela
       details: |
         Responsible for development technological business with ours clients at differents sectors as finance, 
         insurance, health, telecom, government and retails.
 
     - role: System Manager
-      time:  08/2008 - 05/2015
+      time:  2008 - 2015
       company: DEL SUR Banco Universal, C.A.
       details: |
         Responsible for all development, implementation and maintenance of the different applications 
         and alternative systems to the banking core including Internet Banking and other Web Apps.
 
     - role: Project Manager / Product Manager / Systems Programer
-      time: 2012 - 2014
-      company: Publix Super Market
+      time: 1999 - 2008
+      company: Coporacion ISC-Bunker Ramo de Venezuela
       details: |
-        Responsible for packing and wrapping of grocery products as they came
-        down conveyor belt.
+        Different roles exercised from Programmer Analyst to Project Manager. In my last position I was 
+        responsible for the execution of Customer Flow Management Projects in sectors  such as finance, 
+        health, insurance, telecommunications among others.
         
 # Your project portfolio
 projects:
     intro: >
-      Just a few simple projects as I continue to learn how to code.
+      Just a few simple projects in my public repository.
 
     assignments:
       - title: Postcard
-        link: "https://github.com/"
+        link: "https://github.com/hjzambrano/postcard.git/"
         tagline: "A simple postcard created using html5 and css."
 
       - title: Simple Instagram Feed
-        link: "https://github.com/"
-        tagline: "A static representation of an Instagram feed uisng HTML and CSS."
+        link: "https://github.com/hjzambrano/instagram-photo-feed.git/"
+        tagline: "Instagram feed uisng HTML and Bootstrap"
       
 skills:
     toolset:
 
       - name: HTML5, CSS, Javascript
-        level: High
+        level: 95%
 
-      - name: ReactJS, Git, BitBuket, Jira
-        level: High
+      - name: JQuery, Popper, Bootstrap
+        level: 90%
 
-      - name: Windows, Linux
-        level: High, Medium
+      - name: ReactJS
+        level: 85%
 
-      - name: MS SQL Server & Oracle & Postgres
-        level: High
+      - name: Git, BitBuket, Jira
+        level: 90%
 
-      - name: Delphi, C++, C#, Java, OOP
-        level: High
+      - name: Windows OS
+        level: 95%
+
+      - name: Linux OS
+        level: 85%
+
+      - name: MS SQL Server
+        level: 95%
+
+      - name: Oracle
+        level: 95%
+
+      - name: Postgres
+        level: 95%
+
+      - name: Delphi, OOP
+        level: 98%
+
+      - name: C++, C#
+        level: 95%
+
+      - name: Java
+        level: 90%        
+
+      - name: MS Office Tools
+        level: 98%
+
+      - name: Project Manager
+        level: 98%    
+
+      - name: Business Manager
+        level: 90%                  
