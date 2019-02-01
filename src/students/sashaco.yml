@@ -28,7 +28,7 @@ basic_info:
       classroom. I am very familiar with Microsoft Office 365 and Workplace by
       Facebook. I have also held many leadership roles. In addtion to being the
       technology liaison at my school site, I am the gradebook manager for the 
-      school site and also grade level chair or my third grade team.
+      school site and the grade level chair for my third grade team.
 
      
     
@@ -119,44 +119,51 @@ experiences:
       time: 2008 - 2011
       company: CitiBank NA, New York, New York
       details: |
-        Assist customers with everyday banking needs. Cross sell banking 
+       - Bullet point
+       - Bullet point
+          Assist customers with everyday banking needs. Cross sell banking 
         products to clients. Responsible for loading and unloading ATM machines.
         Kept track of money inventory. Ordered money for the branch. Responsible
         for $22,000 in cash box. Work closely with personal bankers to 
         familiarize myself with banking products.
-
-          - Bullet point
-          - Bullet point
 
     
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Hi, here you will find the projects I have created. Some of the projects 
+      were created using HTML and CSS. Other projects were created Javascript 
+      with bootstrap and react. 
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: React Traffic Light
+        link: "#https://github.com/sashaco/react-trafficlight"
+        tagline: "A responsive website designed to change the light on a trafic light."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Random Card Generator
+        link: "#https://github.com/sashaco/random-card-generator-"
+        tagline: "A responsive website designed to randomly display a deck of cards."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Conditional Profile
+        link: "#https://github.com/sashaco/conditional-profile"
+        tagline: "A responsive website template designed to input profle information."
+        
+      - title: Excuse Generator
+        link: "#https://github.com/sashaco/my-excuse-generator"
+        tagline: "A responsive website designed to randomly create an excuse."
+        
+      - title: React Clock Counter 
+        link: "#https://github.com/sashaco/react-counter"
+        tagline: "A responsive website constructed with a reactive counter."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Instagram Bootstrap
+        link: "#https://github.com/sashaco/insta-feed-2"
+        tagline: " A responsive Bootstrap website template created to display a picture feed."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Postcard
+        link: "#https://github.com/sashaco/my-first-postcard"
+        tagline: "A responsive website template designed to input information on a postcard."
 
 skills:
     toolset:
@@ -164,7 +171,7 @@ skills:
         level: 10%
 
       - name: Javascript & jQuery
-        level: 10%
+        level: 40%
 
       - name: Angular
         level: 0%
