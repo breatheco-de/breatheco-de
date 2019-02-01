@@ -119,14 +119,13 @@ experiences:
       time: 2008 - 2011
       company: CitiBank NA, New York, New York
       details: |
-        Assist customers with everyday banking needs. Cross sell banking 
+       - Bullet point
+       - Bullet point
+          Assist customers with everyday banking needs. Cross sell banking 
         products to clients. Responsible for loading and unloading ATM machines.
         Kept track of money inventory. Ordered money for the branch. Responsible
         for $22,000 in cash box. Work closely with personal bankers to 
         familiarize myself with banking products.
-
-          - Bullet point
-          - Bullet point
 
     
 
@@ -139,31 +138,31 @@ projects:
 
     assignments:
       - title: React Traffic Light
-        link: "https://github.com/sashaco/react-trafficlight"
+        link: "#https://github.com/sashaco/react-trafficlight"
         tagline: "A responsive website designed to change the light on a trafic light."
 
       - title: Random Card Generator
-        link: "https://github.com/sashaco/random-card-generator-"
+        link: "#https://github.com/sashaco/random-card-generator-"
         tagline: "A responsive website designed to randomly display a deck of cards."
 
       - title: Conditional Profile
-        link: "https://github.com/sashaco/conditional-profile"
+        link: "#https://github.com/sashaco/conditional-profile"
         tagline: "A responsive website template designed to input profle information."
         
       - title: Excuse Generator
-        link: "https://github.com/sashaco/my-excuse-generator"
+        link: "#https://github.com/sashaco/my-excuse-generator"
         tagline: "A responsive website designed to randomly create an excuse."
         
       - title: React Clock Counter 
-        link: "https://github.com/sashaco/react-counter"
+        link: "#https://github.com/sashaco/react-counter"
         tagline: "A responsive website constructed with a reactive counter."
 
       - title: Instagram Bootstrap
-        link: "https://github.com/sashaco/insta-feed-2"
+        link: "#https://github.com/sashaco/insta-feed-2"
         tagline: " A responsive Bootstrap website template created to display a picture feed."
 
       - title: Postcard
-        link: "https://github.com/sashaco/my-first-postcard"
+        link: "#https://github.com/sashaco/my-first-postcard"
         tagline: "A responsive website template designed to input information on a postcard."
 
 skills:
