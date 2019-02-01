@@ -51,34 +51,20 @@ education:
       
 # Your previous job experiences or voluntier
 experiences:
-    - role: 
-      time: 
-      company: 
-      # optional=
-      company_logo: 
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role:
-      time: 
-      company: 
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+    - role: On Board / HR Credentialing Specialist
+      time: April 2018 - December 2018
+      company: Ideal Personnel, LLC
+     
+      company_logo: https://goo.gl/images/S5g8A6
+      details: Welcoming new hires, verifying documents for clients Human Resource departments - confidential agreements/contracts, background checks, drug screen, references checks, payroll - rate adjustments, timesheet, work closes with recruiting and sales departments
+     
+    - role: Head of Personnel
+      time: May 2017 - March 2018
+      company: Advantis Home Care Inc 
+     
+      details:  Hiring field  staff, filing and keeping necessary employment documentation up to date, beginning the office transition from paper to paperless, handling mail, credentialing contracts
+      
+      
           - Bullet point
           - Bullet point
    
@@ -109,7 +95,7 @@ projects:
       - title: Atom
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+        link: 
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
       - title: Delta
