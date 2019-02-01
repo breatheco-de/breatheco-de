@@ -118,7 +118,7 @@ projects:
         link: https://github.com/Static-nomad/landing-page.git
         tagline:
         
-     - title: Conditional Business Card
+     - title: Conditional Business Card with Vanilla JS
         link: https://github.com/Static-nomad/conditional-business-card.git
         tagline:
         
@@ -130,14 +130,14 @@ projects:
         link: https://github.com/Static-nomad/domain-name-generator.git
         tagline:
         
-     - title: Random Excuse Generator
+     - title: Random Excuse Generator 
         link: https://github.com/Static-nomad/Random-Excuse-Generator.git
         tagline:
 
 skills:
     toolset:
       - name: HTML
-        level: 100%
+cd        level: 100%
 
       - name: CSS
         level: 80%
