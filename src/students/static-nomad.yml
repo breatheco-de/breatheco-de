@@ -118,30 +118,30 @@ projects:
         link: https://github.com/Static-nomad/landing-page.git
         tagline:
         
-     - title: Conditional Business Card with Vanilla JS
+      - title: Conditional Business Card with Vanilla JS
         link: https://github.com/Static-nomad/conditional-business-card.git
         tagline:
         
-     - title: Traffic Light with React
+      - title: Traffic Light with React
         link: https://github.com/Static-nomad/traffic-light.git
         tagline:
         
-     - title: Domain Name Generator with Vanilla JS
+      - title: Domain Name Generator with Vanilla JS
         link: https://github.com/Static-nomad/domain-name-generator.git
         tagline:
         
-     - title: Random Excuse Generator 
+      - title: Random Excuse Generator 
         link: https://github.com/Static-nomad/Random-Excuse-Generator.git
         tagline:
         
-    - title: Random Playing Card using Vanilla JS 
+      - title: Random Playing Card using Vanilla JS 
         link: https://github.com/Static-nomad/random-playing-card.git
         tagline:
 
 skills:
     toolset:
       - name: HTML
-cd        level: 100%
+        level: 100%
 
       - name: CSS
         level: 80%
