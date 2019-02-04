@@ -133,6 +133,10 @@ projects:
      - title: Random Excuse Generator 
         link: https://github.com/Static-nomad/Random-Excuse-Generator.git
         tagline:
+        
+    - title: Random Playing Card using Vanilla JS 
+        link: https://github.com/Static-nomad/random-playing-card.git
+        tagline:
 
 skills:
     toolset:
