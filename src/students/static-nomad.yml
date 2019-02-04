@@ -102,13 +102,41 @@ projects:
         link: https://github.com/Static-nomad/fake-insta-feed.git
         tagline: 
 
-      - title: Faux Instagram feed developd with HTML, CSS, and Bootstrap
+      - title: Faux Instagram feed developed with HTML, CSS, and Bootstrap
         link: https://github.com/Static-nomad/fake-insta-bootstrap.git
         tagline: 
         
       - title: Collaborative webpage with HTML and Bootstrap
         link: https://github.com/nachovz/git-collab-2018-2.git
         tagline: 
+
+      - title: Simple Counter Component with JS React
+        link: https://github.com/Static-nomad/simple-counter.git
+        tagline: 
+        
+      - title: Landing Page with JS React
+        link: https://github.com/Static-nomad/landing-page.git
+        tagline:
+        
+      - title: Conditional Business Card with Vanilla JS
+        link: https://github.com/Static-nomad/conditional-business-card.git
+        tagline:
+        
+      - title: Traffic Light with React
+        link: https://github.com/Static-nomad/traffic-light.git
+        tagline:
+        
+      - title: Domain Name Generator with Vanilla JS
+        link: https://github.com/Static-nomad/domain-name-generator.git
+        tagline:
+        
+      - title: Random Excuse Generator 
+        link: https://github.com/Static-nomad/Random-Excuse-Generator.git
+        tagline:
+        
+      - title: Random Playing Card using Vanilla JS 
+        link: https://github.com/Static-nomad/random-playing-card.git
+        tagline:
 
 skills:
     toolset:
@@ -120,3 +148,10 @@ skills:
 
       - name: Bootstrap
         level: 80%
+        
+      - name: Javascript Vanilla
+        level: 50%
+        
+      - name: Javascript React
+        level: 30%
+        
