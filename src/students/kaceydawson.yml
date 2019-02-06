@@ -26,8 +26,8 @@ basic_info:
     website: kaceydawson.com #do not add http://
     linkedin: kaceydawson
     github: kaceydawson
-    twitter: '@kaceydawson'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: 'kaceydawson'
+    stack-overflow: kaceydawson
 
     languages:
       - idiom: English
@@ -140,20 +140,12 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+        level: 75%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Photoshop
+        level: 75%
