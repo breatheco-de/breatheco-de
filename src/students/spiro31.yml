@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "green"
+skin: "blue"
 
 # Personal Information
 basic_info:
@@ -92,9 +92,8 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      These are some of the projects we have completed at 4Geeks Academy so far. This list will be updated as the 
+      class advances.
     assignments:
       - title: Bootstrap Card
         # optional
@@ -115,13 +114,13 @@ skills:
     toolset:
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
       - name: Javascript & jQuery
-        level: 90%
+        level: 20%
 
       - name: React
-        level: 80%
+        level: 20%
 
       - name: Sketch & Photoshop
-        level: 50%
+        level: 20%
