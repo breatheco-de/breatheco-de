@@ -13,18 +13,18 @@ basic_info:
     last_name: Martinez
     
     # Define yourself in 4-5 words
-    motto: Live Free or Die
+    motto: Full Stack Developer
     
     # focus
     focus: Focused on mastering the art of creating efficient and useful code that can make a difference in the world. 
      
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Transitioning from the legal market into Development. Experience creating Customer Service Solutions and increasing revenue. 
+    summary: Transitioning into Web Development. Experienced creating Customer Service Solutions and increasing revenue. 
        
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/spiro31.jpg
+    avatar: https://avatars1.githubusercontent.com/u/43791264?s=400&u=1f5bc54965c1b21ecc790615c514c8344779fa09&v=4
 
     # Contact Information
     email: martinez1751@gmail.com #optional
