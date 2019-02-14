@@ -47,10 +47,14 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Painting & Drawing
+      - item: Painting 
 
-      - item: Yoga & Calisthenics
+      - item: Drawing 
 
+      - item: Yoga
+      
+      - item: Calisthenics
+      
       - item: Cooking
       
       - item: Reading
