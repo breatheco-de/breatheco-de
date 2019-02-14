@@ -99,9 +99,13 @@ projects:
 skills:
     toolset:
       - name: Bootstrap
-
+        level: 30%
+        
       - name: CSS
-
+        level: 50%
+        
       - name: HTML5
-
+        level: 50%
+        
       - name: Git
+        level: 50%
