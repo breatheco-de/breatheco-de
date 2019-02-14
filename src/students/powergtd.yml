@@ -60,7 +60,8 @@ basic_info:
 education: 
     - degree: FullStack Web Developer
       university: 4Geeks Academy
-      time: 2019
+      university_logo: 
+      time: 2019 - 2019
       details: |
         Learned to create responsive websites using HTML, CSS, Javascript, 
         Python, Django. Learned how to use coding social websites such as 
@@ -68,6 +69,7 @@ education:
 
     - degree: Bachelor of Arts in English
       university: Sewanee — The University of the South
+      university_logo: 
       time: 2000 - 2004
       details: | 
         Member of the Order of Gownsmen academic honor society, Secretary of Beta Theta Pi fraternity, Habitat for Humanity volunteer.
