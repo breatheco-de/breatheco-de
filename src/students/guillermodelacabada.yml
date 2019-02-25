@@ -23,7 +23,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://media.licdn.com/dms/image/C5603AQFNq473GYOVsw/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=C9uySaQM4pQmB9aIgXPXo6Ot90YwOSjJtexyjgVEnDA
+    http://sep.breatheco.de/static/profile-images/guillermo
 
     # Contact Information
     email: guillermodelacabada@gmail.com
