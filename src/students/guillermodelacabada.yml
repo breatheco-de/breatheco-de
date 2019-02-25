@@ -12,12 +12,10 @@ basic_info:
     motto: Learning something new every day
     
     # focus
-    focus: programing
+    focus: Programmer and video editor
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
     Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     Donec quam felis, ultricies nec, pellentesque eu.
@@ -25,57 +23,46 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://media.licdn.com/dms/image/C5603AQFNq473GYOVsw/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=C9uySaQM4pQmB9aIgXPXo6Ot90YwOSjJtexyjgVEnDA
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: guillermodelacabada@gmail.com
+    phone: +58 412-992-4773 
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: guillermodelacabada
-    
-    twitter: 'webjeda' #optional
 
     # languages you speak, levels inculde: Native, Professional
     languages:
+
+      - idiom: Spanish
+    level: Native
+
     - idiom: English
     level: Profesional
 
-    - idiom: Spanish
-    level: Native
-
     # Interests or hobies
     interests:
+
+    - item: Programming
+
+    - item: video editing
+
     - item: Swimming
 
     - item: Windsurfing
 
-    - item: Surfing
+    
 
 # Your previous education
 education:
   - degree: Bachelor in Social Communication
   university: Universidad Central de Venezuela
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://es.wikipedia.org/wiki/Universidad_Central_de_Venezuela#/media/File:UCV.png
       time: 2009 - 2016
-      details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-      - Bullet point
-      - Bullet point
-      - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
       details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -86,9 +73,9 @@ education:
       - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-  - role: Lead Developer
-  time: 2015 - Present
-  company: Startup Hubs, San Francisco
+  - role: Asistant Teacher
+  time: 2018 - Present
+  company: 4geeks Academy Venezuela
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -103,33 +90,7 @@ experiences:
       architecto beatae vitae dicta sunt explicabo.
       - Bullet point
       - Bullet point
-      - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-      - Bullet point
-      - Bullet point
-      - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-      - Bullet point
-      - Bullet point
-# Your project portfolio
+
 projects:
   intro: >
   You can list your side projects or open source libraries in this
