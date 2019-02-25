@@ -21,9 +21,7 @@ basic_info:
     Donec quam felis, ultricies nec, pellentesque eu.
     Second paragraph if required.
     
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    http://sep.breatheco.de/static/profile-images/guillermo
+   avatar: https://randomuser.me/api/portraits/man/24.jpg
 
     # Contact Information
     email: guillermodelacabada@gmail.com
@@ -97,37 +95,10 @@ projects:
   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-  # optional
-  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-  link: "#hook"
-  tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  
+- title: Velocity
 
-  - title: DevStudio
-  # optional
-  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-  link: "#"
-  tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-  # optional
-  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-  link: "#"
-  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-  # optional
-  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-  link: "#"
-  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-  # optional
-  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-  link: "#"
-  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-  skills:
+skills:
   toolset:
   - name: Python & Django
   level: 98%
