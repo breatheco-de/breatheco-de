@@ -30,7 +30,7 @@ basic_info:
     email: dlouis2186@gmail.com #optional
     phone: 863 877 5386 #optional
     website:  #optional
-    linkedin: https://www.linkedin.com/in/danny-jeanlouis-ba9ba284/ #optional
+    linkedin: https://www.dropbox.com/s/cm4zhj94ocfjwtp/James%20Grover%20Resume.docx?dl=0 #optional
     
     #
     # ******** IMPORTANT *******
@@ -67,9 +67,8 @@ experiences:
       time: For a long time
       company: Too many to name
       details: |
-        My resume has been attached linked below.
-      
-        link: "https://www.dropbox.com/s/cm4zhj94ocfjwtp/James%20Grover%20Resume.docx?dl=0"
+        My resume has been attached linked below.      
+        https://www.dropbox.com/s/cm4zhj94ocfjwtp/James%20Grover%20Resume.docx?dl=0
 
     - role: Ecommerce Web Owner (Self Employed)
       time: 2015 - 2016
