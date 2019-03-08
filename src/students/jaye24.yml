@@ -22,7 +22,7 @@ basic_info:
     summary: |
       Most of my working career I have worked for myself. I have always had an
       entrepreneurial "spirit". Though I have worked in warehouses and stores
-      such Dollar General or Walgreens; I have always found myself wanting to own
+      such as Dollar General or Walgreens; I have always found myself wanting to own
       or build a company. While self employed I mainly sold products through 
       ecommerce but also taught myself architectural illustration by which I have
       done many 3D rendering and animation projects.
@@ -109,3 +109,6 @@ skills:
 
       - name: HTML5 & CSS
         level: 95%
+        
+      - name: Javascript
+        level: 35%
