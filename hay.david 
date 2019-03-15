@@ -1,0 +1,121 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: hay.david@hotmail.com
+  first_name: David
+  focus: "Creating applications to solve world's problems."
+  github: haydavid23
+  interests: 
+    - 
+      item: "Working out"
+    - 
+      item: Cooking
+    - 
+      item: Politics
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Native
+  last_name: Hay
+  linkedin: "https://www.linkedin.com/in/david-hay-6b2a3073"
+  motto: "Code, eat, sleep. Repeat."
+  phone: "786 553 2478"
+  stack-overflow: ~
+  summary: "Under construction... \n"
+  twitter: ~
+  website: "under construction"
+education: 
+  - 
+    degree: "BA International Relations"
+    details: 
+      - "Certificate in Middle Eastern Studies."
+      - "Arabic I and II."
+    time: "2010 - 2013"
+    university: "Florida International University"
+    university_logo: ~
+experiences: 
+  - 
+    company: "City of Sweetwater, FL"
+    company_logo: ~
+    details: 
+      - "Manage/review procurement and grant related documents"
+      - "Prepare invitations to bid (ITB's), request for proposals (RFP's), requests for qualifications (RFQ's) and requests for quotations/prices to address the City of Sweetwater municipality services issues, including debris pick-up, roadway improvement, amongst other."
+      - "Perform complex office automation duties."
+      - "Coordinate and research information."
+      - "Coordinate with pertinent departments and government agencies, legal in accordance with the nature of procurement process, to ensure integrity of the procurement process"
+    role: "Administrative Aide, Mayor's Office"
+    time: "2018 - Present"
+  - 
+    company: "Miami-Dade County Public Schools"
+    company_logo: ~
+    details: 
+      - "Responded to inquiries by phone and/or in writting."
+      - "Communicated with cafeteria managers and schools' administrators to provide trouleshoot kitchen equipments information."
+      - "Pre-screened and proccessed Data Reviewed summer school feeding program documents under audit to ensure accuracy and completeness of documentations submitted."
+      - "Performed inspection and managed a team."
+      - "Managed a team of three people to deliver workshop presentations to 200+ cafeteria managers regarding the proper use and maintenance of kitchen equipments."
+    role: ~
+    time: "2013 - 2018"
+  - 
+    company: "Congresswoman Ileana Ros-Lehtinen. (Florida's 27th District)"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: 
+      - "Responded to Constituents inquiries."
+      - "Handled over 60 Florida's District 27 constituents phone call per week to provide routine information and address constituents' concerns."
+      - "Performed complex office automation duties."
+      - "Acted as the liaison between Congressional Aides and Constituents."
+    role: Intern
+    time: "2016 - 2017"
+projects: 
+  assignments: 
+    - 
+      link: ~
+      project_logo: ~
+      tagline: ~
+      title: Velocity
+    - 
+      link: ~
+      project_logo: ~
+      tagline: ~
+      title: ~
+    - 
+      link: ~
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: ~
+      title: Tempo
+    - 
+      link: ~
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: ~
+      title: Atom
+    - 
+      link: ~
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: ~
+      title: Delta
+  intro: "Under Construction\n"
+skills: 
+  toolset: 
+    - 
+      level: "Under Constrution"
+      name: "Python & Django"
+    - 
+      level: "Under Constrution"
+      name: "Javascript & jQuery"
+    - 
+      level: "Under Constrution"
+      name: Angular
+    - 
+      level: "Under Constrution"
+      name: "HTML5 & CSS"
+    - 
+      level: "Under Constrution"
+      name: "Ruby on Rails"
+    - 
+      level: "Under Constrution"
+      name: "Sketch & Photoshop"
+skin: blue
+template: online-cv
