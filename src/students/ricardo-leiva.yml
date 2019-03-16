@@ -1,0 +1,89 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo Arturo
+    last_name: Leiva
+    
+    # Define yourself in 4-5 words
+    motto: Love everything visual, hard worker24/7
+    
+    # focus
+    focus:
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Born in Chile, i started to study web development two years ago
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.wixstatic.com/media/a7b4e1_c78f63656f73403cba6b4449e1f241c1.jpg/v1/fill/w_319,h_319,al_c,q_80,usm_0.66_1.00_0.01/a7b4e1_c78f63656f73403cba6b4449e1f241c1.webp
+
+    # Contact Information
+    email: 
+    phone: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: ricardosikic
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+
+      - item: Music
+
+      - item: Writing
+
+# Your previous education
+education:
+    - degree: Ingenieria Comercial
+      university: Santiago-chile
+      time: 2013-2018
+    
+    - 
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: web dev at ucp
+      time: 2018 - Present
+      details: 
+      
+
+      
+
+
+       
+# Your project portfolio
+projects:
+    intro:
+      My Proyects at 4geeks academy, learning to code
+    assignments:
+     - title: Postcard
+       link: "https://github.com/ricardosikic/post-card"
+       tagline: First job of html5/css3
+        
+     - title: Instagram feed 1
+       link: "https://github.com/ricardosikic/feedgram"
+       tagline: First Instagram feed
+       
+     - title: Instagram feed 2
+       link: "https://github.com/ricardosikic/feedgramConBootstrap"
+       tagline: Responsive instagram created using bootstrap
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 100%
+
+
+    
