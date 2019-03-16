@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Angelo
-    last_name: Martinez
+    first_name: Lina
+    last_name: Mieres
     
     # Define yourself in 4-5 words
-    motto: Full-Stack Web Developer 
+    motto: Full-Stack Web Developer,Metodología Agile (Scrum)
     
     # focus
-    focus: Html CSS JS WordPress
+    focus: Html CSS JS Phyton.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -40,11 +40,11 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: angelo-martinez
+    github: linamieres
     
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Englishgit 
         level: Native
 
       - idiom: Spanish
