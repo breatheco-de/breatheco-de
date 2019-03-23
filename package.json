@@ -11,7 +11,7 @@
     "deploy": "node deploy-to-github.js"
   },
   "dependencies": {
-    "gatsby": "^2.0.33",
+    "gatsby": "^2.2.8",
     "gatsby-link": "^2.0.7",
     "gatsby-plugin-react-helmet": "^3.0.3",
     "gatsby-plugin-sass": "^2.0.5",
