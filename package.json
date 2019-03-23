@@ -11,7 +11,8 @@
     "deploy": "node deploy-to-github.js"
   },
   "dependencies": {
-    "core-js": "^3.0.0",
+    "@babel/polyfill": "^7.4.0",
+    "core-js": "^2.6.5",
     "gatsby": "^2.2.8",
     "gatsby-link": "^2.0.7",
     "gatsby-plugin-react-helmet": "^3.0.3",
