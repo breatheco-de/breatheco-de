@@ -29,10 +29,12 @@
     "react-typography": "^0.16.13",
     "travis-ci": "^2.2.0",
     "typography": "^0.16.17",
-    "typography-theme-alton": "^0.15.10"
+    "typography-theme-alton": "^0.15.10",
+    "yaml-validator": "^2.0.0"
   },
   "devDependencies": {
     "bc-console": "0.0.2",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "js-yaml": "^3.13.0"
   }
 }
