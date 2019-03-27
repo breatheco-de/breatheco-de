@@ -26,6 +26,7 @@ const walk = function(dir, done) {
   });
 };
 
+const validThemes = ['berry','blue','ceramic','green','orange','turquoise'];
 let githubs = [];
 const validateProfiles = (profiles) => profiles.map(l => {
     
@@ -36,6 +37,11 @@ const validateProfiles = (profiles) => profiles.map(l => {
     
     if(typeof yaml == 'undefined') throw new Error(`The file ${fileName}.yml was impossible to parse`.red);
     if(!yaml.basic_info.github) throw new Error('Missing github username on YML file ${fileName}.yml'.red);
+    
+    if(yaml.template != 'online-cv') throw new Error(`The only supported template is online-cv`.red);
+    
+    if(typeof yaml.skin == 'undefined') throw new Error(`You need to specify a skin on the ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
+    if(!validThemes.includes(yaml.skin)) throw new Error(`Invalid skin value ${yaml.skin} on file ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
     
     if(fileName != yaml.basic_info.github.toLowerCase()) throw new Error(`The github username ${yaml.basic_info.github} inside the YML file does not match the file name: ${fileName}`.red);
 
@@ -57,7 +63,7 @@ walk('src/students/', function(err, results) {
         process.exit(0);
     }
     catch(error){
-        console.log(error.red);
+        console.log(error);
         process.exit(1);
     }
 });
