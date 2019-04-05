@@ -1,0 +1,200 @@
+#
+# Tenga en cuenta que incluso un pequeño error de sintaxis puede provocar fallos en la salida.
+#
+
+plantilla: "online-cv"
+piel: "azul"
+
+# Informacion personal
+información básica:
+
+    # Tu nombre completo
+    Nombre primero: Daniel
+    last_name: rivera 
+    
+    # Defínete en 4-5 palabras
+    lema: mis riesgos serán mi futuro 
+    
+    # atención
+    enfoque: 
+    # Tienes 1 párrafo para causar una gran impresión, resume tu carrera.
+    resumen: |
+      Resuma su carrera aquí lorem ipsum dolor sit amet, consectetuer
+      Elit adipiscing. Puede [descargar este currículum vitae / plantilla CV aquí] ().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      Penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Segundo párrafo si es requerido.
+    
+    # La URL de tu foto de perfil
+    # Si no lo tiene como una URL, puede colocar la imagen en / static / profile-images / y el enlace generado será http://sep.breatheco.de/static/profile-images/<your file name >
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Información del contacto
+    correo electrónico: daniel.riverachicahual@gmail.com #opcional
+    Teléfono: +56977792609 #opcional
+    sitio web: asd.com #opcional
+    linkedin: alandoe #opcional
+    
+    #
+    # ******** IMPORTANTE *******
+    # Este nombre de usuario de github se usará para generar su URL de perfil público de esta manera: http://sep.breatheco.de/sharu725
+    github: danielrivera20
+    
+    Twitter: '' #opcional
+    desbordamiento de pila: # Número / Nombre de usuario, por ejemplo, 123456 / alandoe
+
+    # idiomas que hablas, niveles inculde: Nativo, Profesional
+    idiomas:
+      - idioma: español
+        nivel: profesional
+
+    # Intereses o aficiones
+    intereses:
+      - Artículo: bailar
+
+      - Artículo: 
+
+      - Artículo: Cocina
+
+# Tu educación previa
+educación:
+    - Grado: Tecnico en Electronica nivel medio
+      Liceo Tecnico: Liceo Industrial De Santiago A-22 
+      # Opcional
+      college_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      tiempo: 2011 - 2012
+      detalles: |
+        Describa su estudio aquí lorem ipsum dolor sit amet, consectetuer
+        Elit adipiscing. Comando de las ligulas de Aenean eget dolor. Aenean massa. Semen
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        mus ridiculo Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Viñeta
+          - Viñeta
+
+    - Grado: BSc en Matemáticas Aplicadas
+      universidad: Bristol University
+      # Opcional
+      college_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      tiempo: 2007 - 2011
+      detalles: |
+        Describa su estudio aquí lorem ipsum dolor sit amet, consectetuer
+        Elit adipiscing. Comando de las ligulas de Aenean eget dolor. Aenean massa. Semen
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        mus ridiculo Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Viñeta
+          - Viñeta
+
+# Tus experiencias laborales anteriores o voluntarias.
+experiencias:
+    - rol: Lead Developer
+      tiempo: 2015 - Presente
+      empresa: Startup Hubs, San Francisco
+      # Opcional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      detalles: |
+        Describa su rol aquí lorem ipsum dolor sit amet, consectetuer
+        Elit adipiscing. Comando de las ligulas de Aenean eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, úlceras ncp,
+        pellentesque eu, pretium quis, sem. Nulla consecuentemente massa quis
+        enim Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        Architecto Beatae vitae dicta sunt explicabo.
+
+          - Viñeta
+          - Viñeta
+
+    - rol: ingeniero de software senior
+      tiempo: 2014 - 2015
+      empresa: Google, Londres
+      # Opcional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      detalles: |
+        Describa su rol aquí lorem ipsum dolor sit amet, consectetuer
+        Elit adipiscing. Comando de las ligulas de Aenean eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, úlceras ncp,
+        pellentesque eu, pretium quis, sem.
+
+          - Viñeta
+          - Viñeta
+
+    - rol: UI Developer
+      tiempo: 2012 - 2014
+      Empresa: Amazon, Londres.
+      # Opcional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      detalles: |
+        Describa su rol aquí lorem ipsum dolor sit amet, consectetuer
+        Elit adipiscing. Comando de las ligulas de Aenean eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, úlceras ncp,
+        pellentesque eu, pretium quis, sem.
+
+          - Viñeta
+          - Viñeta
+
+# Tu portafolio de proyectos
+proyectos:
+    intro:>
+      Puede listar sus proyectos paralelos o bibliotecas de código abierto en este
+      sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Portal y ligula en nunc bibendum fringilla a eu lectus.
+
+    tareas:
+      - Título: Velocity
+        # Opcional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace: "#hook"
+        lema: "Una plantilla de sitio web sensible diseñada para ayudar a las nuevas empresas a promover, comercializar y vender sus productos".
+
+      - Título: DevStudio
+        # Opcional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace: "#"
+        lema: "Una plantilla de sitio web sensible diseñada para ayudar a los desarrolladores / diseñadores web a comercializar sus servicios".
+
+      - Título: Tempo
+        # Opcional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace: "#"
+        lema: "Una plantilla de sitio web sensible diseñada para ayudar a las nuevas empresas a promocionar sus productos o servicios y para atraer a los usuarios e inversores"
+
+      - Título: Atom
+        # Opcional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace: "#"
+        lema: "Una solución de plantilla de sitio web integral para que las empresas emergentes / desarrolladores comercialicen sus aplicaciones móviles".
+
+      - Título: Delta
+        # Opcional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace: "#"
+        lema: "Un tema responsivo de Bootstrap de una página diseñado para ayudar a los desarrolladores de aplicaciones a promover sus aplicaciones móviles"
+
+habilidades:
+    conjunto de herramientas:
+      - nombre: Python & Django
+        nivel: 98%
+
+      - Nombre: Javascript y jQuery
+        nivel: 98%
+
+      - nombre: angular
+        nivel: 98%
+
+      - nombre: HTML5 y CSS
+        nivel: 95%
+
+      - nombre: Ruby on Rails
+        nivel: 85%
+
+      - nombre: Sketch & Photoshop
+        nivel: 60%
