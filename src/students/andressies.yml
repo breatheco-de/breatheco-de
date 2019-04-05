@@ -9,11 +9,11 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Andrés
+    last_name: Silva
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Me gusta la vida 
     
     # focus
     focus: Killing Bad Boys
@@ -33,41 +33,41 @@ basic_info:
 
     # Contact Information
     email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    phone: 966358252l
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: andressies
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: español
+        level: Nativo
 
-      - idiom: French
-        level: Professional
+      - idiom: español
+        level: Nativo
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: español
+        level: Nativo
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: deporte
 
-      - item: Snowboarding
+      - item: video juegos
 
-      - item: Cooking
+      - item: naturaleza
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: 
+      university: 
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
