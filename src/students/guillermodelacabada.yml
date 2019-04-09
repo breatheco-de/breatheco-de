@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/guillermodelacabada.jpg 
+    avatar: https://avatars1.githubusercontent.com/u/25416969?s=400&u=956c7d8c6f2baaadb0fca4591e3f1635804551d6&v=4 
     # Contact Information
     email: guillermodelacabada@gmail.com #optional
     phone: 0412-9924773 #optional
@@ -39,10 +39,10 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: guillermodelacabada
 
-    linkedin: https://www.linkedin.com/in/guillermodelacabada/#optional
+    linkedin: guillermodelacabada
     
-    twitter: https://www.instagram.com/guillermodelacabada/
-    stack-overflow: https://www.facebook.com/guillermodelacabada
+    twitter: guillermodelacabada
+    stack-overflow: 
 
 
     # languages you speak, levels inculde: Native, Professional
