@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/guillermodelacabada.jpg 
+    avatar: http://sep.breatheco.de/static/profile-images/guillermodelacabada.jpg 
     # Contact Information
     email: guillermodelacabada@gmail.com #optional
     phone: 0412-9924773 #optional
