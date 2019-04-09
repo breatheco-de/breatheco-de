@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/guillermodelacabada 
+    avatar: http://sep.breatheco.de/static/guillermodelacabada 
 
     # Contact Information
     email: guillermodelacabada@gmail.com #optional
@@ -48,13 +48,16 @@ basic_info:
       - idiom: English
         level: Professional
 
+      - idiom: Italian
+        level: Basic
+
     # Interests or hobies
     interests:
       - item: Swimming
 
       - item: winsurfing
 
-      - item: surfing
+      - item: Surfing
 
 # Your previous education
 education:
