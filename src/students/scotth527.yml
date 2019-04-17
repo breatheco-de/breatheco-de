@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "turquoise"
+
+basic_info:
+
+    # Profile information
+    first_name: Scott
+    last_name: Huang
+    motto: Full Stack Developer
+    summary: Enthusiastic, detail-oriented and adaptive Web Developer. Extensive knowledge of JavaScript, libraries and frameworks such as ReactJS, and Django. Always looking to increase my skills in the latest technologies, languages, and frameworks. Expertise in creating dynamic and responsive web applications using most common UX/UI methods. Strong analysis, communication, and problem-solving skills. Seeking opportunities to be part of a development team, where I can learnand share my unique experiences. When I am not coding, I am reading novels, cooking and spending time with my family.
+
+    # Sidebar links
+    email: scottyh527@gmail.com
+    phone: 3053334352
+    linkedin: scotth527
+    github: scotth527
+    stack-overflow: 11364096/scotth527
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Cantonese
+        level: Conversational
+
+      - idiom: Spanish
+        level: Basic
+
+    interests:
+      - item: Traveling
+
+      - item: Cooking
+
+      - item: Gaming
+
+education:
+    - degree: B.S. in Economics/Business Administration
+      university: University of Florida
+      time: 2011 - 2012
+      details: |
+        I completed my Bachelors in Economics where I graduated with a 3.56 gpa. I was active in the 
+        Freshmen Leadership program as a mentor, in the Asian American Student Union I was in several leadership 
+        positions as well as served as a teaching assistant for Principals of Management. 
+
+          - Minor in Entrepreneurship
+          - Minor in East Asian Languages
+
+experiences:
+    - role: Teaching Assistant
+      time: 2019 - Present
+      company: 4Geeks Academy, Miami
+      details: |
+          - Evaluate coding assignments and prove feedback to help students improve their skills for 23 students
+          - Answer questions that students may have about the material and explain it in a way that students unfamiliar with coding can understand.
+
+    - role: Product Development Manager
+      time: 2015 - 2018
+      company: Miami, Florida
+      details: |
+          - Responsible for the development of products from conception and sourcing, to presentation and market delivery.
+          - Managed the largest and most profitable product categories in the business, developing and managing over 1250 products annually, responsible for approximately 60% of the company revenue.
+          - Responsible for creating detailed specifications for costing, design and presentation. 
+          
+    - role: Associate Planner
+      time: 2013 - 2015
+      company: Deerfield Beach, Florida
+      details: |
+          - Extracted, manipulated and analyzed sales data on the store level and identified trend opportunities to improve inventory turnover.
+          - Forecasted quantities for product needs based on sales plans and analyzed actual sales against forecasts.
+          - Analyzed variances in sales and revenue versus previous year for stores and contacted stores to make sure that the top products were well represented. As a result increased sales in those categories by 13%. 
+
+projects:
+    intro: >
+      Currently working on learning new technologies and contributing to open source projects
+
+    assignments:
+      - title: BookSwap
+        link: "https://github.com/scotth527/bookswap_website"
+        tagline: "Book Exchange website - uses javascript, bootstrap, html/css, react.js, django, python connected to a rest api that we made"
+
+      - title: MeetupProject
+        link: "https://scotth527.github.io/meetup_project/"
+        tagline: "Using: ReactJS, Bootstrap, @FortAwesome, Moment, React-router, each page filters information relevant to the particular event/group and is fully responsive"
+
+      - title: To-Do List App
+        link: "https://scotth527.github.io/todolist/"
+        tagline: "Made a todo list web app that allows you to add written input to a to do list, able to delete tasks. Uses react.js javascript, css"
+
+      - title: Etch-n-Sketch App
+        link: "https://scotth527.github.io/etch_n_sketch_project/"
+        tagline: "A fun etch and sketch app made just with javascript, html, css, bootstrap, dom manipulation, vanilla.js boilerplate. User can clear the board or switch to a fun colors mode. User can also select the numbers of squares per row that gets rendered."
+
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: React.js
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 98%
+        
+      - name: Python & Django
+        level: 75%
+
+      - name: Wordpress
+        level: 75%
+
+      - name: Jest/Unit Testing
+        level: 70%
