@@ -5,6 +5,7 @@ const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: [
     './src/js/index.js'
   ],

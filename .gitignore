@@ -4,5 +4,5 @@
 
 # ignore the repositories where webpack puts the bundles
 dist/
-public/bundle/*
+public/
 node_modules/
