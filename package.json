@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "c9": "echo The webpack development server cannot be used on this project && echo Please run: $ npm run build",
-    "gitpod": "webpack-dev-server --mode development --open --port 3000",
+    "gitpod": "webpack-dev-server --config webpack.config.js",
     "start": "webpack-dev-server --mode development --hot",
+    "build": "webpack --mode development --verbose --colors --display-error-details",
     "deploy": "node deploy-to-github.js"
   },
   "repository": {
@@ -50,9 +51,11 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "bc-console": "0.0.2",
     "css-loader": "^2.1.1",
+    "error-overlay-webpack-plugin": "^0.2.0",
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
     "file-loader": "^1.1.5",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "gh-pages": "^1.2.0",
     "node-sass": "^4.11.0",
     "parse-github-url": "^1.0.2",

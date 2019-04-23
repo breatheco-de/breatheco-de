@@ -1,6 +1,8 @@
 const webpack = require('webpack');
 const path = require('path');
-var PrettierPlugin = require("prettier-webpack-plugin");
+const PrettierPlugin = require("prettier-webpack-plugin");
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
+const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -27,7 +29,7 @@ module.exports = {
           }]
         }, //css only files
         {
-          test: /\.(png|svg|jpg|gif)$/, use: {
+          test: /\.(png|svg|jpg|gif|ico)$/, use: {
             loader: 'file-loader',
             options: { name: '[name].[ext]' }
           }
@@ -38,16 +40,26 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js']
   },
-  devtool: "source-map",
+  devtool: 'cheap-module-source-map',
+  devServer: {
+      hot: true,
+      port: 3000,
+      quiet: true,
+      disableHostCheck: true,
+      host: '0.0.0.0'
+  },
   plugins: [
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      Popper: 'popper.js',
-      jQuery: 'jquery',
-      // In case you imported plugins individually, you must also require them here:
-      Util: "exports-loader?Util!bootstrap/js/dist/util",
-      Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
-    }),
-    new PrettierPlugin()
+        new PrettierPlugin(),
+        new FriendlyErrorsWebpackPlugin(),
+        new ErrorOverlayPlugin(),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            Popper: 'popper.js',
+            jQuery: 'jquery',
+            // In case you imported plugins individually, you must also require them here:
+            Util: "exports-loader?Util!bootstrap/js/dist/util",
+            Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
+        }),
+        new webpack.HotModuleReplacementPlugin(),
   ]
 };

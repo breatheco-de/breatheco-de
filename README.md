@@ -14,17 +14,20 @@ $ npm install
 Build the application for the first time...
 
 ```
-$ npm run build
+$ npm run gitpod (for gitpod users)
+$ npm run start (for other users)
 ```
-And start coding your Vanilla.js application, update the `index.html`, `index.css` or `index.js` depending on your needs.
+And start coding your Vanilla.js application, update the `src/index.html`, `src/index.scss` or `src/index.js` depending on your needs.
 
 ## FAQ
 
-#### 1) How do I run my code in Cloud 9?
-Right click on `./index.html` and choose the __RUN__ option on the menu.
+#### 1) How do I run my code?
+If you are in Cloud9: Right click on `./index.html` and choose the __RUN__ option on the menu.
+If you are in Gitpod: Just `$ npm run gitpod` and click on Open Browser.
+If you are in your own environment `$ npm run start` and type localhost on the browser.
 
 #### 2) Where do I write my code?
-It depends on the language, but you have `./src/js/index.js`, `./src/css/index.css` and `./index.html` respectively, you can add new `.html` as you please, just make sure to include the bundle.js using the `<script>` tag.
+It depends on the language, but you have `./src/js/index.js`, `./src/style/index.scss` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
 
 __Note:__ remember that the JS workflow starts inside `window.onload`.
 
