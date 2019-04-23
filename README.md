@@ -1,24 +1,18 @@
 # Hello World with Vanilla JS
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
+
 > Requirements: Make sure you have node version 8
 
-#### install the breathecode cli (command-line-interface)
-```sh
-npm i breathecode-cli -g
-```
-
-##### Download the boilerplate using the BreatheCode CLI
-```
-$ bc start:vanillajs-project -r
-```
-##### and install the npm package:
+##### Remember to install the npm packages first:
 ```
 $ npm install
 ```
 
-## Build and Start coding! 
+## Build and Start coding!
 
 Build the application for the first time...
+
 ```
 $ npm run build
 ```
@@ -35,11 +29,11 @@ It depends on the language, but you have `./src/js/index.js`, `./src/css/index.c
 __Note:__ remember that the JS workflow starts inside `window.onload`.
 
 #### 3) I don't see my changes.
-Remember that you have to re-bundle every time you update your SCSS or JS files `$ npm run build`. 
+Remember that you have to re-bundle every time you update your SCSS or JS files `$ npm run build`.
 Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
 
 #### 4) I ran `$ npm run build` and I still don't see my changes
-Please check the output on the console after bundling; maybe you have an error when bundling. 
+Please check the output on the console after bundling; maybe you have an error when bundling.
 Also, check the chrome inspector for errors on the console.
 
 #### 5) How do I include more images on my project?
