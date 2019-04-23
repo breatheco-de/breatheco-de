@@ -5,5 +5,5 @@ import "../assets/img/4geeks.ico";
 import "../style/index.scss";
 
 window.onload = function() {
-  console.log("Hello Rigoo from the console!");
+  console.log("Hello Rigo from the console!");
 };

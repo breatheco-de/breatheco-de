@@ -16,15 +16,18 @@ Build the application for the first time...
 ```
 $ npm run gitpod (for gitpod users)
 $ npm run start (for other users)
+$ npm run c9 (for c9 users)
 ```
 And start coding your Vanilla.js application, update the `src/index.html`, `src/index.scss` or `src/index.js` depending on your needs.
 
 ## FAQ
 
 #### 1) How do I run my code?
-If you are in Cloud9: Right click on `./index.html` and choose the __RUN__ option on the menu.
-If you are in Gitpod: Just `$ npm run gitpod` and click on Open Browser.
-If you are in your own environment `$ npm run start` and type localhost on the browser.
+
+- If you are in Gitpod: Just `$ npm run gitpod` and click on Open Browser.
+- If you are in your own environment `$ npm run start` and type localhost on the browser.
+- If you are in Cloud9: Just `$ npm run c9` and click on Preview -> Preview Running Application.  
+![Preview in C9](https://ucarecdn.com/1587e11e-1af0-4f21-a695-ce886db80e6f/)
 
 #### 2) Where do I write my code?
 It depends on the language, but you have `./src/js/index.js`, `./src/style/index.scss` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
@@ -32,23 +35,17 @@ It depends on the language, but you have `./src/js/index.js`, `./src/style/index
 __Note:__ remember that the JS workflow starts inside `window.onload`.
 
 #### 3) I don't see my changes.
-Remember that you have to re-bundle every time you update your SCSS or JS files `$ npm run build`.
+
+Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (its a process called hot deploy)
 Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
 
-#### 4) I ran `$ npm run build` and I still don't see my changes
-Please check the output on the console after bundling; maybe you have an error when bundling.
-Also, check the chrome inspector for errors on the console.
+#### 4) How do I include more images on my project?
+Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
 
-#### 5) How do I include more images on my project?
-Just add them into your HTML file, the same way you did before knowing about WebPack.
+#### 5) How do I include more JS files?
+Just add the files into the JS folder and import the file/variables into your index.js. E.g: `import myVar from "./file2.js"`
 
-#### 6) How do I include more JS files?
-If the JS file is not your own, you can import it using `<script>` tags on your index.html before the `</body>` closing tag. If the file is yours is better to add it using the import statement inside index.js content.
-
-#### 7) How can I run the development server?
-This boilerplate does not support the webpack development server; you have to `$ npm run build` every time you update your JS or SCSS files.
-
-#### 8) How do I publish the website?
+#### 6) How do I publish the website?
 
 This boilerplate is 100% compatible with the free github pages hosting. Publish your website by runing:
 ```sh
