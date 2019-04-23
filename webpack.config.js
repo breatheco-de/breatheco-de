@@ -44,10 +44,8 @@ module.exports = {
   devtool: 'cheap-module-source-map',
   devServer: {
       hot: true,
-      port: 3000,
       quiet: true,
-      disableHostCheck: true,
-      host: '0.0.0.0'
+      disableHostCheck: true
   },
   plugins: [
         new PrettierPlugin(),

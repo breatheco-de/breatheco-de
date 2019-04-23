@@ -4,8 +4,8 @@
   "description": "Professional Boilerplate for Vanilla.js Web Apps",
   "main": "index.js",
   "scripts": {
-    "c9": "echo The webpack development server cannot be used on this project && echo Please run: $ npm run build",
-    "gitpod": "webpack-dev-server --config webpack.config.js",
+    "c9": "webpack-dev-server --config webpack.config.js --host $IP --port $PORT",
+    "gitpod": "webpack-dev-server --config webpack.config.js --host 0.0.0.0 --port 3000",
     "start": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode development --verbose --colors --display-error-details",
     "deploy": "node deploy-to-github.js"
