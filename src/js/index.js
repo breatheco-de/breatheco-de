@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import "file-loader?name=[name].[ext]!../index.html";
 import "../assets/img/rigo-baby.jpg";
 import "../assets/img/4geeks.ico";

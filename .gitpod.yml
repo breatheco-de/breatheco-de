@@ -5,4 +5,4 @@ tasks:
 # Ports to expose on workspace startup (optional)
 ports:
   - port: 3000
-    onOpen: open-browser
+    onOpen: open-preview
