@@ -2,7 +2,7 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
 
-The most basic boilerplate for any 4Geeks Academy Student
+The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
 
 ## What to do next?
 
