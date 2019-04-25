@@ -1,0 +1,76 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christopher
+    last_name: Hall
+    
+    # Define yourself in 4-5 words
+    motto: I am constantly improving myself
+    
+    # focus
+    focus: Educating myself
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website: N/A #optional
+    linkedin: N/A #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: chall298
+    
+    twitter: 'N/A' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Haitian Creole
+        level: Professional
+
+      
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Gym
+
+      - item: Gaming/anime
+
+# Your previous education
+education:
+    - degree: Associates degree in business Administration
+      College: Broward College
+      # optional
+      
+      time: 2013 - 2018
+      
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales associate
+      time: 2014 - Present
+      company: Walmart
+     
