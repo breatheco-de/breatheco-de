@@ -3,14 +3,14 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "berry"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Enrique
-    last_name: Smith
+    first_name: Thiago
+    last_name: Cavalcante
     
     # Define yourself in 4-5 words
     motto: I like creating with others
@@ -34,7 +34,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: enriqueesmith
+    github: thiagopcsantos
     
 
     # languages you speak, levels inculde: Native, Professional

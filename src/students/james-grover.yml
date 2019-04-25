@@ -9,23 +9,18 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Danny
-    last_name: Jean-Louis
+    first_name: James
+    last_name: Grover
     
     # Define yourself in 4-5 words
-    motto: enjoy learning, simple, just a decent person
+    motto: Work hard then push harder
     
     # focus
     focus: development and growth
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Most of my working career I have worked for myself. I have always had an
-      entrepreneurial "spirit". Though I have worked in warehouses and stores
-      such as Dollar General or Walgreens; I have always found myself wanting to own
-      or build a company. While self employed I mainly sold products through 
-      ecommerce but also taught myself architectural illustration by which I have
-      done many 3D rendering and animation projects.
+      This needs to be updated
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -35,12 +30,12 @@ basic_info:
     email: dlouis2186@gmail.com #optional
     phone: 863 877 5386 #optional
     website:  #optional
-    linkedin: https://www.linkedin.com/in/danny-jeanlouis-ba9ba284/ #optional
+    linkedin: james-grover-55411413 #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: jaye24
+    github: james-grover
     
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -68,13 +63,12 @@ basic_info:
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Architectural Illustrator
-      time: 2014 - 2017
-      company: In Plain Vision (Self Employed)
+    - role: IT Professional
+      time: For a long time
+      company: Too many to name
       details: |
-        Responsible for obtaining clients through various marketing efforts and
-        live presentations. Constructed 3D model representations of client building
-        projects as well as rendering animated presentations.
+        My resume has been attached linked below.      
+        https://www.dropbox.com/s/cm4zhj94ocfjwtp/James%20Grover%20Resume.docx?dl=0
 
     - role: Ecommerce Web Owner (Self Employed)
       time: 2015 - 2016
@@ -97,11 +91,11 @@ projects:
 
     assignments:
       - title: Postcard
-        link: "https://github.com/Jaye24/Postcard"
+        link: "https://www.dropbox.com/s/cm4zhj94ocfjwtp/James%20Grover%20Resume.docx?dl=0"
         tagline: "A simple postcard created using html5 and css."
 
       - title: Simple Instagram Feed
-        link: "https://github.com/Jaye24/Intsagram-Feed"
+        link: "https://www.dropbox.com/s/cm4zhj94ocfjwtp/James%20Grover%20Resume.docx?dl=0"
         tagline: "A static representation of an Instagram feed uisng HTML and CSS."
       
 skills:
@@ -109,6 +103,3 @@ skills:
 
       - name: HTML5 & CSS
         level: 95%
-        
-      - name: Javascript
-        level: 35%

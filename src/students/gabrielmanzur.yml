@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Gabriel
+    last_name: Manzur
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: But why?
     
     # focus
-    focus: Killing Bad Boys
+    focus: Programming
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -41,7 +41,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: gabrielmanzur
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe

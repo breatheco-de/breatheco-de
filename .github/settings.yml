@@ -19,15 +19,8 @@ labels:
     color: fbca04
   - name: ":star: P2"
     color: fbca04
-  - name: "post:lesson"
-    oldname: ":book: post: lesson"
-    color: 98bde2
-  - name: "post:howto"
-    oldname: ":grey_question: post: how to"
-    color: 98bde2
-  - name: "post:bug explanation"
-    oldname: ":bug: post: bug explanation"
-    color: 98bde2
+  - name: ":vertical_traffic_light: Waiting QA"
+    color: f1f1f1
   - name: ":memo: bc-writter"
     color: 98bde2
   - name: ":computer: bc-coder"
