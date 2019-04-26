@@ -1,0 +1,89 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Ricardo
+    last_name: Leiva 
+    motto: Full Stack Developer
+    avatar: #no poseo 
+    summary: |
+     Full stack developer en formacion actualmente, estoy 
+     estudiando Php, Javascript, HTML5, CSS, Python
+
+    # Sidebar links
+    email: ricardo.sikic@gmail.com
+    phone: none
+    website:  none #do not add http://
+    linkedin: Ricardo Leiva Sikic
+    github: ricardosikic
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Ingles
+        level: Intermedio
+
+      - idiom: Español
+        level: Nativo
+
+    interests:
+      - item: Bodyboard
+
+      - item: Futbol
+
+      - item: Pc gaming
+
+education:
+    - degree: Ingeniero Comercial
+      university: Universidad Andres bello
+      time: 2013 - 2017
+      details: |
+        Ingeniero comercial mencion finanzas, actualmente cursando
+        un programa de desarrollo full stack
+
+      
+
+experiences:
+    - role: Web Designer
+      time: 2015
+      company: Cine Pavilion
+      details: |
+        Encargado de crear e implementar el nuevo sitio de la empresa
+        en un tiempo de 2 meses, principalmente fue un sitio web
+        completamente estatico
+
+          - html
+          - css
+
+ 
+
+    - role: Web designer
+      time: 2018 - presente
+      company: Empresa calculista
+      details: |
+        Actualmente me encuentro terminando el sitio para la empresa,
+        este fue una implementacion de un diseño en PSD a html y css.
+
+          - html
+          - css
+          
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Ruby on Rails
+        level: 30%
+
+      - name: Figma
