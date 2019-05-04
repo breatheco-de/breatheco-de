@@ -14,8 +14,7 @@ $ npm install
 Build the application for the first time...
 
 ```
-$ npm run gitpod (for gitpod users)
-$ npm run start (for other users)
+$ npm run start (for Gitpod, linux, mac or windows users)
 $ npm run c9 (for c9 users)
 ```
 And start coding your Vanilla.js application, update the `src/index.html`, `src/index.scss` or `src/index.js` depending on your needs.
