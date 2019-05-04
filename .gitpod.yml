@@ -1,8 +1,7 @@
 # Command to start on workspace startup (optional)
 tasks:
   - init: npm install
-    command: npm run gitpod
 # Ports to expose on workspace startup (optional)
 ports:
-  - port: 3000
-    onOpen: open-preview
+  - port: 8080
+    onOpen: open-browser
