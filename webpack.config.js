@@ -3,6 +3,7 @@ const path = require('path');
 const PrettierPlugin = require("prettier-webpack-plugin");
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
+const WebpackErrorReporting = require('bc-webpack-error-reporting-plugin');
 
 module.exports = {
   mode: 'development',
@@ -48,6 +49,11 @@ module.exports = {
       disableHostCheck: true
   },
   plugins: [
+        new WebpackErrorReporting({
+            hookURL: 'https://assets.breatheco.de/apis/activity/coding',
+            username: process.env.GITPOD_GIT_USER_EMAIL,
+            token: process.env.ASSETS_TOKEN
+        }),
         new PrettierPlugin(),
         new FriendlyErrorsWebpackPlugin(),
         new ErrorOverlayPlugin(),
