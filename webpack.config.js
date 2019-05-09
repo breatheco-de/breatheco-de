@@ -50,8 +50,8 @@ module.exports = {
   },
   plugins: [
         new WebpackErrorReporting({
-            hookURL: 'https://assets.breatheco.de/apis/activity/coding',
-            username: process.env.GITPOD_GIT_USER_EMAIL,
+            hookURL: process.env.ERROR_HOOK,
+            username: process.env.BC_STUDENT_EMAIL,
             token: process.env.ASSETS_TOKEN
         }),
         new PrettierPlugin(),
