@@ -50,9 +50,9 @@ module.exports = {
   },
   plugins: [
         new WebpackErrorReporting({
-            hookURL: process.env.ERROR_HOOK,
+            hookURL: process.env.BC_ERROR_HOOK,
             username: process.env.BC_STUDENT_EMAIL,
-            token: process.env.ASSETS_TOKEN
+            token: process.env.BC_ASSETS_TOKEN
         }),
         new PrettierPlugin(),
         new FriendlyErrorsWebpackPlugin(),
