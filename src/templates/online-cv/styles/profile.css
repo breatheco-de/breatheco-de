@@ -1,0 +1,318 @@
+.container-fluid{
+    padding: 0;
+}
+.parallax {
+    background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.vertical-menu{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 1px;
+    margin-bottom: 0;
+    width: 65px;
+    font-size: 10px;
+    text-align:center;
+    z-index: 20;
+    position: fixed;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    padding: 7px;
+    border: 4px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.img-menu{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.section-top{
+    background-color:black;
+    padding-left: 13px;
+}
+
+.gradient {
+    display: block;
+    position: absolute;
+    background: linear-gradient( rgba(255, 255, 255, 0), white);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+    padding: 0;
+}
+
+.info{
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.corner-bubble{
+    border-radius: 40px;
+    margin: auto;
+    width: 80%;
+    height: 47px;
+    background-color:black;
+    color: white;
+    font-size: 30px;
+}
+.bubble {
+	position: relative;
+	background: #000000;
+	border-radius: 4em;
+}
+
+.bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-top-color: #000000;
+	border-bottom: 0;
+	margin-left: -17px;
+	margin-bottom: -18px;
+}
+.motto{
+    padding:20px;
+    font-size:35px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.years{
+    font-size: 30px;
+
+}
+
+
+
+.title{
+    font-size: 35px;
+}
+
+.geeks-logo{
+    width: 100%;
+
+}
+.line-horizontally{
+
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    display: block;
+    width: 50%;
+}
+
+.text-card{
+    line-height: normal;
+}
+
+header {
+  grid-column: 1 / 3;
+  background: #455A64;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+nav {
+  white-space: nowrap;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+    background-color:black;
+  }
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.current {
+  background: #d3a80c;
+}
+
+.container{
+  padding-bottom: 60rem;
+}
+section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+footer {
+  grid-column: 1 / 3;
+  background: #607D8B;
+  padding: 5rem 1rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width : 480px) {
+
+    .fa-3x{
+        font-size: 2em;
+    }
+    .geeks-img {
+    position: fixed;
+    right: 25px;
+    top: 2px;
+    height: 55px;
+    z-index: 20;
+}
+.img-menu {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+font-weight-light {
+    font-weight: 300 !important;
+}
+.font-weight-bold {
+    font-weight: 300 !important;
+}
+.vertical-menu{
+    width: 57px;
+}
+/* sample mobile size */
+.corner-bubble {
+    border-radius: 40px;
+    margin: auto;
+    width: 62%;
+    height: 29px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.bubble {
+    position: relative;
+    background: #000000;
+    border-radius: 2em;
+}
+.display-4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.motto {
+    padding: 20px;
+    font-size: 24px;
+}
+.p {
+    font-size: 15px;
+    line-height: 1.3;
+}
+.icon {
+    width: 39px;
+    height: 38px;
+    overflow: hidden;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+.title {
+    font-size: 27px;
+}
+.h4, .h4 {
+    /* font-size: 1.5rem; */
+    font-size: 19px;
+    float: left;
+    padding: 2px 5px;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: inherit;
+}
+.h2, .h2 {
+    font-size: 1.6rem;
+}
+html{
+    line-height: 1.50;
+}
+.years {
+    font-size: 26px;
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+
+/* Styles */
+  .geeks-img {
+    position: fixed;
+    right: 15px;
+    top: 2px;
+    height: 75px;
+    z-index: 20;
+}
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width : 1025px) {
+
+/* Styles */
+ .geeks-img {
+    position: fixed;
+    right: 20px;
+    top: 2px;
+    height: 90px;
+    z-index: 20;
+}
+
+}
+
+.left-border{
+    border-left: 4px solid #bbbcbf;
+}
+.right-border{
+    border-right: 4px solid #bbbcbf;
+}
+
+
+.row-icons{
+    padding-left:30px;
+}
+.text-icon{
+ padding-top: 10px;
+}
