@@ -116,7 +116,17 @@ export default class Profile extends React.Component {
 										</ul>
 									</nav>
                 </div>
-                <div className="col-12 col-sm-10"></div>
+                <div className="col-12 col-sm-10">
+                <div className="row d-flex justify-content-end">
+                    <div className="col-12 col-sm-2 text-right">
+                        <img
+                            src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+                            className="geeks-img"
+                            alt="..."
+                        />
+                    </div>
+                </div>
+                </div>
                 </div>
                 </div>
                 </div>
