@@ -55,10 +55,8 @@ export default class Profile extends React.Component {
 		};
 		return (
 			<div className="container-fluid">
-				<div className="row">
-
-					<div className="col-12 pr-0">
-                    <div>hey hello</div>
+            <div className="row">
+            <div className="col-12 p-0">
 						<div className="parallax" id="section-top">
 							<div className="row">
 								<div className="col-2">
@@ -131,8 +129,6 @@ export default class Profile extends React.Component {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 
 				<div className="row">
 					<div className="col-12">
@@ -904,6 +900,8 @@ export default class Profile extends React.Component {
 							</div>
 						</div>
 					</section>
+				</div>
+				</div>
 				</div>
 			</div>
 		);
