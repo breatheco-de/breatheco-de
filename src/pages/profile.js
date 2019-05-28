@@ -58,7 +58,7 @@ export default class Profile extends React.Component {
 				<div className="row">
 
 					<div className="col-12 pr-0">
-                    <div>hey</div>
+                    <div>hey hello</div>
 						<div className="parallax" id="section-top">
 							<div className="row">
 								<div className="col-2">
