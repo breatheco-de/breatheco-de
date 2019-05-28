@@ -1,7 +1,8 @@
 import React from 'react';
 import "../templates/online-cv/styles/profile.css"
 import "bootstrap/dist/css/bootstrap.css";
-
+import ReactTooltip from "react-tooltip";
+import { findDOMNode } from "react-dom";
 
 
 export default class Profile extends React.Component {
@@ -129,6 +130,22 @@ export default class Profile extends React.Component {
                 </div>
                 </div>
                 </div>
+                <div className="row">
+					<div className="col-12">
+						<div className="d-flex flex-column text-center gradient">
+							<div className="bd-highlight pt-4">
+								<h1 className="display-4">
+									JASON <strong>STATHAM</strong>
+								</h1>
+							</div>
+							<div className="bd-highlight font-weight-light">
+								<h3 className="font-weight-light">
+									Full-Stack Developer
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
                 </div>
                 </div>
 			</div>
