@@ -169,10 +169,12 @@ nav ul {
   }
 }
 nav ul li a {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-left: 18px;
 }
 nav ul li a.current {
   background: #d3a80c;
