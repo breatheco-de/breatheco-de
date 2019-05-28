@@ -55,8 +55,8 @@ export default class Profile extends React.Component {
 		};
 		return (
 			<div className="container-fluid">
-            <div className="row">
-            <div className="col-12 p-0">
+                <div className="row">
+                    <div className="col-12 p-0">
 						<div className="parallax" id="section-top">
 							<div className="row">
 								<div className="col-2">
