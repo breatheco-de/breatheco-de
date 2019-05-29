@@ -10,6 +10,9 @@
     position: relative;
 
 }
+.interestets{
+    text-align: center;
+}
 .vertical-menu{
     display: flex;
     -ms-flex-direction: column;
@@ -22,7 +25,7 @@
     z-index: 20;
     position: fixed;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 14px;
 }
 .icon {
     width: 50px;
@@ -122,7 +125,6 @@ html {
 
 }
 .line-horizontally{
-
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
@@ -183,10 +185,28 @@ footer {
   background: #607D8B;
   padding: 5rem 1rem;
 }
-
+.name{
+    font-size: 50px;
+}
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (max-width : 480px) {
+section {
+    padding: 3rem;
+    margin: 1.5rem;
+}
+.name{
+    font-size: 30px;
+}
+h2, .h2 {
+    font-size: 1.5rem;
+}
+h3, .h3 {
+    font-size: 1rem;
+}
+.years {
+    font-size: 18px;
+}
 
     .fa-3x{
         font-size: 2em;
@@ -217,11 +237,12 @@ font-weight-light {
 .corner-bubble {
     border-radius: 40px;
     margin: auto;
-    width: 62%;
-    height: 29px;
+    width: 52%;
+    height: 27px;
     background-color: black;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+
 }
 .bubble {
     position: relative;
@@ -235,7 +256,7 @@ font-weight-light {
 }
 .motto {
     padding: 20px;
-    font-size: 24px;
+    font-size: 19px;
 }
 .p {
     font-size: 15px;
@@ -254,9 +275,9 @@ font-weight-light {
 .title {
     font-size: 27px;
 }
-.h4, .h4 {
-    /* font-size: 1.5rem; */
-    font-size: 19px;
+ .text{
+    font-size: 1rem;
+    /* font-size: 15px; */
     float: left;
     padding: 2px 5px;
     margin-bottom: 0.5rem;
@@ -265,14 +286,8 @@ font-weight-light {
     line-height: 1.2;
     color: inherit;
 }
-.h2, .h2 {
-    font-size: 1.6rem;
-}
 html{
     line-height: 1.50;
-}
-.years {
-    font-size: 26px;
 }
 
 }
@@ -284,7 +299,7 @@ html{
 /* Styles */
   .geeks-img {
     position: fixed;
-    right: 15px;
+    right: 41px;
     top: 2px;
     height: 75px;
     z-index: 20;

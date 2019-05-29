@@ -131,22 +131,13 @@ export default class Profile extends React.Component {
 						</div>
                         {/*name*/}
                         <div className="row">
-                            <div className="col-12">
-                                <div className="d-flex flex-column text-center gradient">
-                                    <div className="bd-highlight pt-4">
-                                        <h1 className="text">
-                                            JASON <strong>STATHAM</strong>
-                                        </h1>
-                                    </div>
-                                    <div className="bd-highlight font-weight-light">
-                                        <h3 className="font-weight-light">
-                                            Full-Stack Developer
-                                        </h3>
-                                    </div>
-                                </div>
+                            <div className="col-12 gradient text-center">
+                                <label className="name font-weight-normal">JASON STATHAM</label>
+                                <br/>
+                                <label className="font-weight-light">Full-Stack Developer</label>
                             </div>
                         </div>
-				            <hr className="line-horizontally" />
+
                             {/*container*/}
                         <div className="container">
                             <div className="row text-center pt-4">
@@ -278,15 +269,15 @@ export default class Profile extends React.Component {
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row text-center">
+                                <div className="row">
                                     <div className="col-12 col-md-4 p text-muted">
-                                        <h4>Climbing</h4>
+                                        <h4 className="text">Climbing</h4>
                                     </div>
                                     <div className="col-12 col-md-4 p text-muted">
-                                        <h4>Snowboarding</h4>
+                                        <h4 className="text">Snowboarding</h4>
                                     </div>
                                     <div className="col-12 col-md-4 p text-muted">
-                                        <h4>Cooking</h4>
+                                        <h4 className="text">Cooking</h4>
                                     </div>
                                 </div>
                             </section>
