@@ -198,8 +198,8 @@ section {
 .name{
     font-size: 30px;
 }
-h2, .h2 {
-    font-size: 1.5rem;
+h2{
+    font-size:1.5rem !important;
 }
 h3, .h3 {
     font-size: 1rem;
@@ -219,8 +219,8 @@ h3, .h3 {
     z-index: 20;
 }
 .img-menu {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     border: 2px solid white;
     border-radius: 50%;
 }
@@ -231,7 +231,7 @@ font-weight-light {
     font-weight: 300 !important;
 }
 .vertical-menu{
-    width: 57px;
+    width: 51px;
 }
 /* sample mobile size */
 .corner-bubble {
