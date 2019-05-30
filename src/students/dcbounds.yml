@@ -23,9 +23,9 @@ basic_info:
     # Sidebar links
     email: hello@webjeda.com
     phone: 012 345 6789
-    website: alesanchezr.com #do not add http://
-    linkedin: alesanchezr
-    github: alesanchezr
+    website: dcbounds.com #do not add http://
+    linkedin: dcbounds
+    github: dcbounds
     twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
@@ -33,23 +33,20 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
       - idiom: Spanish
-        level: Professional
+        level: NADA
 
     interests:
-      - item: Climbing
+      - item: Videography
 
-      - item: Snowboarding
+      - item: Skiing
 
-      - item: Cooking
+      - item: Super Smash Bros
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelors in Fine Arts
+      university: University of Memphis
+      time: 2007 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -60,9 +57,9 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Masters in Architecture
+      university: Florida International University
+      time: 2012 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -74,9 +71,9 @@ education:
           - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Project Manager
+      time: 2014 - Present
+      company: Bounds & Gillespie Architects
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -91,9 +88,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
+    - role: Junior Architect
       time: 2014 - 2015
-      company: Google, London
+      company: Weber Studio
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -104,9 +101,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Project Manager
+      time: 2015 - 2017
+      company: Insight Design
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -146,20 +143,17 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Autocad
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: Revit
+        level: 75%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 2%
 
       - name: Ruby on Rails
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Adobe Suite
+        level: 80%
