@@ -156,7 +156,7 @@ li{
     margin-top: -13px;
 }
 /* Only stick if you can fit */
-@media (min-height: 300px) {
+@media only screen and (min-height: 300px) {
   nav ul {
     position: sticky;
     top: 0;
@@ -310,16 +310,29 @@ html{
 
 @media only screen and (min-width : 1025px) {
 
-/* Styles */
- .geeks-img {
-    position: fixed;
-    right: 20px;
-    top: 2px;
-    height: 90px;
-    z-index: 20;
+        .geeks-img {
+            position: fixed;
+            right: 20px;
+            top: 6px;
+            height: 75px;
+            z-index: 20;
+        }
+
+        .img-menu {
+            width: 32px;
+            height: 32px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: -3px;
+        }
+
+        .vertical-menu{
+
+        }
 }
 
-}
+
+
 
 .left-border{
     border-left: 4px solid #bbbcbf;
