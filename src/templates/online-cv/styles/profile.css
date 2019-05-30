@@ -155,6 +155,22 @@ nav ul {
 li{
     margin-top: -13px;
 }
+
+.left-border{
+    border-left: 4px solid #bbbcbf;
+}
+.right-border{
+    border-right: 4px solid #bbbcbf;
+}
+
+
+.row-icons{
+    padding-left:30px;
+}
+.text-icon{
+ padding-top: 10px;
+}
+
 /* Only stick if you can fit */
 @media only screen and (min-height: 300px) {
   nav ul {
@@ -319,33 +335,62 @@ html{
         }
 
         .img-menu {
-            width: 32px;
-            height: 32px;
+            width: 34px;
+            height: 34px;
             border: 2px solid white;
             border-radius: 50%;
-            margin-left: -3px;
+            margin-left: 7px;
         }
 
         .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 1px;
+            margin-bottom: 0;
+            width: 70px;
+            font-size: 8px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-left: 14px;
+            margin-top: 14px;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 71%;
+            height: 47px;
+            background-color: black;
+            color: white;
+            font-size: 30px;
+        }
+        .motto {
+            padding: 14px;
+            font-size: 33px;
+        }
+        .exp-text{
+            font-size: 1.3rem;
+        }
 
+        .card-title{
+            font-size: 1rem;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .edu-text{
+            font-size: 1.2rem;
         }
 }
 
 
 
 
-.left-border{
-    border-left: 4px solid #bbbcbf;
-}
-.right-border{
-    border-right: 4px solid #bbbcbf;
-}
-
-
-.row-icons{
-    padding-left:30px;
-}
-.text-icon{
- padding-top: 10px;
-}
 

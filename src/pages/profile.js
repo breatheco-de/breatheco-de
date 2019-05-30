@@ -295,11 +295,11 @@ export default class Profile extends React.Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-12 col-sm-9 float-left pt-4">
-                                        <h2 className="pt-2 font-weight-bold">
+                                        <h2 className="pt-2 font-weight-bold exp-text">
                                             LEAD DEVELOPER
                                         </h2>
-                                        <h2 className="text-muted">2015-Present</h2>
-                                        <h2 className="text-muted font-weight-light">
+                                        <h2 className="text-muted exp-text">2015-Present</h2>
+                                        <h2 className="text-muted font-weight-light exp-text">
                                             Startup Hubs, San Francisco
                                         </h2>
                                     </div>
@@ -347,11 +347,11 @@ export default class Profile extends React.Component {
                                 <hr className="border-bottom bg-info pt-1" />
                                 <div className="row">
                                     <div className="col-12 col-sm-9 float-left pt-4">
-                                        <h2 className="pt-2 font-weight-bold">
+                                        <h2 className="pt-2 font-weight-bold exp-text">
                                             SENIOR SOFTWARE ENGINEER
                                         </h2>
-                                        <h2 className="text-muted">2014-2015</h2>
-                                        <h2 className="text-muted font-weight-light">
+                                        <h2 className="text-muted exp-text">2014-2015</h2>
+                                        <h2 className="text-muted font-weight-light exp-text">
                                             Google, London
                                         </h2>
                                     </div>
@@ -394,11 +394,11 @@ export default class Profile extends React.Component {
                                 <hr className="border-bottom bg-info pt-1" />
                                 <div className="row">
                                     <div className="col-12 col-sm-9 float-left pt-4">
-                                        <h2 className="pt-2 font-weight-bold">
+                                        <h2 className="pt-2 font-weight-bold exp-text">
                                             UI DEVELOPER
                                         </h2>
-                                        <h2 className="text-muted">2012-2014</h2>
-                                        <h2 className="text-muted font-weight-light">
+                                        <h2 className="text-muted exp-text">2012-2014</h2>
+                                        <h2 className="text-muted font-weight-light exp-text">
                                             Amazon, London
                                         </h2>
                                     </div>
@@ -468,8 +468,8 @@ export default class Profile extends React.Component {
                                             <h5 className="card-text text-info">
                                                 #Velocity
                                             </h5>
-                                            <p className="card-text text-card">
-                                                <small className="text-muted text-card">
+                                            <p className="card-text">
+                                                <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
                                                     market and sell their products.
@@ -494,7 +494,7 @@ export default class Profile extends React.Component {
                                             <h5 className="card-text text-info">
                                                 #Devstudio
                                             </h5>
-                                            <p className="card-text text-card">
+                                            <p className="card-text">
                                                 <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
@@ -668,7 +668,7 @@ export default class Profile extends React.Component {
                                             </div>
                                         </div>
                                         <div className="p-2">
-                                            <label className="python font-weight-bold">
+                                            <label className="python">
                                                 <strong>HTML5 &amp; CSS</strong>
                                             </label>
                                             <div className="progress">
@@ -716,10 +716,10 @@ export default class Profile extends React.Component {
                                 </div>
                                 <div className="row pt-4">
                                     <div className="col-12 col-md-6 px-4">
-                                        <h2 className="pt-2 font-weight-bold">
+                                        <h2 className="pt-2 font-weight-bold edu-text">
                                             MSC IN COMPUTER SCIENCE
                                         </h2>
-                                        <h3 className="text-muted">
+                                        <h3 className="text-muted edu-text">
                                             University of London
                                         </h3>
                                         <div className="row">
@@ -733,10 +733,10 @@ export default class Profile extends React.Component {
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-md-1">
+                                            <div className="col-sm-1">
                                                 <i className="far fa-clock fa-2x text-primary pt-2" />
                                             </div>
-                                            <div className="col-md-11">
+                                            <div className="col-sm-11">
                                                 <span className="font-weight-bold text-muted pl-2 years">
                                                     2007-2011
                                                 </span>
@@ -760,10 +760,10 @@ export default class Profile extends React.Component {
                                         </span>
                                     </div>
                                     <div className="col-12 col-md-6 px-4 left-border">
-                                        <h2 className="pt-2 font-weight-bold">
+                                        <h2 className="pt-2 font-weight-bold edu-text">
                                             BSC IN APPLIED MATHEMATICS
                                         </h2>
-                                        <h3 className="text-muted">
+                                        <h3 className="text-muted edu-text">
                                             Bristol Universit
                                         </h3>
                                         <div className="row">
@@ -777,13 +777,13 @@ export default class Profile extends React.Component {
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-md-1">
+                                            <div className="col-sm-1">
                                                 <i className="far fa-clock fa-2x text-primary pt-2" />
                                             </div>
-                                            <div className="col-md-11">
-                                                <span className="font-weight-bold text-muted pl-2 years">
+                                            <div className="col-sm-11">
+                                                <label className="font-weight-bold text-muted pl-2">
                                                     2007-2011
-                                                </span>
+                                                </label>
                                             </div>
                                         </div>
                                         <p className="p pt-4 text-justify text-muted">
