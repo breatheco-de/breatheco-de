@@ -214,6 +214,17 @@ footer {
         height: 42px;
         z-index: 20;
     }
+
+    .img-menu {
+        width: 24px;
+        height: 24px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-left: 1px;
+    }
+    .exp-text{
+        font-size: 1rem !important;
+    }
     section {
         padding: 3rem;
         margin: 1.5rem;
@@ -235,13 +246,7 @@ footer {
             font-size: 2em;
         }
 
-    .img-menu {
-        width: 24px;
-        height: 24px;
-        border: 2px solid white;
-        border-radius: 50%;
-        margin-left: 1px;
-    }
+
     font-weight-light {
         font-weight: 300 !important;
     }
