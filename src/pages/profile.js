@@ -586,8 +586,8 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="col-12 col-md-4 left-border" />
                                 </div>
-                            </section>
                             <hr className="border-bottom" />
+                            </section>
                             <section id="section-6">
                                 <div className="row mb-3">
                                     <div className="col-md-1 pr-0">
@@ -734,12 +734,12 @@ export default class Profile extends React.Component {
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-1">
-                                                <i className="far fa-clock fa-2x text-primary pt-2" />
+                                                <i className="far fa-clock fa-2x text-primary" />
                                             </div>
                                             <div className="col-sm-11">
-                                                <span className="font-weight-bold text-muted pl-2 years">
+                                                <label className="years font-weight-bold pl-2 text-muted">
                                                     2007-2011
-                                                </span>
+                                                </label>
                                             </div>
                                         </div>
                                         <p className="p pt-4 text-justify text-muted">
@@ -778,10 +778,10 @@ export default class Profile extends React.Component {
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-1">
-                                                <i className="far fa-clock fa-2x text-primary pt-2" />
+                                                <i className="far fa-clock fa-2x text-primary" />
                                             </div>
                                             <div className="col-sm-11">
-                                                <label className="font-weight-bold text-muted pl-2">
+                                                <label className="years font-weight-bold pl-2 text-muted">
                                                     2007-2011
                                                 </label>
                                             </div>
@@ -821,10 +821,10 @@ export default class Profile extends React.Component {
                                     <div className="col">
                                         <div className="row row-icons pt-2">
                                             <div className="col-12 col-sm-1 ">
-                                                <i className="fas fa-envelope fa-2x p-2" />
+                                                <i className="fas fa-envelope fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     jason@jasonstatham.com
                                                 </label>
                                             </div>
@@ -834,7 +834,7 @@ export default class Profile extends React.Component {
                                                 <i className="fas fa-phone fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     Phone: 234 2342 342
                                                 </label>
                                             </div>
@@ -844,7 +844,7 @@ export default class Profile extends React.Component {
                                                 <i className="fas fa-globe fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     jasonstatham.com
                                                 </label>
                                             </div>
@@ -854,7 +854,7 @@ export default class Profile extends React.Component {
                                                 <i className="fab fa-linkedin fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     linkein.com/in/jasonstatham
                                                 </label>
                                             </div>
@@ -864,7 +864,7 @@ export default class Profile extends React.Component {
                                                 <i className="fab fa-github fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     github.com/jasonstatham
                                                 </label>
                                             </div>
@@ -874,7 +874,7 @@ export default class Profile extends React.Component {
                                                 <i className="fab fa-twitter fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     twitter.com/jasonstatham
                                                 </label>
                                             </div>
@@ -884,7 +884,7 @@ export default class Profile extends React.Component {
                                                 <i className="fab fa-stack-overflow fa-2x" />
                                             </div>
                                             <div className="col-12 col-sm-11">
-                                                <label className="text-icon">
+                                                <label className="text-cont">
                                                     123456 / alandoe
                                                 </label>
                                             </div>

@@ -109,10 +109,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.years{
-    font-size: 30px;
+/* .years{
+    padding-top: 10px;
 
-}
+} */
 
 
 
@@ -207,104 +207,106 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (max-width : 480px) {
-section {
-    padding: 3rem;
-    margin: 1.5rem;
-}
-.name{
-    font-size: 30px;
-}
-h2{
-    font-size:1.5rem !important;
-}
-h3, .h3 {
-    font-size: 1rem;
-}
-.years {
-    font-size: 18px;
-}
-
-    .fa-3x{
-        font-size: 2em;
-    }
     .geeks-img {
-    position: fixed;
-    right: 36px;
-    top: 4px;
-    height: 55px;
-    z-index: 20;
-}
-.img-menu {
-    width: 24px;
-    height: 24px;
-    border: 2px solid white;
-    border-radius: 50%;
-}
-font-weight-light {
-    font-weight: 300 !important;
-}
-.font-weight-bold {
-    font-weight: 300 !important;
-}
-.vertical-menu{
-    width: 51px;
-}
-/* sample mobile size */
-.corner-bubble {
-    border-radius: 40px;
-    margin: auto;
-    width: 52%;
-    height: 27px;
-    background-color: black;
-    color: white;
-    font-size: 16px;
+        position: fixed;
+        right: 37px;
+        top: 4px;
+        height: 42px;
+        z-index: 20;
+    }
+    section {
+        padding: 3rem;
+        margin: 1.5rem;
+    }
+    .name{
+        font-size: 30px;
+    }
+    h2{
+        font-size:1.5rem !important;
+    }
+    h3, .h3 {
+        font-size: 1rem;
+    }
+    .years {
+        font-size: 18px;
+    }
 
-}
-.bubble {
-    position: relative;
-    background: #000000;
-    border-radius: 2em;
-}
-.display-4 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
-.motto {
-    padding: 20px;
-    font-size: 19px;
-}
-.p {
-    font-size: 15px;
-    line-height: 1.3;
-}
-.icon {
-    width: 39px;
-    height: 38px;
-    overflow: hidden;
-    padding: 5px;
-    border: 3px solid black;
-    border-radius: 50%;
-    font-size: 20px;
-    text-align: center;
-}
-.title {
-    font-size: 27px;
-}
- .text{
-    font-size: 1rem;
-    /* font-size: 15px; */
-    float: left;
-    padding: 2px 5px;
-    margin-bottom: 0.5rem;
-    font-family: inherit;
-    font-weight: 300;
-    line-height: 1.2;
-    color: inherit;
-}
-html{
-    line-height: 1.50;
-}
+        .fa-3x{
+            font-size: 2em;
+        }
+
+    .img-menu {
+        width: 24px;
+        height: 24px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-left: 1px;
+    }
+    font-weight-light {
+        font-weight: 300 !important;
+    }
+    .font-weight-bold {
+        font-weight: 300 !important;
+    }
+    .vertical-menu{
+        width: 51px;
+    }
+    /* sample mobile size */
+    .corner-bubble {
+        border-radius: 40px;
+        margin: auto;
+        width: 52%;
+        height: 27px;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+
+    }
+    .bubble {
+        position: relative;
+        background: #000000;
+        border-radius: 2em;
+    }
+    .display-4 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .motto {
+        padding: 20px;
+        font-size: 19px;
+    }
+    .p {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+    .icon {
+        width: 39px;
+        height: 38px;
+        overflow: hidden;
+        padding: 5px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .title {
+        font-size: 27px;
+    }
+    /* .text{
+        font-size: 1rem;
+        /* font-size: 15px; */
+        /* float: left;
+        padding: 2px 5px;
+        margin-bottom: 0.5rem;
+        font-family: inherit;
+        font-weight: 300;
+        line-height: 1.2;
+        color: inherit; */
+    /* } */
+    html{
+        line-height: 1.50;
+    }
 
 }
 
@@ -387,6 +389,13 @@ html{
         }
         .edu-text{
             font-size: 1.2rem;
+        }
+        .fa-2x {
+            font-size: 1.5em;
+            padding-left: 10px;
+        }
+        .text-cont{
+            font-size: 0.7rem;
         }
 }
 
