@@ -64,10 +64,8 @@ education:
       details: Working towards becomer a full stack developer
     - degree: High School Deploma
       university: Coral Gables Senior High School
+      time: 2007-2011
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2000 - 2004
-      details:
 
 # Your previous job experiences or voluntier
 experiences:
