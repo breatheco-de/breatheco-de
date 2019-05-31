@@ -1,3 +1,7 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 template: "online-cv"
 skin: "green"
 
@@ -17,7 +21,7 @@ basic_info:
     avatar: TBD
 
     email: willett.rebecca@gmail.com
-    phone: 1234567890
+    phone: 012 345 6789 #optional
     website: none
     linkedin: TBD
 
