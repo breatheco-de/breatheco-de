@@ -49,10 +49,10 @@
     font-size: 20px;
 }
 
-.p{
+/* .p{
     font-size: 20px;
     line-height: 1.3;
-}
+} */
 
 .bubble {
 	position: relative;
@@ -84,10 +84,10 @@ html {
 
 
 
-.geeks-logo{
+/* .geeks-logo{
     width: 100%;
 
-}
+} */
 .line-horizontally{
     overflow: hidden;
     border-style: inset;
@@ -96,9 +96,9 @@ html {
     width: 50%;
 }
 
-.text-card{
+/* .text-card{
     line-height: normal;
-}
+} */
 
 header {
   grid-column: 1 / 3;
@@ -156,125 +156,121 @@ nav ul li a.current {
 .container{
   padding-bottom: 60rem;
 }
-section {
+/* section {
   padding: 2rem;
   margin: 0 0 2rem 0;
-}
+} */
 footer {
   grid-column: 1 / 3;
   background: #607D8B;
   padding: 5rem 1rem;
 }
-.name{
+/* .name{
     font-size: 50px;
-}
+} */
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen and (max-width : 480px) {
-    .geeks-img {
-        position: fixed;
-        right: 37px;
-        top: 4px;
-        height: 42px;
-        z-index: 20;
+@media only screen and (min-device-width : 480px) and (max-width: 600px) {
+        .geeks-img {
+            position: fixed;
+            right: 18px;
+            top: 4px;
+            height: 48px;
+            z-index: 20;
     }
-
-    .img-menu {
-        width: 24px;
-        height: 24px;
-        border: 2px solid white;
-        border-radius: 50%;
-        margin-left: 1px;
-    }
-    .exp-text{
-        font-size: 1rem !important;
-    }
-    section {
-        padding: 3rem;
-        margin: 1.5rem;
-    }
-    .name{
-        font-size: 30px;
-    }
-    h2{
-        font-size:1.5rem !important;
-    }
-    h3, .h3 {
-        font-size: 1rem;
-    }
-    .years {
-        font-size: 18px;
-    }
+        .vertical-menu{
+                display: flex;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                padding-left: 1px;
+                margin-bottom: 0;
+                width: 53px;
+                font-size: 8px;
+                text-align:center;
+                z-index: 20;
+                position: fixed;
+                margin-left: 15px;
+                margin-top: 12px;
+            }
+        .img-menu {
+            width: 24px;
+            height: 24px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: 1px;
+        }
+        .exp-text{
+            font-size: 1rem !important;
+        }
+        section {
+            padding: 3rem;
+            margin: 2rem
+        }
+        .name{
+            font-size: 30px;
+        }
+        .years {
+            font-size: 18px;
+        }
 
         .fa-3x{
             font-size: 2em;
         }
 
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 47%;
+            height: 25px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
 
-    font-weight-light {
-        font-weight: 300 !important;
-    }
-    .font-weight-bold {
-        font-weight: 300 !important;
-    }
-    .vertical-menu{
-        width: 51px;
-    }
-    /* sample mobile size */
-    .corner-bubble {
-        border-radius: 40px;
-        margin: auto;
-        width: 52%;
-        height: 27px;
-        background-color: black;
-        color: white;
-        font-size: 16px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 2em;
+        }
+   
+        .motto {
+            padding: 15px;
+            font-size: 18px;
+        }
+        .p {
+            font-size: 14px;
+            line-height: 1.2;
+        }
+        .icon {
+            width: 39px;
+            height: 38px;
+            overflow: hidden;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
 
-    }
-    .bubble {
-        position: relative;
-        background: #000000;
-        border-radius: 2em;
-    }
-    .display-4 {
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.2;
-    }
-    .motto {
-        padding: 20px;
-        font-size: 19px;
-    }
-    .p {
-        font-size: 15px;
-        line-height: 1.3;
-    }
-    .icon {
-        width: 39px;
-        height: 38px;
-        overflow: hidden;
-        padding: 5px;
-        border: 3px solid black;
-        border-radius: 50%;
-        font-size: 20px;
-        text-align: center;
-    }
+        html{
+            line-height: 1.50;
+        }
 
-    html{
-        line-height: 1.50;
-    }
+}
+
+@media only screen and (max-width: 600px) {
 
 }
 
 /* iPads (portrait and landscape) ----------- */
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (min-device-width: 601px) and (max-width : 1024px) {
 
         .geeks-img {
             position: fixed;
             right: 19px;
             top: 5px;
-            height: 74px;
+            height: 55px;
             z-index: 20;
         }
         .vertical-menu{
@@ -283,8 +279,8 @@ footer {
             flex-direction: column;
             padding-left: 1px;
             margin-bottom: 0;
-            width: 67px;
-            font-size: 7px;
+            width: 64px;
+            font-size: 6px;
             text-align:center;
             z-index: 20;
             position: fixed;
@@ -292,8 +288,8 @@ footer {
             margin-top: 14px;
         }
         .img-menu {
-            width: 34px;
-            height: 34px;
+            width: 30px;
+            height: 30px;
             border: 2px solid white;
             border-radius: 50%;
             margin-left: 5px;
@@ -308,7 +304,7 @@ footer {
             font-size: 20px;
         }
         .name{
-            font-size: 45px;
+            font-size: 25px;
         }
 
         .motto {
@@ -347,6 +343,19 @@ footer {
         }
         .card-text{
             line-height: normal;
+            font-size: 0.7rem;
+        }
+        section {
+            padding: 3rem;
+            margin: 0 0 2rem 0;
+        }
+        .edu-text{
+            font-size: 0.9rem;
+        }
+        .fa-2x {
+            font-size: 1.2rem;
+        }
+        .text-cont{
             font-size: 0.7rem;
         }
 
@@ -390,10 +399,10 @@ footer {
             border-radius: 40px;
             margin: auto;
             width: 67%;
-            height: 44px;
+            height: 40px;
             background-color: black;
             color: white;
-            font-size: 29px;
+            font-size: 24px;
         }
         .motto {
             padding: 14px;
@@ -419,11 +428,11 @@ footer {
             font-size: 1.2rem;
         }
         .fa-2x {
-            font-size: 1.5em;
+            font-size: 1.5rem;
             padding-left: 10px;
         }
         .text-cont{
-            font-size: 0.7rem;
+            font-size: 0.9rem;
         }
         .inter-text{
             font-size: 1rem;
