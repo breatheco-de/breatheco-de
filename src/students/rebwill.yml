@@ -1,33 +1,94 @@
 template: "online-cv"
 skin: "green"
 
-# Personal Information
 basic_info:
 
-    # Your full name
     first_name: Rebecca
     last_name: Willett
 
-    # Define yourself in 4-5 words
-    motto: Trying to make the world a better place.
+    motto: Trying to make the world a better place
 
-    # focus
-    focus: x, y, and z
+    focus: xyz
 
-    # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Hi
+    summary: TBD
 
     # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://sep.breatheco.de/static/profile-images/Rebecca_headshot_2019
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: TBD
 
-    # Contact Information
-    email: willett.rebecca@gmail.com #optional
-    phone:  #optional
-    website: #optional
-    linkedin: Rebecca Willett #optional
+    email: willett.rebecca@gmail.com
+    phone: 1234567890
+    website: none
+    linkedin: TBD
 
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: rebwill
+
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Fluent
+
+      - idiom: Portuguese
+        level: Beginner
+
+    interests:
+      - item: Scuba diving
+
+      - item: Rock climbing
+
+      - item: Coding
+
+education:
+    - degree: MBA
+      university: Universidad de Palermo
+      university_logo:
+      time: 2016-2018
+      details:
+          focus on entrepreneurship and marketing
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: General Manager
+      time: 2017 - Present
+      company: BUILDING.co
+      # optional
+      company_logo:
+      details: |
+        Miami's premier coworking space for tech companies and professionals serving the tech ecosystem.
+
+# Your project portfolio
+projects:
+    intro: >
+      I am just starting my porfolio
+    assignments:
+      - title: Blue Heron Bridge dive guide
+        # optional
+        project_logo: none
+        link: "#hook"
+        tagline: Helping divers plan their dive at Blue Heron Bridge.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
