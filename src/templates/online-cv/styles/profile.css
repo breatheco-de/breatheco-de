@@ -272,9 +272,9 @@ footer {
 
         .geeks-img {
             position: fixed;
-            right: 41px;
+            right: 19px;
             top: 5px;
-            height: 80px;
+            height: 74px;
             z-index: 20;
         }
         .vertical-menu{
@@ -315,9 +315,39 @@ footer {
             padding: 14px;
             font-size: 26px;
         }
-        title {
-            font-size: 30px;
-            margin-left: 22px;
+        .inter-text{
+            font-size: 1rem;
+        }
+        .p{
+            font-size: 16px;
+            line-height: 1.3;
+        }
+        .exp-text{
+            font-size: 1rem;
+        }
+        .geeks-logo{
+            margin-top:46px;
+        }
+        .icon {
+            width: 43px;
+            height: 43px;
+            overflow: hidden;
+            padding: 7px;
+            border: 4px solid black;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
+        .title {
+            padding-left: 15px;
+            padding-top: 6px;
+        }
+        .card-title{
+            font-size: 0.8rem;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: 0.7rem;
         }
 
 }

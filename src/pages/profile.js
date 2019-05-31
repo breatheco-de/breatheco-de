@@ -453,7 +453,7 @@ export default class Profile extends React.Component {
                                 <div className="row pt-4">
                                     <div className="col-12 col-md-4">
                                         <div className="row">
-                                            <div className="col-12 col-sm-6">
+                                            <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                     className="card-img-top"
@@ -479,7 +479,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="col-12 col-md-4 left-border">
                                         <div className="row">
-                                            <div className="col-12 col-sm-6">
+                                            <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                     className="card-img-top"
@@ -505,7 +505,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="col-12 col-md-4 left-border">
                                         <div className="row">
-                                            <div className="col-12 col-sm-6">
+                                            <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                     className="card-img-top"
@@ -520,7 +520,7 @@ export default class Profile extends React.Component {
                                             <h5 className="card-text text-info">
                                                 #Tempo
                                             </h5>
-                                            <p className="card-text text-card">
+                                            <p className="card-text">
                                                 <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
@@ -534,7 +534,7 @@ export default class Profile extends React.Component {
                                 <div className="row">
                                     <div className="col-12 col-md-4">
                                         <div className="row">
-                                            <div className="col-12 col-sm-6">
+                                            <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                     className="card-img-top"
@@ -549,7 +549,7 @@ export default class Profile extends React.Component {
                                             <h5 className="card-text text-info">
                                                 #Atom
                                             </h5>
-                                            <p className="card-text text-card">
+                                            <p className="card-text">
                                                 <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
@@ -560,7 +560,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="col-12 col-md-4 left-border">
                                         <div className="row">
-                                            <div className="col-12 col-sm-6">
+                                            <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                     className="card-img-top"
@@ -575,7 +575,7 @@ export default class Profile extends React.Component {
                                             <h5 className="card-text text-info">
                                                 #Delta
                                             </h5>
-                                            <p className="card-text text-card">
+                                            <p className="card-text">
                                                 <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
