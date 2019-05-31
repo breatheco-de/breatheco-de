@@ -13,20 +13,7 @@
 .interestets{
     text-align: center;
 }
-.vertical-menu{
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 1px;
-    margin-bottom: 0;
-    width: 77px;
-    font-size: 9px;
-    text-align:center;
-    z-index: 20;
-    position: fixed;
-    margin-left: 15px;
-    margin-top: 14px;
-}
+
 .icon {
     width: 50px;
     height: 50px;
@@ -39,13 +26,7 @@
 
 }
 
-.img-menu{
-    width: 40px;
-    height: 40px;
-    border: 2px solid white;
-    border-radius: 50%;
-    margin-left: 5px;
-}
+
 
 .section-top{
     background-color:black;
@@ -72,15 +53,7 @@
     font-size: 20px;
     line-height: 1.3;
 }
-.corner-bubble{
-    border-radius: 40px;
-    margin: auto;
-    width: 80%;
-    height: 47px;
-    background-color:black;
-    color: white;
-    font-size: 30px;
-}
+
 .bubble {
 	position: relative;
 	background: #000000;
@@ -100,25 +73,16 @@
 	margin-left: -17px;
 	margin-bottom: -18px;
 }
-.motto{
-    padding:20px;
-    font-size:35px;
-}
+
 
 html {
   scroll-behavior: smooth;
 }
 
-/* .years{
-    padding-top: 10px;
-
-} */
 
 
 
-.title{
-    font-size: 35px;
-}
+
 
 .geeks-logo{
     width: 100%;
@@ -295,20 +259,7 @@ footer {
         font-size: 20px;
         text-align: center;
     }
-    .title {
-        font-size: 27px;
-    }
-    /* .text{
-        font-size: 1rem;
-        /* font-size: 15px; */
-        /* float: left;
-        padding: 2px 5px;
-        margin-bottom: 0.5rem;
-        font-family: inherit;
-        font-weight: 300;
-        line-height: 1.2;
-        color: inherit; */
-    /* } */
+
     html{
         line-height: 1.50;
     }
@@ -317,16 +268,58 @@ footer {
 
 /* iPads (portrait and landscape) ----------- */
 
-@media only screen and (min-width : 481px) and (max-width : 1024px) {
+@media only screen and (max-width : 1024px) {
 
-/* Styles */
-  .geeks-img {
-    position: fixed;
-    right: 41px;
-    top: 2px;
-    height: 75px;
-    z-index: 20;
-}
+        .geeks-img {
+            position: fixed;
+            right: 41px;
+            top: 5px;
+            height: 80px;
+            z-index: 20;
+        }
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 1px;
+            margin-bottom: 0;
+            width: 67px;
+            font-size: 7px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-left: 14px;
+            margin-top: 14px;
+        }
+        .img-menu {
+            width: 34px;
+            height: 34px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 55%;
+            height: 32px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        .name{
+            font-size: 45px;
+        }
+
+        .motto {
+            padding: 14px;
+            font-size: 26px;
+        }
+        title {
+            font-size: 30px;
+            margin-left: 22px;
+        }
+
 }
 
 /* Desktops and laptops ----------- */
@@ -337,7 +330,7 @@ footer {
             position: fixed;
             right: 20px;
             top: 6px;
-            height: 75px;
+            height: 85px;
             z-index: 20;
         }
 
@@ -366,11 +359,11 @@ footer {
         .corner-bubble {
             border-radius: 40px;
             margin: auto;
-            width: 71%;
-            height: 47px;
+            width: 67%;
+            height: 44px;
             background-color: black;
             color: white;
-            font-size: 30px;
+            font-size: 29px;
         }
         .motto {
             padding: 14px;
@@ -401,6 +394,20 @@ footer {
         }
         .text-cont{
             font-size: 0.7rem;
+        }
+        .inter-text{
+            font-size: 1rem;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1.3rem;
+        }
+        .years{
+            padding-left: 0.9rem !important;
+        }
+        .p{
+            font-size: 0.8rem;
+            line-height: 1.3;
         }
 }
 

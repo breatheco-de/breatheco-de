@@ -220,23 +220,23 @@ export default class Profile extends React.Component {
                                     <div className="col-12 col-md-4">
                                         <h4 className="p">
                                             Idiom:
-                                            <span className="text-muted p">
+                                            <span className="text-muted p pl-2">
                                                 English
                                             </span>
                                         </h4>
                                         <h4 className="p">
                                             Level:
-                                            <span className="text-muted p">Native</span>
+                                            <span className="text-muted p pl-2">Native</span>
                                         </h4>
                                     </div>
                                     <div className="col-12 col-md-4">
                                         <h4 className="p">
                                             Idiom:
-                                            <span className="text-muted p">French</span>
+                                            <span className="text-muted p pl-2">French</span>
                                         </h4>
                                         <h4 className="p">
                                             Level:
-                                            <span className="text-muted p">
+                                            <span className="text-muted p pl-2">
                                                 Professional
                                             </span>
                                         </h4>
@@ -244,13 +244,13 @@ export default class Profile extends React.Component {
                                     <div className="col-12 col-md-4">
                                         <h4 className="p">
                                             Idiom:
-                                            <span className="text-muted p">
+                                            <span className="text-muted p pl-2">
                                                 Spanish
                                             </span>
                                         </h4>
                                         <h4 className="p">
                                             Level:
-                                            <span className="text-muted p">
+                                            <span className="text-muted p pl-2">
                                                 Professional
                                             </span>
                                         </h4>
@@ -271,13 +271,13 @@ export default class Profile extends React.Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-12 col-md-4 p text-muted">
-                                        <h4 className="text">Climbing</h4>
+                                        <h4 className="inter-text">Climbing</h4>
                                     </div>
                                     <div className="col-12 col-md-4 p text-muted">
-                                        <h4 className="text">Snowboarding</h4>
+                                        <h4 className="inter-text">Snowboarding</h4>
                                     </div>
                                     <div className="col-12 col-md-4 p text-muted">
-                                        <h4 className="text">Cooking</h4>
+                                        <h4 className="inter-text">Cooking</h4>
                                     </div>
                                 </div>
                             </section>
@@ -737,7 +737,7 @@ export default class Profile extends React.Component {
                                                 <i className="far fa-clock fa-2x text-primary" />
                                             </div>
                                             <div className="col-sm-11">
-                                                <label className="years font-weight-bold pl-2 text-muted">
+                                                <label className="years font-weight-bold text-muted">
                                                     2007-2011
                                                 </label>
                                             </div>
@@ -781,7 +781,7 @@ export default class Profile extends React.Component {
                                                 <i className="far fa-clock fa-2x text-primary" />
                                             </div>
                                             <div className="col-sm-11">
-                                                <label className="years font-weight-bold pl-2 text-muted">
+                                                <label className="years font-weight-bold text-muted">
                                                     2007-2011
                                                 </label>
                                             </div>
