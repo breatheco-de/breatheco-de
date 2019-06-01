@@ -41,13 +41,6 @@ html {
 
 
 
-.line-horizontally{
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-    display: block;
-    width: 50%;
-}
 
 header {
   grid-column: 1 / 3;
@@ -106,7 +99,8 @@ nav ul li a.current {
 }
 
 .container{
-  padding-bottom: 60rem;
+    margin-top: -45px;
+  /* padding-bottom: 60rem; */
 }
 
 footer {
@@ -129,6 +123,21 @@ footer {
             height: 44px;
             z-index: 20;
         }
+        .row-icons{
+            padding-left:15px;
+        }
+        .line-horizontally {
+            overflow: hidden;
+            border-style: inset;
+            border-width: 1px;
+            display: block;
+            width: 57%;
+            margin-left: 72px;
+        }
+        .exp-p{
+            padding: 12px;
+            font-size: 12px;
+        }
         .edu-border{
             border: none !important;
         }
@@ -145,7 +154,7 @@ footer {
             padding-top: 60px;
         }
         .text-cont{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
         .title{
             padding-left: 10px;
@@ -177,7 +186,7 @@ footer {
         .fa-2x {
             font-size: 1.5rem;
         }
-    .vertical-menu{
+        .vertical-menu{
             display: flex;
             -ms-flex-direction: column;
             flex-direction: column;
@@ -237,10 +246,11 @@ footer {
             font-size: 18px;
         }
         .p {
-            font-size: 14px;
+            font-size: 12px;
             line-height: 1.2;
-            padding-left: 10px;
-            padding-right: 10px;
+            /* padding-left: 10px;
+            padding-right: 10px; */
+            padding: 4px;
         }
         .icon {
             width: 30px;
@@ -297,9 +307,9 @@ footer {
             border: none !important;
         }
         .section {
-    padding: 1rem;
-    margin: 0 0 2rem 0;
-}
+            padding: 1rem;
+            margin: 0 0 2rem 0;
+        }
 }
 /* iPads (portrait and landscape) ----------- */
 
@@ -349,6 +359,7 @@ footer {
             position: relative;
             background: #000000;
             border-radius: 4em;
+            margin-top: 69px;
         }
         .bubble:after {
             content: '';
@@ -377,7 +388,7 @@ footer {
         .p{
             font-size: 16px;
             line-height: 1.3;
-            
+
         }
         .exp-text{
             font-size: 1rem;
@@ -471,6 +482,7 @@ footer {
             position: relative;
             background: #000000;
             border-radius: 4em;
+            margin-top: 69px;
         }
         .bubble:after {
             content: '';

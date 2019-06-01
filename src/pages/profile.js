@@ -130,18 +130,19 @@ export default class Profile extends React.Component {
                         <div className="row">
                             <div className="col-12 gradient">
                                 <div className="row text-center m-0">
-                                    <div className="col-12  col-md-6 offset-md-3 border-bottom">
+                                    <div className="col-12  col-md-6 offset-md-3">
                                         <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
                                         <br/>
                                         <label className="name-2 font-weight-light">Full-Stack Developer</label>
                                     </div>
                                  </div>
+                            <hr className="line-horizontally"/>
                             </div>
                         </div>
 
                             {/*container*/}
                         <div className="container">
-                            <div className="row text-center py-4">
+                            <div className="row text-center">
                                 <div className="col-12 col-md-6">
                                     <div className="bubble text-center font-italic corner-bubble">
                                         <label className="font-weight-light">
@@ -165,7 +166,7 @@ export default class Profile extends React.Component {
                             </div>
                             <br />
                             <section id="section-1">
-                                <div className="row mb-3 py-4">
+                                <div className="row mb-3">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-file-invoice text-warning icon" />
                                     </div>
@@ -313,7 +314,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="p text-justify text-muted pt-4">
+                                            <p className="exp-p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -333,12 +334,12 @@ export default class Profile extends React.Component {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-12">
+                                        <div className="col-12 px-4">
                                             <div className="d-flex flex-column bd-highlight mb-3 pt-4">
-                                                <div className="p-0 p bd-highlight text-muted">
+                                                <div className="p bd-highlight text-muted">
                                                     -Bullet point
                                                 </div>
-                                                <div className="p-0 p bd-highlight text-muted">
+                                                <div className="p bd-highlight text-muted">
                                                     -Bullet point
                                                 </div>
                                             </div>
@@ -365,7 +366,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="p text-justify text-muted pt-4">
+                                            <p className="exp-p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -379,12 +380,12 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div>
                                         <div className="row">
-                                            <div className="col-12">
+                                            <div className="col-12 px-4">
                                                 <div className="d-flex flex-column bd-highlight mb-3 pt-4">
-                                                    <div className="p-0 p bd-highlight text-muted">
+                                                    <div className="p bd-highlight text-muted">
                                                         -Bullet point
                                                     </div>
-                                                    <div className="p-0 p bd-highlight text-muted">
+                                                    <div className="p bd-highlight text-muted">
                                                         -Bullet point
                                                     </div>
                                                 </div>
@@ -412,7 +413,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="p text-justify text-muted pt-4">
+                                            <p className="exp-p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -425,12 +426,12 @@ export default class Profile extends React.Component {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-12">
+                                        <div className="col-12 px-4">
                                             <div className="d-flex flex-column bd-highlight mb-3 pt-4">
-                                                <div className="p-0 p bd-highlight text-muted">
+                                                <div className=" p bd-highlight text-muted">
                                                     -Bullet point
                                                 </div>
-                                                <div className="p-0 p bd-highlight text-muted">
+                                                <div className=" p bd-highlight text-muted">
                                                     -Bullet point
                                                 </div>
                                             </div>
