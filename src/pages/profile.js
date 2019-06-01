@@ -31,9 +31,6 @@ export default class Profile extends React.Component {
 	}
 
 	render() {
-		const eduStyle = {
-			width: "100%"
-		};
 		const pythonStyle = {
 			width: "98%"
 		};
@@ -134,13 +131,13 @@ export default class Profile extends React.Component {
                             <div className="col-12 gradient text-center">
                                 <label className="name font-weight-normal">JASON STATHAM</label>
                                 <br/>
-                                <label className="font-weight-light">Full-Stack Developer</label>
+                                <label className="name-2 font-weight-light">Full-Stack Developer</label>
                             </div>
                         </div>
 
                             {/*container*/}
                         <div className="container">
-                            <div className="row text-center pt-4">
+                            <div className="row text-center py-4">
                                 <div className="col-12 col-md-6">
                                     <div className="bubble text-center font-italic corner-bubble">
                                         <label className="font-weight-light">
@@ -164,7 +161,7 @@ export default class Profile extends React.Component {
                             </div>
                             <br />
                             <section id="section-1">
-                                <div className="row mb-3 pt-4">
+                                <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-file-invoice text-warning icon" />
                                     </div>
@@ -283,7 +280,7 @@ export default class Profile extends React.Component {
                             </section>
                             <hr className="border-bottom" />
                             <section id="section-4">
-                                <div className="row mb-3">
+                                <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-chart-line text-warning icon" />
                                     </div>
@@ -303,10 +300,10 @@ export default class Profile extends React.Component {
                                             Startup Hubs, San Francisco
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border">
+                                    <div className="col-12 col-sm-3 left-border exp-border">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="mx-auto geeks-logo"
+                                            className="mx-auto  geeks-logo"
                                             alt="..."
                                         />
                                     </div>
@@ -355,10 +352,10 @@ export default class Profile extends React.Component {
                                             Google, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border">
+                                    <div className="col-12 col-sm-3 left-border exp-border">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="mx-auto float-right geeks-logo"
+                                            className="mx-auto  geeks-logo"
                                             alt="..."
                                         />
                                     </div>
@@ -402,10 +399,10 @@ export default class Profile extends React.Component {
                                             Amazon, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border">
+                                    <div className="col-12 col-sm-3 left-border exp-border">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="mx-auto float-right geeks-logo"
+                                            className="mx-auto geeks-logo"
                                             alt="..."
                                         />
                                     </div>
@@ -439,7 +436,7 @@ export default class Profile extends React.Component {
                             </section>
                             <hr className="border-bottom" />
                             <section id="section-5">
-                                <div className="row mb-3">
+                                <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="far fa-file-code text-warning icon" />
                                     </div>
@@ -450,13 +447,13 @@ export default class Profile extends React.Component {
                                     </div>
                                 </div>
 
-                                <div className="row pt-4">
+                                <div className="row py-4">
                                     <div className="col-12 col-md-4">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                    className="card-img-top"
+                                                    className="proj-img"
                                                     alt="..."
                                                 />
                                             </div>
@@ -477,12 +474,12 @@ export default class Profile extends React.Component {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border">
+                                    <div className="col-12 col-md-4 left-border proj-border">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                    className="card-img-top"
+                                                    className="proj-img"
                                                     alt="..."
                                                 />
                                             </div>
@@ -503,12 +500,12 @@ export default class Profile extends React.Component {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border">
+                                    <div className="col-12 col-md-4 left-border proj-border">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                    className="card-img-top"
+                                                    className=" proj-img"
                                                     alt="..."
                                                 />
                                             </div>
@@ -531,13 +528,13 @@ export default class Profile extends React.Component {
                                     </div>
                                 </div>
                                 <hr className="border-bottom bg-info pt-1" />
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-md-4">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                    className="card-img-top"
+                                                    className=" proj-img"
                                                     alt="..."
                                                 />
                                             </div>
@@ -558,12 +555,12 @@ export default class Profile extends React.Component {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border">
+                                    <div className="col-12 col-md-4 left-border proj-border">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                    className="card-img-top"
+                                                    className="proj-img"
                                                     alt="..."
                                                 />
                                             </div>
@@ -584,12 +581,12 @@ export default class Profile extends React.Component {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border" />
+                                    <div className="col-12 col-md-4 left-border proj-border" />
                                 </div>
                             <hr className="border-bottom" />
                             </section>
                             <section id="section-6">
-                                <div className="row mb-3">
+                                <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="far fa-star text-warning icon" />
                                     </div>
@@ -650,7 +647,7 @@ export default class Profile extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 left-border px-4">
+                                    <div className="col-12 col-md-6 left-border skills-border px-4">
                                         <div className="p-2">
                                             <label className="python">
                                                 <strong>Javascript &amp;jQuery</strong>
@@ -704,7 +701,7 @@ export default class Profile extends React.Component {
                             </section>
                             <hr className="border-bottom" />
                             <section id="section-8">
-                                <div className="row mb-3">
+                                <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-graduation-cap text-warning icon" />
                                     </div>
@@ -716,7 +713,7 @@ export default class Profile extends React.Component {
                                 </div>
                                 <div className="row pt-4">
                                     <div className="col-12 col-md-6 px-4">
-                                        <h2 className="pt-2 font-weight-bold edu-text">
+                                        <h2 className=" font-weight-bold edu-text">
                                             MSC IN COMPUTER SCIENCE
                                         </h2>
                                         <h3 className="text-muted edu-text">
@@ -726,8 +723,7 @@ export default class Profile extends React.Component {
                                             <div className="col-12 col-sm-5">
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                    className="image-educcation"
-                                                    style={eduStyle}
+                                                    className="image-education"
                                                     alt="..."
                                                 />
                                             </div>
@@ -759,8 +755,8 @@ export default class Profile extends React.Component {
                                             -Bullet point
                                         </span>
                                     </div>
-                                    <div className="col-12 col-md-6 px-4 left-border">
-                                        <h2 className="pt-2 font-weight-bold edu-text">
+                                    <div className="col-12 col-md-6 px-4 left-border edu-border">
+                                        <h2 className="BSC-text font-weight-bold edu-text">
                                             BSC IN APPLIED MATHEMATICS
                                         </h2>
                                         <h3 className="text-muted edu-text">
@@ -771,7 +767,6 @@ export default class Profile extends React.Component {
                                                 <img
                                                     src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                     className="image-education"
-                                                    style={eduStyle}
                                                     alt="..."
                                                 />
                                             </div>
@@ -807,7 +802,7 @@ export default class Profile extends React.Component {
                             </section>
                             <hr className="border-bottom" />
                             <section id="section-9">
-                                <div className="row mb-3">
+                                <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-user-alt text-warning icon" />
                                     </div>
