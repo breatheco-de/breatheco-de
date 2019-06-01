@@ -8,7 +8,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "c9": "gatsby develop -p $PORT -H $IP",
-    "deploy": "node deploy-to-github.js"
+    "deploy": "node deploy-to-github.js",
+    "now-build":"gatsby build"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
