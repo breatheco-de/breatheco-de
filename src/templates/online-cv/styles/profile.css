@@ -14,10 +14,6 @@
     text-align: center;
 }
 
-
-
-
-
 .section-top{
     background-color:black;
     padding-left: 13px;
@@ -36,19 +32,7 @@
 
 
 
-.bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 18px solid transparent;
-	border-top-color: #000000;
-	border-bottom: 0;
-	margin-left: -17px;
-	margin-bottom: -18px;
-}
+
 
 
 html {
@@ -255,6 +239,8 @@ footer {
         .p {
             font-size: 14px;
             line-height: 1.2;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         .icon {
             width: 30px;
@@ -321,7 +307,7 @@ footer {
 
         .geeks-img {
             position: fixed;
-            right: 19px;
+            right: 69px;
             top: 5px;
             height: 55px;
             z-index: 20;
@@ -364,6 +350,19 @@ footer {
             background: #000000;
             border-radius: 4em;
         }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -18px;
+        }
         .name{
             font-size: 2rem;
         }
@@ -378,6 +377,7 @@ footer {
         .p{
             font-size: 16px;
             line-height: 1.3;
+            
         }
         .exp-text{
             font-size: 1rem;
@@ -471,6 +471,19 @@ footer {
             position: relative;
             background: #000000;
             border-radius: 4em;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -18px;
         }
         .motto {
             padding: 14px;

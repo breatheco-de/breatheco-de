@@ -312,7 +312,7 @@ export default class Profile extends React.Component {
                                         />
                                     </div>
                                     <div className="row">
-                                        <div className="col">
+                                        <div className="col-12">
                                             <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
@@ -333,7 +333,7 @@ export default class Profile extends React.Component {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col">
+                                        <div className="col-12">
                                             <div className="d-flex flex-column bd-highlight mb-3 pt-4">
                                                 <div className="p-0 p bd-highlight text-muted">
                                                     -Bullet point
@@ -364,7 +364,7 @@ export default class Profile extends React.Component {
                                         />
                                     </div>
                                     <div className="row">
-                                        <div className="col">
+                                        <div className="col-12">
                                             <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
@@ -379,7 +379,7 @@ export default class Profile extends React.Component {
                                     </div>
                                     <div>
                                         <div className="row">
-                                            <div className="col">
+                                            <div className="col-12">
                                                 <div className="d-flex flex-column bd-highlight mb-3 pt-4">
                                                     <div className="p-0 p bd-highlight text-muted">
                                                         -Bullet point
@@ -411,7 +411,7 @@ export default class Profile extends React.Component {
                                         />
                                     </div>
                                     <div className="row">
-                                        <div className="col">
+                                        <div className="col-12">
                                             <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
@@ -425,7 +425,7 @@ export default class Profile extends React.Component {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col">
+                                        <div className="col-12">
                                             <div className="d-flex flex-column bd-highlight mb-3 pt-4">
                                                 <div className="p-0 p bd-highlight text-muted">
                                                     -Bullet point
