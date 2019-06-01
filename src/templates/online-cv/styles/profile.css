@@ -256,8 +256,8 @@ footer {
         .corner-bubble {
             border-radius: 40px;
             margin: auto;
-            width: 47%;
-            height: 25px;
+            width: 50%;
+            height: 24px;
             background-color: black;
             color: white;
             font-size: 15px;
@@ -294,19 +294,51 @@ footer {
 
 }
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 600px) {
+@media only screen and (max-width : 600px) {
 
+        .name {
+            font-size: 1.4rem;
+        }
+        .edu-border{
+            border: none !important;
+        }
+        .skills-border{
+            border: none !important;
+        }
+        .exp-border{
+            border: none !important;
+        }
+        .proj-border{
+            border: none !important;
+        }
+        .section {
+            padding: 4rem;
+            margin: 0 0 2rem 0;
+        }
 
 }
 
-@media only screen and (min-device-width : 601) and (max-device-width : 765){
-        .name {
-            font-size: 2rem;
+@media only screen and (min-device-width : 601) and (max-width : 765){
+        .edu-border{
+            border: none !important;
         }
+        .skills-border{
+            border: none !important;
+        }
+        .exp-border{
+            border: none !important;
+        }
+        .proj-border{
+            border: none !important;
+        }
+        .section {
+    padding: 1rem;
+    margin: 0 0 2rem 0;
+}
 }
 /* iPads (portrait and landscape) ----------- */
 
-@media only screen and (min-device-width: 766px) and (max-width : 1024px) {
+@media only screen and (min-device-width : 766px) and (max-width : 1024px) {
 
         .geeks-img {
             position: fixed;
@@ -349,7 +381,7 @@ footer {
             font-size: 20px;
         }
         .name{
-            font-size: 25px;
+            font-size: 2rem;
         }
 
         .motto {
