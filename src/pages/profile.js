@@ -128,10 +128,14 @@ export default class Profile extends React.Component {
 						</div>
                         {/*name*/}
                         <div className="row">
-                            <div className="col-12 gradient text-center">
-                                <label className="name font-weight-normal">JASON STATHAM</label>
-                                <br/>
-                                <label className="name-2 font-weight-light">Full-Stack Developer</label>
+                            <div className="col-12 gradient">
+                                <div className="row text-center m-0">
+                                    <div className="col-12  col-md-6 offset-md-3 border-bottom">
+                                        <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
+                                        <br/>
+                                        <label className="name-2 font-weight-light">Full-Stack Developer</label>
+                                    </div>
+                                 </div>
                             </div>
                         </div>
 

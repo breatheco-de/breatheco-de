@@ -14,17 +14,7 @@
     text-align: center;
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    padding: 7px;
-    border: 4px solid black;
-    border-radius: 50%;
-    font-size: 25px;
-    text-align: center;
 
-}
 
 
 
@@ -44,18 +34,7 @@
     padding: 0;
 }
 
-.info{
-    padding-left: 40px;
-    font-size: 20px;
-}
 
-
-
-.bubble {
-	position: relative;
-	background: #000000;
-	border-radius: 4em;
-}
 
 .bubble:after {
 	content: '';
@@ -220,8 +199,8 @@ footer {
             flex-direction: column;
             padding-left: 1px;
             margin-bottom: 0;
-            width: 53px;
-            font-size: 8px;
+            width: 46px;
+            font-size: 7px;
             text-align:center;
             z-index: 20;
             position: fixed;
@@ -229,8 +208,8 @@ footer {
             margin-top: 12px;
         }
         .img-menu {
-            width: 24px;
-            height: 24px;
+            width: 19px;
+            height: 19px;
             border: 2px solid white;
             border-radius: 50%;
             margin-left: 1px;
@@ -239,7 +218,7 @@ footer {
             font-size: 1rem !important;
         }
         section {
-            padding: 3rem;
+            padding: 24px;
             margin: 2rem
         }
         .name{
@@ -380,6 +359,11 @@ footer {
             color: white;
             font-size: 20px;
         }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+        }
         .name{
             font-size: 2rem;
         }
@@ -483,6 +467,11 @@ footer {
             color: white;
             font-size: 24px;
         }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+        }
         .motto {
             padding: 14px;
             font-size: 33px;
@@ -532,6 +521,17 @@ footer {
         }
         .name-2{
             font-size: 1.2rem;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding: 7px;
+            border: 4px solid black;
+            border-radius: 50%;
+            font-size: 25px;
+            text-align: center;
+
         }
 }
 
