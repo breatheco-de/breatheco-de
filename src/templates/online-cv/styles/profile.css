@@ -240,6 +240,19 @@ footer {
             background: #000000;
             border-radius: 2em;
         }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 13px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -14px;
+            margin-bottom: -13px;
+        }
 
         .motto {
             padding: 15px;
@@ -316,8 +329,8 @@ footer {
 @media only screen and (min-device-width : 766px) and (max-width : 1024px) {
 
         .geeks-img {
-            position: fixed;
-            right: 69px;
+           position: fixed;
+            right: 27px;
             top: 5px;
             height: 55px;
             z-index: 20;
