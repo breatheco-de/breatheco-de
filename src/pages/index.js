@@ -1,5 +1,8 @@
 import React from "react"
 import "../templates/online-cv/styles/index.css"
+import "bootstrap/dist/css/bootstrap.css";
+import ReactTooltip from "react-tooltip";
+import { findDOMNode } from "react-dom";
 
 
 export default class Index extends React.Component{
@@ -8,10 +11,9 @@ export default class Index extends React.Component{
             <div className="container-fluid">
             <div className="row">
             <div className="col-12 col p-0">
-            <div className="parallax" id="section-top">
-                    <div className="row">
+                    <div className="row parallax" id="section-top">
                         <div className="col-2">
-                            <nav className="list-group text-center vertical-menu">
+                            <nav className="vertical-menu">
                                 <ul className="rounded">
                                     <li className="border-bottom">
                                         <a
@@ -75,7 +77,19 @@ export default class Index extends React.Component{
                             />
                         </div>
                     </div>
-                </div>
+                    {/*names*/}
+                    <div className="row gradient">
+                        <div className="col-12 p-0">
+                            <div className="row text-center m-0">
+                                <div className="col-12  col-md-6 offset-md-3 border-bottom">
+                                    <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
+                                    <br/>
+                                    <label className="name-2 font-weight-light">Full-Stack Developer</label>
+                                </div>
+                                </div>
+                        {/*<hr className="line-horizontally"/>*/}
+                        </div>
+                    </div>
             </div>
             </div>
             </div>

@@ -20,7 +20,7 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1025px) {
     .parallax {
         background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
         background-repeat: no-repeat;
@@ -28,6 +28,31 @@
         height: 800px;
         background-attachment: fixed;
         position: relative;
+        }
 
-    }
+    .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 1px;
+            margin-bottom: 0;
+            width: 70px;
+            font-size: 8px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-left: -1px;
+            margin-top: 14px;
+        }
+
+        .gradient {
+            display: block;
+            position: absolute;
+            background: linear-gradient( rgba(255, 255, 255, 0), white);
+            margin-top: -150px;
+            height: 150px;
+            width: 100%;
+            content: '';
+            padding: 0;
+        }
 }
