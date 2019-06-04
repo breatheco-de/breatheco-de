@@ -1,0 +1,7 @@
+ports:
+    - port: 8000
+tasks:
+    - init: >
+        npm install;
+      command: >
+        npm run start;
