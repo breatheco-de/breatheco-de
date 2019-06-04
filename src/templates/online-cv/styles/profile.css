@@ -117,11 +117,11 @@ footer {
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
         .geeks-img {
-            position: fixed;
-            right: 39px;
-            top: 4px;
-            height: 44px;
-            z-index: 20;
+                position: fixed;
+                right: 44px;
+                top: 4px;
+                height: 35px;
+                z-index: 20;
         }
         .row-icons{
             padding-left:15px;
@@ -132,7 +132,7 @@ footer {
             border-width: 1px;
             display: block;
             width: 57%;
-            margin-left: 72px;
+            margin-left: 83px;
         }
         .exp-p{
             padding: 12px;
