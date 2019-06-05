@@ -712,7 +712,7 @@ export default class Index extends React.Component{
                                         </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 px-4 left-border edu-border">
+                                    <div className="col-12 col-md-6 px-4 img-border">
                                         <h2 className="BSC-text font-weight-bold edu-text">
                                             BSC IN APPLIED MATHEMATICS
                                         </h2>
@@ -757,6 +757,93 @@ export default class Index extends React.Component{
                                                 -Bullet point
                                             </p>
                                         </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+                        <hr className="border-bottom" />
+                        <section className="section-8" id="section-8">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="fas fa-user-alt text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-12">
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1 ">
+                                                <i className="fas fa-envelope fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    jason@jasonstatham.com
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1">
+                                                <i className="fas fa-phone fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    Phone: 234 2342 342
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1">
+                                                <i className="fas fa-globe fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    jasonstatham.com
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1">
+                                                <i className="fab fa-linkedin fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    linkein.com/in/jasonstatham
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1">
+                                                <i className="fab fa-github fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    github.com/jasonstatham
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1">
+                                                <i className="fab fa-twitter fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    twitter.com/jasonstatham
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row row-icons pt-2">
+                                            <div className="col-12 col-sm-1">
+                                                <i className="fab fa-stack-overflow fa-2x" />
+                                            </div>
+                                            <div className="col-12 col-sm-11">
+                                                <label className="text-cont">
+                                                    123456 / alandoe
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

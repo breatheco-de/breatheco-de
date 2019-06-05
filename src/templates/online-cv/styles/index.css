@@ -64,7 +64,7 @@ html {
             position: fixed;
             right: 20px;
             top: 6px;
-            height: 85px;
+            height: 68px;
             z-index: 20;
         }
         .corner-bubble {
@@ -145,7 +145,7 @@ html {
             margin-left: 1rem;
             margin-right: 1rem;
         }
-        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7{
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             margin-top: 3rem;
             margin-left: 1rem;
             margin-right: 1rem;
@@ -177,6 +177,15 @@ html {
         }
         .years{
             padding-left: 0.9rem !important;
+            padding-top: 4px;
         }
-
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .row-icons{
+            padding-left:52px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
 }
