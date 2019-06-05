@@ -140,8 +140,13 @@ html {
             padding-top: 5px;
             font-size: 1.3rem;
         }
-        .section-1, .section-2{
+        .section-1{
             margin-top: 5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .section-2, .section-3, .section-4, .section-5{
+            margin-top: 3rem;
             margin-left: 1rem;
             margin-right: 1rem;
         }
@@ -149,4 +154,19 @@ html {
             font-size: 0.8rem;
             line-height: 1.3;
         }
+        .hobbies, .card-title{
+            font-size: 1rem;
+        }
+        .exp-text{
+            font-size: 1.3rem;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+         .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+
 }

@@ -207,6 +207,337 @@ export default class Index extends React.Component{
                                 </div>
                         </section>
                         <hr className="border-bottom" />
+                        <section className="section-3" id="section-3">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="fas fa-bicycle text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-12 col-md-4 text-muted">
+                                        <h4 className="hobbies">Climbing</h4>
+                                    </div>
+                                    <div className="col-12 col-md-4 text-muted">
+                                        <h4 className="hobbies">Snowboarding</h4>
+                                    </div>
+                                    <div className="col-12 col-md-4 text-muted">
+                                        <h4 className="hobbies">Cooking</h4>
+                                    </div>
+                                </div>
+                        </section>
+                        <hr className="border-bottom" />
+                        <section className="section-4" id="section-4">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="fas fa-chart-line text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-12 col-sm-9 float-left">
+                                        <h2 className="pt-2 font-weight-bold exp-text">
+                                            LEAD DEVELOPER
+                                        </h2>
+                                        <h2 className="text-muted exp-text">2015-Present</h2>
+                                        <h2 className="text-muted font-weight-light exp-text">
+                                            Startup Hubs, San Francisco
+                                        </h2>
+                                    </div>
+                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                        <img
+                                            src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                            className="w-100 img-fluid"
+                                            alt="..."
+                                        />
+                                    </div>
+                                </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <p className="p text-justify text-muted">
+                                                Describe your role here lorem ipsum
+                                                dolor sit amet, consetetuer adipiscing
+                                                elit. Aenean commodo ligula eget dolor.
+                                                Aenean massa. Cum soccis natoque
+                                                penatibus el magnis dis paturrient
+                                                montes, nascetur ridiculus mus. Donec
+                                                quam felis, ultricies nec, pellentesque
+                                                eu, pretium quis sem. Nulla consequat
+                                                massa quis enim. Donec pede justo. Sed
+                                                ut perspiciatis unde omnis iste natus
+                                                error sit voluptamen accusantium
+                                                doloremque laudantium, totam rem
+                                                aperiam, eaque ipsa quae ab illo
+                                                inventore veritatis et quasi architecto
+                                                beatae vitae dicta sunt explicabo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <div className="d-flex flex-column bd-highlight mb-3">
+                                                <div className="p bd-highlight text-muted">
+                                                    -Bullet point
+                                                </div>
+                                                <div className="p bd-highlight text-muted">
+                                                    -Bullet point
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <hr className="border-bottom bg-info pt-1" />
+                                <div className="row">
+                                    <div className="col-12 col-sm-9 float-left">
+                                        <h2 className="pt-2 font-weight-bold exp-text">
+                                            SENIOR SOFTWARE ENGINEER
+                                        </h2>
+                                        <h2 className="text-muted exp-text">2014-2015</h2>
+                                        <h2 className="text-muted font-weight-light exp-text">
+                                            Google, London
+                                        </h2>
+                                    </div>
+                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                        <img
+                                            src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                            className="w-100 img-fluid "
+                                            alt="..."
+                                        />
+                                    </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <p className="p text-justify text-muted">
+                                                Describe your role here lorem ipsum
+                                                dolor sit amet, consetetuer adipiscing
+                                                elit. Aenean commodo ligula eget dolor.
+                                                Aenean massa. Cum soccis natoque
+                                                penatibus el magnis dis paturrient
+                                                montes, nascetur ridiculus mus. Donec
+                                                quam felis, ultricies nec, pellentesque
+                                                eu, pretium quis sem.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className="row">
+                                            <div className="col-12">
+                                                <div className="d-flex flex-column bd-highlight mb-3">
+                                                    <div className="p bd-highlight text-muted">
+                                                        -Bullet point
+                                                    </div>
+                                                    <div className="p bd-highlight text-muted">
+                                                        -Bullet point
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                <hr className="border-bottom bg-info pt-1" />
+                                <div className="row">
+                                    <div className="col-12 col-sm-9 float-left">
+                                        <h2 className="pt-2 font-weight-bold exp-text">
+                                            UI DEVELOPER
+                                        </h2>
+                                        <h2 className="text-muted exp-text">2012-2014</h2>
+                                        <h2 className="text-muted font-weight-light exp-text">
+                                            Amazon, London
+                                        </h2>
+                                    </div>
+                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                        <img
+                                            src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                            className="w-100 img-fluid"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <p className="p text-justify text-muted">
+                                                Describe your role here lorem ipsum
+                                                dolor sit amet, consetetuer adipiscing
+                                                elit. Aenean commodo ligula eget dolor.
+                                                Aenean massa. Cum soccis natoque
+                                                penatibus el magnis dis paturrient
+                                                montes, nascetur ridiculus mus. Donec
+                                                quam felis, ultricies nec, pellentesque
+                                                eu, pretium quis sem.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                            <div className="col-12">
+                                                <div className="d-flex flex-column bd-highlight mb-3">
+                                                    <div className="p bd-highlight text-muted">
+                                                        -Bullet point
+                                                    </div>
+                                                    <div className="p bd-highlight text-muted">
+                                                        -Bullet point
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                        </section>
+                        <hr className="border-bottom" />
+                        <section className="section-5" id="section-5">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="far fa-file-code text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div className="row py-4">
+                                    <div className="col-12 col-md-4">
+                                        <div className="row">
+                                            <div className="col-12 col-sm-8">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className="w-100 img-fluid"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="card-body pl-2">
+                                            <h5 className="card-title">
+                                                <strong>VELOCITY</strong>
+                                            </h5>
+                                            <h5 className="text-info">
+                                                #Velocity
+                                            </h5>
+                                            <p className="card-text">
+                                                <small className="text-muted">
+                                                    A responsive website template
+                                                    designed to help startup promote,
+                                                    market and sell their products.
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-4 left-border proj-border">
+                                        <div className="row">
+                                            <div className="col-12 col-sm-8">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className="proj-img"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="card-body pl-2">
+                                            <h5 className="card-title">
+                                                <strong>DEVSTUDIO</strong>
+                                            </h5>
+                                            <h5 className="text-info">
+                                                #Devstudio
+                                            </h5>
+                                            <p className="card-text">
+                                                <small className="text-muted">
+                                                    A responsive website template
+                                                    designed to help startup promote,
+                                                    market and sell their products.
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-4 left-border proj-border">
+                                        <div className="row">
+                                            <div className="col-12 col-sm-8">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className=" proj-img"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="card-body pl-2">
+                                            <h5 className="card-title">
+                                                <strong>TEMP0</strong>
+                                            </h5>
+                                            <h5 className="text-info">
+                                                #Tempo
+                                            </h5>
+                                            <p className="card-text">
+                                                <small className="text-muted">
+                                                    A responsive website template
+                                                    designed to help startup promote,
+                                                    market and sell their products.
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr className="border-bottom bg-info pt-1" />
+                                <div className="row pt-4">
+                                    <div className="col-12 col-md-4">
+                                        <div className="row">
+                                            <div className="col-12 col-sm-8">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className=" proj-img"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="card-body pl-2">
+                                            <h5 className="card-title">
+                                                <strong>ATOM</strong>
+                                            </h5>
+                                            <h5 className="text-info">
+                                                #Atom
+                                            </h5>
+                                            <p className="card-text">
+                                                <small className="text-muted">
+                                                    A responsive website template
+                                                    designed to help startup promote,
+                                                    market and sell their products.
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-4 left-border proj-border">
+                                        <div className="row">
+                                            <div className="col-12 col-sm-8">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className="proj-img"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="card-body pl-2">
+                                            <h5 className="card-title">
+                                                <strong>DELTA</strong>
+                                            </h5>
+                                            <h5 className="text-info">
+                                                #Delta
+                                            </h5>
+                                            <p className="card-text">
+                                                <small className="text-muted">
+                                                    A responsive website template
+                                                    designed to help startup promote,
+                                                    market and sell their products.
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-4 left-border proj-border" />
+                                </div>
+                            <hr className="border-bottom" />
+                        </section>
                     </div>
                     </div>
                     </div>
