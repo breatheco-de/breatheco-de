@@ -34,8 +34,8 @@ export default class Index extends React.Component{
             <div className="col-12 col p-0">
                     <div className="row parallax" id="section-top">
                         <div className="col-2">
-                            <nav className="vertical-menu">
-                                <ul className="rounded">
+                            <nav className="vertical-menu rounded">
+                                <ul >
                                     <li className="border-bottom">
                                         <a
                                             href="#section-top"

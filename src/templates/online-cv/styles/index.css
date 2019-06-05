@@ -19,6 +19,175 @@ html {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .parallax {
+        background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 800px;
+        background-attachment: fixed;
+        position: relative;
+        }
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            /* padding-left: 1px; */
+            /* margin-bottom: 0; */
+            width: 69px;
+            font-size: 8px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-left: -1px;
+            /* margin-top: 0px; */
+            background-color: black;
+        }
+        .gradient {
+            display: block;
+            position: relative;
+            background: linear-gradient( rgba(255, 255, 255, 0), white);
+            margin-top: -170px;
+            height: 171px;
+            width: 100%;
+            padding: 0;
+        }
+        .geeks-img {
+            position: fixed;
+            right: 20px;
+            top: 6px;
+            height: 63px;
+            z-index: 20;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 56%;
+            height: 34px;
+            background-color: black;
+            color: white;
+            font-size: 21px;
+        }
+        .motto-text {
+            padding: 9px;
+            font-size: 27px;
+        }
+
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -18px;
+        }
+
+        .name{
+            font-size: 2.3rem;
+        }
+        .name-2{
+            font-size: 1.23rem;
+            border-bottom: 1px solid black;
+        }
+        a{
+            margin-top: -13px;
+        }
+        nav ul {
+            position: sticky;
+            top: 0;
+            margin: 0;
+        }
+        nav ul li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a.current {
+            background: #d3a80c;
+        }
+        .fa-3x {
+            font-size: 2.6em;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding: 7px;
+            border: 4px solid black;
+            border-radius: 50%;
+            font-size: 25px;
+            text-align: center;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1.3rem;
+        }
+        .section-1{
+            margin-top: 5rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+            margin-top: 3rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
+        .p{
+            font-size: 0.8rem;
+            line-height: 1.3;
+        }
+        .bullet{
+            font-size: 0.8rem;
+            margin-top: -21px;
+        }
+        .hobbies, .card-title, .edu-text{
+            font-size: 1rem;
+        }
+        .exp-text{
+            font-size: 1.3rem;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+         .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .skill-border, .img-border {
+            border-left: 3px solid grey !important;
+        }
+        .years{
+            padding-left: 0.9rem !important;
+            padding-top: 4px;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .row-icons{
+            padding-left:52px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+        .img-menu {
+            width: 25px;
+            height: 25px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: 1px;
+        }
 
 }
 
@@ -39,14 +208,14 @@ html {
             -ms-flex-direction: column;
             flex-direction: column;
             padding-left: 1px;
-            margin-bottom: 0;
-            width: 70px;
-            font-size: 8px;
+            /* margin-bottom: 0; */
+            width: 76px;
+            font-size: 9px;
             text-align:center;
             z-index: 20;
             position: fixed;
             margin-left: -1px;
-            margin-top: 0px;
+            /* margin-top: 0px; */
             background-color: black;
         }
 
@@ -108,7 +277,9 @@ html {
             font-size: 1.25rem;
             border-bottom: 1px solid black;
         }
-
+        a{
+            margin-top: -13px;
+        }
         nav ul {
             position: sticky;
             top: 0;
@@ -188,4 +359,13 @@ html {
         .text-cont{
             font-size: 0.8rem;
         }
+        .img-menu {
+            width: 34px;
+            height: 34px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: 1px;
+        }
+
+
 }
