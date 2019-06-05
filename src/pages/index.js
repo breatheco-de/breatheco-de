@@ -112,7 +112,7 @@ export default class Index extends React.Component{
                                     </label>
                                 </div>
                         </div>
-                        <section id="section-1">
+                        <section className="section-1" id="section-1">
                                 <div className="row mb-3">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-file-invoice text-warning icon" />
@@ -153,6 +153,60 @@ export default class Index extends React.Component{
                                     </div>
                                 </div>
                         </section>
+                        <hr className="border-bottom" />
+                        <section className="section-2" id="section-2">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="fas fa-language text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-12 col-md-4">
+                                        <h4 className="p">
+                                            Idiom:
+                                            <span className="text-muted p pl-2">
+                                                English
+                                            </span>
+                                        </h4>
+                                        <h4 className="p">
+                                            Level:
+                                            <span className="text-muted p pl-2">Native</span>
+                                        </h4>
+                                    </div>
+                                    <div className="col-12 col-md-4">
+                                        <h4 className="p">
+                                            Idiom:
+                                            <span className="text-muted p pl-2">French</span>
+                                        </h4>
+                                        <h4 className="p">
+                                            Level:
+                                            <span className="text-muted p pl-2">
+                                                Professional
+                                            </span>
+                                        </h4>
+                                    </div>
+                                    <div className="col-12 col-md-4">
+                                        <h4 className="p">
+                                            Idiom:
+                                            <span className="text-muted p pl-2">
+                                                Spanish
+                                            </span>
+                                        </h4>
+                                        <h4 className="p">
+                                            Level:
+                                            <span className="text-muted p pl-2">
+                                                Professional
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </div>
+                        </section>
+                        <hr className="border-bottom" />
                     </div>
                     </div>
                     </div>

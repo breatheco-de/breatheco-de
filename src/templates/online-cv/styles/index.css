@@ -70,15 +70,15 @@ html {
         .corner-bubble {
             border-radius: 40px;
             margin: auto;
-            width: 67%;
-            height: 40px;
+            width: 64%;
+            height: 38px;
             background-color: black;
             color: white;
-            font-size: 24px;
+            font-size: 23px;
         }
         .motto-text {
             padding: 14px;
-            font-size: 33px;
+            font-size: 29px;
         }
 
         .bubble {
@@ -139,5 +139,14 @@ html {
         .title{
             padding-top: 5px;
             font-size: 1.3rem;
+        }
+        .section-1, .section-2{
+            margin-top: 5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .p{
+            font-size: 0.8rem;
+            line-height: 1.3;
         }
 }
