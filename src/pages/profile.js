@@ -8,7 +8,7 @@ import { findDOMNode } from "react-dom";
 export default class Profile extends React.Component {
 
 
-	componentDidMount() {
+	/*componentDidMount() {
 		let mainNavLinks = document.querySelectorAll("nav ul li a");
 		let mainSections = document.querySelectorAll("main section");
 
@@ -56,9 +56,9 @@ export default class Profile extends React.Component {
 		return (
 			<div className="container-fluid p-0">
 				<div className="row">
-					<div className="col-12 p-0">
+					<div className="col-12 p-0">*/}
                             {/*parallax vertical menu*/}
-						<div className="parallax" id="section-top">
+						{/*<div className="parallax" id="section-top">
 							<div className="row">
 								<div className="col-2">
 									<nav className="list-group text-center vertical-menu">
@@ -125,9 +125,9 @@ export default class Profile extends React.Component {
                                     />
 								</div>
 							</div>
-						</div>
+						</div>*/}
                         {/*name*/}
-                        <div className="row">
+                        {/*<div className="row">
                             <div className="col-12 gradient">
                                 <div className="row text-center m-0">
                                     <div className="col-12  col-md-6 offset-md-3">
@@ -138,10 +138,10 @@ export default class Profile extends React.Component {
                                  </div>
                             <hr className="line-horizontally"/>
                             </div>
-                        </div>
+                        </div>*/}
 
                             {/*container*/}
-                        <div className="container">
+                        {/*<div className="container">
                             <div className="row text-center">
                                 <div className="col-12 col-md-6">
                                     <div className="bubble text-center font-italic corner-bubble">
@@ -898,4 +898,4 @@ export default class Profile extends React.Component {
             </div>
 		);
 	}
-}
+}*/}

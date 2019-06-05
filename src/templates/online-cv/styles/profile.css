@@ -1,3 +1,5 @@
+
+/*
 .container-fluid{
     padding: 0;
 }
@@ -75,12 +77,13 @@ li{
 }
 .text-icon{
  padding-top: 10px;
-}
+}*/
 
 
 
 
 /* Only stick if you can fit */
+/*
 @media only screen and (min-height: 300px) {
   nav ul {
     position: sticky;
@@ -100,20 +103,21 @@ nav ul li a.current {
 
 .container{
     margin-top: -45px;
-  /* padding-bottom: 60rem; */
+
 }
 
 footer {
   grid-column: 1 / 3;
   background: #607D8B;
   padding: 5rem 1rem;
-}
+}*/
 
 
 
 
 
 /* Smartphones (portrait and landscape) ----------- */
+/*
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
         .geeks-img {
@@ -262,7 +266,7 @@ footer {
             font-size: 12px;
             line-height: 1.2;
             /* padding-left: 10px;
-            padding-right: 10px; */
+            padding-right: 10px;
             padding: 4px;
         }
         .icon {
@@ -324,7 +328,7 @@ footer {
             margin: 0 0 2rem 0;
         }
 }
-/* iPads (portrait and landscape) ----------- */
+/* iPads (portrait and landscape) -----------
 
 @media only screen and (min-device-width : 766px) and (max-width : 1024px) {
 
@@ -448,7 +452,7 @@ footer {
 
 }
 
-/* Desktops and laptops ----------- */
+/* Desktops and laptops -----------
 
 @media only screen and (min-width : 1025px) {
 
@@ -571,7 +575,7 @@ footer {
             text-align: center;
 
         }
-}
+}*/
 
 
 

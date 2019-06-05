@@ -79,16 +79,82 @@ export default class Index extends React.Component{
                     </div>
                     {/*names*/}
                     <div className="row gradient">
-                        <div className="col-12 p-0">
-                            <div className="row text-center m-0">
-                                <div className="col-12  col-md-6 offset-md-3 border-bottom">
-                                    <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
+                        <div className="col-12 text-center m-0">
+                                <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
                                     <br/>
-                                    <label className="name-2 font-weight-light">Full-Stack Developer</label>
-                                </div>
-                                </div>
+                                <label className="name-2 font-weight-light border-bottom">Full-Stack Developer</label>
                         {/*<hr className="line-horizontally"/>*/}
                         </div>
+                    </div>
+                    {/**/}
+                    <div className="row">
+                    <div className="col-12">
+                    <div className="container">
+                        <div className="row text-center">
+                                <div className="col-12 col-md-6">
+                                    <div className="bubble text-center font-italic corner-bubble">
+                                        <label className="font-weight-light">
+                                            I like saving the world
+                                        </label>
+                                    </div>
+                                    <label className="motto-text font-italic font-weight-light text-muted">
+                                        Motto
+                                    </label>
+                                </div>
+                                <div className="col-12 col-md-6">
+                                    <div className="bubble text-center font-italic corner-bubble">
+                                        <label className="font-weight-light">
+                                            Killing Bad Boys
+                                        </label>
+                                    </div>
+                                    <label className="motto-text font-italic font-weight-light text-muted">
+                                        Focus
+                                    </label>
+                                </div>
+                        </div>
+                        <section id="section-1">
+                                <div className="row mb-3">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="fas fa-file-invoice text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-12">
+                                        <p className="p text-justify text-muted">
+                                            Mision-driven full stack developer with a
+                                            passion for thoughtful UI design,
+                                            collaboration, and teaching.
+                                        </p>
+                                        <p className="p text-justify text-muted">
+                                            I have always sought out opportunities and
+                                            challenges that are meaningful to me.
+                                            Although my professional path has taken many
+                                            twists and turns-from touring and recording
+                                            artist, to employee of the years at a
+                                            non-profit, to dean is scholar at UPenn, to
+                                            small business owner and entrepeneur - I
+                                            have never stopped engaging my passion to
+                                            help others and solve problems.
+                                        </p>
+                                        <p className="p text-justify text-muted">
+                                            As a web developer, I enjoy using my
+                                            obsessive attention to detail, my
+                                            unequivocal love for making things, and my
+                                            mission-driven work ethic to literally
+                                            change the world. That is why I am excited
+                                            to make a big impact at a high growth
+                                            company
+                                        </p>
+                                    </div>
+                                </div>
+                        </section>
+                    </div>
+                    </div>
                     </div>
             </div>
             </div>

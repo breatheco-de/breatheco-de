@@ -1,4 +1,7 @@
 /*index styles*/
+html {
+  scroll-behavior: smooth;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -21,6 +24,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1025px) {
+
     .parallax {
         background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
         background-repeat: no-repeat;
@@ -42,17 +46,98 @@
             z-index: 20;
             position: fixed;
             margin-left: -1px;
-            margin-top: 14px;
+            margin-top: 0px;
+            background-color: black;
         }
 
         .gradient {
             display: block;
-            position: absolute;
+            position: relative;
             background: linear-gradient( rgba(255, 255, 255, 0), white);
-            margin-top: -150px;
-            height: 150px;
+            margin-top: -170px;
+            height: 171px;
             width: 100%;
-            content: '';
             padding: 0;
+        }
+
+        .geeks-img {
+            position: fixed;
+            right: 20px;
+            top: 6px;
+            height: 85px;
+            z-index: 20;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 67%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            font-size: 24px;
+        }
+        .motto-text {
+            padding: 14px;
+            font-size: 33px;
+        }
+
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -18px;
+        }
+
+        .name{
+            font-size: 2.4rem;
+        }
+        .name-2{
+            font-size: 1.25rem;
+            border-bottom: 1px solid black;
+        }
+
+        nav ul {
+            position: sticky;
+            top: 0;
+            margin: 0;
+        }
+        nav ul li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a.current {
+            background: #d3a80c;
+        }
+        .fa-3x {
+            font-size: 2.6em;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding: 7px;
+            border: 4px solid black;
+            border-radius: 50%;
+            font-size: 25px;
+            text-align: center;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1.3rem;
         }
 }
