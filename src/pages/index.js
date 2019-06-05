@@ -57,12 +57,12 @@ export default class Index extends React.Component{
                                         </a>
                                     </li>
                                     <li className="border-bottom">
-                                        <a href="#section-8">
+                                        <a href="#section-7">
                                             <i className="fas fa-graduation-cap fa-3x" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#section-9">
+                                        <a href="#section-8">
                                             <i className="fas fa-user-alt fa-3x" />
                                         </a>
                                     </li>
@@ -242,7 +242,7 @@ export default class Index extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             LEAD DEVELOPER
@@ -252,7 +252,7 @@ export default class Index extends React.Component{
                                             Startup Hubs, San Francisco
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                    <div className="col-12 col-sm-3 img-border">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="w-100 img-fluid"
@@ -262,7 +262,7 @@ export default class Index extends React.Component{
                                 </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="p text-justify text-muted">
+                                            <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -294,7 +294,7 @@ export default class Index extends React.Component{
                                         </div>
                                     </div>
                                 <hr className="border-bottom bg-info pt-1" />
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             SENIOR SOFTWARE ENGINEER
@@ -304,7 +304,7 @@ export default class Index extends React.Component{
                                             Google, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                    <div className="col-12 col-sm-3 img-border">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="w-100 img-fluid "
@@ -314,7 +314,7 @@ export default class Index extends React.Component{
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="p text-justify text-muted">
+                                            <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -342,7 +342,7 @@ export default class Index extends React.Component{
                                     </div>
 
                                 <hr className="border-bottom bg-info pt-1" />
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             UI DEVELOPER
@@ -352,7 +352,7 @@ export default class Index extends React.Component{
                                             Amazon, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                    <div className="col-12 col-sm-3 img-border">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="w-100 img-fluid"
@@ -362,7 +362,7 @@ export default class Index extends React.Component{
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="p text-justify text-muted">
+                                            <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -427,7 +427,7 @@ export default class Index extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border">
+                                    <div className="col-12 col-md-4 img-border">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -453,7 +453,7 @@ export default class Index extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border">
+                                    <div className="col-12 col-md-4 img-border">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -508,7 +508,7 @@ export default class Index extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border">
+                                    <div className="col-12 col-md-4 img-border">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -534,9 +534,232 @@ export default class Index extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border" />
+                                    <div className="col-12 col-md-4 img-border" />
                                 </div>
                             <hr className="border-bottom" />
+                        </section>
+                        <section className="section-6" id="section-6">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="far fa-star text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <label className="font-italic font-weight-light text-dark title">
+                                            &nbsp;S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="row  justify-content-around py-4">
+                                    <div className="col-12 col-md-6 px-4">
+                                        <div className="p-2">
+                                            <label className="python font-weight-bold">
+                                                Python &amp; Django
+                                            </label>
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    role="progressbar"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    style={{width:"98%"}}>
+                                                    98%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2">
+                                            <label className="python font-weight-bold">
+                                                Angular
+                                            </label>
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    role="progressbar"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    style={{width:"98%"}}>
+                                                    98%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2">
+                                            <label className="python font-weight-bold">
+                                                Rubyon Rails
+                                            </label>
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    role="progressbar"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    style={{width:"85%"}}>
+                                                    85%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-6 skill-border px-4">
+                                        <div className="p-2">
+                                            <label className="python">
+                                                <strong>Javascript &amp;jQuery</strong>
+                                            </label>
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    role="progressbar"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    style={{width: "98%"}}>
+                                                    98%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2">
+                                            <label className="python">
+                                                <strong>HTML5 &amp; CSS</strong>
+                                            </label>
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    role="progressbar"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    style={{width: "95%"}}>
+                                                    95%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2">
+                                            <label className="python font-weight-bold">
+                                                Sketch &amp; Potophop
+                                            </label>
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    role="progressbar"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    style={{width: "60%"}}>
+                                                    60%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+                        <hr className="border-bottom" />
+                        <section className="section-7" id="section-7">
+                                <div className="row mb-3 py-4">
+                                    <div className="col-md-1 pr-0">
+                                        <i className="fas fa-graduation-cap text-warning icon" />
+                                    </div>
+                                    <div className="col-md-11 pl-0">
+                                        <span className="font-italic font-weight-light text-dark title">
+                                            &nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="row pt-4">
+                                    <div className="col-12 col-md-6 px-4">
+                                        <h2 className="font-weight-bold edu-text">
+                                            MSC IN COMPUTER SCIENCE
+                                        </h2>
+                                        <h3 className="text-muted edu-text">
+                                            University of London
+                                        </h3>
+                                        <div className="row">
+                                            <div className="col-12 col-sm-5">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className="w-100"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-sm-1">
+                                                <i className="far fa-clock fa-2x text-primary" />
+                                            </div>
+                                            <div className="col-sm-11">
+                                                <label className="years font-weight-bold text-muted">
+                                                    2007-2011
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                        <div className="col-12">
+                                            <p className="p pt-4 text-justify text-muted">
+                                                Describe your role here lorem ipsum dolor
+                                                sit amet, consetetuer adipiscing elit.
+                                                Aenean commodo ligula eget dolor. Aenean
+                                                massa. Cum soccis natoque penatibus el
+                                                magnis dis paturrient montes, nascetur
+                                                ridiculus mus. Donec quam felis, ultricies
+                                                nec, pellentesque eu, pretium quis sem.
+                                            </p>
+                                            <br/>
+                                            <p className="text-muted bullet">
+                                                -Bullet point
+                                            </p>
+                                            <p className="text-muted bullet">
+                                                -Bullet point
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-6 px-4 left-border edu-border">
+                                        <h2 className="BSC-text font-weight-bold edu-text">
+                                            BSC IN APPLIED MATHEMATICS
+                                        </h2>
+                                        <h3 className="text-muted edu-text">
+                                            Bristol Universit
+                                        </h3>
+                                        <div className="row">
+                                            <div className="col-12 col-sm-5">
+                                                <img
+                                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                    className="w-100"
+                                                    alt="..."
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-sm-1">
+                                                <i className="far fa-clock fa-2x text-primary" />
+                                            </div>
+                                            <div className="col-sm-11">
+                                                <label className="years font-weight-bold text-muted">
+                                                    2007-2011
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                        <div className="col-12">
+                                            <p className="p pt-4 text-justify text-muted">
+                                                Describe your role here lorem ipsum dolor
+                                                sit amet, consetetuer adipiscing elit.
+                                                Aenean commodo ligula eget dolor. Aenean
+                                                massa. Cum soccis natoque penatibus el
+                                                magnis dis paturrient montes, nascetur
+                                                ridiculus mus. Donec quam felis, ultricies
+                                                nec, pellentesque eu, pretium quis sem.
+                                            </p>
+                                            <br/>
+                                            <p className="text-muted bullet">
+                                                -Bullet point
+                                            </p>
+                                            <p className="text-muted bullet">
+                                                -Bullet point
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </section>
                     </div>
                     </div>

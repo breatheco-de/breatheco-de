@@ -145,7 +145,7 @@ html {
             margin-left: 1rem;
             margin-right: 1rem;
         }
-        .section-2, .section-3, .section-4, .section-5{
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7{
             margin-top: 3rem;
             margin-left: 1rem;
             margin-right: 1rem;
@@ -154,7 +154,11 @@ html {
             font-size: 0.8rem;
             line-height: 1.3;
         }
-        .hobbies, .card-title{
+        .bullet{
+            font-size: 0.8rem;
+            margin-top: -21px;
+        }
+        .hobbies, .card-title, .edu-text{
             font-size: 1rem;
         }
         .exp-text{
@@ -167,6 +171,12 @@ html {
          .text-info {
             color: #17a2b8 !important;
             font-size: 0.8rem;
+        }
+        .skill-border, .img-border {
+            border-left: 3px solid grey !important;
+        }
+        .years{
+            padding-left: 0.9rem !important;
         }
 
 }
