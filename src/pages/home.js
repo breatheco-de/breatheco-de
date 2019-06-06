@@ -1,65 +1,18 @@
-import React from 'react';
-import "../templates/online-cv/styles/profile.css"
+import React from "react";
+import "../templates/online-cv/styles/home.css"
 import "bootstrap/dist/css/bootstrap.css";
 import ReactTooltip from "react-tooltip";
 import { findDOMNode } from "react-dom";
 
 
-{/*export default class Profile extends React.Component {
-
-
-    componentDidMount() {
-        let mainNavLinks = document.querySelectorAll("nav ul li a");
-        let mainSections = document.querySelectorAll("main section");
-
-        window.onscroll = event => {
-            let fromTop = window.scrollY;
-
-            mainNavLinks.forEach(link => {
-                let section = document.querySelector(link.hash);
-
-                if (
-                    section.offsetTop <= fromTop &&
-                    section.offsetTop + section.offsetHeight > fromTop
-                ) {
-                    link.classList.add("current");
-                } else {
-                    link.classList.remove("current");
-                }
-            });
-        };
-    }
-
-    render() {
-        const pythonStyle = {
-            width: "98%"
-        };
-        const angularStyle = {
-            width: "98%"
-        };
-
-        const rubyStyle = {
-            width: "85%"
-        };
-
-        const jsStyle = {
-            width: "98%"
-        };
-
-        const htmlStyle = {
-            width: "95%"
-        };
-
-        const skechStyle = {
-            width: "60%"
-        };
-        return (
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-12 p-0">
-
-                        <div className="parallax" id="section-top">
-                            <div className="row">
+export default class Home extends React.Component{
+    render(){
+        return(
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12 p-0">
+                        <div className="parallax">
+                            <div className="row">
                                 <div className="col-2">
                                     <nav className=" text-center vertical-menu">
                                         <ul className="rounded">
@@ -125,34 +78,28 @@ import { findDOMNode } from "react-dom";
                                     />
                                 </div>
                             </div>
-                        </div>
-
+                        </div>
                         <div className="row">
-                            <div className="col-12 gradient">
-                                <div className="row text-center m-0">
-                                    <div className="col-12  col-md-6 offset-md-3">
-                                        <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
-                                        <br/>
-                                        <label className="name-2 font-weight-light">Full-Stack Developer</label>
-                                    </div>
-                                 </div>
+                            <div className="col-12 text-center gradient">
+                                <label className="name font-weight-normal">JASON <strong>STATHAM</strong></label>
+                                <br/>
+                                <label className="name-2 font-weight-light border-bottom">Full-Stack Developer</label>
                             </div>
                         </div>
 
-
                         <div className="container">
-                            <div className="row text-center">
-                                <div className="col-12 col-md-6">
+                            <div className="row bubble-row">
+                                <div className="col-12 col-md-6 text-center bubble-left">
                                     <div className="bubble text-center font-italic corner-bubble">
-                                        <label className="font-weight-light">
-                                            I like saving the world
-                                        </label>
+                                            <label className="font-weight-light">
+                                                I like saving the world
+                                            </label>
                                     </div>
-                                    <label className="motto font-italic font-weight-light text-muted">
-                                        Motto
-                                    </label>
+                                        <label className="motto font-italic font-weight-light text-muted">
+                                            Motto
+                                        </label>
                                 </div>
-                                <div className="col-12 col-md-6">
+                                <div className="col-12 col-md-6 text-center bubble-right">
                                     <div className="bubble text-center font-italic corner-bubble">
                                         <label className="font-weight-light">
                                             Killing Bad Boys
@@ -163,11 +110,10 @@ import { findDOMNode } from "react-dom";
                                     </label>
                                 </div>
                             </div>
-                            <br />
-                            <section id="section-1">
+                            <section className="section-1" id="section-1">
                                 <div className="row mb-3">
                                     <div className="col-md-1 pr-0">
-                                        <i className="fas fa-file-invoice text-warning icon" />
+                                        <i className="fas fa-file-invoice text-warning icon-section-1" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -204,12 +150,12 @@ import { findDOMNode } from "react-dom";
                                         </p>
                                     </div>
                                 </div>
-                            </section>
                             <hr className="border-bottom" />
-                            <section id="section-2">
+                            </section>
+                            <section className="section-2" id="section-2">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="fas fa-language text-warning icon" />
+                                        <i className="fas fa-language text-warning icon-section-2" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -257,12 +203,12 @@ import { findDOMNode } from "react-dom";
                                         </h4>
                                     </div>
                                 </div>
-                            </section>
                             <hr className="border-bottom" />
-                            <section id="section-3">
+                            </section>
+                            <section className="section-3" id="section-3">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="fas fa-bicycle text-warning icon" />
+                                        <i className="fas fa-bicycle text-warning icon-section-3" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -271,22 +217,22 @@ import { findDOMNode } from "react-dom";
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-12 col-md-4 p text-muted">
-                                        <h4 className="inter-text">Climbing</h4>
+                                    <div className="col-12 col-md-4 text-muted">
+                                        <h4 className="p">Climbing</h4>
                                     </div>
-                                    <div className="col-12 col-md-4 p text-muted">
-                                        <h4 className="inter-text">Snowboarding</h4>
+                                    <div className="col-12 col-md-4 text-muted">
+                                        <h4 className="p">Snowboarding</h4>
                                     </div>
-                                    <div className="col-12 col-md-4 p text-muted">
-                                        <h4 className="inter-text">Cooking</h4>
+                                    <div className="col-12 col-md-4 hobbies text-muted">
+                                        <h4 className="p">Cooking</h4>
                                     </div>
                                 </div>
-                            </section>
                             <hr className="border-bottom" />
-                            <section id="section-4">
+                            </section>
+                            <section className="section-4" id="section-4">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="fas fa-chart-line text-warning icon" />
+                                        <i className="fas fa-chart-line text-warning icon-section-4" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -295,7 +241,7 @@ import { findDOMNode } from "react-dom";
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-12 col-sm-9 float-left pt-4">
+                                    <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             LEAD DEVELOPER
                                         </h2>
@@ -304,16 +250,17 @@ import { findDOMNode } from "react-dom";
                                             Startup Hubs, San Francisco
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                    <div className="col-12 col-sm-3 border-left">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="mx-auto  geeks-logo"
+                                            className="img-fluid w-100"
                                             alt="..."
                                         />
                                     </div>
+                                </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="exp-p text-justify text-muted pt-4">
+                                            <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -344,10 +291,10 @@ import { findDOMNode } from "react-dom";
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+
                                 <hr className="border-bottom bg-info pt-1" />
                                 <div className="row">
-                                    <div className="col-12 col-sm-9 float-left pt-4">
+                                    <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             SENIOR SOFTWARE ENGINEER
                                         </h2>
@@ -356,16 +303,17 @@ import { findDOMNode } from "react-dom";
                                             Google, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                    <div className="col-12 col-sm-3 border-left">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="mx-auto  geeks-logo"
+                                            className="img-fluid w-100"
                                             alt="..."
                                         />
                                     </div>
+                                    </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="exp-p text-justify text-muted pt-4">
+                                            <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -391,10 +339,10 @@ import { findDOMNode } from "react-dom";
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+
                                 <hr className="border-bottom bg-info pt-1" />
                                 <div className="row">
-                                    <div className="col-12 col-sm-9 float-left pt-4">
+                                    <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             UI DEVELOPER
                                         </h2>
@@ -403,16 +351,17 @@ import { findDOMNode } from "react-dom";
                                             Amazon, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 left-border exp-border">
+                                    <div className="col-12 col-sm-3 border-left">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="mx-auto geeks-logo"
+                                            className="img-fluid w-100"
                                             alt="..."
                                         />
                                     </div>
+                                    </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <p className="exp-p text-justify text-muted pt-4">
+                                            <p className="p text-justify text-muted pt-4">
                                                 Describe your role here lorem ipsum
                                                 dolor sit amet, consetetuer adipiscing
                                                 elit. Aenean commodo ligula eget dolor.
@@ -436,13 +385,12 @@ import { findDOMNode } from "react-dom";
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </section>
                             <hr className="border-bottom" />
-                            <section id="section-5">
+                            </section>
+                            <section className="section-5" id="section-5">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="far fa-file-code text-warning icon" />
+                                        <i className="far fa-file-code text-warning icon-section-5" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -478,7 +426,7 @@ import { findDOMNode } from "react-dom";
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border">
+                                    <div className="col-12 col-md-4 border-left">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -504,7 +452,7 @@ import { findDOMNode } from "react-dom";
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border">
+                                    <div className="col-12 col-md-4 border-left">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -559,7 +507,7 @@ import { findDOMNode } from "react-dom";
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border">
+                                    <div className="col-12 col-md-4 border-left">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -585,14 +533,14 @@ import { findDOMNode } from "react-dom";
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 left-border proj-border" />
+                                    <div className="col-12 col-md-4 border-left" />
                                 </div>
                             <hr className="border-bottom" />
                             </section>
-                            <section id="section-6">
+                            <section className="section-6" id="section-6">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="far fa-star text-warning icon" />
+                                        <i className="far fa-star text-warning icon-section-6" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -613,7 +561,7 @@ import { findDOMNode } from "react-dom";
                                                     aria-valuenow="25"
                                                     aria-valuemin="0"
                                                     aria-valuemax="100"
-                                                    style={pythonStyle}>
+                                                    style={{width: "98%"}}>
                                                     98%
                                                 </div>
                                             </div>
@@ -629,7 +577,7 @@ import { findDOMNode } from "react-dom";
                                                     aria-valuenow="25"
                                                     aria-valuemin="0"
                                                     aria-valuemax="100"
-                                                    style={angularStyle}>
+                                                    style={{width: "98%"}}>
                                                     98%
                                                 </div>
                                             </div>
@@ -645,13 +593,13 @@ import { findDOMNode } from "react-dom";
                                                     aria-valuenow="25"
                                                     aria-valuemin="0"
                                                     aria-valuemax="100"
-                                                    style={rubyStyle}>
+                                                    style={{width: "85%"}}>
                                                     85%
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 left-border skills-border px-4">
+                                    <div className="col-12 col-md-6 border-left px-4">
                                         <div className="p-2">
                                             <label className="python">
                                                 <strong>Javascript &amp;jQuery</strong>
@@ -663,7 +611,7 @@ import { findDOMNode } from "react-dom";
                                                     aria-valuenow="25"
                                                     aria-valuemin="0"
                                                     aria-valuemax="100"
-                                                    style={jsStyle}>
+                                                    style={{width: "98%"}}>
                                                     98%
                                                 </div>
                                             </div>
@@ -679,7 +627,7 @@ import { findDOMNode } from "react-dom";
                                                     aria-valuenow="25"
                                                     aria-valuemin="0"
                                                     aria-valuemax="100"
-                                                    style={htmlStyle}>
+                                                    style={{width: "95%"}}>
                                                     95%
                                                 </div>
                                             </div>
@@ -695,19 +643,19 @@ import { findDOMNode } from "react-dom";
                                                     aria-valuenow="25"
                                                     aria-valuemin="0"
                                                     aria-valuemax="100"
-                                                    style={skechStyle}>
+                                                    style={{width: "60%"}}>
                                                     60%
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </section>
                             <hr className="border-bottom" />
-                            <section id="section-8">
+                            </section>
+                            <section className="section-7" id="section-7">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="fas fa-graduation-cap text-warning icon" />
+                                        <i className="fas fa-graduation-cap text-warning icon-section-7" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <span className="font-italic font-weight-light text-dark title">
@@ -716,13 +664,17 @@ import { findDOMNode } from "react-dom";
                                     </div>
                                 </div>
                                 <div className="row pt-4">
-                                    <div className="col-12 col-md-6 px-4">
+                                    <div className="col-12 col-md-6">
+                                    <div className="row">
+                                    <div className="col-12">
                                         <h2 className=" font-weight-bold edu-text">
                                             MSC IN COMPUTER SCIENCE
                                         </h2>
                                         <h3 className="text-muted edu-text">
                                             University of London
                                         </h3>
+                                        </div>
+                                        </div>
                                         <div className="row">
                                             <div className="col-12 col-sm-5">
                                                 <img
@@ -742,6 +694,8 @@ import { findDOMNode } from "react-dom";
                                                 </label>
                                             </div>
                                         </div>
+                                        <div className="row">
+                                        <div className="col-12">
                                         <p className="p pt-4 text-justify text-muted">
                                             Describe your role here lorem ipsum dolor
                                             sit amet, consetetuer adipiscing elit.
@@ -758,14 +712,20 @@ import { findDOMNode } from "react-dom";
                                         <span className="text-muted p">
                                             -Bullet point
                                         </span>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div className="col-12 col-md-6 px-4 left-border edu-border">
+                                    <div className="col-12 col-md-6 border-left">
+                                    <div className="row">
+                                    <div className="col-12">
                                         <h2 className="BSC-text font-weight-bold edu-text">
                                             BSC IN APPLIED MATHEMATICS
                                         </h2>
                                         <h3 className="text-muted edu-text">
                                             Bristol Universit
                                         </h3>
+                                        </div>
+                                        </div>
                                         <div className="row">
                                             <div className="col-12 col-sm-5">
                                                 <img
@@ -785,6 +745,8 @@ import { findDOMNode } from "react-dom";
                                                 </label>
                                             </div>
                                         </div>
+                                        <div className="row">
+                                        <div className="col-12">
                                         <p className="p pt-4 text-justify text-muted">
                                             Describe your role here lorem ipsum dolor
                                             sit amet, consetetuer adipiscing elit.
@@ -801,14 +763,16 @@ import { findDOMNode } from "react-dom";
                                         <span className="text-muted p">
                                             -Bullet point
                                         </span>
+                                        </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </section>
                             <hr className="border-bottom" />
-                            <section id="section-9">
+                            </section>
+                            <section className="section-8" id="section-8">
                                 <div className="row mb-3 py-4">
                                     <div className="col-md-1 pr-0">
-                                        <i className="fas fa-user-alt text-warning icon" />
+                                        <i className="fas fa-user-alt text-warning icon-section-8" />
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
@@ -892,9 +856,9 @@ import { findDOMNode } from "react-dom";
                                 </div>
                             </section>
                         </div>
-                    </div>
+                    </div>
                 </div>
             </div>
-        );
-    }
-}*/}
+        );
+    }
+}

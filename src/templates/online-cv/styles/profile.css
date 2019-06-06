@@ -1,6 +1,5 @@
 
-/*
-.container-fluid{
+/* .container-fluid{
     padding: 0;
 }
 .parallax {
@@ -77,13 +76,11 @@ li{
 }
 .text-icon{
  padding-top: 10px;
-}*/
+}
 
 
 
 
-/* Only stick if you can fit */
-/*
 @media only screen and (min-height: 300px) {
   nav ul {
     position: sticky;
@@ -110,16 +107,16 @@ footer {
   grid-column: 1 / 3;
   background: #607D8B;
   padding: 5rem 1rem;
-}*/
+}
 
 
 
 
 
-/* Smartphones (portrait and landscape) ----------- */
-/*
 
-@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+
+
+@media only screen and (min-width : 480px) {
         .geeks-img {
                 position: fixed;
                 right: 44px;
@@ -265,7 +262,7 @@ footer {
         .p {
             font-size: 12px;
             line-height: 1.2;
-            /* padding-left: 10px;
+             padding-left: 10px;
             padding-right: 10px;
             padding: 4px;
         }
@@ -310,7 +307,7 @@ footer {
 
 }
 
-@media only screen and (min-device-width : 601) and (max-width : 765){
+@media only screen and (min-width : 765){
         .edu-border{
             border: none !important;
         }
@@ -328,9 +325,9 @@ footer {
             margin: 0 0 2rem 0;
         }
 }
-/* iPads (portrait and landscape) -----------
 
-@media only screen and (min-device-width : 766px) and (max-width : 1024px) {
+
+@media only screen and (min-width : 992px) {
 
         .geeks-img {
            position: fixed;
@@ -452,9 +449,9 @@ footer {
 
 }
 
-/* Desktops and laptops -----------
 
-@media only screen and (min-width : 1025px) {
+
+@media only screen and (min-width : 1024px) {
 
         .geeks-img {
             position: fixed;
@@ -575,9 +572,5 @@ footer {
             text-align: center;
 
         }
-}*/
-
-
-
-
-
+}
+ */

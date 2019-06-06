@@ -1,0 +1,725 @@
+.parallax {
+    background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.gradient {
+    display: block;
+    position: absolute;
+    background: linear-gradient( rgba(255, 255, 255, 0), white);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+    padding: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+        .name{
+            font-size: 1.2rem;
+        }
+        .name-2{
+            font-size: 0.87rem;
+        }
+        .parallax {
+        background-image: url(https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 470px;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 47%;
+            height: 24px;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -13px;
+        }
+        .motto {
+            padding: 11px;
+            font-size: 19px;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1rem;
+            padding-left: 10px;
+        }
+        .p{
+            font-size: 0.68rem;
+            /* line-height: 1.3; */
+        }
+        .icon-section-1 {
+            width: 27px;
+            height: 27px;
+            overflow: hidden;
+            padding-top: 4px;
+            border: 2.4px solid black;
+            border-radius: 50%;
+            font-size: 14px;
+            text-align: center;
+        }
+        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+            width: 27px;
+            height: 27px;
+            overflow: hidden;
+            padding-top: 4px;
+            border: 2.4px solid black;
+            border-radius: 50%;
+            font-size: 15px;
+            text-align: center;
+        }
+        .bubble-right{
+            margin-top: -54px;
+        }
+        .bubble-row{
+            margin-top: -42px;
+        }
+        .section-1 {
+            padding: 3rem;
+            margin: 0 0 2rem 0;
+        }
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+            padding: 3rem;
+            margin: -71px 0 2rem 0;
+        }
+        .hobbies{
+            font-size: 0.8rem;
+        }
+        .exp-text{
+            font-size: 0.88rem;
+        }
+        .BSC-text{
+            padding-top: 60px;
+        }
+        .border-left {
+            border-left: none !important;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .card-title, .edu-text, .hobbies{
+            font-size: 1rem;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .years {
+            font-size: 16px;
+        }
+        .row-icons{
+            padding-left:8px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .name{
+            font-size: 2rem;
+        }
+        .name-2{
+            font-size: 1rem;
+        }
+        .section-1 {
+            margin-top: 40px;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 67%;
+            height: 31px;
+            background-color: black;
+            color: white;
+            font-size: 19px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -13px;
+        }
+        .motto {
+            padding: 11px;
+            font-size: 25px;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1.23rem;
+        }
+        .p{
+            font-size: 0.8rem;
+            line-height: 1.3;
+        }
+        .icon-section-1{
+            width: 39px;
+            height: 39px;
+            overflow: hidden;
+            padding-top: 7px;
+            padding-left: 2px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
+        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+            width: 39px;
+            height: 39px;
+            overflow: hidden;
+            padding-top: 6px;
+            padding-left: 1px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .hobbies{
+            font-size: 1rem;
+        }
+        .exp-text{
+            font-size: 1.3rem;
+        }
+        .border-left {
+            border-left: 2.5px solid grey !important;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .card-title, .edu-text, .hobbies{
+            font-size: 1rem;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .years {
+            font-size: 16px;
+        }
+        .row-icons{
+            padding-left:8px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px){
+        .name{
+            font-size: 1.3rem;
+        }
+        .name-2{
+            font-size: 0.9rem;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 47%;
+            height: 31px;
+            background-color: black;
+            color: white;
+            font-size: 19px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -13px;
+        }
+        .motto {
+            padding: 11px;
+            font-size: 25px;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1rem;
+            padding-left: 10px;
+        }
+        .p{
+            font-size: 0.68rem;
+            /* line-height: 1.3; */
+        }
+        .icon-section-1 {
+            width: 35px;
+            height: 35px;
+            overflow: hidden;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 18px;
+            text-align: center;
+        }
+        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+            width: 35px;
+            height: 35px;
+            overflow: hidden;
+            padding-top: 6px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 17px;
+            text-align: center;
+        }
+        .bubble-right{
+            margin-top: -54px;
+        }
+        .bubble-row{
+            margin-top: -42px;
+        }
+        .section-1 {
+            padding: 0rem;
+            margin: 0 0 2rem 0;
+        }
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+            padding: 0rem;
+            margin: 0 0 2rem 0;
+        }
+        .hobbies{
+            font-size: 0.8rem;
+        }
+        .exp-text{
+            font-size: 0.88rem;
+        }
+        .BSC-text{
+            padding-top: 60px;
+        }
+        .border-left {
+            border-left: none !important;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .card-title, .edu-text, .hobbies{
+            font-size: 1rem;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .years {
+            font-size: 16px;
+        }
+        .row-icons{
+            padding-left:8px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .name{
+            font-size: 2rem;
+        }
+        .name-2{
+            font-size: 1rem;
+        }
+        .section-1 {
+            margin-top: 40px;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 67%;
+            height: 31px;
+            background-color: black;
+            color: white;
+            font-size: 19px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -13px;
+        }
+        .motto {
+            padding: 11px;
+            font-size: 25px;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1.23rem;
+        }
+        .p{
+            font-size: 0.8rem;
+            line-height: 1.3;
+        }
+        .icon-section-1{
+            width: 39px;
+            height: 39px;
+            overflow: hidden;
+            padding-top: 7px;
+            padding-left: 2px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
+        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+            width: 39px;
+            height: 39px;
+            overflow: hidden;
+            padding-top: 6px;
+            padding-left: 1px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .hobbies{
+            font-size: 1rem;
+        }
+        .exp-text{
+            font-size: 1.3rem;
+        }
+        .border-left {
+            border-left: 2.5px solid grey !important;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .card-title, .edu-text, .hobbies{
+            font-size: 1rem;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .years {
+            font-size: 16px;
+        }
+        .row-icons{
+            padding-left:8px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        .name{
+            font-size: 2.2rem;
+        }
+        .name-2{
+            font-size: 1.1rem;
+        }
+        .section-1 {
+            padding: 3rem;
+            margin: 0 0 2rem 0;
+        }
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+            padding: 3rem;
+            margin-top: -110px;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 61%;
+            height: 36px;
+            background-color: black;
+            color: white;
+            font-size: 22px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -18px;
+        }
+        .motto {
+            padding: 9px;
+            font-size: 29px;
+        }
+        .title{
+            padding-top: 5px;
+            font-size: 1.25rem;
+        }
+        .p{
+            font-size: 0.8rem;
+            line-height: 1.3;
+        }
+        .icon-section-1{
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding-top: 7px;
+            padding-left: 2px;
+            border: 3.8px solid black;
+            border-radius: 50%;
+            font-size: 28px;
+            text-align: center;
+        }
+        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding-top: 7px;
+            padding-left: 1px;
+            border: 3.8px solid black;
+            border-radius: 50%;
+            font-size: 26px;
+            text-align: center;
+        }
+        .hobbies{
+            font-size: 1rem;
+        }
+        .exp-text{
+            font-size: 1.3rem;
+        }
+        .border-left {
+            border-left: 2.5px solid grey !important;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .card-title, .edu-text, .hobbies{
+            font-size: 1rem;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .years {
+            font-size: 16px;
+        }
+        .row-icons{
+            padding-left:8px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+        .name{
+            font-size: 2.3rem;
+        }
+        .name-2{
+            font-size: 1.2rem;
+        }
+        .corner-bubble {
+            border-radius: 40px;
+            margin: auto;
+            width: 67%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            font-size: 24px;
+        }
+        .bubble {
+            position: relative;
+            background: #000000;
+            border-radius: 4em;
+            margin-top: 69px;
+        }
+        .bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #000000;
+            border-bottom: 0;
+            margin-left: -17px;
+            margin-bottom: -18px;
+        }
+        .motto {
+            padding: 14px;
+            font-size: 33px;
+        }
+        .title{
+            padding-top: 1px;
+            font-size: 1.5rem;
+        }
+        .p{
+            font-size: 0.88rem;
+            line-height: 1.3;
+        }
+        .icon-section-1{
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding-top: 7px;
+            padding-left: 2px;
+            border: 3.8px solid black;
+            border-radius: 50%;
+            font-size: 28px;
+            text-align: center;
+        }
+        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            padding-top: 7px;
+            padding-left: 1px;
+            border: 3.8px solid black;
+            border-radius: 50%;
+            font-size: 26px;
+            text-align: center;
+        }
+        .section-1 {
+            padding: 2rem;
+            margin: 0 0 2rem 0;
+        }
+        .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+            padding: 2rem;
+            /* margin: 0 0 2rem 0; */
+            margin-top: -103px;
+        }
+
+        .exp-text{
+            font-size: 1.3rem;
+        }
+        .border-left {
+            border-left: 2.5px solid grey !important;
+        }
+        .card-text{
+            line-height: normal;
+            font-size: large;
+        }
+        .text-info {
+            color: #17a2b8 !important;
+            font-size: 0.8rem;
+        }
+        .card-title, .edu-text, .hobbies{
+            font-size: 1rem;
+        }
+        .fa-2x {
+            font-size: 1.5rem;
+        }
+        .years {
+            font-size: 16px;
+        }
+        .row-icons{
+            padding-left:8px;
+        }
+        .text-cont{
+            font-size: 0.8rem;
+        }
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 1px;
+            margin-bottom: 0;
+            width: 46px;
+            font-size: 7px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+}
