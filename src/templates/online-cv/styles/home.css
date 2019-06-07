@@ -1,4 +1,4 @@
-.parallax {
+/* .parallax {
     background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -6,8 +6,10 @@
     background-attachment: fixed;
     position: relative;
 
+} */
+html {
+  scroll-behavior: smooth;
 }
-
 .gradient {
     display: block;
     position: absolute;
@@ -19,13 +21,44 @@
     padding: 0;
 }
 
+nav {
+  white-space: nowrap;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+   padding: 0;
+
+}
+ @media only screen and (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+    background-color:black;
+  }
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.current {
+  background: #d3a80c;
+}
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 300px) {
         .name{
             font-size: 1.2rem;
+            margin-top: 27px;
         }
         .name-2{
             font-size: 0.87rem;
+
         }
         .parallax {
         background-image: url(https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg);
@@ -39,7 +72,7 @@
             border-radius: 40px;
             margin: auto;
             width: 47%;
-            height: 24px;
+            height: 23px;
             background-color: black;
             color: white;
             font-size: 14px;
@@ -48,7 +81,7 @@
             position: relative;
             background: #000000;
             border-radius: 4em;
-            margin-top: 69px;
+            margin-top: 44px;
         }
         .bubble:after {
             content: '';
@@ -57,54 +90,55 @@
             left: 50%;
             width: 0;
             height: 0;
-            border: 18px solid transparent;
+            border: 10px solid transparent;
             border-top-color: #000000;
             border-bottom: 0;
-            margin-left: -17px;
-            margin-bottom: -13px;
+            margin-left: -11px;
+            margin-bottom: -10px;
         }
         .motto {
             padding: 11px;
-            font-size: 19px;
+            font-size: 17px;
         }
+
         .title{
             padding-top: 5px;
             font-size: 1rem;
             padding-left: 10px;
         }
         .p{
-            font-size: 0.68rem;
-            /* line-height: 1.3; */
+            font-size: 79%;
+            line-height: 1.4;
+
         }
         .icon-section-1 {
-            width: 27px;
-            height: 27px;
+            width: 26px;
+            height: 26px;
             overflow: hidden;
-            padding-top: 4px;
+            padding-top: 0.3rem;
             border: 2.4px solid black;
             border-radius: 50%;
-            font-size: 14px;
+            font-size: 12px;
             text-align: center;
         }
         .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
-            width: 27px;
-            height: 27px;
+            width: 26px;
+            height: 26px;
             overflow: hidden;
-            padding-top: 4px;
+            padding-top: 0.3rem;
             border: 2.4px solid black;
             border-radius: 50%;
-            font-size: 15px;
+            font-size: 12px;
             text-align: center;
         }
-        .bubble-right{
-            margin-top: -54px;
-        }
+
         .bubble-row{
-            margin-top: -42px;
+            margin-top: -55px;
         }
         .section-1 {
             padding: 3rem;
-            margin: 0 0 2rem 0;
+
+            margin-top: -35px;
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 3rem;
@@ -116,15 +150,13 @@
         .exp-text{
             font-size: 0.88rem;
         }
-        .BSC-text{
-            padding-top: 60px;
-        }
+
         .border-left {
             border-left: none !important;
         }
         .card-text{
             line-height: normal;
-            font-size: large;
+            font-size: 110%;
         }
         .text-info {
             color: #17a2b8 !important;
@@ -145,120 +177,31 @@
         .text-cont{
             font-size: 0.8rem;
         }
+        .geeks-img {
+                position: fixed;
+                right: 30px;
+                top: 4px;
+                height: 29px;
+                z-index: 20;
+        }
+
 
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-        .name{
-            font-size: 2rem;
-        }
-        .name-2{
-            font-size: 1rem;
-        }
-        .section-1 {
-            margin-top: 40px;
-        }
-        .corner-bubble {
-            border-radius: 40px;
-            margin: auto;
-            width: 67%;
-            height: 31px;
-            background-color: black;
-            color: white;
-            font-size: 19px;
-        }
-        .bubble {
-            position: relative;
-            background: #000000;
-            border-radius: 4em;
-            margin-top: 69px;
-        }
-        .bubble:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            width: 0;
-            height: 0;
-            border: 18px solid transparent;
-            border-top-color: #000000;
-            border-bottom: 0;
-            margin-left: -17px;
-            margin-bottom: -13px;
-        }
-        .motto {
-            padding: 11px;
-            font-size: 25px;
-        }
-        .title{
-            padding-top: 5px;
-            font-size: 1.23rem;
-        }
-        .p{
-            font-size: 0.8rem;
-            line-height: 1.3;
-        }
-        .icon-section-1{
-            width: 39px;
-            height: 39px;
-            overflow: hidden;
-            padding-top: 7px;
-            padding-left: 2px;
-            border: 3px solid black;
-            border-radius: 50%;
-            font-size: 20px;
-            text-align: center;
-        }
-        .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
-            width: 39px;
-            height: 39px;
-            overflow: hidden;
-            padding-top: 6px;
-            padding-left: 1px;
-            border: 3px solid black;
-            border-radius: 50%;
-            font-size: 20px;
-            text-align: center;
-        }
 
-        .hobbies{
-            font-size: 1rem;
-        }
-        .exp-text{
-            font-size: 1.3rem;
-        }
-        .border-left {
-            border-left: 2.5px solid grey !important;
-        }
-        .card-text{
-            line-height: normal;
-            font-size: large;
-        }
-        .text-info {
-            color: #17a2b8 !important;
-            font-size: 0.8rem;
-        }
-        .card-title, .edu-text, .hobbies{
-            font-size: 1rem;
-        }
-        .fa-2x {
-            font-size: 1.5rem;
-        }
-        .years {
-            font-size: 16px;
-        }
-        .row-icons{
-            padding-left:8px;
-        }
-        .text-cont{
-            font-size: 0.8rem;
-        }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 767px){
+@media only screen and (min-width: 600px) and (max-width: 768px){
+        .parallax {
+            background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 700px;
+            background-attachment: fixed;
+            position: relative;
+
+        }
         .name{
             font-size: 1.3rem;
         }
@@ -268,12 +211,15 @@
         .corner-bubble {
             border-radius: 40px;
             margin: auto;
-            width: 47%;
+            width: 63%;
             height: 31px;
             background-color: black;
             color: white;
             font-size: 19px;
         }
+        .bubble-row {
+    margin-top: -11px;
+}
         .bubble {
             position: relative;
             background: #000000;
@@ -304,7 +250,7 @@
         }
         .p{
             font-size: 0.68rem;
-            /* line-height: 1.3; */
+
         }
         .icon-section-1 {
             width: 35px;
@@ -326,9 +272,7 @@
             font-size: 17px;
             text-align: center;
         }
-        .bubble-right{
-            margin-top: -54px;
-        }
+
         .bubble-row{
             margin-top: -42px;
         }
@@ -345,9 +289,6 @@
         }
         .exp-text{
             font-size: 0.88rem;
-        }
-        .BSC-text{
-            padding-top: 60px;
         }
         .border-left {
             border-left: none !important;
@@ -375,12 +316,27 @@
         .text-cont{
             font-size: 0.8rem;
         }
+        .geeks-img {
+                position: fixed;
+                right: 44px;
+                top: 4px;
+                height: 35px;
+                z-index: 20;
+        }
 
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
+    .parallax {
+            background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 800px;
+            background-attachment: fixed;
+            position: relative;
+        }
         .name{
             font-size: 2rem;
         }
@@ -399,6 +355,9 @@
             color: white;
             font-size: 19px;
         }
+        /* .bubble-right {
+            margin-top: none !important;
+        } */
         .bubble {
             position: relative;
             background: #000000;
@@ -460,7 +419,7 @@
             font-size: 1.3rem;
         }
         .border-left {
-            border-left: 2.5px solid grey !important;
+            border-left: 2px solid grey !important;
         }
         .card-text{
             line-height: normal;
@@ -485,10 +444,25 @@
         .text-cont{
             font-size: 0.8rem;
         }
+        .geeks-img {
+                position: fixed;
+                right: 44px;
+                top: 4px;
+                height: 35px;
+                z-index: 20;
+        }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+        .parallax {
+            background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 800px;
+            background-attachment: fixed;
+            position: relative;
+        }
         .name{
             font-size: 2.2rem;
         }
@@ -512,6 +486,9 @@
             color: white;
             font-size: 22px;
         }
+        /* .bubble-right {
+            margin-top: none !important;
+        } */
         .bubble {
             position: relative;
             background: #000000;
@@ -572,7 +549,7 @@
             font-size: 1.3rem;
         }
         .border-left {
-            border-left: 2.5px solid grey !important;
+            border-left: 2px solid grey !important;
         }
         .card-text{
             line-height: normal;
@@ -597,10 +574,26 @@
         .text-cont{
             font-size: 0.8rem;
         }
+        .geeks-img {
+                position: fixed;
+                right: 44px;
+                top: 4px;
+                height: 35px;
+                z-index: 20;
+        }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1024px) {
+        .parallax {
+            background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 800px;
+            background-attachment: fixed;
+            position: relative;
+
+        }
         .name{
             font-size: 2.3rem;
         }
@@ -615,6 +608,10 @@
             background-color: black;
             color: white;
             font-size: 24px;
+        }
+
+        .bubble-row {
+            margin-top: 2px;
         }
         .bubble {
             position: relative;
@@ -683,7 +680,7 @@
             font-size: 1.3rem;
         }
         .border-left {
-            border-left: 2.5px solid grey !important;
+            border-left: 2px solid grey !important;
         }
         .card-text{
             line-height: normal;
@@ -708,6 +705,13 @@
         .text-cont{
             font-size: 0.8rem;
         }
+        .img-menu {
+            width: 34px;
+            height: 34px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: 7px;
+        }
         .vertical-menu{
             display: flex;
             -ms-flex-direction: column;
@@ -721,5 +725,15 @@
             position: fixed;
             margin-left: 15px;
             margin-top: 12px;
+            background-color:black;
         }
+        .geeks-img {
+                position: fixed;
+                right: 38px;
+                top: 4px;
+                height: 68px;
+                z-index: 20;
+        }
+        /*vertical menu styles*/
+
 }

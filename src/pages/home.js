@@ -6,12 +6,33 @@ import { findDOMNode } from "react-dom";
 
 
 export default class Home extends React.Component{
+//     componentDidMount() {
+//         let mainNavLinks = document.querySelectorAll("nav ul li a");
+//         let mainSections = document.querySelectorAll("main section");
+
+//         window.onscroll = event => {
+//             let fromTop = window.scrollY;
+
+//             mainNavLinks.forEach(link => {
+//                 let section = document.querySelector(link.hash);
+
+//                 if (
+//                     section.offsetTop <= fromTop &&
+//                     section.offsetTop + section.offsetHeight > fromTop
+//                 ) {
+//                     link.classList.add("current");
+//                 } else {
+//                     link.classList.remove("current");
+//                 }
+//             });
+//         };
+//     }
     render(){
         return(
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 p-0">
-                        <div className="parallax">
+                        <div className="parallax" id="section-top">
                             <div className="row">
                                 <div className="col-2">
                                     <nav className=" text-center vertical-menu">
@@ -111,7 +132,7 @@ export default class Home extends React.Component{
                                 </div>
                             </div>
                             <section className="section-1" id="section-1">
-                                <div className="row mb-3">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-file-invoice text-warning icon-section-1" />
                                     </div>
@@ -121,7 +142,7 @@ export default class Home extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12">
                                         <p className="p text-justify text-muted">
                                             Mision-driven full stack developer with a
@@ -153,7 +174,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-2" id="section-2">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-language text-warning icon-section-2" />
                                     </div>
@@ -163,7 +184,7 @@ export default class Home extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-md-4">
                                         <h4 className="p">
                                             Idiom:
@@ -206,7 +227,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-3" id="section-3">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-bicycle text-warning icon-section-3" />
                                     </div>
@@ -216,7 +237,7 @@ export default class Home extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-md-4 text-muted">
                                         <h4 className="p">Climbing</h4>
                                     </div>
@@ -230,7 +251,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-4" id="section-4">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-chart-line text-warning icon-section-4" />
                                     </div>
@@ -240,7 +261,7 @@ export default class Home extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pt-4">
                                     <div className="col-12 col-sm-9 float-left">
                                         <h2 className="pt-2 font-weight-bold exp-text">
                                             LEAD DEVELOPER
@@ -280,7 +301,7 @@ export default class Home extends React.Component{
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-12 px-4">
+                                        <div className="col-12">
                                             <div className="d-flex flex-column bd-highlight mb-3 pt-4">
                                                 <div className="p bd-highlight text-muted">
                                                     -Bullet point
@@ -327,7 +348,7 @@ export default class Home extends React.Component{
                                     </div>
                                     <div>
                                         <div className="row">
-                                            <div className="col-12 px-4">
+                                            <div className="col-12">
                                                 <div className="d-flex flex-column bd-highlight mb-3 pt-4">
                                                     <div className="p bd-highlight text-muted">
                                                         -Bullet point
@@ -374,7 +395,7 @@ export default class Home extends React.Component{
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-12 px-4">
+                                        <div className="col-12">
                                             <div className="d-flex flex-column bd-highlight mb-3 pt-4">
                                                 <div className=" p bd-highlight text-muted">
                                                     -Bullet point
@@ -388,7 +409,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-5" id="section-5">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="far fa-file-code text-warning icon-section-5" />
                                     </div>
@@ -538,7 +559,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-6" id="section-6">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="far fa-star text-warning icon-section-6" />
                                     </div>
@@ -548,10 +569,10 @@ export default class Home extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row  justify-content-around py-4">
+                                <div className="row  justify-content-around pt-4">
                                     <div className="col-12 col-md-6 px-4">
                                         <div className="p-2">
-                                            <label className="python font-weight-bold">
+                                            <label className="p font-weight-bold">
                                                 Python &amp; Django
                                             </label>
                                             <div className="progress">
@@ -567,7 +588,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                         <div className="p-2">
-                                            <label className="python font-weight-bold">
+                                            <label className="p font-weight-bold">
                                                 Angular
                                             </label>
                                             <div className="progress">
@@ -583,7 +604,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                         <div className="p-2">
-                                            <label className="python font-weight-bold">
+                                            <label className="p font-weight-bold">
                                                 Rubyon Rails
                                             </label>
                                             <div className="progress">
@@ -601,7 +622,7 @@ export default class Home extends React.Component{
                                     </div>
                                     <div className="col-12 col-md-6 border-left px-4">
                                         <div className="p-2">
-                                            <label className="python">
+                                            <label className="p">
                                                 <strong>Javascript &amp;jQuery</strong>
                                             </label>
                                             <div className="progress">
@@ -617,7 +638,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                         <div className="p-2">
-                                            <label className="python">
+                                            <label className="p">
                                                 <strong>HTML5 &amp; CSS</strong>
                                             </label>
                                             <div className="progress">
@@ -633,7 +654,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                         <div className="p-2">
-                                            <label className="python font-weight-bold">
+                                            <label className="p font-weight-bold">
                                                 Sketch &amp; Potophop
                                             </label>
                                             <div className="progress">
@@ -653,7 +674,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-7" id="section-7">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-graduation-cap text-warning icon-section-7" />
                                     </div>
@@ -770,7 +791,7 @@ export default class Home extends React.Component{
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-8" id="section-8">
-                                <div className="row mb-3 py-4">
+                                <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
                                         <i className="fas fa-user-alt text-warning icon-section-8" />
                                     </div>
@@ -780,8 +801,8 @@ export default class Home extends React.Component{
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col">
+                                <div className="row pt-4">
+                                    <div className="col-12">
                                         <div className="row row-icons pt-2">
                                             <div className="col-12 col-sm-1 ">
                                                 <i className="fas fa-envelope fa-2x" />

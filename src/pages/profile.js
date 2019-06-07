@@ -1,8 +1,8 @@
-import React from 'react';
-import "../templates/online-cv/styles/profile.css"
-import "bootstrap/dist/css/bootstrap.css";
-import ReactTooltip from "react-tooltip";
-import { findDOMNode } from "react-dom";
+// import React from 'react';
+// import "../templates/online-cv/styles/profile.css"
+// import "bootstrap/dist/css/bootstrap.css";
+// import ReactTooltip from "react-tooltip";
+// import { findDOMNode } from "react-dom";
 
 
 {/*export default class Profile extends React.Component {
