@@ -34,19 +34,20 @@ nav ul {
 
 }
  @media only screen and (min-height: 300px) {
-  div ul {
+  nav ul {
     position: sticky;
     top: 0;
     background-color:black;
   }
 }
-div ul li a {
+nav ul li a {
   display: block;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 0.9rem;
   color: white;
-  text-decoration: none;
 }
-div ul li a.current {
+nav ul li a:hover { text-decoration: none; }
+
+nav ul li a.current {
   background: #d3a80c;
 }
 
@@ -205,6 +206,36 @@ div ul li a.current {
 
         }
 
+        /*styles vertical menu*/
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 68px;
+            font-size: 1px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -67px;
+
+        }
+        li{
+            margin-left: -16px;
+            margin-bottom: 0px;
+        }
+        .fa-3x {
+            font-size: 1.1rem;
+        }
+        .img-menu {
+            width: 28px;
+            height: 28px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left:-3px;
+        }
+
+
 
 }
 
@@ -266,6 +297,35 @@ div ul li a.current {
         .exp-img{
             width: 80%;
         }
+        /*styles vertical menu*/
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 68px;
+            font-size: 1px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -67px;
+
+        }
+        li{
+            margin-left: -16px;
+            margin-bottom: 0px;
+        }
+        .fa-3x {
+            font-size: 1.1rem;
+        }
+        .img-menu {
+            width: 28px;
+            height: 28px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left:-3px;
+        }
+
 
 }
 
@@ -413,6 +473,35 @@ div ul li a.current {
                 height: 35px;
                 z-index: 20;
         }
+        /*styles vertical menu*/
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 68px;
+            font-size: 1px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -67px;
+
+        }
+        li{
+            margin-left: -16px;
+            margin-bottom: 0px;
+        }
+        .fa-3x {
+            font-size: 1.1rem;
+        }
+        .img-menu {
+            width: 28px;
+            height: 28px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left:-3px;
+        }
+
 
 }
 
@@ -549,6 +638,35 @@ div ul li a.current {
         .edu-text{
             font-size: 0.8rem;
         }
+        /*styles vertical menu*/
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 68px;
+            font-size: 1px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -67px;
+
+        }
+        li{
+            margin-left: -16px;
+            margin-bottom: 0px;
+        }
+        .fa-3x {
+            font-size: 1.1rem;
+        }
+        .img-menu {
+            width: 28px;
+            height: 28px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left:-3px;
+        }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -676,10 +794,39 @@ div ul li a.current {
                 height: 35px;
                 z-index: 20;
         }
+        /*styles vertical menu*/
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 68px;
+            font-size: 1px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -67px;
+
+        }
+        li{
+            margin-left: -16px;
+            margin-bottom: 0px;
+        }
+        .fa-3x {
+            font-size: 1.1rem;
+        }
+        .img-menu {
+            width: 28px;
+            height: 28px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left:-3px;
+        }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1024px) {
+ @media only screen and (min-width: 1024px) and (max-width: 1200px){
         .parallax {
             background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
             background-repeat: no-repeat;
@@ -792,6 +939,8 @@ div ul li a.current {
         }
         .years {
             font-size: 16px;
+            margin-left: -28px;
+            margin-top: 4px;
         }
         .row-icons{
             padding-left:8px;
@@ -800,32 +949,13 @@ div ul li a.current {
             font-size: 0.8rem;
         }
         .img-menu {
-            width: 34px;
-            height: 34px;
+            width: 28px;
+            height: 28px;
             border: 2px solid white;
             border-radius: 50%;
-            margin-left: 0px;
+            margin-left:-3px;
         }
-        .vertical-menu{
-            display: flex;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            /* padding-left: 1px; */
-            margin-bottom: 0;
-            width: 74px;
-            font-size: 1px;
-            text-align:center;
-            z-index: 20;
-            position: fixed;
-            /* margin-left: -156px; */
-            /* margin-top: -76px; */
-            background-color: black;
 
-        }
-        li{
-            margin-left: -32px;
-            margin-bottom: 0px;
-        }
         .geeks-img {
                 position: fixed;
                 right: 19px;
@@ -833,8 +963,27 @@ div ul li a.current {
                 height: 68px;
                 z-index: 20;
         }
+        /*styles vertical menu*/
+        .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 68px;
+            font-size: 1px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -35px;
+        }
+        li{
+            margin-left: -16px;
+            margin-bottom: 0px;
+        }
         .fa-3x {
             font-size: 1.1rem;
         }
+
+
 
 }

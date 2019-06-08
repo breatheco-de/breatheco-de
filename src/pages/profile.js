@@ -6,27 +6,27 @@ import { findDOMNode } from "react-dom";
 
 
 export default class Home extends React.Component{
-//     componentDidMount() {
-//         let mainNavLinks = document.querySelectorAll("nav ul li a");
-//         let mainSections = document.querySelectorAll("main section");
+    componentDidMount() {
+        let mainNavLinks = document.querySelectorAll("nav ul li a");
+        let mainSections = document.querySelectorAll("main section");
 
-//         window.onscroll = event => {
-//             let fromTop = window.scrollY;
+        window.onscroll = event => {
+            let fromTop = window.scrollY;
 
-//             mainNavLinks.forEach(link => {
-//                 let section = document.querySelector(link.hash);
+            mainNavLinks.forEach(link => {
+                let section = document.querySelector(link.hash);
 
-//                 if (
-//                     section.offsetTop <= fromTop &&
-//                     section.offsetTop + section.offsetHeight > fromTop
-//                 ) {
-//                     link.classList.add("current");
-//                 } else {
-//                     link.classList.remove("current");
-//                 }
-//             });
-//         };
-//     }
+                if (
+                    section.offsetTop <= fromTop &&
+                    section.offsetTop + section.offsetHeight > fromTop
+                ) {
+                    link.classList.add("current");
+                } else {
+                    link.classList.remove("current");
+                }
+            });
+        };
+    }
     render(){
         return(
             <div className="container-fluid">
@@ -34,8 +34,8 @@ export default class Home extends React.Component{
                     <div className="col-12 p-0">
                         <div className="parallax" id="section-top">
                             <div className="row">
-                                <div className="col-12 col-sm-2">
-                                    <div className="vertical-menu">
+                                <div className="col-12 col-sm-2 menu">
+                                    <nav className="vertical-menu ">
                                         <ul className="">
                                             <li className="border-bottom">
                                                 <a
@@ -52,6 +52,7 @@ export default class Home extends React.Component{
                                                 <a href="#section-1">
                                                     <i className="fas fa-file-invoice fa-3x" />
                                                 </a>
+                                            <div class="overlay">My Name is John</div>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-2">
@@ -89,7 +90,7 @@ export default class Home extends React.Component{
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div className="col-12 col-ms-10">
                                     <img
