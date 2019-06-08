@@ -7,7 +7,7 @@
     position: relative;
 
 } */
-html {
+/* html {
   scroll-behavior: smooth;
 }
 .gradient {
@@ -27,10 +27,10 @@ nav {
 nav ul {
   list-style: none;
   margin: 0;
-   padding: 0;
+    padding: 0;
 
-}
- @media only screen and (min-height: 300px) {
+} */
+ /* @media only screen and (min-height: 300px) {
   nav ul {
     position: sticky;
     top: 0;
@@ -45,13 +45,13 @@ nav ul li a {
 }
 nav ul li a.current {
   background: #d3a80c;
-}
+} */
 
 
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 300px) {
+/* @media only screen and (min-width: 300px) {
         .name{
             font-size: 1.2rem;
             margin-top: 27px;
@@ -186,13 +186,13 @@ nav ul li a.current {
         }
 
 
-}
+} */
 
 
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px){
+/* @media only screen and (min-width: 600px) and (max-width: 768px){
         .parallax {
             background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
             background-repeat: no-repeat;
@@ -324,11 +324,11 @@ nav ul li a.current {
                 z-index: 20;
         }
 
-}
+} */
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
     .parallax {
             background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
             background-repeat: no-repeat;
@@ -355,9 +355,7 @@ nav ul li a.current {
             color: white;
             font-size: 19px;
         }
-        /* .bubble-right {
-            margin-top: none !important;
-        } */
+        
         .bubble {
             position: relative;
             background: #000000;
@@ -451,10 +449,10 @@ nav ul li a.current {
                 height: 35px;
                 z-index: 20;
         }
-}
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
         .parallax {
             background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
             background-repeat: no-repeat;
@@ -486,9 +484,6 @@ nav ul li a.current {
             color: white;
             font-size: 22px;
         }
-        /* .bubble-right {
-            margin-top: none !important;
-        } */
         .bubble {
             position: relative;
             background: #000000;
@@ -581,10 +576,10 @@ nav ul li a.current {
                 height: 35px;
                 z-index: 20;
         }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
         .parallax {
             background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
             background-repeat: no-repeat;
@@ -672,7 +667,6 @@ nav ul li a.current {
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 2rem;
-            /* margin: 0 0 2rem 0; */
             margin-top: -103px;
         }
 
@@ -718,14 +712,17 @@ nav ul li a.current {
             flex-direction: column;
             padding-left: 1px;
             margin-bottom: 0;
-            width: 46px;
+            width: 69px;
             font-size: 7px;
             text-align:center;
             z-index: 20;
             position: fixed;
-            margin-left: 15px;
-            margin-top: 12px;
-            background-color:black;
+            margin-left: -156px;
+            margin-top: -76px;
+            
+        }
+        .rounded{
+                margin-left: -116px;
         }
         .geeks-img {
                 position: fixed;
@@ -734,6 +731,12 @@ nav ul li a.current {
                 height: 68px;
                 z-index: 20;
         }
-        /*vertical menu styles*/
+        a{
+            margin-top: -28px;
+        }
+        .fa-3x {
+            font-size: 4em;
+        }
 
-}
+
+} */

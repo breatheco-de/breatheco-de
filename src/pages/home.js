@@ -1,11 +1,11 @@
-import React from "react";
-import "../templates/online-cv/styles/home.css"
-import "bootstrap/dist/css/bootstrap.css";
-import ReactTooltip from "react-tooltip";
-import { findDOMNode } from "react-dom";
+// import React from "react";
+// import "../templates/online-cv/styles/home.css"
+// import "bootstrap/dist/css/bootstrap.css";
+// import ReactTooltip from "react-tooltip";
+// import { findDOMNode } from "react-dom";
 
 
-export default class Home extends React.Component{
+//export default class Home extends React.Component{
 //     componentDidMount() {
 //         let mainNavLinks = document.querySelectorAll("nav ul li a");
 //         let mainSections = document.querySelectorAll("main section");
@@ -27,14 +27,14 @@ export default class Home extends React.Component{
 //             });
 //         };
 //     }
-    render(){
+    {/*render(){
         return(
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 p-0">
                         <div className="parallax" id="section-top">
                             <div className="row">
-                                <div className="col-2">
+                                <div className="col-12 col-sm-2">
                                     <nav className=" text-center vertical-menu">
                                         <ul className="rounded">
                                             <li className="border-bottom">
@@ -91,7 +91,7 @@ export default class Home extends React.Component{
                                         </ul>
                                     </nav>
                                 </div>
-                                <div className="col-10">
+                                <div className="col-12 col-sm-10">
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
@@ -882,4 +882,4 @@ export default class Home extends React.Component{
             </div>
         );
     }
-}
+}*/}
