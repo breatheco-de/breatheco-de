@@ -35,8 +35,8 @@ export default class Home extends React.Component{
                         <div className="parallax" id="section-top">
                             <div className="row">
                                 <div className="col-12 col-sm-2 menu">
-                                    <nav className="vertical-menu ">
-                                        <ul className="">
+                                    <nav className="vertical-menu rounded">
+                                        <ul className="rounded-bottom">
                                             <li className="border-bottom">
                                                 <a
                                                     href="#section-top"
@@ -272,7 +272,7 @@ export default class Home extends React.Component{
                                             Startup Hubs, San Francisco
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-left">
+                                    <div className="col-12 col-sm-3 border-side">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="img-fluid w-100 exp-img"
@@ -325,7 +325,7 @@ export default class Home extends React.Component{
                                             Google, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-left ">
+                                    <div className="col-12 col-sm-3 border-side ">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="img-fluid w-100 exp-img"
@@ -373,7 +373,7 @@ export default class Home extends React.Component{
                                             Amazon, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-left">
+                                    <div className="col-12 col-sm-3 border-side">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="img-fluid w-100 exp-img"
@@ -446,7 +446,7 @@ export default class Home extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-left">
+                                    <div className="col-12 col-md-4 border-side">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -470,7 +470,7 @@ export default class Home extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-left">
+                                    <div className="col-12 col-md-4 border-side">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -523,7 +523,7 @@ export default class Home extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-left">
+                                    <div className="col-12 col-md-4 border-side">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -549,7 +549,7 @@ export default class Home extends React.Component{
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-left" />
+                                    <div className="col-12 col-md-4 border-side" />
                                 </div>
                             <hr className="border-bottom" />
                             </section>
@@ -615,7 +615,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 border-left px-4">
+                                    <div className="col-12 col-md-6 border-side px-4">
                                         <div className="p-2">
                                             <label className="p">
                                                 <strong>Javascript &amp;jQuery</strong>
@@ -731,7 +731,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 BSC-col border-left">
+                                    <div className="col-12 col-md-6 BSC-col border-side">
                                         <div className="row">
                                             <div className="col-12">
                                                 <h2 className="font-weight-bold edu-text">

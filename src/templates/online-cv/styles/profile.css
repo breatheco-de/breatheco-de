@@ -75,12 +75,12 @@ nav ul li a.current {
 
         }
         .parallax {
-        background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 470px;
-        background-attachment: fixed;
-        position: relative;
+            background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 470px;
+            background-attachment: fixed;
+            position: relative;
     }
     .corner-bubble {
             border-radius: 40px;
@@ -201,8 +201,8 @@ nav ul li a.current {
                 height: 29px;
                 z-index: 20;
         }
-        .border-left{
-            border: none !important;
+        .border-side{
+            border-left: none !important;
 
         }
 
@@ -212,12 +212,12 @@ nav ul li a.current {
             -ms-flex-direction: column;
             flex-direction: column;
             margin-bottom: 0;
-            width: 68px;
+            width: 46px;
             font-size: 1px;
             text-align:center;
             z-index: 20;
             position: fixed;
-            margin-top: -67px;
+            margin-top: -25px;
 
         }
         li{
@@ -225,11 +225,11 @@ nav ul li a.current {
             margin-bottom: 0px;
         }
         .fa-3x {
-            font-size: 1.1rem;
+            font-size: 0.9rem;
         }
         .img-menu {
-            width: 28px;
-            height: 28px;
+            width: 19px;
+            height: 19px;
             border: 2px solid white;
             border-radius: 50%;
             margin-left:-3px;
@@ -258,15 +258,15 @@ nav ul li a.current {
         }
 
         .icon-section-1 {
-        width: 26px;
-        height: 26px;
-        overflow: hidden;
-        padding-top: 0.2rem;
-        border: 2.4px solid black;
-        border-radius: 50%;
-        font-size: 12px;
-        text-align: center;
-}
+            width: 26px;
+            height: 26px;
+            overflow: hidden;
+            padding-top: 0.2rem;
+            border: 2.4px solid black;
+            border-radius: 50%;
+            font-size: 12px;
+            text-align: center;
+        }
         .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
             width: 26px;
             height: 26px;
@@ -303,12 +303,12 @@ nav ul li a.current {
             -ms-flex-direction: column;
             flex-direction: column;
             margin-bottom: 0;
-            width: 68px;
+            width: 61px;
             font-size: 1px;
             text-align:center;
             z-index: 20;
             position: fixed;
-            margin-top: -67px;
+            margin-top: -34px;
 
         }
         li{
@@ -316,16 +316,27 @@ nav ul li a.current {
             margin-bottom: 0px;
         }
         .fa-3x {
-            font-size: 1.1rem;
+            font-size: 0.8rem;
         }
         .img-menu {
-            width: 28px;
-            height: 28px;
+            width: 22px;
+            height: 22px;
             border: 2px solid white;
             border-radius: 50%;
             margin-left:-3px;
         }
-
+        .geeks-img {
+            position: fixed;
+            right: 14px;
+            top: 4px;
+            height: 36px;
+            z-index: 20;
+        }
+        .years {
+            font-size: 13px;
+            margin-left: -1px;
+            vertical-align: middle;
+    }
 
 }
 
@@ -350,7 +361,7 @@ nav ul li a.current {
         .corner-bubble {
             border-radius: 40px;
             margin: auto;
-            width: 51%;
+            width: 47%;
             height: 31px;
             background-color: black;
             color: white;
@@ -363,7 +374,7 @@ nav ul li a.current {
             position: relative;
             background: #000000;
             border-radius: 4em;
-            margin-top: 69px;
+            margin-top: 57px;
         }
         .bubble:after {
             content: '';
@@ -380,7 +391,7 @@ nav ul li a.current {
         }
         .motto {
             padding: 11px;
-            font-size: 25px;
+            font-size: 24px;
         }
         .title{
             padding-top: 5px;
@@ -416,15 +427,15 @@ nav ul li a.current {
             margin-top: -42px;
         }
         .bubble-right{
-            margin-top: 0px;
+            margin-top: -58px;
         }
         .section-1 {
             padding: 0rem;
-            margin: 0 0 2rem 0;
+            margin: 0rem 2.5rem;
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 0rem;
-            margin: 0 0 2rem 0;
+            margin: 0rem 2.5rem;
         }
         .hobbies{
             font-size: 0.8rem;
@@ -432,7 +443,7 @@ nav ul li a.current {
         .exp-text{
             font-size: 0.88rem;
         }
-        .border-left {
+        .border-side {
             border-left: none !important;
         }
         .card-text{
@@ -451,7 +462,7 @@ nav ul li a.current {
         }
         .years {
             font-size: 16px;
-            margin-left: -52px;
+            margin-left: -34px;
             vertical-align: middle;
         }
         .row-icons{
@@ -461,16 +472,16 @@ nav ul li a.current {
             font-size: 0.8rem;
         }
         .BSC-col{
-            margin-top: 0px;
+            margin-top: 50px;
         }
         .edu-text {
             font-size: 0.88rem;
         }
         .geeks-img {
                 position: fixed;
-                right: 44px;
+                right: 19px;
                 top: 4px;
-                height: 35px;
+                height: 39px;
                 z-index: 20;
         }
         /*styles vertical menu*/
@@ -479,7 +490,7 @@ nav ul li a.current {
             -ms-flex-direction: column;
             flex-direction: column;
             margin-bottom: 0;
-            width: 68px;
+            width: 66px;
             font-size: 1px;
             text-align:center;
             z-index: 20;
@@ -492,11 +503,11 @@ nav ul li a.current {
             margin-bottom: 0px;
         }
         .fa-3x {
-            font-size: 1.1rem;
+            font-size: 0.9rem;
         }
         .img-menu {
-            width: 28px;
-            height: 28px;
+            width: 25px;
+            height: 25px;
             border: 2px solid white;
             border-radius: 50%;
             margin-left:-3px;
@@ -598,7 +609,7 @@ nav ul li a.current {
         .exp-text{
             font-size: 1rem;
         }
-        .border-left {
+        .border-side {
             border-left: 2px solid grey !important;
         }
         .card-text{
@@ -627,16 +638,16 @@ nav ul li a.current {
         }
         .geeks-img {
                 position: fixed;
-                right: 44px;
+                right: 29px;
                 top: 4px;
-                height: 35px;
+                height: 52px;
                 z-index: 20;
         }
         .BSC-col{
             margin-top: 0px;
         }
         .edu-text{
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
         /*styles vertical menu*/
         .vertical-menu{
@@ -691,7 +702,7 @@ nav ul li a.current {
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 3rem;
-            margin-top: -110px;
+            margin: -5rem 0 2rem 0;
         }
         .corner-bubble {
             border-radius: 40px;
@@ -738,7 +749,7 @@ nav ul li a.current {
             height: 50px;
             overflow: hidden;
             padding-top: 7px;
-            padding-left: 2px;
+            padding-left: 6px;
             border: 3.8px solid black;
             border-radius: 50%;
             font-size: 28px;
@@ -761,7 +772,7 @@ nav ul li a.current {
         .exp-text{
             font-size: 1.3rem;
         }
-        .border-left {
+        .border-side {
             border-left: 2px solid grey !important;
         }
         .card-text{
@@ -772,8 +783,11 @@ nav ul li a.current {
             color: #17a2b8 !important;
             font-size: 0.8rem;
         }
-        .card-title, .edu-text, .hobbies{
+        .card-title, .hobbies{
             font-size: 1rem;
+        }
+        .edu-text{
+            font-size: 0.9rem;
         }
         .fa-2x {
             font-size: 1.5rem;
@@ -789,9 +803,9 @@ nav ul li a.current {
         }
         .geeks-img {
                 position: fixed;
-                right: 44px;
+                right: 21px;
                 top: 4px;
-                height: 35px;
+                height: 50px;
                 z-index: 20;
         }
         /*styles vertical menu*/
@@ -826,7 +840,7 @@ nav ul li a.current {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1024px) and (max-width: 1200px){
+ @media only screen and (min-width: 1024px){
         .parallax {
             background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
             background-repeat: no-repeat;
@@ -910,17 +924,17 @@ nav ul li a.current {
         }
         .section-1 {
             padding: 2rem;
-            margin: 0 0 2rem 0;
+            margin: -2rem 0 2rem 0;
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 2rem;
-            margin-top: -103px;
+            margin: -5rem 0 2rem 0;
         }
 
         .exp-text{
             font-size: 1.3rem;
         }
-        .border-left {
+        .border-side {
             border-left: 2px solid grey !important;
         }
         .card-text{
