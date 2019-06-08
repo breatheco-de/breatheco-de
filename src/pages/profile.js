@@ -34,8 +34,8 @@ export default class Home extends React.Component{
                     <div className="col-12 p-0">
                         <div className="parallax" id="section-top">
                             <div className="row">
-                                <div className="col-12">
-                                    {/*<nav className="vertical-menu">
+                                <div className="col-12 col-sm-2">
+                                    <div className="vertical-menu">
                                         <ul className="">
                                             <li className="border-bottom">
                                                 <a
@@ -89,8 +89,9 @@ export default class Home extends React.Component{
                                                 </a>
                                             </li>
                                         </ul>
-                                    </nav>*/}
-
+                                    </div>
+                                </div>
+                                <div className="col-12 col-ms-10">
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
@@ -323,7 +324,7 @@ export default class Home extends React.Component{
                                             Google, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-left">
+                                    <div className="col-12 col-sm-3 border-left ">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                             className="img-fluid w-100 exp-img"

@@ -29,24 +29,24 @@ nav {
 }
 nav ul {
   list-style: none;
-  margin: 0;
+    margin: 0;
     padding: 0;
 
 }
  @media only screen and (min-height: 300px) {
-  nav ul {
+  div ul {
     position: sticky;
     top: 0;
     background-color:black;
   }
 }
-nav ul li a {
+div ul li a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   color: white;
   text-decoration: none;
 }
-nav ul li a.current {
+div ul li a.current {
   background: #d3a80c;
 }
 
@@ -200,7 +200,10 @@ nav ul li a.current {
                 height: 29px;
                 z-index: 20;
         }
+        .border-left{
+            border: none !important;
 
+        }
 
 
 }
@@ -209,12 +212,12 @@ nav ul li a.current {
  @media only screen and (min-width: 488px){
         .corner-bubble{
                 border-radius: 40px;
-    margin: auto;
-    width: 39%;
-    height: 23px;
-    background-color: black;
-    color: white;
-    font-size: 14px;
+                margin: auto;
+                width: 39%;
+                height: 23px;
+                background-color: black;
+                color: white;
+                font-size: 14px;
         }
         .bubble-right{
             margin-top: 0px;
@@ -263,7 +266,7 @@ nav ul li a.current {
         .exp-img{
             width: 80%;
         }
-        
+
 }
 
 
@@ -353,7 +356,7 @@ nav ul li a.current {
             margin-top: -42px;
         }
         .bubble-right{
-            margin-top: -61px;
+            margin-top: 0px;
         }
         .section-1 {
             padding: 0rem;
@@ -398,7 +401,7 @@ nav ul li a.current {
             font-size: 0.8rem;
         }
         .BSC-col{
-            margin-top: 38px;
+            margin-top: 0px;
         }
         .edu-text {
             font-size: 0.88rem;
@@ -801,25 +804,27 @@ nav ul li a.current {
             height: 34px;
             border: 2px solid white;
             border-radius: 50%;
-            margin-left: 7px;
+            margin-left: 0px;
         }
-        /* .vertical-menu{
+        .vertical-menu{
             display: flex;
             -ms-flex-direction: column;
             flex-direction: column;
-            padding-left: 1px;
+            /* padding-left: 1px; */
             margin-bottom: 0;
-            width: 69px;
-            font-size: 7px;
+            width: 74px;
+            font-size: 1px;
             text-align:center;
             z-index: 20;
             position: fixed;
-            margin-left: -156px;
-            margin-top: -76px;
+            /* margin-left: -156px; */
+            /* margin-top: -76px; */
+            background-color: black;
 
-        }*/
-        .rounded{
-                /* margin-left: -116px; */
+        }
+        li{
+            margin-left: -32px;
+            margin-bottom: 0px;
         }
         .geeks-img {
                 position: fixed;
@@ -828,11 +833,8 @@ nav ul li a.current {
                 height: 68px;
                 z-index: 20;
         }
-        a{
-            /* margin-top: -28px; */
-        }
         .fa-3x {
-            font-size: 1.6rem;
+            font-size: 1.1rem;
         }
 
 }
