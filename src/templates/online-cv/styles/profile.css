@@ -553,6 +553,7 @@ nav ul li a.current {
             padding: 0.4rem 0.9rem;
             color: white;
             margin-left: 0;
+            margin-top: -2px;
             }
 
 
@@ -770,7 +771,7 @@ nav ul li a.current {
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 3rem;
-            margin: -5rem 0 2rem 0;
+            margin: -2rem 0 2rem 0;
         }
         .corner-bubble {
             border-radius: 40px;
@@ -1014,7 +1015,7 @@ nav ul li a.current {
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 2rem;
-            margin: -5rem 0 2rem 0;
+            margin: -2rem 0 2rem 0;
         }
 
         .exp-text{
