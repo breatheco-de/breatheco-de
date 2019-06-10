@@ -31,10 +31,9 @@ export default class Home extends React.Component{
         return(
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 p-0">
+                    <div className="col-12 main-body p-0">
                         <div className="parallax" id="section-top">
-                            <div className="row">
-                                <div className="col-12 col-sm-2 menu">
+
                                     <nav className="vertical-menu rounded">
                                         <ul className="rounded-bottom">
                                             <li className="border-bottom">
@@ -52,7 +51,6 @@ export default class Home extends React.Component{
                                                 <a href="#section-1">
                                                     <i className="fas fa-file-invoice fa-3x" />
                                                 </a>
-                                            <div class="overlay">My Name is John</div>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-2">
@@ -91,15 +89,13 @@ export default class Home extends React.Component{
                                             </li>
                                         </ul>
                                     </nav>
-                                </div>
-                                <div className="col-12 col-ms-10">
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
                                         alt="..."
                                     />
-                                </div>
-                            </div>
+
+
                         </div>
                         <div className="row">
                             <div className="col-12 text-center gradient">
