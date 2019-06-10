@@ -33,7 +33,6 @@ export default class Home extends React.Component{
                 <div className="row">
                     <div className="col-12 main-body p-0">
                         <div className="parallax" id="section-top">
-
                                     <nav className="vertical-menu rounded">
                                         <ul className="rounded-bottom">
                                             <li className="border-bottom">
@@ -94,7 +93,6 @@ export default class Home extends React.Component{
                                         className="geeks-img float-right"
                                         alt="..."
                                     />
-
 
                         </div>
                         <div className="row">
