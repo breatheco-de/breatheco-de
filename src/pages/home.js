@@ -1,40 +1,42 @@
-import React from "react";
-import "../templates/online-cv/styles/profile.css"
-import "bootstrap/dist/css/bootstrap.css";
-import ReactTooltip from "react-tooltip";
-import { findDOMNode } from "react-dom";
+// import React from "react";
+// import "../templates/online-cv/styles/home.css"
+// import "bootstrap/dist/css/bootstrap.css";
+// import ReactTooltip from "react-tooltip";
+// import { findDOMNode } from "react-dom";
 
 
-export default class Home extends React.Component{
-    componentDidMount() {
-        let mainNavLinks = document.querySelectorAll("nav ul li a");
-        let mainSections = document.querySelectorAll("main section");
+//export default class Home extends React.Component{
+//     componentDidMount() {
+//         let mainNavLinks = document.querySelectorAll("nav ul li a");
+//         let mainSections = document.querySelectorAll("main section");
 
-        window.onscroll = event => {
-            let fromTop = window.scrollY;
+//         window.onscroll = event => {
+//             let fromTop = window.scrollY;
 
-            mainNavLinks.forEach(link => {
-                let section = document.querySelector(link.hash);
+//             mainNavLinks.forEach(link => {
+//                 let section = document.querySelector(link.hash);
 
-                if (
-                    section.offsetTop <= fromTop &&
-                    section.offsetTop + section.offsetHeight > fromTop
-                ) {
-                    link.classList.add("current");
-                } else {
-                    link.classList.remove("current");
-                }
-            });
-        };
-    }
-    render(){
+//                 if (
+//                     section.offsetTop <= fromTop &&
+//                     section.offsetTop + section.offsetHeight > fromTop
+//                 ) {
+//                     link.classList.add("current");
+//                 } else {
+//                     link.classList.remove("current");
+//                 }
+//             });
+//         };
+//     }
+    {/*render(){
         return(
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 main-body p-0">
+                    <div className="col-12 p-0">
                         <div className="parallax" id="section-top">
-                                    <nav className="vertical-menu rounded">
-                                        <ul className="rounded-bottom">
+                            <div className="row">
+                                <div className="col-12 col-sm-2">
+                                    <nav className=" text-center vertical-menu">
+                                        <ul className="rounded">
                                             <li className="border-bottom">
                                                 <a
                                                     href="#section-top"
@@ -77,23 +79,26 @@ export default class Home extends React.Component{
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
-                                                <a href="#section-7">
+                                                <a href="#section-8">
                                                     <i className="fas fa-graduation-cap fa-3x" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#section-8">
+                                                <a href="#section-9">
                                                     <i className="fas fa-user-alt fa-3x" />
                                                 </a>
                                             </li>
                                         </ul>
                                     </nav>
+                                </div>
+                                <div className="col-12 col-sm-10">
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
                                         alt="..."
                                     />
-
+                                </div>
+                            </div>
                         </div>
                         <div className="row">
                             <div className="col-12 text-center gradient">
@@ -266,10 +271,10 @@ export default class Home extends React.Component{
                                             Startup Hubs, San Francisco
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-side">
+                                    <div className="col-12 col-sm-3 border-left">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="img-fluid w-100 exp-img"
+                                            className="img-fluid w-100"
                                             alt="..."
                                         />
                                     </div>
@@ -319,10 +324,10 @@ export default class Home extends React.Component{
                                             Google, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-side ">
+                                    <div className="col-12 col-sm-3 border-left">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="img-fluid w-100 exp-img"
+                                            className="img-fluid w-100"
                                             alt="..."
                                         />
                                     </div>
@@ -367,10 +372,10 @@ export default class Home extends React.Component{
                                             Amazon, London
                                         </h2>
                                     </div>
-                                    <div className="col-12 col-sm-3 border-side">
+                                    <div className="col-12 col-sm-3 border-left">
                                         <img
                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="img-fluid w-100 exp-img"
+                                            className="img-fluid w-100"
                                             alt="..."
                                         />
                                     </div>
@@ -433,14 +438,16 @@ export default class Home extends React.Component{
                                             <h5 className="card-text text-info">
                                                 #Velocity
                                             </h5>
-                                            <p className="card-text text-muted">
-                                                A responsive website template
-                                                designed to help startup promote,
-                                                market and sell their products.
+                                            <p className="card-text">
+                                                <small className="text-muted">
+                                                    A responsive website template
+                                                    designed to help startup promote,
+                                                    market and sell their products.
+                                                </small>
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-side">
+                                    <div className="col-12 col-md-4 border-left">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -458,13 +465,15 @@ export default class Home extends React.Component{
                                                 #Devstudio
                                             </h5>
                                             <p className="card-text">
+                                                <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
                                                     market and sell their products.
+                                                </small>
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-side">
+                                    <div className="col-12 col-md-4 border-left">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -482,9 +491,11 @@ export default class Home extends React.Component{
                                                 #Tempo
                                             </h5>
                                             <p className="card-text">
+                                                <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
                                                     market and sell their products.
+                                                </small>
                                             </p>
                                         </div>
                                     </div>
@@ -509,15 +520,15 @@ export default class Home extends React.Component{
                                                 #Atom
                                             </h5>
                                             <p className="card-text">
-
+                                                <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
                                                     market and sell their products.
-
+                                                </small>
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-side">
+                                    <div className="col-12 col-md-4 border-left">
                                         <div className="row">
                                             <div className="col-12 col-sm-8">
                                                 <img
@@ -535,15 +546,15 @@ export default class Home extends React.Component{
                                                 #Delta
                                             </h5>
                                             <p className="card-text">
-
+                                                <small className="text-muted">
                                                     A responsive website template
                                                     designed to help startup promote,
                                                     market and sell their products.
-
+                                                </small>
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-4 border-side" />
+                                    <div className="col-12 col-md-4 border-left" />
                                 </div>
                             <hr className="border-bottom" />
                             </section>
@@ -609,7 +620,7 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 border-side px-4">
+                                    <div className="col-12 col-md-6 border-left px-4">
                                         <div className="p-2">
                                             <label className="p">
                                                 <strong>Javascript &amp;jQuery</strong>
@@ -675,15 +686,15 @@ export default class Home extends React.Component{
                                 </div>
                                 <div className="row pt-4">
                                     <div className="col-12 col-md-6">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <h2 className=" font-weight-bold edu-text">
-                                                    MSC IN COMPUTER SCIENCE
-                                                </h2>
-                                                <h3 className="text-muted edu-text">
-                                                    University of London
-                                                </h3>
-                                            </div>
+                                    <div className="row">
+                                    <div className="col-12">
+                                        <h2 className=" font-weight-bold edu-text">
+                                            MSC IN COMPUTER SCIENCE
+                                        </h2>
+                                        <h3 className="text-muted edu-text">
+                                            University of London
+                                        </h3>
+                                        </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-12 col-sm-5">
@@ -695,46 +706,46 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-12 col-sm-2">
+                                            <div className="col-sm-1">
                                                 <i className="far fa-clock fa-2x text-primary" />
                                             </div>
-                                            <div className="col-12 col-sm-10">
+                                            <div className="col-sm-11">
                                                 <label className="years font-weight-bold text-muted">
                                                     2007-2011
                                                 </label>
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-12">
-                                                <p className="p pt-4 text-justify text-muted">
-                                                    Describe your role here lorem ipsum dolor
-                                                    sit amet, consetetuer adipiscing elit.
-                                                    Aenean commodo ligula eget dolor. Aenean
-                                                    massa. Cum soccis natoque penatibus el
-                                                    magnis dis paturrient montes, nascetur
-                                                    ridiculus mus. Donec quam felis, ultricies
-                                                    nec, pellentesque eu, pretium quis sem.
-                                                </p>
-                                                <span className="text-muted p">
-                                                    -Bullet point
-                                                </span>
-                                                <br />
-                                                <span className="text-muted p">
-                                                    -Bullet point
-                                                </span>
-                                            </div>
+                                        <div className="col-12">
+                                        <p className="p pt-4 text-justify text-muted">
+                                            Describe your role here lorem ipsum dolor
+                                            sit amet, consetetuer adipiscing elit.
+                                            Aenean commodo ligula eget dolor. Aenean
+                                            massa. Cum soccis natoque penatibus el
+                                            magnis dis paturrient montes, nascetur
+                                            ridiculus mus. Donec quam felis, ultricies
+                                            nec, pellentesque eu, pretium quis sem.
+                                        </p>
+                                        <span className="text-muted p">
+                                            -Bullet point
+                                        </span>
+                                        <br />
+                                        <span className="text-muted p">
+                                            -Bullet point
+                                        </span>
+                                        </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 BSC-col border-side">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <h2 className="font-weight-bold edu-text">
-                                                    BSC IN APPLIED MATHEMATICS
-                                                </h2>
-                                                <h3 className="text-muted edu-text">
-                                                    Bristol Universit
-                                                </h3>
-                                            </div>
+                                    <div className="col-12 col-md-6 border-left">
+                                    <div className="row">
+                                    <div className="col-12">
+                                        <h2 className="BSC-text font-weight-bold edu-text">
+                                            BSC IN APPLIED MATHEMATICS
+                                        </h2>
+                                        <h3 className="text-muted edu-text">
+                                            Bristol Universit
+                                        </h3>
+                                        </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-12 col-sm-5">
@@ -746,34 +757,34 @@ export default class Home extends React.Component{
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-12 col-sm-2">
+                                            <div className="col-sm-1">
                                                 <i className="far fa-clock fa-2x text-primary" />
                                             </div>
-                                            <div className="col-12 col-sm-10">
+                                            <div className="col-sm-11">
                                                 <label className="years font-weight-bold text-muted">
                                                     2007-2011
                                                 </label>
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-12">
-                                                <p className="p pt-4 text-justify text-muted">
-                                                    Describe your role here lorem ipsum dolor
-                                                    sit amet, consetetuer adipiscing elit.
-                                                    Aenean commodo ligula eget dolor. Aenean
-                                                    massa. Cum soccis natoque penatibus el
-                                                    magnis dis paturrient montes, nascetur
-                                                    ridiculus mus. Donec quam felis, ultricies
-                                                    nec, pellentesque eu, pretium quis sem.
-                                                </p>
-                                                <span className="text-muted p">
-                                                    -Bullet point
-                                                </span>
-                                                <br />
-                                                <span className="text-muted p">
-                                                    -Bullet point
-                                                </span>
-                                            </div>
+                                        <div className="col-12">
+                                        <p className="p pt-4 text-justify text-muted">
+                                            Describe your role here lorem ipsum dolor
+                                            sit amet, consetetuer adipiscing elit.
+                                            Aenean commodo ligula eget dolor. Aenean
+                                            massa. Cum soccis natoque penatibus el
+                                            magnis dis paturrient montes, nascetur
+                                            ridiculus mus. Donec quam felis, ultricies
+                                            nec, pellentesque eu, pretium quis sem.
+                                        </p>
+                                        <span className="text-muted p">
+                                            -Bullet point
+                                        </span>
+                                        <br />
+                                        <span className="text-muted p">
+                                            -Bullet point
+                                        </span>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -871,4 +882,4 @@ export default class Home extends React.Component{
             </div>
         );
     }
-}
+}*/}
