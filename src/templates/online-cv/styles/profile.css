@@ -7,13 +7,11 @@
 }
 
 
-
-
 nav {
   white-space: nowrap;
 }
 nav ul {
-  list-style: none;
+  list-style-type: none;
     margin: 0;
     padding: 0;
 
@@ -34,6 +32,7 @@ nav ul li a:hover { text-decoration: none; }
 
 nav ul li a.current {
   background: #d3a80c;
+  margin-bottom: -1px;
 }
 
 
@@ -41,6 +40,29 @@ nav ul li a.current {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 300px) {
+    .gradient {
+            display: block;
+            position: absolute;
+            background: linear-gradient( rgba(255, 255, 255, 0), white);
+            margin-top: -150px;
+            height: 151px;
+            width: 100%;
+            content: '';
+            padding: 0;
+        }
+    .vertical-menu{
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 42px;
+            font-size: 0px;
+            text-align:center;
+            z-index: 20;
+            position: fixed;
+            margin-top: -23px;
+
+        }
         nav ul li a {
             display: block;
             padding: 0.4rem 0.9rem;
