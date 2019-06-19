@@ -1,6 +1,6 @@
 /*styles*/
 
-html {
+/*html {
     scroll-behavior: smooth;
   }
   
@@ -31,13 +31,13 @@ html {
   nav ul li a.current {
     background: #d3a80c;
     margin-bottom: -1px;
-  }
+  }*/
   
   
   
   
   /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-width: 300px) {
+  /*@media only screen and (min-width: 300px) {
       .gradient {
               display: block;
               position: absolute;
@@ -215,10 +215,10 @@ html {
           .border-side{
               border-left: none !important;
   
-          }
+          }*/
   
           /*styles vertical menu*/
-          .vertical-menu{
+          /*.vertical-menu{
               display: flex;
               -ms-flex-direction: column;
               flex-direction: column;
@@ -238,7 +238,7 @@ html {
           }
           .fa-3x {
               font-size: 0.66rem;
-              /* padding-left: 4px; */
+              
           }
           .img-menu {
               width: 16px;
@@ -330,7 +330,7 @@ html {
           .exp-img{
               width: 80%;
           }
-          /*styles vertical menu*/
+          
           .vertical-menu{
               display: flex;
               -ms-flex-direction: column;
@@ -380,7 +380,7 @@ html {
   }
   
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
+  
    @media only screen and (min-width: 600px){
           .parallax {
               background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
@@ -523,7 +523,7 @@ html {
                   height: 39px;
                   z-index: 20;
           }
-          /*styles vertical menu*/
+     
           .vertical-menu{
               display: flex;
               -ms-flex-direction: column;
@@ -563,7 +563,7 @@ html {
   }
   
   
-  /* Medium devices (landscape tablets, 768px and up) */
+ 
   @media only screen and (min-width: 768px) {
       .parallax {
               background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
@@ -705,7 +705,7 @@ html {
           .edu-text{
               font-size: 0.7rem;
           }
-          /*styles vertical menu*/
+        
           .vertical-menu{
               display: flex;
               -ms-flex-direction: column;
@@ -742,7 +742,7 @@ html {
   
   }
   
-  /* Large devices (laptops/desktops, 992px and up) */
+ 
    @media only screen and (min-width: 992px) {
           .parallax {
               background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
@@ -880,7 +880,7 @@ html {
                   height: 50px;
                   z-index: 20;
           }
-          /*styles vertical menu*/
+         
           .vertical-menu{
               display: flex;
               -ms-flex-direction: column;
@@ -917,14 +917,14 @@ html {
   
            .overlay {
               position: absolute;
-              /* bottom: 0; */
+              
               background: rgb(0, 0, 0);
-              background: rgba(0, 0, 0, 0.5); /* Black see-through */
+              background: rgba(0, 0, 0, 0.5);
               color: #f1f1f1;
               width: auto;
               transition: .5s ease;
               opacity:0;
-              /* color: white; */
+            
               font-size: 20px;
               padding: 5px;
               text-align: center;
@@ -935,7 +935,7 @@ html {
   
   }
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
+
    @media only screen and (min-width: 1024px){
           .parallax {
               background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
@@ -1085,7 +1085,7 @@ html {
                   height: 68px;
                   z-index: 20;
           }
-          /*styles vertical menu*/
+     
           .vertical-menu{
               display: flex;
               -ms-flex-direction: column;
@@ -1108,11 +1108,10 @@ html {
               color: white;
               margin-left: 0;
               }
-          /* overlay summary*/
+
           .overlay {
               position: absolute;
               background: rgb(0, 0, 0);
-              background: rgba(0, 0, 0, 0.5); /* Black see-through */
               color: #f1f1f1;
               width: auto;
               transition: .5s ease;
@@ -1127,7 +1126,7 @@ html {
   
   
   }
-  /* overlay hover */
+
         .summary:hover .overlay{
               opacity: 1;
               color:#E2B921;
@@ -1172,19 +1171,19 @@ html {
   
     .sample > li a:hover{
           color:#f7f8f9;
-          /* border-left: 2px solid #E2B921; */
-      }
+       
+      }*/
   
   
   
-  .section-8 {
+  /*.section-8
       margin-bottom: 600PX;
-  }
+  }*/
   
-  .container-fluid{
+  /*.container-fluid{
     top:0;
     left:0;
     display: absolute;
   
   
-  }
+  }*/
