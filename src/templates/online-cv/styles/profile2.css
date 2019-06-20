@@ -1,28 +1,66 @@
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 .parallax{
-    background-image: url('https://biographicsworld.com/wp-content/uploads/2019/02/jason-statham-683x1024.png');   
+    background-image: url('http://beta.ems.ladbiblegroup.com/s3/content/808x455/9d0f7bf45cc6c96b5296836f2a08e928.png');   
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
     background-attachment: fixed;
     position: relative;
 }
+.vertical-menu{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    width: 68px;
+    font-size: 1px;
+    text-align:center;
+    z-index: 20;
+    position: fixed;
+    /* margin-top: -35px; */
+}
+.img-menu {
+    width: 28px;
+    height: 28px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left:-3px;
+}
+.fa-3x {
+    font-size: 1.1rem;
+    color: white;
+}
+
+li{
+    margin: 22px 10px;
+}
+/* nav ul li a {
+    display: block;
+    padding: 0.4rem 0.9rem;
+    color: white;
+  } */
+@media only screen and (min-height: 300px) {
+    nav ul {
+      position: sticky;
+      top: 0;
+      background-color:black;
+      margin-left: 0px;
+    }
+  }
 
 @media only screen and (min-width: 1024px) {
-    .parallax{
-        background-image: url('https://biographicsworld.com/wp-content/uploads/2019/02/jason-statham-683x1024.png');   
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 800px;
-        background-attachment: fixed;
-        position: relative;
-    }
+
 }
 
 
 @media only screen and (min-width: 992px){
     .parallax{
-        background-image: url('https://biographicsworld.com/wp-content/uploads/2019/02/jason-statham-683x1024.png');   
+        background-image: url('http://beta.ems.ladbiblegroup.com/s3/content/808x455/9d0f7bf45cc6c96b5296836f2a08e928.png');   
         background-repeat: no-repeat;
         background-size: 100%;
         height: 800px;
@@ -33,7 +71,7 @@
 
 @media only screen and (min-width: 778px){
     .parallax{
-        background-image: url('https://biographicsworld.com/wp-content/uploads/2019/02/jason-statham-683x1024.png');   
+        background-image: url('http://beta.ems.ladbiblegroup.com/s3/content/808x455/9d0f7bf45cc6c96b5296836f2a08e928.png');   
         background-repeat: no-repeat;
         background-size: 100%;
         height: 800px;
