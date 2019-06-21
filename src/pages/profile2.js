@@ -63,7 +63,7 @@ export default class Profile2 extends React.Component{
                                         </a>
                                         <span className="overlay">Education</span>
                                     </li>
-                                    <li className="border-bottom contact">
+                                    <li className="contact">
                                         <a href="#section-8">
                                             <i className="fas fa-user-alt fa-3x" />
                                         </a>
@@ -72,13 +72,28 @@ export default class Profile2 extends React.Component{
                                 </ul>
                             </nav>
                         </div>
-                        <div className="row">
+                        <div className="row gradient">
                             <div className="col-12 text-center">
-                                <p className="display-4">JASON<strong>&nbsp;STATHAM</strong></p>
-                                <p className="name-2" style={{fontSize:'36px'}}>full-Stack Developer</p>
+                            <div className="container">
+                                <p className="font-weight-light" style={{fontSize:'105px', paddingTop:'34px'}}>JASON<strong className="font-weight-bold">&nbsp;STATHAM</strong></p>
+                                <p className="font-weight-light  border-bottom" style={{fontSize:'40px', marginTop:'-61px'}}>Full-Stack Developer</p>
+                            </div>
                             </div>
                         </div>
-                        
+                        <div className="container">
+                            <div className="row text-center">
+                                <div className="col-12 col-md-6">
+                                    <p className="font-italic">I like saving the world</p>
+                                </div>
+                                <div className="col-12 col-md-6">
+                                    <p className="font-italic">Killing bad boys</p>
+                                </div>
+                            </div>
+
+                            <section className="section-1"  id="section-1">
+
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
