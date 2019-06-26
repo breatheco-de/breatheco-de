@@ -3,7 +3,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 .parallax{
     background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
     background-repeat: no-repeat;
@@ -12,7 +11,6 @@ html{
     background-attachment: fixed;
     position: relative;
 }
-
 .vertical-menu{
     display: flex;
     -ms-flex-direction: column;
@@ -34,17 +32,25 @@ html{
     margin-left:-3px;
 }
 
-.gradient {
+/* .gradient {
     display: block;
     position: absolute;
     background: linear-gradient( rgba(255, 255, 255, 0), white);
-    margin-top: -223px;
+    margin-top: -251px;
     height: 225px;
     width: 102%;
     content: '';
     padding: 0;
+} */
+.gradient {
+    height: 200px;
+    margin-top: -199px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    margin-left: 15px;
+    background: linear-gradient( rgba(255, 255, 255, 0), white);
 }
-
 .fa-3x {
     font-size: 1.25rem;
     color: white;
@@ -65,13 +71,6 @@ li{
     font-weight: 200 !important;
 }
 
-nav ul li a {
-    display: block;
-    padding: 0.9rem 0.5rem;
-    color: white;
-  }
-
-  /* overlay */
   .overlay {
     position: absolute;
     background: rgb(0, 0, 0);
@@ -82,50 +81,26 @@ nav ul li a {
     font-size: 29px;
     padding:11px;
     text-align: center;
-    margin-left: 48px;
+    margin-left: 46px;
     margin-top: -65px;
     }
+    .fa-3x:hover{
+        color:#E2B921;
+    }
+
+    .summary:hover .overlay, 
+    .language:hover .overlay, 
+    .interests:hover .overlay, 
+    .experiences:hover .overlay, 
+    .project:hover .overlay, 
+    .skills:hover .overlay, 
+    .education:hover .overlay, 
+    .contact:hover .overlay {
+        opacity: 0.7;
+        color:#E2B921;
+        text-align: left;
+    }
     
-    .summary:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .language:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .interests:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .experiences:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .project:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .skills:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .education:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
-    .contact:hover .overlay{
-        opacity: 0.7;
-        color:#E2B921;
-        text-align: left;
-    }
 
     .border{
         border: 2px solid grey;
@@ -137,7 +112,6 @@ nav ul li a {
  
     }
 
-    /* bubble */
 
     .bubble {
         position: relative;
@@ -145,7 +119,9 @@ nav ul li a {
         border-radius: 4em;
         margin-top: 44px;
         color: white;
-        font-size: 39px;
+        font-size: 38px;
+        width: 97%;
+        height: 59px;
     }
     .bubble:after {
         content: '';
@@ -154,11 +130,11 @@ nav ul li a {
         left: 50%;
         width: 0;
         height: 0;
-        border: 10px solid transparent;
+        border: 23px solid transparent;
         border-top-color: #000000;
         border-bottom: 0;
-        margin-left: -11px;
-        margin-bottom: -10px;
+        margin-left: -19px;
+        margin-bottom: -22px;
     }
 
     .icon-section-1{
@@ -166,26 +142,47 @@ nav ul li a {
         height: 50px;
         overflow: hidden;
         padding-top: 7px;
-        padding-left: 5px;
+        padding-left: 2px;
         border: 5px solid black;
         border-radius: 50%;
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     }
-    .icon-section-2, .icon-section-3, .icon-section-4, .icon-section-5, .icon-section-6, .icon-section-7, .icon-section-8 {
+    .icon-section {
         width: 50px;
         height: 50px;
         overflow: hidden;
-        padding-top: 7px;
+        padding-top: 8px;
         padding-left: 1px;
         border: 5px solid black;
         border-radius: 50%;
-        font-size: 26px;
+        font-size: 23px;
         text-align: center;
     }
     .p{
-        font-size: 1.2rem;
-        line-height: 1.3rem;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        font-weight: 300 !important;
+    }
+    .bullet{
+        margin-top: -24px;
+    }
+    .card-label{
+        color: rgb(47, 173, 237);
+        font-size: 28px;
+        line-height: 0rem;
+        text-decoration: underline;
+    }
+    .card-text{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .exp-text{
+        font-size: 1.3rem;
+        line-height: 1rem;
+    }
+    .exp-border{
+        border-bottom: 4px solid #2faded;
     }
     .idiom-p{
         font-size: 1.2rem;
@@ -194,16 +191,66 @@ nav ul li a {
     .border-section{
         border-bottom: 2px solid grey;
     }
+    .border-side {
+        border-left: 2px solid grey !important;
+    }
     .title{
         font-size: 1.9rem;
-        margin-left: 5px;
+        margin-left: 0px;
         margin-top: -5px;
         font-weight: 240 !important;
         letter-spacing: 12px;
         
     }
-    
-  /*  */
+    .clock{
+        color:#2faded;
+    }
+    .year{
+        font-weight: 600 !important;
+        font-size: 1.3rem;
+        margin: 0px -35px;
+    }
+    .edu-p{
+        font-size: 0.8rem;
+        font-weight: 400 !important;
+    }
+    .border-sample{
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 150px;
+        width: 70%;
+    }
+    .city{
+        margin-top: -15px;
+    }
+
+    .geeks-img {
+        position: fixed;
+        right: 32px;
+        top: 17px;
+        height: 85px;
+        z-index: 20;
+}
+.name{
+    font-size: 94px;
+    padding-top: 34px;
+}
+.profession{
+    font-size: 34px;
+    margin-top: -61px;
+}
+.focus{
+    font-size: 1.7rem;
+    margin-top: 0.8rem;
+}
+
+.motto{
+    font-size: 1.7rem;
+    margin-top: 0.8rem;
+}
+
 @media only screen and (min-height: 300px) {
     nav ul {
       position: sticky;
@@ -212,16 +259,156 @@ nav ul li a {
       margin-left: 0px;
     }
   }
-
+  nav ul li a {
+    display: block;
+    padding: 0.9rem 0.5rem;
+    color: white;
+  }
+  nav ul li a:hover { text-decoration: none; }
   
+  nav ul li a.current {
+    background: #d3a80c;
+    margin-bottom: -1px;
+  }
+  nav {
+    white-space: nowrap;
+  }
+  nav ul {
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+  
+  }
+@media only screen and (min-width: 320px){
+
+}
 @media only screen and (min-width: 778px){
 
 }
 
 @media only screen and (min-width: 992px){
     
+
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1150px){
+    .parallax{
+        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 680px;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .gradient {
+        /* background-image: linear-gradient(to top , white , transparent); */
+        height: 200px;
+        margin-top: -199px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-left: 15px;
+        background: linear-gradient( rgba(255, 255, 255, 0), white);
+    }    
+    /* .sample{
+        margin-right: -59px;
+        margin-left: 59px;
+    } */
+    .bubble {
+        position: relative;
+        background: #000000;
+        border-radius: 4em;
+        margin-top: 44px;
+        color: white;
+        font-size: 31px;
+        width: 80%;
+        height: 49px;
+    }
+    .bubble:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 23px solid transparent;
+        border-top-color: #000000;
+        border-bottom: 0;
+        margin-left: -19px;
+        margin-bottom: -13px;
+    }
     
+    .motto, .focus{
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+        margin-left: -83px;
+    }
+    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+        margin-left: 62px;
+        margin-right: 62px;
+    }
+    .geeks-img {
+        position: fixed;
+        right: 23px;
+        top: 13px;
+        height: 78px;
+        z-index: 20;
+    }
+    .sample{
+        margin-right: -59px;
+        margin-left: 59px
+    }
+    .name {
+        font-size: 86px;
+        padding-top: 47px;
+    }
+    .vertical-menu{
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 87px;
+        font-size: 1px;
+        text-align:center;
+        z-index: 20;
+        position: fixed;
+    }
+    img-menu {
+        width: 38px;
+        height: 38px;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin-left: -3px;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0.8rem 0.2rem;
+        color: white;
+    }
+    .overlay {
+        position: absolute;
+        background: rgb(0, 0, 0);
+        color: #f1f1f1;
+        width: auto;
+        transition: .5s ease;
+        opacity:0;
+        font-size: 26px;
+        padding:11px;
+        text-align: center;
+        margin-left: 42px;
+        margin-top: -62px;
+    }
+    .summary:hover .overlay, 
+    .language:hover .overlay, 
+    .interests:hover .overlay, 
+    .experiences:hover .overlay, 
+    .project:hover .overlay, 
+    .skills:hover .overlay, 
+    .education:hover .overlay, 
+    .contact:hover .overlay {
+        opacity: 0.7;
+        color:#E2B921;
+        text-align: left;
+    }
 }
+
