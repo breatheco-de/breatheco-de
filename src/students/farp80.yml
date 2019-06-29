@@ -15,7 +15,11 @@ basic_info:
     focus:
 
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Born in Cuba, raised in argentina, currently in Miami Beach. 2010-graduate as Fashion Designer, Argentina. 2011-Started working as a freelance Graphic Designer. 2012- Studied bookkeeping, at Miami Dade College. 2014-Became a Mom of a Boy (Benjamin) 2016-Studied for Computer graphic Designer. Experienced in Marketing, Costumer service, and Business management.
+    summary: Born in Cuba, lived there for 27 years. Living in USA since 2008, currently located in Miami.
+             Bachelors in Telecommunications and Electronic since 2004 in East University, Santiago de Cuba, Cuba,
+             Msc in Telecommunications and Networking at FIU in 2015, major in Wireless Communications.
+             Currently working as Software System Developer for a Telecommunications Company, HQ in Belgium since 2015.
+             Exposed to C#, WebAPIs, RestAPIs, javascript, jquery.
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://static.wixstatic.com/media/a7b4e1_c78f63656f73403cba6b4449e1f241c1.jpg/v1/fill/w_319,h_319,al_c,q_80,usm_0.66_1.00_0.01/a7b4e1_c78f63656f73403cba6b4449e1f241c1.webp
@@ -46,64 +50,68 @@ basic_info:
 
       - item: Robots
 
+      - items: Movies
+
 # Your previous education
 education:
-    - degree: Marketing & Accounting
-      university: Niu-Argentina
-      time: 2004 - 2005
+    - degree: Msc Telecommunication and Networking
+      university: FIU, Miami, FL
+      time: 2013 - 2015
 
-    - degree: Fashion Designer
-      university: Fashion School of Argentina
-      time: 2007 - 2010
-
-    - degree: Computer Graphic Designer
-      university: Penn Foster
-      time: 2016 - 2018
+    - degree: Bachelors in Telecommunications and Electronic
+      university: East University, Santiago de Cuba, Cuba
+      time: 1998 - 2004
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Marketing & Management
-      time: 2012 - Present
-      details: Manager of chain of restaurant, for sales and marketing.
+    - role: Software System Developer
+      time: 2015 - Present
+      details: Integrating devices to a monitoring and management software (DataMiner) via C#, RestAPIs, SQL.
 
-    - role: Graphic Designer (selfemployed)
-      time: 2011 - Present
-      details: Worked for several companies, creating their  Marketing profiles, and Design.
+    - role: IT Support Specialist
+      time: 2011 - 2015
+      details: Worked with the IT Administrator creating backups, cheking the health of the entire network.
 
-    - role: Marketing & Accounts Manager
-      time: 2006 - 2010
-      company: Movistar-Telefonica, Argentina
-      details: Nationwide Phone company, Argentina.
+    - role: Application Developer - entry Level
+      time: 2008 - 2008
+      company: Yanes Consulting Inc.
+      details: Developed a Desktop Application together with the CEO of the Company in C# 1.0
 
 # Your project portfolio
 projects:
     intro:
       My Proyects at 4geeks academy, learning to code
     assignments:
-     - title: Postcard
-       link: "https://github.com/azubota/Mypostcard"
-       tagline: First job of html5/css3
+     - title: Instragram
+       link: "https://github.com/farp80/InstagramWithBootstrap"
+       tagline: Responsive instagram created using bootstrap
 
      - title: Instagram feed 1
-       link: "https://github.com/azubota/instagram"
-       tagline: First Instagram feed
+       link: "https://github.com/farp80/InstagramPhotoFeed"
+       tagline: First Instagram feed, CSS, HTML5
 
-     - title: Instagram feed 2
-       link: "https://github.com/azubota/instagram-bootstrap"
-       tagline: Responsive instagram created using bootstrap
+     - title: Excuse Generator
+       link: "https://github.com/farp80/TheExcuseGenerator"
+       tagline: javascript
 skills:
     toolset:
       - name: HTML5 & CSS
         level: 40%
 
-      - name: Sketch & Photoshop
-        level: 100%
+      - name: C#
+        level: 80%
 
-      - name: Illustrator & Indesign
-        level: 100%
+      - name: WebAPIs
+        level: 60%
 
-      - name: Photography
-        level: 100%
+      - name: Javascript
+        level: 50%
 
-      - name: Quickbooks
-        level: 100%
+      - name: JQuery
+        level: 50%
+
+      - name: JSON
+        level: 60%
+
+      - name: XML
+        level: 60%
