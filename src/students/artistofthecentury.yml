@@ -9,33 +9,29 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andrés
-    last_name: Silva
+    first_name: Joel
+    last_name: Torres
 
     # Define yourself in 4-5 words
-    motto: Me gusta la vida
+    motto: I speak english and spanish
 
     # focus
-    focus: Killing Bad Boys
+    focus: First pull request ever
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+     adding a sample paragraph. This is a sample. I am a student. 
+     the application will automatically generate my student portfolio.
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiFzuWRiY_jAhUs11kKHak6CNUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fgithub.com%252Flogos%26psig%3DAOvVaw13a4SZPf58Rwt1lPILffSp%26ust%3D1561910756670797&psig=AOvVaw13a4SZPf58Rwt1lPILffSp&ust=1561910756670797
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 966358252l
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: jft111@outlook.com #optional
+    phone: 666-666-666
+    website: github.com #optional
+    linkedin: google.com #optional
 
     #
     # ******** IMPORTANT *******
@@ -47,27 +43,25 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: español
-        level: Nativo
+      - idiom: english
+        level: Native
 
-      - idiom: español
-        level: Nativo
+      - idiom: spanish
+        level: a little bit
 
-      - idiom: español
-        level: Nativo
 
     # Interests or hobies
     interests:
-      - item: deporte
+      - item: art
 
-      - item: video juegos
+      - item: codeing
 
-      - item: naturaleza
+      - item: working
 
 # Your previous education
 education:
-    - degree:
-      university:
+    - degree: certificate of completion
+      university: 4geeks academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
