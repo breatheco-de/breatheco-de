@@ -22,7 +22,7 @@ basic_info:
              Exposed to C#, WebAPIs, RestAPIs, javascript, jquery.
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://static.wixstatic.com/media/a7b4e1_c78f63656f73403cba6b4449e1f241c1.jpg/v1/fill/w_319,h_319,al_c,q_80,usm_0.66_1.00_0.01/a7b4e1_c78f63656f73403cba6b4449e1f241c1.webp
+    avatar: http://underscoopfire.com/wp-content/uploads/2015/02/gobots-cykill-crasher.jpg
 
     # Contact Information
     email: farp80@gmail.com #optional
