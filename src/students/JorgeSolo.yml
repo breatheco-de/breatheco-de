@@ -1,0 +1,108 @@
+        #
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Solo
+
+    # Define yourself in 4-5 words
+    motto: I dont lose I just win or learn.
+
+    # focus
+    focus: App Development
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      International Peple person. Interested in being necessary at all times. Web Development is the the first career I have wanted since a young age, my life just took me into nursing.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: #optional
+    website: #optional
+    linkedin: #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: Jorge Solo
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Nursing
+
+      - item: Art
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: As in Nursing
+      university: Fortis college
+      time: 2013-2019
+      details:
+
+# Your previous job experiences or voluntier
+experiences:
+    - role:
+      time:
+      company:
+      details: |
+
+
+# Your project portfolio
+projects:
+    intro: >
+
+
+    assignments:
+      - title:
+        link: "
+        tagline:
+
+      - title: Siplik
+        link: "#"
+        tagline: "Online Medical Histories"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: React
+        level: 80%
+
+      - name: PWA
+        level: 80%
+
+      - name: Wordpress
+        level: 85%
+
+      - name: PHP
+        level: 90%
+
+      - name: Python Django
+        level: 75%
