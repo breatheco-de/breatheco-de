@@ -7,8 +7,8 @@ export default class Profile2 extends React.Component{
         return(
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 p-0">
-                        <div className="parallax p-0">
+                    <div className="col-12 parallax p-0">
+                        
                             <nav className="vertical-menu">
                                 <ul className="pointer">
                                     <li className="border-bottom">
@@ -75,32 +75,33 @@ export default class Profile2 extends React.Component{
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
                                         alt="..."/>
-                        </div>
+                    </div>
+                </div>
                         
-                        <div className="row text-center">
-                            <div className="col-12 gradient p-0">
+                        <div className="row gradient">
+                            <div className="col-12 text-center">
                                 <p className="font-weight-light name">JASON<strong className="font-weight-bold">&nbsp;STATHAM</strong></p>
                                 <p className="font-weight-light profession">Full-Stack Developer</p>
-                                <hr className="border-sample"/>
+                                <hr className="line-bottom"/>
                             </div>
                         </div>
-                        <div className="container">
-                            <div className="row text-center">
-                                <div className="col-12 col-md-6 sample"> 
-                                    <div className="bubble font-italic">
+                        <div className="container pt-4">
+                            <div className="row text-center bubbles pt-4">
+                                <div className="col-12 col-md-6"> 
+                                    <div className="bubble font-italic ">
                                         <p>I like saving the world</p>
                                     </div>
-                                        <p className="font-weight-light font-italic p motto">Motto</p>
+                                        <p className="font-weight-light font-italic motto">Motto</p>
                                 </div>
-                                <div className="col-12 col-md-6">
+                                <div className="col-12 col-md-6 pl-4">
                                     <div className="bubble font-italic">
                                         <p>Killing Bad Boys</p>
                                     </div>
-                                        <p className="font-weight-light font-italic p focus">Focus</p>
+                                        <p className="font-weight-light font-italic focus">Focus</p>
                                 </div>
                             </div>
-                            <div className="container sections pt-4">
-                                <section className="section-1 pt-4 border-section"  id="section-1">
+                            <div className="container pt-4">
+                                <section className="section-1 border-section"  id="section-1">
                                     <div className="row pt-4">
                                         <div className="col-md-1 pr-0">
                                             <i className="fas fa-file-invoice text-warning icon-section-1" />
@@ -153,7 +154,7 @@ export default class Profile2 extends React.Component{
                                         </div>
                                     </div>
                                     <div className="container py-4">
-                                        <div className="row idiom-p px-4">
+                                        <div className="row idiom px-4">
                                             <div className="col-12 col-sm-4 ">
                                                 <label><strong>Idiom:</strong></label>
                                                 <label className="p">&nbsp;English</label>
@@ -167,7 +168,7 @@ export default class Profile2 extends React.Component{
                                                 <label className="p">&nbsp;Spanish</label>
                                             </div>
                                         </div>
-                                        <div className="row idiom-p px-4">
+                                        <div className="row level px-4">
                                             <div className="col-12 col-sm-4">
                                                 
                                                 <label><strong>Level:</strong></label>
@@ -178,7 +179,7 @@ export default class Profile2 extends React.Component{
                                                 <label><strong>Level:</strong></label>
                                                 <label className="p">&nbsp;Professional</label>
                                             </div>
-                                            <div className="col-12 col-sm-4">
+                                            <div className="col-12 col-sm-4 ">
                                                 <label><strong>Level:</strong></label>
                                                 <label className="p">&nbsp;Professional</label>
                                             </div>
@@ -221,7 +222,7 @@ export default class Profile2 extends React.Component{
                                     </div>
                                     <div className="row pt-4">
                                         <div className="col-12 col-sm-9">
-                                            <h4 className="font-weight-bold">LEAD DEVELOPER</h4>
+                                            <h4 className="font-weight-bold pt-2">LEAD DEVELOPER</h4>
                                             <h5 className="text-muted">2015-Present</h5>
                                             <label className="font-weight-light text-muted exp-text">Startup Hubs, San Francisco</label>
                                         </div>
@@ -260,7 +261,7 @@ export default class Profile2 extends React.Component{
 
                                     <div className="row pt-4">
                                         <div className="col-12 col-sm-9">
-                                            <h4 className="font-weight-bold">SENIOR SOFTWARE ENGINEER</h4>
+                                            <h4 className="font-weight-bold pt-2">SENIOR SOFTWARE ENGINEER</h4>
                                             <h5 className="text-muted">2014-2015</h5>
                                             <label className="font-weight-light text-muted exp-text">Google, London</label>
                                         </div>
@@ -298,7 +299,7 @@ export default class Profile2 extends React.Component{
 
                                     <div className="row pt-4">
                                         <div className="col-12 col-sm-9">
-                                            <h4 className="font-weight-bold">UI DEVELOPER</h4>
+                                            <h4 className="font-weight-bold pt-2">UI DEVELOPER</h4>
                                             <h5 className="text-muted">2012-2014</h5>
                                             <label className="font-weight-light text-muted exp-text">Amazon, London</label>
                                         </div>
@@ -347,8 +348,8 @@ export default class Profile2 extends React.Component{
                                     </div>
                                     <div className="row py-4">
                                         <div className="col-12">
-                                            <div className="card-group exp-border py-4">
-                                                <div className="card border-0">
+                                            <div className="card-group exp-border pb-4">
+                                                <div className="card px-2 border-0">
                                                     <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png" class="card-img-top" alt="..."/>
                                                     <div className="card-body">
                                                     <h5 className="card-title">VELOCITY</h5>
@@ -358,7 +359,7 @@ export default class Profile2 extends React.Component{
                                                         market and sell their products.</p>
                                                     </div>
                                                 </div>
-                                                <div className="card border-top-0 border-right-0 border-bottom-0 border-side">
+                                                <div className="card px-2 border-top-0 border-right-0 border-bottom-0 border-side">
                                                     <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png" className="card-img-top" alt="..."/>
                                                     <div className="card-body">
                                                     <h5 className="card-title">DEVSTUDIO</h5>
@@ -368,7 +369,7 @@ export default class Profile2 extends React.Component{
                                                         market and sell their products.</p>
                                                     </div>
                                                 </div>
-                                                <div className="card border-top-0 border-right-0 border-bottom-0 border-side">
+                                                <div className="card px-2 border-top-0 border-right-0 border-bottom-0 border-side">
                                                     <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png" className="card-img-top" alt="..."/>
                                                     <div className="card-body">
                                                     <h5 className="card-title">TEMPO</h5>
@@ -383,8 +384,8 @@ export default class Profile2 extends React.Component{
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <div className="card-group py-4">
-                                                <div className="card border-0">
+                                            <div className="card-group pb-4">
+                                                <div className="card px-2 border-0">
                                                     <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png" class="card-img-top" alt="..."/>
                                                     <div className="card-body">
                                                     <h5 className="card-title">VELOCITY</h5>
@@ -394,7 +395,7 @@ export default class Profile2 extends React.Component{
                                                         market and sell their products.</p>
                                                     </div>
                                                 </div>
-                                                <div className="card border-top-0 border-right-0 border-bottom-0 border-side">
+                                                <div className="card px-2 border-top-0 border-right-0 border-bottom-0 border-side">
                                                     <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png" className="card-img-top" alt="..."/>
                                                     <div className="card-body">
                                                     <h5 className="card-title">DEVSTUDIO</h5>
@@ -404,7 +405,7 @@ export default class Profile2 extends React.Component{
                                                         market and sell their products.</p>
                                                     </div>
                                                 </div>
-                                                <div className="card border-top-0 border-right-0 border-bottom-0 border-side">
+                                                <div className="card px-2 border-top-0 border-right-0 border-bottom-0 border-side">
                                                     
                                                 </div>
                                             </div>
@@ -537,11 +538,12 @@ export default class Profile2 extends React.Component{
                                         </div>
                                     </div>
                                     <div className="row py-4">
-                                        <div className="col-12 col-md-6 pr-4">
-                                            <h5 className="font-weight-bold">MCS IN COMPUTER SCIENCE</h5>
+                                        <div className="col-12 col-md-6">
+                                        
+                                            <label className="font-weight-bold edu-title">MCS IN COMPUTER SCIENCE</label>
                                             <p className="p city">University of London</p>
                                             <div className="row">
-                                                <div className="col-12 col-sm-6">
+                                                <div className="col-12 col-sm-8">
                                                     <img
                                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                             className="w-100 img-fluid"
@@ -556,8 +558,10 @@ export default class Profile2 extends React.Component{
                                                 <div className="col-12 col-sm-10">
                                                     <label className="year">2011-2012</label>
                                                 </div>
-                                            </div>          
-                                            <p className="pt-4 text-justify edu-p">
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-12">
+                                                <p className="pt-4 text-justify edu-p">
                                                     Describe your role here lorem ipsum dolor
                                                     sit amet, consetetuer adipiscing elit.
                                                     Aenean commodo ligula eget dolor. Aenean
@@ -565,15 +569,19 @@ export default class Profile2 extends React.Component{
                                                     magnis dis paturrient montes, nascetur
                                                     ridiculus mus. Donec quam felis, ultricies
                                                     nec, pellentesque eu, pretium quis sem.
-                                            </p>
-                                            <p className="edu-p">-Bullet point</p>
-                                            <p className="edu-p bullet">-Bullet point</p>
+                                                </p>
+                                                <p className="edu-p">-Bullet point</p>
+                                                <p className="edu-p bullet">-Bullet point</p>
+                                                </div>
+                                            </div>          
+                                        
                                         </div>
-                                        <div className="col-12 col-md-6 border-side pl-4">
-                                            <h5 className="font-weight-bold">MCS IN APPLIED MATHEMATICS</h5>
+                                        <div className="col-12 col-md-6 border-side">
+                                        
+                                            <label className="font-weight-bold edu-title">BSC IN APPLIED MATHEMATICS</label>
                                             <p className="p city">Bristol University</p>
                                             <div className="row">
-                                                <div className="col-12 col-sm-6">
+                                                <div className="col-12 col-sm-8">
                                                     <img
                                                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
                                                             className="w-100 img-fluid"
@@ -589,17 +597,21 @@ export default class Profile2 extends React.Component{
                                                     <label className="year">2007-2011</label>
                                                 </div>
                                             </div>
-                                            <p className="pt-4 text-justify edu-p">
-                                                    Describe your role here lorem ipsum dolor
-                                                    sit amet, consetetuer adipiscing elit.
-                                                    Aenean commodo ligula eget dolor. Aenean
-                                                    massa. Cum soccis natoque penatibus el
-                                                    magnis dis paturrient montes, nascetur
-                                                    ridiculus mus. Donec quam felis, ultricies
-                                                    nec, pellentesque eu, pretium quis sem.
-                                            </p>
-                                            <p className="edu-p">-Bullet point</p>
-                                            <p className="edu-p bullet">-Bullet point</p>
+                                            <div className="row">
+                                            <div className="col-12">
+                                                <p className="pt-4 text-justify edu-p">
+                                                        Describe your role here lorem ipsum dolor
+                                                        sit amet, consetetuer adipiscing elit.
+                                                        Aenean commodo ligula eget dolor. Aenean
+                                                        massa. Cum soccis natoque penatibus el
+                                                        magnis dis paturrient montes, nascetur
+                                                        ridiculus mus. Donec quam felis, ultricies
+                                                        nec, pellentesque eu, pretium quis sem.
+                                                </p>
+                                                <p className="edu-p">-Bullet point</p>
+                                                <p className="edu-p bullet">-Bullet point</p>
+                                            </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </section>
@@ -616,21 +628,19 @@ export default class Profile2 extends React.Component{
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                        <ul className="list-group">
-                                            <li className="list-group-item border-0"><i className="fas fa-envelope fa-2x"></i><label className="p pl-4">jason@jasonstatham.com</label></li>
-                                            <li className="list-group-item border-0"><i className="fas fa-phone fa-2x"></i><label className="p pl-4">Phone: 234 2342 342</label></li>
-                                            <li className="list-group-item border-0"><i className="fas fa-globe fa-2x"></i><label className="p pl-4">jasonstatham.com</label></li>
-                                            <li className="list-group-item border-0"><i className="fab fa-linkedin fa-2x"></i><label className="p pl-4">linkein.com/in/jasonstatham</label></li>
-                                            <li className="list-group-item border-0"><i className="fab fa-twitter fa-2x"></i><label className="p pl-4">twitter.com/jasonstatham</label></li>
-                                            <li className="list-group-item border-0"><i className="fab fa-stack-overflow fa-2x"></i><label className="p pl-4">123456 / alandoe</label></li>
-                                        </ul>
+                                            <ul className="list-group py-4">
+                                                <li className="list-group-item border-0"><i className="fas fa-envelope fa-2x"></i><label className="p sample pl-4">jason@jasonstatham.com</label></li>
+                                                <li className="list-group-item border-0"><i className="fas fa-phone fa-2x"></i><label className="p pl-4">Phone: 234 2342 342</label></li>
+                                                <li className="list-group-item border-0"><i className="fas fa-globe fa-2x"></i><label className="p pl-4">jasonstatham.com</label></li>
+                                                <li className="list-group-item border-0"><i className="fab fa-linkedin fa-2x"></i><label className="p pl-4">linkein.com/in/jasonstatham</label></li>
+                                                <li className="list-group-item border-0"><i className="fab fa-twitter fa-2x"></i><label className="p pl-4">twitter.com/jasonstatham</label></li>
+                                                <li className="list-group-item border-0"><i className="fab fa-stack-overflow fa-2x"></i><label className="p pl-4">123456 / alandoe</label></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </section>
                             </div>
                         </div>
-                    </div>
-                </div>
             </div>
         );
     }

@@ -21,7 +21,6 @@ html{
     text-align:center;
     z-index: 20;
     position: fixed;
-    /* margin-top: -35px; */
 }
 
 .img-menu {
@@ -31,17 +30,6 @@ html{
     border-radius: 50%;
     margin-left:-3px;
 }
-
-/* .gradient {
-    display: block;
-    position: absolute;
-    background: linear-gradient( rgba(255, 255, 255, 0), white);
-    margin-top: -251px;
-    height: 225px;
-    width: 102%;
-    content: '';
-    padding: 0;
-} */
 .gradient {
     height: 200px;
     margin-top: -199px;
@@ -50,6 +38,30 @@ html{
     position: absolute;
     margin-left: 15px;
     background: linear-gradient( rgba(255, 255, 255, 0), white);
+}
+.bubble {
+    position: relative;
+    background: #000000;
+    border-radius: 4em;
+    margin-top: 44px;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    height: 40px;
+    margin-left: 45px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #000000;
+    border-bottom: 0;
+    margin-left: -19px;
+    margin-bottom: -15px;
 }
 .fa-3x {
     font-size: 1.25rem;
@@ -113,37 +125,13 @@ li{
     }
 
 
-    .bubble {
-        position: relative;
-        background: #000000;
-        border-radius: 4em;
-        margin-top: 44px;
-        color: white;
-        font-size: 38px;
-        width: 97%;
-        height: 59px;
-    }
-    .bubble:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 0;
-        height: 0;
-        border: 23px solid transparent;
-        border-top-color: #000000;
-        border-bottom: 0;
-        margin-left: -19px;
-        margin-bottom: -22px;
-    }
-
     .icon-section-1{
         width: 50px;
         height: 50px;
         overflow: hidden;
-        padding-top: 7px;
+        padding-top: 8px;
         padding-left: 2px;
-        border: 5px solid black;
+        border: 4px solid black;
         border-radius: 50%;
         font-size: 24px;
         text-align: center;
@@ -152,9 +140,9 @@ li{
         width: 50px;
         height: 50px;
         overflow: hidden;
-        padding-top: 8px;
+        padding-top: 7px;
         padding-left: 1px;
-        border: 5px solid black;
+        border: 4px solid black;
         border-radius: 50%;
         font-size: 23px;
         text-align: center;
@@ -184,9 +172,14 @@ li{
     .exp-border{
         border-bottom: 4px solid #2faded;
     }
-    .idiom-p{
+    .idiom{
         font-size: 1.2rem;
         line-height: 0.4rem;
+    }
+    .level{
+        font-size: 1.2rem;
+        line-height: 0.4rem;
+        margin-top: -13px;
     }
     .border-section{
         border-bottom: 2px solid grey;
@@ -214,7 +207,7 @@ li{
         font-size: 0.8rem;
         font-weight: 400 !important;
     }
-    .border-sample{
+    .line-bottom{
         margin-top: -1rem;
         margin-bottom: 1rem;
         border: 0;
@@ -236,12 +229,14 @@ li{
 .name{
     font-size: 94px;
     padding-top: 34px;
+    letter-spacing: 7px;
 }
 .profession{
     font-size: 34px;
-    margin-top: -61px;
+    margin-top: -56px;
+    letter-spacing: 1px;
 }
-.focus{
+/* .focus{
     font-size: 1.7rem;
     margin-top: 0.8rem;
 }
@@ -249,7 +244,7 @@ li{
 .motto{
     font-size: 1.7rem;
     margin-top: 0.8rem;
-}
+} */
 
 @media only screen and (min-height: 300px) {
     nav ul {
@@ -283,20 +278,56 @@ li{
 
 }
 @media only screen and (min-width: 778px){
-
-}
-
-@media only screen and (min-width: 992px){
-    
-
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1150px){
     .parallax{
         background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 680px;
+        height: 650px;
+        background-attachment: fixed;
+    }
+    .gradient {
+        /* background-image: linear-gradient(to top , white , transparent); */
+        height: 200px;
+        margin-top: -199px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-left: 15px;
+        background: linear-gradient( rgba(255, 255, 255, 0), white);
+    }
+
+    .vertical-menu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 80px;
+        font-size: 1px;
+        text-align: center;
+        z-index: 20;
+        position: fixed;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0.8rem 0.1rem;
+        color: white;
+    }
+    .img-menu {
+        width: 43px;
+        height: 43px;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin-left: -3px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 992px){
+    .parallax{
+        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 650px;
         background-attachment: fixed;
         position: relative;
     }
@@ -309,20 +340,67 @@ li{
         position: absolute;
         margin-left: 15px;
         background: linear-gradient( rgba(255, 255, 255, 0), white);
-    }    
-    /* .sample{
-        margin-right: -59px;
-        margin-left: 59px;
-    } */
+    }
+    .name {
+        font-size: 84px;
+        padding-top: 47px;
+    }
+    .profession {
+        font-size: 29px;
+        margin-top: -58px;
+        font-weight: 200 !important;
+    }
+    .border-sample {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 209px;
+        width: 59%;
+    }
+    .vertical-menu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 80px;
+        font-size: 1px;
+        text-align: center;
+        z-index: 20;
+        position: fixed;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0.7rem 0.3rem;
+        color: white;
+    }
+    .img-menu {
+        width: 43px;
+        height: 43px;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin-left: -3px;
+    }
+    .geeks-img {
+        position: fixed;
+        right: 14px;
+        top: 15px;
+        height: 68px;
+        z-index: 20;
+    }
+    
+    .bubbles{
+        margin-top: -104px;
+    }
     .bubble {
         position: relative;
         background: #000000;
         border-radius: 4em;
         margin-top: 44px;
         color: white;
-        font-size: 31px;
+        font-size: 27px;
         width: 80%;
-        height: 49px;
+        height: 46px;
+        margin-left: 44px;
     }
     .bubble:after {
         content: '';
@@ -335,32 +413,148 @@ li{
         border-top-color: #000000;
         border-bottom: 0;
         margin-left: -19px;
-        margin-bottom: -13px;
+        margin-bottom: -15px;
+    }
+    section{
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+    .motto, .focus{
+        font-size: 1.3rem;
+        margin-top: 0.5rem;
+        
+    }
+    .line-bottom {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 221px;
+        width: 58%;
+    }
+    .p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+        font-weight: 300 !important;
+    }
+    .icon-section-1 {
+        width: 41px;
+        height: 41px;
+        overflow: hidden;
+        padding-top: 7px;
+        padding-left: 2px;
+        border: 4px solid black;
+        border-radius: 50%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .icon-section {
+        width: 41px;
+        height: 41px;
+        overflow: hidden;
+        padding-top: 7px;
+        padding-left: 0px;
+        border: 4px solid black;
+        border-radius: 50%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .title {
+        font-size: 1.5rem;
+        margin-left: 8px;
+        margin-top: -3px;
+        font-weight: 240 !important;
+        letter-spacing: 8px;
+    }
+    .idiom {
+        font-size: 1rem;
+        line-height: 0.3rem;
+    }
+    .level {
+        font-size: 1rem;
+        line-height: 0.3rem;
+        margin-top: -13px;
+    }
+    .year {
+        font-weight: 600 !important;
+        font-size: 1.1rem;
+        margin: 0px -19px;
+    }
+    .fa-2x {
+        font-size: 1.8em;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    .container {
+        max-width: 850px;
+    }
+    .parallax{
+        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 737px;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .gradient {
+        /* background-image: linear-gradient(to top , white , transparent); */
+        height: 200px;
+        margin-top: -199px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-left: 15px;
+        background: linear-gradient( to top,white,  rgba(255, 255, 255, 0));
+    }  
+    .bubbles{
+        margin-top: -25px;
+    }  
+    
+    .bubble {
+        position: relative;
+        background: #000000;
+        border-radius: 4em;
+        margin-top: 44px;
+        color: white;
+        font-size: 29px;
+        width: 96%;
+        height: 50px;
+        margin-left: 6px;
+    }
+    .bubble:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 23px solid transparent;
+        border-top-color: #000000;
+        border-bottom: 0;
+        margin-left: -19px;
+        margin-bottom: -20px;
     }
     
     .motto, .focus{
         font-size: 1.4rem;
         margin-top: 0.5rem;
-        margin-left: -83px;
     }
-    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
-        margin-left: 62px;
-        margin-right: 62px;
+    section{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .geeks-img {
         position: fixed;
-        right: 23px;
+        right: 13px;
         top: 13px;
         height: 78px;
         z-index: 20;
     }
-    .sample{
-        margin-right: -59px;
-        margin-left: 59px
-    }
     .name {
-        font-size: 86px;
-        padding-top: 47px;
+        font-size: 84px;
+        padding-top: 107px;
     }
     .vertical-menu{
         display: flex;
@@ -373,7 +567,7 @@ li{
         z-index: 20;
         position: fixed;
     }
-    img-menu {
+    .img-menu {
         width: 38px;
         height: 38px;
         border: 3px solid white;
@@ -382,7 +576,7 @@ li{
     }
     nav ul li a {
         display: block;
-        padding: 0.8rem 0.2rem;
+        padding: 1rem 0.2rem;
         color: white;
     }
     .overlay {
@@ -410,5 +604,102 @@ li{
         color:#E2B921;
         text-align: left;
     }
+    .icon-section-1 {
+        width: 46px;
+        height: 46px;
+        overflow: hidden;
+        padding-top: 7px;
+        padding-left: 1px;
+        border: 4px solid black;
+        border-radius: 50%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .icon-section {
+        width: 46px;
+        height: 46px;
+        overflow: hidden;
+        padding-top: 8px;
+        padding-left: 1px;
+        border: 4px solid black;
+        border-radius: 50%;
+        font-size: 21px;
+        text-align: center;
+    }
+    .profession {
+        font-size: 32px;
+        margin-top: -59px;
+    }
+    .title {
+        font-size: 1.7rem;
+        margin-left: 8px;
+        margin-top: -5px;
+        font-weight: 240 !important;
+        letter-spacing: 12px;
+    }
+    .p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        font-weight: 300 !important;
+    }
+    .idiom {
+        font-size: 1.1rem;
+        line-height: 0.3rem;
+    }
+    .level{
+        font-size: 1.1rem;
+        line-height: 0.3rem;
+        margin-top: -13px;
+    }
+    .line-bottom {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 221px;
+        width: 58%;
+    }
+    h4, .h4 {
+        font-size: 1.3rem;
+    }
+    .card-label {
+        color: rgb(47, 173, 237);
+        font-size: 24px;
+        line-height: 0rem;
+        text-decoration: underline;
+    }
+    .card-text {
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+    }
+    .card-image-top{
+        width: 86%;
+    }
+    .year {
+        font-weight: 600 !important;
+        font-size: 1rem;
+        margin: 0px -33px;
+    }
+    .fa-2x {
+        font-size: 1.66rem;
+        margin-top: 0px;
+    }
+    .edu-p {
+        font-size: 0.8rem;
+        font-weight: 400 !important;
+        line-height: 1.1rem;
+    }
+    .edu-title{
+        font-size: 1.3rem;
+    }
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: 0.30rem 1.25rem;
+        margin-bottom: -1px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+    }
+
 }
 
