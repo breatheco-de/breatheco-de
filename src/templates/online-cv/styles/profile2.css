@@ -22,7 +22,9 @@ html{
     z-index: 20;
     position: fixed;
 }
-
+.programmer{
+    margin-top: -9rem;
+}
 .img-menu {
     width: 48px;
     height: 48px;
@@ -129,7 +131,7 @@ li{
         width: 50px;
         height: 50px;
         overflow: hidden;
-        padding-top: 8px;
+        padding-top: 9px;
         padding-left: 2px;
         border: 4px solid black;
         border-radius: 50%;
@@ -140,7 +142,7 @@ li{
         width: 50px;
         height: 50px;
         overflow: hidden;
-        padding-top: 7px;
+        padding-top: 8px;
         padding-left: 1px;
         border: 4px solid black;
         border-radius: 50%;
@@ -236,15 +238,7 @@ li{
     margin-top: -56px;
     letter-spacing: 1px;
 }
-/* .focus{
-    font-size: 1.7rem;
-    margin-top: 0.8rem;
-}
 
-.motto{
-    font-size: 1.7rem;
-    margin-top: 0.8rem;
-} */
 
 @media only screen and (min-height: 300px) {
     nav ul {
@@ -275,7 +269,247 @@ li{
   
   }
 @media only screen and (min-width: 320px){
+  
+    .border-section{
+        border-bottom: 2px solid grey;
+    }
+    .border-side{
+        border:none !important;
+    }
+    .bullet {
+        margin-top: -21px;
+    }
+    .img-fluid {
+        max-width: 92%;
+        height: auto;
+    }
+    .parallax{
+        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 248px;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .gradient {
+        /* background-image: linear-gradient(to top , white , transparent); */
+        height: 99px;
+        margin-top: -96px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-left: 15px;
+        background: linear-gradient( rgba(255, 255, 255, 0), white);
+    }
+    .line-bottom {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 70px;
+        width: 67%;
+    }
+    .programmer{
+        margin-top: -90px;
+    }
+    .vertical-menu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 62px;
+        font-size: 1px;
+        text-align: center;
+        z-index: 20;
+        position: fixed;
+    }
+    .overlay {
+        position: absolute;
+        background: rgb(0, 0, 0);
+        color: #f1f1f1;
+        width: auto;
+        -webkit-transition: .5s ease;
+        transition: .5s ease;
+        opacity: 0;
+        font-size: 14px;
+        padding: 8px;
+        text-align: center;
+        margin-left: 28px;
+        margin-top: -37px;
+    }
+    .summary:hover .overlay, 
+    .language:hover .overlay, 
+    .interests:hover .overlay, 
+    .experiences:hover .overlay, 
+    .project:hover .overlay, 
+    .skills:hover .overlay, 
+    .education:hover .overlay, 
+    .contact:hover .overlay {
+        opacity: 0.7;
+        color:#E2B921;
+        text-align: left;
+    }
+    /* .border{
+        border: 2px solid grey;
+    } */
 
+    .pointer > li:hover{
+    color:#f7f8f9;
+    border-left: 5px solid #E2B921;
+ 
+    }
+    .fa-3x:hover{
+        color:#E2B921;
+    }
+    nav ul li a {
+    display: block;
+    padding: 0.5rem 0rem;
+    color: white;
+      }
+      .img-menu {
+        width: 33px;
+        height: 33px;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin-left: -3px;
+    }
+    .geeks-img {
+        position: fixed;
+        right: 13px;
+        top: 8px;
+        height: 40px;
+        z-index: 20;
+    }
+    .name {
+        font-size: 24px;
+        padding-top: 34px;
+        letter-spacing: 3px;
+        padding-left: 30px;
+    }
+    .profession {
+        font-size: 16px;
+        margin-top: -26px;
+        letter-spacing: 1px;
+        padding-left: 30px;
+    }
+    .bubbles{
+        margin-top:-74px;
+    }
+    .bubble {
+        position: relative;
+        background: #000000;
+        border-radius: 4em;
+        margin-top: 41px;
+        color: white;
+        font-size: 14px;
+        width: 60%;
+        height: 25px;
+        margin-left: 77px;
+    }
+    .bubble:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 8px solid transparent;
+        border-top-color: #000000;
+        border-bottom: 0;
+        margin-left: -10px;
+        margin-bottom: -8px;
+    }
+    .right-bubble{
+        margin-top: 9px;
+    }
+    section{
+        padding-left: 33px;
+    }
+    .icon-section-1 {
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        padding-top: 4px;
+        padding-left: 1px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .icon-section {
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        padding-top: 4px;
+        padding-left: 0px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .motto{
+        margin-top: 4px;
+        font-size: 18px;
+        margin-left: 23px;   
+    }
+    .focus{
+        margin-top: 4px;
+        font-size: 18px;
+        margin-left: 23px;
+    }
+    .title{
+        font-size: 1.4rem;
+        margin-left: 9px;
+        margin-top: -1px;
+        font-weight: 240 !important;
+        letter-spacing: 4px;
+        position: absolute;
+    }
+    
+    .p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        font-weight: 300 !important;
+    }
+    .text-left {
+        text-align: left !important;
+        margin-left: 10px;
+    }
+    .card-label {
+        color: rgb(47, 173, 237);
+        font-size: 21px;
+        line-height: 0rem;
+        text-decoration: underline;
+    }
+    .fa-2x {
+        font-size: 1.7em;
+    }
+    .year {
+        font-weight: 600 !important;
+        font-size: 1.1rem;
+        margin: 0px 5px;
+    }
+    .city{
+        padding-top: 4px;
+    }
+    
+    .exp-text {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .geeks-img {
+        position: fixed;
+        right: 6px;
+        top: 8px;
+        height: 35px;
+        z-index: 20;
+    }
+    
+    .level {
+        line-height: 0.4rem;
+        margin-top: -10px;
+        font-size: 16px;
+    }
+    
 }
 @media only screen and (min-width: 778px){
     .parallax{
@@ -317,6 +551,91 @@ li{
         border: 3px solid white;
         border-radius: 50%;
         margin-left: -3px;
+    }
+    .bubbles{
+        margin-top:-88px;
+    }
+    .name {
+        font-size: 80px;
+        padding-top: 40px;
+        letter-spacing: 5px;
+    }
+    .profession {
+        font-size: 32px;
+        margin-top: -55px;
+        letter-spacing: 1px;
+    }
+    .bubble {
+        position: relative;
+        background: #000000;
+        border-radius: 4em;
+        margin-top: 35px;
+        color: white;
+        font-size: 26px;
+        width: 99%;
+        height: 40px;
+        margin-left: -5px;
+    }
+    .focus{
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left:-8px;
+    }
+    .motto{
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: -8px;
+    }
+    .line-bottom {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 156px;
+        width: 60%;
+    }
+    .icon-section-1 {
+        width: 37px;
+        height: 37px;
+        overflow: hidden;
+        padding-top: 7px;
+        padding-left: 2px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 17px;
+        text-align: center;
+    }
+    .icon-section {
+        width: 37px;
+        height: 37px;
+        overflow: hidden;
+        padding-top: 7px;
+        padding-left: 0px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 17px;
+        text-align: center;
+    }
+    .title {
+        font-size: 1.4rem;
+        margin-left: 6px;
+        margin-top: -5px;
+        font-weight: 240 !important;
+        letter-spacing: 9px;
+    }
+    .p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 300 !important;
+    }
+    .idiom {
+        font-size: 0.9rem;
+        line-height: 0.4rem;
+    }
+    .level{
+        font-size: 0.9rem;
+        line-height: 0.4rem;
+        margin-top:2px;
     }
 
     
@@ -586,11 +905,11 @@ li{
         width: auto;
         transition: .5s ease;
         opacity:0;
-        font-size: 26px;
-        padding:11px;
+        font-size: 25px;
+        padding:17px;
         text-align: center;
-        margin-left: 42px;
-        margin-top: -62px;
+        margin-left: 41px;
+        margin-top: -72px;
     }
     .summary:hover .overlay, 
     .language:hover .overlay, 
@@ -605,25 +924,25 @@ li{
         text-align: left;
     }
     .icon-section-1 {
-        width: 46px;
-        height: 46px;
-        overflow: hidden;
-        padding-top: 7px;
-        padding-left: 1px;
-        border: 4px solid black;
-        border-radius: 50%;
-        font-size: 22px;
-        text-align: center;
-    }
-    .icon-section {
-        width: 46px;
-        height: 46px;
+        width: 51px;
+        height: 51px;
         overflow: hidden;
         padding-top: 8px;
         padding-left: 1px;
-        border: 4px solid black;
+        border: 5px solid black;
         border-radius: 50%;
-        font-size: 21px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .icon-section {
+        width: 51px;
+        height: 51px;
+        overflow: hidden;
+        padding-top: 8px;
+        padding-left: 1px;
+        border: 5px solid black;
+        border-radius: 50%;
+        font-size: 24px;
         text-align: center;
     }
     .profession {
@@ -632,22 +951,22 @@ li{
     }
     .title {
         font-size: 1.7rem;
-        margin-left: 8px;
+        margin-left: 21px;
         margin-top: -5px;
         font-weight: 240 !important;
         letter-spacing: 12px;
     }
     .p {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         line-height: 1.3rem;
-        font-weight: 300 !important;
+        font-weight: 00 !important;
     }
     .idiom {
         font-size: 1.1rem;
         line-height: 0.3rem;
     }
     .level{
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 0.3rem;
         margin-top: -13px;
     }
@@ -656,7 +975,7 @@ li{
         margin-bottom: 1rem;
         border: 0;
         border-top: 2px solid rgba(0, 0, 0, 0.1);
-        margin-left: 221px;
+        margin-left: 260px;
         width: 58%;
     }
     h4, .h4 {
@@ -678,7 +997,7 @@ li{
     .year {
         font-weight: 600 !important;
         font-size: 1rem;
-        margin: 0px -33px;
+        margin: 0px 6px;
     }
     .fa-2x {
         font-size: 1.66rem;
@@ -690,7 +1009,7 @@ li{
         line-height: 1.1rem;
     }
     .edu-title{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .list-group-item {
         position: relative;
@@ -699,6 +1018,15 @@ li{
         margin-bottom: -1px;
         background-color: #fff;
         border: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .border-side {
+        border-left: 2px solid grey !important;
+    }
+    .exp-border{
+        border-bottom: 4px solid #2faded;
+    }
+    .programmer{
+        margin-top: -9rem;
     }
 
 }

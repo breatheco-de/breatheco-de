@@ -79,22 +79,24 @@ export default class Profile2 extends React.Component{
                 </div>
                         
                         <div className="row gradient">
+                        </div>
+                        <div className="row programmer">
                             <div className="col-12 text-center">
-                                <p className="font-weight-light name">JASON<strong className="font-weight-bold">&nbsp;STATHAM</strong></p>
-                                <p className="font-weight-light profession">Full-Stack Developer</p>
-                                <hr className="line-bottom"/>
+                                    <p className="font-weight-light name">JASON<strong className="font-weight-bold">&nbsp;STATHAM</strong></p>
+                                    <p className="font-weight-light profession">Full-Stack Developer</p>
+                                    <hr className="line-bottom"/>
                             </div>
                         </div>
                         <div className="container pt-4">
                             <div className="row text-center bubbles pt-4">
-                                <div className="col-12 col-md-6"> 
+                                <div className="col-12 col-sm-6"> 
                                     <div className="bubble font-italic ">
                                         <p>I like saving the world</p>
                                     </div>
                                         <p className="font-weight-light font-italic motto">Motto</p>
                                 </div>
-                                <div className="col-12 col-md-6 pl-4">
-                                    <div className="bubble font-italic">
+                                <div className="col-12 col-sm-6">
+                                    <div className="bubble font-italic right-bubble">
                                         <p>Killing Bad Boys</p>
                                     </div>
                                         <p className="font-weight-light font-italic focus">Focus</p>
@@ -103,16 +105,12 @@ export default class Profile2 extends React.Component{
                             <div className="container pt-4">
                                 <section className="section-1 border-section"  id="section-1">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="fas fa-file-invoice text-warning icon-section-1" />
+                                        <div className="col-12 ">
+                                            <label><i className="fas fa-file-invoice text-warning icon-section-1" /><span className="title font-italic">Summary</span></label>
                                         </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Summary
-                                            </label>
-                                        </div>
+                                        
                                     </div>
-                                    <div className="row pt-4">
+                                    <div className="row py-4">
                                     <div className="col-12">
                                         <p className="p text-justify">
                                             Mision-driven full stack developer with a
@@ -144,86 +142,55 @@ export default class Profile2 extends React.Component{
                                 </section>
                                 <section className="section-2 border-section" id="section-2">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="fas fa-language text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Languajes
-                                            </label>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="fas fa-language text-warning icon-section" /><span className="title font-italic">Language</span></label>
                                         </div>
                                     </div>
-                                    <div className="container py-4">
-                                        <div className="row idiom px-4">
-                                            <div className="col-12 col-sm-4 ">
-                                                <label><strong>Idiom:</strong></label>
-                                                <label className="p">&nbsp;English</label>
-                                            </div>
-                                            <div className="col-12 col-sm-4 ">
-                                                <label><strong>Idiom:</strong></label>
-                                                <label className="p">&nbsp;French</label>
-                                            </div>
-                                            <div className="col-12 col-sm-4 ">
-                                                <label><strong>Idiom:</strong></label>
-                                                <label className="p">&nbsp;Spanish</label>
-                                            </div>
+                                    <div className="row py-4">
+                                        <div className="col-12 col-sm-4">
+                                            <p className="pl-4"><strong>Idiom:</strong><span className="pl-2">English</span></p>
+                                            <p className="pl-4 level"><strong>Level:</strong><span className="pl-2">Native</span></p>
                                         </div>
-                                        <div className="row level px-4">
-                                            <div className="col-12 col-sm-4">
-                                                
-                                                <label><strong>Level:</strong></label>
-                                                <label className="p">&nbsp;Native</label>
-                                            
-                                            </div>
-                                            <div className="col-12 col-sm-4">
-                                                <label><strong>Level:</strong></label>
-                                                <label className="p">&nbsp;Professional</label>
-                                            </div>
-                                            <div className="col-12 col-sm-4 ">
-                                                <label><strong>Level:</strong></label>
-                                                <label className="p">&nbsp;Professional</label>
-                                            </div>
+                                        <div className="col-12 col-sm-4">
+                                            <p className="pl-4"><strong>Idiom:</strong><span className="pl-2">Spanish</span></p>
+                                            <p className="pl-4 level"><strong>Level:</strong><span className="pl-2">Professioanl</span></p>
+                                        </div>
+                                        <div className="col-12 col-sm-4">
+                                            <p className="pl-4"><strong>Idiom:</strong><span className="pl-2">French</span></p>
+                                            <p className="pl-4 level"><strong>Level:</strong><span className="pl-2">Professional</span></p>
                                         </div>
                                     </div>
+                                    
                                 </section>
+                                
                                 <section className="section-3 border-section" id="section-3">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="fas fa-bicycle text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Interests
-                                            </label>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="fas fa-bicycle text-warning icon-section" /><span className="title font-italic">Interests</span></label>
                                         </div>
                                     </div>
-                                    <div className="row p text-center pt-4">
-                                        <div className="col-12 col-md-4">
-                                            <p>Climbing</p>
+                                    <div className="row p py-4">
+                                        <div className="col-12 col-sm-4 pl-4">
+                                            <p className="text-left p pl-2">Climbing</p>
                                         </div>
-                                        <div className="col-12 col-md-4">
-                                            <p>Snowboarding</p>
+                                        <div className="col-12 col-sm-4 pl-4">
+                                            <p className="text-left pl-2">Snowboarding</p>
                                         </div>
-                                        <div className="col-12 col-md-4">
-                                            <p>Cooking</p>
+                                        <div className="col-12 col-sm-4 pl-4">
+                                            <p className="text-left pl-2">Cooking</p>
                                         </div>
                                     </div>
                                 </section>
                                 <section className="section-4 border-section" id="section-4">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="fas fa-chart-line text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Experiences
-                                            </label>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="fas fa-chart-line text-warning icon-section" /><span className="title font-italic">Experiences</span></label>
                                         </div>
                                     </div>
                                     <div className="row pt-4">
                                         <div className="col-12 col-sm-9">
-                                            <h4 className="font-weight-bold pt-2">LEAD DEVELOPER</h4>
-                                            <h5 className="text-muted">2015-Present</h5>
+                                            <h4 className="font-weight-bold pt-2 exp-text">LEAD DEVELOPER</h4>
+                                            <h5 className="text-muted exp-text">2015-Present</h5>
                                             <label className="font-weight-light text-muted exp-text">Startup Hubs, San Francisco</label>
                                         </div>
                                         <div className="col-12 col-sm-3 border-side">
@@ -261,8 +228,8 @@ export default class Profile2 extends React.Component{
 
                                     <div className="row pt-4">
                                         <div className="col-12 col-sm-9">
-                                            <h4 className="font-weight-bold pt-2">SENIOR SOFTWARE ENGINEER</h4>
-                                            <h5 className="text-muted">2014-2015</h5>
+                                            <h4 className="font-weight-bold pt-2 exp-text">SENIOR SOFTWARE ENGINEER</h4>
+                                            <h5 className="text-muted exp-text">2014-2015</h5>
                                             <label className="font-weight-light text-muted exp-text">Google, London</label>
                                         </div>
                                         <div className="col-12 col-sm-3 border-side">
@@ -337,13 +304,8 @@ export default class Profile2 extends React.Component{
                                 </section>
                                 <section className="section-5 border-section" id="section-5">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="far fa-file-code text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Project
-                                            </label>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="far fa-file-code text-warning icon-section" /><span className="title font-italic">Project</span></label>
                                         </div>
                                     </div>
                                     <div className="row py-4">
@@ -414,18 +376,13 @@ export default class Profile2 extends React.Component{
                                 </section>
                                 <section className="section-6  border-section" id="section-6">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="far fa-star text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Skills
-                                            </label>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="far fa-star text-warning icon-section" /><span className="title font-italic">Skills</span></label>
                                         </div>
                                     </div>
                                     <div className="row  justify-content-around py-4">
                                         <div className="col-12 col-md-6 px-4">
-                                            <div className="p-2">
+                                            <div className="p-2 ml-2">
                                                 <label className="p font-weight-bold">
                                                     Python &amp; Django
                                                 </label>
@@ -441,7 +398,7 @@ export default class Profile2 extends React.Component{
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="p-2">
+                                            <div className="p-2 ml-2">
                                                 <label className="p font-weight-bold">
                                                     Angular
                                                 </label>
@@ -457,7 +414,7 @@ export default class Profile2 extends React.Component{
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="p-2">
+                                            <div className="p-2 ml-2">
                                                 <label className="p font-weight-bold">
                                                     Ruby on Rails
                                                 </label>
@@ -475,7 +432,7 @@ export default class Profile2 extends React.Component{
                                             </div>
                                         </div>
                                         <div className="col-12 col-md-6 border-side px-4">
-                                            <div className="p-2">
+                                            <div className="p-2 ml-2">
                                                 <label className="p font-weight-bold">
                                                     Javascript &amp; jQuery
                                                 </label>
@@ -491,7 +448,7 @@ export default class Profile2 extends React.Component{
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="p-2">
+                                            <div className="p-2 ml-2">
                                                 <label className="p font-weight-bold">
                                                     HTML5 &amp; CSS
                                                 </label>
@@ -507,7 +464,7 @@ export default class Profile2 extends React.Component{
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="p-2">
+                                            <div className="p-2 ml-2">
                                                 <label className="p font-weight-bold">
                                                     Sketch &amp; Potophop
                                                 </label>
@@ -528,13 +485,8 @@ export default class Profile2 extends React.Component{
                                 </section>
                                 <section className="section-7 border-section" id="section-7">
                                     <div className="row py-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="fas fa-graduation-cap text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <span className="font-italic title">
-                                                Education
-                                            </span>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="fas fa-graduation-cap text-warning icon-section" /><span className="title font-italic">Education</span></label>
                                         </div>
                                     </div>
                                     <div className="row py-4">
@@ -552,11 +504,8 @@ export default class Profile2 extends React.Component{
                                                 </div>
                                             </div>
                                             <div className="row">
-                                                <div className="col-12 col-sm-2">
-                                                     <i className="far fa-clock fa-2x clock"></i>
-                                                </div>
-                                                <div className="col-12 col-sm-10">
-                                                    <label className="year">2011-2012</label>
+                                                <div className="col-12">
+                                                     <label><i className="far fa-clock fa-2x clock"/><span className="year">2011-2012</span></label>
                                                 </div>
                                             </div>
                                             <div className="row">
@@ -590,12 +539,10 @@ export default class Profile2 extends React.Component{
                                                 </div>
                                             </div>
                                             <div className="row">
-                                                <div className="col-12 col-sm-2">
-                                                     <i className="far fa-clock fa-2x clock"></i>
+                                                <div className="col-12">
+                                                     <label><i className="far fa-clock fa-2x clock"/><span className="year">2007-2011</span></label>
                                                 </div>
-                                                <div className="col-12 col-sm-10">
-                                                    <label className="year">2007-2011</label>
-                                                </div>
+                                                
                                             </div>
                                             <div className="row">
                                             <div className="col-12">
@@ -617,28 +564,29 @@ export default class Profile2 extends React.Component{
                                 </section>
                                 <section className="section-8 contact" id="section-8">
                                     <div className="row pt-4">
-                                        <div className="col-md-1 pr-0">
-                                            <i className="fas fa-user-alt text-warning icon-section" />
-                                        </div>
-                                        <div className="col-md-11 pl-0">
-                                            <label className="font-italic title">
-                                                Contact
-                                            </label>
+                                        <div className="col-12 pt-4">
+                                            <label><i className="fas fa-user-alt text-warning icon-section" /><span className="title font-italic">Contact</span></label>
                                         </div>
                                     </div>
-                                    <div className="row">
-                                        <div className="col-12">
-                                            <ul className="list-group py-4">
-                                                <li className="list-group-item border-0"><i className="fas fa-envelope fa-2x"></i><label className="p sample pl-4">jason@jasonstatham.com</label></li>
-                                                <li className="list-group-item border-0"><i className="fas fa-phone fa-2x"></i><label className="p pl-4">Phone: 234 2342 342</label></li>
-                                                <li className="list-group-item border-0"><i className="fas fa-globe fa-2x"></i><label className="p pl-4">jasonstatham.com</label></li>
-                                                <li className="list-group-item border-0"><i className="fab fa-linkedin fa-2x"></i><label className="p pl-4">linkein.com/in/jasonstatham</label></li>
-                                                <li className="list-group-item border-0"><i className="fab fa-twitter fa-2x"></i><label className="p pl-4">twitter.com/jasonstatham</label></li>
-                                                <li className="list-group-item border-0"><i className="fab fa-stack-overflow fa-2x"></i><label className="p pl-4">123456 / alandoe</label></li>
-                                            </ul>
+                                    <div className="row pl-4">
+                                        <div className="col-12 pl-4">
+                                            <label className="pt-2"><i className="fas fa-envelope fa-2x"/><span className="pl-2 p ">jason@jasonstatham.com</span></label>
+                                            <br/>
+                                            <label className="pt-2"><i className="fas fa-phone fa-2x"/><span className="pl-2 p">Phone: 234 2342 342</span></label>
+                                            <br/>
+                                            <label className="pt-2"><i className="fas fa-globe fa-2x"/><span className="pl-2 p">jasonstatham.com</span></label>
+                                            <br/>
+                                            <label className="pt-2"><i className="fab fa-linkedin fa-2x"/><span className="pl-2 p">linkein.com/in/jasonstatham</span></label>
+                                            <br/>
+                                            <label className="pt-2"><i className="fab fa-twitter fa-2x"/><span className="pl-2 p">twitter.com/jasonstatham</span></label>
+                                            <br/>
+                                            <label className="pt-2"><i className="fab fa-stack-overflow fa-2x"/><span className="pl-2 p">123456 / alandoe</span></label>
                                         </div>
                                     </div>
+
                                 </section>
+                                
+                                
                             </div>
                         </div>
             </div>
