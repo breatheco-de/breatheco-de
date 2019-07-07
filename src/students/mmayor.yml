@@ -6,7 +6,7 @@ basic_info:
     first_name: Miguel
     last_name: Mayor
 
-    motto: I have no special talent. I am only passionately curious.
+    motto: I love the code.
 
     focus: Programming
 
@@ -14,7 +14,7 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+    avatar:
 
     email: mmayor200610@gmail.com
     phone: 786 8734664
@@ -53,7 +53,7 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Administrator Systems (Linux & Windows servers), Network Administrator, Development Applications (php, mysql, python, html), nformation security..
+    - role: Administrator Systems (Linux & Windows servers), Network Administrator, Development Applications (php, mysql, python, html), nformation security.
       time: 2015-2019
       company: NEO
       # optional
