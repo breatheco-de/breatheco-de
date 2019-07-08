@@ -69,4 +69,5 @@ yarn-error.log
 .yarn-integrity
 
 .idea/*
+.idea/vcs.xml
 .gitignore
