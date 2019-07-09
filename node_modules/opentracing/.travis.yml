@@ -1,0 +1,42 @@
+language: node_js
+
+node_js:
+- 4
+
+env:
+  matrix:
+  - TEST_NODE_VERSION=0.10
+  - TEST_NODE_VERSION=0.12
+  - TEST_NODE_VERSION=4
+  - TEST_NODE_VERSION=6
+  - TEST_NODE_VERSION=node
+  global:
+  - secure: CV7Q6AHwuTCg2yi5iHC9mNexD7dgPoroZ1qdV8h+AAMUHFjO9GvCDy295l0zpqqJSb+b24GxPjx2gzK2klWMm0B55HORTBAbqJB8O7Y3dDtjycHZK23n5ph/JqhCGm4/XhxTmgDngF+0C98uWLvFKILYpTadWuOudLCc/NP4p4xykHeL2XgNA4TMg+FMYCy0k0/Xy5GNsjeHeQCJm3G1caX8jbQCRsoOiFol7Md/m5llXvY6KQzbmpis2LbPTM2mla8Ixn7bAdBX65xzcBjoWJ0dIrOghTh0z0AnEThYZHBWSvOwAkiVM3el3a4sfyUlvUfLn1ZPCK8u20uD3FQLL/q3aijmqiDORa0a6nJ67D6glRDjW1IgOyJ1iXL9GUzKBnrfdR2S78kSYGEyYDqd5Mro7InnkQ+5wgOUka0VHsJAv79tFe4ylOy3FNWzgXLmao7X/SsmV6LTXg99OpNB3zWPyFm48e5XCfWk2XR2jbeFAXc7u9W6WHWySUMpoB11FzdvNwldkE87Px8TK1guGriNSkrPk3/Abp0S+/Ka43pf+WAG2OA8DgQ2WIvCIr0ZmosS73Seg+s+MGQH9V78iFaSByEquPMbVE+3vxtl04KkRLJ1zhJ6R9CRGYKb7xiHEwCAFNMw2J8Wi5VjvvuhbkZz2D0Hn/qoEKJDkIFvzkA=
+  - secure: zrC64PU+T1nPdmTOCXcm+zb/f009yobySOB5YOxtlRakceIoWplJrMxlS03Z4cNCq6F3NHfPhrB8kTgNny7jSa6zP4nud2zBgWBPefgDRyR/QHaE69drcrklWM4QQz/ApUvoT2/X9e02cvDqaeENNIQlw3nJwprqeizZkbjta0+zzF2SQOSFXpjSzHSprQWaAeYBEd9KzACEL2LbejXzYPJUDGxhCBwTafRw48Ur5bp5pEazU3Tv3uRKqW6TAuZx0W5JiWoY7PVx6AlKDiTvtp6ayrCheIwzaOiHStXtn0V7+J5EKfrux30TNVeEvcXrerkdW5LJAPxKbQfj8FMat8GM7Qil35o2/KT6TFjxjiyXgMAJJg+fBlfzmcTpeI9VR/akrCmHon36w9Asgsmjuj5HEG/wbw2jRHH4C3S+J3BwAdWXW9iNkubZyLnyTlGPCm/79xdmqOx5mV0+9xc6Cfr74Gi53mE2XDpC5WD5iAGdS8xLfJNK8J6l5GAPw34gOENt40c7xXYMRx7luHZmV7BDyGW0VcA6dg33sJ2B0nd9tSvwvQpz+d/Nm6R4zRf4JQRS8VS8WYMXTW3/bPt3HbvWdsBICBMs5BcKUxszscgMJW0Ut0/Jsz3o1JEWZy3Gn8y3HJ3zcSke1GFqFNHPWGe2jQ0Rh/ainC+wCXDKkAI=
+
+before_script:
+# Install the Node version to test against
+- nvm install $TEST_NODE_VERSION
+- nvm use $TRAVIS_NODE_VERSION
+
+script:
+# Build and lint with a newer node version
+- npm run lint
+- npm run build
+
+# Run the tests against all node versions
+- nvm use $TEST_NODE_VERSION
+- node --version
+- npm run test-cover
+- nvm use $TRAVIS_NODE_VERSION
+after_script:
+- cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+before_deploy:
+- npm run typedoc
+
+deploy:
+  provider: surge
+  project: "./typedoc/"
+  domain: opentracing-javascript.surge.sh
+  skip_cleanup: true
