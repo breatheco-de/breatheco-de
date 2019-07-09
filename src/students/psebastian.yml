@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Philip
+    last_name: Pinto
+    motto: Whatever!
+    avatar: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjc6KK3tqjjAhVCo1kKHQUJCV0QjRx6BAgBEAU&url=http%3A%2F%2Fbioopineco.blogspot.com%2F2015%2F06%2Fblog-post.html&psig=AOvVaw0tUEeQQ_h71HEFK5cIGvV3&ust=1562781908365436
+    summary: |
+     I am learning Javascript, React, Jquery, Python
+     I know how to program in PHP, HTML, and a little CSS
+
+
+    # Sidebar links
+    email: sebastianpd@me.com
+    phone: 786 557 7374
+    website: opineco.cl #do not add http://
+    linkedin: i don't use it
+    github: sebastianpd1
+    twitter: '@sebastianpd'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Programing
+
+      - item: Reading
+
+      - item: Gym
+
+education:
+    - degree: Industrial control Engineer
+      university: Universidad tecnologica de Chile
+      time: 2012 - 2016
+      details: |
+        Automation of systems, and industrial control, PLC programming,
+        Factory Assembly, creating procesess, and factory layout, electronics,
+        microcontrollers, electric prodcedures
+
+    - degree: Auto Mechanic
+      Institute: SFTEC
+      time: 2017
+      details: |
+        Brakes and engine, ASE certification
+
+
+experiences:
+    - role: Product Manager
+      time: 2017 - Present
+      company: PartsNet
+      details: |
+        Supplier management, orders, new product release, etc
+
+
+    - role: Finance Manager
+      time: 2016-2017
+      company: Opine Company.
+      details: |
+        Accounting, capital allocation, tax management, etc.
+
+    - role: CEO
+      time: 2012 - 2016
+      company: Opine Company
+      details: |
+        General Manager.
+
+
+
+skills:
+    toolset:
+      - name: PHP
+        level: 50%
+
+      - name: CSS
+        level: 30%
+
+      - name: HTML
+        level: 80%
+
+      - name: Accounting
+        level: 50%
+
+      - name: Management
+        level: 98%
