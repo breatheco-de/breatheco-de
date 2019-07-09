@@ -3,21 +3,21 @@
 #
 
 template: "online-cv"
-skin: "green"
+skin: "blue"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Guillermo
-    last_name: De La Cabada
-    
+    first_name: Herman
+    last_name: Kapitonau
+
     # Define yourself in 4-5 words
-    motto: I like saving the world
-    
+    motto: Learn from yesterday, live for today, hope for tomorrow
+
     # focus
-    focus: Killing Bad Boys
-    
+    focus: Educating myself
+
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
@@ -26,50 +26,50 @@ basic_info:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
-    
+
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars1.githubusercontent.com/u/25416969?s=400&u=956c7d8c6f2baaadb0fca4591e3f1635804551d6&v=4 
+    avatar:
+
     # Contact Information
-    email: guillermodelacabada@gmail.com #optional
-    phone: 0412-9924773 #optional
-    website: guillermodelacabada.com #optional
-  
+    email:  #optional
+    phone:  (785)3655544
+    website:  #optional
+    linkedin:  #optional
+
+    #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: guillermodelacabada
+    github: herman91
 
-    linkedin: guillermodelacabada
-    
-    twitter: guillermodelacabada
-    stack-overflow: 
-
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Spanish
+      - idiom: Russian
+        level: Native
+
+      - idiom: Belarussian
         level: Native
 
       - idiom: English
         level: Professional
 
-      - idiom: Italian
-        level: Basic
-
     # Interests or hobies
     interests:
-      - item: Swimming
+      - item: Hockey
 
-      - item: Winsurfing
+      - item: Books
 
-      - item: Surfing
+      - item: Traveling
 
 # Your previous education
 education:
-    - degree: BA in Social Communication
-      university: Universidad Central de Venezuela
+    - degree: BACHELOR
+      university: Belarussian-Russian University
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo:
       time: 2009 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -79,11 +79,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree:
+      university:
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo:
+      time:
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -94,11 +94,11 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role:
+      time:
+      company:
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo:
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -111,11 +111,11 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role:
+      time:
+      company:
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo:
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -124,11 +124,11 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role:
+      time:
+      company:
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo:
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -144,52 +144,52 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title:
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title:
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title:
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+      - title:
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title:
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name:
+        level:
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name:
+        level:
 
-      - name: Angular
-        level: 98%
+      - name:
+        level:
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name:
+        level:
 
-      - name: Ruby on Rails
-        level: 85%
+      - name:
+        level:
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name:
+        level:

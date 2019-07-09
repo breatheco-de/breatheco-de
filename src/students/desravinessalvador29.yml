@@ -1,23 +1,21 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+
 
 template: "online-cv"
-skin: "green"
+skin: "blue"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Guillermo
-    last_name: De La Cabada
-    
+    first_name: Salvador
+    last_name: Desravines
+
     # Define yourself in 4-5 words
-    motto: I like saving the world
-    
+    motto: I like saving the world.
+
     # focus
-    focus: Killing Bad Boys
-    
+    focus: Taking over
+
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
@@ -26,48 +24,45 @@ basic_info:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
-    
+
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars1.githubusercontent.com/u/25416969?s=400&u=956c7d8c6f2baaadb0fca4591e3f1635804551d6&v=4 
+    avatar: https://randomuser.me/api/portraits/men/46.jpg
+
     # Contact Information
-    email: guillermodelacabada@gmail.com #optional
-    phone: 0412-9924773 #optional
-    website: guillermodelacabada.com #optional
-  
+    email: a@a.com #optional
+    phone: (305) 748-9196 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+
+    #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: guillermodelacabada
+    github: desravinessalvador29
 
-    linkedin: guillermodelacabada
-    
-    twitter: guillermodelacabada
-    stack-overflow: 
-
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Spanish
-        level: Native
-
       - idiom: English
         level: Professional
 
-      - idiom: Italian
-        level: Basic
+      - idiom: Creole
+        level: Professional
 
     # Interests or hobies
     interests:
-      - item: Swimming
+      - item: Coding
 
-      - item: Winsurfing
+      - item: Business
 
-      - item: Surfing
+      - item: Family
 
 # Your previous education
 education:
-    - degree: BA in Social Communication
-      university: Universidad Central de Venezuela
+    - degree: BS in Criminal Justice
+      university: Miami-Dade College
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2009 - 2014
@@ -82,16 +77,7 @@ education:
     - degree: BSc in Applied Mathematics
       university: Bristol University
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 # Your previous job experiences or voluntier
 experiences:
     - role: Lead Developer
