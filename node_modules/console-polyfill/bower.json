@@ -1,0 +1,7 @@
+{
+  "name": "console-polyfill",
+  "version": "0.1.2",
+  "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
+  "main": "index.js",
+  "dependencies": {}
+}
