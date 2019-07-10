@@ -9,8 +9,8 @@ basic_info:
     # Profile information
     first_name: Dave
     last_name: Chapelle
-    motto: Full Stack Comedian
-    avatar: https://randomuser.me/api/portraits/man/25.jpg
+    motto: Full Stack Developer
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -21,35 +21,35 @@ basic_info:
       Second paragraph if required.
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: alesanchezr.com #do not add http://
-    linkedin: dchapelle
-    github: dchapellie
-    twitter: '@comedyninja'
+    email: torreandres.jose@gmail.com
+    phone: 414 345 6789
+    website: andrestorre.com #do not add http://
+    linkedin:
+    github: andrestorrealba
+    twitter: '@andrestorre03'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: Bjorquesh
+      - idiom: French
         level: Professional
 
-      - idiom: Haha
+      - idiom: Spanish
         level: Professional
 
     interests:
-      - item: Laughs
+      - item: Climbing
 
-      - item: Comedy
+      - item: Snowboarding
 
-      - item: Acting
+      - item: Cooking
 
 education:
-    - degree: Legend
-      university: University
-      time: 1997 - 2086
+    - degree: Ingeniero Sistema
+      university: Universidad Fermin Toro
+      time: 2011 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -60,9 +60,9 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: Stuff
-      university: Somethingfancy
-      time: 2017 - 2019
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -74,8 +74,8 @@ education:
           - Bullet point
 
 experiences:
-    - role: Leader
-      time: 2012 - Present
+    - role: Lead Developer
+      time: 2015 - Present
       company: Startup Hubs, San Francisco
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -92,8 +92,8 @@ experiences:
           - Bullet point
 
     - role: Senior Software Engineer
-      time: 2012 - 2015
-      company: Twitter, Space
+      time: 2014 - 2015
+      company: Google, London
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
