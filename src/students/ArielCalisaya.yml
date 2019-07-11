@@ -1,40 +1,42 @@
+
 template: "online-cv"
-skin: "blue"
+skin: "Yellow"
 
 # Personal Information
 basic_info:
 
-    # Your full name
+    #full name
     first_name: Ariel Vladimir
     last_name: Calisaya Serrano
-    
-    # Define yourself in 4-5 words
+
+    # Me in 5 words
     motto: I like play with codes
-    
+
     # focus
-    focus: become a senior programer 
-    
+    focus: become a senior programer
+
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
+    summary:
       ....l
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Profile picture URL
+    # Avatar picture
     avatar: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fweb-and-seo-11-1%2F65%2F549-512.png&f=1
 
     # Contact Information
-    email: calisayaariel62@gmail.com #optional
-    phone: 58980429 #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: ArielCalisaya
-    
-    twitter: 'none' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    email: calisayaariel62@gmail.com
+    phone: +56 9 58980429
 
-    # languages you speak, levels inculde: Native, Professional
+    # My github
+    github: https://github.com/ArielCalisaya
+    # My username
+    Username: ArielCalisaya
+
+    twitter: 'none'
+    stack-overflow: user:11746179
+    Stack-overflow-link: https://stackoverflow.com/users/11746179/ariel-calisaya
+
+    # languages i speak.
     languages:
       - idiom: Spanish
         level: Native
