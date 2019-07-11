@@ -1,19 +1,19 @@
 
-template: "online-cv"
-skin: "blue"
+template:                 "online-cv"
+skin:                     "blue"
 
 # Personal Information
 basic_info:
 
     #full name
-    first_name: Ariel Vladimir
-    last_name: Calisaya Serrano
+    first_name:           Ariel Vladimir
+    last_name:            Calisaya Serrano
 
     # Me in 5 words
-    motto: I like play with codes
+    motto:                I like play with codes
 
     # focus
-    focus: become a senior programer
+    focus:                become a senior programer
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary:
@@ -21,25 +21,25 @@ basic_info:
 
     # Profile picture URL
     # Avatar picture
-    avatar: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fweb-and-seo-11-1%2F65%2F549-512.png&f=1
+    avatar:               https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fweb-and-seo-11-1%2F65%2F549-512.png&f=1
 
     # Contact Information
-    email: calisayaariel62@gmail.com
-    phone: +56 9 58980429
+    email:                calisayaariel62@gmail.com
+    phone:                +56 9 58980429
 
     # My github
-    github: https://github.com/ArielCalisaya
+    github:               https://github.com/ArielCalisaya
 
-    twitter: 'none'
-    stack-overflow: user:11746179
-
+    twitter:              'none'
+    stack-overflow:       user:11746179
+    Stack-overflow-link:  https://stackoverflow.com/users/11746179/ariel-calisaya
     # languages i speak.
     languages:
-      - idiom: Spanish
-        level: Native
+      - idiom:            Spanish
+        level:            Native
 
-      - idiom: English
-        level: Medium
+      - idiom:            English
+        level:            Medium
 
-      - idiom: Portuguese
-        level: Basic
+      - idiom:            Portuguese
+        level:            Basic
