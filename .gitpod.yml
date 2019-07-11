@@ -6,3 +6,5 @@ tasks:
         npm install;
       command: >
         npm run start;
+    - init: >
+        npm i now -g;
