@@ -43,3 +43,21 @@ basic_info:
 
       - idiom:            Portuguese
         level:            Basic
+
+    # My Skills
+    skills:
+        toolset:
+          - name:         Python & Django
+            level:        10%
+
+          - name:         Javascript & jQuery
+            level:        23%
+
+          - name:         HTML5 & CSS
+            level:        75%
+
+          - name:         Bootstrap
+            level:        50%
+
+          - name:         Photoshop
+            level:        30%
