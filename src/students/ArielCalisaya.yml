@@ -28,11 +28,10 @@ basic_info:
     phone:                +56 9 58980429
 
     # My github
-    github:               https://github.com/ArielCalisaya
+    github:               ArielCalisaya
 
     twitter:              'none'
-    stack-overflow:       user:11746179
-    Stack-overflow-link:  https://stackoverflow.com/users/11746179/ariel-calisaya
+    stack-overflow:       11746179/ariel-calisaya
     # languages i speak.
     languages:
       - idiom:            Spanish
