@@ -225,13 +225,13 @@ li{
         margin-top: -15px;
     }
 
-    .geeks-img {
+    /* .geeks-img {
         position: fixed;
         right: 32px;
         top: 17px;
         height: 85px;
         z-index: 20;
-}
+} */
 .name{
     font-size: 94px;
     padding-top: 34px;
@@ -376,13 +376,6 @@ li{
         border: 3px solid white;
         border-radius: 50%;
         margin-left: -3px;
-    }
-    .geeks-img {
-        position: fixed;
-        right: 13px;
-        top: 8px;
-        height: 40px;
-        z-index: 20;
     }
     .name {
         font-size: 24px;
@@ -1170,16 +1163,7 @@ li{
     }
 
 }
-/* @media only screen and (min-width: 1024px){
-    .parallax {
-        background-image: url(https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6…/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 660px;
-        background-attachment: fixed;
-        position: relative;
-    }
-} */
+
 
 @media only screen and (min-width: 1024px){
     .container {
@@ -1443,4 +1427,12 @@ li{
         margin-left: 15px;
         background: linear-gradient( to top,white,  rgba(255, 255, 255, 0));
     } 
+    .line-bottom {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: 270px;
+        width: 50%;
+    }
 }
