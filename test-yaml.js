@@ -39,6 +39,10 @@ const validateProfiles = (profiles) => profiles.map(l => {
     if(!yaml.basic_info.github) throw new Error('Missing github username on YML file ${fileName}.yml'.red);
     
     if(yaml.template != 'online-cv') throw new Error(`The only supported template is online-cv`.red);
+  
+    if(typeof yaml.phone !== 'undefined') throw new Error(`Missing or invalid phone field`.red);
+  
+    if(!Array.isArray(yaml.projects)) throw new Error(`You are missing projects, add at least one project to the YML`.red);
     
     if(typeof yaml.skin == 'undefined') throw new Error(`You need to specify a skin on the ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
     if(!validThemes.includes(yaml.skin)) throw new Error(`Invalid skin value ${yaml.skin} on file ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
