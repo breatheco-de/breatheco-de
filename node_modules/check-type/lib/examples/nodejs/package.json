@@ -1,0 +1,10 @@
+{
+  "name": "check-type-node-example",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "description": "Example of using check-type module in node.",
+  "dependencies": {
+    "check-type": "latest"
+  }
+}
