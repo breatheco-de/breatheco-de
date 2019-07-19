@@ -8,15 +8,25 @@ export default ({ data }) => {
   const [ search, setSearch ] = useState('');
   return (
     <div class="container">
-        <p className="text-center mt-4 mb-0"><img src="https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012" /></p>
-        <p className="text-center mt-0"><small>Last build: {moment(data.sitePage.fields.today).fromNow()}</small></p>
-        <p className="text-center mt-0"><input type="text" className="form-control" onChange={(e) => setSearch(e.target.value.replace(" ","").toLowerCase())} placeHolder="Type name to search" /></p>
+        <h2 className="text-center mt-5"><small>This project was last built: <strong>{moment(data.sitePage.fields.today).fromNow()}</strong></small></h2>
+        <div className="row">
+            <div className="col-4 text-center">
+                <small><strong>You don't see yourself on this list?</strong></small>
+            </div>
+            <div className="col-8">
+                <small>
+                Check if your commit is showing alreading on the repository <a target="_blank" href="https://github.com/4GeeksAcademy/student-external-profile/commits/master">commits history</a> and your pull request should be listed as "approved" on the <a target="_blank" href="https://github.com/4GeeksAcademy/student-external-profile/pulls"> repository list of pull requests</a>
+                </small>
+            </div>
+        </div>
+        <p className="text-center mt-4"><input type="text" className="form-control" onChange={(e) => setSearch(e.target.value.replace(" ","").toLowerCase())} placeHolder="Type student name to search" /></p>
+
         <ul>
-            {
-                students
-                .filter(({node}) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
-                .map(({ node }, i) => (<li key={i}><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link></li>))
-            }
+        {
+            students
+            .filter(({node}) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
+            .map(({ node }, i) => (<li key={i}><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link></li>))
+        }
         </ul>
     </div>
   );
