@@ -20,10 +20,12 @@ basic_info:
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     esta parte la llenare despues
-     I'll fill this part later
-
-      Second paragraph if required.
+     Hola, mi nombre es Francisco Badilla Orellana, soy desarrollador Full Stack,
+     poseo una sólida formación en conceptos contables, y gran experiencia en el área administrativa.
+     mi gran pasion es la tecnología y la programación, me encanta aprender y aplicar nuevos conceptos,
+     manejo idiomas de programación orientado a objetos. Utilizo metodologías ágiles, como Scrum, Kanban y de Desing Sprint.
+     Soy pro-activo, con grandes metas de superación personal y profesional ademas poseeo excelentes habilidades para trabajar en equipo,
+     ya sea liderando equipos o adaptándome a equipos ya conformados, siendo un gran aporte para el desarrollo del proyecto.
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -32,8 +34,8 @@ basic_info:
     # Contact Information
     email: fibadilla@uc.cl #optional
     phone: +569 3725 7893 #optional
-    website: https://www.instagram.com/badfco/ #optional
-    linkedin: https://www.linkedin.com/in/fbadillaore/ #optional
+    website: instagram.com/badfco/ #optional
+    linkedin: fbadillaore/ #optional
 
     #
     # ******** IMPORTANT *******
@@ -54,43 +56,27 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Climbing  - Bike   - trekking
 
-      - item: bike
+      - item: happiness - Family
 
-      - item: happiness
-
+      - item: startups  - AI     - Chatbots
 # Your previous education
 education:
-    - degree: MSc in Computer Science
+    - degree: Administrador Financiero
       university: Duoc UC
       # optional
       university_logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiw1NK7qPHiAhWjHrkGHYvfBjcQjRx6BAgBEAU&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FArchivo%3ALogo_DuocUC.svg&psig=AOvVaw1izFYlmQ7O-HcArUFlTDQp&ust=1560888366247850
       time: 2007 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      details:
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Developer Full Stack
+      university: 4geeksAcademy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      time: 2019
+      details:
 
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or voluntier
 experiences:
@@ -113,35 +99,6 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
@@ -172,14 +129,14 @@ projects:
       - title: Atom
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        link: "https://github.com/fbadilla/Contact-Managment-App"
+        tagline: "esta es una pequeña aplicación de administración de contactos que permite a los usuarios: Leer, crear, actualizar y eliminar contactos."
 
-      - title: Delta
+      - title: Todo List
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        link: "https://github.com/fbadilla/todolistapp"
+        tagline: "Todo-list es una aplicacion que permite agregar y eliminar tareas, en este proyecto sincronizaremos nuestra lista de tareas pendientes con una base de datos real, utilizando una API REST."
 
 skills:
     toolset:
@@ -189,14 +146,11 @@ skills:
       - name: Javascript & jQuery
         level: 98%
 
-      - name: Angular
+      - name: React.js
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 100%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Api rest
+        level: 90%
