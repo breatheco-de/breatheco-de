@@ -91,7 +91,7 @@ export default class Home extends React.Component{
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
-                                        alt="..."
+                                        alt="4Geeks Academy Icon Black."
                                     />
 
                         </div>

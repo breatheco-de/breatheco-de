@@ -8,9 +8,8 @@ export default ({ data }) => {
   const [ search, setSearch ] = useState('');
   return (
     <div className="container">
-        <p className="text-center mt-4 mb-0"><img src="https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012" /></p>
         <p className="text-center mt-0"><small>Last build: {moment(data.sitePage.fields.today).fromNow()}</small></p>
-        <p className="text-center mt-0"><input type="text" className="form-control" onChange={(e) => setSearch(e.target.value.replace(" ","").toLowerCase())} placeHolder="Type name to search" /></p>
+        <p className="text-center mt-0"><input type="text" className="form-control" onChange={(e) => setSearch(e.target.value.replace(" ","").toLowerCase())} placeHolder="Type student name to search" /></p>
         <ul>
             {
                 students
