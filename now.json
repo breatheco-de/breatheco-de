@@ -1,0 +1,45 @@
+{
+    "version": 2,
+    "alias": "sep.4geeksacademy.co",
+    "name": "Student External Profile",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+    ],
+    "routes": [
+        {
+        "src":"/(.*).css",
+        "headers": { "cache-control": "s-maxage=31536000,immutable" },
+        "dest":"/$1.css"
+      },
+      {
+        "src":"/(.*).json",
+        "headers": { "cache-control": "s-maxage=31536000,immutable" },
+        "dest":"/$1.json"
+      },
+      {
+        "src":"/(.*).ico",
+        "headers": { "cache-control": "s-maxage=31536000,immutable" },
+        "dest":"/$1.ico"
+      },
+      {
+        "src":"/(.*).jpg",
+        "headers": { "cache-control": "s-maxage=31536000,immutable" },
+        "dest":"/$1.jpg"
+      },
+      {
+        "src":"/(.*).png",
+        "headers": { "cache-control": "s-maxage=31536000,immutable" },
+        "dest":"/$1.png"
+      },
+      {
+        "src":"/(.*).js",
+        "headers": { "cache-control": "s-maxage=31536000,immutable" },
+        "dest":"/$1.js"
+      },
+    {
+      "src": "/(.*)",
+      "headers": { "cache-control": "s-maxage=0" },
+      "dest": "/index.html"
+    }
+  ]
+}

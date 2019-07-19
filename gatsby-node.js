@@ -6,6 +6,17 @@ const getTemplate = (templateSlug) => {
   return path.resolve(`./src/templates/${templateSlug}/index.js`);
 };
 
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
+  if (node.internal.type === `SitePage`) {
+      console.log(node);
+      createNodeField({
+        node, name: `today`,
+        value: new Date(),
+      });
+  }
+};
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
@@ -24,7 +35,7 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
     `).then(result => {
-      
+
       let students = [];
       result.data.allStudentsYaml.edges.forEach(({ node }) => {
         students.push({
@@ -40,7 +51,7 @@ exports.createPages = ({ actions, graphql }) => {
           },
         });
       });
-      
+
       resolve();
     });
   });

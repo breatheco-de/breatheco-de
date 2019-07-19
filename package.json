@@ -8,7 +8,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "c9": "gatsby develop -p $PORT -H $IP",
-    "deploy": "node deploy-to-github.js"
+    "deploy": "node deploy-to-github.js",
+    "now-build": "gatsby build"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
@@ -23,10 +24,12 @@
     "gatsby-react-router-scroll": "^2.0.2",
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-transformer-yaml": "^2.1.12",
+    "moment": "^2.24.0",
     "node-sass": "^4.12.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-tooltip": "^3.10.0",
     "react-typography": "^0.16.13",
     "travis-ci": "^2.2.0",
     "typography": "^0.16.17",
