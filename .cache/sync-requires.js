@@ -9,6 +9,7 @@ exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/workspace/student-external-profile/.cache/dev-404-page.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/index.js"))),
   "component---src-pages-profile-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/profile.js"))),
+  "component---src-pages-profile-2-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/profile2.js"))),
   "component---src-pages-students-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/students.js")))
 }
 

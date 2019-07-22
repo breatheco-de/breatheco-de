@@ -6,8 +6,18 @@
     },
     {
         "componentChunkName": "component---src-templates-online-cv-index-js",
+        "jsonName": "ariel-calisaya-1ac",
+        "path": "/ArielCalisaya"
+    },
+    {
+        "componentChunkName": "component---src-templates-online-cv-index-js",
         "jsonName": "cjsn-22-654",
         "path": "/CJSN22"
+    },
+    {
+        "componentChunkName": "component---src-templates-online-cv-index-js",
+        "jsonName": "colby-w-taylor-5f7",
+        "path": "/ColbyWTaylor"
     },
     {
         "componentChunkName": "component---src-templates-online-cv-index-js",
@@ -33,6 +43,16 @@
         "componentChunkName": "component---src-templates-online-cv-index-js",
         "jsonName": "henry-sg-c-1cc",
         "path": "/HenrySgC"
+    },
+    {
+        "componentChunkName": "component---src-templates-online-cv-index-js",
+        "jsonName": "josancev-376",
+        "path": "/Josancev"
+    },
+    {
+        "componentChunkName": "component---src-templates-online-cv-index-js",
+        "jsonName": "jphendrix-51-5b2",
+        "path": "/Jphendrix51"
     },
     {
         "componentChunkName": "component---src-templates-online-cv-index-js",
@@ -191,6 +211,11 @@
     },
     {
         "componentChunkName": "component---src-templates-online-cv-index-js",
+        "jsonName": "github-com-omonroy-36-ec0",
+        "path": "/github.com/Omonroy36"
+    },
+    {
+        "componentChunkName": "component---src-templates-online-cv-index-js",
         "jsonName": "guillermodelacabada-db4",
         "path": "/guillermodelacabada"
     },
@@ -295,9 +320,19 @@
         "path": "/nachovz"
     },
     {
+        "componentChunkName": "component---src-templates-online-cv-index-js",
+        "jsonName": "paocastrob-47e",
+        "path": "/paocastrob"
+    },
+    {
         "componentChunkName": "component---src-pages-profile-js",
         "jsonName": "profile-2a3",
         "path": "/profile/"
+    },
+    {
+        "componentChunkName": "component---src-pages-profile-2-js",
+        "jsonName": "profile-2-0af",
+        "path": "/profile2/"
     },
     {
         "componentChunkName": "component---src-templates-online-cv-index-js",

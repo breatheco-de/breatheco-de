@@ -6,6 +6,7 @@ exports.components = {
   "component---cache-dev-404-page-js": () => import("/workspace/student-external-profile/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-index-js": () => import("/workspace/student-external-profile/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-profile-js": () => import("/workspace/student-external-profile/src/pages/profile.js" /* webpackChunkName: "component---src-pages-profile-js" */),
+  "component---src-pages-profile-2-js": () => import("/workspace/student-external-profile/src/pages/profile2.js" /* webpackChunkName: "component---src-pages-profile-2-js" */),
   "component---src-pages-students-js": () => import("/workspace/student-external-profile/src/pages/students.js" /* webpackChunkName: "component---src-pages-students-js" */)
 }
 
