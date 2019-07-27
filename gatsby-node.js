@@ -42,10 +42,10 @@ exports.createPages = ({ actions, graphql }) => {
           github: node.basic_info.github,
           full_name: node.basic_info.first_name + ' ' + node.basic_info.last_name
         });
-        if (edge.node.template==='profile'){
+        if (node.template==='profile'){
           createPage({
             path: `/profile/${node.basic_info.github}`,
-            component:  profile,
+            component:  getTemplate(node.template),
             context: {
               // Data passed to context is available in page queries as GraphQL variables.
               github: node.basic_info.github
@@ -54,7 +54,7 @@ exports.createPages = ({ actions, graphql }) => {
         } else{
           createPage({
             path: node.basic_info.github,
-            component:  online-cv,
+            component:  getTemplate(node.template),
             context: {
               // Data passed to context is available in page queries as GraphQL variables.
               github: node.basic_info.github

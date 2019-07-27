@@ -2,7 +2,10 @@ import React from 'react'
 import { graphql } from 'gatsby';
 
 export default ({ data, pageContext })=> {
+   
     const stud = data.studentsYaml;
+     console.log({stud});
+ 
         return (
             <div className="container-fluid">
                 <div className="row">
@@ -434,7 +437,7 @@ export default ({ data, pageContext })=> {
 
 export const query = graphql`
   query ($github: String) {
-    profileYaml(basic_info: { github: { eq: $github } }) {
+    studentsYaml(basic_info: { github: { eq: $github } }) {
         template
         skin
         basic_info{
@@ -450,6 +453,7 @@ export const query = graphql`
             linkedin
             phone
             avatar
+            email
             languages{
                 idiom
                 level
