@@ -49,5 +49,64 @@ export const query = graphql`
             }
         }
     }
+    student:allStudentsYaml{
+        edges{
+          node{
+            id
+            template
+            skin
+            basic_info{
+              first_name
+              last_name
+              motto
+              avatar
+              summary
+              email
+              phone
+              website
+              linkedin
+              github
+              twitter
+              stack_overflow
+              languages{
+                idiom
+                level
+              }
+              interests{
+                item
+                item
+                item
+              }
+            }
+            education{
+              degree
+              university
+              time
+              details
+            }
+            experiences{
+              role
+              time
+              company
+              details
+            }
+            projects{
+              intro
+              assignments{
+                title
+                link
+                tagline
+              }
+            }
+            skills{
+              toolset{
+                name
+                level
+              }
+            }
+          }
+        }
+      }
   }
+
 `;

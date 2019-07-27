@@ -1,0 +1,8 @@
+createPage({
+          path: node.basic_info.github,
+          component: getTemplate(node.template || 'online-cv' || 'profile'),
+          context: {
+            // Data passed to context is available in page queries as GraphQL variables.
+            github: node.basic_info.github
+          },
+        });

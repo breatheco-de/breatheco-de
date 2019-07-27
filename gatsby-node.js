@@ -42,14 +42,25 @@ exports.createPages = ({ actions, graphql }) => {
           github: node.basic_info.github,
           full_name: node.basic_info.first_name + ' ' + node.basic_info.last_name
         });
-        createPage({
-          path: node.basic_info.github,
-          component: getTemplate(node.template || 'online-cv'),
-          context: {
-            // Data passed to context is available in page queries as GraphQL variables.
-            github: node.basic_info.github
-          },
-        });
+        if (edge.node.template==='profile'){
+          createPage({
+            path: `/profile/${node.basic_info.github}`,
+            component:  profile,
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              github: node.basic_info.github
+            },
+          });
+        } else{
+          createPage({
+            path: node.basic_info.github,
+            component:  online-cv,
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              github: node.basic_info.github
+            },
+          });
+        }
       });
 
       resolve();
