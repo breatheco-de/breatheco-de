@@ -9,7 +9,7 @@ basic_info:
     # Profile information
     first_name: Eduardo
     last_name: Muñoz
-    motto: El placer de aprender
+    motto: El gusto por aprender
     avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
       Ingeniero Civil Electrónico, Magister en Ciencias de la Ingeniería, con especialidad en Sistemas SCADA,
@@ -26,59 +26,205 @@ basic_info:
     # Sidebar links
     email: eduardo.munoz.p@gmail.com
     phone: +56 9 67273313
-    linkedin: https://www.linkedin.com/in/eduardo-alejandro-mu%C3%B1oz-ponce/
+    linkedin: https://www.linkedin.com/in/eduardo-alejandro-muñoz-ponce/
     github: edoalemp
     twitter:
     stack-overflow:
 
     languages:
-      - idiom: English
-        level: Basic
+      - idiom: Inglés
+        level: Basico
 
-      - idiom: Spanish
-        level: Native
+      - idiom: Español
+        level: Nativo
 
     interests:
-      - item: Phylately
+      - item: Filatelia
       - item: Trekking
-      - item: Photography
+      - item: Fotografía
 
 education:
-    - degree: Licenciado en Ciencias de Ingeniería
-      university: Pontificia Universidad Católica de Valparaiso
+    - degree: Licenciado en Ciencias de Ingeniería.
+      university: Pontificia Universidad Católica de Valparaíso.
       time: 1997
       details: |
 
+          - Ingeniería Electrónica.
 
-    - degree: Ingeniero Civil Electrónico
-      university: Pontificia Universidad Católica de Valparaiso
+    - degree: Título de Ingeniero Civil Electrónico.
+      university: Pontificia Universidad Católica de Valparaíso.
       time: 1999
       details: |
-        Título de Ingeniero Civil Electrónico
+        Título de Ingeniero Civil Electrónico.
 
-          - Automatización
-          - Control Automático
+          - Automatización.
+          - Control Automático.
+
+    - degree: MAGÍSTER EN CIENCIAS DE LA INGENIERÍA.
+      university: Pontificia Universidad Católica de Valparaíso.
+      time: 2007
+      details: |
+        MENCIÓN EN INGENIERÍA ELÉCTRICA.
+
+          - Control de sistemas no lineales.
+          - Control de Caos.
 
 experiences:
-    - role: Regional Controls Enginner
-      time: 2016 - Present
-      company: Daikin Applied Latinamerica, Miami
+    - role: Profesor Jornada Parcial.
+      time: 2003 - Present
+      company: Pontificia Universidad Católica de Valparaíso.
       details: |
-        Controls business development
+        Asignaturas dictadas de Sistemas de Supervisión, Control y Adquisición de Datos (SCADA),
+        Redes de Comunicación Industrial, Controladores Programables, Laboratorio de electrónica 2,
+        Laboratorio de Sistemas Electrónicos, Electrónica de Estado Sólido, Circuitos Electrónicos,
+        Control Automático, Análisis de Señales y Sistemas.
 
-    - role: Senior Business Consultnat
-      time: 2014 - 2016
-      company: Honeywell, Bogota
+    - role: Profesor Civil.
+      time: 2013 - 2018
+      company: Academia Politecnica Naval, Armada de Chile.
       details: |
-        BAS Systems Sales.
+        Asignaturas de Circuitos Eléctricos, Electrónica, Análisis de Circuitos, Sistemas Digitales
+        y Control Automático.
 
-    - role: Product Managert
-      time: 2009 - 2014
-      company: Belimo, Danbury CT
+    - role: Jefe de Cátedra de Sistemas Eléctricos y Electrónicos.
+      time: 2014 - 2015
+      company: Escuela Naval "Arturo Prat", Armada de Chile.
       details: |
-       Valves and Software Development, Engineering and comercialization.
+        Definir y Coordinar las actividades de los profesores de la cátedra.
+
+    - role: Profesor Civil.
+      time: 2013 - 2015
+      company: Escuela Naval "Arturo Prat", Armada de Chile.
+      details: |
+        Asignaturas de Electrotecnia, Circuitos Eléctricos, Electrónica y Máquinas Eléctricas.
+
+    - role: Profesor Jornada Parcial.
+      time: 2015
+      company: Escuela de Ingeniería, Universidad Andrés Bello, Sede Viña de Mar.
+      details: |
+        Asignatura de Automatización de Procesos Industriales.
+
+    - role: Profesor Jornada Parcial.
+      time: 2012
+      company: Escuela de Ingeniería, Universidad Andrés Bello, Sede Viña de Mar.
+      details: |
+        Asignatura de Software Incrustado.
+
+    - role: Profesor Jornada Parcial.
+      time: 2010 - 2011
+      company: Facultad de Ingeniería y Negocios. Universidad de las Américas.
+      details: |
+        Asignatura de Software Incrustado.
+
+    - role: Ingeniero de Soporte.
+      time: 2007 - 2010
+      company: MAXCONTROL LTDA.
+      details: |
+          - Programación de sistema PLC TWIDO TWDCLA 24DRF para ENDESA, Central San Pedro.
+          - Programación y Soporte de sistemas PLC ALLEN BRADLEY para ESVAL.
+          - Configuración de Estación de Ingeniería, basado en Sistema Operativo OS/2,
+          para configuración de PLC TSX 47, en planta LIPIGAS, Concón.
+
+    - role: Ingeniero Asesor.
+      time: 2007 - 2008
+      company: SISDEF LTDA.
+      details: |
+          - Desarrollo de la modelación y simulación dinámica en software MATLAB del Sistema de
+          Control de propulsión APV Oscar Viel.
+          - Pruebas FAT de Sistema de Control de la propulsión de APV Oscar Viel.
+
+    - role: Ingeniero de Soporte.
+      time: 2007 - 2008
+      company: INECO LTDA.
+      details: |
+          - Configuración y Programación de equipo PLC Allen Bradley Micrologix 1500, para unidad de
+          medición de conductividad de interfaz MCI.
+          - Soporte de unidades MCI instaladas, basados en sistemas Fisher ROC 300 y PLC Siemens S7-200.
+
+    - role: Ingeniero de Sistemas, Telemetría y SCADA.
+      time: 2005
+      company: JTP LTDA.
+      details: |
+          - Desarrollo y configuración de proyecto de sistema de telemetría para plantas
+          elevadoras de aguas servidas de ESSBIO S.A.
+          - Configuración de sistema SCADA, para la automatización de planta azucarera  Paramonga en Perú,
+          basado en software INFILINK y unidad PLC Samsung N70.
+
+    - role: Ingeniero de Sistemas, Telemetría y SCADA.
+      time: 2004 - 2005
+      company: INECO LTDA.
+      details: |
+          - Soporte para unidades Fisher ROC 300 y SCADA FIX 7.0 en planta INDURA, Concepción.
+          - Instalación y configuración de reguladores Fisher REGFLO. Integración de reguladores al sistema
+          SCADA de malla de distribución de gas de la empresa GASSUR en Concepción y Los Ángeles.
+          - Actualización de sistema SCADA de malla de distribución de gas, desde sistema FIX 6.15 a FIX 7.0,
+          para la empresa GASSUR, Concepción.
+          - Soporte y mantención de reguladores Fisher REGFLO, del sistema SCADA de malla de distribución
+          de gases, de la empresa GASSUR, Concepción.
+
+    - role: Jefe de Área Académica, Dirección Central de Servicios Computacionales.
+      time: 2002
+      company: Universidad Técnica Federico Santa María.
+      details: |
+          - Administración de laboratorios de computadores.
+          - Atención técnica y soporte a usuarios de la universidad.
+          - Administración de licencias de software institucional.
+          - Administración del Sistema Antivirus Trend Micro.
+          - Administración de equipamiento de laboratorios.
+
+    - role: Ingeniero de Sistemas y coordinador de proyectos.
+      time: 2000 - 2002
+      company: INECO LTDA.
+      details: |
+          - Configuración de unidades de telemetría basados en unidades Fisher ROC 312 para la empresa
+          PETROX, Talcahuano.
+          - Configuración de unidades de telemetría basados en unidades Fisher ROC 300  para la empresa
+          CODELCO, División El Teniente.
+          - Desarrollo, configuración y puesta en marcha de Sistema SCADA, de la red de distribución de
+          gas de la empresa INNERGY, Concepción, basado en software WONDERWARE INTOUCH 8.0 y unidades de
+          telemetría ROC 300
+          - Desarrollo, configuración y puesta en marcha de Sistema SCADA, de la red de distribución de
+          gas de la empresa GASCO Magallanes, Punta Arenas, basado en software iFIX 2.5, y unidades REGFLO 100.
+          - Labores administrativas como coordinador de proyecto de desarrollo, configuración e instalación del
+          Sistema de Control DeltaV para minera El Tesoro.
+
+    - role: Ingeniero de Sistemas, Telemetría y SCADA.
+      time: 1999
+      company: INECO LTDA.
+      details: |
+          - Desarrollo, configuración y puesta en marcha de sistemas SCADA basados en software FIX 7.0.
+          - Sistema de supervisión de centrales Atacama y S/E Encuentro. NOPEL S.A.
+          - Sistema de supervisión Central Tarapacá.  CELTA S.A.
+          - Sistema de supervisión del sistema de telecomunicación entre subestaciones de TRANSELEC - Concepción.
+
+    - role: Ingeniero de Sistemas, Telemetría y SCADA.
+      time: 1999
+      company: INECO LTDA.
+      details: |
+          - Configuración de equipos de telemetría Fisher ROC 300, actualización de hardware de computadores en servicio,
+          configuración de red LAN TCP/IP bajo S.O. Windows NT 4.0 y configuración de software SCADA FIX 6.15, en proyecto
+          de Telemetría de malla de gases, de la empresa ENAP-Magallanes, Punta Arenas.
+          - Soporte y mantención de unidades de telemetría Fisher ROC 300 del sistema SCADA de GASSUR, Concepción.
+          - Desarrollo y configuración de sistema SCADA basado en software FIX 7.0 y unidades de telemetría Fisher ROC 300
+          en planta INDURA, Talcahuano.
+
+    - role: Ingeniero en práctica.
+      time: 1998
+      company: INECO LTDA.
+      details: |
+          - Asistencia en configuración de unidades de telemetría Fisher ROC 300 y software SCADA FIX 6.15, en proyecto de
+          Telemetría de malla de gases, de la empresa ENAP-Magallanes, Punta Arenas.
+          - Configuración de Aplicaciones y equipos de telemetría.
+
+    - role: Ingeniero en práctica.
+      time: 1996
+      company: CODELCO, División Andina.
+      details: |
+          - Instrumentista Electrónico.
+          - Programación de PLC Modicon.
 
 projects:
+
     intro: >
       Software development projects as part of the 4GeeksAcademy.
 
@@ -102,20 +248,14 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level:
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: Javascript
+        level:
 
       - name: HTML5 & CSS
-        level: 95%
+        level:
 
-      - name: Ruby on Rails
+      - name: SQL
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
