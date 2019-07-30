@@ -20,7 +20,7 @@ basic_info:
       Published author and frequent technical presenter in industry trade events.
 
     # Sidebar links
-    email: 
+    email: eduardo.munoz.p@gmail.com
     phone:
     linkedin:
     github: edoalemp
@@ -29,14 +29,14 @@ basic_info:
 
     languages:
       - idiom: English
-        level: Professional
+        level: Basic
 
       - idiom: Spanish
         level: Native
 
     interests:
-      - item: Paragliding
-      - item: Motorcycles
+      - item: Phylately
+      - item: Trekking
       - item: Photography
 
 education:
