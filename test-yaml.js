@@ -72,8 +72,8 @@ async function status (workingDir) {
 
 // using the async function
 status(__dirname).then(status => {
-    //const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') == -1);
-    const nonYMLFiles = [];
+    const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') == -1);
+    //const nonYMLFiles = [];
     if(nonYMLFiles.length > 0){
         console.log("You should only update your YML file and the following files have also been updated: ".red);
         console.log(nonYMLFiles.map(f => f.path))
