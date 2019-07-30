@@ -1,4 +1,4 @@
-pullRequestOpened: >
+pullRequestOpened: >-
     Congratulations on your first pull request, this is what is happening now:  
     
     1. `Travis` will try to test that your YML file is good and the project builds correctly. 
