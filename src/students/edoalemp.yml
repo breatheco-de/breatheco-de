@@ -29,14 +29,14 @@ basic_info:
 
     languages:
       - idiom: English
-        level: Professional
+        level: Basic
 
       - idiom: Spanish
         level: Native
 
     interests:
-      - item: Paragliding
-      - item: Motorcycles
+      - item: Phylately
+      - item: Trekking
       - item: Photography
 
 education:
