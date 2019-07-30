@@ -9,20 +9,24 @@ basic_info:
     # Profile information
     first_name: Eduardo
     last_name: Muñoz
-    motto: The Controls Wisperer
+    motto: El placer de aprender
     avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
-      Marketing and engineering professional in HVAC and Building Automation Systems,
-      with more than 15 years of experience in the industry. Has held multiple roles
-      including engineering, product support, training, product management,
-      product development, marketing, sales and business development.
-      With considerable international experience in Latin America.
-      Published author and frequent technical presenter in industry trade events.
+      Ingeniero Civil Electrónico, Magister en Ciencias de la Ingeniería, con especialidad en Sistemas SCADA,
+      Controladores Programables y Redes Industriales. Mi experiencia laboral se basa en la participación como
+      Ingeniero de proyectos y servicios en tareas de diseño, configuración y puesta en marcha de sistemas de
+      telemetría y SCADA, controladores industriales, PLC y soluciones de conectividad para equipamiento industrial,
+      administración en la ejecución de proyectos, servicios de soporte en terreno de sistemas instalados,
+      y asistencia en pruebas FAT y SAT. Mi experiencia en el ámbito académico se basa en docencia universitaria
+      en asignaturas de electrónica, control automático y automatización industrial, tanto en asignaturas teóricas
+      como prácticas y de laboratorio, y guía de proyectos de finalización de carrera (pregrado) en
+      Ingeniería Electrónica. Actualmente me desempeño como profesor de Jornada Parcial en la Escuela de
+      Ingeniería Eléctrico de la Pontificia Universidad Católica de Valparaíso.
 
     # Sidebar links
     email: eduardo.munoz.p@gmail.com
-    phone:
-    linkedin:
+    phone: +56 9 67273313
+    linkedin: https://www.linkedin.com/in/eduardo-alejandro-mu%C3%B1oz-ponce/
     github: edoalemp
     twitter:
     stack-overflow:
@@ -40,23 +44,20 @@ basic_info:
       - item: Photography
 
 education:
-    - degree: Production Engineering
-      university: EAFIT
-      time: 1992 - 1998
+    - degree: Licenciado en Ciencias de Ingeniería
+      university: Pontificia Universidad Católica de Valparaiso
+      time: 1997
       details: |
-        Bachelor in Sciences focused on metal mechanic processes
 
-          - Automation
-          - Business Processes
 
-    - degree: Master in Business Communication
-      university: St. Thomas University Minneapolis
-      time: 2006 - 2008
+    - degree: Ingeniero Civil Electrónico
+      university: Pontificia Universidad Católica de Valparaiso
+      time: 1999
       details: |
-        Marketing and Communications.
+        Título de Ingeniero Civil Electrónico
 
-          - New Product Introduction
-          - Product Management
+          - Automatización
+          - Control Automático
 
 experiences:
     - role: Regional Controls Enginner
