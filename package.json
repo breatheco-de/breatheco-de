@@ -42,6 +42,7 @@
     "js-yaml": "^3.13.1",
     "pre-commit": "^1.2.2"
   },
+  "precommit.silent": true,
   "pre-commit": [
     "test"
   ]

@@ -42,7 +42,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
 
     if(typeof yaml.phone !== 'undefined') throw new Error(`Missing or invalid phone field`.red);
 
-    if(!Array.isArray(yaml.projects)) throw new Error(`You are missing projects, add at least one project to the YML`.red);
+    if(!Array.isArray(yaml.projects.assignments)) throw new Error(`You are missing projects, add at least one assignment to the YML`.red);
 
     if(typeof yaml.skin == 'undefined') throw new Error(`You need to specify a skin on the ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
     if(!validThemes.includes(yaml.skin)) throw new Error(`Invalid skin value ${yaml.skin} on file ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
@@ -67,7 +67,13 @@ walk('src/students/', function(err, results) {
         process.exit(0);
     }
     catch(error){
+        console.log("");
+        console.log("");
+        console.log("***** There is one error on your files!!! ****".red);
+        console.log("Here are more details about your error (below):".red);
+        console.log("");
         console.log(error);
+        console.log("");
         process.exit(1);
     }
 });
