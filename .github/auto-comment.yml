@@ -5,8 +5,10 @@ pullRequestOpened: >-
     2. If everything goes good, `mergify` will try to approve the pull request and automatically merge. 
     3. If everything is merged then `now`
 
-    ### How long will this take?
+    ### How long will my PR take to be published?
+    
     It depends, usually around 5 minutes but if other students are queue before you, you will ahve to wait for their profile to be published first.
     
     ### How can I check for errors?
+    
     On [this website](https://travis-ci.org/4GeeksAcademy/student-external-profile/pull_requests) you can see all the pull-requests that travis has processed or queue for processing, you can also check the status of the build, green means good, red means bad. ![Travis file upload](https://ucarecdn.com/8090b522-dec7-43c6-86c7-d639282b6e0f/travis.png)
