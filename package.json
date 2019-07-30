@@ -40,7 +40,8 @@
     "bc-console": "0.0.2",
     "gh-pages": "^2.0.1",
     "js-yaml": "^3.13.1",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "simple-git": "^1.124.0"
   },
   "precommit.silent": true,
   "pre-commit": [
