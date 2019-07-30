@@ -55,25 +55,55 @@ const validateProfiles = (profiles) => profiles.map(l => {
     return yaml;
 });
 
-walk('src/students/', function(err, results) {
-    if (err){
-        console.log("Error scanning yaml files".red);
-        process.exit(1);
-    }
+async function status (workingDir) {
+   const git = require('simple-git/promise');
+   
+   let statusSummary = null;
+   console.log("Checking git status for non-YML files.".yellow);
+   try {
+      statusSummary = await git(workingDir).status();
+   }
+   catch (e) {
+      console.error(e);
+   }
+   
+   return statusSummary;
+}
 
-    try{
-        const result = validateProfiles(results);
-        console.log("Success!! All files are valid".green);
-        process.exit(0);
-    }
-    catch(error){
-        console.log("");
-        console.log("");
-        console.log("***** There is one error on your files!!! ****".red);
-        console.log("Here are more details about your error (below):".red);
-        console.log("");
-        console.log(error);
-        console.log("");
+// using the async function
+status(__dirname).then(status => {
+    //const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') == -1);
+    const nonYMLFiles = [];
+    if(nonYMLFiles.length > 0){
+        console.log("You should only update your YML file and the following files have also been updated: ".red);
+        console.log(nonYMLFiles.map(f => f.path))
         process.exit(1);
     }
+    else{
+        walk('src/students/', function(err, results) {
+            if (err){
+                console.log("Error scanning yaml files".red);
+                process.exit(1);
+            }
+
+            try{
+                const result = validateProfiles(results);
+                console.log("Success!! All files are valid".green);
+                process.exit(0);
+            }
+            catch(error){
+                console.log("");
+                console.log("");
+                console.log("***** There is one error on your files!!! ****".red);
+                console.log("Here are more details about your error (below):".red);
+                console.log("");
+                console.log(error);
+                console.log("");
+                process.exit(1);
+            }
+        });
+    }
+}).catch(err => {
+    console.log(err);
+    process.exit(1);
 });
