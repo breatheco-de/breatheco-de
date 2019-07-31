@@ -8,7 +8,7 @@
 
 ![Travis Build](https://api.travis-ci.org/4GeeksAcademy/student-external-profile.svg?branch=master)
 
-This application serves like a Student Profile Showcase.
+This website serves like a Student Profile Showcase.
 
 Each student must upload a `<your_github_username>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
 
