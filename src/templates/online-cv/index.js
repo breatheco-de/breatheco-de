@@ -79,7 +79,7 @@ export default ({ data, pageContext }) => {
                            </div>
                            <div className="company">{ex.company}</div>
                         </div>
-                        <div className="details">{ex.details}</div>
+                        { ex.details && <div className="details">{ex.details}</div> }
                     </div>)
                  ):''}
               </section>
@@ -130,7 +130,6 @@ export const query = graphql`
             phone
             twitter
             linkedin
-            phone
             avatar
             languages{
                 idiom

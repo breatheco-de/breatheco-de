@@ -40,11 +40,34 @@ const validateProfiles = (profiles) => profiles.map(l => {
 
     if(yaml.template != 'online-cv') throw new Error(`The only supported template is online-cv`.red);
 
-    if(typeof yaml.phone !== 'undefined') throw new Error(`Missing or invalid phone field`.red);
+    //if(typeof yaml.basic_info.phone === 'undefined') throw new Error(`Missing or invalid phone field`.red);
 
-    if(!Array.isArray(yaml.projects.assignments)) throw new Error(`You are missing projects, add at least one assignment to the YML`.red);
+    if(typeof yaml.experiences !== 'undefined'){
+        if(!Array.isArray(yaml.experiences)) throw new Error(`Experiences must be an array`.red);
+        yaml.experiences.forEach((ex) => {
+            if(typeof ex.role === "undefined") throw new Error(`Missing experience role`.red);
+            if(typeof ex.time === "undefined") throw new Error(`Missing experience time`.red);
+            if(typeof ex.company === "undefined") throw new Error(`Missing experience company`.red);
+        })
+    }
+    if(typeof yaml.education !== 'undefined'){
+        if(!Array.isArray(yaml.education)) throw new Error(`Education must be an array`.red);
+        yaml.education.forEach((ex) => {
+            if(typeof ex.degree === "undefined") throw new Error(`Missing education degree`.red);
+            if(typeof ex.time === "undefined") throw new Error(`Missing education time`.red);
+            if(typeof ex.university === "undefined") throw new Error(`Missing education university`.red);
+        })
+    }
 
-    if(typeof yaml.skin == 'undefined') throw new Error(`You need to specify a skin on the ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
+    if(typeof yaml.projects !== 'undefined' && typeof yaml.projects.assignments !== 'undefined'){
+        if(!Array.isArray(yaml.projects.assignments)) throw new Error(`Education must be an array`.red);
+        yaml.projects.assignments.forEach((ex) => {
+            if(typeof ex.title === "undefined") throw new Error(`Missing assignment title`.red);
+            if(typeof ex.tagline === "undefined") throw new Error(`Missing assignment tagline`.red);
+        })
+    }
+
+    if(typeof yaml.skin === 'undefined') throw new Error(`You need to specify a skin on the ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
     if(!validThemes.includes(yaml.skin)) throw new Error(`Invalid skin value ${yaml.skin} on file ${fileName}.yml, the following options are available: ${validThemes.join(',')}`.red);
 
     if(fileName != yaml.basic_info.github.toLowerCase()) throw new Error(`The github username ${yaml.basic_info.github} inside the YML file does not match the file name: ${fileName}`.red);
@@ -57,7 +80,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
 
 async function status (workingDir) {
    const git = require('simple-git/promise');
-   
+
    let statusSummary = null;
    console.log("Checking git status for non-YML files.".yellow);
    try {
@@ -66,14 +89,14 @@ async function status (workingDir) {
    catch (e) {
       console.error(e);
    }
-   
+
    return statusSummary;
 }
 
 // using the async function
 status(__dirname).then(status => {
-    const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') == -1);
-    //const nonYMLFiles = [];
+    //const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') == -1);
+    const nonYMLFiles = [];
     if(nonYMLFiles.length > 0){
         console.log("You should only update your YML file and the following files have also been updated: ".red);
         console.log(nonYMLFiles.map(f => f.path))
