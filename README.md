@@ -6,10 +6,9 @@
     <h2 align="center"> Student External Profile </h2>
 </p>
 
-![Buddy Works Build](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012)
 ![Travis Build](https://api.travis-ci.org/4GeeksAcademy/student-external-profile.svg?branch=master)
 
-This application serves like a Student Profile Showcase.
+This website serves like a Student Profile Showcase.
 
 Each student must upload a `<your_github_username>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
 

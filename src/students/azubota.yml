@@ -7,13 +7,13 @@ basic_info:
     # Your full name
     first_name: Azul Do Mar
     last_name: Botaya
-    
+
     # Define yourself in 4-5 words
     motto: Love everything visual, hard worker24/7
-    
+
     # focus
     focus:
-    
+
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: Born in Brazil, raised in argentina, currently in Miami Beach. 2010-graduate as Fashion Designer, Argentina. 2011-Started working as a freelance Graphic Designer. 2012- Studied bookkeeping, at Miami Dade College. 2014-Became a Mom of a Boy (Benjamin) 2016-Studied for Computer graphic Designer. Experienced in Marketing, Costumer service, and Business management.
     # Your profile picture URL
@@ -23,7 +23,7 @@ basic_info:
     # Contact Information
     email: admbotaya@gmail.com #optional
     phone: 786 380 6908 #optional
-    
+
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
@@ -53,7 +53,7 @@ education:
     - degree: Marketing & Accounting
       university: Niu-Argentina
       time: 2004 - 2005
-    
+
     - degree: Fashion Designer
       university: Fashion School of Argentina
       time: 2007 - 2010
@@ -61,22 +61,24 @@ education:
     - degree: Computer Graphic Designer
       university: Penn Foster
       time: 2016 - 2018
-     
+
 # Your previous job experiences or voluntier
 experiences:
     - role: Marketing & Management
       time: 2012 - Present
+      company: Self-Employed
       details: Manager of chain of restaurant, for sales and marketing.
-      
-    - role: Graphic Designer (selfemployed)
+
+    - role: Graphic Designer
+      company: Self-Employed
       time: 2011 - Present
       details: Worked for several companies, creating their  Marketing profiles, and Design.
-      
+
     - role: Marketing & Accounts Manager
       time: 2006 - 2010
       company: Movistar-Telefonica, Argentina
       details: Nationwide Phone company, Argentina.
-       
+
 # Your project portfolio
 projects:
     intro:
@@ -85,11 +87,11 @@ projects:
      - title: Postcard
        link: "https://github.com/azubota/Mypostcard"
        tagline: First job of html5/css3
-        
+
      - title: Instagram feed 1
        link: "https://github.com/azubota/instagram"
        tagline: First Instagram feed
-       
+
      - title: Instagram feed 2
        link: "https://github.com/azubota/instagram-bootstrap"
        tagline: Responsive instagram created using bootstrap
@@ -100,14 +102,14 @@ skills:
 
       - name: Sketch & Photoshop
         level: 100%
-        
+
       - name: Illustrator & Indesign
         level: 100%
 
       - name: Photography
         level: 100%
-        
+
       - name: Quickbooks
         level: 100%
-        
-    
+
+
