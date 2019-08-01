@@ -95,7 +95,7 @@ async function status (workingDir) {
 
 // using the async function
 status(__dirname).then(status => {
-    //const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') === -1 && f.path.indexOf("package.lock.json") === -1);
+    //const nonYMLFiles = status.files.filter(f => f.path.indexOf('.yml') === -1 && f.path.indexOf("package-lock.json") === -1);
     const nonYMLFiles = [];
     if(nonYMLFiles.length > 0){
         console.log("You should only update your .yml file inside the ./src/students/ folder, but the following files have also been updated: ".red);
