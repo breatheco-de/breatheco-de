@@ -2,31 +2,28 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
 
-> Requirements: Make sure you have node version 8
+### Installation without Gitpod:
 
-##### Remember to install the npm packages first:
+1) Remember to install the npm packages first:
 ```
 $ npm install
 ```
 
-## Build and Start coding!
+2) Build and Start coding!
 
 Build the application for the first time...
 
 ```
-$ npm run start (for Gitpod, linux, mac or windows users)
-$ npm run c9 (for c9 users)
+$ npm run start
 ```
+
 And start coding your Vanilla.js application, update the `src/index.html`, `src/index.scss` or `src/index.js` depending on your needs.
 
 ## FAQ
 
 #### 1) How do I run my code?
 
-- If you are in Gitpod: Just `$ npm run gitpod` and click on Open Browser.
-- If you are in your own environment `$ npm run start` and type localhost on the browser.
-- If you are in Cloud9: Just `$ npm run c9` and click on Preview -> Preview Running Application.  
-![Preview in C9](https://ucarecdn.com/1587e11e-1af0-4f21-a695-ce886db80e6f/)
+- Type on the command line `$ npm run start` and type localhost on the browser.
 
 #### 2) Where do I write my code?
 It depends on the language, but you have `./src/js/index.js`, `./src/style/index.scss` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
