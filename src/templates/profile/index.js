@@ -2,15 +2,16 @@ import React from 'react'
 import { graphql } from 'gatsby';
 
 export default ({ data, pageContext })=> {
-   
+
     const stud = data.studentsYaml;
      console.log({stud});
- 
+     const it = stud.basic_info.avatar;
+
         return (
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 main-body p-0">
-                        <div className="parallax" id="section-top">
+                        <div className="parallax" style={{backgroundImage: `url(${it})`}} id="section-top">
                                     <nav className="vertical-menu rounded">
                                         <ul className="rounded-bottom">
                                             <li className="border-bottom">
@@ -90,13 +91,13 @@ export default ({ data, pageContext })=> {
                                             </label>
                                     </div>
                                         <label className="motto font-italic font-weight-light text-muted">
-                                            {stud.basic_info.focus}
+                                            Motto
                                         </label>
                                 </div>
                                 <div className="col-12 col-md-6 text-center bubble-right">
                                     <div className="bubble text-center font-italic corner-bubble">
                                         <label className="font-weight-light">
-                                        Motto
+                                        {stud.basic_info.focus}
                                         </label>
                                     </div>
                                     <label className="motto font-italic font-weight-light text-muted">
@@ -139,7 +140,7 @@ export default ({ data, pageContext })=> {
                                     <ul className="col-12 col-md-4">
                                         { Array.isArray(stud.basic_info.languages) ? stud.basic_info.languages.map((lang, i) =>
                                         (<li key={i}> Language: {lang.idiom} <span className="lang-desc">Level: ({lang.level})</span></li>)
-                                        ):''}  
+                                        ):''}
                                     </ul>
                                 </div>
                             <hr className="border-bottom" />
@@ -195,7 +196,7 @@ export default ({ data, pageContext })=> {
                                             alt="..."
                                         />
                                     </div>
-                                
+
                                     <div className="row">
                                         <div className="col-12">
                                             <p className="p text-justify text-muted pt-4">
@@ -205,7 +206,7 @@ export default ({ data, pageContext })=> {
                                     </div>
                                 </div>)):""}
                             </section>
-                                      
+
                             <section className="section-5" id="section-5">
                                 <div className="row pt-4">
                                     <div className="col-md-1 pr-0">
@@ -243,7 +244,7 @@ export default ({ data, pageContext })=> {
                                             </div>
                                         </div>
                                     </div>
-                                </div>)):''}                                   
+                                </div>)):''}
                             </section>
                             <section className="section-6" id="section-6">
                                 <div className="row pt-4">
@@ -278,7 +279,7 @@ export default ({ data, pageContext })=> {
                                             </div>
                                         </div>
                                     </div>
-                                </div>)):''}                         
+                                </div>)):''}
                             <hr className="border-bottom" />
                             </section>
 
@@ -330,13 +331,13 @@ export default ({ data, pageContext })=> {
                                                 <div className="col-12">
                                                     <p className="p pt-4 text-justify text-muted">
                                                         {edu.details}
-                                                    </p>                                                
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>)):''}
-                                    
+
                             <hr className="border-bottom" />
                             </section>
 

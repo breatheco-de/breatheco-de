@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 .parallax{
-    background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+    /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
     background-repeat: no-repeat;
     background-size: 100%;
     height: 794px;
@@ -107,19 +107,19 @@ li{
         color:#E2B921;
     }
 
-    .summary:hover .overlay, 
-    .language:hover .overlay, 
-    .interests:hover .overlay, 
-    .experiences:hover .overlay, 
-    .project:hover .overlay, 
-    .skills:hover .overlay, 
-    .education:hover .overlay, 
+    .summary:hover .overlay,
+    .language:hover .overlay,
+    .interests:hover .overlay,
+    .experiences:hover .overlay,
+    .project:hover .overlay,
+    .skills:hover .overlay,
+    .education:hover .overlay,
     .contact:hover .overlay {
         opacity: 0.7;
         color:#E2B921;
         text-align: left;
     }
-    
+
 
     .border{
         border: 2px solid grey;
@@ -128,7 +128,7 @@ li{
     .pointer > li:hover{
     color:#f7f8f9;
     border-left: 5px solid #E2B921;
- 
+
     }
 
 
@@ -200,7 +200,7 @@ li{
         margin-top: -5px;
         font-weight: 240 !important;
         letter-spacing: 12px;
-        
+
     }
     .clock{
         color:#2faded;
@@ -259,7 +259,7 @@ li{
     color: white;
   }
   nav ul li a:hover { text-decoration: none; }
-  
+
   nav ul li a.current {
     background: #d3a80c;
     margin-bottom: -1px;
@@ -271,10 +271,10 @@ li{
     list-style-type: none;
       margin: 0;
       padding: 0;
-  
+
   }
 @media only screen and (min-width: 320px){
-  
+
     .border-section{
         border-bottom: 2px solid grey;
     }
@@ -289,7 +289,7 @@ li{
         height: auto;
     }
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height: 216px;
@@ -341,13 +341,13 @@ li{
         margin-left: 28px;
         margin-top: -37px;
     }
-    .summary:hover .overlay, 
-    .language:hover .overlay, 
-    .interests:hover .overlay, 
-    .experiences:hover .overlay, 
-    .project:hover .overlay, 
-    .skills:hover .overlay, 
-    .education:hover .overlay, 
+    .summary:hover .overlay,
+    .language:hover .overlay,
+    .interests:hover .overlay,
+    .experiences:hover .overlay,
+    .project:hover .overlay,
+    .skills:hover .overlay,
+    .education:hover .overlay,
     .contact:hover .overlay {
         opacity: 0.7;
         color:#E2B921;
@@ -360,7 +360,7 @@ li{
     .pointer > li:hover{
     color:#f7f8f9;
     border-left: 5px solid #E2B921;
- 
+
     }
     .fa-3x:hover{
         color:#E2B921;
@@ -447,7 +447,7 @@ li{
     .motto{
         margin-top: 4px;
         font-size: 16px;
-        margin-left: 41px;   
+        margin-left: 41px;
     }
     .focus{
         margin-top: 4px;
@@ -462,7 +462,7 @@ li{
         letter-spacing: 4px;
         position: absolute;
     }
-    
+
     .p {
         font-size: 0.9rem;
         line-height: 1.3rem;
@@ -489,7 +489,7 @@ li{
     .city{
         padding-top: 4px;
     }
-    
+
     .exp-text {
         font-size: 1rem;
         line-height: 1rem;
@@ -501,7 +501,7 @@ li{
         height: 30px;
         z-index: 20;
     }
-    
+
     .level {
         line-height: 0.4rem;
         margin-top: -10px;
@@ -517,7 +517,7 @@ li{
         margin-left: 85px;
         margin-top: -19px;
     }
-    
+
 }
 @media only screen and (min-width: 375px){
     .gradient {
@@ -531,7 +531,7 @@ li{
         background: linear-gradient( rgba(255, 255, 255, 0), white);
     }
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height: 248px;
@@ -560,7 +560,7 @@ li{
     .motto{
         margin-top: 4px;
         font-size: 18px;
-        margin-left: 23px;   
+        margin-left: 23px;
     }
     .focus{
         margin-top: 4px;
@@ -585,7 +585,7 @@ li{
 
 @media only screen and (min-width: 576px){
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height: 462px;
@@ -625,13 +625,13 @@ li{
         margin-left: 28px;
         margin-top: -50px;
     }
-    .summary:hover .overlay, 
-    .language:hover .overlay, 
-    .interests:hover .overlay, 
-    .experiences:hover .overlay, 
-    .project:hover .overlay, 
-    .skills:hover .overlay, 
-    .education:hover .overlay, 
+    .summary:hover .overlay,
+    .language:hover .overlay,
+    .interests:hover .overlay,
+    .experiences:hover .overlay,
+    .project:hover .overlay,
+    .skills:hover .overlay,
+    .education:hover .overlay,
     .contact:hover .overlay {
         opacity: 0.7;
         color:#E2B921;
@@ -712,15 +712,15 @@ li{
     }
     .climbing  > p{
         margin-left: -10px;
-       
+
     }
     .snowboarding > p{
         margin-left: -10px;
-       
+
     }
     .cooking > p{
         margin-left: -10px;
-        
+
     }
     .border-side {
         border-left: 2px solid grey !important;
@@ -754,7 +754,7 @@ li{
 
 @media only screen and (min-width: 778px){
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height: 650px;
@@ -784,7 +784,7 @@ li{
         z-index: 20;
         position: fixed;
     }
-    
+
     nav ul li a {
         display: block;
         padding: 0.7rem 0.3rem;
@@ -927,13 +927,13 @@ li{
         margin-left: 37px;
         margin-top: -58px;
     }
-    .summary:hover .overlay, 
-    .language:hover .overlay, 
-    .interests:hover .overlay, 
-    .experiences:hover .overlay, 
-    .project:hover .overlay, 
-    .skills:hover .overlay, 
-    .education:hover .overlay, 
+    .summary:hover .overlay,
+    .language:hover .overlay,
+    .interests:hover .overlay,
+    .experiences:hover .overlay,
+    .project:hover .overlay,
+    .skills:hover .overlay,
+    .education:hover .overlay,
     .contact:hover .overlay {
         opacity: 0.7;
         color:#E2B921;
@@ -952,7 +952,7 @@ li{
 
 @media only screen and (min-width: 992px){
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height: 650px;
@@ -1015,7 +1015,7 @@ li{
         height: 68px;
         z-index: 20;
     }
-    
+
     .bubbles{
         margin-top: -104px;
     }
@@ -1108,12 +1108,12 @@ li{
         line-height: 0.3rem;
         margin-top: -13px;
     }
-    
+
     .year {
         font-weight: 600 !important;
         font-size: 1.1rem;
         margin: 0px 5px;
-        
+
     }
     .fa-2x {
         font-size: 1.6em;
@@ -1134,13 +1134,13 @@ li{
         margin-left: 37px;
         margin-top: -60px;
     }
-    .summary:hover .overlay, 
-    .language:hover .overlay, 
-    .interests:hover .overlay, 
-    .experiences:hover .overlay, 
-    .project:hover .overlay, 
-    .skills:hover .overlay, 
-    .education:hover .overlay, 
+    .summary:hover .overlay,
+    .language:hover .overlay,
+    .interests:hover .overlay,
+    .experiences:hover .overlay,
+    .project:hover .overlay,
+    .skills:hover .overlay,
+    .education:hover .overlay,
     .contact:hover .overlay {
         opacity: 0.7;
         color:#E2B921;
@@ -1151,7 +1151,7 @@ li{
         font-size: 19px;
     }
     .level > span{
-     
+
             margin-left: -7px;
             font-size: 19px;
 
@@ -1171,7 +1171,7 @@ li{
         max-width: 850px;
     }
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height: 656px;
@@ -1187,11 +1187,11 @@ li{
         position: absolute;
         margin-left: 15px;
         background: linear-gradient( to top,white,  rgba(255, 255, 255, 0));
-    }  
+    }
     .bubbles{
         margin-top: -85px;
-    }  
-    
+    }
+
     .bubble {
         position: relative;
         background: #000000;
@@ -1216,7 +1216,7 @@ li{
         margin-left: -19px;
         margin-bottom: -20px;
     }
-    
+
     .motto, .focus{
         font-size: 1.4rem;
         margin-top: 0.5rem;
@@ -1273,13 +1273,13 @@ li{
         margin-left: 41px;
         margin-top: -72px;
     }
-    .summary:hover .overlay, 
-    .language:hover .overlay, 
-    .interests:hover .overlay, 
-    .experiences:hover .overlay, 
-    .project:hover .overlay, 
-    .skills:hover .overlay, 
-    .education:hover .overlay, 
+    .summary:hover .overlay,
+    .language:hover .overlay,
+    .interests:hover .overlay,
+    .experiences:hover .overlay,
+    .project:hover .overlay,
+    .skills:hover .overlay,
+    .education:hover .overlay,
     .contact:hover .overlay {
         opacity: 0.7;
         color:#E2B921;
@@ -1349,7 +1349,7 @@ li{
         /* border-top: 2px solid rgba(0, 0, 0, 0.1);
         margin-left: 250px;
         width: 60%;
-    } */ 
+    } */
     h4, .h4 {
         font-size: 1.3rem;
     }
@@ -1383,7 +1383,7 @@ li{
     .edu-title{
         font-size: 1.2rem;
     }
-    
+
     .border-side {
         border-left: 2px solid grey !important;
     }
@@ -1411,7 +1411,7 @@ li{
 
 @media only screen and (min-width: 1150px){
     .parallax{
-        background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');   
+        /* background-image: url('https://cdnph.upi.com/svc/sv/upi/6441460719507/2016/1/a101fa6ede26d9d30a1aa436d3035689/Jason-Statham-signs-on-to-dinosaur-film-Meg.jpg');    */
         background-repeat: no-repeat;
         background-size: 100%;
         height:730px;
@@ -1427,7 +1427,7 @@ li{
         position: absolute;
         margin-left: 15px;
         background: linear-gradient( to top,white,  rgba(255, 255, 255, 0));
-    } 
+    }
     .line-bottom {
         margin-top: -1rem;
         margin-bottom: 1rem;

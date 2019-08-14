@@ -2,7 +2,7 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
-template: "online-cv"
+template: "profile"
 skin: "orange"
 
 # Personal Information
@@ -11,27 +11,27 @@ basic_info:
     # Your full name
     first_name: Alex
     last_name: Berrios
-    
+
     # Define yourself in 4-5 words
     motto: Me gusta Programar.
-    
+
     # focus
-    focus: 
-    
+    focus:
+
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Soy una persona responsable, puntual, emprendedor y proactivo, 
-      me esfuerzo por trabajar en equipo y fomentar valores como los 
-      del compañerismo. Acostumbrado al trabajo bajo presión, tengo 
-      varios años de experiencia en administración, venta y atención al cliente. 
-      También me considero una persona resolutiva, con buen ánimo y 
+      Soy una persona responsable, puntual, emprendedor y proactivo,
+      me esfuerzo por trabajar en equipo y fomentar valores como los
+      del compañerismo. Acostumbrado al trabajo bajo presión, tengo
+      varios años de experiencia en administración, venta y atención al cliente.
+      También me considero una persona resolutiva, con buen ánimo y
       capaz de resolver problemas fácilmente.
-      Desde temprana edad sentí un gran interés en la programación y siempre fue 
+      Desde temprana edad sentí un gran interés en la programación y siempre fue
       mi hobie, desde entonces me centre en conocer cada vez más y me llevo
-      a desarrollar actividades de programación de software administrativos en 
+      a desarrollar actividades de programación de software administrativos en
       entorno de Windows y sitios web dinámicos.
 
-    
+
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://i.ibb.co/RgBTjPR/Sin-t-tulo-1.jpg
@@ -41,12 +41,12 @@ basic_info:
     phone:  #optional
     website:  #optional
     linkedin: alex-berrios-332b15151 #optional
-    
+
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: alexalfonsob
-    
+
     twitter: 'alex_alfonso2' #optional
     stack-overflow: '11122921/alex-berrios' # Number/Username, e.g. 123456/alandoe
 
@@ -77,7 +77,7 @@ education:
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2019 - 2019
       details: |
-        Full-Stack Development 
+        Full-Stack Development
     - degree: Maracaibo, Zulia, Venezuela
       university: URBE - Universidad Dr. Rafael Belloso Chacín
       # optional
@@ -108,13 +108,13 @@ education:
         Reparacion y Mantenimiento de Computadoras
 # Your previous job experiences or voluntier
 experiences:
-    - role: Programador C# 
+    - role: Programador C#
       time: 2015 - 2019
       company: ASB TECHNOLOGY C.A., Venezuela
       # optional
       company_logo: http://asbtechnologyca.com.ve/images/2012/logoasb4.png
       details: |
-        Desarollador de Software de gestión empresarial. 
+        Desarollador de Software de gestión empresarial.
         Tambien Participe en el desarrollos de sitios web e-commerce.
     - role: Administrador
       time: 2010 - 2015
@@ -122,7 +122,7 @@ experiences:
       # optional
       company_logo: http://clubdeeducadores.com.ve/images/CLUB_DE_EDUCADORES/logoclub4.png
       details: |
-        Administrador en cargado de llevar el control y administración de contratos a crédito 
+        Administrador en cargado de llevar el control y administración de contratos a crédito
 # Your project portfolio
 projects:
     intro: >
@@ -176,6 +176,6 @@ skills:
 
       - name: C#
         level: 95%
-        
+
       - name: Photoshop - Gimp - Illustrator - Blender
         level: 60%
