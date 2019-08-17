@@ -474,7 +474,7 @@ nav ul li a.current {
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
             padding: 0rem;
-            margin: 5rem 2.5rem;
+            margin: 1rem 2.5rem;
         }
         .hobbies{
             font-size: 0.8rem;
@@ -587,7 +587,8 @@ nav ul li a.current {
             font-size: 2rem;
         }
         .name-2{
-            font-size: 1rem;
+            font-size: 2rem;
+            margin-top: -55px;
         }
         .section-1 {
             margin-top: 40px;
@@ -930,6 +931,9 @@ nav ul li a.current {
 
 
         }
+        .container {
+            max-width: 1000px;
+        }
         .gradient {
             display: block;
             position: absolute;
@@ -944,7 +948,7 @@ nav ul li a.current {
             font-size: 2.3rem;
         }
         .name-2{
-            font-size: 1.2rem;
+            font-size: 2rem;
         }
         .corner-bubble {
             border-radius: 40px;

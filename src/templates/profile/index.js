@@ -13,7 +13,7 @@ export default ({ data, pageContext })=> {
                     <div className="col-12 main-body p-0">
                         <div className="parallax" style={{backgroundImage: `url(${it})`}} id="section-top">
                                     <nav className="vertical-menu rounded">
-                                        <ul className="rounded-bottom">
+                                        <ul className="rounded-bottom" id="leftNav">
                                             <li className="border-bottom">
                                                 <a
                                                     href="#section-top"
@@ -27,42 +27,42 @@ export default ({ data, pageContext })=> {
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-1">
-                                                    <i className="fas fa-file-invoice fa-3x" />
+                                                    <i className="fas fa-file-invoice fa-3x" /><span>SUMMARY</span>
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-2">
-                                                    <i className="fas fa-language fa-3x" />
+                                                    <i className="fas fa-language fa-3x" /><span>LANGUAGES</span>
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-3">
-                                                    <i className="fas fa-bicycle fa-3x" />
+                                                    <i className="fas fa-bicycle fa-3x" /><span>INTERESTS</span>
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-4">
-                                                    <i className="fas fa-chart-line fa-3x" />
+                                                    <i className="fas fa-chart-line fa-3x" /><span>EXPERIENCES</span>
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-5">
-                                                    <i className="far fa-file-code fa-3x" />
+                                                    <i className="far fa-file-code fa-3x" /><span>PROJECTS</span>
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-6">
-                                                    <i className="far fa-star fa-3x" />
+                                                    <i className="far fa-star fa-3x" /><span>SKILLS</span>
                                                 </a>
                                             </li>
                                             <li className="border-bottom">
                                                 <a href="#section-7">
-                                                    <i className="fas fa-graduation-cap fa-3x" />
+                                                    <i className="fas fa-graduation-cap fa-3x" /><span>EDUCATION</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#section-8">
-                                                    <i className="fas fa-user-alt fa-3x" />
+                                                    <i className="fas fa-user-alt fa-3x" /><span>CONTACT</span>
                                                 </a>
                                             </li>
                                         </ul>
@@ -82,7 +82,7 @@ export default ({ data, pageContext })=> {
                             </div>
                         </div>
 
-                        <div className="container">
+                        <div className="container ">
                             <div className="row bubble-row">
                                 <div className="col-12 col-md-6 text-center bubble-left">
                                     <div className="bubble text-center font-italic corner-bubble">
@@ -214,7 +214,7 @@ export default ({ data, pageContext })=> {
                                     </div>
                                     <div className="col-md-11 pl-0">
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t
+                                            &nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t&nbsp;s
                                         </label>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@ export default ({ data, pageContext })=> {
                                             <div className="row">
                                                 <div className="col-12 col-sm-8">
                                                     <img
-                                                        src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                        src={as.project_logo}
                                                         className="proj-img"
                                                         alt="..."
                                                     />
@@ -239,7 +239,7 @@ export default ({ data, pageContext })=> {
                                                     {as.link}
                                                 </h5>
                                                 <p className="card-text text-muted">
-                                                    {as.intro}
+                                                    {as.tagline}
                                                 </p>
                                             </div>
                                         </div>
@@ -272,7 +272,7 @@ export default ({ data, pageContext })=> {
                                                         aria-valuenow="25"
                                                         aria-valuemin="0"
                                                         aria-valuemax="100"
-                                                        style={{width: "98%"}}>
+                                                        style={{width: skill.level}}>
                                                         {skill.level}
                                                     </div>
                                                 </div>
