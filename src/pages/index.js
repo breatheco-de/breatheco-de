@@ -24,7 +24,7 @@ export default ({ data }) => {
             {
                 students
                     .filter(({node}) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
-                    .map(({ node }, i) => (<li key={i}><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link></li>))
+                    .map(({ node }, i) => (<li key={i}>{node.basic_info.first_name} {node.basic_info.last_name} <Link to={node.basic_info.github}> Online-CV </Link><Link to={`/profile/${node.basic_info.github}`}> Profile </Link></li>))
             }
         </ul>
     </div>
@@ -49,64 +49,7 @@ export const query = graphql`
             }
         }
     }
-    student:allStudentsYaml{
-        edges{
-          node{
-            id
-            template
-            skin
-            basic_info{
-              first_name
-              last_name
-              motto
-              avatar
-              summary
-              email
-              phone
-              website
-              linkedin
-              github
-              twitter
-              stack_overflow
-              languages{
-                idiom
-                level
-              }
-              interests{
-                item
-                item
-                item
-              }
-            }
-            education{
-              degree
-              university
-              time
-              details
-            }
-            experiences{
-              role
-              time
-              company
-              details
-            }
-            projects{
-              intro
-              assignments{
-                title
-                link
-                tagline
-              }
-            }
-            skills{
-              toolset{
-                name
-                level
-              }
-            }
-          }
-        }
-      }
+
   }
 
 `;

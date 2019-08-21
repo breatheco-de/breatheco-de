@@ -168,6 +168,10 @@ li{
         line-height: 0rem;
         text-decoration: underline;
     }
+    .card{
+        border:0 !important;
+    }
+
     .card-text{
         font-size: 0.8rem;
         line-height: 1rem;
@@ -199,7 +203,7 @@ li{
         margin-left: 0px;
         margin-top: -5px;
         font-weight: 240 !important;
-        letter-spacing: 12px;
+        letter-spacing: 8px;
 
     }
     .clock{
@@ -468,7 +472,7 @@ li{
         margin-left: 9px;
         margin-top: -1px;
         font-weight: 240 !important;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         position: absolute;
     }
 
@@ -907,7 +911,7 @@ li{
         margin-left: 12px;
         margin-top: -5px;
         font-weight: 240 !important;
-        letter-spacing: 7px;
+        letter-spacing: 2px;
     }
     .p {
         font-size: 0.8rem;
@@ -1138,7 +1142,7 @@ li{
         margin-left: 8px;
         margin-top: -3px;
         font-weight: 240 !important;
-        letter-spacing: 8px;
+        letter-spacing: 2px;
     }
     .idiom {
         font-size: 1rem;
@@ -1357,7 +1361,7 @@ li{
         margin-left: 21px;
         margin-top: -5px;
         font-weight: 240 !important;
-        letter-spacing: 12px;
+        letter-spacing: 8px;
     }
     .p {
         font-size: 1.1rem;

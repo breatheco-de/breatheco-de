@@ -42,25 +42,25 @@ exports.createPages = ({ actions, graphql }) => {
           github: node.basic_info.github,
           full_name: node.basic_info.first_name + ' ' + node.basic_info.last_name
         });
-        if (node.template==='profile'){
+
           createPage({
             path: `/profile/${node.basic_info.github}`,
-            component:  getTemplate(node.template),
+            component:  getTemplate('profile'),
             context: {
               // Data passed to context is available in page queries as GraphQL variables.
               github: node.basic_info.github
             },
           });
-        } else{
+
           createPage({
             path: node.basic_info.github,
-            component:  getTemplate(node.template),
+            component:  getTemplate('online-cv'),
             context: {
               // Data passed to context is available in page queries as GraphQL variables.
               github: node.basic_info.github
             },
           });
-        }
+
       });
 
       resolve();

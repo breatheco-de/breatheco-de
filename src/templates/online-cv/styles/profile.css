@@ -14,6 +14,9 @@ nav ul {
     padding: 0;
 
 }
+.card{
+    border:0;
+}
  @media only screen and (min-height: 300px) {
   nav ul {
     position: sticky;

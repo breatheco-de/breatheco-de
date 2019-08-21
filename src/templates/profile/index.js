@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby';
-
+import profile from '../online-cv/styles/profile.css';
+import profile2 from '../online-cv/styles/profile2.css';
 export default ({ data, pageContext })=> {
 
     const stud = data.studentsYaml;
@@ -107,12 +108,11 @@ export default ({ data, pageContext })=> {
                             </div>
                             <section className="section-1" id="section-1">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="fas fa-file-invoice text-warning icon-section-1" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
+                                            S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
                                         </label>
                                     </div>
                                 </div>
@@ -127,12 +127,11 @@ export default ({ data, pageContext })=> {
                             </section>
                             <section className="section-2" id="section-2">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="fas fa-language text-warning icon-section-2" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
-                                        <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
+
+                                        <label className="font-italic font-weight-light text-dark title ">
+                                            L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
                                         </label>
                                     </div>
                                 </div>
@@ -147,12 +146,11 @@ export default ({ data, pageContext })=> {
                             </section>
                             <section className="section-3" id="section-3">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="fas fa-bicycle text-warning icon-section-3" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
+                                            I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
                                         </label>
                                     </div>
                                 </div>
@@ -167,54 +165,55 @@ export default ({ data, pageContext })=> {
                             </section>
                             <section className="section-4" id="section-4">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="fas fa-chart-line text-warning icon-section-4" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
+                                            E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
                                         </label>
                                     </div>
                                 </div>
                                 { Array.isArray(stud.experiences) ? stud.experiences.map((ex, i) =>
                                 (<div key={i}>
-                                    <div className="row pt-4">
-                                        <div className="col-12 col-sm-9 float-left">
-                                            <h2 className="pt-2 font-weight-bold exp-text">
-                                                {ex.role}
-                                            </h2>
-                                            <h2 className="text-muted exp-text">{ex.time}</h2>
-                                            <h2 className="text-muted font-weight-light exp-text">
-                                                {ex.company}
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-3 border-side">
-                                        <img
-                                            src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                            className="img-fluid w-100 exp-img"
-                                            alt="..."
-                                        />
-                                    </div>
-
-                                    <div className="row">
-                                        <div className="col-12">
-                                            <p className="p text-justify text-muted pt-4">
-                                                {ex.details}
-                                            </p>
-                                        </div>
+                                    <div className="pt-4 pb-4 exp-border">
+                                        <div className="card">
+                                            <div class="row ">
+                                                <div className="col-6">
+                                                    <h2 className="pt-2 font-weight-bold exp-text text-uppercase">
+                                                            {ex.role}
+                                                    </h2>
+                                                    <h2 className="text-muted exp-text">{ex.time}</h2>
+                                                    <h2 className="text-muted font-weight-light exp-text">
+                                                            {ex.company}
+                                                    </h2>
+                                                </div>
+                                                <div className="col-2 border-side card-image">
+                                                     <img
+                                                        src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                        className="img-fluid  exp-img"
+                                                        alt="..."
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-8">
+                                                    <p className="p text-justify text-muted pt-4">
+                                                        {ex.details}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                         </div>
                                     </div>
                                 </div>)):""}
                             </section>
 
                             <section className="section-5" id="section-5">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="far fa-file-code text-warning icon-section-5" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t&nbsp;s
+                                            P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t&nbsp;s
                                         </label>
                                     </div>
                                 </div>
@@ -248,12 +247,11 @@ export default ({ data, pageContext })=> {
                             </section>
                             <section className="section-6" id="section-6">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="far fa-star text-warning icon-section-6" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
+                                            S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
                                         </label>
                                     </div>
                                 </div>
@@ -285,12 +283,11 @@ export default ({ data, pageContext })=> {
 
                             <section className="section-7" id="section-7">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="fas fa-graduation-cap text-warning icon-section-7" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <span className="font-italic font-weight-light text-dark title">
-                                            &nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
+                                            E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
                                         </span>
                                     </div>
                                 </div>
@@ -343,12 +340,11 @@ export default ({ data, pageContext })=> {
 
                             <section className="section-8" id="section-8">
                                 <div className="row pt-4">
-                                    <div className="col-md-1 pr-0">
+                                    <div className="col-md-12 pr-0">
                                         <i className="fas fa-user-alt text-warning icon-section-8" />
-                                    </div>
-                                    <div className="col-md-11 pl-0">
+
                                         <label className="font-italic font-weight-light text-dark title">
-                                            &nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
+                                            C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
                                         </label>
                                     </div>
                                 </div>
@@ -439,8 +435,7 @@ export default ({ data, pageContext })=> {
 export const query = graphql`
   query ($github: String) {
     studentsYaml(basic_info: { github: { eq: $github } }) {
-        template
-        skin
+
         basic_info{
             github
             first_name
