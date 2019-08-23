@@ -175,8 +175,10 @@ export default ({ data, pageContext })=> {
                                 </div>
                                 { Array.isArray(stud.experiences) ? stud.experiences.map((ex, i) =>
                                 (<div key={i}>
-                                    <div className="pt-4 pb-4 exp-border">
-                                        <div className="card">
+                                    <div className="row pt-4 pb-4 ">
+                                        <div className="col-md-8 col-sm-10 exp-border">
+                                        <div className="card ">
+
                                             <div class="row ">
                                                 <div className="col-6">
                                                     <h2 className="pt-2 font-weight-bold exp-text text-uppercase">
@@ -187,22 +189,24 @@ export default ({ data, pageContext })=> {
                                                             {ex.company}
                                                     </h2>
                                                 </div>
-                                                <div className="col-2 border-side card-image">
+                                                <div className="col-4 col-sm-2 border-side card-image " >
                                                      <img
                                                         src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-                                                        className="img-fluid  exp-img"
+                                                        className="img-fluid w-100 exp-img"
                                                         alt="..."
                                                     />
                                                 </div>
                                             </div>
+
                                             <div className="row">
-                                                <div className="col-8">
+                                                <div className="card-body">
                                                     <p className="p text-justify text-muted pt-4">
                                                         {ex.details}
                                                     </p>
                                                 </div>
                                             </div>
-                                         </div>
+                                        </div>
+                                        </div>
                                     </div>
                                 </div>)):""}
                             </section>
@@ -222,7 +226,7 @@ export default ({ data, pageContext })=> {
                                     <div className="row py-4">
                                         <div className="col-12 col-md-4">
                                             <div className="row">
-                                                <div className="col-12 col-sm-8">
+                                                <div className="col-12 col-sm-8 card-img-top">
                                                     <img
                                                         src={as.project_logo}
                                                         className="proj-img"
@@ -231,7 +235,7 @@ export default ({ data, pageContext })=> {
                                                 </div>
                                             </div>
                                             <div className="card-body pl-2">
-                                                <h5 className="card-title">
+                                                <h5 className="card-title text-uppercase">
                                                     <strong>{as.title}</strong>
                                                 </h5>
                                                 <h5 className="card-text text-info">
