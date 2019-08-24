@@ -2,6 +2,13 @@ import React from 'react'
 import { graphql } from 'gatsby';
 import profile from '../online-cv/styles/profile.css';
 import profile2 from '../online-cv/styles/profile2.css';
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
+
 export default ({ data, pageContext })=> {
 
     const stud = data.studentsYaml;
@@ -68,11 +75,13 @@ export default ({ data, pageContext })=> {
                                             </li>
                                         </ul>
                                     </nav>
+                                    <BrowserView>
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
                                         alt="4Geeks Academy Icon Black."
                                     />
+                                    </BrowserView>
 
                         </div>
                         <div className="row">
@@ -191,7 +200,7 @@ export default ({ data, pageContext })=> {
                                                 </div>
                                                 <div className="col-4 col-sm-2 border-side card-image " >
                                                      <img
-                                                        src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                        src={ex.company_logo}
                                                         className="img-fluid w-100 exp-img"
                                                         alt="..."
                                                     />
@@ -200,7 +209,7 @@ export default ({ data, pageContext })=> {
 
                                             <div className="row">
                                                 <div className="card-body">
-                                                    <p className="p text-justify text-muted pt-4">
+                                                    <p className="p text-justify text-muted ">
                                                         {ex.details}
                                                     </p>
                                                 </div>
@@ -221,33 +230,35 @@ export default ({ data, pageContext })=> {
                                         </label>
                                     </div>
                                 </div>
+
                                 { Array.isArray(stud.projects.assignments) ? stud.projects.assignments.map((as, i) =>
-                                (<div key={i}>
-                                    <div className="row py-4">
-                                        <div className="col-12 col-md-4">
-                                            <div className="row">
-                                                <div className="col-12 col-sm-8 card-img-top">
+                                (<div className="py-4 col-lg-3 col-md-4 col-sm-8 mr-0 d-inline-block " key={i}>
+
+
+                                            <div className="card border-right mr-0">
+
                                                     <img
                                                         src={as.project_logo}
-                                                        className="proj-img"
+                                                        className="card-img-top"
                                                         alt="..."
                                                     />
-                                                </div>
-                                            </div>
+
+
                                             <div className="card-body pl-2">
                                                 <h5 className="card-title text-uppercase">
                                                     <strong>{as.title}</strong>
                                                 </h5>
-                                                <h5 className="card-text text-info">
-                                                    {as.link}
-                                                </h5>
+                                                <a href={as.link}><h5 className="card-text text-info">{as.link}</h5></a>
+
+
                                                 <p className="card-text text-muted">
                                                     {as.tagline}
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+
                                 </div>)):''}
+
                             </section>
                             <section className="section-6" id="section-6">
                                 <div className="row pt-4">
@@ -301,7 +312,7 @@ export default ({ data, pageContext })=> {
                                         <div className="col-12 col-md-6">
                                             <div className="row">
                                                 <div className="col-12">
-                                                    <h2 className=" font-weight-bold edu-text">
+                                                    <h2 className=" font-weight-bold edu-text text-uppercase">
                                                         {edu.degree}
                                                     </h2>
                                                     <h3 className="text-muted edu-text">
@@ -312,7 +323,7 @@ export default ({ data, pageContext })=> {
                                             <div className="row">
                                                 <div className="col-12 col-sm-5">
                                                     <img
-                                                        src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+                                                        src={edu.university_logo}
                                                         className="image-education"
                                                         alt="..."
                                                     />
@@ -467,12 +478,14 @@ export const query = graphql`
             university
             time
             details
+            university_logo
         }
         experiences{
             role
             company
             time
             details
+            company_logo
         }
         projects{
             intro
