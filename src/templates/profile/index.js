@@ -8,6 +8,7 @@ import {
   isBrowser,
   isMobile
 } from "react-device-detect";
+import { isNullOrUndefined } from 'util';
 
 export default ({ data, pageContext })=> {
 
@@ -365,76 +366,91 @@ export default ({ data, pageContext })=> {
                                 </div>
                                 <div className="row pt-4">
                                     <div className="col-12">
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1 ">
-                                                <i className="fas fa-envelope fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.email}
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1">
-                                                <i className="fas fa-phone fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.phone}
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1">
-                                                <i className="fas fa-globe fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.website}
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1">
-                                                <i className="fab fa-linkedin fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.linkedin}
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1">
-                                                <i className="fab fa-github fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.github}
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1">
-                                                <i className="fab fa-twitter fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.twitter}
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div className="row row-icons pt-2">
-                                            <div className="col-12 col-sm-1">
-                                                <i className="fab fa-stack-overflow fa-2x" />
-                                            </div>
-                                            <div className="col-12 col-sm-11">
-                                                <label className="text-cont">
-                                                    {stud.basic_info.stack_overflow}
-                                                </label>
-                                            </div>
-                                        </div>
+                                        { stud.basic_info.email !== 'null' || stud.basic_info.email!=='undefined' ?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1 ">
+                                                    <i className="fas fa-envelope fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.email}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+                                        { (stud.basic_info.phone) ?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1">
+                                                    <i className="fas fa-phone fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.phone}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+                                        {(stud.basic_info.website)?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1">
+                                                    <i className="fas fa-globe fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.website}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+                                        {(stud.basic_info.linkedin) ?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1">
+                                                    <i className="fab fa-linkedin fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.linkedin}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+                                        {(stud.basic_info.github)?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1">
+                                                    <i className="fab fa-github fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.github}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+                                        {(stud.basic_info.twitter)?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1">
+                                                    <i className="fab fa-twitter fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.twitter}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+                                        {(stud.basic_info.stack_overflow) ?
+                                            <div className="row row-icons pt-2">
+                                                <div className="col-12 col-sm-1">
+                                                    <i className="fab fa-stack-overflow fa-2x" />
+                                                </div>
+                                                <div className="col-12 col-sm-11">
+                                                    <label className="text-cont">
+                                                        {stud.basic_info.stack_overflow}
+                                                    </label>
+                                                </div>
+                                            </div>:''
+                                        }
+
                                     </div>
                                 </div>
                             </section>
