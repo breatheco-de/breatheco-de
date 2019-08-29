@@ -234,17 +234,12 @@ export default ({ data, pageContext })=> {
 
                                 { Array.isArray(stud.projects.assignments) ? stud.projects.assignments.map((as, i) =>
                                 (<div className="py-4 col-lg-3 col-md-4 col-sm-8 mr-0 d-inline-block " key={i}>
-
-
                                             <div className="card border-right mr-0">
-
                                                     <img
                                                         src={as.project_logo}
                                                         className="card-img-top"
                                                         alt="..."
                                                     />
-
-
                                             <div className="card-body pl-2">
                                                 <h5 className="card-title text-uppercase">
                                                     <strong>{as.title}</strong>
@@ -259,7 +254,7 @@ export default ({ data, pageContext })=> {
                                         </div>
 
                                 </div>)):''}
-
+                                <hr className="border-bottom" />
                             </section>
                             <section className="section-6" id="section-6">
                                 <div className="row pt-4">
@@ -308,48 +303,46 @@ export default ({ data, pageContext })=> {
                                     </div>
                                 </div>
                                 { Array.isArray(stud.education) ? stud.education.map((edu, i) =>
-                                (<div key={i}>
-                                    <div className="row pt-4">
-                                        <div className="col-12 col-md-6">
+                                (<div className="py-4 col-lg-5 col-md-6 col-sm-8 d-inline-block mr-3 my-3" key={i}>
+                                        <div className="card edu-card border-right ">
                                             <div className="row">
-                                                <div className="col-12">
-                                                    <h2 className=" font-weight-bold edu-text text-uppercase">
+                                                    <h2 className=" card-title font-weight-bold edu-text text-uppercase">
                                                         {edu.degree}
                                                     </h2>
-                                                    <h3 className="text-muted edu-text">
-                                                        {edu.university}
-                                                    </h3>
-                                                </div>
                                             </div>
                                             <div className="row">
-                                                <div className="col-12 col-sm-5">
+                                                    <h3 className="subheader text-muted edu-text">
+                                                        {edu.university}
+                                                    </h3>
+                                            </div>
+                                            <div className="row pt-2">
                                                     <img
                                                         src={edu.university_logo}
                                                         className="image-education"
                                                         alt="..."
                                                     />
-                                                </div>
                                             </div>
-                                            <div className="row">
-                                                <div className="col-12 col-sm-2">
+                                            <div className="row pt-4">
+                                                    <div className="col-12 col-sm-3">
                                                     <i className="far fa-clock fa-2x text-primary" />
-                                                </div>
-                                                <div className="col-12 col-sm-10">
+                                                    </div>
+                                                    <div className="col-12 col-sm-9">
                                                     <label className="years font-weight-bold text-muted">
                                                     {edu.time}
                                                     </label>
-                                                </div>
+                                                    </div>
                                             </div>
                                             <div className="row">
-                                                <div className="col-12">
+                                                <div className="card-body pl-0">
                                                     <p className="p pt-4 text-justify text-muted">
                                                         {edu.details}
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>)):''}
+
+                                </div>
+                                )):''}
 
                             <hr className="border-bottom" />
                             </section>
@@ -366,7 +359,7 @@ export default ({ data, pageContext })=> {
                                 </div>
                                 <div className="row pt-4">
                                     <div className="col-12">
-                                        { stud.basic_info.email !== 'null' || stud.basic_info.email!=='undefined' ?
+                                        { (stud.basic_info.email)?
                                             <div className="row row-icons pt-2">
                                                 <div className="col-12 col-sm-1 ">
                                                     <i className="fas fa-envelope fa-2x" />

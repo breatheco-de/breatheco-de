@@ -27,6 +27,9 @@ html{
     z-index: 20;
     position: fixed;
 }
+.vertical-line{
+    border-right: thick solid #000000;
+}
 .programmer{
     margin-top: -9rem;
 }
@@ -170,6 +173,10 @@ li{
     }
     .card{
         border:0 !important;
+        border-radius: 0 !important;
+    }
+    .edu-card{
+        height: 470px;
     }
 
 
@@ -759,7 +766,7 @@ li{
     }
     .card-title{
         font-size: 12px;
-        margin-left: -12px;
+        /* margin-left: -12px; */
     }
     .bottom-line {
         border-bottom: 2px solid grey;

@@ -328,6 +328,7 @@ nav ul li a.current {
         }
         .image-education{
                 width: 83% !important;
+                max-width:150px;
         }
         .exp-img{
             width: 80%;
