@@ -146,9 +146,9 @@ export default ({ data, pageContext })=> {
                                     </div>
                                 </div>
                                 <div className="row pt-4">
-                                    <ul className="col-12 col-md-4">
+                                    <ul className="container-fluid list-unstyled">
                                         { Array.isArray(stud.basic_info.languages) ? stud.basic_info.languages.map((lang, i) =>
-                                        (<li key={i}> Language: {lang.idiom} <span className="lang-desc">Level: ({lang.level})</span></li>)
+                                        (<li className=" idi d-inline-block" key={i}> <strong>Language:</strong> {lang.idiom} <br/><span className="lev lang-desc"><strong>Level: </strong>({lang.level})</span></li>)
                                         ):''}
                                     </ul>
                                 </div>
@@ -165,9 +165,9 @@ export default ({ data, pageContext })=> {
                                     </div>
                                 </div>
                                 <div className="row pt-4">
-                                    <ul className="col-12 col-md-4 text-muted">
+                                    <ul className="col-12 text-muted list-unstyled ">
                                         { Array.isArray(stud.basic_info.interests) ? stud.basic_info.interests.map((inte, i) =>
-                                        (<li key={i}> {inte.item} </li>)
+                                        (<li className="int col-4 d-inline" key={i}> {inte.item} </li>)
                                         ):''}
                                     </ul>
                                 </div>
@@ -190,7 +190,7 @@ export default ({ data, pageContext })=> {
                                         <div className="card ">
 
                                             <div class="row ">
-                                                <div className="col-6">
+                                                <div className="col-12 col-sm-8">
                                                     <h2 className="pt-2 font-weight-bold exp-text text-uppercase">
                                                             {ex.role}
                                                     </h2>
@@ -199,7 +199,7 @@ export default ({ data, pageContext })=> {
                                                             {ex.company}
                                                     </h2>
                                                 </div>
-                                                <div className="col-4 col-sm-2 border-side card-image " >
+                                                <div className="col-12 col-sm-4 border-side card-image " >
                                                      <img
                                                         src={ex.company_logo}
                                                         className="img-fluid w-100 exp-img"
@@ -303,7 +303,7 @@ export default ({ data, pageContext })=> {
                                     </div>
                                 </div>
                                 { Array.isArray(stud.education) ? stud.education.map((edu, i) =>
-                                (<div className="py-4 col-lg-5 col-md-6 col-sm-8 d-inline-block mr-3 my-3" key={i}>
+                                (<div className="py-4 pr-2 col-lg-5 col-md-6 col-sm-8 d-inline-block mr-3 my-3" key={i}>
                                         <div className="card edu-card border-right ">
                                             <div className="row">
                                                     <h2 className=" card-title font-weight-bold edu-text text-uppercase">

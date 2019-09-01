@@ -171,7 +171,7 @@ nav ul li a.current {
             margin-top: -35px;
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
-            padding: 3rem;
+            padding: 0 3rem 2rem 3rem;
             margin: -71px 0 2rem 0;
         }
         .hobbies{
@@ -237,6 +237,7 @@ nav ul li a.current {
         li{
             margin-left: -16px;
             margin-bottom: 0px;
+
         }
         .fa-3x {
             font-size: 0.66rem;
@@ -773,12 +774,12 @@ nav ul li a.current {
             font-size: 1.1rem;
         }
         .section-1 {
-            padding: 3rem;
-            margin: 0 0 2rem 0;
+            padding: 3rem 3rem 0 3rem;
+            margin: 0 0 0 0;
         }
         .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
-            padding: 3rem;
-            margin: -2rem 0 2rem 0;
+            padding: 3rem 3rem 0 3rem;
+            margin: -2rem 0 0 0;
         }
         .corner-bubble {
             border-radius: 40px;

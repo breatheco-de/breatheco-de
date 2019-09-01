@@ -81,6 +81,11 @@ html{
 li{
     margin:0px 13px;
 }
+li.idi{
+    padding-right:15px;
+    padding-bottom: 5px;
+}
+
 
 .border-bottom{
     border-bottom: 2px solid #f4f6f9;
@@ -191,6 +196,9 @@ li{
     .exp-border{
         border-bottom: 4px solid #2faded;
     }
+   .exp-img{
+        max-width:200px;
+    }
     .idiom{
         font-size: 1.2rem;
         line-height: 0.4rem;
@@ -235,6 +243,9 @@ li{
     } */
     .city{
         margin-top: -15px;
+    }
+    .image-education{
+        max-width:200px;
     }
 
     /* .geeks-img {
@@ -825,7 +836,7 @@ li{
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-top: -10px;
-        left: 77px;
+        left: 100px;
         line-height: 38px;
         overflow: hidden;
         padding: 0;
