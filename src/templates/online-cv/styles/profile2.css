@@ -1233,7 +1233,7 @@ li.idi{
         margin-top: -19px;
     }
 
-}
+
 
 
 @media only screen and (min-width: 1024px){
@@ -1247,7 +1247,7 @@ li.idi{
         height: 656px;
         background-attachment: fixed;
         position: relative;
-        background-position: top;
+        background-position: center;
     }
     .gradient {
         /* background-image: linear-gradient(to top , white , transparent); */
