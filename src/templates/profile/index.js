@@ -136,7 +136,7 @@ export default ({ data, pageContext })=> {
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-2" id="section-2">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="fas fa-language text-warning icon-section-2" />
 
@@ -155,7 +155,7 @@ export default ({ data, pageContext })=> {
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-3" id="section-3">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="fas fa-bicycle text-warning icon-section-3" />
 
@@ -174,7 +174,7 @@ export default ({ data, pageContext })=> {
                             <hr className="border-bottom" />
                             </section>
                             <section className="section-4" id="section-4">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="fas fa-chart-line text-warning icon-section-4" />
 
@@ -222,7 +222,7 @@ export default ({ data, pageContext })=> {
                             </section>
 
                             <section className="section-5" id="section-5">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="far fa-file-code text-warning icon-section-5" />
 
@@ -257,7 +257,7 @@ export default ({ data, pageContext })=> {
                                 <hr className="border-bottom" />
                             </section>
                             <section className="section-6" id="section-6">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="far fa-star text-warning icon-section-6" />
 
@@ -293,7 +293,7 @@ export default ({ data, pageContext })=> {
                             </section>
 
                             <section className="section-7" id="section-7">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="fas fa-graduation-cap text-warning icon-section-7" />
 
@@ -303,52 +303,23 @@ export default ({ data, pageContext })=> {
                                     </div>
                                 </div>
                                 { Array.isArray(stud.education) ? stud.education.map((edu, i) =>
-                                (<div className="py-4 pr-2 col-lg-5 col-md-6 col-sm-8 d-inline-block mr-3 my-3" key={i}>
-                                        <div className="card edu-card border-right ">
-                                            <div className="row">
-                                                    <h2 className=" card-title font-weight-bold edu-text text-uppercase">
-                                                        {edu.degree}
-                                                    </h2>
-                                            </div>
-                                            <div className="row">
-                                                    <h3 className="subheader text-muted edu-text">
-                                                        {edu.university}
-                                                    </h3>
-                                            </div>
-                                            <div className="row pt-2">
-                                                    <img
-                                                        src={edu.university_logo}
-                                                        className="image-education"
-                                                        alt="..."
-                                                    />
-                                            </div>
-                                            <div className="row pt-4">
-                                                    <div className="col-12 col-sm-3">
-                                                    <i className="far fa-clock fa-2x text-primary" />
-                                                    </div>
-                                                    <div className="col-12 col-sm-9">
-                                                    <label className="years font-weight-bold text-muted">
-                                                    {edu.time}
-                                                    </label>
-                                                    </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="card-body pl-0">
-                                                    <p className="p pt-4 text-justify text-muted">
-                                                        {edu.details}
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                (<div className=" py-4 col-lg-5 col-md-8 col-sm-12 d-inline-block" key={i}>
+                                    <div className="card  border-right">
+                                        <div className=" text-uppercase edu-text mb-0"><h2 className="card-title mb-0">{edu.degree}</h2></div>
+                                        <div className="sub-header text-muted">{edu.university}</div>
+                                        <div className="text-align-center"><img src={edu.university_logo} className="img-fluid image-education py-2" alt="..."/></div>
+                                        <div ><i className="far fa-clock fa-2x text-primary pr-2" /><label className="font-weight-bold text-muted">{edu.time}</label></div>
+                                        <div className="card-body pl-0"><p className="p text-justify text-muted">{edu.details}</p></div>
+                                    </div>
                                 </div>
+
                                 )):''}
 
                             <hr className="border-bottom" />
                             </section>
 
                             <section className="section-8" id="section-8">
-                                <div className="row pt-4">
+                                <div className="row pt-2">
                                     <div className="col-md-12 pr-0">
                                         <i className="fas fa-user-alt text-warning icon-section-8" />
 

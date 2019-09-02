@@ -179,9 +179,13 @@ li.idi{
     .card{
         border:0 !important;
         border-radius: 0 !important;
+       overflow:hidden;
+    }
+    .card-title{
+        word-wrap:break-word;
     }
     .edu-card{
-        height: 470px;
+        height: 500px;
     }
 
 
@@ -1023,6 +1027,8 @@ li.idi{
         background-attachment: fixed;
         position: relative;
     }
+    /* .container{
+
     .gradient {
         /* background-image: linear-gradient(to top , white , transparent); */
         height: 200px;
@@ -1241,6 +1247,7 @@ li.idi{
         height: 656px;
         background-attachment: fixed;
         position: relative;
+        background-position: top;
     }
     .gradient {
         /* background-image: linear-gradient(to top , white , transparent); */
