@@ -66,10 +66,12 @@ education:
 experiences:
     - role: Software System Developer
       time: 2015 - Present
+      company: Yanes Consulting Inc.
       details: Integrating devices to a monitoring and management software (DataMiner) via C#, RestAPIs, SQL.
 
     - role: IT Support Specialist
       time: 2011 - 2015
+      company: Yanes Consulting Inc.
       details: Worked with the IT Administrator creating backups, cheking the health of the entire network.
 
     - role: Application Developer - entry Level
