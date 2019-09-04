@@ -2,7 +2,7 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 template: "online-cv"
-skin: "orange"
+skin: "blue"
 
 basic_info:
 
@@ -23,9 +23,9 @@ basic_info:
     # Sidebar links
     email: hello@webjeda.com
     phone: 012 345 6789
-    website: alesanchezr.com #do not add http://
-    linkedin: alesanchezr
-    github: alesanchezr
+    website: carlos.com #do not add http://
+    linkedin: carlos
+    github: carlos99
     twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
