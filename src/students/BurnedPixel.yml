@@ -1,0 +1,77 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Cuenca
+    
+    # Define yourself in 4-5 words
+    motto: I dress black :D
+    
+    # focus
+    focus: Trying to be happy
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+            Im alive... Kinda
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-1.cdninstagram.com/vp/912457195fdc3a94bd6497438706683f/5E0BD55F/t51.2885-19/s150x150/56226290_409309873216256_5054332709527093248_n.jpg?_nc_ht=scontent-mia3-1.cdninstagram.com
+
+    # Contact Information
+    email: wasituno@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/daniel-c-741b42109 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BurnedPixel
+    
+    twitter: 'CuencaKun_' #optional
+    stack-overflow: 11622895/burnedpixel # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Sleeping
+
+      - item: Drinking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachillerato
+      university: Institutos Educacionales Asociados
+      # optional
+      university_logo: https://media.licdn.com/dms/image/C4E0BAQFrWYAm3IINrA/company-logo_400_400/0?e=1575504000&v=beta&t=k9jbS9o4qo7pMvQomKLkNwqSRKQgzY5KnXOfq189xhE
+      time: 2004 - 2017
+
+skills:
+    toolset:
+      - name: Unix Systems
+        level: 50%
+
+      - name: Windows
+        level: 80%
+
+      - name: Java
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 20%
