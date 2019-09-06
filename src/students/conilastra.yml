@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Coni
+    last_name: Lastra
+
+    # Define yourself in 4-5 words
+    motto:  big regalona energy
+
+    # focus
+    focus: Front-End Development
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I studied psychology because I wanted to understand the way people thinks. Now I want to focus on how computers do.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://github.com/conilastra.png
+
+    # Contact Information
+    email: cflastra@gmail.com #optional
+    phone:  +56965747755 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/constanzalastra/ #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: conilastra
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    # Interests or hobbies
+    interests:
+      - item: feminism
+
+      - item: Netflix
+
+      - item: technology (computers & coding)
+
+      - item: reading
+
+# Your previous education
+education:
+    - degree: UX/UI Design
+      university: Academia Desafío Latam
+      time: 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Psychology
+      university: Pontificia Universidad Católica de Chile
+      time: 1992 - 1998
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: HR Consultant
+      time: 2018 - present
+      company: The Key Talent
+      details: |
+        The Key Talent es una empresa tecnológica especializada en la Transformación Digital de empresas, aportando a recursos humanos las herramientas para realizar procesos de evaluación más atractivos, digitales y eficientes.
+        Mi rol era realizar el desarrollo técnico de cada proyecto, coordinando con las áreas especialistas y asegurándome de entregar un servicio de calidad.
+
+    - role: Directora de proyectos, área cualitativa
+      time: 2016 - 2017
+      company: Cadem
+      details: |
+        Como Directora de Proyectos, mi rol se enfocaba en el diseño e implementación de estudios cualitativos que se ajustaran a las necesidades concretas de cada cliente. Desde ahí, participaba en cada paso, desde la cotización hasta la posterior ejecución, analisis e informe respectivo.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects in my public repository.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/hjzambrano/postcard.git/"
+        tagline: "A simple postcard created using html5 and css."
+
+      - title: Simple Instagram Feed
+        link: "https://github.com/hjzambrano/instagram-photo-feed.git/"
+        tagline: "Instagram feed uisng HTML and Bootstrap"
+
+skills:
+    toolset:
+
+      - name: HTML5, CSS
+        level: 100%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: Git
+        level: 70%
