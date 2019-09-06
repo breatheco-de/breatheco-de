@@ -13,24 +13,24 @@ basic_info:
     last_name: Lastra
 
     # Define yourself in 4-5 words
-    motto:  big regalona energy
+    motto: Azúcar, flores y muchos colores
 
     # focus
-    focus: Front-End Development
+    focus: Front-end development
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      I studied psychology because I wanted to understand the way people thinks. Now I want to focus on how computers do.
+      Estudié psicología para entender cómo pensaba la gente. Ahora quiero enfocarme en cómo lo hacen los computadores.
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://github.com/conilastra.png
+    avatar: https://avatars1.githubusercontent.com/u/49383737?s=460&v=4
 
     # Contact Information
     email: cflastra@gmail.com #optional
-    phone:  +56965747755 #optional
-    website:  #optional
-    linkedin: https://www.linkedin.com/in/constanzalastra/ #optional
+    phone: +56965747755 #optional
+    website: #optional
+    linkedin: constanzalastra #optional
 
     #
     # ******** IMPORTANT *******
@@ -40,28 +40,28 @@ basic_info:
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # languages you speak, levels include: Native, Professional
+    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Spanish
         level: Native
 
       - idiom: English
-        level: Advanced
+        level: Professional
 
-    # Interests or hobbies
+    # Interests or hobies
     interests:
-      - item: feminism
+      - item: Feminism
+
+      - item: UX/UI Design
 
       - item: Netflix
 
-      - item: technology (computers & coding)
-
-      - item: reading
-
 # Your previous education
 education:
-    - degree: UX/UI Design
-      university: Academia Desafío Latam
+    - degree: Programación Full-stack
+      university: 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -73,9 +73,11 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: Psychology
-      university: Pontificia Universidad Católica de Chile
-      time: 1992 - 1998
+    - degree: Diseño UX/UI
+      university: Academia Desafío Latam
+      # optional
+      university_logo: http://blog.desafiolatam.com/wp-content/uploads/2019/02/logo.png
+      time: 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -86,48 +88,120 @@ education:
           - Bullet point
           - Bullet point
 
+    - degree: Psicología
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo: http://cetdecon.uc.cl/images/sitio/logo-uc-size-02.png
+      time: 2010 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
-# Your previous job experiences or volunteer
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
 experiences:
-    - role: HR Consultant
-      time: 2018 - present
-      company: The Key Talent
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        The Key Talent es una empresa tecnológica especializada en la Transformación Digital de empresas, aportando a recursos humanos las herramientas para realizar procesos de evaluación más atractivos, digitales y eficientes.
-        Mi rol era realizar el desarrollo técnico de cada proyecto, coordinando con las áreas especialistas y asegurándome de entregar un servicio de calidad.
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
 
-    - role: Directora de proyectos, área cualitativa
-      time: 2016 - 2017
-      company: Cadem
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Como Directora de Proyectos, mi rol se enfocaba en el diseño e implementación de estudios cualitativos que se ajustaran a las necesidades concretas de cada cliente. Desde ahí, participaba en cada paso, desde la cotización hasta la posterior ejecución, analisis e informe respectivo.
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
 
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
 
 # Your project portfolio
 projects:
     intro: >
-      Just a few simple projects in my public repository.
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Postcard
-        link: "https://github.com/hjzambrano/postcard.git/"
-        tagline: "A simple postcard created using html5 and css."
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Simple Instagram Feed
-        link: "https://github.com/hjzambrano/instagram-photo-feed.git/"
-        tagline: "Instagram feed uisng HTML and Bootstrap"
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
+      - name: HTML y CSS
+        level: 98%
 
-      - name: HTML5, CSS
-        level: 100%
-
-      - name: Bootstrap
-        level: 90%
-
-      - name: JavaScript
-        level: 50%
-
-      - name: Git
+      - name: Javascript & jQuery
         level: 70%
+
+      - name: Angular
+        level: 98%
+
+      - name: Sketch & Photoshop
+        level: 80%
