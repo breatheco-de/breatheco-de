@@ -20,38 +20,35 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+       Poseo amplia experiencia en la utilización de la tecnología, 
+       para satisfacer las necesidades en áreas críticas de organizaciones
+       públicas y privadas, con conocimientos tanto en ambientes 
+       cliente-servidor como aplicaciones web, orientando la toma de decisiones, 
+       y optimizando los procesos para ganar una ventaja competitiva.
+      
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: santiagoquinteroq@gmail.com #optional
-    phone: (305)338-7090 #optional
+    email: meyling@gmail.com #optional
+    phone: (+58)424-2724376 #optional
     website: none yet #optional
     linkedin: santiago-quintero-91bb77152 #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: QuinteroSantiago
+    github: Mfoise
     
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Español
+        level: Lengua Nativa
         
-      - idiom: Spanish
-        level: Native
-        
-      - idiom: Portuguese
-        level: Basic
+      - idiom: Inglés
+        level: Nivel intermedio
 
     # Interests or hobies
     interests:
@@ -63,21 +60,20 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: BS in Computer Science
-      university: University of Florida
+    - degree: Especialización en Gerencia de Empresas - Mención Mercadeo
+              Graduada con Honores
+      university: Universidad Simón Bolívar (USB)
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: http://www.usb.ve/img/logo02.png
+      time: 2005
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+       Conocimientos en diseño, desarrollo e implementación de investigaciones de mercado,
+       conociendo el entorno del sector y analizando los resultados con 
+       relación a: preferencias del consumidor, hábitos de compra, compras en línea. 
+       Anáálisis de la Competencia. Mercado Potencial. definición de estrategias según la 
+       fase de crecimiento.
+    - degree: Ingeniero en Informática
+      university: Universidad Centroccidental Lisandro Alvarado (U.C.L.A)
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2007 - 2011
