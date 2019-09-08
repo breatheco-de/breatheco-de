@@ -91,6 +91,9 @@ education:
 experiences:
     - role: Libre ejercicio de la profesión
       time: 2012 - Actualmente
+      company: Smartmatic
+      # optional
+      company_logo: https://www.smartmatic.com/fileadmin/smartmatic/images/frontend/smartmatic_logo.png
       details: |
         - Supervisión de Desarrollos Varios de Sistemas
         - Investigación de Mercado – Mundo Vinotinto 
