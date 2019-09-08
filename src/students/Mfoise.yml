@@ -89,7 +89,58 @@ education:
         la documentación asociada.
 # Your previous job experiences or voluntier
 experiences:
-
+  - 
+    company: "Pontificia Universidad Católica de Chile"
+    company_logo: "https://cdn.worldvectorlogo.com/logos/universidad-catolica-de-chile.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    role: "Asistente de investigación"
+    time: 2017-2019
+  - 
+    company: "Pontificia Universidad Católica de Chile"
+    company_logo: "https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    role: "Tesista Doctorado"
+    time: "2012 - 2016"
+  - 
+    company: "Universidad Andrés Bello"
+    company_logo: "https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    role: "Profesor Asistente"
+    time: "2009 - 2013"
+  - 
+    company: "Universidad Andrés Bello"
+    company_logo: "https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    role: "Profesor Coordinador"
+    time: "2009 - 2011"
 # Your project portfolio
 projects:
     intro: >
