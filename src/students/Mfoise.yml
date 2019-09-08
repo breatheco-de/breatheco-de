@@ -89,40 +89,7 @@ education:
         la documentación asociada.
 # Your previous job experiences or voluntier
 experiences:
-    - role: Libre ejercicio de la profesión
-      time: 2012 - Actualmente
-      company: Smartmatic
-      # optional
-      company_logo: https://www.smartmatic.com/fileadmin/smartmatic/images/frontend/smartmatic_logo.png
-      details: |
-        - Supervisión de Desarrollos Varios de Sistemas
-        - Investigación de Mercado – Mundo Vinotinto 
-        - Definición y aplicación de un Protocolo de Evaluación de Aplicaciones tipo Meter Data Manager System (MDMS)
-        - Definición funcional – Meter Data Manager System (MDMS)
-    - role: Program Manager – Aplicaciones al Servicio de Seguridad Ciudadana
-      time: 2014 - 2012
-      company: Smartmatic
-      # optional
-      company_logo: https://www.smartmatic.com/fileadmin/smartmatic/images/frontend/smartmatic_logo.png
-      details: |
-      Por completar
-    - role: Consultor de Sistemas
-      time: 2002 - 2004
-      company: CANTV
-      # optional
-      company_logo: https://www.cantv.com.ve/++theme++cantv.theme/@@cantv.headerimages/logo
-      details: |
-        Optimización de procesos a través del diseño, 
-        desarrollo e implementación de herramientas automatizadas. 
-        Migración de datos que conforman el inventario de la red, 
-        para facilitar el aprovisionamiento de servicios de telecomunicaciones avanzados.
-     - role: Líder de Proyectos
-      time: 1999- 2002
-      company: DATABASE ACCESS C.A.
-      # optional
-      company_logo: http://www.dbaccess.com/images/logo_dbaccess.png
-      details: |
-      Por completar
+
 # Your project portfolio
 projects:
     intro: >
@@ -179,16 +146,3 @@ skills:
 
       - name: Sketch & Photoshop
         level: 60%
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
