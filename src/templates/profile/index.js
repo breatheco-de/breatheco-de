@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby';
-import profile from '../online-cv/styles/profile.css';
 import profile2 from '../online-cv/styles/profile2.css';
+
 import {
   BrowserView,
   MobileView,
@@ -89,7 +89,7 @@ export default ({ data, pageContext })=> {
                             <div className="col-12 text-center gradient">
                                 <label className="name font-weight-normal">{stud.basic_info.first_name} <strong>{stud.basic_info.last_name}</strong></label>
                                 <br/>
-                                <label className="name-2 font-weight-light border-bottom">Full-Stack Developer</label>
+                                <label className="name-2 font-weight-light bottom-line">Full-Stack Developer</label>
                             </div>
                         </div>
 
@@ -105,7 +105,7 @@ export default ({ data, pageContext })=> {
                                             Motto
                                         </label>
                                 </div>
-                                <div className="col-12 col-md-6 text-center bubble-right">
+                                <div className="col-12 col-md-6 text-center right-bubble">
                                     <div className="bubble text-center font-italic corner-bubble">
                                         <label className="font-weight-light">
                                         {stud.basic_info.focus}
@@ -167,7 +167,7 @@ export default ({ data, pageContext })=> {
                                 <div className="row pt-4">
                                     <ul className="col-12 text-muted list-unstyled ">
                                         { Array.isArray(stud.basic_info.interests) ? stud.basic_info.interests.map((inte, i) =>
-                                        (<li className="int col-4 d-inline" key={i}> {inte.item} </li>)
+                                        (<li className="int col-4 col-sm-12 d-inline" key={i}> {inte.item} </li>)
                                         ):''}
                                     </ul>
                                 </div>
@@ -304,7 +304,7 @@ export default ({ data, pageContext })=> {
                                 </div>
                                 { Array.isArray(stud.education) ? stud.education.map((edu, i) =>
                                 (<div className=" py-4 col-lg-5 col-md-8 col-sm-12 d-inline-block" key={i}>
-                                    <div className="card  border-right">
+                                    <div className="card educ border-right">
                                         <div className=" text-uppercase edu-text mb-0"><h2 className="card-title mb-0">{edu.degree}</h2></div>
                                         <div className="sub-header text-muted">{edu.university}</div>
                                         <div className="text-align-center"><img src={edu.university_logo} className="img-fluid image-education py-2" alt="..."/></div>
@@ -332,86 +332,86 @@ export default ({ data, pageContext })=> {
                                     <div className="col-12">
                                         { (stud.basic_info.email)?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1 ">
-                                                    <i className="fas fa-envelope fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fas fa-envelope fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.email}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
                                         { (stud.basic_info.phone) ?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1">
-                                                    <i className="fas fa-phone fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fas fa-phone fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.phone}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
                                         {(stud.basic_info.website)?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1">
-                                                    <i className="fas fa-globe fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fas fa-globe fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.website}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
                                         {(stud.basic_info.linkedin) ?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1">
-                                                    <i className="fab fa-linkedin fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fab fa-linkedin fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.linkedin}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
                                         {(stud.basic_info.github)?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1">
-                                                    <i className="fab fa-github fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fab fa-github fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.github}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
                                         {(stud.basic_info.twitter)?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1">
-                                                    <i className="fab fa-twitter fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fab fa-twitter fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.twitter}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
                                         {(stud.basic_info.stack_overflow) ?
                                             <div className="row row-icons pt-2">
-                                                <div className="col-12 col-sm-1">
-                                                    <i className="fab fa-stack-overflow fa-2x" />
-                                                </div>
-                                                <div className="col-12 col-sm-11">
+
+                                                    <i className="fab fa-stack-overflow fa-2x pl-4" />
+
+
                                                     <label className="text-cont">
                                                         {stud.basic_info.stack_overflow}
                                                     </label>
-                                                </div>
+
                                             </div>:''
                                         }
 

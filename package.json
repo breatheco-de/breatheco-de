@@ -46,6 +46,6 @@
   },
   "precommit.silent": true,
   "pre-commit": [
-    "test"
+
   ]
 }
