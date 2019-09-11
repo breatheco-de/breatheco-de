@@ -167,7 +167,7 @@ export default ({ data, pageContext })=> {
                                 <div className="row pt-4">
                                     <ul className="col-12 text-muted list-unstyled ">
                                         { Array.isArray(stud.basic_info.interests) ? stud.basic_info.interests.map((inte, i) =>
-                                        (<li className="int col-4 col-sm-12 d-inline" key={i}> {inte.item} </li>)
+                                        (<li className="int col" key={i}> {inte.item} </li>)
                                         ):''}
                                     </ul>
                                 </div>
