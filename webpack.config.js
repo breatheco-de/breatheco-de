@@ -52,7 +52,10 @@ module.exports = {
         new WebpackErrorReporting({
             hookURL: process.env.BC_ERROR_HOOK,
             username: process.env.BC_STUDENT_EMAIL,
-            token: process.env.BC_ASSETS_TOKEN
+            token: process.env.BC_ASSETS_TOKEN,
+            compiler: "webpack",
+            language: "html,css,javascript",
+            framework: "vanillajs"
         }),
         new PrettierPlugin(),
         new FriendlyErrorsWebpackPlugin(),
