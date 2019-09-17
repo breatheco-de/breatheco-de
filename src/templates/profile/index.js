@@ -76,13 +76,13 @@ export default ({ data, pageContext })=> {
                                             </li>
                                         </ul>
                                     </nav>
-                                    <BrowserView>
+
                                     <img
                                         src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
                                         className="geeks-img float-right"
                                         alt="4Geeks Academy Icon Black."
                                     />
-                                    </BrowserView>
+
 
                         </div>
                         <div className="row">

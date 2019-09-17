@@ -67,6 +67,9 @@ html{
     height: 22px;
     margin-left: 67px;
 }
+.bubble-row {
+        padding-top: 25px;
+    }
 
 .bubble:after {
     content: '';
@@ -282,19 +285,21 @@ section{
         max-width:200px !important;
 }
 
-    /* avant.geeks-img {
-        position: fixed;
+.geeks-img {
+    display:none;
+        /* position: fixed;
         right: 32px;
         top: 17px;
         height: 85px;
-        z-index: 20;
-} */
+        z-index: 20; */
+}
 .name{
     font-size: 24px;
-    padding-top: 34px;
+    padding-top: 25px;
     letter-spacing: 1px;
-    padding-left: 30px;
+    padding-left: 65px;
     text-transform: uppercase;
+    padding-right: 15px;
 }
 
 .profession{
@@ -773,6 +778,7 @@ li.int{
 
     .bubble-row {
         margin-left: 5px !important;
+        padding-top: 65px;
     }
 }
 
@@ -860,8 +866,9 @@ nav ul {
         margin-left: -3px;
     }
     .geeks-img {
+        display: block;
         position: fixed;
-        right: 14px;
+        right: 30px;
         top: 15px;
         height: 68px;
         z-index: 20;
@@ -1087,6 +1094,7 @@ nav ul {
         margin-right: 23px;
     }
     .geeks-img {
+        display:block;
         position: fixed;
         right: 9px;
         top: 13px;

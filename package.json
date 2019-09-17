@@ -45,7 +45,5 @@
     "simple-git": "^1.124.0"
   },
   "precommit.silent": true,
-  "pre-commit": [
-
-  ]
+  "pre-commit": []
 }
