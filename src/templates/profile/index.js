@@ -2,12 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby';
 import profile2 from '../online-cv/styles/profile2.css';
 
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
-} from "react-device-detect";
+
 import { isNullOrUndefined } from 'util';
 
 export default ({ data, pageContext })=> {
@@ -199,13 +194,14 @@ export default ({ data, pageContext })=> {
                                                             {ex.company}
                                                     </h2>
                                                 </div>
+                                                {(ex.company_logo)?
                                                 <div className="col-12 col-sm-4 border-side card-image " >
                                                      <img
                                                         src={ex.company_logo}
                                                         className="img-fluid w-100 exp-img"
                                                         alt="..."
                                                     />
-                                                </div>
+                                                </div>:''}
                                             </div>
 
                                             <div className="row">
@@ -234,12 +230,14 @@ export default ({ data, pageContext })=> {
 
                                 { Array.isArray(stud.projects.assignments) ? stud.projects.assignments.map((as, i) =>
                                 (<div className="py-4 col-lg-3 col-md-4 col-sm-8 mr-0 d-inline-block " key={i}>
+
                                             <div className="card border-right mr-0">
+                                                {(as.project_logo)?
                                                     <img
                                                         src={as.project_logo}
                                                         className="card-img-top"
                                                         alt="..."
-                                                    />
+                                                    />:''}
                                             <div className="card-body pl-2">
                                                 <h5 className="card-title text-uppercase">
                                                     <strong>{as.title}</strong>
@@ -266,28 +264,30 @@ export default ({ data, pageContext })=> {
                                         </label>
                                     </div>
                                 </div>
-                                { Array.isArray(stud.skills.toolset) ? stud.skills.toolset.map((skill, i) =>
+                                { Array.isArray(stud.skills.toolset)? stud.skills.toolset.map((skill, i) =>
+
                                 (<div key={i}>
-                                    <div className="row  justify-content-around pt-4">
-                                        <div className="col-12 col-md-6 px-4">
-                                            <div className="p-2">
-                                                <label className="p font-weight-bold">
-                                                    {skill.name}
-                                                </label>
-                                                <div className="progress">
-                                                    <div
-                                                        className="progress-bar"
-                                                        role="progressbar"
-                                                        aria-valuenow="25"
-                                                        aria-valuemin="0"
-                                                        aria-valuemax="100"
-                                                        style={{width: skill.level}}>
-                                                        {skill.level}
+                                    {(skill.level!='0%')?
+                                        <div className="row  justify-content-around pt-4">
+                                            <div className="col-12 col-md-6 px-4">
+                                                <div className="p-2">
+                                                    <label className="p font-weight-bold">
+                                                        {skill.name}
+                                                    </label>
+                                                    <div className="progress">
+                                                        <div
+                                                            className="progress-bar"
+                                                            role="progressbar"
+                                                            aria-valuenow="25"
+                                                            aria-valuemin="0"
+                                                            aria-valuemax="100"
+                                                            style={{width: skill.level}}>
+                                                            {skill.level}
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
+                                        </div>:''}
                                 </div>)):''}
                             <hr className="border-bottom" />
                             </section>
@@ -307,7 +307,7 @@ export default ({ data, pageContext })=> {
                                     <div className="card educ border-right">
                                         <div className=" text-uppercase edu-text mb-0"><h2 className="card-title mb-0">{edu.degree}</h2></div>
                                         <div className="sub-header text-muted">{edu.university}</div>
-                                        <div className="text-align-center"><img src={edu.university_logo} className="img-fluid image-education py-2" alt="..."/></div>
+                                        {(edu.university_logo)?<div className="text-align-center"><img src={edu.university_logo} className="img-fluid image-education py-2" alt="..."/></div>:''}
                                         <div ><i className="far fa-clock fa-2x text-primary pr-2" /><label className="font-weight-bold text-muted">{edu.time}</label></div>
                                         <div className="card-body pl-0"><p className="p text-justify text-muted">{edu.details}</p></div>
                                     </div>
