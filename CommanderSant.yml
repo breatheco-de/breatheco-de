@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Camilo
+    last_name: Santos
+    avatar:
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can [download this free resume/CV template here](). Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis disa parturient montes, nascetur ridiculus mus. Donec quam felis, ultricie nec, pellentesque eu. Second paragraph if required
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. - Bullet point - Bullet point
+
+    # Sidebar links
+    email: santoslozanocamiloandres@hotmail.com
+    phone: 3054798660
+    linkedin: Camilo Andres Santos
+    github: CommanderSant
+
+    languages:
+      - idiom: Spanish and English
+
+
+    interests:
+      - item: Coding
+
+      - item: Workout
+
+      - item: Music
+
+education:
+    - degree: Law
+      university: San Martin
+      time: 2006 - 2010
+      details: |
+
+education:
+    - degree: Associate Degree in Information Technology with Cisco certificate
+      university: University of Phoenix
+      Time: 2016 - 2018
+      details:
+
+experiences:
+    - role: Manager
+      time: 2010 - 2011
+      company: 751 Meridian Apartments
+      details: |
+        Managed entire customer service and  reservation.
+
+          - Handlle customer complaints and queries.
+          - oversee all operations and day-to-day activities at the hotel.
+          - Welcome and register guests once they arrive.
+          - Resolve issues regarding hotel services, amenites, and policies.
+
+    - role: Director of Security
+      time: 2012 - 2018 current
+      company: Key Colony 2
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. - Bullet point - Bullet point
+        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. - Bullet point - Bullet point.
+
+          - Manage staff of security guards and surveillance personnel.
+          - Oversee physical safety and security of the organization's facilities/porperty and people-employees, vendors, contractors, and visitors.
+          - lead a team of security personnel in their day-to-day duties and responsabilities.
+          - manage and report to top management on security incidents.
+          - Mantain and review security records.
+          - Payroll.
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Replica with Grid and Feed Attributes
+        link: "#"
+        tagline: "Built responsive Instagram-inspired website utilizing Bootstrap, CSS, and HTML."
+
+      - title: Collaborative One-Page Website
+        link: "#"
+        tagline: "Built responsive one-page website based on sample image with collaborating team members through GitHub."
+
+      - title: HTML5 Form with Bootstrap
+        link: "#"
+        tagline: "Built HTML5 form using BootStrap styles and Javascript verifications."
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 30%
+
+      - name: CSS
+        level: 50%
+
+      - name: HTML5
+        level: 50%
+
+      - name: Git
+        level: 50%
