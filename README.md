@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
@@ -23,7 +22,7 @@ $ python3 server.py
   ...
 </head>
 ```
-=======
+
 <p align="center">
   <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
 </p>
@@ -74,6 +73,3 @@ You can pick between your template and your skin, for example:
 template: "online-cv"
 skin: "orange"
 ```
-
-
->>>>>>> d52254cc39aaf463563ca1d92efb843906468470
