@@ -1,85 +1,180 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { graphql } from 'gatsby';
 import profile2 from '../online-cv/styles/profile2.css';
+import bat from "../../images/bat.jpg";
+import star from "../../images/star.jpg";
+import superman from "../../images/superman.jpg";
 
+const validateImage = async (src) =>{
 
-import { isNullOrUndefined } from 'util';
+    let response = await fetch(src, {method: "HEAD"});
+    if(response.status < 300){
+        return true;
+    }else{
+        throw new Error("Failed");
+    }
+}
+
+const SmartImg = (props) => {
+    const [image, setImage] = React.useState(null);
+        validateImage(props.src).then(val => setImage(props.src)).catch( err => setImage(bat));
+    return (<img src={image} className="img-menu" alt="Avatar"/>);
+
+}
 
 export default ({ data, pageContext })=> {
-
     const stud = data.studentsYaml;
-     console.log({stud});
-     const it = stud.basic_info.avatar;
+    console.log({stud});
+    const it = stud.basic_info.avatar;
+
+    const photo=[bat, star, superman];
+
+    function myFunction(a) {
+        let Photo = a[Math.floor(Math.random() * a.length)];
+        return Photo;
+    }
+
+    const randPhoto= myFunction(photo);
+
+    console.log("randPhoto",randPhoto);
+
+
 
         return (
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 main-body p-0">
-                        <div className="parallax" style={{backgroundImage: `url(${it})`}} id="section-top">
-                                    <nav className="vertical-menu rounded">
-                                        <ul className="rounded-bottom" id="leftNav">
-                                            <li className="border-bottom">
-                                                <a
-                                                    href="#section-top"
-                                                    className="section-top">
-                                                    <img
-                                                        src={stud.basic_info.avatar}
-                                                        className="img-menu"
-                                                        alt="Avatar"
-                                                    />
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-1">
-                                                    <i className="fas fa-file-invoice fa-3x" /><span>SUMMARY</span>
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-2">
-                                                    <i className="fas fa-language fa-3x" /><span>LANGUAGES</span>
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-3">
-                                                    <i className="fas fa-bicycle fa-3x" /><span>INTERESTS</span>
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-4">
-                                                    <i className="fas fa-chart-line fa-3x" /><span>EXPERIENCES</span>
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-5">
-                                                    <i className="far fa-file-code fa-3x" /><span>PROJECTS</span>
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-6">
-                                                    <i className="far fa-star fa-3x" /><span>SKILLS</span>
-                                                </a>
-                                            </li>
-                                            <li className="border-bottom">
-                                                <a href="#section-7">
-                                                    <i className="fas fa-graduation-cap fa-3x" /><span>EDUCATION</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#section-8">
-                                                    <i className="fas fa-user-alt fa-3x" /><span>CONTACT</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                        {(stud.basic_info.avatar)?
+                            <div className="parallax" style={{backgroundImage: `url(${it})`}} id="section-top">
+                                        <nav className="vertical-menu rounded">
+                                            <ul className="rounded-bottom" id="leftNav">
+                                                <li className="border-bottom">
+                                                    <a
+                                                        href="#section-top"
+                                                        className="section-top">
+                                                        <SmartImg
+                                                            src={stud.basic_info.avatar}
+                                                           
+                                                        />
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-1">
+                                                        <i className="fas fa-file-invoice fa-3x" /><span>SUMMARY</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-2">
+                                                        <i className="fas fa-language fa-3x" /><span>LANGUAGES</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-3">
+                                                        <i className="fas fa-bicycle fa-3x" /><span>INTERESTS</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-4">
+                                                        <i className="fas fa-chart-line fa-3x" /><span>EXPERIENCES</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-5">
+                                                        <i className="far fa-file-code fa-3x" /><span>PROJECTS</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-6">
+                                                        <i className="far fa-star fa-3x" /><span>SKILLS</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-7">
+                                                        <i className="fas fa-graduation-cap fa-3x" /><span>EDUCATION</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#section-8">
+                                                        <i className="fas fa-user-alt fa-3x" /><span>CONTACT</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
 
-                                    <img
-                                        src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
-                                        className="geeks-img float-right"
-                                        alt="4Geeks Academy Icon Black."
-                                    />
+                                        <img
+                                            src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+                                            className="geeks-img float-right"
+                                            alt="4Geeks Academy Icon Black."
+
+                                        />
 
 
-                        </div>
+                            </div> :
+                            <div className="parallax" style={{backgroundImage: `url(${randPhoto})`}} id="section-top">
+                                        <nav className="vertical-menu rounded">
+                                            <ul className="rounded-bottom" id="leftNav">
+                                                <li className="border-bottom">
+                                                    <a
+                                                        href="#section-top"
+                                                        className="section-top">
+                                                        <img
+                                                            src={randPhoto}
+                                                            className="img-menu"
+                                                            alt="Avatar"
+                                                        />
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-1">
+                                                        <i className="fas fa-file-invoice fa-3x" /><span>SUMMARY</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-2">
+                                                        <i className="fas fa-language fa-3x" /><span>LANGUAGES</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-3">
+                                                        <i className="fas fa-bicycle fa-3x" /><span>INTERESTS</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-4">
+                                                        <i className="fas fa-chart-line fa-3x" /><span>EXPERIENCES</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-5">
+                                                        <i className="far fa-file-code fa-3x" /><span>PROJECTS</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-6">
+                                                        <i className="far fa-star fa-3x" /><span>SKILLS</span>
+                                                    </a>
+                                                </li>
+                                                <li className="border-bottom">
+                                                    <a href="#section-7">
+                                                        <i className="fas fa-graduation-cap fa-3x" /><span>EDUCATION</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#section-8">
+                                                        <i className="fas fa-user-alt fa-3x" /><span>CONTACT</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+
+                                        <img
+                                            src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+                                            className="geeks-img float-right"
+                                            alt="4Geeks Academy Icon Black."
+                                        />
+
+
+                            </div>}
                         <div className="row">
                             <div className="col-12 text-center gradient">
                                 <label className="name font-weight-normal">{stud.basic_info.first_name} <strong>{stud.basic_info.last_name}</strong></label>
@@ -267,7 +362,7 @@ export default ({ data, pageContext })=> {
                                 { Array.isArray(stud.skills.toolset)? stud.skills.toolset.map((skill, i) =>
 
                                 (<div key={i}>
-                                    {(skill.level!='0%')?
+                                    {(skill.level!=='0%')?
                                         <div className="row  justify-content-around pt-4">
                                             <div className="col-12 col-md-6 px-4">
                                                 <div className="p-2">
