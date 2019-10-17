@@ -10,13 +10,13 @@ basic_info:
 
     # Your full name
     first_name: Jorge
-    last_name: Solo
+    last_name: Mair II
 
     # Define yourself in 4-5 words
     motto: I dont lose I just win or learn.
 
     # focus
-    focus:
+    focus: To Gain an efficiently working expertise in Full Stack Web development.
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -30,20 +30,20 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar:
 
     # Contact Information
-    email:  #optional
-    phone:  #optional
+    email:  JorgeMair@yahoo.com
+    phone:  954-665-0122
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: Jorge Mair  "https://www.linkedin.com/in/jorge-mair-87119692/"
 
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: sharu725
+    github: JorgeSolo
 
-    twitter: 'webjeda' #optional
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -51,109 +51,66 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+
 
       - idiom: Spanish
-        level: Professional
+        level: Beginner
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Learning
 
-      - item: Snowboarding
+      - item: Creating
 
-      - item: Cooking
+      - item: Mechanics
+
+      - item: Nursing
+
+      - item: Music
+
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: AS in Nursing
+      university: Fortis College
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2011-2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Completed State requirements For To become a Licensed Practical Nurse.
 
-          - Bullet point
-          - Bullet point
+          #- Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+
+    - degree: Certified Clinical Laboratory Medical Assistant
+      university: Ultimate Medical Academy
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: " https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1419877906/w9jzkedte1rza6qpb4cr.png"
+      time: 2009 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Completed coursework, earning me a Title of , EKG ,Phlebotomy,Office MGR, Lab tech, Medical office administartor.
 
-          - Bullet point
-          - Bullet point
+
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: LPN
+      time: 2013 - Present
+      company: Catholic Health Services
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: "https://www.miamiarch.org/Atimo_s/news/catholic_health_service.jpg"
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Staff Nurse, under orders of a Physicians.
+
 
           - Bullet point
-          - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
+
 
     assignments:
       - title: Velocity
@@ -188,20 +145,23 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Flask
+        level: 50%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: React.js
+        level: 90%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Bootsrap
+        level: 98%
 
-      - name: Sketch & Photoshop
+      - name: Webpack
+        level: 60%
+
+      - name: SQL Alchemy
         level: 60%
