@@ -74,7 +74,7 @@ education:
     - degree: AS in Nursing
       university: Fortis College
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: "https://www.universities.com/assets/site/logos/fortis-college-mobile-logo-2008.jpg"
       time: 2011-2013
       details: |
         Completed State requirements For To become a Licensed Practical Nurse.
