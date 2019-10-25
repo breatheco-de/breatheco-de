@@ -9,12 +9,12 @@ skin: "blue"
 basic_info:
 
     first_name: Jacques
-    last_name: Fidelia
-    
-    motto: I like saving the world
-    
+    last_name: Fidelia Jr
+
+    motto: Breathe In Courage, Breathe Out Fear
+
     focus: Full Stack Developer
-    
+
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -23,15 +23,15 @@ basic_info:
       Donec quam felis, ultricies nec, pellentesque eu.
 
       Second paragraph if required.
-    
-    avatar: http://sep.breatheco.de/static/profile-images/https://media.licdn.com/dms/image/C4E03AQGGs7P8M8Us4w/profile-displayphoto-shrink_100_100/0?e=1557964800&v=beta&t=tXoxNHP44SpoDyqKBVkcdVuKaaiQCsXK0ozpWAD4Z7s
+
+    avatar: https://avatars0.githubusercontent.com/u/46831850?s=460&v=4
 
     email: jacques.fidelia@gmail.com
     phone: 305 898 0529
     linkedin: https://www.linkedin.com/in/jacquesf/
-    
+
     github: https://github.com/jfidelia
-    
+
     twitter: 'cousteau305'
 
     languages:
@@ -52,14 +52,19 @@ basic_info:
 education:
     - degree: BACHELOR OF BUSINESS ADMINISTRATION IN BUSINESS MANAGEMENT
       university: Florida International University
-      
+
       time: 2007 - 2011
+
+    - degree:  FULL STACK DEVELOPER
+      university: 4Geeks Academy
+
+      time: 02/2019 - 06/2019
 
 experiences:
     - role: SENIOR GL SPECIALIST
       time: 2016 - Present
       company: UBER, San Francisco
-      details: 
+      details:
         Provide administrative and operational support for management team. Anticipate business needs and availability to
         develop work schedules. Authorize escalated customer issues using an internal support system.
 
@@ -71,23 +76,27 @@ experiences:
             evenly and SLAs were met.
           - Managed queue levels during peak hours for Miami Greenlight Hub, partnering with on-shift agents to
             delegate incoming customers.
-            
+
     - role: DELIVERY MANAGER, HONG KONG
       time: 2012 - 2016
       company: TESLA, HONG KONG
-      details: 
-        Managed a team, ensuring all daily tasks were met. Maximized productivity by promoting synergy and 
-        implementing policies to streamline workflow. Conducted market analysis to accurately plan inventory 
+      details:
+        Managed a team, ensuring all daily tasks were met. Maximized productivity by promoting synergy and
+        implementing policies to streamline workflow. Conducted market analysis to accurately plan inventory
         and estimate turnaround. Monitored all deliveries, providing assistance with transaction completion as needed.
 
           - Boosted sales by cross-promoting products and services based on the buyer’s needs.
           - Maintained a strong working knowledge of inventory, insurance, and financing options.
           - Delivered high-quality results by focusing on management and team training.
 
-   
+
 projects:
-    
+
     assignments:
+      - title: Mobile_Mechs
+        link: https://github.com/jfidelia/Mobile_Mechs-1
+        tagline: "A webapp designed for the avid cyclist/high end bike consumer making it convenient for them by providing a variety of services right at their front door or wherever they are located (events, warehouse, etc…). They will not have to go through the hassle of having to bring their bikes to a local shop."
+
       - title: Excuse-generator
         link: https://github.com/jfidelia/excuse-generator
         tagline: "A javscript project promoting random arrays."
@@ -123,3 +132,4 @@ skills:
 
       - name: Sketch & Photoshop
         level: 60%
+
