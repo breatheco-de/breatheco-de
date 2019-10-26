@@ -32,7 +32,7 @@ __Note:__ remember that the JS workflow starts inside `window.onload`.
 
 #### 3) I don't see my changes.
 
-Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (its a process called hot deploy)
+Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (it's a process called hot deploy)
 Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
 
 #### 4) How do I include more images on my project?
@@ -43,7 +43,7 @@ Just add the files into the JS folder and import the file/variables into your in
 
 #### 6) How do I publish the website?
 
-This boilerplate is 100% compatible with the free github pages hosting. Publish your website by runing:
+This boilerplate is 100% compatible with the free github pages hosting. Publish your website by running:
 ```sh
 $ npm run deploy
 ```
