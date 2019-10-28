@@ -6,11 +6,11 @@ basic_info:
     first_name: Ariel Vladimir
     last_name: Calisaya Serrano
 
-    motto: I like play with codes
+    motto: No dates only updates
 
     focus: become a senior programer
 
-    summary: Amateur man in programming, with a desire to learn to use it in everyday life
+    summary: Lazy man and programming enthusiast, wanting to learn new technologies to create a bot capable of doing the work of a lazy man
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -19,7 +19,7 @@ basic_info:
     email: calisayaariel62@gmail.com
     phone: +56 9 58980429
     website:
-    linkedin: www.linkedin.com/in/ariel-calisaya-23661518a/
+    linkedin: Ariel Vladimir Calisaya Serrano
 
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: ArielCalisaya
@@ -40,79 +40,94 @@ basic_info:
     interests:
       - item: Music
 
-      - item: E-Sports
+      - item: Design
 
       - item: Cooking
+
+      - item: Running
 
 education:
     - degree: FullStack Web Developer
       university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2019 - 2019
+      time: june-2019 / october-2019
       details:
           -Real “Senior” Mentoring
-          All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry.
+          staff has 10  years coding and holds senior possitions in Miami's tech industry.
           -Top-notch Technology Stack
-          The world of Coding grows and changes EVERY DAY. Learn the newest and most demanded languages and frameworks in the current market. Your potential employers will LOVE IT.
+          The world of Coding grows and changes EVERY DAY.
           -Really Part-time
-          It is not about teaching on after-hours, it requires much more! This program is meant for employed professionals. We have designed the perfect method for both flexible and blended learning in an “after-hours” setting.
+          It is not about teaching on after-hours, it requires much more!
+          This program is meant for employed professionals. We have designed
+          the perfect method for both flexible and blended learning in an “after-hours” setting.
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: File cabinet and digital document provider
+      time: october-2018 / june-2019
+      company: Huechuraba municipality - works sector
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://www.huechuraba.cl/images/logo-municipalidad-huechuraba.png
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        I was in charge of storing physical and digital documents by filing
+        according to order of rol number, either in the commune
+        database or in the warehouse.
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      These are some projects that have been proposed to me by the academy,
+      which have facilitated me where to start learning and adapting languages
+      ​​of progamation from the simplest to the most complex,
+      with "practice and error"
     assignments:
-      - title: Velocity
-        # optional
+      - title: The Instagram post (html & css)
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: https://github.com/ArielCalisaya/The-Instagram-Post-by-A.C
+        tagline: "simple post of instagram unresponsive which serves
+        to deepen and understand html and css (at that time I was
+        an ape in the css, I didn't know the grid)"
 
-      - title: DevStudio
-        # optional
+      - title: Domain name Generator
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        link: https://github.com/ArielCalisaya/DomainNameGenerator
+        tagline: "Learned to get all posible combinations of words"
 
+      - title: Todo List
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/TodoList
+        tagline: "Simple Todo-List with functions"
 
+      - title: Card Generator (poker)
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/cardRandomJS
+        tagline: "This project generates a random card with number and logo"
+
+      - title: Contact List context
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/exercise-contact-list-context
+        tagline: "create, delete and edit a contact using context"
+
+      - title: Generate User info
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/PlayingWith_RandomUserGenerator-API
+        tagline: "Learned to fetch and get a random user info api"
 skills:
     toolset:
       - name: Python & Django
-        level: 10%
+        level: 30%
 
       - name: Javascript & jQuery
-        level: 23%
+        level: 70%
 
       - name: Angular
         level: 0%
 
       - name: HTML5 & CSS
-        level: 70%
+        level: 90%
 
       - name: Ruby on Rails
         level: 0%
 
       - name: Sketch & Photoshop
-        level: 30%
+        level: 50%
