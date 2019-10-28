@@ -6,11 +6,11 @@ basic_info:
     first_name: Ariel Vladimir
     last_name: Calisaya Serrano
 
-    motto: No dates only updates
+    motto: "No dates only updates"
 
     focus: become a senior programer
 
-    summary: Lazy man and programming enthusiast, wanting to learn new technologies to create a bot capable of doing the work of a lazy man
+    summary: "Lazy man and programming enthusiast, wanting to learn new technologies to create a bot capable of doing the work of a lazy man"
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
