@@ -60,7 +60,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
     }
 
     if(typeof yaml.projects !== 'undefined' && typeof yaml.projects.assignments !== 'undefined'){
-        if(!Array.isArray(yaml.projects.assignments)) throw new Error(`Education must be an array`.red);
+        if(!Array.isArray(yaml.projects.assignments)) throw new Error(`Assignments must be an array`.red);
         yaml.projects.assignments.forEach((ex) => {
             if(typeof ex.title === "undefined") throw new Error(`Missing assignment title`.red);
             if(typeof ex.tagline === "undefined") throw new Error(`Missing assignment tagline`.red);
