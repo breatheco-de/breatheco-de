@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Command to start on workspace startup (optional)
 tasks:
   - init: npm install;
@@ -6,3 +7,15 @@ tasks:
 ports:
   - port: 8080
     onOpen: open-browser
+=======
+ports:
+    - port: 8000
+      onOpen: open-preview
+tasks:
+    - init: >
+        npm install;
+      command: >
+        npm run start;
+    - init: >
+        npm i now -g;
+>>>>>>> d32c942a258b014629ade4d453b3d75d294d520b

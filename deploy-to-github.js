@@ -1,5 +1,6 @@
 var ghpages = require('gh-pages');
 var Console = require('bc-console');
+<<<<<<< HEAD
 var webpack = require('webpack');
 var path = require('path');
 var fs = require('fs');
@@ -47,3 +48,15 @@ compiler.run((err, stats) => {
         Console.success(`Your website has been deployed successfully here: https://${repository["owner"]}.github.io/${repository["name"]}`);
     });
 });
+=======
+
+ghpages.publish('public', function(err) {
+    if(err){
+        console.error(err);
+        Console.error("There was an error publishing your website");
+        return;
+    } 
+    //https://<github_user>.github.io/<repository-name>
+    Console.success(`Your website has been deployed successfully`);
+});
+>>>>>>> d32c942a258b014629ade4d453b3d75d294d520b

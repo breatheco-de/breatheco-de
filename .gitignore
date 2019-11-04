@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ignore the git local files and the c9 project files
 .git
 .c9
@@ -6,3 +7,8 @@
 dist/
 public/
 node_modules/
+=======
+public/
+node_modules/
+.cache/
+>>>>>>> d32c942a258b014629ade4d453b3d75d294d520b
