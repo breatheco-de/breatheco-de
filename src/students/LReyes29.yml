@@ -12,13 +12,12 @@ basic_info:
     motto: Full Stack Developer
     avatar: 
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Ingeniero Civil Industrial Mecánico de la Pontificia Universidad Católica de Chile,
+      Magíster en Ciencias de la Ingeniería, con experiencia en diversas áreas de negocios, 
+      principalmente en el ámbito de las inversiones y la planificación, evaluación e implementación 
+      de proyectos. 
 
-      Second paragraph if required.
+      
 
     # Sidebar links
     email: lhreyes@uc.cl
@@ -30,85 +29,65 @@ basic_info:
 
     languages:
       
-      - idiom: Spanish
-        level: Professional
+      - idiom: Español
+        level: Nativo
 
-      - idiom: English
-        level: Intermediate
+      - idiom: Inglés
+        level: Intermedio
 
     interests:
-      - item: Sports (Kick Boxing & Trekking)
- 
+      - item: Deportes (Kick Boxing & Trekking)
+
+
+experiences:
+    - role: Socio Administrador
+      time: 2018 - Actualidad
+      company: Inmob. e Inversiones Santa Isabel Ltda.
+      details: |
+        Gestión activa patrimonio familiar.
+          - Responsable de la toma de decisiones con relación a las nuevas inversiones, buscando
+          siempre mantener un portafolio diversificado y ajustado a nuestro perfil riesgo/retorno.
+          - Compra y venta de bienes raíces comerciales e industriales, gestionar y desarrollar nuevos
+           proyectos comerciales, negociar y buscar la resolución de conflictos con distintas contrapartes.
+
+    - role: Ingeniero de Planificación y Nuevos Negocios
+      time: 2015 - 2018
+      company: El Condor Combustibles
+      details: |
+          - Gestionar y decidir sobre las inversiones de la cartera líquida del grupo ascendente a
+            $12.000 millones (en promedio).
+          - Evaluar proyectos de inversión relacionados a diversas industrias.
+          - Estudiar y recomendar sobre participar en distintos proyectos de capital de riesgo.
+          - Liderar el proceso de venta de una red de ductos soterrados para telecomunicaciones
+            presentes en la V Región de por un monto cercano a USD 2 millones.
+          - Participar en la preparación de información estratégica relevante de la operación de la
+            Compañía, tales como fusiones, compra/venta de empresas y nuevos negocios.
+          - Preparar informes de gestión de empresas de interés del Directorio.
+          
+    - role: Analista Plain Financiero e Inversiones
+      time: 2012 - 2015
+      company: ISA INTERVIAL
+      details: |
+          - Modelación, evaluación y estructuración de nuevos proyectos. 
+          - Mayor logro, reestructurar y refinanciar deuda de Ruta de la Araucanía (MMUSD 380).
+          - Control, seguimiento y gestión de covenants financieros.
+          - Análisis de deuda, Bonos y Créditos Sindicados.
+          - Negociación con bancos, inversionistas, tenedores de bonos y otros. 
+
 education:
-    - degree: Master in Sciences Degrees
+    - degree: Magíster en Ciencias de la Ingeniería
       university: Universidad Católica de Chile
       time: 2009 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: Mechanical Industrial Engineer
+        Ingeniería Industrial y de Sistemas. Mención Economía.
+        "Distinción Máxima" en defensa de Tesis.
+         
+    - degree: Ingeniero Civil de Industrias Mención Mecánica
       university: Universidad Católica de Chile
       time: 2004 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-experiences:
-    - role: Lead Developer
-      time: 2019 - Present
-      company: Startup Hubs, Santiago, Chile
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
-    - role: New Bussiness & Real Estate Engineer
-      time: 2014 - 2018
-      company: El Condor Combustibles
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Titulación con "Distinción Máxima". Nota final 6,0.
+                  
 
 projects:
     intro: >
@@ -117,42 +96,46 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: randomCardDealer
+        link: "https://github.com/LReyes29/randomCardDealer.git"
+        tagline: "A responsive website template designed to practice DOM & Events."
+        
+      - title: domainNameGenerator
+        link: "https://github.com/LReyes29/domainNameGenerator.git"
+        tagline: "A responsive website template designed to practice Javascript."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: excuseGenerator
+        link: "https://github.com/LReyes29/excuseGenerator.git"
+        tagline: "A responsive website template designed to practice Javascript."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: photoFeed
+        link: "https://github.com/LReyes29/photoFeed.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: instagramPostcardBT
+        link: "https://github.com/LReyes29/instagramPostcardBT.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+      
+      - title: instagramPhotoFeedWithBootstrap
+        link: "https://github.com/LReyes29/instagramPhotoFeedWithBootstrap.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+      - title: testDigitalPostcard
+        link: "#https://github.com/LReyes29/testDigitalPostcard.git"
+        tagline: "A responsive website template designed to practice HTML5 & CSS."
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: DOM & Events
+        level: 60%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: GIT
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Javascript & jQuery
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Bootstrap
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
