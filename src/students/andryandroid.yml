@@ -22,61 +22,47 @@ basic_info:
 
     # Sidebar links
     email: andjos27@hotmail.com
-    phone: +56 9592 09580 
+    phone: +56  9 3448 2049
     website:  #do not add http://
-    linkedin: Andry-Garcia-Leal
+    linkedin: AndryGarcia
     github: andryandroid
-    twitter: '@webjeda'
+    twitter: 'AndryJG'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     languages:
       - idiom: English
-        level: Professional
+        level: Intermediate
 
       - idiom: Portuguese
-        level: Professional
+        level: Beginner
 
       - idiom: Spanish
-        level: native
+        level: Native
 
     interests:
-      - item: Climbing
+      - item: Reading
 
-      - item: Snowboarding
+      - item: Trekking
 
-      - item: Cooking
+      - item: biking
 
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+education: 
+    - degree: Associate degree in Computer Science
+      university: Universidad Nacional Experimental de Guayana
+      time: 2010 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        It develops solid knowledge in decision theory, 
+        General Systems Theory and Critical Thinking, 
+        among others, to respond to the need to create, 
+        evaluate and improve computer and communications technologies, 
+        in order to innovate, design, plan, build, 
+        implement and maintain integral solutions in organizations.
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Bell boy
+      time: 2018 - Present
+      company: Hotel Park Plaza Bonaparte, Santiago
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -88,34 +74,6 @@ experiences:
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 projects:
     intro: >
@@ -124,21 +82,21 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Random card
+        link: "https://github.com/andryandroid/random-card"
+        tagline: "A algorithm that randomly builds a card on every refresh."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Excuses
+        link: "https://github.com/andryandroid/Excuses"
+        tagline: "a small website that generates an excuse each time a button is pressed."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Dominian names
+        link: "https://github.com/andryandroid/dominian-names"
+        tagline: "A script that generate all the possible domain name combinations from a list of pronouns, adjectives and nouns."
 
-      - title: Atom
+      - title: Instagram Post
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "A website that using HTML and CSS replicates an Instagram Post."
 
       - title: Delta
         link: "#"
@@ -147,19 +105,16 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 
 
       - name: Javascript & jQuery
-        level: 98%
+        level: Intermediate
 
-      - name: Angular
-        level: 98%
+      - name: React
+        level: 
 
       - name: HTML5 & CSS
-        level: 95%
+        level: Advanced
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: CorelDRAW & Photoshop
+        level: Intermediate
