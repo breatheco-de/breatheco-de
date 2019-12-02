@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Gabriela  
+    last_name: Rodriguez
+    motto: Full Stack Developer
+    avatar: 
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    # Sidebar links
+    email: gmederos95@gmail.com
+    phone: 786 406 0440
+    linkedin: gabriela-rodriguez
+    github: gabsrodriguez 
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Reading
+
+      - item: Painting
+
+      - item: Cooking
+
+education:
+    - degree: Associate of Science in Nursing
+      university: Miami Dade College
+      time: 2017-2018
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: Regitered Nurse
+      time: 2018-2019
+      company: Westside Regional Medical Center
+      details: |
+        As a Registerd Nurse, I was the person the patients saw on a daily basis. 
+        It was my job to administer medical care, answer patient questions,
+        and give counseling to patients and their families. Other responsibilities included
+
+          - Analyzing test results
+          - Educating patients about treatment plans
+          - Collecting patient health histories
+          - Performing physical exams and diagnostic tests
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: ig-boostrap
+        link: "https://github.com/gabsrodriguez/ig-bootstrap"
+        tagline: "A responsive instagram feed using bootstrap."
+
+      - title: Basic form
+        link: "https://github.com/gabsrodriguez/basicform"
+        tagline: "A basic form with client-side validation using bootstrap." 
+
+      - title: Random-generator
+        link: "#https://github.com/gabsrodriguez/random-generator"
+        tagline: "A website that randomly generates excuses for why your homework was late. Made using HTML, Boostrap, and Javascript."
+
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 50%
+
