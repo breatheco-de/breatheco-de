@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduard
+    last_name: Chiticari
+    
+    # Define yourself in 4-5 words
+    motto: A person is not a tree, person is ment to travel the World!
+    
+    # focus
+    focus: Work hard, Play harder!
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Changed a bunch of shoes gaining experience in differt areas of Sales and Customer Service.
+      Visited all the continents besides the coldest one, love discovering new things and exploring the world.
+      Love good music and tasty food =)
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4E03AQEpMp7XeNyKaA/profile-displayphoto-shrink_200_200/0?e=1581552000&amp;v=beta&amp;t=bK00ox-vzxNPzjCd7xIkBrDPE9inGPGHO27WfOGh1FQ
+
+    # Contact Information
+    email: eduard.kitikari@gmail.com #optional
+    phone: 407 866 8644 #optional
+    linkedin: eduard-b2b-lead-expert #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: EddyKudo
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: Romanian
+        level: Professional
+
+      - idiom: Ukranian
+        level: Advanced
+
+    # Interests or hobies
+    interests:
+      - item: Snorkeling
+
+      - item: Snowboarding
+
+      - item: Music
+
+      - item: Web-Development
+
+      - item: Bikes
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: Bachelor's Degree in Marketing and Logistics
+      university: Academy of Economic Studies
+      # optional
+    
+      time: 2007 - 2011
+      details: |
+        Marketing is it is a philosophy whose main focus is providing customer satisfaction. Marketing is the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners and 
+        society at large. Also included in the definition are all of the activities that help 
+        businesses reach their target market effectively.
+          - Marketing
+          - Logistics
+    - degree: Foundation degree in Aviation and First Aid
+      university: Emirates Aviation Academy
+      # optional
+      
+      time: 2011 - 2012
+      details: |
+        Experience of working with passengers from different cultures & backgrounds.
+        
+          - Ability to make passengers feel welcome.
+          - Experienced in dealing with the public & comfortable in a selling role.
+          - Well spoken, approachable, with great attention to detail & a professional attitude.
+          - Service aircraft such as Airbus A340-500, Airbus A340-300, Airbus A330-200, Boeing 777-300ER, Boeing 777-200LR, Boeing 777-300, Boeing 777-200.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Flight Attendant
+      time: 2011 - 2015
+      company: Emirates Airlines. Dubai, United Arab Emirates
+      # optional
+      
+      details: |
+        
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Providing exceptional customer service, being responsible for the safety and security of myself, 
+        colleagues, customers and aircraft with all the equipment available. Trained to a very high 
+        standard to deal with emergency situations and to also administer first aid if necessary. 
+        Responsible for making passengers feel their holiday has started the moment they step on the 
+        aircraft. Making them feel relaxed, safe and comfortable while providing a full range of 
+        in-flight services and refreshments.
+          - Circulating and collecting customs and immigration documents from passengers
+          - Working with company documentation to meet legalities of different countries 
+          - Managing multinational group of people, different from flight to flight
+          - Writing rapports and feedback to the company and giving feedback towards colleagues.
+# Your project portfolio
+projects:
+    intro: >
+        This is going to be my first project listed here
+        I hope I'll enjoy working on it as much as I do enjoy study
+    assignments:
+      - title: Test Project
+        # optional
+        link: "#hook"
+        tagline: "This is the little description of the future project. Hopefully it will be great!"
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 85%
