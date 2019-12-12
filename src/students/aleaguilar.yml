@@ -1,0 +1,135 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Aguilar
+    
+    # Define yourself in 4-5 words
+    motto: I live by music
+    
+    # focus
+    focus: Sharping the knife... Always
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      My career started in the accounting field, then moved on to corporate finance, banking and ended in consulting. I'm currently the Global Marketing Director for a courier company operating in 15 countries.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQGsezSznATqmA/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=5l23pGOApdP8M-bykx-NFF9juLrtAARjJpoXAPsnzz0
+
+    # Contact Information
+    email: aleaguilar1512@me.com #optional
+    phone: 786 510 5850 #optional
+    website: equiposdebomberos.com #optional
+    linkedin: alejandroalbertoaguilar #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: aleaguilar
+    
+    twitter: 'pelaroids' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Playing Guitar
+
+      - item: Cooking
+
+      - item: Learning Random Stuff
+
+# Your previous education
+education:
+    - degree: MSc in Business
+      university: Universidad Metropolitana
+      # optional
+      university_logo: https://www.unimet.edu.ve/wp-content/uploads/2017/03/Logo-unimet-1-1030x415.png
+      time: 2006 - 2008
+      details: |
+        Graduated with 4.0 GPA
+    - degree: BSc in Accounting
+      university: Universidad Santa Maria
+      # optional
+      university_logo: https://usm.edu.ve/florencia/wp-content/uploads/2017/11/logousmprueba12565454554655.png
+      time: 1997 - 2002
+      details: |
+        Graduated as a Public Accountant, the equivalent of a CPA in the US
+# Your previous job experiences or voluntier
+experiences:
+    - role: Global Marketing Director
+      time: 2019 - Present
+      company: Liberty Express, Miami, FL
+      # optional
+      company_logo: https://libertyexpress.com/wp-content/uploads/2019/06/Libertyexpress-logo-clear.png
+      details: |
+        Responsibe for the corporate marketing strategy in the 15 countries were we operate.
+
+        Creation of new businesses alliances with manufacturers/distributors of physical goods to leverage our growing 1MM subscribers base and our logistics network.
+
+        Changing traditional marketing into a commercial/business development machine, by leveraging our growing customer base and logistics network.
+    - role: Owner, Founder
+      time: 2008 - Present
+      company: Rescue Equipment International Corp, Miami, FL
+      # optional
+      company_logo: https://www.equiposdebomberos.com/rw_common/images/Rescue%20horizontal%20copy.png
+      details: |
+        At REIC we serve the Latin American firefighter industry, providing expert advice and procurement on leading safety gear for first responders.
+
+        Our relationship with leading manufacturers of equipment allows us to bring a vast array of products into a market that has tremendous challenges. Latin America as a whole has always been an interesting market for any brand, however, the difference between countries, legislation, and economic realities make it a challenge to effectively develop commercial relationships.
+
+        We are focused on changing how business is conducted in the region, by promoting cross-collaboration to lower end-user costs and entry barriers.
+
+        We aim to work with manufacturers to further expand their markets and provide first responders with the quality of product and safety they deserve.   
+    - role: Financial Planning Manager, Andean Region
+      time: 2002 - 2007
+      company: McDonald's Corp., Caracas, Venezuela
+      # optional
+      company_logo: https://www.mcdonalds.com/content/dam/usa/nfl/assets/nav/arches-logo_108x108.jpg
+      details: |
+       As Financial Planning Manager, my every day was about budgets, projections, adjustments, deviation analysis, country analysis, threats and opportunities. Understanding how every department functions was key to create accurate projections and in reducing the budget process from 35 days, to 10.
+
+# Your project portfolio
+projects: 
+    intro: >
+      Coming Soon
+    #assignments:
+     # - title: Velocity
+        # optional
+        # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        # link: "#hook"
+        # tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
