@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Christian
+    last_name: Sarmiento
+    motto: Full Stack Developer
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    # Sidebar links
+    email: chrissarmi@gmail.com
+    phone: +1(305)922-70-70
+    linkedin: chrissarmi
+    github: chrissarmi
+    twitter: 'chrissarmi'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English 
+        level: Fluent
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Surfing
+
+      - item: Soccer
+
+      - item: Meditation
+
+education:
+    - degree: Computer Science - in progress
+      university: Miami Dade College
+      time: 2014 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+
+experiences:
+    - role: Hotel Manager
+      time: 2017-2019
+      company: Oasis Hotel, Fort Lauderdale.
+      details: 
+      
+          - Oversees all operations and day to day activities in a Hotel.
+          - Responsible for managing personal
+          - Customer service
+           
+      
+            
+
+    - role: Financial Insurance Agent - Sales
+      time: 2014 - 2015
+      company: American Income Life
+      details: |
+        
+
+         
+          - Selling products and services using solid 
+            arguments to prospective customers.
+          - Perfoming cost-benefits analyses of existing 
+            and potencial customers  
+          - Maintaining a positive business relationships
+            to ensure future sales.
+
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 70%
+
+
+
