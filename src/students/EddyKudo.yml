@@ -26,7 +26,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://media.licdn.com/dms/image/C4E03AQEpMp7XeNyKaA/profile-displayphoto-shrink_200_200/0?e=1581552000&amp;v=beta&amp;t=bK00ox-vzxNPzjCd7xIkBrDPE9inGPGHO27WfOGh1FQ
+    avatar: https://ibb.co/VpNHSCs
 
     # Contact Information
     email: eduard.kitikari@gmail.com #optional
