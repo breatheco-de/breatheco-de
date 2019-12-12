@@ -9,16 +9,13 @@ basic_info:
     # Profile information
     first_name: Kevin
     last_name: Castillo
-    motto: Full Stack Developer
-    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    avatar: 
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
 
     # Sidebar links
     email: kevincastillo318@gmail.com
