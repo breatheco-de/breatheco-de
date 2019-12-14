@@ -10,7 +10,6 @@ basic_info:
     first_name: Christian
     last_name: Sarmiento
     motto: Full Stack Developer
-    avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
