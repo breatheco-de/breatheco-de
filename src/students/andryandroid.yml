@@ -64,15 +64,9 @@ experiences:
       time: 2018 - Present
       company: Hotel Park Plaza Bonaparte, Santiago
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Responsible for the assistance of customers in hotel, helping carry their 
+        luggage and bring them to their respective hotel suits and assisting the 
+        customers with their needs.
 
 
 projects:
@@ -95,12 +89,9 @@ projects:
         tagline: "A script that generate all the possible domain name combinations from a list of pronouns, adjectives and nouns."
 
       - title: Instagram Post
-        link: "#"
-        tagline: "A website that using HTML and CSS replicates an Instagram Post."
+        link: "https://github.com/andryandroid/Instagram-Photo-Feed-Bootstrap"
+        tagline: "A website that using HTML, CSS and Bootstrap replicates an Instagram profile."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
@@ -117,4 +108,4 @@ skills:
         level: Advanced
 
       - name: CorelDRAW & Photoshop
-        level: Intermediate
+        level: Beginner
