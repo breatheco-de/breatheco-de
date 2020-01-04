@@ -33,12 +33,12 @@ basic_info:
     # Contact Information
     email: angelopez10898@gmail.com #optional
     phone: +(56) 9 59203160 #optional
-    linkedin: www.linkedin.com/in/angelopez10 #optional
+    linkedin: angelopez10 #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: github.com/angelopez10
+    github: angelopez10
     
     twitter: '@AngelopezO' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
