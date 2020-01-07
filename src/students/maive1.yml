@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Verónica
+    last_name: Larrondo
+    
+    # Define yourself in 4-5 words
+    motto: Disfrutar de la naturaleza y comer
+    
+    # focus
+    focus: Siempre aprender nuevas cosas
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Trabajadora Social de profesión, con interés de entrar en el mundo de la 
+      programación y la tecnología. Tengo experiencia de trabajo en sector público 
+      y ONG'S.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/DdwCnHMfG6I32rzIKsjHTe7x6X6ilf_bpXckij9ds8aL1Cw_HZEi3gCrRycphB5h1TE53hU=s85
+
+    # Contact Information
+    email: vero.larrondo.r@gmail.com #optional
+    phone: 56 9 96198953 #optional
+    website:  #optional
+    linkedin: Verónica Larrondo Rivera #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: maive1
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+      
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Correr
+
+      - item: Leer
+
+      - item: Viajar por Latinoamérica
+
+# Your previous education
+education:
+    - degree: Trabajadora Social
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2017
+      details: |
+       
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Atención de Casos Registro Social de Hogares y gestión de recursos 
+      time: JUL 2018 - DIC 2019
+      company: Departamento Social, Municipalidad de La Pintana, Santiago.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Atención de ciudadanos que requieran ingresar solicitudes al Registro 
+        Social de Hogares. Realización de visitas domiciliarias e informes a 
+        petición de Tribunales de Familia. Atención de casos para orientación en proceso 
+        de acreditación socioeconómica para postulación a beneficios 
+        estudiantiles para la Educación Superior.
+        
+    - role: Practicante
+      time: 2016 - 2017
+      company: Fundación Acción Empresa, Santiago.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Realización de estudio cualitativo “Percepciones de alianzas público privadas de Chile”. 
+        Apoyo en actividades institucionales relacionadas con la promoción de 
+        la sostenibilidad en las empresas socias.
+    
+# Your project portfolio
+projects:
+    intro: >
+      A continuación se muestran los primeros proyectos construidos con HTML5, CSS Y BOOTSTRAP4,
+    assignments:
+      - title: My Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Primer proyecto de programación con HTML5 Y CSS."
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Proyecto que simula un post de instagram, con HMTL5 Y CSS."
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Página web que muestra una simulación de feed de Instagram, utilizando HTML5 y CSS."
+
+      - title: Instagram Web
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/maive1/Instagram-with-Bootstrap.git"
+        tagline: "Página web de simulación de la red social, construida con Bootstrap4."
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
