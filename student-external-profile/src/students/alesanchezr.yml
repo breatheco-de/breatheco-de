@@ -2,15 +2,15 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 template: "online-cv"
-skin: "orange"
+skin: "blue"
 
 basic_info:
 
     # Profile information
-    first_name: Alejandro
-    last_name: Sanchez
+    first_name: Guillermo
+    last_name: De La Cabada
     motto: Full Stack Developer
-    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    avatar: https://www.google.com/search?q=guillermo+de+la+cabada&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi5qaGe15XnAhWr1VkKHd6fBRoQ_AUoAXoECAsQAw&biw=1680&bih=890#imgrc=MbONUH3BWt-a_M
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -21,12 +21,12 @@ basic_info:
       Second paragraph if required.
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: guillermodelacabada@gmail.com
+    phone: 0412-9924773
     website: alesanchezr.com #do not add http://
-    linkedin: alesanchezr
-    github: alesanchezr
-    twitter: '@webjeda'
+    linkedin: guillermodelacabada
+    github: guillermodelacabada
+    twitter: '@guillermodelacabada'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     languages:
