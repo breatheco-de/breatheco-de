@@ -7,8 +7,8 @@ skin: "orange"
 basic_info:
 
     # Profile information
-    first_name: Alejandro
-    last_name: Sanchez
+    first_name: Luis Guillermo
+    last_name: Troconis Aldaz
     motto: Full Stack Developer
     avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/14681861_10154061144061864_1460104032245000369_n.jpg?_nc_cat=106&_nc_oc=AQl4cLTGeIeNHtadwSKuZqebSu2_3qcZWHXWZ2nfyW9cT38XEc5g7b408i_6tBAk9Qk&_nc_ht=scontent-mia3-1.xx&oh=c3680d75d9700fac8608898b796d449a&oe=5EA1A6B2
     summary: |
@@ -23,10 +23,10 @@ basic_info:
     # Sidebar links
     email: luistrojr@gmail.com
     phone: 058 424 2842647
-    website: alesanchezr.com #do not add http://
+    website: luistroconis.com #do not add http://
     linkedin: LuisTroconis
     github: luitro94
-    twitter: 'luistroconis'
+    twitter: @LuisGTroconis
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     languages:
@@ -42,14 +42,14 @@ basic_info:
     interests:
       - item: Climbing
 
-      - item: Snowboarding
+      - item: Surfing
 
-      - item: Cooking
+      - item: Soccer
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Industrial Engineering 
+      university: Catholic University Andrés Bello
+      time: 2014 - 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
