@@ -7,49 +7,48 @@ skin: "orange"
 basic_info:
 
     # Profile information
-    first_name: Alejandro
-    last_name: Sanchez
-    motto: Full Stack Developer
-    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    first_name: Luis Alberto
+    last_name: Bersani
+    motto: Ingeniero de Produccion MBA IESA
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQG0AiZiTTr48g/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=JlMHRclNLcZKyJwbygBd5Y0tnLKnjr4LW4ixMUjKj40
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Soy Ingeniero de Produccion de la Universidad Metropolitana, graduado en el ano 2006, tambien hice el MBA del IESA cohorte 2010
+      durante los ultimos 5 anos me he formado en el area de Finanzas realizando 2 diplomados en el area, uno de Ingenieria Financiera,
+      en el CENDECO de la Universidad Metropolitana y el segundo Diplomado en Tecnologia Financiera, desde hace 4 anos soy trader
+      participando activamente en el mercado de Opciones, Acciones y Bonos.
 
       Second paragraph if required.
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: alesanchezr.com #do not add http://
-    linkedin: alesanchezr
-    github: alesanchezr
-    twitter: '@webjeda'
+    email: luisitobersani@gmail.com
+    phone: 0412-2050638
+    website: luisbersani.com #do not add http://
+    linkedin: Luis Bersani
+    github: alesanchezrlbersani82
+    twitter: '@lbersani'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Italiano
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Cars
 
-      - item: Snowboarding
+      - item: Travel
 
-      - item: Cooking
+      - item: Finance
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Ingeniero de Produccion
+      university: Universidad Metropolitana
+      time: 20000-2006
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -60,9 +59,9 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: MBA
+      university: IESA
+      time: 2007-2009
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -163,3 +162,4 @@ skills:
 
       - name: Sketch & Photoshop
         level: 60%
+
