@@ -7,7 +7,7 @@ skin: "blue"
 basic_info:
 
     # Profile information
-    first_name: Guillermo
+    first_name: Guillermo Alejandro
     last_name: De La Cabada
     motto: Full Stack Developer
     avatar: https://z-p3-scontent.fccs1-1.fna.fbcdn.net/v/t31.0-1/p160x160/16587309_10208830881911520_8233140354302105098_o.jpg?_nc_cat=100&_nc_ohc=LWKUyWD6zZ8AX_k-JUA&_nc_ht=z-p3-scontent.fccs1-1.fna&_nc_tp=1002&oh=259978f158ecc3bf0ae791b44f101834&oe=5E8E9696
@@ -24,7 +24,7 @@ basic_info:
     email: hello@webjeda.com
     phone: 012 345 6789
     website: guillermodelacabada.com #do not add http://
-    linkedin:guillermodelacabada
+    linkedin: guillermodelacabada
     github: guillermodelacabada
     twitter: 'guillermodelacabada'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
