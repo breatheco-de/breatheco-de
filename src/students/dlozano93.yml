@@ -32,8 +32,8 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: dloznao@gmail.com #optional
-    phone: 786 665 5794 #optional
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
@@ -50,14 +50,15 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: Spanish
-        level: Native
+      - idiom: French
+        level: Professional
 
-      - idiom: German
-        level: Basic
+      - idiom: Spanish
+        level: Professional
+
     # Interests or hobies
     interests:
-      - item: Paintball
+      - item: Climbing
 
       - item: Snowboarding
 
@@ -65,11 +66,11 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: BA International Relations
-      university: Universidad del Rosario
+    - degree: MSc in Computer Science
+      university: University of London
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2014 - 2020
+      time: 2011 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -176,19 +177,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 0%
+        level: 98%
 
       - name: Javascript & jQuery
-        level: 0%
+        level: 98%
 
       - name: Angular
-        level: 0%
+        level: 98%
 
       - name: HTML5 & CSS
-        level: 50%
+        level: 95%
 
       - name: Ruby on Rails
-        level: 0%
+        level: 85%
 
       - name: Sketch & Photoshop
         level: 30%
