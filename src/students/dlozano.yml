@@ -3,14 +3,14 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "red"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: David
+    last_name: Lozano
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -18,7 +18,7 @@ basic_info:
     # focus
     focus: Killing Bad Boys
     
-    # You have 1 paragraph to make a great impression, summarize your career.
+    # You have 1 paragraph to  make a great impression, summarize your career.
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -32,8 +32,8 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: dloznao@gmail.com #optional
+    phone: 786 665 5794 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
@@ -50,15 +50,15 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
       - idiom: Spanish
-        level: Professional
+        level: Native
+
+      - idiom: German
+        level: Basic
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Paintball
 
       - item: Snowboarding
 
@@ -66,11 +66,11 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Bachelor's Degree
+        university: Universidad del Rosario
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2014 - 2020
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -177,7 +177,7 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 0%
 
       - name: Javascript & jQuery
         level: 98%
@@ -186,10 +186,10 @@ skills:
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 25%
