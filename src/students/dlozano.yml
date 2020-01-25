@@ -1,4 +1,11 @@
---- 
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
 basic_info: 
   avatar: "https://randomuser.me/api/portraits/women/24.jpg"
   email: dloznao@gmail.com
