@@ -1,24 +1,181 @@
 template: "online-cv"
-skin: "orange"
+skin: "purple"
 
+# Personal Information
 basic_info:
 
-  # Personal Information
-  name: Brenda Matos
-  tagline: Aspiring Unicorn
-  avatar: https://avatars1.githubusercontent.com/u/59850952?s=400
+    # Your full name
+    first_name: Brenda 
+    last_name: Matos
+    
+    # Define yourself in 4-5 words
+    motto: 
+      Aspiring Unicorn 
+    # focus
+    focus: UX Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Mother - Educator - Lifelong Learner - UX Designer - and now Frontend Developer.  
+      After feeling stagnant in my teaching career, I decided to invest in myself and 
+      enrolled in a UX/UI Design bootcamp in Miami.  Once there, the flood gates opened
+      to all the possibilities that the tech world encompassed.  What I realized through my
+      first role is that my prior experiences primed me for this chapter, where I have been
+      able to fuse the years of problem solving, planning, strategizing, and executing experience
+      in order to design delightful experiences.  And now, I can take it a step further and now
+      build those experiences myself.   
 
-  # Sidebar links
-  email: brenda.matosux@gmail.com
-  phone: 347 422 2046
-  website: brendamatos.co
-  linkedin: brendamatos
-  github: bmatos2020
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars1.githubusercontent.com/u/59850952?s=400
 
-  languages:
-    - idiom: English
-      level: Native
+    # Contact Information
+    email: brenda.matosux@gmail.com #optional
+    phone: 347 422 2046 #optional
+    website:  brendamatos.co #optional
+    linkedin: https://www.linkedin.com/in/brendamatos/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: bmatos2020
+    
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    - idiom: Spanish
-      level: Proficient
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+
+    # # Interests or hobies
+    # interests:
+    #   - item: Reading
+
+    #   - item: Traveling
+
+    #   - item: Cooking
+
+# Your previous education
+education:
+    - degree: Certificate
+      university: 4GeeksAcademy / Miami Dade College
+      time: 2020-2020
+      details: |
+        Full Stack Web Development
+
+          - HTML/CSS
+          - Bootstrap
+          - Javascript / React
+
+    - degree: Certificate
+      university: Ironhack Miami
+      time: 2019-2020
+      details: |
+        UX/UI Design
+
+          - UX Research & Strategy
+          - UI Design Practices
+
+    - degree: BA in Applied Linguistics
+      university: CUNY Queens College
+      time: 2003-2009
+      details: |
+        Specialty in Teaching English to Students of Other Languages
+
+      
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: UX/UI Designer 
+      time: 2013 - Present
+      company: Miami Dade County Public Schools, Miami, Florida 
+      details: |
+        Elementary school teacher. Taught first grade for five years. Taught 
+        third grade for two years. Responsible for educating up to 30 students
+        using the Florida State curriculum and state standards. Responsible
+        creating effective lesson plans that target students needs. Served as 
+        grade level chair for two years where I was responsible for my first
+        grade team. I worked closely with administration to create school 
+        improvement plans. Served as the technology liaison. In this role I was 
+        responsible for keeping track of the most updated EdTech tools. Then I 
+        had to train my faculty in those EdTech tools. I was the recipient of
+        the 2018-2019 teacher of the year award.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Bank Teller
+      time: 2008 - 2011
+      company: CitiBank NA, New York, New York
+      details: |
+       - Bullet point
+       - Bullet point
+          Assist customers with everyday banking needs. Cross sell banking 
+        products to clients. Responsible for loading and unloading ATM machines.
+        Kept track of money inventory. Ordered money for the branch. Responsible
+        for $22,000 in cash box. Work closely with personal bankers to 
+        familiarize myself with banking products.
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      Hi, here you will find the projects I have created. Some of the projects 
+      were created using HTML and CSS. Other projects were created Javascript 
+      with bootstrap and react. 
+
+    assignments:
+      - title: React Traffic Light
+        link: "#https://github.com/sashaco/react-trafficlight"
+        tagline: "A responsive website designed to change the light on a trafic light."
+
+      - title: Random Card Generator
+        link: "#https://github.com/sashaco/random-card-generator-"
+        tagline: "A responsive website designed to randomly display a deck of cards."
+
+      - title: Conditional Profile
+        link: "#https://github.com/sashaco/conditional-profile"
+        tagline: "A responsive website template designed to input profle information."
+        
+      - title: Excuse Generator
+        link: "#https://github.com/sashaco/my-excuse-generator"
+        tagline: "A responsive website designed to randomly create an excuse."
+        
+      - title: React Clock Counter 
+        link: "#https://github.com/sashaco/react-counter"
+        tagline: "A responsive website constructed with a reactive counter."
+
+      - title: Instagram Bootstrap
+        link: "#https://github.com/sashaco/insta-feed-2"
+        tagline: " A responsive Bootstrap website template created to display a picture feed."
+
+      - title: Postcard
+        link: "#https://github.com/sashaco/my-first-postcard"
+        tagline: "A responsive website template designed to input information on a postcard."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 0%
 
