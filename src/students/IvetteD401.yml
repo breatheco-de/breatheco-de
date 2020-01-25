@@ -1,0 +1,177 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "black"
+
+basic_info:
+
+    # Profile information
+    first_name: Ivette
+    last_name: Dominguez
+    motto: Full Stack Developer
+    avatar: https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/rosie--64.4.jpg
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    # Sidebar links
+    email: ivettedominguez104@gmail.com
+    phone: 954 579 9394
+    website: ivettedmngz.com #do not add http://
+    linkedin: ivette-dominguez-36b232197
+    github: IvetteD401
+    twitter: '@IvetteD401'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Hiking
+
+      - item: Board Games
+
+      - item: Traveling
+      
+      - item: Cooking
+
+education:
+    - degree: Full Stack Web Devolpment
+      university: 4Geeks Academy
+      time: 2019-2020
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: AutoCad
+      university: Technical Institutes of America
+      time: 2014-2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Achitecture & Interior Design
+      university: Universidad IberoAmericana (Unibe) 
+      location: Dominican Republic
+      time: 2003-2006
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/IvetteD401/cohortvi-postcard"
+        tagline: "This exercise covers the following fundamentals: 1. Basic structure for every HTML5 website. 2. The Link tag to import CSS Rules. 3. Using google fonts. 3. Using the different selectors available in CSS. 4. Working with boxes: border, padding and margins. 5. Overflow. 6. Using a simple form."
+
+      - title: Instagram Post
+        link: "https://github.com/IvetteD401/instagram-post"
+        tagline: "This exercise covers the following fundamentals: 1. Basic structure for every HTML5 website. 2. The Link tag to import CSS Rules. 3. Using google fonts. 3. Using the different selectors available in CSS. 4. Working with boxes: border, padding and margins. 5. Overflow. 6. Using Flex vs Postion vs Float vs Display. 7. Using a simple form."
+
+      - title: Instagram Feed
+        link: "https://github.com/IvetteD401/instagram_feedproject"
+        tagline: "Very simple instagram simulation to undestand the basics of CSS and HTML5 and how to use them together to create a website."
+
+      - title: HTML5 Form
+        link: "https://github.com/IvetteD401/html5-2"
+        tagline: "Create a HTML5 form with all the typical inputs using Bootstrap, HTML and CSS."
+
+      - title: Excuse Generator
+        link: "https://github.com/IvetteD401/excuseGenerator"
+        tagline: "This exercise covers the following fundamentals: 1. Using external Javascript files in your project. 2. How to work with Arrays. 3. Generating random numbers. 4. Concatenating strings. 5. Using functions (at least a bit). 6. Working with events (at least a bit)."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 50%
