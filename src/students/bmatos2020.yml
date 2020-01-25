@@ -1,0 +1,24 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+  # Personal Information
+  name: Brenda Matos
+  tagline: Aspiring Unicorn
+  avatar: https://avatars1.githubusercontent.com/u/59850952?s=400
+
+  # Sidebar links
+  email: brenda.matosux@gmail.com
+  phone: 347 422 2046
+  website: brendamatos.co
+  linkedin: brendamatos
+  github: bmatos2020
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: Spanish
+      level: Proficient
+
