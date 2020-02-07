@@ -8,7 +8,7 @@ basic_info:
     
     motto: .
     
-    focus: student of cyber security (OSCP, Masters), full stack (html, CSS, javascript, python)
+    focus: student of cyber security (OSCP, Masters Java), full stack (html, CSS, javascript, python)
     
     summary: Hobbyist level
     
@@ -21,7 +21,7 @@ basic_info:
     website: 
     linkedin: www.linkedin.com/in/0x00lmos/
     
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/xxxxxxxx
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/christianolmosUSA
     github: christianolmosUSA
     
     twitter: 
@@ -53,23 +53,13 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: .
+      time:.
+      company: .
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: .
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer 
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        .
 
 # Your project portfolio
 projects:
