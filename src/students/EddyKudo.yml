@@ -26,7 +26,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://ibb.co/VpNHSCs
+    avatar: https://getdrawings.com/free-icon/cool-profile-icons-69.png
 
     # Contact Information
     email: eduard.kitikari@gmail.com #optional
@@ -38,8 +38,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: EddyKudo
     
-    twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 12876015/eduard-chiticari
 
     # languages you speak, levels inculde: Native, Professional
     languages:
@@ -104,18 +103,13 @@ experiences:
       
       details: |
         
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Web Developer
+      time: 2019 - Present
+      company: 4GeeksAcademy, Miami
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Providing exceptional customer service, being responsible for the safety and security of myself, 
-        colleagues, customers and aircraft with all the equipment available. Trained to a very high 
-        standard to deal with emergency situations and to also administer first aid if necessary. 
-        Responsible for making passengers feel their holiday has started the moment they step on the 
-        aircraft. Making them feel relaxed, safe and comfortable while providing a full range of 
-        in-flight services and refreshments.
+        Some Text Here
           - Circulating and collecting customs and immigration documents from passengers
           - Working with company documentation to meet legalities of different countries 
           - Managing multinational group of people, different from flight to flight
@@ -134,10 +128,25 @@ projects:
 skills:
     toolset:
       - name: Bootstrap
-        level: 80%
+        level: 95%
 
       - name: HTML5 & CSS
         level: 95%
 
       - name: Sketch & Photoshop
         level: 85%
+      
+      - name: JavaScript
+        level: 92%
+
+      - name: ReactJS
+        level: 93%
+
+      - name: Material UI
+        level: 78%
+
+      - name: Python
+        level: 65%
+
+      - name: mySQL
+        level: 65%
