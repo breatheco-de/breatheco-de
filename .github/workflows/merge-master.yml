@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Merge Pull Requests from Students
 
 on:
   push:
