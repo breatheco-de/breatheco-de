@@ -26,3 +26,4 @@ jobs:
       env:
         CI: true
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        MERGE_LABELS: ""
