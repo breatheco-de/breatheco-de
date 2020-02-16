@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: automatic merge on CI success and review
+  - name: automatic merge when GitHub branch protection passes on master
     conditions:
-      - status-success=continuous-integration/travis-ci/pr
+      - base=master
     actions:
       merge:
         method: merge
