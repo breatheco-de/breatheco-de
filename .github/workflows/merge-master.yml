@@ -1,4 +1,4 @@
-name: Merge Pull Requests from Students
+name: Testing for Errors
 
 on:
   push:
@@ -21,9 +21,5 @@ jobs:
     - run: npm install
     - run: npm run test
     - run: npm run build --if-present
-    - name: automerge
-      uses: "pascalgn/automerge-action@ecb16453ce68e85b1e23596c8caa7e7499698a84"
       env:
         CI: true
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        MERGE_LABELS: ""
