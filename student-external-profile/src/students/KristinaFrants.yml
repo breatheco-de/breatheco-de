@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "white"
+
+basic_info:
+
+    # Profile information
+    first_name: Kristina
+    last_name: Frants
+    motto: Full Stack Developer
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    summary: |
+    Reliable and organized; I have great experience in SMM and being an expert
+    in management; having ambition and determination at work. I have strong
+    interpersonal skills along with high communication skills that allowed me to build
+    strong and professional relationship with customers and my colleagues.
+
+    # Sidebar links
+    email: cristina.chiticari@gmail.com
+    phone: 407 866 8644
+    website: website.com #do not add http://
+    linkedin: cristina
+    github: Chiticari
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Fluent
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: Romanian
+        level: Upper Intermediate
+
+      - idiom: Spanish
+        level: Pre-intermediate
+
+    interests:
+      - item: Dancing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+      education: Bachelor 
+    - degree: Arts and Theather
+      university: National School of Arts of Moldova
+      time: 1998 - 2010
+      details: |
+      Creativity, Social involvement & communication, Artistic expression.
+
+    - degree: Digital Marketing
+      university: Tekwill Academy
+      time: 2017-2018
+      details: |
+      Inbound outbound marketing. Google & Facebook algorithms. Facebook Blueprint,
+      Google AdWords. SEO strategy & content creating.
+          - Blueprint
+          - AddWords
+
+    - role: Social Media Marketing Manager
+      time: 2017 - 2018
+      company: Bubblewits
+      details: |
+        Bubblewits offers a development solutions for customers who are
+        looking to create a web or mobile app for their own business. The
+        company specialize in website application development without coding.
+        -Developed brand awareness and composed online content.
+        -Managed Facebook, Twitter, Pintrest, Reddit, Blog accounts etc.
+        -Collaborating with SEO team to optimize and implement overall digital
+        marketing campaign.
+
+    - role: Sales Stylist
+      time: 2018 - 2019
+      company: Orlando, FL
+      details: |
+        Dillard's, Inc. ranks among the nation's largest fashion retailers in US.
+        The Company focuses on delivering style, service and value to its
+        shoppers by offering a broad selection of merchandise.
+        -Recommended, selected and helped locate merchandise based on
+        customers needs and desires.
+        -Received and processed cash, check and credit payments.
+        -Provided excellent customer service while on the selling floor, fitting
+        room and front end.
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Google Add Words
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+      - name: Adobe Creative Cloud
+        level: 60%
+
