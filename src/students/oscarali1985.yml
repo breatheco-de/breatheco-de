@@ -43,6 +43,18 @@ basic_info:
       - item: Cooking
 
 education:
+
+    - degree: Desarrollador Web Full Stack
+      university: 4GERRKS ACADEMY
+      time: 2019 - 2020
+      details: |
+        This course lasted approximately 16 weeks where I learned Front and End. We work with HTML 5 - CCS3 and Javascript and the DOM, in addition to Reac. In addition, I work with Git to be able to keep a history of the work in order to return in time if an error occurs or to be able to work in an orderly group and thus be able to merge what has been done. For the Back End, I work with Python and MySQL
+
+        Este curso tuvo una duracion de 16 semanas aproximadas donde aprendi Front y End. Trabajamos con HTML 5 - CCS3 y Javascript y el DOM, ademas de Reac. Ademas se trabajo con Git para poder llevar un historico del trabajo con la finalidad de volver en el tiempo si ocurre algun error o para poder trabajar en grupo de manera ordenada y asi poder fusionar lo realizado. Para el Back End se trabajo con Python y MySQL
+
+          - Bullet point
+          - Bullet point
+
     - degree: IT technician
       university: IUTIRLA
       time: 2006 - 2009
@@ -54,18 +66,7 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
 experiences:
     - role: Lead Developer
@@ -157,3 +158,7 @@ skills:
 
       - name: Sketch & Photoshop
         level: 20%
+
+      - name: Avaya Configuration
+        level: 60%
+      
