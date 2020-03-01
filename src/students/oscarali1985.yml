@@ -12,13 +12,9 @@ basic_info:
     motto: Full Stack Developer
     avatar: https://media-exp2.licdn.com/dms/image/C5603AQEi5SDOuLG9vg/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=F7S-6SLg-C8k11Ky4BgtbEE75VJLmiQ34wQv9_8iCiU
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I am Oscar Mariño I was born in May of 85. and I am a computer technician throughout my life I worked with an Avaya partner for 9 years so I am qualified to support Avaya PBX both IP office and Communication Manager, currently working in a travel services company and my main function is the support of the equipment, so that the agents can perform their work as well as possible
 
-      Second paragraph if required.
+      Soy Oscar Mariño naci en mayo del 85. y soy tecnico en informatica a lo largo de mi vida trabaje con un partner de Avaya durante 9 años por lo que estoy calificado para dar soporte a PBX Avaya tanto IP office como Comunication Manager,  actualemente laboro en un empresa de servicios de viaje y mi funcion principal es el soporte de los equipos, para que los agentes puedan realizar su trabajo lo mejor posible
 
     # Sidebar links
     email: oscarali1985@gmail.com
@@ -47,15 +43,13 @@ basic_info:
       - item: Cooking
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: IT technician
+      university: IUTIRLA
+      time: 2006 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        It is basically a three-year career where I learned the basic notions of programming. I also worked with Pascal and Visual Basic.
+
+        Basicamente es una carrera de tres años donde aprendi las nociones basicas de programacion Ademas trabaje con Pascal y Visual Basic.
 
           - Bullet point
           - Bullet point
