@@ -13,11 +13,10 @@ basic_info:
     last_name: Astorga
 
     # Define yourself in 4-5 words
-    motto: Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. 
+    motto: Summarise your career adipiscing elit. 
 
     # focus
-    focus: Donec quam felis, ultricie nec, pellentesque eu.
+    focus: Donec quam felis.
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -96,8 +95,8 @@ education:
 # Your previous job experiences or voluntier
 experiences:
     - role: Analyst
-      time:
-      company:
+      time: 2005
+      company: nn
       # optional
       company_logo: https://cdn.worldvectorlogo.com/logos/universidad-catolica-de-chile.svg
       details: |
@@ -109,8 +108,8 @@ experiences:
           - Bullet point
           - Bullet point
     - role: Technical Support
-      time:
-      company:
+      time: 2006
+      company: nn
       # optional
       company_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
       details: |
@@ -121,32 +120,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role:
-      time:
-      company:
-      # optional
-      company_logo:
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role:
-      time:
-      company:
-      # optional
-      company_logo:
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 # Your project portfolio
 projects:
     intro: >
