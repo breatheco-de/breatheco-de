@@ -1,5 +1,5 @@
 export default function toDottedObject(
   obj: object,
   target?: object,
-  path?: string[],
+  path?: string[]
 ): { [dottedPath: string]: any };

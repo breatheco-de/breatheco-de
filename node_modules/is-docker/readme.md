@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save is-docker
+$ npm install is-docker
 ```
 
 

@@ -1,37 +1,28 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import inspect from '../../jsutils/inspect';
-import { type ValidationContext } from '../ValidationContext';
+
 import { GraphQLError } from '../../error/GraphQLError';
+
 import { type FieldNode } from '../../language/ast';
-import { getNamedType, isLeafType } from '../../type/definition';
 import { type ASTVisitor } from '../../language/visitor';
+
+import { getNamedType, isLeafType } from '../../type/definition';
+
+import { type ValidationContext } from '../ValidationContext';
 
 export function noSubselectionAllowedMessage(
   fieldName: string,
   type: string,
 ): string {
-  return (
-    `Field "${fieldName}" must not have a selection since ` +
-    `type "${type}" has no subfields.`
-  );
+  return `Field "${fieldName}" must not have a selection since type "${type}" has no subfields.`;
 }
 
 export function requiredSubselectionMessage(
   fieldName: string,
   type: string,
 ): string {
-  return (
-    `Field "${fieldName}" of type "${type}" must have a ` +
-    `selection of subfields. Did you mean "${fieldName} { ... }"?`
-  );
+  return `Field "${fieldName}" of type "${type}" must have a selection of subfields. Did you mean "${fieldName} { ... }"?`;
 }
 
 /**

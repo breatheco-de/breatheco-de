@@ -17,6 +17,6 @@ p {
 "
 `;
 
-exports[`Webpack Integration Tests only-assetNameRegExp-processed 2`] = `"a{color:#00f}body{color:red;margin:0}p{margin:1000px}"`;
+exports[`Webpack Integration Tests only-assetNameRegExp-processed 2`] = `"a{color:#00f}body{margin:0;color:red}p{margin:1000px}"`;
 
 exports[`Webpack Integration Tests removes-duplicate-css 1`] = `"a{color:#00f}body{color:red}p{color:green}"`;

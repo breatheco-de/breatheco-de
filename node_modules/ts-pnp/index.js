@@ -1,12 +1,6 @@
-let pnp;
-
-try {
-  pnp = require(`pnpapi`);
-} catch (error) {
-  // not in PnP; not a problem
-}
-
 function resolveModuleName(request, issuer, compilerOptions, moduleResolutionHost, parentResolver) {
+  const pnp = require(`pnpapi`);
+
   const topLevelLocation = pnp.getPackageInformation(pnp.topLevel).packageLocation;
 
   const [, prefix = ``, packageName = ``, rest] = request.match(/^(!(?:.*!)+)?((?!\.{0,2}\/)(?:@[^\/]+\/)?[^\/]+)?(.*)/);
@@ -74,7 +68,7 @@ function resolveModuleName(request, issuer, compilerOptions, moduleResolutionHos
   };
 }
 
-module.exports.resolveModuleName = pnp
+module.exports.resolveModuleName = process.versions.pnp
   ? resolveModuleName
   : (moduleName, containingFile, compilerOptions, compilerHost, resolveModuleName) =>
       resolveModuleName(moduleName, containingFile, compilerOptions, compilerHost);

@@ -6,9 +6,9 @@ const YError = require('./yerror')
 
 let previouslyVisitedConfigs = []
 
-function checkForCircularExtends (path) {
-  if (previouslyVisitedConfigs.indexOf(path) > -1) {
-    throw new YError(`Circular extended configurations: '${path}'.`)
+function checkForCircularExtends (cfgPath) {
+  if (previouslyVisitedConfigs.indexOf(cfgPath) > -1) {
+    throw new YError(`Circular extended configurations: '${cfgPath}'.`)
   }
 }
 
@@ -21,7 +21,7 @@ function applyExtends (config, cwd) {
 
   if (config.hasOwnProperty('extends')) {
     if (typeof config.extends !== 'string') return defaultConfig
-    const isPath = /\.json$/.test(config.extends)
+    const isPath = /\.json|\..*rc$/.test(config.extends)
     let pathToDefault = null
     if (!isPath) {
       try {

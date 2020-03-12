@@ -24,7 +24,7 @@ function (_Declaration) {
    */
   _proto.check = function check(decl) {
     var value = decl.value;
-    return value.indexOf('/') === -1 || value.indexOf('span') !== -1;
+    return !value.includes('/') || value.includes('span');
   }
   /**
    * Return a final spec property

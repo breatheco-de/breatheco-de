@@ -1,3 +1,18 @@
+# 7.0.2
+
+- Fixed: incorrect reduction of subtraction from zero ([#88](https://github.com/postcss/postcss-calc/issues/88))
+- Fixed: doesn't remove calc for single function
+- Fixed: relax parser on unknown units ([#76](https://github.com/postcss/postcss-calc/issues/76))
+- Fixed: handle numbers with exponen composed ([#83](https://github.com/postcss/postcss-calc/pull/83))
+- Fixed: handle plus sign before value ([#79](https://github.com/postcss/postcss-calc/pull/79))
+- Fixed: better handle precision for nested calc ([#75](https://github.com/postcss/postcss-calc/pull/75))
+- Fixed: properly handle nested add and sub expression inside sub expression ([#64](https://github.com/postcss/postcss-calc/issues/64))
+- Fixed: handle uppercase units and functions ([#71](https://github.com/postcss/postcss-calc/pull/71))
+- Fixed: do not break `calc` with single var ([cssnano/cssnano#725](https://github.com/cssnano/cssnano/issues/725))
+- Updated: `postcss` to 7.0.27 (patch)
+- Updated: `postcss-selector-parser` to 6.0.2
+- Updated: `postcss-value-parser` to 4.0.2
+
 # 7.0.1
 
 - Updated: `postcss` to 7.0.2 (patch)

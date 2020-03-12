@@ -1,6 +1,7 @@
 'use strict';
 const path = require('path');
 const Module = require('module');
+const fs = require('fs');
 
 const resolveFrom = (fromDir, moduleId, silent) => {
 	if (typeof fromDir !== 'string') {
@@ -11,7 +12,18 @@ const resolveFrom = (fromDir, moduleId, silent) => {
 		throw new TypeError(`Expected \`moduleId\` to be of type \`string\`, got \`${typeof moduleId}\``);
 	}
 
-	fromDir = path.resolve(fromDir);
+	try {
+		fromDir = fs.realpathSync(fromDir);
+	} catch (err) {
+		if (err.code === 'ENOENT') {
+			fromDir = path.resolve(fromDir);
+		} else if (silent) {
+			return null;
+		} else {
+			throw err;
+		}
+	}
+
 	const fromFile = path.join(fromDir, 'noop.js');
 
 	const resolveFileName = () => Module._resolveFilename(moduleId, {

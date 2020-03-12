@@ -23,7 +23,10 @@ var MATCH_CALC = /((?:-(moz|webkit)-)?calc)/i;
 function transformValue(value, options, result, item) {
   return (0, _postcssValueParser.default)(value).walk(function (node) {
     // skip anything which isn't a calc() function
-    if (node.type !== 'function' || !MATCH_CALC.test(node.value)) return node; // stringify calc expression and produce an AST
+    if (node.type !== 'function' || !MATCH_CALC.test(node.value)) {
+      return node;
+    } // stringify calc expression and produce an AST
+
 
     var contents = _postcssValueParser.default.stringify(node.nodes);
 
@@ -31,11 +34,12 @@ function transformValue(value, options, result, item) {
     // or a simplified calc expression
 
 
-    var reducedAst = (0, _reducer.default)(ast, options.precision, item); // stringify AST and write it back
+    var reducedAst = (0, _reducer.default)(ast, options.precision); // stringify AST and write it back
 
     node.type = 'word';
     node.value = (0, _stringifier.default)(node.value, reducedAst, value, options, result, item);
-  }, true).toString();
+    return false;
+  }).toString();
 }
 
 function transformSelector(value, options, result, item) {
@@ -49,7 +53,10 @@ function transformSelector(value, options, result, item) {
       // e.g. the "calc(3*3)" part of "div:nth-child(2n + calc(3*3))"
 
 
-      if (node.type === 'tag') node.value = transformValue(node.value, options, result, item);
+      if (node.type === 'tag') {
+        node.value = transformValue(node.value, options, result, item);
+      }
+
       return;
     });
   }).processSync(value);
@@ -65,7 +72,9 @@ var _default = function _default(node, property, options, result) {
     var clone = node.clone();
     clone[property] = value;
     node.parent.insertBefore(node, clone);
-  } else node[property] = value;
+  } else {
+    node[property] = value;
+  }
 };
 
 exports.default = _default;

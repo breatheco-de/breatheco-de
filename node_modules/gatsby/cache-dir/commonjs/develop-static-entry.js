@@ -39,7 +39,11 @@ try {
 Html = Html && Html.__esModule ? Html.default : Html;
 
 var _default = (pagePath, callback) => {
-  let headComponents = [];
+  let headComponents = [_react.default.createElement("meta", {
+    key: "environment",
+    name: "note",
+    content: "environment=development"
+  })];
   let htmlAttributes = {};
   let bodyAttributes = {};
   let preBodyComponents = [];

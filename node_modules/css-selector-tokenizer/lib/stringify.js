@@ -1,10 +1,8 @@
 "use strict";
 
-var stringify;
-
 var regexpu = require("regexpu-core");
 var identifierEscapeRegexp = new RegExp(
-	regexpu("(^[^A-Za-z_\\-\\u{00a0}-\\u{10ffff}]|^\\-\\-|[^A-Za-z_0-9\\-\\u{00a0}-\\u{10ffff}])", "ug"),
+	regexpu("(^[^A-Za-z_\\-\\u{00a0}-\\u{10ffff}]|^--|[^A-Za-z_0-9\\-\\u{00a0}-\\u{10ffff}])", "ug"),
 	"g"
 );
 
@@ -15,7 +13,7 @@ function escape(str, identifier) {
 	if (identifier) {
 		return str.replace(identifierEscapeRegexp, "\\$1");
 	} else {
-		return str.replace(/(^[^A-Za-z_\\-]|^\-\-|[^A-Za-z_0-9\\-])/g, "\\$1");
+		return str.replace(/(^[^A-Za-z_\\-]|^--|[^A-Za-z_0-9\\-])/g, "\\$1");
 	}
 }
 
@@ -53,7 +51,7 @@ function stringifyWithoutBeforeAfter(tree) {
 }
 
 
-stringify = function stringify(tree) {
+function stringify(tree) {
 	var str = stringifyWithoutBeforeAfter(tree);
 	if(tree.before) {
 		str = tree.before + str;
@@ -62,6 +60,6 @@ stringify = function stringify(tree) {
 		str = str + tree.after;
 	}
 	return str;
-};
+}
 
 module.exports = stringify;

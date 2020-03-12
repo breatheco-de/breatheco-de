@@ -1,16 +1,11 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
+
+import { GraphQLError } from '../../error/GraphQLError';
+
+import { type ASTVisitor } from '../../language/visitor';
+import { type VariableDefinitionNode } from '../../language/ast';
 
 import { type ASTValidationContext } from '../ValidationContext';
-import { type VariableDefinitionNode } from '../../language/ast';
-import { GraphQLError } from '../../error/GraphQLError';
-import { type ASTVisitor } from '../../language/visitor';
 
 export function duplicateVariableMessage(variableName: string): string {
   return `There can be only one variable named "${variableName}".`;

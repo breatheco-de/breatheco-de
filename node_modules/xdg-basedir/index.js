@@ -2,18 +2,18 @@
 const os = require('os');
 const path = require('path');
 
-const home = os.homedir();
-const env = process.env;
+const homeDirectory = os.homedir();
+const {env} = process;
 
 exports.data = env.XDG_DATA_HOME ||
-	(home ? path.join(home, '.local', 'share') : null);
+	(homeDirectory ? path.join(homeDirectory, '.local', 'share') : undefined);
 
 exports.config = env.XDG_CONFIG_HOME ||
-	(home ? path.join(home, '.config') : null);
+	(homeDirectory ? path.join(homeDirectory, '.config') : undefined);
 
-exports.cache = env.XDG_CACHE_HOME || (home ? path.join(home, '.cache') : null);
+exports.cache = env.XDG_CACHE_HOME || (homeDirectory ? path.join(homeDirectory, '.cache') : undefined);
 
-exports.runtime = env.XDG_RUNTIME_DIR || null;
+exports.runtime = env.XDG_RUNTIME_DIR || undefined;
 
 exports.dataDirs = (env.XDG_DATA_DIRS || '/usr/local/share/:/usr/share/').split(':');
 

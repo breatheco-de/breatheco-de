@@ -1,3 +1,11 @@
+# 3.1.2
+
+* SECURITY FIX: update `dot-prop` to `5.2.0`
+
+## Breaking changes
+
+* Unfortunately, due to fixing the vulnerability, the minimum supported version of the Node.js is `8`.
+
 # 3.1.1
 
 * Fix: typescript definitions weren't in the published package.

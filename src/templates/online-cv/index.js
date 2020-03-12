@@ -127,10 +127,8 @@ export const query = graphql`
             motto
             website
             summary
-            phone
             twitter
             linkedin
-            phone
             avatar
             languages{
                 idiom

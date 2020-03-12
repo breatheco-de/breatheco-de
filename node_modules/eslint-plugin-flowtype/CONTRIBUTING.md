@@ -6,6 +6,7 @@
 
 When making a commit, the following Pre-Commit hooks run:
 
+* test and documentation checks
 * tests
 * lint
 * commit message validation (see "Commit Messages" below)
@@ -20,11 +21,11 @@ All commit messages must begin with one of the following prefixes:
 * `docs: `
 * `chore: `
 
-The prefix is used to bump the correct segment of the version number automatically during deploy.
+The prefix is used to bump the correct segment of the version number during the automatic release.
 
 ## Tests
 
-Run them with `npm t`.
+Run them with `npm test`.
 
 ## Lint
 
@@ -49,4 +50,4 @@ Run with `npm run lint`.
 
 A CI service will build and publish the new documentation.
 
-Note: The section "The following patterns are considered problems:" and "The following patterns are not considered problems:" is **generated automatically** using the test cases.
+Note: Sections "The following patterns are considered problems:" and "The following patterns are not considered problems:" are **generated automatically** using the test cases.

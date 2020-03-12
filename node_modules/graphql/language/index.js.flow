@@ -1,22 +1,20 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 export { Source } from './source';
 
 export { getLocation } from './location';
 export type { SourceLocation } from './location';
 
+export { printLocation, printSourceLocation } from './printLocation';
+
 export { Kind } from './kinds';
 export type { KindEnum } from './kinds';
 
-export { createLexer, TokenKind } from './lexer';
-export type { Lexer, TokenKindEnum } from './lexer';
+export { TokenKind } from './tokenKind';
+export type { TokenKindEnum } from './tokenKind';
+
+export { createLexer } from './lexer';
+export type { Lexer } from './lexer';
 
 export { parse, parseValue, parseType } from './parser';
 export type { ParseOptions } from './parser';

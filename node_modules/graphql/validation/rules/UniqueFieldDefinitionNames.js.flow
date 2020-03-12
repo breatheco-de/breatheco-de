@@ -1,13 +1,5 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type SDLValidationContext } from '../ValidationContext';
 import { GraphQLError } from '../../error/GraphQLError';
 import { type ASTVisitor } from '../../language/visitor';
 import {
@@ -15,6 +7,8 @@ import {
   isInterfaceType,
   isInputObjectType,
 } from '../../type/definition';
+
+import { type SDLValidationContext } from '../ValidationContext';
 
 export function duplicateFieldDefinitionNameMessage(
   typeName: string,
@@ -27,10 +21,7 @@ export function existedFieldDefinitionNameMessage(
   typeName: string,
   fieldName: string,
 ): string {
-  return (
-    `Field "${typeName}.${fieldName}" already exists in the schema. ` +
-    'It cannot also be defined in this type extension.'
-  );
+  return `Field "${typeName}.${fieldName}" already exists in the schema. It cannot also be defined in this type extension.`;
 }
 
 /**

@@ -25,7 +25,7 @@ var caching = function(args) {
         }
     } else {
         var storeName = args.store || 'memory';
-        self.store = require('./stores/' + storeName).create(args);
+        self.store = require('./stores/' + storeName + '.js').create(args);
     }
 
     // do we handle a cache error the same as a cache miss?
@@ -185,16 +185,16 @@ var caching = function(args) {
             * are valid. If one or more of the values is not cacheable
             * the cache result is not valid.
             */
-            var cacheOK = Array.isArray(result) && result.filter(function(_result) {
+            var cacheOk = Array.isArray(result) && result.filter(function(_result) {
                 return self._isCacheableValue(_result);
             }).length === result.length;
 
-            if (cacheOK) {
+            if (cacheOk) {
                 return callbackFiller.fill(combinedKey, null, result);
             }
 
             return work(function(err, data) {
-                if (err) {
+                if (err || !data) {
                     return done(err);
                 }
 

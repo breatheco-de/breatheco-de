@@ -4,7 +4,9 @@ const GatsbyGraphQLTypeKind = {
   OBJECT: `OBJECT`,
   INPUT_OBJECT: `INPUT_OBJECT`,
   UNION: `UNION`,
-  INTERFACE: `INTERFACE`
+  INTERFACE: `INTERFACE`,
+  ENUM: `ENUM`,
+  SCALAR: `SCALAR`
 };
 
 const buildObjectType = config => {
@@ -35,6 +37,20 @@ const buildInputObjectType = config => {
   };
 };
 
+const buildEnumType = config => {
+  return {
+    kind: GatsbyGraphQLTypeKind.ENUM,
+    config
+  };
+};
+
+const buildScalarType = config => {
+  return {
+    kind: GatsbyGraphQLTypeKind.SCALAR,
+    config
+  };
+};
+
 const isGatsbyType = something => typeof something === `object` && something.kind && GatsbyGraphQLTypeKind[something.kind];
 
 module.exports = {
@@ -43,6 +59,8 @@ module.exports = {
   buildUnionType,
   buildInterfaceType,
   buildInputObjectType,
+  buildEnumType,
+  buildScalarType,
   isGatsbyType
 };
 //# sourceMappingURL=type-builders.js.map

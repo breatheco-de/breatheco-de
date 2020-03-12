@@ -21,6 +21,9 @@ function (_Declaration) {
 
   var _proto = JustifyContent.prototype;
 
+  /**
+   * Change property name for 2009 and 2012 specs
+   */
   _proto.prefixed = function prefixed(prop, prefix) {
     var spec;
 
@@ -79,10 +82,6 @@ _defineProperty(JustifyContent, "oldValues", {
   'flex-start': 'start',
   'space-between': 'justify',
   'space-around': 'distribute'
-  /**
-   * Change property name for 2009 and 2012 specs
-   */
-
 });
 
 module.exports = JustifyContent;

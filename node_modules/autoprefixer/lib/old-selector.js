@@ -31,7 +31,7 @@ function () {
         return true;
       }
 
-      if (before.indexOf(this.unprefixed) !== -1 && before.match(this.nameRegexp)) {
+      if (before.includes(this.unprefixed) && before.match(this.nameRegexp)) {
         return false;
       }
 
@@ -53,7 +53,7 @@ function () {
             string = _ref2[0],
             regexp = _ref2[1];
 
-        if (before.indexOf(string) !== -1 && before.match(regexp)) {
+        if (before.includes(string) && before.match(regexp)) {
           some = true;
           break;
         }
@@ -74,7 +74,7 @@ function () {
   ;
 
   _proto.check = function check(rule) {
-    if (rule.selector.indexOf(this.prefixed) === -1) {
+    if (!rule.selector.includes(this.prefixed)) {
       return false;
     }
 

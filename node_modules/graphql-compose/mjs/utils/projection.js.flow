@@ -26,23 +26,23 @@ export type ProjectionType = { [fieldName: string]: any };
 export type ProjectionNode = { [fieldName: string]: any };
 
 export function getProjectionFromAST(
-  context: GraphQLResolveInfo,
+  info: GraphQLResolveInfo,
   fieldNode?: FieldNode | InlineFragmentNode | FragmentDefinitionNode
 ): ProjectionType {
-  if (!context) {
+  if (!info) {
     return {};
   }
 
-  const queryProjection = getProjectionFromASTquery(context, fieldNode);
-  const queryExtProjection = extendByFieldProjection(context.returnType, queryProjection);
+  const queryProjection = getProjectionFromASTquery(info, fieldNode);
+  const queryExtProjection = extendByFieldProjection(info.returnType, queryProjection);
   return queryExtProjection;
 }
 
 export function getProjectionFromASTquery(
-  context: GraphQLResolveInfo,
+  info: GraphQLResolveInfo,
   fieldNode?: FieldNode | InlineFragmentNode | FragmentDefinitionNode
 ): ProjectionType {
-  if (!context) {
+  if (!info) {
     return {};
   }
 
@@ -51,9 +51,9 @@ export function getProjectionFromASTquery(
     if (fieldNode.selectionSet) {
       selections = fieldNode.selectionSet.selections;
     }
-  } else if (Array.isArray(context.fieldNodes)) {
+  } else if (Array.isArray(info.fieldNodes)) {
     // get all selectionSets
-    selections = context.fieldNodes.reduce((result, source) => {
+    selections = info.fieldNodes.reduce((result, source) => {
       if (source.selectionSet) {
         result.push(...source.selectionSet.selections);
       }
@@ -67,19 +67,16 @@ export function getProjectionFromASTquery(
         case FIELD: {
           const { value } = ast.name;
           if (res[value]) {
-            res[value] = deepmerge(res[value], getProjectionFromASTquery(context, ast) || true);
+            res[value] = deepmerge(res[value], getProjectionFromASTquery(info, ast) || true);
           } else {
-            res[value] = getProjectionFromASTquery(context, ast) || true;
+            res[value] = getProjectionFromASTquery(info, ast) || true;
           }
           return res;
         }
         case INLINE_FRAGMENT:
-          return deepmerge(res, getProjectionFromASTquery(context, ast));
+          return deepmerge(res, getProjectionFromASTquery(info, ast));
         case FRAGMENT_SPREAD:
-          return deepmerge(
-            res,
-            getProjectionFromASTquery(context, context.fragments[ast.name.value])
-          );
+          return deepmerge(res, getProjectionFromASTquery(info, info.fragments[ast.name.value]));
         default:
           throw new Error('Unsuported query selection');
       }
@@ -91,10 +88,10 @@ export function getProjectionFromASTquery(
 }
 
 export function getFlatProjectionFromAST(
-  context: GraphQLResolveInfo,
+  info: GraphQLResolveInfo,
   fieldNodes?: FieldNode | InlineFragmentNode | FragmentDefinitionNode
 ) {
-  const projection = getProjectionFromAST(context, fieldNodes) || {};
+  const projection = getProjectionFromAST(info, fieldNodes) || {};
   const flatProjection = {};
   Object.keys(projection).forEach(key => {
     flatProjection[key] = !!projection[key];
@@ -124,6 +121,9 @@ export function extendByFieldProjection(
     if (!field) return;
 
     if (field.projection) proj = deepmerge(proj, field.projection);
+    if (field.extensions && field.extensions.projection) {
+      proj = deepmerge(proj, field.extensions.projection);
+    }
     proj[key] = extendByFieldProjection((field.type: any), proj[key]);
   });
 

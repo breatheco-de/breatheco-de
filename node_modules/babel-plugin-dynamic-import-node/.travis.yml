@@ -2,6 +2,7 @@ language: node_js
 os:
  - linux
 node_js:
+  - "10"
   - "9"
   - "8"
   - "7"
@@ -36,7 +37,6 @@ matrix:
     - node_js: "iojs-v3"
     - node_js: "iojs-v2"
     - node_js: "iojs-v1"
-    - node_js: "0.12"
     - os: osx
     - env: TEST=true ALLOW_FAILURE=true
     - env: COVERAGE=true

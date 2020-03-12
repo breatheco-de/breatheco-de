@@ -3,9 +3,9 @@
 History
 -------
 
-Unreleased
+0.14.4
 -------------------
-
+- Add trace identifiers to the `SpanContext`
 
 0.14.3
 -------------------

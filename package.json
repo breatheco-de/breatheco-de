@@ -13,9 +13,10 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
+    "@react-pdf/renderer": "^1.6.8",
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
-    "gatsby": "^2.4.4",
+    "gatsby": "^2.19.41",
     "gatsby-link": "^2.0.7",
     "gatsby-plugin-react-helmet": "^3.0.3",
     "gatsby-plugin-sass": "^2.0.5",
@@ -25,7 +26,7 @@
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-transformer-yaml": "^2.1.12",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
@@ -33,7 +34,8 @@
     "travis-ci": "^2.2.0",
     "typography": "^0.16.17",
     "typography-theme-alton": "^0.15.10",
-    "yaml-validator": "^2.0.0"
+    "yaml-validator": "^2.0.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "bc-console": "0.0.2",

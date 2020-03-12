@@ -2,7 +2,7 @@
 /* eslint-disable no-nested-ternary */
 
 import { pluralize } from './pluralize';
-import type { Thunk } from './definitions';
+import type { Thunk, ObjMap } from './definitions';
 
 export function resolveMaybeThunk<+T>(thingOrThunk: Thunk<T>): T {
   // eslint-disable-line
@@ -65,6 +65,19 @@ export function only(obj: Object, keys: string | string[]) {
   return result;
 }
 
+function inspectObject(value: Object): string {
+  let name;
+  if (value && value.constructor && value.constructor.name) {
+    name = value.constructor.name;
+  }
+
+  const props = `{ ${Object.keys(value)
+    .map(k => `${k}: ${inspect((value: any)[k])}`)
+    .join(', ')} }`;
+
+  return name ? `${name}(${props})` : props;
+}
+
 /**
  * Used to print values in error messages.
  */
@@ -74,12 +87,19 @@ export function inspect(value: mixed): string {
       ? (value: any).inspect()
       : Array.isArray(value)
       ? `[${value.map(inspect).join(', ')}]`
-      : `{${Object.keys(value)
-          .map(k => `${k}: ${inspect((value: any)[k])}`)
-          .join(', ')}}`
+      : inspectObject(value)
     : typeof value === 'string'
     ? `"${value}"`
     : typeof value === 'function'
     ? `[function ${value.name}]`
     : String(value);
+}
+
+export function forEachKey<V>(
+  arrayOrObject: { [key: string]: V } | ObjMap<V>,
+  callback: (value: V, key: string) => void
+): void {
+  Object.keys(arrayOrObject).forEach(key => {
+    callback(arrayOrObject[key], key);
+  });
 }

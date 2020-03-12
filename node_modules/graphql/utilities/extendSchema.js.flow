@@ -1,28 +1,36 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import flatMap from '../polyfills/flatMap';
 import objectValues from '../polyfills/objectValues';
+
 import inspect from '../jsutils/inspect';
-import invariant from '../jsutils/invariant';
 import mapValue from '../jsutils/mapValue';
+import invariant from '../jsutils/invariant';
+import devAssert from '../jsutils/devAssert';
 import keyValMap from '../jsutils/keyValMap';
-import { ASTDefinitionBuilder } from './buildASTSchema';
+
+import { Kind } from '../language/kinds';
+import {
+  isTypeDefinitionNode,
+  isTypeExtensionNode,
+} from '../language/predicates';
+import {
+  type DocumentNode,
+  type DirectiveDefinitionNode,
+  type SchemaExtensionNode,
+  type SchemaDefinitionNode,
+} from '../language/ast';
+
 import { assertValidSDLExtension } from '../validation/validate';
+
+import { GraphQLDirective } from '../type/directives';
+import { isSpecifiedScalarType } from '../type/scalars';
+import { isIntrospectionType } from '../type/introspection';
 import {
   type GraphQLSchemaValidationOptions,
   assertSchema,
   GraphQLSchema,
 } from '../type/schema';
-import { isIntrospectionType } from '../type/introspection';
-import { isSpecifiedScalarType } from '../type/scalars';
-
 import {
   type GraphQLNamedType,
   isScalarType,
@@ -43,20 +51,7 @@ import {
   GraphQLInputObjectType,
 } from '../type/definition';
 
-import { GraphQLDirective } from '../type/directives';
-
-import { Kind } from '../language/kinds';
-
-import {
-  type DocumentNode,
-  type DirectiveDefinitionNode,
-  type SchemaExtensionNode,
-  type SchemaDefinitionNode,
-} from '../language/ast';
-import {
-  isTypeDefinitionNode,
-  isTypeExtensionNode,
-} from '../language/predicates';
+import { ASTDefinitionBuilder } from './buildASTSchema';
 
 type Options = {|
   ...GraphQLSchemaValidationOptions,
@@ -104,7 +99,7 @@ export function extendSchema(
 ): GraphQLSchema {
   assertSchema(schema);
 
-  invariant(
+  devAssert(
     documentAST && documentAST.kind === Kind.DOCUMENT,
     'Must provide valid Document AST',
   );
@@ -158,7 +153,9 @@ export function extendSchema(
   const schemaConfig = schema.toConfig();
   const astBuilder = new ASTDefinitionBuilder(options, typeName => {
     const type = typeMap[typeName];
-    invariant(type, `Unknown type: "${typeName}".`);
+    if (type === undefined) {
+      throw new Error(`Unknown type: "${typeName}".`);
+    }
     return type;
   });
 
@@ -236,7 +233,7 @@ export function extendSchema(
 
   function getMergedDirectives(): Array<GraphQLDirective> {
     const existingDirectives = schema.getDirectives().map(extendDirective);
-    invariant(existingDirectives, 'schema must have default directives');
+    devAssert(existingDirectives, 'schema must have default directives');
 
     return existingDirectives.concat(
       directiveDefs.map(node => astBuilder.buildDirective(node)),
@@ -262,8 +259,7 @@ export function extendSchema(
     }
 
     // Not reachable. All possible types have been considered.
-    /* istanbul ignore next */
-    throw new Error(`Unexpected type: "${inspect((type: empty))}".`);
+    invariant(false, 'Unexpected type: ' + inspect((type: empty)));
   }
 
   function extendDirective(directive: GraphQLDirective): GraphQLDirective {

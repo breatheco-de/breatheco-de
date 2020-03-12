@@ -1,19 +1,22 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import flatMap from '../polyfills/flatMap';
 import objectValues from '../polyfills/objectValues';
+
 import inspect from '../jsutils/inspect';
-import { astFromValue } from '../utilities/astFromValue';
+import invariant from '../jsutils/invariant';
+
 import { print } from '../language/printer';
 import { printBlockString } from '../language/blockString';
+
 import { type GraphQLSchema } from '../type/schema';
+import { isIntrospectionType } from '../type/introspection';
+import { GraphQLString, isSpecifiedScalarType } from '../type/scalars';
+import {
+  GraphQLDirective,
+  DEFAULT_DEPRECATION_REASON,
+  isSpecifiedDirective,
+} from '../type/directives';
 import {
   type GraphQLNamedType,
   type GraphQLScalarType,
@@ -29,13 +32,8 @@ import {
   isEnumType,
   isInputObjectType,
 } from '../type/definition';
-import { GraphQLString, isSpecifiedScalarType } from '../type/scalars';
-import {
-  GraphQLDirective,
-  DEFAULT_DEPRECATION_REASON,
-  isSpecifiedDirective,
-} from '../type/directives';
-import { isIntrospectionType } from '../type/introspection';
+
+import { astFromValue } from '../utilities/astFromValue';
 
 type Options = {|
   /**
@@ -176,8 +174,7 @@ export function printType(type: GraphQLNamedType, options?: Options): string {
   }
 
   // Not reachable. All possible types have been considered.
-  /* istanbul ignore next */
-  throw new Error(`Unexpected type: "${inspect((type: empty))}".`);
+  invariant(false, 'Unexpected type: ' + inspect((type: empty)));
 }
 
 function printScalar(type: GraphQLScalarType, options): string {
@@ -296,6 +293,7 @@ function printDirective(directive, options) {
     'directive @' +
     directive.name +
     printArgs(options, directive.args) +
+    (directive.isRepeatable ? ' repeatable' : '') +
     ' on ' +
     directive.locations.join(' | ')
   );
@@ -339,11 +337,11 @@ function printDescription(
 
 function printDescriptionWithComments(lines, indentation, firstInBlock) {
   let description = indentation && !firstInBlock ? '\n' : '';
-  for (let i = 0; i < lines.length; i++) {
-    if (lines[i] === '') {
+  for (const line of lines) {
+    if (line === '') {
       description += indentation + '#\n';
     } else {
-      description += indentation + '# ' + lines[i] + '\n';
+      description += indentation + '# ' + line + '\n';
     }
   }
   return description;

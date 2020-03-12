@@ -1,9 +1,12 @@
 /* eslint-env mocha */
 import assert from 'assert';
-import { getOpeningElement } from '../helper';
+import { getOpeningElement, setParserName } from '../helper';
 import elementType from '../../src/elementType';
 
 describe('elementType tests', () => {
+  beforeEach(() => {
+    setParserName('babel');
+  });
   it('should export a function', () => {
     const expected = 'function';
     const actual = typeof elementType;

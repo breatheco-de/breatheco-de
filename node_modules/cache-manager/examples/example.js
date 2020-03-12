@@ -3,7 +3,6 @@
 var cacheManager = require('../');
 var memoryCache = cacheManager.caching({store: 'memory', max: 100, ttl: 10});
 var memoryCache2 = cacheManager.caching({store: 'memory', max: 100, ttl: 100});
-var ttl; //Can't use a different ttl per set() call with memory cache
 
 //
 // Basic usage
@@ -36,7 +35,8 @@ var key = 'user_' + userId;
 // wrap() example
 //
 
-// Instead of manually managing the cache like this:
+/**
+ Instead of manually managing the cache like this:
 function getCachedUserManually(id, cb) {
     memoryCache.get(id, function(err, result) {
         if (err) { return cb(err); }
@@ -52,6 +52,7 @@ function getCachedUserManually(id, cb) {
         });
     });
 }
+*/
 
 // ... you can instead use the `wrap` function:
 function getCachedUser(id, cb) {

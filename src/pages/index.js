@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 import moment from "moment";
+import { PDFDownloadLink } from '@react-pdf/renderer';
+import ExternalProfile from "./PDF";
+
+
+
 
 export default ({ data }) => {
   const students = data.allStudentsYaml.edges;
@@ -24,7 +29,10 @@ export default ({ data }) => {
             {
                 students
                     .filter(({node}) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
-                    .map(({ node }, i) => (<li key={i}><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link></li>))
+                    .map(({ node }, i) => (<li key={i}><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link> 
+                                           <PDFDownloadLink document={<ExternalProfile student={node.basic_info.github}/>} fileName="somename.pdf">
+                                            {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
+                                           </PDFDownloadLink></li>))
             }
         </ul>
     </div>

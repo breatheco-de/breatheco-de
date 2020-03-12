@@ -25,7 +25,7 @@ describe('registry-url', function () {
     fs.writeFile(npmRcPath, 'registry=https://registry.npmjs.org/', function (err) {
       var getRegistryUrl = requireUncached('../registry-url')
       assert(!err, err)
-      assert.equal(getRegistryUrl('@somescope'), 'https://registry.npmjs.org/')
+      assert.strictEqual(getRegistryUrl('@somescope'), 'https://registry.npmjs.org/')
       done()
     })
   })
@@ -34,7 +34,7 @@ describe('registry-url', function () {
     fs.writeFile(npmRcPath, '@somescope:registry=https://some.registry/', function (err) {
       var getRegistryUrl = requireUncached('../registry-url')
       assert(!err, err)
-      assert.equal(getRegistryUrl('@somescope'), 'https://some.registry/')
+      assert.strictEqual(getRegistryUrl('@somescope'), 'https://some.registry/')
       done()
     })
   })
@@ -43,7 +43,7 @@ describe('registry-url', function () {
     fs.writeFile(npmRcPath, '@somescope:registry=https://some.registry', function (err) {
       var getRegistryUrl = requireUncached('../registry-url')
       assert(!err, err)
-      assert.equal(getRegistryUrl('@somescope'), 'https://some.registry/')
+      assert.strictEqual(getRegistryUrl('@somescope'), 'https://some.registry/')
       done()
     })
   })
@@ -57,7 +57,7 @@ describe('registry-url', function () {
     fs.writeFile(npmRcPath, content, function (err) {
       var getRegistryUrl = requireUncached('../registry-url')
       assert(!err, err)
-      assert.equal(getRegistryUrl(), 'http://registry.foobar.eu/')
+      assert.strictEqual(getRegistryUrl(), 'http://registry.foobar.eu/')
       done()
     })
   })

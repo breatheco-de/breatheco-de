@@ -1,18 +1,16 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import objectValues from '../polyfills/objectValues';
-import inspect from '../jsutils/inspect';
+
 import keyMap from '../jsutils/keyMap';
+import inspect from '../jsutils/inspect';
+import invariant from '../jsutils/invariant';
 import isInvalid from '../jsutils/isInvalid';
 import { type ObjMap } from '../jsutils/ObjMap';
+
 import { Kind } from '../language/kinds';
+import { type ValueNode } from '../language/ast';
+
 import {
   type GraphQLInputType,
   isScalarType,
@@ -21,7 +19,6 @@ import {
   isListType,
   isNonNullType,
 } from '../type/definition';
-import { type ValueNode } from '../language/ast';
 
 /**
  * Produces a JavaScript value given a GraphQL Value AST.
@@ -86,9 +83,8 @@ export function valueFromAST(
     const itemType = type.ofType;
     if (valueNode.kind === Kind.LIST) {
       const coercedValues = [];
-      const itemNodes = valueNode.values;
-      for (let i = 0; i < itemNodes.length; i++) {
-        if (isMissingVariable(itemNodes[i], variables)) {
+      for (const itemNode of valueNode.values) {
+        if (isMissingVariable(itemNode, variables)) {
           // If an array contains a missing variable, it is either coerced to
           // null or if the item type is non-null, it considered invalid.
           if (isNonNullType(itemType)) {
@@ -96,7 +92,7 @@ export function valueFromAST(
           }
           coercedValues.push(null);
         } else {
-          const itemValue = valueFromAST(itemNodes[i], itemType, variables);
+          const itemValue = valueFromAST(itemNode, itemType, variables);
           if (isInvalid(itemValue)) {
             return; // Invalid: intentionally return no value.
           }
@@ -118,9 +114,7 @@ export function valueFromAST(
     }
     const coercedObj = Object.create(null);
     const fieldNodes = keyMap(valueNode.fields, field => field.name.value);
-    const fields = objectValues(type.getFields());
-    for (let i = 0; i < fields.length; i++) {
-      const field = fields[i];
+    for (const field of objectValues(type.getFields())) {
       const fieldNode = fieldNodes[field.name];
       if (!fieldNode || isMissingVariable(fieldNode.value, variables)) {
         if (field.defaultValue !== undefined) {
@@ -167,8 +161,7 @@ export function valueFromAST(
   }
 
   // Not reachable. All possible input types have been considered.
-  /* istanbul ignore next */
-  throw new Error(`Unexpected input type: "${inspect((type: empty))}".`);
+  invariant(false, 'Unexpected input type: ' + inspect((type: empty)));
 }
 
 // Returns true if the provided valueNode is a variable which is not defined

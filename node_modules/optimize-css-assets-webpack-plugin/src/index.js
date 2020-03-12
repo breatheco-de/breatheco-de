@@ -1,3 +1,5 @@
+const url = require('url');
+
 const LastCallWebpackPlugin = require('last-call-webpack-plugin');
 
 class OptimizeCssAssetsWebpackPlugin extends LastCallWebpackPlugin {
@@ -6,7 +8,7 @@ class OptimizeCssAssetsWebpackPlugin extends LastCallWebpackPlugin {
       assetProcessors: [
         {
           phase: LastCallWebpackPlugin.PHASES.OPTIMIZE_CHUNK_ASSETS,
-          regExp: (options && options.assetNameRegExp) || /\.css$/g,
+          regExp: (options && options.assetNameRegExp) || /\.css(\?.*)?$/i,
           processor: (assetName, asset, assets) =>
             this.processCss(assetName, asset, assets),
         }
@@ -15,7 +17,7 @@ class OptimizeCssAssetsWebpackPlugin extends LastCallWebpackPlugin {
     });
 
     this.options.assetNameRegExp = !options || !options.assetNameRegExp ?
-      /\.css$/g :
+      /\.css(\?.*)?$/i :
       options.assetNameRegExp;
     this.options.cssProcessor = !options || !options.cssProcessor ?
         require('cssnano') :
@@ -33,6 +35,12 @@ class OptimizeCssAssetsWebpackPlugin extends LastCallWebpackPlugin {
   }
 
   processCss(assetName, asset, assets) {
+    const parse = url.parse(assetName);
+    const assetInfo = {
+      path: parse.pathname,
+      query: parse.query ? `?${parse.query}` : '',
+    };
+
     const css = asset.sourceAndMap ? asset.sourceAndMap() : { source: asset.source() };
     const processOptions = Object.assign(
       { from: assetName, to: assetName },
@@ -43,7 +51,7 @@ class OptimizeCssAssetsWebpackPlugin extends LastCallWebpackPlugin {
       try {
         let map = css.map;
         if (!map) {
-          const mapJson = assets.getAsset(assetName + '.map');
+          const mapJson = assets.getAsset(`${assetInfo.path}.map`);
           if (mapJson) {
             map = JSON.parse(mapJson);
           }
@@ -65,7 +73,7 @@ class OptimizeCssAssetsWebpackPlugin extends LastCallWebpackPlugin {
       .cssProcessor.process(css.source, processOptions, this.options.cssProcessorPluginOptions)
       .then(r => {
         if (processOptions.map && r.map && r.map.toString) {
-          assets.setAsset(assetName + '.map', r.map.toString());
+          assets.setAsset(`${assetInfo.path}.map${assetInfo.query}`, r.map.toString());
         }
         return r.css;
       });

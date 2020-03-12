@@ -1,18 +1,13 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type ValidationContext } from '../ValidationContext';
-import { GraphQLError } from '../../error/GraphQLError';
+import didYouMean from '../../jsutils/didYouMean';
 import suggestionList from '../../jsutils/suggestionList';
-import quotedOrList from '../../jsutils/quotedOrList';
+
+import { GraphQLError } from '../../error/GraphQLError';
+
 import { type FieldNode } from '../../language/ast';
 import { type ASTVisitor } from '../../language/visitor';
+
 import { type GraphQLSchema } from '../../type/schema';
 import {
   type GraphQLOutputType,
@@ -21,20 +16,21 @@ import {
   isAbstractType,
 } from '../../type/definition';
 
+import { type ValidationContext } from '../ValidationContext';
+
 export function undefinedFieldMessage(
   fieldName: string,
   type: string,
-  suggestedTypeNames: Array<string>,
-  suggestedFieldNames: Array<string>,
+  suggestedTypeNames: $ReadOnlyArray<string>,
+  suggestedFieldNames: $ReadOnlyArray<string>,
 ): string {
-  let message = `Cannot query field "${fieldName}" on type "${type}".`;
-  if (suggestedTypeNames.length !== 0) {
-    const suggestions = quotedOrList(suggestedTypeNames);
-    message += ` Did you mean to use an inline fragment on ${suggestions}?`;
-  } else if (suggestedFieldNames.length !== 0) {
-    message += ` Did you mean ${quotedOrList(suggestedFieldNames)}?`;
-  }
-  return message;
+  const quotedTypeNames = suggestedTypeNames.map(x => `"${x}"`);
+  const quotedFieldNames = suggestedFieldNames.map(x => `"${x}"`);
+  return (
+    `Cannot query field "${fieldName}" on type "${type}".` +
+    (didYouMean('to use an inline fragment on', quotedTypeNames) ||
+      didYouMean(quotedFieldNames))
+  );
 }
 
 /**

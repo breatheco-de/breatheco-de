@@ -1,18 +1,18 @@
-# regjsgen [![Build status](https://travis-ci.org/bnjmnt4n/regjsgen.svg?branch=master)](https://travis-ci.org/bnjmnt4n/regjsgen) [![Code coverage status](https://codecov.io/gh/bnjmnt4n/regjsgen/branch/master/graph/badge.svg)](https://codecov.io/gh/bnjmnt4n/regjsgen)
+# regjsgen [![Build status][travis-ci-img]][travis-ci] [![Code coverage status][codecov-img]][codecov]
 
-Generate regular expressions from [regjsparser](https://github.com/jviereck/regjsparser)’s AST.
+Generate regular expressions from [regjsparser][regjsparser]’s AST.
 
 ## Installation
 
 ```bash
-npm install --save regjsgen
+npm i regjsgen
 ```
 
 ## API
 
 ### `regjsgen.generate(ast)`
 
-This function accepts an abstract syntax tree representing a regular expression, and returns the generated regular expression string.
+This function accepts an abstract syntax tree representing a regular expression (see [regjsparser][regjsparser]), and returns the generated regular expression string.
 
 ```js
 var regjsparser = require('regjsparser');
@@ -30,4 +30,11 @@ regex = regjsgen.generate(ast);
 
 ## Support
 
-Tested in Node.js 0.10, 0.12, 4, 6 and 8.
+Tested in Node.js 0.10, 0.12, 4, 6, 8, 10 and 12.
+
+
+[travis-ci]: https://travis-ci.org/bnjmnt4n/regjsgen
+[travis-ci-img]: https://travis-ci.org/bnjmnt4n/regjsgen.svg?branch=master
+[codecov]: https://codecov.io/gh/bnjmnt4n/regjsgen
+[codecov-img]: https://codecov.io/gh/bnjmnt4n/regjsgen/branch/master/graph/badge.svg
+[regjsparser]: https://github.com/jviereck/regjsparser

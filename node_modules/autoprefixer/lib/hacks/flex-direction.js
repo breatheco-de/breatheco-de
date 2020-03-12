@@ -59,8 +59,8 @@ function (_Declaration) {
       orient = v;
       dir = v;
     } else {
-      orient = v.indexOf('row') !== -1 ? 'horizontal' : 'vertical';
-      dir = v.indexOf('reverse') !== -1 ? 'reverse' : 'normal';
+      orient = v.includes('row') ? 'horizontal' : 'vertical';
+      dir = v.includes('reverse') ? 'reverse' : 'normal';
     }
 
     var cloned = this.clone(decl);

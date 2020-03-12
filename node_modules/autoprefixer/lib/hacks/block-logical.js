@@ -23,7 +23,7 @@ function (_Declaration) {
    * Use old syntax for -moz- and -webkit-
    */
   _proto.prefixed = function prefixed(prop, prefix) {
-    if (prop.indexOf('-start') !== -1) {
+    if (prop.includes('-start')) {
       return prefix + prop.replace('-block-start', '-before');
     }
 
@@ -35,7 +35,7 @@ function (_Declaration) {
   ;
 
   _proto.normalize = function normalize(prop) {
-    if (prop.indexOf('-before') !== -1) {
+    if (prop.includes('-before')) {
       return prop.replace('-before', '-block-start');
     }
 

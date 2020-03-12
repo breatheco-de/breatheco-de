@@ -23,7 +23,7 @@ function (_Declaration) {
    * Do not prefix flexbox values
    */
   _proto.check = function check(decl) {
-    return decl.value.indexOf('flex-') === -1 && decl.value !== 'baseline';
+    return !decl.value.includes('flex-') && decl.value !== 'baseline';
   }
   /**
    * Change property name for IE

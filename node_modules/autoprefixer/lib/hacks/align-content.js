@@ -21,6 +21,9 @@ function (_Declaration) {
 
   var _proto = AlignContent.prototype;
 
+  /**
+   * Change property name for 2012 spec
+   */
   _proto.prefixed = function prefixed(prop, prefix) {
     var spec;
 
@@ -73,10 +76,6 @@ _defineProperty(AlignContent, "oldValues", {
   'flex-start': 'start',
   'space-between': 'justify',
   'space-around': 'distribute'
-  /**
-   * Change property name for 2012 spec
-   */
-
 });
 
 module.exports = AlignContent;

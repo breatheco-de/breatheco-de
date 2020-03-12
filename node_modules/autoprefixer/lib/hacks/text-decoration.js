@@ -26,7 +26,7 @@ function (_Declaration) {
    */
   _proto.check = function check(decl) {
     return decl.value.split(/\s+/).some(function (i) {
-      return BASIC.indexOf(i) === -1;
+      return !BASIC.includes(i);
     });
   };
 

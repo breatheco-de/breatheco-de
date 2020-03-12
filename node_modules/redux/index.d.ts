@@ -1,3 +1,5 @@
+/// <reference types="symbol-observable" />
+
 /**
  * An *action* is a plain object that represents an intention to change the
  * state. Actions are the only way to get data into the store. Any data,
@@ -22,12 +24,53 @@ export interface Action<T = any> {
 /**
  * An Action type which accepts any other properties.
  * This is mainly for the use of the `Reducer` type.
- * This is not part of `Action` itself to prevent users who are extending `Action.
+ * This is not part of `Action` itself to prevent types that extend `Action` from
+ * having an index signature.
  */
 export interface AnyAction extends Action {
   // Allows any extra properties to be defined in an action.
   [extraProps: string]: any
 }
+
+/**
+ * Internal "virtual" symbol used to make the `CombinedState` type unique.
+ */
+declare const $CombinedState: unique symbol
+
+/**
+ * State base type for reducers created with `combineReducers()`.
+ *
+ * This type allows the `createStore()` method to infer which levels of the
+ * preloaded state can be partial.
+ *
+ * Because Typescript is really duck-typed, a type needs to have some
+ * identifying property to differentiate it from other types with matching
+ * prototypes for type checking purposes. That's why this type has the
+ * `$CombinedState` symbol property. Without the property, this type would
+ * match any object. The symbol doesn't really exist because it's an internal
+ * (i.e. not exported), and internally we never check its value. Since it's a
+ * symbol property, it's not expected to be unumerable, and the value is
+ * typed as always undefined, so its never expected to have a meaningful
+ * value anyway. It just makes this type distinquishable from plain `{}`.
+ */
+export type CombinedState<S> = { readonly [$CombinedState]?: undefined } & S
+
+/**
+ * Recursively makes combined state objects partial. Only combined state _root
+ * objects_ (i.e. the generated higher level object with keys mapping to
+ * individual reducers) are partial.
+ */
+export type PreloadedState<S> = Required<S> extends {
+  [$CombinedState]: undefined
+}
+  ? S extends CombinedState<infer S1>
+    ? {
+        [K in keyof S1]?: S1[K] extends object ? PreloadedState<S1[K]> : S1[K]
+      }
+    : never
+  : {
+      [K in keyof S]: S[K] extends object ? PreloadedState<S[K]> : S[K]
+    }
 
 /* reducers */
 
@@ -70,6 +113,50 @@ export type ReducersMapObject<S = any, A extends Action = Action> = {
 }
 
 /**
+ * Infer a combined state shape from a `ReducersMapObject`.
+ *
+ * @template M Object map of reducers as provided to `combineReducers(map: M)`.
+ */
+export type StateFromReducersMapObject<M> = M extends ReducersMapObject<
+  any,
+  any
+>
+  ? { [P in keyof M]: M[P] extends Reducer<infer S, any> ? S : never }
+  : never
+
+/**
+ * Infer reducer union type from a `ReducersMapObject`.
+ *
+ * @template M Object map of reducers as provided to `combineReducers(map: M)`.
+ */
+export type ReducerFromReducersMapObject<M> = M extends {
+  [P in keyof M]: infer R
+}
+  ? R extends Reducer<any, any>
+    ? R
+    : never
+  : never
+
+/**
+ * Infer action type from a reducer function.
+ *
+ * @template R Type of reducer.
+ */
+export type ActionFromReducer<R> = R extends Reducer<any, infer A> ? A : never
+
+/**
+ * Infer action union type from a `ReducersMapObject`.
+ *
+ * @template M Object map of reducers as provided to `combineReducers(map: M)`.
+ */
+export type ActionFromReducersMapObject<M> = M extends ReducersMapObject<
+  any,
+  any
+>
+  ? ActionFromReducer<ReducerFromReducersMapObject<M>>
+  : never
+
+/**
  * Turns an object whose values are different reducer functions, into a single
  * reducer function. It will call every child reducer, and gather their results
  * into a single state object, whose keys correspond to the keys of the passed
@@ -89,10 +176,16 @@ export type ReducersMapObject<S = any, A extends Action = Action> = {
  */
 export function combineReducers<S>(
   reducers: ReducersMapObject<S, any>
-): Reducer<S>
+): Reducer<CombinedState<S>>
 export function combineReducers<S, A extends Action = AnyAction>(
   reducers: ReducersMapObject<S, A>
-): Reducer<S, A>
+): Reducer<CombinedState<S>, A>
+export function combineReducers<M extends ReducersMapObject<any, any>>(
+  reducers: M
+): Reducer<
+  CombinedState<StateFromReducersMapObject<M>>,
+  ActionFromReducersMapObject<M>
+>
 
 /* store */
 
@@ -126,6 +219,32 @@ export interface Dispatch<A extends Action = AnyAction> {
  */
 export interface Unsubscribe {
   (): void
+}
+
+/**
+ * A minimal observable of state changes.
+ * For more information, see the observable proposal:
+ * https://github.com/tc39/proposal-observable
+ */
+export type Observable<T> = {
+  /**
+   * The minimal observable subscription method.
+   * @param {Object} observer Any object that can be used as an observer.
+   * The observer object should have a `next` method.
+   * @returns {subscription} An object with an `unsubscribe` method that can
+   * be used to unsubscribe the observable from the store, and prevent further
+   * emission of values from the observable.
+   */
+  subscribe: (observer: Observer<T>) => { unsubscribe: Unsubscribe }
+  [Symbol.observable](): Observable<T>
+}
+
+/**
+ * An Observer is used to receive data from an Observable, and is supplied as
+ * an argument to subscribe.
+ */
+export type Observer<T> = {
+  next?(value: T): void
 }
 
 /**
@@ -208,9 +327,19 @@ export interface Store<S = any, A extends Action = AnyAction> {
    * @param nextReducer The reducer for the store to use instead.
    */
   replaceReducer(nextReducer: Reducer<S, A>): void
+
+  /**
+   * Interoperability point for observable/reactive libraries.
+   * @returns {observable} A minimal observable of state changes.
+   * For more information, see the observable proposal:
+   * https://github.com/tc39/proposal-observable
+   */
+  [Symbol.observable](): Observable<S>
 }
 
-export type DeepPartial<T> = { [K in keyof T]?: DeepPartial<T[K]> }
+export type DeepPartial<T> = {
+  [K in keyof T]?: T[K] extends object ? DeepPartial<T[K]> : T[K]
+}
 
 /**
  * A store creator is a function that creates a Redux store. Like with
@@ -230,7 +359,7 @@ export interface StoreCreator {
   ): Store<S & StateExt, A> & Ext
   <S, A extends Action, Ext, StateExt>(
     reducer: Reducer<S, A>,
-    preloadedState?: DeepPartial<S>,
+    preloadedState?: PreloadedState<S>,
     enhancer?: StoreEnhancer<Ext>
   ): Store<S & StateExt, A> & Ext
 }
@@ -294,7 +423,7 @@ export type StoreEnhancerStoreCreator<Ext = {}, StateExt = {}> = <
   A extends Action = AnyAction
 >(
   reducer: Reducer<S, A>,
-  preloadedState?: DeepPartial<S>
+  preloadedState?: PreloadedState<S>
 ) => Store<S & StateExt, A> & Ext
 
 /* middleware */

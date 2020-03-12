@@ -19,7 +19,7 @@ function () {
   var _proto = OldValue.prototype;
 
   _proto.check = function check(value) {
-    if (value.indexOf(this.string) !== -1) {
+    if (value.includes(this.string)) {
       return !!value.match(this.regexp);
     }
 

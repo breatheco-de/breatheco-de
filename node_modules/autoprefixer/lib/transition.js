@@ -8,6 +8,8 @@ var vendor = require('postcss').vendor;
 
 var list = require('postcss').list;
 
+var Browsers = require('./browsers');
+
 var Transition =
 /*#__PURE__*/
 function () {
@@ -28,7 +30,8 @@ function () {
 
     var prefix, prop;
     var add = this.prefixes.add[decl.prop];
-    var declPrefixes = add && add.prefixes || [];
+    var vendorPrefixes = this.ruleVendorPrefixes(decl);
+    var declPrefixes = vendorPrefixes || add && add.prefixes || [];
     var params = this.parse(decl.value);
     var names = params.map(function (i) {
       return _this.findProp(i);
@@ -69,9 +72,15 @@ function () {
           prefix = _i3.value;
         }
 
+        if (vendorPrefixes && !vendorPrefixes.some(function (p) {
+          return prefix.includes(p);
+        })) {
+          continue;
+        }
+
         var prefixed = this.prefixes.prefixed(prop, prefix);
 
-        if (prefixed !== '-ms-transform' && names.indexOf(prefixed) === -1) {
+        if (prefixed !== '-ms-transform' && !names.includes(prefixed)) {
           if (!this.disabled(prop, prefix)) {
             added.push(this.clone(prop, prefixed, param));
           }
@@ -83,13 +92,13 @@ function () {
     var value = this.stringify(params);
     var webkitClean = this.stringify(this.cleanFromUnprefixed(params, '-webkit-'));
 
-    if (declPrefixes.indexOf('-webkit-') !== -1) {
+    if (declPrefixes.includes('-webkit-')) {
       this.cloneBefore(decl, "-webkit-" + decl.prop, webkitClean);
     }
 
     this.cloneBefore(decl, decl.prop, webkitClean);
 
-    if (declPrefixes.indexOf('-o-') !== -1) {
+    if (declPrefixes.includes('-o-')) {
       var operaClean = this.stringify(this.cleanFromUnprefixed(params, '-o-'));
       this.cloneBefore(decl, "-o-" + decl.prop, operaClean);
     }
@@ -125,8 +134,21 @@ function () {
     var prop = param[0].value;
 
     if (/^\d/.test(prop)) {
-      for (var i = 0; i < param.length; i++) {
-        var token = param[i];
+      for (var _iterator4 = param.entries(), _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
+        var _ref2;
+
+        if (_isArray4) {
+          if (_i4 >= _iterator4.length) break;
+          _ref2 = _iterator4[_i4++];
+        } else {
+          _i4 = _iterator4.next();
+          if (_i4.done) break;
+          _ref2 = _i4.value;
+        }
+
+        var _ref3 = _ref2,
+            i = _ref3[0],
+            token = _ref3[1];
 
         if (i !== 0 && token.type === 'word') {
           return token.value;
@@ -214,14 +236,15 @@ function () {
       return;
     }
 
-    var double = decl.parent.some(function (i) {
+    var _double = decl.parent.some(function (i) {
       return i.prop === decl.prop && i.value === value;
     });
+
     var smaller = decl.parent.some(function (i) {
       return i !== decl && i.prop === decl.prop && i.value.length > value.length;
     });
 
-    if (double || smaller) {
+    if (_double || smaller) {
       decl.remove();
       return;
     }
@@ -238,19 +261,19 @@ function () {
     var result = [];
     var param = [];
 
-    for (var _iterator4 = ast.nodes, _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
-      var _ref2;
+    for (var _iterator5 = ast.nodes, _isArray5 = Array.isArray(_iterator5), _i5 = 0, _iterator5 = _isArray5 ? _iterator5 : _iterator5[Symbol.iterator]();;) {
+      var _ref4;
 
-      if (_isArray4) {
-        if (_i4 >= _iterator4.length) break;
-        _ref2 = _iterator4[_i4++];
+      if (_isArray5) {
+        if (_i5 >= _iterator5.length) break;
+        _ref4 = _iterator5[_i5++];
       } else {
-        _i4 = _iterator4.next();
-        if (_i4.done) break;
-        _ref2 = _i4.value;
+        _i5 = _iterator5.next();
+        if (_i5.done) break;
+        _ref4 = _i5.value;
       }
 
-      var node = _ref2;
+      var node = _ref4;
       param.push(node);
 
       if (node.type === 'div' && node.value === ',') {
@@ -276,19 +299,19 @@ function () {
 
     var nodes = [];
 
-    for (var _iterator5 = params, _isArray5 = Array.isArray(_iterator5), _i5 = 0, _iterator5 = _isArray5 ? _iterator5 : _iterator5[Symbol.iterator]();;) {
-      var _ref3;
+    for (var _iterator6 = params, _isArray6 = Array.isArray(_iterator6), _i6 = 0, _iterator6 = _isArray6 ? _iterator6 : _iterator6[Symbol.iterator]();;) {
+      var _ref5;
 
-      if (_isArray5) {
-        if (_i5 >= _iterator5.length) break;
-        _ref3 = _iterator5[_i5++];
+      if (_isArray6) {
+        if (_i6 >= _iterator6.length) break;
+        _ref5 = _iterator6[_i6++];
       } else {
-        _i5 = _iterator5.next();
-        if (_i5.done) break;
-        _ref3 = _i5.value;
+        _i6 = _iterator6.next();
+        if (_i6.done) break;
+        _ref5 = _i6.value;
       }
 
-      var param = _ref3;
+      var param = _ref5;
 
       if (param[param.length - 1].type !== 'div') {
         param.push(this.div(params));
@@ -318,19 +341,19 @@ function () {
     var result = [];
     var changed = false;
 
-    for (var _iterator6 = param, _isArray6 = Array.isArray(_iterator6), _i6 = 0, _iterator6 = _isArray6 ? _iterator6 : _iterator6[Symbol.iterator]();;) {
-      var _ref4;
+    for (var _iterator7 = param, _isArray7 = Array.isArray(_iterator7), _i7 = 0, _iterator7 = _isArray7 ? _iterator7 : _iterator7[Symbol.iterator]();;) {
+      var _ref6;
 
-      if (_isArray6) {
-        if (_i6 >= _iterator6.length) break;
-        _ref4 = _iterator6[_i6++];
+      if (_isArray7) {
+        if (_i7 >= _iterator7.length) break;
+        _ref6 = _iterator7[_i7++];
       } else {
-        _i6 = _iterator6.next();
-        if (_i6.done) break;
-        _ref4 = _i6.value;
+        _i7 = _iterator7.next();
+        if (_i7.done) break;
+        _ref6 = _i7.value;
       }
 
-      var i = _ref4;
+      var i = _ref6;
 
       if (!changed && i.type === 'word' && i.value === origin) {
         result.push({
@@ -351,33 +374,33 @@ function () {
   ;
 
   _proto.div = function div(params) {
-    for (var _iterator7 = params, _isArray7 = Array.isArray(_iterator7), _i7 = 0, _iterator7 = _isArray7 ? _iterator7 : _iterator7[Symbol.iterator]();;) {
-      var _ref5;
+    for (var _iterator8 = params, _isArray8 = Array.isArray(_iterator8), _i8 = 0, _iterator8 = _isArray8 ? _iterator8 : _iterator8[Symbol.iterator]();;) {
+      var _ref7;
 
-      if (_isArray7) {
-        if (_i7 >= _iterator7.length) break;
-        _ref5 = _iterator7[_i7++];
+      if (_isArray8) {
+        if (_i8 >= _iterator8.length) break;
+        _ref7 = _iterator8[_i8++];
       } else {
-        _i7 = _iterator7.next();
-        if (_i7.done) break;
-        _ref5 = _i7.value;
+        _i8 = _iterator8.next();
+        if (_i8.done) break;
+        _ref7 = _i8.value;
       }
 
-      var param = _ref5;
+      var param = _ref7;
 
-      for (var _iterator8 = param, _isArray8 = Array.isArray(_iterator8), _i8 = 0, _iterator8 = _isArray8 ? _iterator8 : _iterator8[Symbol.iterator]();;) {
-        var _ref6;
+      for (var _iterator9 = param, _isArray9 = Array.isArray(_iterator9), _i9 = 0, _iterator9 = _isArray9 ? _iterator9 : _iterator9[Symbol.iterator]();;) {
+        var _ref8;
 
-        if (_isArray8) {
-          if (_i8 >= _iterator8.length) break;
-          _ref6 = _iterator8[_i8++];
+        if (_isArray9) {
+          if (_i9 >= _iterator9.length) break;
+          _ref8 = _iterator9[_i9++];
         } else {
-          _i8 = _iterator8.next();
-          if (_i8.done) break;
-          _ref6 = _i8.value;
+          _i9 = _iterator9.next();
+          if (_i9.done) break;
+          _ref8 = _i9.value;
         }
 
-        var node = _ref6;
+        var node = _ref8;
 
         if (node.type === 'div' && node.value === ',') {
           return node;
@@ -417,23 +440,23 @@ function () {
     });
     var result = [];
 
-    for (var _iterator9 = params, _isArray9 = Array.isArray(_iterator9), _i9 = 0, _iterator9 = _isArray9 ? _iterator9 : _iterator9[Symbol.iterator]();;) {
-      var _ref7;
+    for (var _iterator10 = params, _isArray10 = Array.isArray(_iterator10), _i10 = 0, _iterator10 = _isArray10 ? _iterator10 : _iterator10[Symbol.iterator]();;) {
+      var _ref9;
 
-      if (_isArray9) {
-        if (_i9 >= _iterator9.length) break;
-        _ref7 = _iterator9[_i9++];
+      if (_isArray10) {
+        if (_i10 >= _iterator10.length) break;
+        _ref9 = _iterator10[_i10++];
       } else {
-        _i9 = _iterator9.next();
-        if (_i9.done) break;
-        _ref7 = _i9.value;
+        _i10 = _iterator10.next();
+        if (_i10.done) break;
+        _ref9 = _i10.value;
       }
 
-      var param = _ref7;
+      var param = _ref9;
       var prop = this.findProp(param);
       var p = vendor.prefix(prop);
 
-      if (remove.indexOf(prop) === -1 && (p === prefix || p === '')) {
+      if (!remove.includes(prop) && (p === prefix || p === '')) {
         result.push(param);
       }
     }
@@ -448,17 +471,36 @@ function () {
   _proto.disabled = function disabled(prop, prefix) {
     var other = ['order', 'justify-content', 'align-self', 'align-content'];
 
-    if (prop.indexOf('flex') !== -1 || other.indexOf(prop) !== -1) {
+    if (prop.includes('flex') || other.includes(prop)) {
       if (this.prefixes.options.flexbox === false) {
         return true;
       }
 
       if (this.prefixes.options.flexbox === 'no-2009') {
-        return prefix.indexOf('2009') !== -1;
+        return prefix.includes('2009');
       }
     }
 
     return undefined;
+  }
+  /**
+   * Check if transition prop is inside vendor specific rule
+   */
+  ;
+
+  _proto.ruleVendorPrefixes = function ruleVendorPrefixes(decl) {
+    var parent = decl.parent;
+
+    if (parent.type !== 'rule') {
+      return false;
+    } else if (!parent.selector.includes(':-')) {
+      return false;
+    }
+
+    var selectors = Browsers.prefixes().filter(function (s) {
+      return parent.selector.includes(':' + s);
+    });
+    return selectors.length > 0 ? selectors : false;
   };
 
   return Transition;

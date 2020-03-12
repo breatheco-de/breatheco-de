@@ -1,11 +1,4 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 // The GraphQL query recommended for a full schema introspection.
 export {
@@ -93,9 +86,12 @@ export { astFromValue } from './astFromValue';
 export { TypeInfo } from './TypeInfo';
 
 // Coerces a JavaScript value to a GraphQL type, or produces errors.
+export { coerceInputValue } from './coerceInputValue';
+
+// @deprecated use coerceInputValue - will be removed in v15.
 export { coerceValue } from './coerceValue';
 
-// @deprecated use coerceValue - will be removed in v15.
+// @deprecated use coerceInputValue - will be removed in v15.
 export { isValidJSValue } from './isValidJSValue';
 
 // @deprecated use validation - will be removed in v15

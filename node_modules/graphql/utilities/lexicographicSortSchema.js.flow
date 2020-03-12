@@ -1,18 +1,15 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import objectValues from '../polyfills/objectValues';
+
 import inspect from '../jsutils/inspect';
+import invariant from '../jsutils/invariant';
 import keyValMap from '../jsutils/keyValMap';
 import { type ObjMap } from '../jsutils/ObjMap';
+
 import { GraphQLSchema } from '../type/schema';
 import { GraphQLDirective } from '../type/directives';
+import { isIntrospectionType } from '../type/introspection';
 import {
   type GraphQLNamedType,
   GraphQLObjectType,
@@ -31,7 +28,6 @@ import {
   isEnumType,
   isInputObjectType,
 } from '../type/definition';
-import { isIntrospectionType } from '../type/introspection';
 
 /**
  * Sort GraphQLSchema.
@@ -101,7 +97,7 @@ export function lexicographicSortSchema(schema: GraphQLSchema): GraphQLSchema {
     }));
   }
 
-  function sortTypes<T: GraphQLNamedType>(arr: Array<T>): Array<T> {
+  function sortTypes<T: GraphQLNamedType>(arr: $ReadOnlyArray<T>): Array<T> {
     return sortByName(arr).map(replaceNamedType);
   }
 
@@ -142,8 +138,7 @@ export function lexicographicSortSchema(schema: GraphQLSchema): GraphQLSchema {
     }
 
     // Not reachable. All possible types have been considered.
-    /* istanbul ignore next */
-    throw new Error(`Unexpected type: "${inspect((type: empty))}".`);
+    invariant(false, 'Unexpected type: ' + inspect((type: empty)));
   }
 }
 
@@ -157,7 +152,9 @@ function sortObjMap<T, R>(map: ObjMap<T>, sortValueFn?: T => R): ObjMap<R> {
   return sortedMap;
 }
 
-function sortByName<T: { +name: string }>(array: $ReadOnlyArray<T>): Array<T> {
+function sortByName<T: { +name: string, ... }>(
+  array: $ReadOnlyArray<T>,
+): Array<T> {
   return sortBy(array, obj => obj.name);
 }
 

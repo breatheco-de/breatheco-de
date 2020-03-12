@@ -11,6 +11,7 @@ import type {
   GraphQLInputFieldConfig,
   GraphQLInputFieldConfigMap,
   GraphQLObjectType,
+  GraphQLInterfaceType,
 } from '../graphql';
 import type { ComposeInputFieldConfig, ComposeInputFieldConfigMap } from '../InputTypeComposer';
 import type {
@@ -18,8 +19,9 @@ import type {
   ComposeFieldConfigMap,
   ComposeArgumentConfig,
   ComposeFieldConfigArgumentMap,
+  ComposeObjectType,
 } from '../ObjectTypeComposer';
-import type { ComposeObjectType } from '../TypeMapper';
+import type { ComposeInterfaceType } from '../InterfaceTypeComposer';
 import type { Thunk } from './definitions';
 
 export function resolveOutputConfigAsThunk<TSource, TContext>(
@@ -138,12 +140,25 @@ export function resolveArgConfigMapAsThunk(
 
 export function resolveTypeArrayAsThunk(
   schema: SchemaComposer<any>,
-  types: Thunk<Array<ComposeObjectType>>,
+  types: Thunk<$ReadOnlyArray<ComposeObjectType>>,
   typeName?: string
 ): Array<GraphQLObjectType> {
   try {
     const t = isFunction(types) ? types() : types;
     return t.map((type: ComposeObjectType) => schema.typeMapper.convertOutputType(type));
+  } catch (e) {
+    throw new Error(`Cannot resolve types for ${typeName || ''}`);
+  }
+}
+
+export function resolveInterfaceArrayAsThunk(
+  schema: SchemaComposer<any>,
+  types: Thunk<$ReadOnlyArray<ComposeInterfaceType>>,
+  typeName?: string
+): Array<GraphQLInterfaceType> {
+  try {
+    const t = isFunction(types) ? types() : types;
+    return t.map((type: ComposeInterfaceType) => schema.typeMapper.convertInterfaceType(type));
   } catch (e) {
     throw new Error(`Cannot resolve types for ${typeName || ''}`);
   }

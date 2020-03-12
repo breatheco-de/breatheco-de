@@ -315,6 +315,8 @@ See [#129](https://github.com/webpack-contrib/eslint-loader/issues/129).
 
 ---
 
-## [Changelog](CHANGELOG.md)
+## Changelog
+[Changelog](CHANGELOG.md)
 
-## [License](LICENSE)
+## License
+[MIT](./LICENSE)

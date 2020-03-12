@@ -1,10 +1,10 @@
 'use strict';
 const crypto = require('crypto');
 
-module.exports = len => {
-	if (!Number.isFinite(len)) {
+module.exports = length => {
+	if (!Number.isFinite(length)) {
 		throw new TypeError('Expected a finite number');
 	}
 
-	return crypto.randomBytes(Math.ceil(len / 2)).toString('hex').slice(0, len);
+	return crypto.randomBytes(Math.ceil(length / 2)).toString('hex').slice(0, length);
 };

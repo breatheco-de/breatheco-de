@@ -11,12 +11,12 @@ npm install eslint-plugin-graphql
 
 ![Screenshot from Atom](https://github.com/apollostack/eslint-plugin-graphql/raw/master/screenshot.png)
 
-`eslint-plugin-graphql` has built-in settings for three GraphQL clients out of the box:
+`eslint-plugin-graphql` has built-in settings for four GraphQL clients out of the box:
 
 1. [Apollo client](http://docs.apollostack.com/apollo-client/index.html)
 2. [Relay](https://facebook.github.io/relay/)
 3. [Lokka](https://github.com/kadirahq/lokka)
-3. [FraQL](https://github.com/smooth-code/fraql)
+4. [FraQL](https://github.com/smooth-code/fraql)
 
 If you want to lint your GraphQL schema, rather than queries, check out [cjoudrey/graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter).
 

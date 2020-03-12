@@ -6,7 +6,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 
 exports.__esModule = true;
 exports.graphql = graphql;
-exports.useStaticQuery = exports.StaticQuery = exports.StaticQueryContext = void 0;
+exports.prefetchPathname = exports.useStaticQuery = exports.StaticQuery = exports.StaticQueryContext = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -27,17 +27,39 @@ var _publicPageRenderer = _interopRequireDefault(require("./public-page-renderer
 
 exports.PageRenderer = _publicPageRenderer.default;
 
+var _loader = _interopRequireDefault(require("./loader"));
+
+const prefetchPathname = _loader.default.enqueue;
+exports.prefetchPathname = prefetchPathname;
+
 const StaticQueryContext = _react.default.createContext({});
 
 exports.StaticQueryContext = StaticQueryContext;
 
-const StaticQuery = props => _react.default.createElement(StaticQueryContext.Consumer, null, staticQueryData => {
-  if (props.data || staticQueryData[props.query] && staticQueryData[props.query].data) {
-    return (props.render || props.children)(props.data ? props.data.data : staticQueryData[props.query].data);
-  } else {
-    return _react.default.createElement("div", null, "Loading (StaticQuery)");
-  }
-});
+function StaticQueryDataRenderer({
+  staticQueryData,
+  data,
+  query,
+  render
+}) {
+  const finalData = data ? data.data : staticQueryData[query] && staticQueryData[query].data;
+  return _react.default.createElement(_react.default.Fragment, null, finalData && render(finalData), !finalData && _react.default.createElement("div", null, "Loading (StaticQuery)"));
+}
+
+const StaticQuery = props => {
+  const {
+    data,
+    query,
+    render,
+    children
+  } = props;
+  return _react.default.createElement(StaticQueryContext.Consumer, null, staticQueryData => _react.default.createElement(StaticQueryDataRenderer, {
+    data: data,
+    query: query,
+    render: render || children,
+    staticQueryData: staticQueryData
+  }));
+};
 
 exports.StaticQuery = StaticQuery;
 

@@ -9,7 +9,7 @@
 
 import invariant from 'graphql/jsutils/invariant';
 import type { Thunk } from './definitions';
-import { resolveMaybeThunk } from './misc';
+import { resolveMaybeThunk, inspect } from './misc';
 import type {
   GraphQLFieldConfigMap,
   GraphQLInputFieldConfigMap,
@@ -25,31 +25,6 @@ import type {
 
 function isPlainObj(obj) {
   return obj && typeof obj === 'object' && !Array.isArray(obj);
-}
-
-function inspect(value: mixed): string {
-  switch (typeof value) {
-    case 'string':
-      return JSON.stringify(value);
-    case 'function':
-      return value.name ? `[function ${value.name}]` : '[function]';
-    case 'object':
-      if (value) {
-        if (typeof value.inspect === 'function') {
-          return (value: any).inspect();
-        } else if (Array.isArray(value)) {
-          return `[${value.map(inspect).join(', ')}]`;
-        }
-
-        const properties = Object.keys(value)
-          .map(k => `${k}: ${inspect(value[k])}`)
-          .join(', ');
-        return properties ? `{ ${properties} }` : '{}';
-      }
-      return String(value);
-    default:
-      return String(value);
-  }
 }
 
 export function defineFieldMap(

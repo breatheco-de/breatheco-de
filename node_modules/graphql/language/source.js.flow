@@ -1,13 +1,6 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import invariant from '../jsutils/invariant';
+import devAssert from '../jsutils/devAssert';
 import defineToStringTag from '../jsutils/defineToStringTag';
 
 type Location = {|
@@ -32,11 +25,11 @@ export class Source {
     this.body = body;
     this.name = name || 'GraphQL request';
     this.locationOffset = locationOffset || { line: 1, column: 1 };
-    invariant(
+    devAssert(
       this.locationOffset.line > 0,
       'line in locationOffset is 1-indexed and must be positive',
     );
-    invariant(
+    devAssert(
       this.locationOffset.column > 0,
       'column in locationOffset is 1-indexed and must be positive',
     );

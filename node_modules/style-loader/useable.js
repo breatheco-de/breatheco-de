@@ -18,6 +18,21 @@ module.exports.pitch = function (request) {
 
 	options.hmr = typeof options.hmr === 'undefined' ? true : options.hmr;
 
+	// The variable is needed, because the function should be inlined.
+	// If is just stored it in options, JSON.stringify will quote
+	// the function and it would be just a string at runtime
+	var insertInto;
+
+	if (typeof options.insertInto === "function") {
+		insertInto = options.insertInto.toString();
+	}
+
+	// We need to check if it a string, or variable will be "undefined"
+	// and the loader crashes
+	if (typeof options.insertInto === "string") {
+		insertInto = '"' + options.insertInto + '"';
+	}
+
 	var hmr = [
 		// Hot Module Replacement
 		"if(module.hot) {",
@@ -48,6 +63,8 @@ module.exports.pitch = function (request) {
 		"var refs = 0;",
 		"var dispose;",
 		"var content = require(" + loaderUtils.stringifyRequest(this, "!!" + request) + ");",
+		"var options = " + JSON.stringify(options) + ";",
+		"options.insertInto = " + insertInto + ";",
 		"",
 		"if(typeof content === 'string') content = [[module.id, content, '']];",
 		// Export CSS Modules
@@ -55,7 +72,7 @@ module.exports.pitch = function (request) {
 		"",
 		"exports.use = exports.ref = function() {",
 		"	if(!(refs++)) {",
-		"		dispose = require(" + loaderUtils.stringifyRequest(this, "!" + path.join(__dirname, "lib", "addStyles.js")) + ")(content, " + JSON.stringify(options) + ");",
+		"		dispose = require(" + loaderUtils.stringifyRequest(this, "!" + path.join(__dirname, "lib", "addStyles.js")) + ")(content, options);",
 		"	}",
 		"",
 		"	return exports;",

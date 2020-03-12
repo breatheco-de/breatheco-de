@@ -1,16 +1,10 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type SDLValidationContext } from '../ValidationContext';
 import { GraphQLError } from '../../error/GraphQLError';
 import { type ASTVisitor } from '../../language/visitor';
 import { isEnumType } from '../../type/definition';
+
+import { type SDLValidationContext } from '../ValidationContext';
 
 export function duplicateEnumValueNameMessage(
   typeName: string,
@@ -23,10 +17,7 @@ export function existedEnumValueNameMessage(
   typeName: string,
   valueName: string,
 ): string {
-  return (
-    `Enum value "${typeName}.${valueName}" already exists in the schema. ` +
-    'It cannot also be defined in this type extension.'
-  );
+  return `Enum value "${typeName}.${valueName}" already exists in the schema. It cannot also be defined in this type extension.`;
 }
 
 /**

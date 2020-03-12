@@ -5,14 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _convert = _interopRequireDefault(require("./convert"));
+var _convertUnit = _interopRequireDefault(require("./convertUnit"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function reduce(node, precision) {
-  if (node.type === "MathExpression") return reduceMathExpression(node, precision);
-  return node;
-}
 
 function isEqual(left, right) {
   return left.type === right.type && left.value === right.value;
@@ -34,29 +29,11 @@ function isValueType(type) {
     case 'VminValue':
     case 'VmaxValue':
     case 'PercentageValue':
-    case 'Value':
+    case 'Number':
       return true;
   }
 
   return false;
-}
-
-function convertMathExpression(node, precision) {
-  var nodes = (0, _convert.default)(node.left, node.right, precision);
-  var left = reduce(nodes.left, precision);
-  var right = reduce(nodes.right, precision);
-
-  if (left.type === "MathExpression" && right.type === "MathExpression") {
-    if (left.operator === '/' && right.operator === '*' || left.operator === '-' && right.operator === '+' || left.operator === '*' && right.operator === '/' || left.operator === '+' && right.operator === '-') {
-      if (isEqual(left.right, right.right)) nodes = (0, _convert.default)(left.left, right.left, precision);else if (isEqual(left.right, right.left)) nodes = (0, _convert.default)(left.left, right.right, precision);
-      left = reduce(nodes.left, precision);
-      right = reduce(nodes.right, precision);
-    }
-  }
-
-  node.left = left;
-  node.right = right;
-  return node;
 }
 
 function flip(operator) {
@@ -64,137 +41,192 @@ function flip(operator) {
 }
 
 function flipValue(node) {
-  if (isValueType(node.type)) node.value = -node.value;else if (node.type == 'MathExpression') {
-    node.left = flipValue(node.left);
-    node.right = flipValue(node.right);
+  if (isValueType(node.type)) {
+    node.value = -node.value;
+  } else if (node.type === 'MathExpression') {
+    if (node.operator === '*' || node.operator === '/') {
+      node.left = flipValue(node.left);
+    } else {
+      node.left = flipValue(node.left);
+      node.right = flipValue(node.right);
+    }
   }
+
   return node;
 }
 
 function reduceAddSubExpression(node, precision) {
-  var _node = node,
-      left = _node.left,
-      right = _node.right,
-      op = _node.operator;
-  if (left.type === 'Function' || right.type === 'Function') return node; // something + 0 => something
+  // something + 0 => something
   // something - 0 => something
+  if (isValueType(node.right.type) && node.right.value === 0) {
+    return node.left;
+  } // 0 + something => something
 
-  if (right.value === 0) return left; // 0 + something => something
 
-  if (left.value === 0 && op === "+") return right; // 0 - something => -something
+  if (isValueType(node.left.type) && node.left.value === 0 && node.operator === "+") {
+    return node.right;
+  } // 0 - something => -something
 
-  if (left.value === 0 && op === "-") return flipValue(right); // value + value
+
+  if (isValueType(node.left.type) && node.left.value === 0 && node.operator === "-" && node.right.type !== "Function") {
+    return flipValue(node.right);
+  } // value + value
   // value - value
 
-  if (left.type === right.type && isValueType(left.type)) {
-    node = Object.assign({}, left);
-    if (op === "+") node.value = left.value + right.value;else node.value = left.value - right.value;
+
+  if (isValueType(node.left.type) && node.left.type === node.right.type) {
+    var operator = node.operator;
+
+    var _covertNodesUnits = covertNodesUnits(node.left, node.right, precision),
+        left = _covertNodesUnits.left,
+        right = _covertNodesUnits.right;
+
+    if (operator === "+") {
+      left.value += right.value;
+    } else {
+      left.value -= right.value;
+    }
+
+    return left;
   } // value <op> (expr)
 
 
-  if (isValueType(left.type) && (right.operator === '+' || right.operator === '-') && right.type === 'MathExpression') {
-    // value + (value + something) => (value + value) + something
-    // value + (value - something) => (value + value) - something
-    // value - (value + something) => (value - value) - something
-    // value - (value - something) => (value - value) + something
-    if (left.type === right.left.type) {
-      node = Object.assign({}, node);
-      node.left = reduce({
-        type: 'MathExpression',
-        operator: op,
-        left: left,
-        right: right.left
-      }, precision);
-      node.right = right.right;
-      node.operator = op === '-' ? flip(right.operator) : right.operator;
-      return reduce(node, precision);
-    } // value + (something + value) => (value + value) + something
-    // value + (something - value) => (value - value) + something
-    // value - (something + value) => (value - value) - something
-    // value - (something - value) => (value + value) - something
-    else if (left.type === right.right.type) {
-        node = Object.assign({}, node);
+  if (node.right.type === 'MathExpression' && (node.right.operator === '+' || node.right.operator === '-')) {
+    // something - (something + something) => something - something - something
+    // something - (something - something) => something - something + something
+    if ((node.right.operator === '+' || node.right.operator === '-') && node.operator === '-') {
+      node.right.operator = flip(node.right.operator);
+    }
+
+    if (isValueType(node.left.type)) {
+      // value + (value + something) => value + something
+      // value + (value - something) => value - something
+      // value - (value + something) => value - something
+      // value - (value - something) => value + something
+      if (node.left.type === node.right.left.type) {
+        var _left = node.left,
+            _operator = node.operator,
+            _right = node.right;
         node.left = reduce({
           type: 'MathExpression',
-          operator: op === '-' ? flip(right.operator) : right.operator,
-          left: left,
-          right: right.right
-        }, precision);
-        node.right = right.left;
+          operator: _operator,
+          left: _left,
+          right: _right.left
+        });
+        node.operator = _right.operator;
+        node.right = _right.right;
         return reduce(node, precision);
-      } // value - (something + something) => value - something - something
-      else if (op === '-' && right.operator === '+') {
-          node = Object.assign({}, node);
-          node.right.operator = '-';
-          return reduce(node, precision);
-        }
+      } // something + (something + value) => dimension + something
+      // something + (something - value) => dimension + something
+      // something - (something + value) => dimension - something
+      // something - (something - value) => dimension - something
+
+
+      if (node.left.type === node.right.right.type) {
+        var _left2 = node.left,
+            _right2 = node.right;
+        node.left = reduce({
+          type: 'MathExpression',
+          operator: _right2.operator,
+          left: _left2,
+          right: _right2.right
+        });
+        node.right = _right2.left;
+        return reduce(node, precision);
+      }
+    }
   } // (expr) <op> value
 
 
-  if (left.type === 'MathExpression' && (left.operator === '+' || left.operator === '-') && isValueType(right.type)) {
-    // (value + something) + value => (value + value) + something
-    // (value - something) + value => (value + value) - something
-    // (value + something) - value => (value - value) + something
-    // (value - something) - value => (value - value) - something
-    if (right.type === left.left.type) {
-      node = Object.assign({}, left);
-      node.left = reduce({
+  if (node.left.type === 'MathExpression' && (node.left.operator === '+' || node.left.operator === '-') && isValueType(node.right.type)) {
+    // (value + something) + value => value + something
+    // (value - something) + value => value - something
+    // (value + something) - value => value + something
+    // (value - something) - value => value - something
+    if (node.right.type === node.left.left.type) {
+      var _left3 = node.left,
+          _operator2 = node.operator,
+          _right3 = node.right;
+      _left3.left = reduce({
         type: 'MathExpression',
-        operator: op,
-        left: left.left,
-        right: right
+        operator: _operator2,
+        left: _left3.left,
+        right: _right3
       }, precision);
-      return reduce(node, precision);
-    } // (something + value) + value => something + (value + value)
-    // (something - value1) + value2 => something - (value2 - value1)
-    // (something + value) - value => something + (value - value)
-    // (something - value) - value => something - (value + value)
-    else if (right.type === left.right.type) {
-        node = Object.assign({}, left);
+      return reduce(_left3, precision);
+    } // (something + dimension) + dimension => something + dimension
+    // (something - dimension) + dimension => something - dimension
+    // (something + dimension) - dimension => something + dimension
+    // (something - dimension) - dimension => something - dimension
 
-        if (left.operator === '-') {
-          node.right = reduce({
-            type: 'MathExpression',
-            operator: flip(op),
-            left: left.right,
-            right: right
-          }, precision);
 
-          if (node.right.value && node.right.value < 0) {
-            node.right.value = Math.abs(node.right.value);
-            node.operator = '+';
-          } else {
-            node.operator = left.operator;
-          }
-        } else {
-          node.right = reduce({
-            type: 'MathExpression',
-            operator: op,
-            left: left.right,
-            right: right
-          }, precision);
-        }
+    if (node.right.type === node.left.right.type) {
+      var _left4 = node.left,
+          _operator3 = node.operator,
+          _right4 = node.right;
 
-        if (node.right.value < 0) {
-          node.right.value *= -1;
-          node.operator = node.operator === '-' ? '+' : '-';
-        }
-
-        return reduce(node, precision);
+      if (_left4.operator === '-') {
+        _left4.operator = _operator3 === '-' ? '-' : '+';
+        _left4.right = reduce({
+          type: 'MathExpression',
+          operator: _operator3 === '-' ? '+' : '-',
+          left: _right4,
+          right: _left4.right
+        }, precision);
+      } else {
+        _left4.right = reduce({
+          type: 'MathExpression',
+          operator: _operator3,
+          left: _left4.right,
+          right: _right4
+        }, precision);
       }
-  }
 
-  if (left.type === 'MathExpression' && right.type === 'MathExpression' && op === '-' && right.operator === '-') {
-    node.right.operator = flip(node.right.operator);
+      if (_left4.right.value < 0) {
+        _left4.right.value *= -1;
+        _left4.operator = _left4.operator === '-' ? '+' : '-';
+      }
+
+      _left4.parenthesized = node.parenthesized;
+      return reduce(_left4, precision);
+    }
+  } // (expr) + (expr) => number
+  // (expr) - (expr) => number
+
+
+  if (node.right.type === 'MathExpression' && node.left.type === 'MathExpression') {
+    if (isEqual(node.left.right, node.right.right)) {
+      var newNodes = covertNodesUnits(node.left.left, node.right.left, precision);
+      node.left = newNodes.left;
+      node.right = newNodes.right;
+      return reduce(node);
+    }
+
+    if (isEqual(node.left.right, node.right.left)) {
+      var _newNodes = covertNodesUnits(node.left.left, node.right.right, precision);
+
+      node.left = _newNodes.left;
+      node.right = _newNodes.right;
+      return reduce(node);
+    }
   }
 
   return node;
 }
 
 function reduceDivisionExpression(node) {
-  if (!isValueType(node.right.type)) return node;
-  if (node.right.type !== 'Value') throw new Error(`Cannot divide by "${node.right.unit}", number expected`);
-  if (node.right.value === 0) throw new Error('Cannot divide by zero'); // something / value
+  if (!isValueType(node.right.type)) {
+    return node;
+  }
+
+  if (node.right.type !== 'Number') {
+    throw new Error(`Cannot divide by "${node.right.unit}", number expected`);
+  }
+
+  if (node.right.value === 0) {
+    throw new Error('Cannot divide by zero');
+  } // something / value
+
 
   if (isValueType(node.left.type)) {
     node.left.value /= node.right.value;
@@ -205,46 +237,86 @@ function reduceDivisionExpression(node) {
 }
 
 function reduceMultiplicationExpression(node) {
-  // (expr) * value
-  if (node.left.type === 'MathExpression' && node.right.type === 'Value') {
+  // (expr) * number
+  if (node.left.type === 'MathExpression' && node.right.type === 'Number') {
     if (isValueType(node.left.left.type) && isValueType(node.left.right.type)) {
       node.left.left.value *= node.right.value;
       node.left.right.value *= node.right.value;
       return node.left;
     }
-  } // something * value
-  else if (isValueType(node.left.type) && node.right.type === 'Value') {
-      node.left.value *= node.right.value;
-      return node.left;
-    } // value * (expr)
-    else if (node.left.type === 'Value' && node.right.type === 'MathExpression') {
-        if (isValueType(node.right.left.type) && isValueType(node.right.right.type)) {
-          node.right.left.value *= node.left.value;
-          node.right.right.value *= node.left.value;
-          return node.right;
-        }
-      } // value * something
-      else if (node.left.type === 'Value' && isValueType(node.right.type)) {
-          node.right.value *= node.left.value;
-          return node.right;
-        }
+  } // something * number
+
+
+  if (isValueType(node.left.type) && node.right.type === 'Number') {
+    node.left.value *= node.right.value;
+    return node.left;
+  } // number * (expr)
+
+
+  if (node.left.type === 'Number' && node.right.type === 'MathExpression') {
+    if (isValueType(node.right.left.type) && isValueType(node.right.right.type)) {
+      node.right.left.value *= node.left.value;
+      node.right.right.value *= node.left.value;
+      return node.right;
+    }
+  } // number * something
+
+
+  if (node.left.type === 'Number' && isValueType(node.right.type)) {
+    node.right.value *= node.left.value;
+    return node.right;
+  }
 
   return node;
 }
 
-function reduceMathExpression(node, precision) {
-  node = convertMathExpression(node, precision);
+function covertNodesUnits(left, right, precision) {
+  switch (left.type) {
+    case 'LengthValue':
+    case 'AngleValue':
+    case 'TimeValue':
+    case 'FrequencyValue':
+    case 'ResolutionValue':
+      if (right.type === left.type && right.unit && left.unit) {
+        var converted = (0, _convertUnit.default)(right.value, right.unit, left.unit, precision);
+        right = {
+          type: left.type,
+          value: converted,
+          unit: left.unit
+        };
+      }
 
-  switch (node.operator) {
-    case "+":
-    case "-":
-      return reduceAddSubExpression(node, precision);
+      return {
+        left,
+        right
+      };
 
-    case "/":
-      return reduceDivisionExpression(node, precision);
+    default:
+      return {
+        left,
+        right
+      };
+  }
+}
 
-    case "*":
-      return reduceMultiplicationExpression(node);
+function reduce(node, precision) {
+  if (node.type === "MathExpression") {
+    node.left = reduce(node.left, precision);
+    node.right = reduce(node.right, precision);
+
+    switch (node.operator) {
+      case "+":
+      case "-":
+        return reduceAddSubExpression(node, precision);
+
+      case "/":
+        return reduceDivisionExpression(node, precision);
+
+      case "*":
+        return reduceMultiplicationExpression(node, precision);
+    }
+
+    return node;
   }
 
   return node;

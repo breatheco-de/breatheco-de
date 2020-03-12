@@ -1,19 +1,14 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import quotedOrList from '../../jsutils/quotedOrList';
+import didYouMean from '../../jsutils/didYouMean';
 import suggestionList from '../../jsutils/suggestionList';
-import { type SDLValidationContext } from '../ValidationContext';
+
 import { GraphQLError } from '../../error/GraphQLError';
+
 import { Kind } from '../../language/kinds';
-import { isTypeDefinitionNode } from '../../language/predicates';
 import { type ASTVisitor } from '../../language/visitor';
+import { isTypeDefinitionNode } from '../../language/predicates';
+
 import {
   isScalarType,
   isObjectType,
@@ -23,15 +18,16 @@ import {
   isInputObjectType,
 } from '../../type/definition';
 
+import { type SDLValidationContext } from '../ValidationContext';
+
 export function extendingUnknownTypeMessage(
   typeName: string,
-  suggestedTypes: Array<string>,
+  suggestedTypes: $ReadOnlyArray<string>,
 ): string {
-  let message = `Cannot extend type "${typeName}" because it is not defined.`;
-  if (suggestedTypes.length) {
-    message += ` Did you mean ${quotedOrList(suggestedTypes)}?`;
-  }
-  return message;
+  return (
+    `Cannot extend type "${typeName}" because it is not defined.` +
+    didYouMean(suggestedTypes.map(x => `"${x}"`))
+  );
 }
 
 export function extendingDifferentTypeKindMessage(

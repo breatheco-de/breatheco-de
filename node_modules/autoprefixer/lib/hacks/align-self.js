@@ -22,8 +22,8 @@ function (_Declaration) {
   var _proto = AlignSelf.prototype;
 
   _proto.check = function check(decl) {
-    return decl.parent && decl.parent.every(function (i) {
-      return !/^grid-/.test(i.prop);
+    return decl.parent && !decl.parent.some(function (i) {
+      return i.prop && i.prop.startsWith('grid-');
     });
   }
   /**

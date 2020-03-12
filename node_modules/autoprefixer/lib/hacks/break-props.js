@@ -31,11 +31,11 @@ function (_Declaration) {
   ;
 
   _proto.normalize = function normalize(prop) {
-    if (prop.indexOf('inside') !== -1) {
+    if (prop.includes('inside')) {
       return 'break-inside';
     }
 
-    if (prop.indexOf('before') !== -1) {
+    if (prop.includes('before')) {
       return 'break-before';
     }
 

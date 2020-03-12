@@ -1,17 +1,13 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import { GraphQLError } from '../error/GraphQLError';
-import { visit, visitWithTypeInfo } from '../language/visitor';
+
 import { type DocumentNode } from '../language/ast';
+import { visit, visitWithTypeInfo } from '../language/visitor';
+
 import { getNamedType } from '../type/definition';
 import { type GraphQLSchema } from '../type/schema';
+
 import { TypeInfo } from './TypeInfo';
 
 /**

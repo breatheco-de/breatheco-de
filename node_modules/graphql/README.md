@@ -11,12 +11,11 @@ https://graphql.org/graphql-js/.
 
 Looking for help? Find resources [from the community](https://graphql.org/community/).
 
-
 ## Getting Started
 
 An overview of GraphQL in general is available in the
-[README](https://github.com/facebook/graphql/blob/master/README.md) for the
-[Specification for GraphQL](https://github.com/facebook/graphql). That overview
+[README](https://github.com/graphql/graphql-spec/blob/master/README.md) for the
+[Specification for GraphQL](https://github.com/graphql/graphql-spec). That overview
 describes a simple set of GraphQL examples that exist as [tests](src/__tests__)
 in this repository. A good way to get started with this repository is to walk
 through that README and the corresponding tests in parallel.
@@ -47,7 +46,7 @@ import {
   graphql,
   GraphQLSchema,
   GraphQLObjectType,
-  GraphQLString
+  GraphQLString,
 } from 'graphql';
 
 var schema = new GraphQLSchema({
@@ -58,10 +57,10 @@ var schema = new GraphQLSchema({
         type: GraphQLString,
         resolve() {
           return 'world';
-        }
-      }
-    }
-  })
+        },
+      },
+    },
+  }),
 });
 ```
 
@@ -76,13 +75,11 @@ Then, serve the result of a query against that type schema.
 var query = '{ hello }';
 
 graphql(schema, query).then(result => {
-
   // Prints
   // {
   //   data: { hello: "world" }
   // }
   console.log(result);
-
 });
 ```
 
@@ -94,7 +91,6 @@ it, reporting errors otherwise.
 var query = '{ boyhowdy }';
 
 graphql(schema, query).then(result => {
-
   // Prints
   // {
   //   errors: [
@@ -103,7 +99,6 @@ graphql(schema, query).then(result => {
   //   ]
   // }
   console.log(result);
-
 });
 ```
 

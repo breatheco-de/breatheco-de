@@ -96,7 +96,7 @@ function (_Prefixer) {
   _proto.check = function check(decl) {
     var value = decl.value;
 
-    if (value.indexOf(this.name) === -1) {
+    if (!value.includes(this.name)) {
       return false;
     }
 

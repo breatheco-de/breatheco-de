@@ -4,6 +4,7 @@ var fromEntries = require('../');
 fromEntries.shim();
 
 var test = require('tape');
+var keys = require('object-keys');
 var defineProperties = require('define-properties');
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = function f() {}.name === 'f';
@@ -27,6 +28,14 @@ test('shimmed', function (t) {
 	t.test('bad object value', { skip: !supportsStrictMode }, function (st) {
 		st['throws'](function () { return Object.fromEntries(undefined); }, TypeError, 'undefined is not an object');
 		st['throws'](function () { return Object.fromEntries(null); }, TypeError, 'null is not an object');
+		st.end();
+	});
+
+	t.test('does not mutate global method', function (st) {
+		st.deepEqual(keys(Object.fromEntries), [], 'no enumerable keys');
+		st.equal('shim' in Object.fromEntries, false, '"shim" is not present');
+		st.equal('getPolyfill' in Object.fromEntries, false, '"getPolyfill" is not present');
+		st.equal('implementation' in Object.fromEntries, false, '"implementation" is not present');
 		st.end();
 	});
 

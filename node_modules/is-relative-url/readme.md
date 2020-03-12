@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save is-relative-url
+$ npm install is-relative-url
 ```
 
 
@@ -18,7 +18,7 @@ const isRelativeUrl = require('is-relative-url');
 isRelativeUrl('foo/bar');
 //=> true
 
-isRelativeUrl('http://sindresorhus.com/foo/bar');
+isRelativeUrl('https://sindresorhus.com/foo/bar');
 //=> false
 
 isRelativeUrl('//sindresorhus.com');
@@ -33,4 +33,4 @@ See [is-absolute-url](https://github.com/sindresorhus/is-absolute-url) for the i
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

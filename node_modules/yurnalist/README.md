@@ -134,26 +134,83 @@ The API still needs some documentation, but most methods are straightforward. In
 
 The following functions are available:
 
-* table
-* step
-* inspect
-* list
-* header
-* footer
-* log
-* success
-* error
-* info
-* command
-* warn
-* question
-* tree
-* activitySet
-* activity
-* select
-* progress
-* close
-* createReporter
+
+### table
+### step
+
+### inspect( thing: mixed )
+
+Pretty-prints the `thing`.
+
+### list(key: string, items: Array<string>, hints?: Object) 
+
+Generates a list of the provided items. Turns into a definition 
+list if `hints` are provided. Note that the `key` is not used.
+
+Example of a simple list:
+
+```
+const someList = ['bananas', 'tulips', 'eggs', 'bamischijf'];
+
+report.info('My grocery list');
+report.list('ignored', someList);
+```
+
+generates
+
+```
+info My grocery list
+   - bananas
+   - tulips
+   - eggs
+   - bamischijf
+```
+
+
+Example with hints:
+
+```
+const someList = ['bananas', 'tulips', 'eggs', 'bamischijf'];
+
+const hints = {
+  bananas: 'for baking',
+  tulips: 'because it makes you happy',
+  eggs: 'not the cheap ones though',
+  bamischijf: 'if they have it',
+};
+
+report.info('My grocery list');
+report.list('dunno', someList, hints);
+```
+generates
+```
+info My grocery list 
+    - bananas
+      for baking
+   - tulips
+      because it makes you happy
+   - eggs
+      not the cheap ones though
+   - bamischijf
+      if they have it
+```
+
+### header
+### footer
+### log
+### success
+### error
+### info
+### command
+### warn
+### question
+### tree
+### activitySet
+### activity
+### select
+### progress
+### close
+### createReporter
 
 ## Language
 

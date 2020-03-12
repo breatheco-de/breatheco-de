@@ -1,6 +1,250 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [13.1.1](https://www.github.com/yargs/yargs-parser/compare/v13.1.0...v13.1.1) (2019-06-10)
+
+
+### Bug Fixes
+
+* convert values to strings when tokenizing ([#167](https://www.github.com/yargs/yargs-parser/issues/167)) ([57b7883](https://www.github.com/yargs/yargs-parser/commit/57b7883))
+* nargs should allow duplicates when duplicate-arguments-array=false ([#164](https://www.github.com/yargs/yargs-parser/issues/164)) ([47ccb0b](https://www.github.com/yargs/yargs-parser/commit/47ccb0b))
+* should populate "_" when given config with "short-option-groups" false ([#179](https://www.github.com/yargs/yargs-parser/issues/179)) ([6055974](https://www.github.com/yargs/yargs-parser/commit/6055974))
+
+## [13.1.0](https://github.com/yargs/yargs-parser/compare/v13.0.0...v13.1.0) (2019-05-05)
+
+
+### Features
+
+* add `strip-aliased` and `strip-dashed` configuration options. ([#172](https://github.com/yargs/yargs-parser/issues/172)) ([a3936aa](https://github.com/yargs/yargs-parser/commit/a3936aa))
+* support boolean which do not consume next argument. ([#171](https://github.com/yargs/yargs-parser/issues/171)) ([0ae7fcb](https://github.com/yargs/yargs-parser/commit/0ae7fcb))
+
+
+
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/yargs/yargs-parser/compare/v12.0.0...v13.0.0) (2019-02-02)
+
+
+### Features
+
+* don't coerce number from string with leading '0' or '+' ([#158](https://github.com/yargs/yargs-parser/issues/158)) ([18d0fd5](https://github.com/yargs/yargs-parser/commit/18d0fd5))
+
+
+### BREAKING CHANGES
+
+* options with leading '+' or '0' now parse as strings
+
+
+
+<a name="12.0.0"></a>
+# [12.0.0](https://github.com/yargs/yargs-parser/compare/v11.1.1...v12.0.0) (2019-01-29)
+
+
+### Bug Fixes
+
+* better handling of quoted strings ([#153](https://github.com/yargs/yargs-parser/issues/153)) ([2fb71b2](https://github.com/yargs/yargs-parser/commit/2fb71b2))
+
+
+### Features
+
+* default value is now used if no right-hand value provided for numbers/strings ([#156](https://github.com/yargs/yargs-parser/issues/156)) ([5a7c46a](https://github.com/yargs/yargs-parser/commit/5a7c46a))
+
+
+### BREAKING CHANGES
+
+* a flag with no right-hand value no longer populates defaulted options with `undefined`.
+* quotes at beginning and endings of strings are not removed during parsing.
+
+
+
+<a name="11.1.1"></a>
+## [11.1.1](https://github.com/yargs/yargs-parser/compare/v11.1.0...v11.1.1) (2018-11-19)
+
+
+### Bug Fixes
+
+* ensure empty string is added into argv._ ([#140](https://github.com/yargs/yargs-parser/issues/140)) ([79cda98](https://github.com/yargs/yargs-parser/commit/79cda98))
+
+
+### Reverts
+
+* make requiresArg work in conjunction with arrays ([#136](https://github.com/yargs/yargs-parser/issues/136)) ([f4a3063](https://github.com/yargs/yargs-parser/commit/f4a3063))
+
+
+
+<a name="11.1.0"></a>
+# [11.1.0](https://github.com/yargs/yargs-parser/compare/v11.0.0...v11.1.0) (2018-11-10)
+
+
+### Bug Fixes
+
+* handling of one char alias ([#139](https://github.com/yargs/yargs-parser/issues/139)) ([ee56e31](https://github.com/yargs/yargs-parser/commit/ee56e31))
+
+
+### Features
+
+* add halt-at-non-option configuration option ([#130](https://github.com/yargs/yargs-parser/issues/130)) ([a849fce](https://github.com/yargs/yargs-parser/commit/a849fce))
+
+
+
+<a name="11.0.0"></a>
+# [11.0.0](https://github.com/yargs/yargs-parser/compare/v10.1.0...v11.0.0) (2018-10-06)
+
+
+### Bug Fixes
+
+* flatten-duplicate-arrays:false for more than 2 arrays ([#128](https://github.com/yargs/yargs-parser/issues/128)) ([2bc395f](https://github.com/yargs/yargs-parser/commit/2bc395f))
+* hyphenated flags combined with dot notation broke parsing ([#131](https://github.com/yargs/yargs-parser/issues/131)) ([dc788da](https://github.com/yargs/yargs-parser/commit/dc788da))
+* make requiresArg work in conjunction with arrays ([#136](https://github.com/yargs/yargs-parser/issues/136)) ([77ae1d4](https://github.com/yargs/yargs-parser/commit/77ae1d4))
+
+
+### Chores
+
+* update dependencies ([6dc42a1](https://github.com/yargs/yargs-parser/commit/6dc42a1))
+
+
+### Features
+
+* also add camelCase array options ([#125](https://github.com/yargs/yargs-parser/issues/125)) ([08c0117](https://github.com/yargs/yargs-parser/commit/08c0117))
+* array.type can now be provided, supporting coercion ([#132](https://github.com/yargs/yargs-parser/issues/132)) ([4b8cfce](https://github.com/yargs/yargs-parser/commit/4b8cfce))
+
+
+### BREAKING CHANGES
+
+* drops Node 4 support
+* the argv object is now populated differently (correctly) when hyphens and dot notation are used in conjunction.
+
+
+
+<a name="10.1.0"></a>
+# [10.1.0](https://github.com/yargs/yargs-parser/compare/v10.0.0...v10.1.0) (2018-06-29)
+
+
+### Features
+
+* add `set-placeholder-key` configuration ([#123](https://github.com/yargs/yargs-parser/issues/123)) ([19386ee](https://github.com/yargs/yargs-parser/commit/19386ee))
+
+
+
+<a name="10.0.0"></a>
+# [10.0.0](https://github.com/yargs/yargs-parser/compare/v9.0.2...v10.0.0) (2018-04-04)
+
+
+### Bug Fixes
+
+* do not set boolean flags if not defined in `argv` ([#119](https://github.com/yargs/yargs-parser/issues/119)) ([f6e6599](https://github.com/yargs/yargs-parser/commit/f6e6599))
+
+
+### BREAKING CHANGES
+
+* `boolean` flags defined without a `default` value will now behave like other option type and won't be set in the parsed results when the user doesn't set the corresponding CLI arg.
+
+Previous behavior:
+```js
+var parse = require('yargs-parser');
+
+parse('--flag', {boolean: ['flag']});
+// => { _: [], flag: true }
+
+parse('--no-flag', {boolean: ['flag']});
+// => { _: [], flag: false }
+
+parse('', {boolean: ['flag']});
+// => { _: [], flag: false }
+```
+
+New behavior:
+```js
+var parse = require('yargs-parser');
+
+parse('--flag', {boolean: ['flag']});
+// => { _: [], flag: true }
+
+parse('--no-flag', {boolean: ['flag']});
+// => { _: [], flag: false }
+
+parse('', {boolean: ['flag']});
+// => { _: [] } => flag not set similarly to other option type
+```
+
+
+
+<a name="9.0.2"></a>
+## [9.0.2](https://github.com/yargs/yargs-parser/compare/v9.0.1...v9.0.2) (2018-01-20)
+
+
+### Bug Fixes
+
+* nargs was still aggressively consuming too many arguments ([9b28aad](https://github.com/yargs/yargs-parser/commit/9b28aad))
+
+
+
+<a name="9.0.1"></a>
+## [9.0.1](https://github.com/yargs/yargs-parser/compare/v9.0.0...v9.0.1) (2018-01-20)
+
+
+### Bug Fixes
+
+* nargs was consuming too many arguments ([4fef206](https://github.com/yargs/yargs-parser/commit/4fef206))
+
+
+
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/yargs/yargs-parser/compare/v8.1.0...v9.0.0) (2018-01-20)
+
+
+### Features
+
+* narg arguments no longer consume flag arguments ([#114](https://github.com/yargs/yargs-parser/issues/114)) ([60bb9b3](https://github.com/yargs/yargs-parser/commit/60bb9b3))
+
+
+### BREAKING CHANGES
+
+* arguments of form --foo, -abc, will no longer be consumed by nargs
+
+
+
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/yargs/yargs-parser/compare/v8.0.0...v8.1.0) (2017-12-20)
+
+
+### Bug Fixes
+
+* allow null config values ([#108](https://github.com/yargs/yargs-parser/issues/108)) ([d8b14f9](https://github.com/yargs/yargs-parser/commit/d8b14f9))
+* ensure consistent parsing of dot-notation arguments ([#102](https://github.com/yargs/yargs-parser/issues/102)) ([c9bd79c](https://github.com/yargs/yargs-parser/commit/c9bd79c))
+* implement [@antoniom](https://github.com/antoniom)'s fix for camel-case expansion ([3087e1d](https://github.com/yargs/yargs-parser/commit/3087e1d))
+* only run coercion functions once, despite aliases. ([#76](https://github.com/yargs/yargs-parser/issues/76)) ([#103](https://github.com/yargs/yargs-parser/issues/103)) ([507aaef](https://github.com/yargs/yargs-parser/commit/507aaef))
+* scientific notation circumvented bounds check ([#110](https://github.com/yargs/yargs-parser/issues/110)) ([3571f57](https://github.com/yargs/yargs-parser/commit/3571f57))
+* tokenizer should ignore spaces at the beginning of the argString ([#106](https://github.com/yargs/yargs-parser/issues/106)) ([f34ead9](https://github.com/yargs/yargs-parser/commit/f34ead9))
+
+
+### Features
+
+* make combining arrays a configurable option ([#111](https://github.com/yargs/yargs-parser/issues/111)) ([c8bf536](https://github.com/yargs/yargs-parser/commit/c8bf536))
+* merge array from arguments with array from config ([#83](https://github.com/yargs/yargs-parser/issues/83)) ([806ddd6](https://github.com/yargs/yargs-parser/commit/806ddd6))
+
+
+
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/yargs/yargs-parser/compare/v7.0.0...v8.0.0) (2017-10-05)
+
+
+### Bug Fixes
+
+* Ignore multiple spaces between arguments. ([#100](https://github.com/yargs/yargs-parser/issues/100)) ([d137227](https://github.com/yargs/yargs-parser/commit/d137227))
+
+
+### Features
+
+* allow configuration of prefix for boolean negation ([#94](https://github.com/yargs/yargs-parser/issues/94)) ([00bde7d](https://github.com/yargs/yargs-parser/commit/00bde7d))
+* reworking how numbers are parsed ([#104](https://github.com/yargs/yargs-parser/issues/104)) ([fba00eb](https://github.com/yargs/yargs-parser/commit/fba00eb))
+
+
+### BREAKING CHANGES
+
+* strings that fail `Number.isSafeInteger()` are no longer coerced into numbers. 
+
+
 
 <a name="7.0.0"></a>
 # [7.0.0](https://github.com/yargs/yargs-parser/compare/v6.0.1...v7.0.0) (2017-05-02)

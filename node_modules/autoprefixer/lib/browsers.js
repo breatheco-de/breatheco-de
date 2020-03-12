@@ -90,7 +90,7 @@ function () {
   ;
 
   _proto.isSelected = function isSelected(browser) {
-    return this.selected.indexOf(browser) !== -1;
+    return this.selected.includes(browser);
   };
 
   return Browsers;

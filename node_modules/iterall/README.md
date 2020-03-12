@@ -243,21 +243,47 @@ automatically update README.md
 -   [Iterable](#iterable)
 -   [Iterator](#iterator)
 -   [$$iterator](#iterator-1)
+    -   [Examples](#examples)
 -   [isIterable](#isiterable)
+    -   [Parameters](#parameters)
+    -   [Examples](#examples-1)
 -   [isArrayLike](#isarraylike)
+    -   [Parameters](#parameters-1)
+    -   [Examples](#examples-2)
 -   [isCollection](#iscollection)
+    -   [Parameters](#parameters-2)
+    -   [Examples](#examples-3)
 -   [getIterator](#getiterator)
+    -   [Parameters](#parameters-3)
+    -   [Examples](#examples-4)
 -   [getIteratorMethod](#getiteratormethod)
+    -   [Parameters](#parameters-4)
+    -   [Examples](#examples-5)
 -   [createIterator](#createiterator)
+    -   [Parameters](#parameters-5)
+    -   [Examples](#examples-6)
 -   [forEach](#foreach)
+    -   [Parameters](#parameters-6)
+    -   [Examples](#examples-7)
 -   [AsyncIterable](#asynciterable)
 -   [AsyncIterator](#asynciterator)
 -   [$$asyncIterator](#asynciterator-1)
+    -   [Examples](#examples-8)
 -   [isAsyncIterable](#isasynciterable)
+    -   [Parameters](#parameters-7)
+    -   [Examples](#examples-9)
 -   [getAsyncIterator](#getasynciterator)
+    -   [Parameters](#parameters-8)
+    -   [Examples](#examples-10)
 -   [getAsyncIteratorMethod](#getasynciteratormethod)
+    -   [Parameters](#parameters-9)
+    -   [Examples](#examples-11)
 -   [createAsyncIterator](#createasynciterator)
+    -   [Parameters](#parameters-10)
+    -   [Examples](#examples-12)
 -   [forAwaitEach](#forawaiteach)
+    -   [Parameters](#parameters-11)
+    -   [Examples](#examples-13)
 
 ### Iterable
 
@@ -295,7 +321,9 @@ Use `$$iterator` for defining new Iterables instead of `Symbol.iterator`,
 but do not use it for accessing existing Iterables, instead use
 [getIterator](#getiterator) or [isIterable](#isiterable).
 
-**Examples**
+Type: ([Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol) \| [string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String))
+
+#### Examples
 
 ```javascript
 var $$iterator = require('iterall').$$iterator
@@ -328,11 +356,11 @@ for (var number of counter) {
 Returns true if the provided object implements the Iterator protocol via
 either implementing a `Symbol.iterator` or `"@@iterator"` method.
 
-**Parameters**
+#### Parameters
 
 -   `obj`  A value which might implement the Iterable protocol.
 
-**Examples**
+#### Examples
 
 ```javascript
 var isIterable = require('iterall').isIterable
@@ -350,11 +378,11 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 Returns true if the provided object implements the Array-like protocol via
 defining a positive-integer `length` property.
 
-**Parameters**
+#### Parameters
 
 -   `obj`  A value which might implement the Array-like protocol.
 
-**Examples**
+#### Examples
 
 ```javascript
 var isArrayLike = require('iterall').isArrayLike
@@ -377,11 +405,11 @@ object should be iterated-over. It always excludes string literals and
 includes Arrays (regardless of if it is Iterable). It also includes other
 Array-like objects such as NodeList, TypedArray, and Buffer.
 
-**Parameters**
+#### Parameters
 
 -   `obj`  An Object value which might implement the Iterable or Array-like protocols.
 
-**Examples**
+#### Examples
 
 ```javascript
 var isCollection = require('iterall').isCollection
@@ -408,11 +436,11 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 If the provided object implements the Iterator protocol, its Iterator object
 is returned. Otherwise returns undefined.
 
-**Parameters**
+#### Parameters
 
 -   `iterable` **[Iterable](#iterable)&lt;T>** An Iterable object which is the source of an Iterator.
 
-**Examples**
+#### Examples
 
 ```javascript
 var getIterator = require('iterall').getIterator
@@ -433,11 +461,11 @@ responsible for producing its Iterator object is returned.
 This is used in rare cases for performance tuning. This method must be called
 with obj as the contextual this-argument.
 
-**Parameters**
+#### Parameters
 
 -   `iterable` **[Iterable](#iterable)&lt;T>** An Iterable object which defines an `@@iterator` method.
 
-**Examples**
+#### Examples
 
 ```javascript
 var getIteratorMethod = require('iterall').getIteratorMethod
@@ -463,11 +491,11 @@ iteration as opposed to `forEach`'s "push"-based iteration.
 as ArrayIteratorPrototype described in the ECMAScript specification, and
 does _not_ skip over "holes".
 
-**Parameters**
+#### Parameters
 
 -   `collection` **([Iterable](#iterable)&lt;T> | {length: [number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)})** An Iterable or Array-like object to produce an Iterator.
 
-**Examples**
+#### Examples
 
 ```javascript
 var createIterator = require('iterall').createIterator
@@ -500,13 +528,13 @@ Note: providing an infinite Iterator to forEach will produce an error.
 
 [array#foreach]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
-**Parameters**
+#### Parameters
 
 -   `collection` **([Iterable](#iterable)&lt;T> | {length: [number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)})** The Iterable or array to iterate over.
 -   `callback` **function (T, [number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number), [object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object))** Function to execute for each iteration, taking up to three arguments
 -   `thisArg`  Optional. Value to use as `this` when executing `callback`.
 
-**Examples**
+#### Examples
 
 ```javascript
 var forEach = require('iterall').forEach
@@ -568,7 +596,9 @@ Use `$$asyncIterator` for defining new AsyncIterables instead of
 `Symbol.asyncIterator`, but do not use it for accessing existing Iterables,
 instead use [getAsyncIterator](#getasynciterator) or [isAsyncIterable](#isasynciterable).
 
-**Examples**
+Type: ([Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol) \| [string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String))
+
+#### Examples
 
 ```javascript
 var $$asyncIterator = require('iterall').$$asyncIterator
@@ -606,11 +636,11 @@ for await (var number of chirper) {
 Returns true if the provided object implements the AsyncIterator protocol via
 either implementing a `Symbol.asyncIterator` or `"@@asyncIterator"` method.
 
-**Parameters**
+#### Parameters
 
 -   `obj`  A value which might implement the AsyncIterable protocol.
 
-**Examples**
+#### Examples
 
 ```javascript
 var isAsyncIterable = require('iterall').isAsyncIterable
@@ -625,11 +655,11 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 If the provided object implements the AsyncIterator protocol, its
 AsyncIterator object is returned. Otherwise returns undefined.
 
-**Parameters**
+#### Parameters
 
 -   `asyncIterable` **[AsyncIterable](#asynciterable)&lt;T>** An AsyncIterable object which is the source of an AsyncIterator.
 
-**Examples**
+#### Examples
 
 ```javascript
 var getAsyncIterator = require('iterall').getAsyncIterator
@@ -650,11 +680,11 @@ responsible for producing its AsyncIterator object is returned.
 This is used in rare cases for performance tuning. This method must be called
 with obj as the contextual this-argument.
 
-**Parameters**
+#### Parameters
 
 -   `asyncIterable` **[AsyncIterable](#asynciterable)&lt;T>** An AsyncIterable object which defines an `@@asyncIterator` method.
 
-**Examples**
+#### Examples
 
 ```javascript
 var getAsyncIteratorMethod = require('iterall').getAsyncIteratorMethod
@@ -684,11 +714,11 @@ described in the ECMAScript proposal [Async-from-Sync Iterator Objects](https://
 > While `Promise` has been available in modern browsers for a number of
 > years, legacy browsers (like IE 11) may require a polyfill.
 
-**Parameters**
+#### Parameters
 
 -   `source` **([AsyncIterable](#asynciterable)&lt;T> | [Iterable](#iterable)&lt;T> | {length: [number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)})** An AsyncIterable, Iterable, or Array-like object to produce an Iterator.
 
-**Examples**
+#### Examples
 
 ```javascript
 var createAsyncIterator = require('iterall').createAsyncIterator
@@ -717,13 +747,13 @@ arguments, and is provided with `thisArg` as the calling context.
 > While `Promise` has been available in modern browsers for a number of
 > years, legacy browsers (like IE 11) may require a polyfill.
 
-**Parameters**
+#### Parameters
 
 -   `source` **([AsyncIterable](#asynciterable)&lt;T> | [Iterable](#iterable)&lt;([Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)&lt;T> | T)> | {length: [number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)})** The AsyncIterable or array to iterate over.
 -   `callback` **function (T, [number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number), [object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object))** Function to execute for each iteration, taking up to three arguments
 -   `thisArg`  Optional. Value to use as `this` when executing `callback`.
 
-**Examples**
+#### Examples
 
 ```javascript
 var forAwaitEach = require('iterall').forAwaitEach

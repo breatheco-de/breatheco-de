@@ -46,7 +46,7 @@ function () {
     }
 
     var filtered = this.all.browsers.selected.filter(function (i) {
-      return supported.indexOf(i) !== -1;
+      return supported.includes(i);
     });
     var browsers = new Browsers(this.all.browsers.data, filtered, this.all.options);
     this.prefixerCache = new this.Prefixes(this.all.data, browsers, this.all.options);
@@ -302,7 +302,7 @@ function () {
       return i !== '';
     });
 
-    if (typeof nodes[0] === 'string' && nodes[0].indexOf(':') !== -1) {
+    if (typeof nodes[0] === 'string' && nodes[0].includes(':')) {
       return [brackets.stringify(nodes)];
     }
 
@@ -356,23 +356,23 @@ function () {
 
   _proto.disabled = function disabled(node) {
     if (!this.all.options.grid) {
-      if (node.prop === 'display' && node.value.indexOf('grid') !== -1) {
+      if (node.prop === 'display' && node.value.includes('grid')) {
         return true;
       }
 
-      if (node.prop.indexOf('grid') !== -1 || node.prop === 'justify-items') {
+      if (node.prop.includes('grid') || node.prop === 'justify-items') {
         return true;
       }
     }
 
     if (this.all.options.flexbox === false) {
-      if (node.prop === 'display' && node.value.indexOf('flex') !== -1) {
+      if (node.prop === 'display' && node.value.includes('flex')) {
         return true;
       }
 
       var other = ['order', 'justify-content', 'align-items', 'align-content'];
 
-      if (node.prop.indexOf('flex') !== -1 || other.indexOf(node.prop) !== -1) {
+      if (node.prop.includes('flex') || other.includes(node.prop)) {
         return true;
       }
     }

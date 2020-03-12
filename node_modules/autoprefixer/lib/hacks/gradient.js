@@ -38,8 +38,7 @@ function (_Value) {
       top: 'bottom',
       left: 'right',
       bottom: 'top',
-      right: 'left' // Direction to replace
-
+      right: 'left'
     });
 
     _defineProperty(_assertThisInitialized(_this), "oldDirections", {
@@ -55,10 +54,6 @@ function (_Value) {
       'bottom left': 'right top, left bottom',
       'left top': 'right bottom, left top',
       'left bottom': 'right top, left bottom'
-      /**
-       * Change degrees for webkit prefix
-       */
-
     });
 
     return _this;
@@ -66,6 +61,9 @@ function (_Value) {
 
   var _proto = Gradient.prototype;
 
+  /**
+   * Change degrees for webkit prefix
+   */
   _proto.replace = function replace(string, prefix) {
     var ast = parser(string);
 
@@ -151,7 +149,7 @@ function (_Value) {
       nodes[0].value = this.normalizeUnit(nodes[0].value, 2 * Math.PI);
     } else if (/-?\d+(.\d+)?turn/.test(nodes[0].value)) {
       nodes[0].value = this.normalizeUnit(nodes[0].value, 1);
-    } else if (nodes[0].value.indexOf('deg') !== -1) {
+    } else if (nodes[0].value.includes('deg')) {
       var num = parseFloat(nodes[0].value);
       num = range.wrap(0, 360, num);
       nodes[0].value = num + "deg";
@@ -251,7 +249,7 @@ function (_Value) {
     if (params.length > 0) {
       if (params[0].value === 'to') {
         this.fixDirection(params);
-      } else if (params[0].value.indexOf('deg') !== -1) {
+      } else if (params[0].value.includes('deg')) {
         this.fixAngle(params);
       } else if (this.isRadial(params)) {
         this.fixRadial(params);
@@ -348,8 +346,8 @@ function (_Value) {
    */
   ;
 
-  _proto.roundFloat = function roundFloat(float, digits) {
-    return parseFloat(float.toFixed(digits));
+  _proto.roundFloat = function roundFloat(_float, digits) {
+    return parseFloat(_float.toFixed(digits));
   }
   /**
    * Convert to old webkit syntax
@@ -364,11 +362,11 @@ function (_Value) {
       return false;
     }
 
-    if (nodes[0] && nodes[0].value.indexOf('deg') !== -1) {
+    if (nodes[0] && nodes[0].value.includes('deg')) {
       return false;
     }
 
-    if (string.indexOf('px') !== -1 || string.indexOf('-corner') !== -1 || string.indexOf('-side') !== -1) {
+    if (string.includes('px') || string.includes('-corner') || string.includes('-side')) {
       return false;
     }
 
@@ -560,7 +558,7 @@ function (_Value) {
   _proto.add = function add(decl, prefix) {
     var p = decl.prop;
 
-    if (p.indexOf('mask') !== -1) {
+    if (p.includes('mask')) {
       if (prefix === '-webkit-' || prefix === '-webkit- old') {
         return _Value.prototype.add.call(this, decl, prefix);
       }

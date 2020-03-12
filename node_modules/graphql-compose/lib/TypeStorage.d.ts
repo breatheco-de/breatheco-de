@@ -18,10 +18,7 @@ export class TypeStorage<K, V> {
 
   public entries(): Iterator<[K, V]>;
 
-  public forEach(
-    callbackfn: (value: V, index: K, map: Map<K, V>) => any,
-    thisArg?: any,
-  ): void;
+  public forEach(callbackfn: (value: V, index: K, map: Map<K, V>) => any, thisArg?: any): void;
 
   public get(key: K): V;
 

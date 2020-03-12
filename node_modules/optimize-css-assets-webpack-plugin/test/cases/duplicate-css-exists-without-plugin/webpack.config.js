@@ -1,23 +1,20 @@
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
-import OptimizeCssAssetsPlugin from '../../../src/';
+import ExtractTextPlugin from "extract-text-webpack-plugin";
+import OptimizeCssAssetsPlugin from "../../../src/";
 
 module.exports = {
-  entry: './index',
+  entry: "./index",
   module: {
     rules: [
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
-          fallback: { loader: 'style-loader' },
+          fallback: { loader: "style-loader" },
           use: {
-            loader: 'css-loader',
-            options: { minimize: true }
+            loader: "css-loader"
           }
         })
-      },
-    ],
+      }
+    ]
   },
-  plugins: [
-    new ExtractTextPlugin('file.css')
-  ],
+  plugins: [new ExtractTextPlugin("file.css")]
 };

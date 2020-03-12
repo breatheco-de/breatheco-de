@@ -1,29 +1,24 @@
 /* @flow strict */
 /* eslint-disable no-use-before-define */
 
-import { GraphQLObjectType, GraphQLInputObjectType, getNamedType } from '../graphql';
-import type { GraphQLInputType, GraphQLOutputType } from '../graphql';
-import { ObjectTypeComposer } from '../ObjectTypeComposer';
-import { InputTypeComposer } from '../InputTypeComposer';
+import { ObjectTypeComposer, type ComposeOutputType } from '../ObjectTypeComposer';
+import { InputTypeComposer, type ComposeInputType } from '../InputTypeComposer';
 import { InterfaceTypeComposer } from '../InterfaceTypeComposer';
-import { UnionTypeComposer } from '../UnionTypeComposer';
 import { Resolver } from '../Resolver';
-import type { SchemaComposer } from '../SchemaComposer';
+import type { SchemaComposer, AnyComposeType } from '../SchemaComposer';
+import { GraphQLNonNull, GraphQLList } from '../graphql';
+
+type TypeInPath<TContext> = AnyComposeType<TContext> | Resolver<any, TContext, any>;
 
 /**
  * fieldName
  * @argName
  * #resolver
  */
-export function typeByPath(
-  src:
-    | ObjectTypeComposer<any, any>
-    | InputTypeComposer<any>
-    | Resolver<any, any, any>
-    | InterfaceTypeComposer<any, any>
-    | UnionTypeComposer<any, any>,
+export function typeByPath<TContext>(
+  src: TypeInPath<TContext>,
   path: string | Array<string>
-) {
+): TypeInPath<TContext> | void {
   const parts = Array.isArray(path) ? path : String(path).split('.');
 
   if (parts.length === 0) {
@@ -43,7 +38,10 @@ export function typeByPath(
   return src;
 }
 
-export function typeByPathTC(tc: ObjectTypeComposer<any, any>, parts: Array<string>) {
+export function typeByPathTC<TContext>(
+  tc: ObjectTypeComposer<any, TContext>,
+  parts: Array<string>
+): TypeInPath<TContext> | void {
   if (!tc) return undefined;
   if (parts.length === 0) return tc;
 
@@ -72,7 +70,10 @@ export function typeByPathTC(tc: ObjectTypeComposer<any, any>, parts: Array<stri
   return processType(fieldType, parts.slice(1), tc.schemaComposer);
 }
 
-export function typeByPathITC(itc: InputTypeComposer<any>, parts: Array<string>) {
+export function typeByPathITC<TContext>(
+  itc: InputTypeComposer<TContext>,
+  parts: Array<string>
+): TypeInPath<TContext> | void {
   if (!itc) return undefined;
   if (parts.length === 0) return itc;
 
@@ -80,7 +81,10 @@ export function typeByPathITC(itc: InputTypeComposer<any>, parts: Array<string>)
   return processType(fieldType, parts.slice(1), itc.schemaComposer);
 }
 
-function typeByPathRSV(rsv: Resolver<any, any, any>, parts: Array<string>) {
+function typeByPathRSV<TContext>(
+  rsv: Resolver<any, TContext, any>,
+  parts: Array<string>
+): TypeInPath<TContext> | Resolver<any, TContext, any> | void {
   if (!rsv) return undefined;
   if (parts.length === 0) return rsv;
   const name = parts[0];
@@ -96,7 +100,10 @@ function typeByPathRSV(rsv: Resolver<any, any, any>, parts: Array<string>) {
   return processType(rsv.getType(), parts, rsv.schemaComposer);
 }
 
-export function typeByPathIFTC(tc: InterfaceTypeComposer<any, any>, parts: Array<string>) {
+export function typeByPathIFTC<TContext>(
+  tc: InterfaceTypeComposer<any, TContext>,
+  parts: Array<string>
+): TypeInPath<TContext> | void {
   if (!tc) return undefined;
   if (parts.length === 0) return tc;
 
@@ -118,30 +125,42 @@ export function typeByPathIFTC(tc: InterfaceTypeComposer<any, any>, parts: Array
   return processType(fieldType, parts.slice(1), tc.schemaComposer);
 }
 
-export function processType(
-  type: GraphQLOutputType | GraphQLInputType | void | null,
+export function processType<TContext>(
+  type: ComposeOutputType<any, TContext> | ComposeInputType | void | null,
   restParts: Array<string>,
-  schema: SchemaComposer<any>
-): mixed {
+  schema: SchemaComposer<TContext>
+): TypeInPath<TContext> | void {
   if (!type) return undefined;
-  const unwrappedType = getNamedType(type);
 
-  if (unwrappedType instanceof GraphQLObjectType) {
-    const tc = new ObjectTypeComposer(unwrappedType, schema);
+  let unwrappedType = type;
+  while (Array.isArray(unwrappedType)) {
+    unwrappedType = unwrappedType[0];
+  }
+  while (unwrappedType instanceof GraphQLList || unwrappedType instanceof GraphQLNonNull) {
+    unwrappedType = unwrappedType.ofType;
+  }
+
+  let tc;
+  if (typeof unwrappedType === 'string') {
+    tc = schema.createTempTC(unwrappedType);
+  } else {
+    tc = schema.getAnyTC((unwrappedType: any));
+  }
+
+  if (tc instanceof ObjectTypeComposer) {
     if (restParts.length > 0) {
       return typeByPathTC(tc, restParts);
     }
     return tc;
-  } else if (unwrappedType instanceof GraphQLInputObjectType) {
-    const itc = new InputTypeComposer(unwrappedType, schema);
+  } else if (tc instanceof InputTypeComposer) {
     if (restParts.length > 0) {
-      return typeByPathITC(itc, restParts);
+      return typeByPathITC(tc, restParts);
     }
-    return itc;
+    return tc;
   }
 
   if (restParts.length > 0) {
     return undefined;
   }
-  return unwrappedType;
+  return tc;
 }

@@ -1,18 +1,15 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type ValidationContext } from '../ValidationContext';
 import { GraphQLError } from '../../error/GraphQLError';
+
 import { print } from '../../language/printer';
 import { type ASTVisitor } from '../../language/visitor';
+
 import { isCompositeType } from '../../type/definition';
+
 import { typeFromAST } from '../../utilities/typeFromAST';
+
+import { type ValidationContext } from '../ValidationContext';
 
 export function inlineFragmentOnNonCompositeErrorMessage(type: string): string {
   return `Fragment cannot condition on non composite type "${type}".`;
@@ -22,10 +19,7 @@ export function fragmentOnNonCompositeErrorMessage(
   fragName: string,
   type: string,
 ): string {
-  return (
-    `Fragment "${fragName}" cannot condition on non composite ` +
-    `type "${type}".`
-  );
+  return `Fragment "${fragName}" cannot condition on non composite type "${type}".`;
 }
 
 /**

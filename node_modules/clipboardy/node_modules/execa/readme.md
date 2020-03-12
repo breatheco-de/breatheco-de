@@ -17,8 +17,12 @@
 ## Install
 
 ```
-$ npm install --save execa
+$ npm install execa
 ```
+
+<a href="https://www.patreon.com/sindresorhus">
+	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
 
 ## Usage
@@ -26,26 +30,56 @@ $ npm install --save execa
 ```js
 const execa = require('execa');
 
-execa('echo', ['unicorns']).then(result => {
-	console.log(result.stdout);
+(async () => {
+	const {stdout} = await execa('echo', ['unicorns']);
+	console.log(stdout);
 	//=> 'unicorns'
-});
+})();
+```
 
-// pipe the child process stdout to the current stdout
-execa('echo', ['unicorns']).stdout.pipe(process.stdout);
+Additional examples:
 
-execa.shell('echo unicorns').then(result => {
-	console.log(result.stdout);
+```js
+const execa = require('execa');
+
+(async () => {
+	// Pipe the child process stdout to the current stdout
+	execa('echo', ['unicorns']).stdout.pipe(process.stdout);
+
+
+	// Run a shell command
+	const {stdout} = await execa.shell('echo unicorns');
 	//=> 'unicorns'
-});
 
-// example of catching an error
-execa.shell('exit 3').catch(error => {
+
+	// Catching an error
+	try {
+		await execa.shell('exit 3');
+	} catch (error) {
+		console.log(error);
+		/*
+		{
+			message: 'Command failed: /bin/sh -c exit 3'
+			killed: false,
+			code: 3,
+			signal: null,
+			cmd: '/bin/sh -c exit 3',
+			stdout: '',
+			stderr: '',
+			timedOut: false
+		}
+		*/
+	}
+})();
+
+// Catching an error with a sync method
+try {
+	execa.shellSync('exit 3');
+} catch (error) {
 	console.log(error);
 	/*
 	{
 		message: 'Command failed: /bin/sh -c exit 3'
-		killed: false,
 		code: 3,
 		signal: null,
 		cmd: '/bin/sh -c exit 3',
@@ -54,7 +88,7 @@ execa.shell('exit 3').catch(error => {
 		timedOut: false
 	}
 	*/
-});
+}
 ```
 
 
@@ -131,7 +165,7 @@ Explicitly set the value of `argv[0]` sent to the child process. This will be se
 
 #### stdio
 
-Type: `Array` `string`<br>
+Type: `string[]` `string`<br>
 Default: `pipe`
 
 Child's [stdio](https://nodejs.org/api/child_process.html#child_process_options_stdio) configuration.
@@ -218,6 +252,13 @@ Default: `0`
 
 If timeout is greater than `0`, the parent will send the signal identified by the `killSignal` property (the default is `SIGTERM`) if the child runs longer than timeout milliseconds.
 
+#### buffer
+
+Type: `boolean`<br>
+Default: `true`
+
+Buffer the output from the spawned process. When buffering is disabled you must consume the output of the `stdout` and `stderr` streams because the promise will not be resolved/rejected until they have completed.
+
 #### maxBuffer
 
 Type: `number`<br>
@@ -252,6 +293,13 @@ Type: `string` `number` `Stream` `undefined` `null`<br>
 Default: `pipe`
 
 Same options as [`stdio`](https://nodejs.org/dist/latest-v6.x/docs/api/child_process.html#child_process_options_stdio).
+
+#### windowsVerbatimArguments
+
+Type: `boolean`<br>
+Default: `false`
+
+If `true`, no quoting or escaping of arguments is done on Windows. Ignored on other platforms. This is set to `true` automatically when the `shell` option is `true`.
 
 
 ## Tips

@@ -57,13 +57,6 @@ export default new GraphQLScalarType({
       throw new GraphQLError('Query error: Invalid date', [ast]);
     }
 
-    if (ast.value !== result.toJSON()) {
-      throw new GraphQLError(
-        'Query error: Invalid date format, only accepts: YYYY-MM-DDTHH:MM:SS.SSSZ',
-        [ast]
-      );
-    }
-
     return result;
   },
 });

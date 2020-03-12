@@ -1,20 +1,19 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import { forEach, isCollection } from 'iterall';
 
 import objectValues from '../polyfills/objectValues';
+
 import inspect from '../jsutils/inspect';
+import invariant from '../jsutils/invariant';
 import isNullish from '../jsutils/isNullish';
 import isInvalid from '../jsutils/isInvalid';
-import { type ValueNode } from '../language/ast';
+import isObjectLike from '../jsutils/isObjectLike';
+
 import { Kind } from '../language/kinds';
+import { type ValueNode } from '../language/ast';
+
+import { GraphQLID } from '../type/scalars';
 import {
   type GraphQLInputType,
   isLeafType,
@@ -23,7 +22,6 @@ import {
   isListType,
   isNonNullType,
 } from '../type/definition';
-import { GraphQLID } from '../type/scalars';
 
 /**
  * Produces a GraphQL Value AST given a JavaScript value.
@@ -81,12 +79,11 @@ export function astFromValue(value: mixed, type: GraphQLInputType): ?ValueNode {
   // Populate the fields of the input object by creating ASTs from each value
   // in the JavaScript object according to the fields in the input type.
   if (isInputObjectType(type)) {
-    if (value === null || typeof value !== 'object') {
+    if (!isObjectLike(value)) {
       return null;
     }
-    const fields = objectValues(type.getFields());
     const fieldNodes = [];
-    for (const field of fields) {
+    for (const field of objectValues(type.getFields())) {
       const fieldValue = astFromValue(value[field.name], field.type);
       if (fieldValue) {
         fieldNodes.push({
@@ -141,8 +138,7 @@ export function astFromValue(value: mixed, type: GraphQLInputType): ?ValueNode {
   }
 
   // Not reachable. All possible input types have been considered.
-  /* istanbul ignore next */
-  throw new Error(`Unexpected input type: "${inspect((type: empty))}".`);
+  invariant(false, 'Unexpected input type: ' + inspect((type: empty)));
 }
 
 /**

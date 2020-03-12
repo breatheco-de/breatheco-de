@@ -10,9 +10,7 @@ easily create complex multi-column command-line-interfaces.
 ## Example
 
 ```js
-var ui = require('cliui')({
-  width: 80
-})
+var ui = require('cliui')()
 
 ui.div('Usage: $0 [command] [options]')
 
@@ -48,7 +46,7 @@ console.log(ui.toString())
 
 cliui exposes a simple layout DSL:
 
-If you create a single `ui.row`, passing a string rather than an
+If you create a single `ui.div`, passing a string rather than an
 object:
 
 * `\n`: characters will be interpreted as new rows.
@@ -88,6 +86,7 @@ cliui = require('cliui')
 ### cliui({width: integer})
 
 Specify the maximum width of the UI being generated.
+If no width is provided, cliui will try to get the current window's width and use it, and if that doesn't work, width will be set to `80`.
 
 ### cliui({wrap: boolean})
 
@@ -99,6 +98,7 @@ Create a row with any number of columns, a column
 can either be a string, or an object with the following
 options:
 
+* **text:** some text to place in the column.
 * **width:** the width of a column.
 * **align:** alignment, `right` or `center`.
 * **padding:** `[top, right, bottom, left]`.
@@ -108,3 +108,8 @@ options:
 
 Similar to `div`, except the next row will be appended without
 a new line being created.
+
+### cliui.resetOutput()
+
+Resets the UI elements of the current cliui instance, maintaining the values
+set for `width` and `wrap`.

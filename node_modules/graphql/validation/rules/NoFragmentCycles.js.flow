@@ -1,20 +1,15 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
+
+import { GraphQLError } from '../../error/GraphQLError';
+
+import { type ASTVisitor } from '../../language/visitor';
+import { type FragmentDefinitionNode } from '../../language/ast';
 
 import { type ASTValidationContext } from '../ValidationContext';
-import { GraphQLError } from '../../error/GraphQLError';
-import { type FragmentDefinitionNode } from '../../language/ast';
-import { type ASTVisitor } from '../../language/visitor';
 
 export function cycleErrorMessage(
   fragName: string,
-  spreadNames: Array<string>,
+  spreadNames: $ReadOnlyArray<string>,
 ): string {
   const via = spreadNames.length ? ' via ' + spreadNames.join(', ') : '';
   return `Cannot spread fragment "${fragName}" within itself${via}.`;
@@ -57,8 +52,7 @@ export function NoFragmentCycles(context: ASTValidationContext): ASTVisitor {
 
     spreadPathIndexByName[fragmentName] = spreadPath.length;
 
-    for (let i = 0; i < spreadNodes.length; i++) {
-      const spreadNode = spreadNodes[i];
+    for (const spreadNode of spreadNodes) {
       const spreadName = spreadNode.name.value;
       const cycleIndex = spreadPathIndexByName[spreadName];
 

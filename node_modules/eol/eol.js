@@ -17,9 +17,13 @@
   }
 
   function converts(to) {
-    return function(text) {
+    function convert(text) {
       return text.replace(newline, to)
     }
+    convert.toString = function() {
+      return to
+    }
+    return convert 
   }
 
   function split(text) {

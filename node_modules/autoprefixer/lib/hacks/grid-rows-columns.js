@@ -68,7 +68,9 @@ function (_Declaration) {
       return false;
     }
 
-    var processor = new Processor({});
+    var processor = new Processor({
+      options: {}
+    });
     var status = processor.gridStatus(parent, result);
     var gap = getGridGap(decl);
     gap = inheritGridGap(decl, gap) || gap;
@@ -113,7 +115,7 @@ function (_Declaration) {
       if (!rowDecl && hasGridTemplate) {
         return undefined;
       } else if (!rowDecl && !hasGridTemplate) {
-        decl.warn(result, "Autoplacement does not work without grid-template-rows property");
+        decl.warn(result, 'Autoplacement does not work without grid-template-rows property');
         return undefined;
       }
       /**
@@ -126,7 +128,7 @@ function (_Declaration) {
       });
 
       if (!columnDecl && !hasGridTemplate) {
-        decl.warn(result, "Autoplacement does not work without grid-template-columns property");
+        decl.warn(result, 'Autoplacement does not work without grid-template-columns property');
       }
       /**
        * Autoplace grid items

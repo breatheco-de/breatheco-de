@@ -22,9 +22,18 @@ var _default = (0, _postcss.plugin)('postcss-calc', function (opts) {
   return function (css, result) {
     css.walk(function (node) {
       var type = node.type;
-      if (type === 'decl') (0, _transform.default)(node, "value", options, result);
-      if (type === 'atrule' && options.mediaQueries) (0, _transform.default)(node, "params", options, result);
-      if (type === 'rule' && options.selectors) (0, _transform.default)(node, "selector", options, result);
+
+      if (type === 'decl') {
+        (0, _transform.default)(node, "value", options, result);
+      }
+
+      if (type === 'atrule' && options.mediaQueries) {
+        (0, _transform.default)(node, "params", options, result);
+      }
+
+      if (type === 'rule' && options.selectors) {
+        (0, _transform.default)(node, "selector", options, result);
+      }
     });
   };
 });

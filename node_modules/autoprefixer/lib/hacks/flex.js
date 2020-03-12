@@ -23,6 +23,9 @@ function (_Declaration) {
 
   var _proto = Flex.prototype;
 
+  /**
+   * Change property name for 2009 spec
+   */
   _proto.prefixed = function prefixed(prop, prefix) {
     var spec;
 
@@ -79,10 +82,6 @@ _defineProperty(Flex, "names", ['flex', 'box-flex']);
 _defineProperty(Flex, "oldValues", {
   auto: '1',
   none: '0'
-  /**
-   * Change property name for 2009 spec
-   */
-
 });
 
 module.exports = Flex;

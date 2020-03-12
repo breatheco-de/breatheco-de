@@ -1,25 +1,16 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type SDLValidationContext } from '../ValidationContext';
 import { GraphQLError } from '../../error/GraphQLError';
 import { type ASTVisitor } from '../../language/visitor';
+
+import { type SDLValidationContext } from '../ValidationContext';
 
 export function duplicateOperationTypeMessage(operation: string): string {
   return `There can be only one ${operation} type in schema.`;
 }
 
 export function existedOperationTypeMessage(operation: string): string {
-  return (
-    `Type for ${operation} already defined in the schema. ` +
-    'It cannot be redefined.'
-  );
+  return `Type for ${operation} already defined in the schema. It cannot be redefined.`;
 }
 
 /**

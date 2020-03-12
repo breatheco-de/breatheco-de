@@ -23,22 +23,11 @@ export { TypeStorage } from './TypeStorage';
 export { TypeMapper } from './TypeMapper';
 
 // Scalar types
-export {
-  GraphQLDate,
-  GraphQLBuffer,
-  GraphQLGeneric,
-  GraphQLJSON,
-} from './type';
+export { GraphQLDate, GraphQLBuffer, GraphQLGeneric, GraphQLJSON } from './type';
 
 // Utils
-export {
-  getProjectionFromAST,
-  getFlatProjectionFromAST,
-} from './utils/projection';
-export {
-  toInputObjectType,
-  ConvertInputObjectFieldOpts,
-} from './utils/toInputObjectType';
+export { getProjectionFromAST, getFlatProjectionFromAST } from './utils/projection';
+export { toInputObjectType, ConvertInputObjectFieldOpts } from './utils/toInputObjectType';
 export * from './utils/misc';
 export * from './utils/is';
 export * from './utils/graphqlVersion';
@@ -78,18 +67,9 @@ export {
   InputTypeComposeDefinition,
 } from './InputTypeComposer';
 
-export {
-  ComposeScalarTypeConfig,
-  ScalarTypeComposeDefinition,
-} from './ScalarTypeComposer';
-export {
-  ComposeEnumTypeConfig,
-  EnumTypeComposeDefinition,
-} from './EnumTypeComposer';
-export {
-  ComposeUnionTypeConfig,
-  UnionTypeComposeDefinition,
-} from './UnionTypeComposer';
+export { ComposeScalarTypeConfig, ScalarTypeComposeDefinition } from './ScalarTypeComposer';
+export { ComposeEnumTypeConfig, EnumTypeComposeDefinition } from './EnumTypeComposer';
+export { ComposeUnionTypeConfig, UnionTypeComposeDefinition } from './UnionTypeComposer';
 export {
   ComposeInterfaceTypeConfig,
   InterfaceTypeComposeDefinition,
@@ -113,8 +93,4 @@ export {
 
 export { ProjectionType, ProjectionNode } from './utils/projection';
 
-export {
-  TypeDefinitionString,
-  TypeWrappedString,
-  TypeNameString,
-} from './TypeMapper';
+export { TypeDefinitionString, TypeWrappedString, TypeNameString } from './TypeMapper';

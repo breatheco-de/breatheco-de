@@ -1,6 +1,20 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.1.0](https://github.com/michael-ciniawsky/postcss-load-config/compare/v2.0.0...v2.1.0) (2019-06-10)
+
+
+### Bug Fixes
+
+* **plugins:** add `undefined` to plugin `options` check ([#177](https://github.com/michael-ciniawsky/postcss-load-config/issues/177)) ([4349ea9](https://github.com/michael-ciniawsky/postcss-load-config/commit/4349ea9))
+
+
+### Features
+
+* **src/index:** support synchronous config loading (`rc.sync`) ([f230d40](https://github.com/michael-ciniawsky/postcss-load-config/commit/f230d40))
+
+
 
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/michael-ciniawsky/postcss-load-config/compare/v1.2.0...v2.0.0) (2018-07-10)

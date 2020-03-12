@@ -23,7 +23,7 @@ function _clone(obj, parent) {
       }
     } else if (i === 'source' || i === null) {
       cloned[i] = value;
-    } else if (value instanceof Array) {
+    } else if (Array.isArray(value)) {
       cloned[i] = value.map(function (x) {
         return _clone(x, cloned);
       });
@@ -107,7 +107,7 @@ function () {
       prefix = vendor.prefix(node.prop);
     } else if (node.type === 'root') {
       prefix = false;
-    } else if (node.type === 'rule' && node.selector.indexOf(':-') !== -1 && /:(-\w+-)/.test(node.selector)) {
+    } else if (node.type === 'rule' && node.selector.includes(':-') && /:(-\w+-)/.test(node.selector)) {
       prefix = node.selector.match(/:(-\w+-)/)[1];
     } else if (node.type === 'atrule' && node.name[0] === '-') {
       prefix = vendor.prefix(node.name);
@@ -115,7 +115,7 @@ function () {
       prefix = this.parentPrefix(node.parent);
     }
 
-    if (Browsers.prefixes().indexOf(prefix) === -1) {
+    if (!Browsers.prefixes().includes(prefix)) {
       prefix = false;
     }
 

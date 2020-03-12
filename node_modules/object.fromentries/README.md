@@ -8,8 +8,6 @@
 
 [![npm badge][npm-badge-png]][package-url]
 
-[![browser support][testling-svg]][testling-url]
-
 An ES spec-proposal-compliant `Object.fromEntries` shim. Invoke its "shim" method to shim `Object.fromEntries` if it is unavailable or noncompliant.
 
 This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [proposed spec](https://tc39.github.io/proposal-object-from-entries/).
@@ -42,8 +40,6 @@ Simply clone the repo, `npm install`, and run `npm test`
 [deps-url]: https://david-dm.org/es-shims/Object.fromEntries
 [dev-deps-svg]: https://david-dm.org/es-shims/Object.fromEntries/dev-status.svg
 [dev-deps-url]: https://david-dm.org/es-shims/Object.fromEntries#info=devDependencies
-[testling-svg]: https://ci.testling.com/es-shims/Object.fromEntries.png
-[testling-url]: https://ci.testling.com/es-shims/Object.fromEntries
 [npm-badge-png]: https://nodei.co/npm/object.fromentries.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/object.fromentries.svg
 [license-url]: LICENSE

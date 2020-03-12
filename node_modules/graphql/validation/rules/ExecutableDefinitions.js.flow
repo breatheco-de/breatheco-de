@@ -1,17 +1,12 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
+
+import { GraphQLError } from '../../error/GraphQLError';
+
+import { Kind } from '../../language/kinds';
+import { type ASTVisitor } from '../../language/visitor';
+import { isExecutableDefinitionNode } from '../../language/predicates';
 
 import { type ASTValidationContext } from '../ValidationContext';
-import { GraphQLError } from '../../error/GraphQLError';
-import { Kind } from '../../language/kinds';
-import { isExecutableDefinitionNode } from '../../language/predicates';
-import { type ASTVisitor } from '../../language/visitor';
 
 export function nonExecutableDefinitionMessage(defName: string): string {
   return `The ${defName} definition is not executable.`;

@@ -18,3 +18,8 @@ export function only(obj: object, keys: string[]): object;
  * Used to print values in error messages.
  */
 export function inspect(value: any): string;
+
+export function forEachKey<V>(
+  arrayOrObject: { [key: string]: V },
+  callback: (value: V, key: string) => void
+): void;

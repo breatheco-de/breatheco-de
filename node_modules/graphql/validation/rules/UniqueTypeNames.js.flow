@@ -1,26 +1,18 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type SDLValidationContext } from '../ValidationContext';
 import { GraphQLError } from '../../error/GraphQLError';
+
 import { type ASTVisitor } from '../../language/visitor';
 import { type TypeDefinitionNode } from '../../language/ast';
+
+import { type SDLValidationContext } from '../ValidationContext';
 
 export function duplicateTypeNameMessage(typeName: string): string {
   return `There can be only one type named "${typeName}".`;
 }
 
 export function existedTypeNameMessage(typeName: string): string {
-  return (
-    `Type "${typeName}" already exists in the schema. ` +
-    'It cannot also be defined in this type definition.'
-  );
+  return `Type "${typeName}" already exists in the schema. It cannot also be defined in this type definition.`;
 }
 
 /**

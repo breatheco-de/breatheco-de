@@ -6,31 +6,18 @@ Object.defineProperty(exports, "__esModule", {
 exports.get = get;
 exports.minVersion = minVersion;
 exports.getDependencies = getDependencies;
+exports.ensure = ensure;
 exports.default = exports.list = void 0;
 
-function _traverse() {
-  const data = _interopRequireDefault(require("@babel/traverse"));
+var _traverse = _interopRequireDefault(require("@babel/traverse"));
 
-  _traverse = function () {
-    return data;
-  };
-
-  return data;
-}
-
-function t() {
-  const data = _interopRequireWildcard(require("@babel/types"));
-
-  t = function () {
-    return data;
-  };
-
-  return data;
-}
+var t = _interopRequireWildcard(require("@babel/types"));
 
 var _helpers = _interopRequireDefault(require("./helpers"));
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -54,7 +41,7 @@ function getHelperMetadata(file) {
   const exportBindingAssignments = [];
   const importPaths = [];
   const importBindingsReferences = [];
-  (0, _traverse().default)(file, {
+  (0, _traverse.default)(file, {
     ImportDeclaration(child) {
       const name = child.node.source.value;
 
@@ -99,7 +86,7 @@ function getHelperMetadata(file) {
     }
 
   });
-  (0, _traverse().default)(file, {
+  (0, _traverse.default)(file, {
     Program(path) {
       const bindings = path.scope.getAllBindings();
       Object.keys(bindings).forEach(name => {
@@ -183,7 +170,7 @@ function permuteHelperAST(file, metadata, id, localBindings, getDependency) {
     toRename[exportName] = id.name;
   }
 
-  (0, _traverse().default)(file, {
+  (0, _traverse.default)(file, {
     Program(path) {
       const exp = path.get(exportPath);
       const imps = importPaths.map(p => path.get(p));
@@ -194,18 +181,18 @@ function permuteHelperAST(file, metadata, id, localBindings, getDependency) {
         if (decl.isFunctionDeclaration()) {
           exp.replaceWith(decl);
         } else {
-          exp.replaceWith(t().variableDeclaration("var", [t().variableDeclarator(id, decl.node)]));
+          exp.replaceWith(t.variableDeclaration("var", [t.variableDeclarator(id, decl.node)]));
         }
       } else if (id.type === "MemberExpression") {
         if (decl.isFunctionDeclaration()) {
           exportBindingAssignments.forEach(assignPath => {
             const assign = path.get(assignPath);
-            assign.replaceWith(t().assignmentExpression("=", id, assign.node));
+            assign.replaceWith(t.assignmentExpression("=", id, assign.node));
           });
           exp.replaceWith(decl);
-          path.pushContainer("body", t().expressionStatement(t().assignmentExpression("=", id, t().identifier(exportName))));
+          path.pushContainer("body", t.expressionStatement(t.assignmentExpression("=", id, t.identifier(exportName))));
         } else {
-          exp.replaceWith(t().expressionStatement(t().assignmentExpression("=", id, decl.node)));
+          exp.replaceWith(t.expressionStatement(t.assignmentExpression("=", id, decl.node)));
         }
       } else {
         throw new Error("Unexpected helper format.");
@@ -218,7 +205,7 @@ function permuteHelperAST(file, metadata, id, localBindings, getDependency) {
       for (const path of imps) path.remove();
 
       for (const path of impsBindingRefs) {
-        const node = t().cloneNode(dependenciesRefs[path.node.name]);
+        const node = t.cloneNode(dependenciesRefs[path.node.name]);
         path.replaceWith(node);
       }
 
@@ -242,7 +229,7 @@ function loadHelper(name) {
     }
 
     const fn = () => {
-      return t().file(helper.ast());
+      return t.file(helper.ast());
     };
 
     const metadata = getHelperMetadata(fn());
@@ -277,6 +264,10 @@ function minVersion(name) {
 
 function getDependencies(name) {
   return Array.from(loadHelper(name).dependencies.values());
+}
+
+function ensure(name) {
+  loadHelper(name);
 }
 
 const list = Object.keys(_helpers.default).map(name => name.replace(/^_/, "")).filter(name => name !== "__esModule");

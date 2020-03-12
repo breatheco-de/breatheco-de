@@ -53,8 +53,8 @@ function (_Declaration) {
     }
 
     var value = values[0];
-    var orient = value.indexOf('row') !== -1 ? 'horizontal' : 'vertical';
-    var dir = value.indexOf('reverse') !== -1 ? 'reverse' : 'normal';
+    var orient = value.includes('row') ? 'horizontal' : 'vertical';
+    var dir = value.includes('reverse') ? 'reverse' : 'normal';
     var cloned = this.clone(decl);
     cloned.prop = prefix + 'box-orient';
     cloned.value = orient;

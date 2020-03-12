@@ -1,9 +1,5 @@
 'use strict';
 
-/* global Symbol */
-
-// var hasSymbols = typeof Symbol === 'function' && typeof Symbol('foo') === 'symbol';
-
 module.exports = function (fromEntries, t) {
 	var a = {};
 	var b = {};

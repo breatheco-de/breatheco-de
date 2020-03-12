@@ -1,19 +1,10 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import {
-  type ValidationContext,
-  type SDLValidationContext,
-} from '../ValidationContext';
-import { GraphQLError } from '../../error/GraphQLError';
+import didYouMean from '../../jsutils/didYouMean';
 import suggestionList from '../../jsutils/suggestionList';
-import quotedOrList from '../../jsutils/quotedOrList';
+
+import { GraphQLError } from '../../error/GraphQLError';
+
 import { type ASTNode } from '../../language/ast';
 import { type ASTVisitor } from '../../language/visitor';
 import {
@@ -21,17 +12,22 @@ import {
   isTypeSystemDefinitionNode,
   isTypeSystemExtensionNode,
 } from '../../language/predicates';
+
 import { specifiedScalarTypes } from '../../type/scalars';
+
+import {
+  type ValidationContext,
+  type SDLValidationContext,
+} from '../ValidationContext';
 
 export function unknownTypeMessage(
   typeName: string,
-  suggestedTypes: Array<string>,
+  suggestedTypes: $ReadOnlyArray<string>,
 ): string {
-  let message = `Unknown type "${typeName}".`;
-  if (suggestedTypes.length) {
-    message += ` Did you mean ${quotedOrList(suggestedTypes)}?`;
-  }
-  return message;
+  return (
+    `Unknown type "${typeName}".` +
+    didYouMean(suggestedTypes.map(x => `"${x}"`))
+  );
 }
 
 /**

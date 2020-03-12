@@ -61,6 +61,14 @@ Hide cursor.
 #### show
 Show cursor.
 
+#### save
+
+Save cursor position.
+
+#### restore
+
+Restore cursor position.
+
 
 ### scroll
 

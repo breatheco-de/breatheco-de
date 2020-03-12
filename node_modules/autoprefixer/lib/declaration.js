@@ -69,7 +69,7 @@ function (_Prefixer) {
         continue;
       }
 
-      if (value.indexOf(other) !== -1) {
+      if (value.includes(other)) {
         return true;
       }
     }
@@ -92,7 +92,7 @@ function (_Prefixer) {
 
   _proto.needCascade = function needCascade(decl) {
     if (!decl._autoprefixerCascade) {
-      decl._autoprefixerCascade = this.all.options.cascade !== false && decl.raw('before').indexOf('\n') !== -1;
+      decl._autoprefixerCascade = this.all.options.cascade !== false && decl.raw('before').includes('\n');
     }
 
     return decl._autoprefixerCascade;

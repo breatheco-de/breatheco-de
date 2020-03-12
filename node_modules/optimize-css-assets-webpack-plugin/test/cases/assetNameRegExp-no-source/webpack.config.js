@@ -10,8 +10,7 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           fallback: { loader: 'style-loader' },
           use: {
-            loader: 'css-loader',
-            options: { minimize: true }
+            loader: 'css-loader'
           }
         })
       },

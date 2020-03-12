@@ -1,41 +1,52 @@
 'use strict';
-const alias = ['stdin', 'stdout', 'stderr'];
+const aliases = ['stdin', 'stdout', 'stderr'];
 
-const hasAlias = opts => alias.some(x => Boolean(opts[x]));
+const hasAlias = opts => aliases.some(alias => opts[alias] !== undefined);
 
-module.exports = opts => {
+const normalizeStdio = opts => {
 	if (!opts) {
-		return null;
+		return;
 	}
 
-	if (opts.stdio && hasAlias(opts)) {
-		throw new Error(`It's not possible to provide \`stdio\` in combination with one of ${alias.map(x => `\`${x}\``).join(', ')}`);
+	const {stdio} = opts;
+
+	if (stdio === undefined) {
+		return aliases.map(alias => opts[alias]);
 	}
 
-	if (typeof opts.stdio === 'string') {
-		return opts.stdio;
+	if (hasAlias(opts)) {
+		throw new Error(`It's not possible to provide \`stdio\` in combination with one of ${aliases.map(alias => `\`${alias}\``).join(', ')}`);
 	}
 
-	const stdio = opts.stdio || [];
+	if (typeof stdio === 'string') {
+		return stdio;
+	}
 
 	if (!Array.isArray(stdio)) {
 		throw new TypeError(`Expected \`stdio\` to be of type \`string\` or \`Array\`, got \`${typeof stdio}\``);
 	}
 
-	const result = [];
-	const len = Math.max(stdio.length, alias.length);
+	const length = Math.max(stdio.length, aliases.length);
+	return Array.from({length}, (value, index) => stdio[index]);
+};
 
-	for (let i = 0; i < len; i++) {
-		let value = null;
+module.exports = normalizeStdio;
 
-		if (stdio[i] !== undefined) {
-			value = stdio[i];
-		} else if (opts[alias[i]] !== undefined) {
-			value = opts[alias[i]];
-		}
+// `ipc` is pushed unless it is already present
+module.exports.node = opts => {
+	const stdio = normalizeStdio(opts);
 
-		result[i] = value;
+	if (stdio === 'ipc') {
+		return 'ipc';
 	}
 
-	return result;
+	if (stdio === undefined || typeof stdio === 'string') {
+		return [stdio, stdio, stdio, 'ipc'];
+	}
+
+	if (stdio.includes('ipc')) {
+		return stdio;
+	}
+
+	return [...stdio, 'ipc'];
 };

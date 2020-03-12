@@ -1,15 +1,10 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import inspect from '../jsutils/inspect';
-import { type ASTNode, type ASTKindToNode } from './ast';
+
 import { type TypeInfo } from '../utilities/TypeInfo';
+
+import { type ASTNode, type ASTKindToNode } from './ast';
 
 /**
  * A visitor is provided to visit, it contains the collection of
@@ -136,7 +131,7 @@ export const QueryDocumentKeys = {
   InputObjectTypeExtension: ['name', 'directives', 'fields'],
 };
 
-export const BREAK = {};
+export const BREAK = Object.freeze({});
 
 /**
  * visit() will walk through an AST using a depth first traversal, calling
@@ -361,7 +356,7 @@ function isNode(maybeNode): boolean %checks {
  * If a prior visitor edits a node, no following visitors will see that node.
  */
 export function visitInParallel(
-  visitors: Array<Visitor<ASTKindToNode>>,
+  visitors: $ReadOnlyArray<Visitor<ASTKindToNode>>,
 ): Visitor<ASTKindToNode> {
   const skipping = new Array(visitors.length);
 

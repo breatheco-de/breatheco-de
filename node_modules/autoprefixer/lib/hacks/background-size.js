@@ -25,7 +25,7 @@ function (_Declaration) {
   _proto.set = function set(decl, prefix) {
     var value = decl.value.toLowerCase();
 
-    if (prefix === '-webkit-' && value.indexOf(' ') === -1 && value !== 'contain' && value !== 'cover') {
+    if (prefix === '-webkit-' && !value.includes(' ') && value !== 'contain' && value !== 'cover') {
       decl.value = decl.value + ' ' + decl.value;
     }
 

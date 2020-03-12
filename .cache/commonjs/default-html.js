@@ -18,10 +18,7 @@ function HTML(props) {
   }), _react.default.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1, shrink-to-fit=no"
-  }), props.headComponents), _react.default.createElement("body", props.bodyAttributes, props.preBodyComponents, _react.default.createElement("noscript", {
-    key: "noscript",
-    id: "gatsby-noscript"
-  }, "This app works best with JavaScript enabled."), _react.default.createElement("div", {
+  }), props.headComponents), _react.default.createElement("body", props.bodyAttributes, props.preBodyComponents, _react.default.createElement("div", {
     key: `body`,
     id: "___gatsby",
     dangerouslySetInnerHTML: {

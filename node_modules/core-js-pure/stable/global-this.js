@@ -1,3 +1,3 @@
-require('../modules/esnext.global-this');
+var parent = require('../es/global-this');
 
-module.exports = require('../internals/path').globalThis;
+module.exports = parent;

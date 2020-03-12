@@ -1,14 +1,7 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
-import { type ASTNode } from './ast';
 import { visit } from './visitor';
+import { type ASTNode } from './ast';
 import { printBlockString } from './blockString';
 
 /**
@@ -184,12 +177,13 @@ const printDocASTReducer: any = {
   ),
 
   DirectiveDefinition: addDescription(
-    ({ name, arguments: args, locations }) =>
+    ({ name, arguments: args, repeatable, locations }) =>
       'directive @' +
       name +
       (hasMultilineItems(args)
         ? wrap('(\n', indent(join(args, '\n')), '\n)')
         : wrap('(', join(args, ', '), ')')) +
+      (repeatable ? ' repeatable' : '') +
       ' on ' +
       join(locations, ' | '),
   ),

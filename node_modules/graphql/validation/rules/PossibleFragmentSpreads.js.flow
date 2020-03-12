@@ -1,39 +1,31 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import inspect from '../../jsutils/inspect';
-import { type ValidationContext } from '../ValidationContext';
+
 import { GraphQLError } from '../../error/GraphQLError';
+
 import { type ASTVisitor } from '../../language/visitor';
-import { doTypesOverlap } from '../../utilities/typeComparators';
-import { typeFromAST } from '../../utilities/typeFromAST';
+
 import { isCompositeType } from '../../type/definition';
+
+import { typeFromAST } from '../../utilities/typeFromAST';
+import { doTypesOverlap } from '../../utilities/typeComparators';
+
+import { type ValidationContext } from '../ValidationContext';
 
 export function typeIncompatibleSpreadMessage(
   fragName: string,
   parentType: string,
   fragType: string,
 ): string {
-  return (
-    `Fragment "${fragName}" cannot be spread here as objects of ` +
-    `type "${parentType}" can never be of type "${fragType}".`
-  );
+  return `Fragment "${fragName}" cannot be spread here as objects of type "${parentType}" can never be of type "${fragType}".`;
 }
 
 export function typeIncompatibleAnonSpreadMessage(
   parentType: string,
   fragType: string,
 ): string {
-  return (
-    'Fragment cannot be spread here as objects of ' +
-    `type "${parentType}" can never be of type "${fragType}".`
-  );
+  return `Fragment cannot be spread here as objects of type "${parentType}" can never be of type "${fragType}".`;
 }
 
 /**

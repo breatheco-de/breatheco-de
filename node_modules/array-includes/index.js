@@ -1,20 +1,21 @@
 'use strict';
 
 var define = require('define-properties');
-var ES = require('es-abstract/es6');
+var RequireObjectCoercible = require('es-abstract/2018/RequireObjectCoercible');
+var callBound = require('es-abstract/helpers/callBound');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
 var polyfill = getPolyfill();
 var shim = require('./shim');
 
-var slice = Array.prototype.slice;
+var $slice = callBound('Array.prototype.slice');
 
 /* eslint-disable no-unused-vars */
 var boundIncludesShim = function includes(array, searchElement) {
 /* eslint-enable no-unused-vars */
-	ES.RequireObjectCoercible(array);
-	return polyfill.apply(array, slice.call(arguments, 1));
+	RequireObjectCoercible(array);
+	return polyfill.apply(array, $slice(arguments, 1));
 };
 define(boundIncludesShim, {
 	getPolyfill: getPolyfill,

@@ -1,48 +1,41 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
+
+import didYouMean from '../../jsutils/didYouMean';
+import suggestionList from '../../jsutils/suggestionList';
+
+import { GraphQLError } from '../../error/GraphQLError';
+
+import { Kind } from '../../language/kinds';
+import { type ASTVisitor } from '../../language/visitor';
+
+import { specifiedDirectives } from '../../type/directives';
 
 import {
   type ValidationContext,
   type SDLValidationContext,
 } from '../ValidationContext';
-import { GraphQLError } from '../../error/GraphQLError';
-import { type ASTVisitor } from '../../language/visitor';
-import suggestionList from '../../jsutils/suggestionList';
-import quotedOrList from '../../jsutils/quotedOrList';
-import { Kind } from '../../language/kinds';
-import { specifiedDirectives } from '../../type/directives';
 
 export function unknownArgMessage(
   argName: string,
   fieldName: string,
   typeName: string,
-  suggestedArgs: Array<string>,
+  suggestedArgs: $ReadOnlyArray<string>,
 ): string {
-  let message =
-    `Unknown argument "${argName}" on field "${fieldName}" of ` +
-    `type "${typeName}".`;
-  if (suggestedArgs.length) {
-    message += ` Did you mean ${quotedOrList(suggestedArgs)}?`;
-  }
-  return message;
+  return (
+    `Unknown argument "${argName}" on field "${fieldName}" of type "${typeName}".` +
+    didYouMean(suggestedArgs.map(x => `"${x}"`))
+  );
 }
 
 export function unknownDirectiveArgMessage(
   argName: string,
   directiveName: string,
-  suggestedArgs: Array<string>,
+  suggestedArgs: $ReadOnlyArray<string>,
 ): string {
-  let message = `Unknown argument "${argName}" on directive "@${directiveName}".`;
-  if (suggestedArgs.length) {
-    message += ` Did you mean ${quotedOrList(suggestedArgs)}?`;
-  }
-  return message;
+  return (
+    `Unknown argument "${argName}" on directive "@${directiveName}".` +
+    didYouMean(suggestedArgs.map(x => `"${x}"`))
+  );
 }
 
 /**

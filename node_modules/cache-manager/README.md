@@ -184,7 +184,20 @@ memoryCache.wrap(key, function(cb) {
 }
 ```
 
-You can get several keys at once. E.g.
+You can get several keys at once. Note that this will return whatever records it
+finds in the cache and it is up to the user to check the results against the
+supplied keys and make any calls to the underlying data store to fill in
+missing records. In practice, this should not be much of a concern if you are
+only using the `wrap` function to set these records in cache.
+
+Side note: Ideally the `wrap` function would get what it can from the cache and fill in
+the missing records from the data store, but I can't think of a way to do this
+that is generic to all situations.  Another option is to only return the data
+from the cache if all records are found, but this woul break multi-caching.
+
+See unit tests in `caching.unit.js` for more information.
+
+Example:
 
 ```js
 
@@ -410,6 +423,9 @@ var multiCache = cacheManager.multiCaching([memoryCache, someOtherCache], {
 });
 
 ```
+
+### Development environment
+You may disable real caching but still get all the callback functionality working by setting `none` store.
 
 ## Docs
 

@@ -1,9 +1,12 @@
 /* eslint-env mocha */
 import assert from 'assert';
-import { extractProp } from '../helper';
+import { extractProp, setParserName } from '../helper';
 import propName from '../../src/propName';
 
 describe('propName', () => {
+  beforeEach(() => {
+    setParserName('babel');
+  });
   it('should export a function', () => {
     const expected = 'function';
     const actual = typeof propName;

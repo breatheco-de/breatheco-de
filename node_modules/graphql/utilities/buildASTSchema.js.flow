@@ -1,27 +1,21 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import objectValues from '../polyfills/objectValues';
+
+import keyMap from '../jsutils/keyMap';
 import inspect from '../jsutils/inspect';
 import invariant from '../jsutils/invariant';
-import keyMap from '../jsutils/keyMap';
+import devAssert from '../jsutils/devAssert';
 import keyValMap from '../jsutils/keyValMap';
 import { type ObjMap } from '../jsutils/ObjMap';
-import { valueFromAST } from './valueFromAST';
-import { assertValidSDL } from '../validation/validate';
-import { dedentBlockStringValue } from '../language/blockString';
-import { TokenKind } from '../language/lexer';
-import { type ParseOptions, parse } from '../language/parser';
-import { type Source } from '../language/source';
-import { getDirectiveValues } from '../execution/values';
-import { Kind } from '../language/kinds';
 
+import { Kind } from '../language/kinds';
+import { type Source } from '../language/source';
+import { TokenKind } from '../language/tokenKind';
+import { type ParseOptions, parse } from '../language/parser';
+import { isTypeDefinitionNode } from '../language/predicates';
+import { dedentBlockStringValue } from '../language/blockString';
+import { type DirectiveLocationEnum } from '../language/directiveLocation';
 import {
   type DocumentNode,
   type NameNode,
@@ -42,10 +36,23 @@ import {
   type StringValueNode,
   type Location,
 } from '../language/ast';
-import { isTypeDefinitionNode } from '../language/predicates';
 
-import { type DirectiveLocationEnum } from '../language/directiveLocation';
+import { assertValidSDL } from '../validation/validate';
 
+import { getDirectiveValues } from '../execution/values';
+
+import { specifiedScalarTypes } from '../type/scalars';
+import { introspectionTypes } from '../type/introspection';
+import {
+  type GraphQLSchemaValidationOptions,
+  GraphQLSchema,
+} from '../type/schema';
+import {
+  GraphQLDirective,
+  GraphQLSkipDirective,
+  GraphQLIncludeDirective,
+  GraphQLDeprecatedDirective,
+} from '../type/directives';
 import {
   type GraphQLType,
   type GraphQLNamedType,
@@ -63,21 +70,7 @@ import {
   GraphQLNonNull,
 } from '../type/definition';
 
-import {
-  GraphQLDirective,
-  GraphQLSkipDirective,
-  GraphQLIncludeDirective,
-  GraphQLDeprecatedDirective,
-} from '../type/directives';
-
-import { introspectionTypes } from '../type/introspection';
-
-import { specifiedScalarTypes } from '../type/scalars';
-
-import {
-  type GraphQLSchemaValidationOptions,
-  GraphQLSchema,
-} from '../type/schema';
+import { valueFromAST } from './valueFromAST';
 
 export type BuildSchemaOptions = {
   ...GraphQLSchemaValidationOptions,
@@ -98,6 +91,8 @@ export type BuildSchemaOptions = {
    * Default: false
    */
   assumeValidSDL?: boolean,
+
+  ...
 };
 
 /**
@@ -120,7 +115,7 @@ export function buildASTSchema(
   documentAST: DocumentNode,
   options?: BuildSchemaOptions,
 ): GraphQLSchema {
-  invariant(
+  devAssert(
     documentAST && documentAST.kind === Kind.DOCUMENT,
     'Must provide valid Document AST',
   );
@@ -145,7 +140,9 @@ export function buildASTSchema(
 
   const astBuilder = new ASTDefinitionBuilder(options, typeName => {
     const type = typeMap[typeName];
-    invariant(type, `Type "${typeName}" not found in document.`);
+    if (type === undefined) {
+      throw new Error(`Type "${typeName}" not found in document.`);
+    }
     return type;
   });
 
@@ -242,6 +239,7 @@ export class ASTDefinitionBuilder {
       name: directive.name.value,
       description: getDescription(directive, this._options),
       locations,
+      isRepeatable: directive.repeatable,
       args: keyByNameNode(directive.arguments || [], arg => this.buildArg(arg)),
       astNode: directive,
     });
@@ -316,9 +314,9 @@ export class ASTDefinitionBuilder {
     }
 
     // Not reachable. All possible type definition nodes have been considered.
-    /* istanbul ignore next */
-    throw new Error(
-      `Unexpected type definition node: "${inspect((astNode: empty))}".`,
+    invariant(
+      false,
+      'Unexpected type definition node: ' + inspect((astNode: empty)),
     );
   }
 
@@ -399,7 +397,6 @@ export class ASTDefinitionBuilder {
       name: astNode.name.value,
       description: getDescription(astNode, this._options),
       astNode,
-      serialize: value => value,
     });
   }
 
@@ -417,7 +414,7 @@ export class ASTDefinitionBuilder {
   }
 }
 
-function keyByNameNode<T: { +name: NameNode }, V>(
+function keyByNameNode<T: { +name: NameNode, ... }, V>(
   list: $ReadOnlyArray<T>,
   valFn: (item: T) => V,
 ): ObjMap<V> {
@@ -446,7 +443,7 @@ function getDeprecationReason(
  *
  */
 export function getDescription(
-  node: { +description?: StringValueNode, +loc?: Location },
+  node: { +description?: StringValueNode, +loc?: Location, ... },
   options: ?BuildSchemaOptions,
 ): void | string {
   if (node.description) {

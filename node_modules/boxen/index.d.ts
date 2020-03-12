@@ -170,9 +170,6 @@ declare const boxen: {
 	Border styles from [`cli-boxes`](https://github.com/sindresorhus/cli-boxes).
 	*/
 	BorderStyle: typeof BorderStyle;
-
-	// TODO: Remove this for the next major release
-	default: typeof boxen;
 };
 
 export = boxen;

@@ -1,11 +1,4 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
 
 import nodejsCustomInspectSymbol from './nodejsCustomInspectSymbol';
 
@@ -14,9 +7,8 @@ import nodejsCustomInspectSymbol from './nodejsCustomInspectSymbol';
  * methods, if no function provided they become aliases for toString().
  */
 export default function defineToJSON(
-  // eslint-disable-next-line flowtype/no-weak-types
-  classObject: Class<any> | Function,
-  fn?: () => any = classObject.prototype.toString,
+  classObject: Class<any> | ((...args: Array<any>) => mixed),
+  fn?: () => mixed = classObject.prototype.toString,
 ): void {
   classObject.prototype.toJSON = fn;
   classObject.prototype.inspect = fn;

@@ -24,7 +24,7 @@ function (_Declaration) {
    */
   _proto.check = function check(decl) {
     var v = decl.value;
-    return v.toLowerCase().indexOf('alpha(') === -1 && v.indexOf('DXImageTransform.Microsoft') === -1 && v.indexOf('data:image/svg+xml') === -1;
+    return !v.toLowerCase().includes('alpha(') && !v.includes('DXImageTransform.Microsoft') && !v.includes('data:image/svg+xml');
   };
 
   return Filter;

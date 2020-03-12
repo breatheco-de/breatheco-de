@@ -145,12 +145,12 @@ module.exports = function (prefixes) {
 
       var value = _ref3;
 
-      var _grid = value.name.indexOf('grid') !== -1;
+      var _grid = value.name.includes('grid');
 
       if (_grid) hadGrid = true;
       var string = prefix(value.name, value.prefixes, _grid);
 
-      if (values.indexOf(string) === -1) {
+      if (!values.includes(string)) {
         values.push(string);
       }
     }

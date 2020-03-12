@@ -1,15 +1,9 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @flow strict
- */
+// @flow strict
+
+import devAssert from '../jsutils/devAssert';
 
 import { GraphQLError } from '../error/GraphQLError';
 import { type ASTNode } from '../language/ast';
-import invariant from '../jsutils/invariant';
 
 const NAME_RX = /^[_a-zA-Z][_a-zA-Z0-9]*$/;
 
@@ -31,11 +25,10 @@ export function isValidNameError(
   name: string,
   node?: ASTNode | void,
 ): GraphQLError | void {
-  invariant(typeof name === 'string', 'Expected string');
+  devAssert(typeof name === 'string', 'Expected string');
   if (name.length > 1 && name[0] === '_' && name[1] === '_') {
     return new GraphQLError(
-      `Name "${name}" must not begin with "__", which is reserved by ` +
-        'GraphQL introspection.',
+      `Name "${name}" must not begin with "__", which is reserved by GraphQL introspection.`,
       node,
     );
   }

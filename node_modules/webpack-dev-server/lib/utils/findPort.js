@@ -1,35 +1,39 @@
 'use strict';
 
+const pRetry = require('p-retry');
 const portfinder = require('portfinder');
+const defaultPort = require('./defaultPort');
+const defaultTo = require('./defaultTo');
+const tryParseInt = require('./tryParseInt');
 
-function runPortFinder(defaultPort, cb) {
-  portfinder.basePort = defaultPort;
-  portfinder.getPort((err, port) => {
-    cb(err, port);
+function runPortFinder() {
+  return new Promise((resolve, reject) => {
+    portfinder.basePort = defaultPort;
+    portfinder.getPort((error, port) => {
+      if (error) {
+        return reject(error);
+      }
+
+      return resolve(port);
+    });
   });
 }
 
-function findPort(server, defaultPort, defaultPortRetry, fn) {
-  let tryCount = 0;
-  const portFinderRunCb = (err, port) => {
-    tryCount += 1;
-    fn(err, port);
-  };
+function findPort(port) {
+  if (port) {
+    return Promise.resolve(port);
+  }
 
-  server.listeningApp.on('error', (err) => {
-    if (err && err.code !== 'EADDRINUSE') {
-      throw err;
-    }
+  // Try to find unused port and listen on it for 3 times,
+  // if port is not specified in options.
+  // Because NaN == null is false, defaultTo fails if parseInt returns NaN
+  // so the tryParseInt function is introduced to handle NaN
+  const defaultPortRetry = defaultTo(
+    tryParseInt(process.env.DEFAULT_PORT_RETRY),
+    3
+  );
 
-    if (tryCount >= defaultPortRetry) {
-      fn(err);
-      return;
-    }
-
-    runPortFinder(defaultPort, portFinderRunCb);
-  });
-
-  runPortFinder(defaultPort, portFinderRunCb);
+  return pRetry(runPortFinder, { retries: defaultPortRetry });
 }
 
 module.exports = findPort;

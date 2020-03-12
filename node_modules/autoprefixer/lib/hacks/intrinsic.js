@@ -61,7 +61,7 @@ function (_Value) {
   };
 
   _proto.add = function add(decl, prefix) {
-    if (decl.prop.indexOf('grid') !== -1 && prefix !== '-webkit-') {
+    if (decl.prop.includes('grid') && prefix !== '-webkit-') {
       return undefined;
     }
 

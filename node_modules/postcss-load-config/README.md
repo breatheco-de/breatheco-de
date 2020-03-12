@@ -322,6 +322,8 @@ module.exports = (ctx) => ({
 }
 ```
 
+### `Async`
+
 ```js
 const { readFileSync } = require('fs')
 
@@ -337,6 +339,21 @@ postcssrc(ctx).then(({ plugins, options }) => {
     .process(css, options)
     .then((result) => console.log(result.css))
 })
+```
+
+### `Sync`
+
+```js
+const { readFileSync } = require('fs')
+
+const postcss = require('postcss')
+const postcssrc = require('postcss-load-config')
+
+const css = readFileSync('index.sss', 'utf8')
+
+const ctx = { parser: true, map: 'inline' }
+
+const { plugins, options } = postcssrc.sync(ctx)
 ```
 
 <div align="center">

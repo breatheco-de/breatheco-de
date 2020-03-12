@@ -33,7 +33,6 @@ const ModuleAppendPlugin = require("./ModuleAppendPlugin");
 const UnsafeCachePlugin = require("./UnsafeCachePlugin");
 
 exports.createResolver = function(options) {
-
 	//// OPTIONS ////
 
 	// A list of directories to resolve modules from, can be absolute path or folder name
@@ -72,7 +71,8 @@ exports.createResolver = function(options) {
 	let alias = options.alias || [];
 
 	// Resolve symlinks to their symlinked location
-	const symlinks = typeof options.symlinks !== "undefined" ? options.symlinks : true;
+	const symlinks =
+		typeof options.symlinks !== "undefined" ? options.symlinks : true;
 
 	// Resolve to a context instead of a file
 	const resolveToContext = options.resolveToContext || false;
@@ -81,16 +81,21 @@ exports.createResolver = function(options) {
 	let unsafeCache = options.unsafeCache || false;
 
 	// Whether or not the unsafeCache should include request context as part of the cache key.
-	const cacheWithContext = typeof options.cacheWithContext !== "undefined" ? options.cacheWithContext : true;
+	const cacheWithContext =
+		typeof options.cacheWithContext !== "undefined"
+			? options.cacheWithContext
+			: true;
 
 	// Enable concord description file instructions
 	const enableConcord = options.concord || false;
 
 	// A function which decides whether a request should be cached or not.
 	// an object is passed with `path` and `request` properties.
-	const cachePredicate = options.cachePredicate || function() {
-		return true;
-	};
+	const cachePredicate =
+		options.cachePredicate ||
+		function() {
+			return true;
+		};
 
 	// The file system which should be used
 	const fileSystem = options.fileSystem;
@@ -103,8 +108,12 @@ exports.createResolver = function(options) {
 
 	//// options processing ////
 
-	if(!resolver) {
-		resolver = new Resolver(useSyncFileSystemCalls ? new SyncAsyncFileSystemDecorator(fileSystem) : fileSystem);
+	if (!resolver) {
+		resolver = new Resolver(
+			useSyncFileSystemCalls
+				? new SyncAsyncFileSystemDecorator(fileSystem)
+				: fileSystem
+		);
 	}
 
 	extensions = [].concat(extensions);
@@ -115,7 +124,7 @@ exports.createResolver = function(options) {
 	});
 
 	mainFields = mainFields.map(item => {
-		if(typeof item === "string" || Array.isArray(item)) {
+		if (typeof item === "string" || Array.isArray(item)) {
 			item = {
 				name: item,
 				forceRelative: true
@@ -124,28 +133,31 @@ exports.createResolver = function(options) {
 		return item;
 	});
 
-	if(typeof alias === "object" && !Array.isArray(alias)) {
+	if (typeof alias === "object" && !Array.isArray(alias)) {
 		alias = Object.keys(alias).map(key => {
 			let onlyModule = false;
 			let obj = alias[key];
-			if(/\$$/.test(key)) {
+			if (/\$$/.test(key)) {
 				onlyModule = true;
 				key = key.substr(0, key.length - 1);
 			}
-			if(typeof obj === "string") {
+			if (typeof obj === "string") {
 				obj = {
 					alias: obj
 				};
 			}
-			obj = Object.assign({
-				name: key,
-				onlyModule: onlyModule
-			}, obj);
+			obj = Object.assign(
+				{
+					name: key,
+					onlyModule: onlyModule
+				},
+				obj
+			);
 			return obj;
 		});
 	}
 
-	if(unsafeCache && typeof unsafeCache !== "object") {
+	if (unsafeCache && typeof unsafeCache !== "object") {
 		unsafeCache = {};
 	}
 
@@ -167,21 +179,35 @@ exports.createResolver = function(options) {
 	resolver.ensureHook("resolved");
 
 	// resolve
-	if(unsafeCache) {
-		plugins.push(new UnsafeCachePlugin("resolve", cachePredicate, unsafeCache, cacheWithContext, "new-resolve"));
+	if (unsafeCache) {
+		plugins.push(
+			new UnsafeCachePlugin(
+				"resolve",
+				cachePredicate,
+				unsafeCache,
+				cacheWithContext,
+				"new-resolve"
+			)
+		);
 		plugins.push(new ParsePlugin("new-resolve", "parsed-resolve"));
 	} else {
 		plugins.push(new ParsePlugin("resolve", "parsed-resolve"));
 	}
 
 	// parsed-resolve
-	plugins.push(new DescriptionFilePlugin("parsed-resolve", descriptionFiles, "described-resolve"));
+	plugins.push(
+		new DescriptionFilePlugin(
+			"parsed-resolve",
+			descriptionFiles,
+			"described-resolve"
+		)
+	);
 	plugins.push(new NextPlugin("after-parsed-resolve", "described-resolve"));
 
 	// described-resolve
-	if(alias.length > 0)
+	if (alias.length > 0)
 		plugins.push(new AliasPlugin("described-resolve", alias, "resolve"));
-	if(enableConcord) {
+	if (enableConcord) {
 		plugins.push(new ConcordModulesPlugin("described-resolve", {}, "resolve"));
 	}
 	aliasFields.forEach(item => {
@@ -194,55 +220,69 @@ exports.createResolver = function(options) {
 	moduleExtensions.forEach(item => {
 		plugins.push(new ModuleAppendPlugin("raw-module", item, "module"));
 	});
-	if(!enforceModuleExtension)
+	if (!enforceModuleExtension)
 		plugins.push(new TryNextPlugin("raw-module", null, "module"));
 
 	// module
 	modules.forEach(item => {
-		if(Array.isArray(item))
-			plugins.push(new ModulesInHierachicDirectoriesPlugin("module", item, "resolve"));
-		else
-			plugins.push(new ModulesInRootPlugin("module", item, "resolve"));
+		if (Array.isArray(item))
+			plugins.push(
+				new ModulesInHierachicDirectoriesPlugin("module", item, "resolve")
+			);
+		else plugins.push(new ModulesInRootPlugin("module", item, "resolve"));
 	});
 
 	// relative
-	plugins.push(new DescriptionFilePlugin("relative", descriptionFiles, "described-relative"));
+	plugins.push(
+		new DescriptionFilePlugin(
+			"relative",
+			descriptionFiles,
+			"described-relative"
+		)
+	);
 	plugins.push(new NextPlugin("after-relative", "described-relative"));
 
 	// described-relative
 	plugins.push(new FileKindPlugin("described-relative", "raw-file"));
-	plugins.push(new TryNextPlugin("described-relative", "as directory", "directory"));
+	plugins.push(
+		new TryNextPlugin("described-relative", "as directory", "directory")
+	);
 
 	// directory
 	plugins.push(new DirectoryExistsPlugin("directory", "existing-directory"));
 
-	if(resolveToContext) {
-
+	if (resolveToContext) {
 		// existing-directory
 		plugins.push(new NextPlugin("existing-directory", "resolved"));
-
 	} else {
-
 		// existing-directory
-		if(enableConcord) {
+		if (enableConcord) {
 			plugins.push(new ConcordMainPlugin("existing-directory", {}, "resolve"));
 		}
 		mainFields.forEach(item => {
 			plugins.push(new MainFieldPlugin("existing-directory", item, "resolve"));
 		});
 		mainFiles.forEach(item => {
-			plugins.push(new UseFilePlugin("existing-directory", item, "undescribed-raw-file"));
+			plugins.push(
+				new UseFilePlugin("existing-directory", item, "undescribed-raw-file")
+			);
 		});
 
 		// undescribed-raw-file
-		plugins.push(new DescriptionFilePlugin("undescribed-raw-file", descriptionFiles, "raw-file"));
+		plugins.push(
+			new DescriptionFilePlugin(
+				"undescribed-raw-file",
+				descriptionFiles,
+				"raw-file"
+			)
+		);
 		plugins.push(new NextPlugin("after-undescribed-raw-file", "raw-file"));
 
 		// raw-file
-		if(!enforceExtension) {
+		if (!enforceExtension) {
 			plugins.push(new TryNextPlugin("raw-file", "no extension", "file"));
 		}
-		if(enableConcord) {
+		if (enableConcord) {
 			plugins.push(new ConcordExtensionsPlugin("raw-file", {}, "file"));
 		}
 		extensions.forEach(item => {
@@ -250,21 +290,19 @@ exports.createResolver = function(options) {
 		});
 
 		// file
-		if(alias.length > 0)
+		if (alias.length > 0)
 			plugins.push(new AliasPlugin("file", alias, "resolve"));
-		if(enableConcord) {
+		if (enableConcord) {
 			plugins.push(new ConcordModulesPlugin("file", {}, "resolve"));
 		}
 		aliasFields.forEach(item => {
 			plugins.push(new AliasFieldPlugin("file", item, "resolve"));
 		});
-		if(symlinks)
-			plugins.push(new SymlinkPlugin("file", "relative"));
+		if (symlinks) plugins.push(new SymlinkPlugin("file", "relative"));
 		plugins.push(new FileExistsPlugin("file", "existing-file"));
 
 		// existing-file
 		plugins.push(new NextPlugin("existing-file", "resolved"));
-
 	}
 
 	// resolved
@@ -281,9 +319,9 @@ exports.createResolver = function(options) {
 
 function mergeFilteredToArray(array, filter) {
 	return array.reduce((array, item) => {
-		if(filter(item)) {
+		if (filter(item)) {
 			const lastElement = array[array.length - 1];
-			if(Array.isArray(lastElement)) {
+			if (Array.isArray(lastElement)) {
 				lastElement.push(item);
 			} else {
 				array.push([item]);

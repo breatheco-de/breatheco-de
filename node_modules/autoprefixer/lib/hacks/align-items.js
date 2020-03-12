@@ -21,6 +21,9 @@ function (_Declaration) {
 
   var _proto = AlignItems.prototype;
 
+  /**
+   * Change property name for 2009 and 2012 specs
+   */
   _proto.prefixed = function prefixed(prop, prefix) {
     var spec;
 
@@ -70,10 +73,6 @@ _defineProperty(AlignItems, "names", ['align-items', 'flex-align', 'box-align'])
 _defineProperty(AlignItems, "oldValues", {
   'flex-end': 'end',
   'flex-start': 'start'
-  /**
-   * Change property name for 2009 and 2012 specs
-   */
-
 });
 
 module.exports = AlignItems;

@@ -1,4 +1,3 @@
-
 var isObject = function isObject(value) {
     return value instanceof Object && value.constructor === Object;
 };
@@ -39,5 +38,5 @@ var parseWrapArguments = function parseWrapArguments(args) {
 
 module.exports = {
     isObject: isObject,
-    parseWrapArguments: parseWrapArguments,
+    parseWrapArguments: parseWrapArguments
 };
