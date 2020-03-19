@@ -3,8 +3,8 @@ skin: "blue"
 
 basic_info:
 
-    first_name: Alexandre
-    last_name: Henriques
+    first_name: Iliam
+    last_name: Carrion
     
     motto: I have no special talent. I am only passionately curious.
     
@@ -28,19 +28,13 @@ basic_info:
     stack-overflow: 
 
     languages:
-      - idiom: English
-        level: Professional
-
       - idiom: Spanish
-        level: Professional
-
-      - idiom: Portuguese
         level: Native
 
     interests:
-      - item: Tennis
+      - item: baseball
 
-      - item: Snowboarding
+      - item: Design
 
       - item: Cooking
 
@@ -48,7 +42,7 @@ education:
     - degree: FullStack Web Developer
       university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2019 - 2019
+      time: 2020 - 2020
       details:
           -Real “Senior” Mentoring
           All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry.
@@ -103,13 +97,13 @@ skills:
         level: 0%
 
       - name: Javascript & jQuery
-        level: 0%
+        level: 100%
 
       - name: Angular
         level: 0%
 
       - name: HTML5 & CSS
-        level: 50%
+        level: 100%
 
       - name: Ruby on Rails
         level: 0%
