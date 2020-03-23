@@ -1,10 +1,12 @@
 import React from "react";
 import { graphql } from 'gatsby';
 
+
 export default ({ data, pageContext }) => {
   const student = data.studentsYaml;
   const { basic_info, education, experiences, projects, skills } = student;
     require(`./styles/skins/${student.skin || 'blue'}.scss`);
+    console.log(student)
   return (
       <div>
         <div className="wrapper">
@@ -114,6 +116,7 @@ export default ({ data, pageContext }) => {
       </div>
   );
 };
+
 
 export const query = graphql`
   query ($github: String) {

@@ -11,7 +11,6 @@ exports.components = {
   "component---src-pages-pdf-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/PDF.js"))),
   "component---src-pages-profile-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/profile.js"))),
   "component---src-pages-profile-2-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/profile2.js"))),
-  "component---src-pages-students-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/students.js"))),
-  "component---src-pages-yaml-to-json-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/YamlToJson.js")))
+  "component---src-pages-students-js": hot(preferDefault(require("/workspace/student-external-profile/src/pages/students.js")))
 }
 

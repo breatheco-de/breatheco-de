@@ -8,7 +8,6 @@ exports.components = {
   "component---src-pages-pdf-js": () => import("./../src/pages/PDF.js" /* webpackChunkName: "component---src-pages-pdf-js" */),
   "component---src-pages-profile-js": () => import("./../src/pages/profile.js" /* webpackChunkName: "component---src-pages-profile-js" */),
   "component---src-pages-profile-2-js": () => import("./../src/pages/profile2.js" /* webpackChunkName: "component---src-pages-profile-2-js" */),
-  "component---src-pages-students-js": () => import("./../src/pages/students.js" /* webpackChunkName: "component---src-pages-students-js" */),
-  "component---src-pages-yaml-to-json-js": () => import("./../src/pages/YamlToJson.js" /* webpackChunkName: "component---src-pages-yaml-to-json-js" */)
+  "component---src-pages-students-js": () => import("./../src/pages/students.js" /* webpackChunkName: "component---src-pages-students-js" */)
 }
 
