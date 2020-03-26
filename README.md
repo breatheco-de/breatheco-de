@@ -4,6 +4,8 @@
 
 The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
 
+<iframe width="640" height="319" src="https://www.loom.com/embed/2fdc81952c084c2785859cc681438bf7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## What to do next?
 
 Create a `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running web-server using the following command:
