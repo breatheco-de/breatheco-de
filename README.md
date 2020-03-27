@@ -4,7 +4,7 @@
 
 The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
 
-<iframe width="640" height="319" src="https://www.loom.com/embed/2fdc81952c084c2785859cc681438bf7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[![How to open html/css preview of my project in gitpod](https://ucarecdn.com/96afb19f-e524-4317-9f5c-e3a0f9b7e8c7/)](https://youtu.be/dfbDCMu_p-0)
 
 ## What to do next?
 
