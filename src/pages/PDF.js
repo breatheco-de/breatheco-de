@@ -19,7 +19,7 @@ const ExternalProfile = (props) => {
       </View>
       <View>
         <Text style={styles.title}>PROFILE</Text>
-        <Text style={styles.description}>{props.node.basic_info.summary != undefined ? props.node.basic_info.summary: "Your Summary"}</Text>
+        <Text style={styles.descriptionC}>{newSummary != undefined ? props.node.basic_info.summary.split(" ").join("-").split("-").join(" "): "Your Summary"}</Text>
       </View>
       <View style={styles.section}>
         <View style={styles.skills}>
@@ -59,14 +59,15 @@ const ExternalProfile = (props) => {
           </View>) : <Text style={styles.description}>Python - Intermediate</Text>}
             <Text style={styles.title}>EDUCATION</Text>
             <View style={styles.section}>
+
               {props.node.education != null ? props.node.education.map( (item, i) => 
-              <View style={styles.div} key={i}>
+              <View style={props.node.education.length != 1 ?  styles.div : styles.divB} key={i}>
                 <Text style={styles.sub}>{item.degree != null ? item.degree.toUpperCase() : <Text style={styles.description}>Item Title</Text>}</Text>
                 <Text style={styles.description}>{item.university}</Text>
                 <Text style={styles.description}>{item.details}</Text>
                 <Text style={styles.description}>Time {item.time}</Text>
-              </View>
-              ) : <Text style={styles.description}>Item Title</Text>}
+              </View>) 
+               : <Text style={styles.description}>Item Title</Text>}
             </View>
         </View>
       </View>
@@ -132,6 +133,9 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
   },
+  divB: {
+      width:"100%"
+  },
   skills: {
     width: "40%"
   },
@@ -174,6 +178,12 @@ const styles = StyleSheet.create({
     fontSize: 9,
     textAlign: 'left',
     fontFamily: 'Oswald',
+  },
+  descriptionC: {
+    fontSize: 9,
+    fontFamily: 'Oswald',
+    textAlign: "justify",
+    width:"100%"
   },
   descriptionB: {
     fontSize: 9,
