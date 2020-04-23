@@ -1,0 +1,57 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Flor
+    last_name: Rodríguez
+    
+    # Define yourself in 4-5 words
+    motto: I am passionate about data and generate new projects
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Digital Marketing Specialist and I worked for the last two years in Womenalia. 
+      I love to make decision about data. And now I want to learn coding to improve my carrer
+      and create my own website.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1oOeL9SxclGM3UeccXTJjnsRPiZN297_w/view?usp=sharing
+
+    # Contact Information
+    email: florrod23@gmail.com #optional
+    phone: +34 669 95 14 72 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/flor-rodriguez-alvarez-mkt-digital #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Florrod
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Proffesional
+
+    # Interests or hobies
+    interests:
+      - item: Series
+
+      - item: Hiking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details:
