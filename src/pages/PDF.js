@@ -35,19 +35,19 @@ const ExternalProfile = (props) => {
           <Text style={styles.career}>Software Developer</Text>
         </View>
         <View style={styles.contactInfoView}>
-         <View style={styles.dflex}>
+         <View style={styles.dflexInfo}>
           <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png' style={styles.img}/>
           <Text style={styles.contactInfoText}>{props.node.basic_info.github != undefined ? props.node.basic_info.github : "Your Github"}</Text>
           </View>
-          <View style={styles.dflex}>
+          <View style={styles.dflexInfo}>
           <Image src='https://cdn4.iconfinder.com/data/icons/squared-line-communication/64/mail-circle-512.png' style={styles.img}/>
           <Text style={styles.contactInfoText}>{props.node.basic_info.email != undefined ? props.node.basic_info.email: "Your Email"}</Text>
           </View>
-          <View style={styles.dflex}>
+          <View style={styles.dflexInfo}>
           <Image src='https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png' style={styles.img}/>
           <Text style={styles.contactInfoText}> { props.node.basic_info.phone != undefined ?  props.node.basic_info.phone : "Your Phone" }</Text>
           </View>
-          <View style={styles.dflex}>
+          <View style={styles.dflexInfo}>
           <Image src='https://cdn.onlinewebfonts.com/svg/img_408253.png' style={styles.img}/>
            <Text style={styles.contactInfoText}>{props.node.basic_info.linkedin != undefined ? props.node.basic_info.linkedin : "Your Linkedin"}</Text>
           </View>
@@ -71,7 +71,7 @@ const ExternalProfile = (props) => {
             props.node.projects.assignments.map((item, i) => 
            <View key={i}>
               <Text style={styles.descriptionC}>{item.title != null ? item.title.toUpperCase(): <Text style={styles.description}>Item Title</Text>}</Text>
-              <Text style={styles.description}>{item.link}</Text>
+              <Text style={styles.descriptionL}>{item.link === "#" ? "Your project link" : item.link}</Text>
               <Text style={styles.description}>{item.tagline}</Text>
             </View>
             ) :<Text style={styles.description}>Python - Intermediate</Text>
@@ -141,6 +141,11 @@ const styles = StyleSheet.create({
   dflex: {
     display: "flex",
     flexDirection: "row"
+  },
+  dflexInfo: {
+    display: "flex",
+    flexDirection: "row",
+    marginBottom:2
   },
   contactInfoText: {
     fontSize: 12,
@@ -244,6 +249,13 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     width:"70%",
     fontWeight:"bold"
+  },
+  descriptionL: {
+    fontSize: 9,
+    textAlign: 'left',
+    width:"70%",
+    fontWeight:"bold",
+    paddingBottom:2
   },
   descriptionC: {
     fontSize: 9,
