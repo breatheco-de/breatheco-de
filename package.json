@@ -7,6 +7,7 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "test": "node test-yaml.js",
     "c9": "gatsby develop -p $PORT -H $IP",
     "deploy": "node deploy-to-github.js",
     "now-build": "node test-yaml.js && gatsby build"
