@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Christian
+    last_name: Olmos
+    
+    motto: .
+    
+    focus: student of cyber security (OSCP, Masters Java), full stack (html, CSS, javascript, python)
+    
+    summary: Hobbyist level
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQEhwac3_zELYg/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=svdYg2qWYaSd9z5HmuREqSKVKsHxZbE__L8M6vWjnOk
+
+    email: fullstackchrisolmos@gmail.com
+    phone: 786 818 2350
+    website: 
+    linkedin: www.linkedin.com/in/0x00lmos/
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/christianolmosUSA
+    github: christianolmosUSA
+    
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+      
+
+    interests:
+      - item: Travel
+
+      - item: 
+
+      - item: 
+
+education:
+    - degree: BSc
+      university: 
+      university_logo: .
+      time: .
+      details:
+          
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: .
+      time:.
+      company: .
+      # optional
+      company_logo: .
+      details: |
+        .
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 10%
+
+      - name: Ruby on Rails
+        level: 0%
+
+
