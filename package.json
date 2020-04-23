@@ -9,7 +9,7 @@
     "serve": "gatsby serve",
     "test": "node test-yaml.js",
     "c9": "gatsby develop -p $PORT -H $IP",
-    "deploy": "node deploy-to-github.js",
+    "deploy": "node test-yaml.js && node deploy-to-github.js",
     "now-build": "node test-yaml.js && gatsby build"
   },
   "dependencies": {
