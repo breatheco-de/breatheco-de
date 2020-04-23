@@ -45,9 +45,11 @@ const validateProfiles = (profiles) => profiles.map(l => {
     if(typeof yaml.experiences !== 'undefined'){
         if(!Array.isArray(yaml.experiences)) throw new Error(`Experiences must be an array`.red);
         yaml.experiences.forEach((ex) => {
-            if(typeof ex.role === "undefined") throw new Error(`Missing experience role`.red);
-            if(typeof ex.time === "undefined") throw new Error(`Missing experience time`.red);
-            if(typeof ex.company === "undefined") throw new Error(`Missing experience company`.red);
+            if(ex){
+                if(typeof ex.role === "undefined") throw new Error(`Missing experience role`.red);
+                if(typeof ex.time === "undefined") throw new Error(`Missing experience time`.red);
+                if(typeof ex.company === "undefined") throw new Error(`Missing experience company`.red);
+            }
         })
     }
     if(typeof yaml.education !== 'undefined'){
