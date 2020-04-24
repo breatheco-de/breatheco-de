@@ -1,0 +1,48 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+    first_name: Mattia
+    last_name: Tozzi
+    motto: Full-Stack Developer
+    avatar: https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+    summary: |
+      Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
+      Soy una persona muy organizada, responsable, y perseverante, orientada al cumplimiento de horarios y plazos de entrega, además tengo una natural inclinación por facilitar un clima favorable de trabajo y trabajar en equipo.
+      Tengo muchas ganas de aprender, practicar y crecer como programador.
+
+    email: tozzigh@gmail.com
+    phone: 617 578 648
+    linkedin: https://www.linkedin.com/in/mattia-tozzi-263556195/
+    github: https://github.com/Tozzigh
+
+    languages:
+      - idiom: Italiano
+        level: Nativo
+
+      - idiom: Español
+        level: Intermedio
+
+      - idiom: Ingles
+        level: Intermedio
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Cinema
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: Javascript
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Git
+        level: 65%
