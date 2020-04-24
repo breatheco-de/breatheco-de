@@ -19,8 +19,6 @@ basic_info:
     focus: Coding
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Background in digital product development, with more than 8 years experience. Strong Development and troubleshooting skills, with focus on critical thinking, cultivating solutions and team management. A history of perseverance and complex problem solving, with emphasis in the areas of product development and digital marketing.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
@@ -43,61 +41,3 @@ basic_info:
     languages:
       - idiom: Spanish
         level: Native
-
-      - idiom: English
-        level: Professional
-
-    # Interests or hobies
-    interests:
-      - item: D&D
-
-      - item: Gaming
-
-      - item: Learning
-
-# Your previous education
-education:
-    - degree: MSc in Computer Science
-      university: Universidad Central de Venezuela
-      time: 2005 - 2010
-      details:
-
-# Your previous job experiences or voluntier
-experiences:
-    - role: Product Manager
-      time: 2011 - Present
-      company: 4Geeks Developers Community
-      details: |
-        •	Lead a team of 9 including: development, graphic design, quality assurance and project requirements. Lead weekly meetings with team members defining and assigning task aligned with client’s specific goals and generate monthly report of overall project.
-        •	Lead biweekly meetings with clients to evaluate and pivot requests.
-        •	Managed over 20 clients and over 50 projects including but not limited to: web pages, mobile applications, mobile-web platforms, wordpress implementations, social networks and digital marketing campaigns.
-        •	Managed the correct functioning of the workforce.
-        •	Coordinated interactions with clients and end-user.
-        •	Defined the structure and architecture of client ‘projects along with the technical staff.
-        •	Defined and executed the workflow so the project's artifacts and deliverables were guaranteed.
-        •	Motivated the team for a better performance.
-        •	Participated in different startup boards as a technical assessor and CTO.
-
-
-skills:
-    toolset:
-      - name: HTML5 & CSS
-        level: 98%
-
-      - name: Javascript
-        level: 98%
-
-      - name: React
-        level: 80%
-
-      - name: PWA
-        level: 80%
-
-      - name: Wordpress
-        level: 85%
-
-      - name: PHP
-        level: 90%
-
-      - name: Python Django
-        level: 75%

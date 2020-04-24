@@ -32,16 +32,13 @@ p {
     background:$theme-color;
     max-width: 1000px;
     margin: 0 auto;
-    position: relative;
+    display: flex;
     @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
 .sidebar-wrapper {
     background: $theme-color;
-    position: absolute;
-    right: 0;
-    width: 280px;
-    height: 100%;
+    width: 380px;
     min-height: 800px;
     color: #fff;
     a {
@@ -156,7 +153,7 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 60px;
-    padding-right: 340px;
+    width: 100%;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
