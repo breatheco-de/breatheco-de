@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christian
+    last_name: Olmos
+    
+    # Define yourself in 4-5 words
+    motto: Code Obsessed
+    
+    # focus
+    focus: CyberSec / InfoSec
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      after a few years as script kiddy I realised that I need to really learn how to code so that I can make great leaps in cyber security 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQEhwac3_zELYg/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=DZf5QTE0vsY83oGiKhhrafGbf78m5__X6FUn-_taYVg
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  https://www.linkedin.com/in/0x00lmos/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ChristianOlmosUSA
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobies
+    interests:
+      - item: Fishing
+
+      - item: 
+
+      - item: 
+
+# Your previous education
+education:
+    - degree: BSc Economics
+      university: 
+      # optional
+      university_logo: 
+      time: 1999-2003
+      details: |
+        Mathematical modelling and economic theory
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+
+# Your previous job experiences or volunter
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+
+# Your project portfolio
+projects: blog listing all my projects
+    intro: >
+      blank for now
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 0x00lmos.com
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset: Python
+      - name: 
+        level: 
+
+      - name: React
+        level: 
+
+      - name: Javascript
+        level: 
+
+      - name: PWK for OSCP
+        level: 
+
+      - name: html, css
+        level: 
+
+      - name: Kali Linux
+        level: used all tools and been through the PWK course
