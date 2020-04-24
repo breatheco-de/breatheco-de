@@ -42,7 +42,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
 
     //if(typeof yaml.basic_info.phone === 'undefined') throw new Error(`Missing or invalid phone field`.red);
 
-    if(typeof yaml.experiences !== 'undefined'){
+    if(yaml.experiences && typeof yaml.experiences !== 'undefined'){
         if(!Array.isArray(yaml.experiences)) throw new Error(`Experiences must be an array`.red);
         yaml.experiences.forEach((ex) => {
             if(ex){
@@ -52,7 +52,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
             }
         })
     }
-    if(typeof yaml.education !== 'undefined'){
+    if(yaml.education && typeof yaml.education !== 'undefined'){
         if(!Array.isArray(yaml.education)) throw new Error(`Education must be an array`.red);
         yaml.education.forEach((ex) => {
             if(typeof ex.degree === "undefined") throw new Error(`Missing education degree`.red);
@@ -61,7 +61,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
         })
     }
 
-    if(typeof yaml.projects !== 'undefined' && typeof yaml.projects.assignments !== 'undefined'){
+    if(yaml.projects && typeof yaml.projects !== 'undefined' && typeof yaml.projects.assignments !== 'undefined'){
         if(!Array.isArray(yaml.projects.assignments)) throw new Error(`Assignments must be an array`.red);
         yaml.projects.assignments.forEach((ex) => {
             if(typeof ex.title === "undefined") throw new Error(`Missing assignment title`.red);
