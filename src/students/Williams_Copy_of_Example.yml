@@ -3,20 +3,20 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "human"
 
 # Personal Information
 basic_info:
 
     # Your full name
     first_name: Wonder
-    last_name: Woman
+    last_name: William
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like sleeping when I think. 
     
     # focus
-    focus: Killing Bad Boys
+    focus: Killing Them Softly
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -33,17 +33,17 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: random@random.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    # This github username will be use to generate your public profile URL like this: https://github.com/YodaFace
     github: yodaface
     
-    twitter: 'webjeda' #optional
+    twitter: 'yodaface' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -52,26 +52,26 @@ basic_info:
         level: Native
 
       - idiom: French
-        level: Professional
+        level: Kisses
 
       - idiom: Spanish
-        level: Professional
+        level: Terrible
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Climbing the corporate ladder.
 
-      - item: Snowboarding
+      - item: Skating on thin ice. 
 
-      - item: Cooking
+      - item: Cooking with fire. 
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: I prefer old spice. 
+      university: University of Self Education
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 1980 - 2020
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -82,7 +82,7 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
+    - degree: Some
       university: Bristol University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -205,3 +205,8 @@ skills:
 
       - name: Sketch & Photoshop
         level: 60%
+
+
+
+
+
