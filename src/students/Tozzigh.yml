@@ -2,14 +2,14 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 template: "online-cv"
-skin: "orange"
+skin: "green"
 
 basic_info:
 
     # Profile information
-    first_name: Emilio
-    last_name: Ballesta
-    motto: Psychologist, Data Science and Developer
+    first_name: Mattia
+    last_name: Tozzi
+    motto: Full-stack Developer
     avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
       Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
