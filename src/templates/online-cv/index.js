@@ -29,8 +29,9 @@ export default ({ data, pageContext }) => {
                            <div className="company">{ex.company}</div>
                         </div>
                         { ex.details && <div className="details">{ex.details}</div> }
-                    </div>)
-                 ):'No experiences spefified'}
+                    </div>))
+                 : 'No experiences spefified'
+                }
               </section>
               <section className="section projects-section">
                  <h2 className="section-title"> <span className="fa-stack fa-xs"> <i className="fas fa-circle fa-stack-2x"></i> <i className="fas fa-archive fa-stack-1x fa-inverse"></i> </span> Projects</h2>
