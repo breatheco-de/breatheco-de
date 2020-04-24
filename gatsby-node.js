@@ -9,7 +9,6 @@ const getTemplate = (templateSlug) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `SitePage`) {
-      console.log(node);
       createNodeField({
         node, name: `today`,
         value: new Date(),

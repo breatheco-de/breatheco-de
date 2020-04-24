@@ -86,9 +86,9 @@ export default ({ data, pageContext }) => {
               <section className="section projects-section">
                  <h2 className="section-title"> <span className="fa-stack fa-xs"> <i className="fas fa-circle fa-stack-2x"></i> <i className="fas fa-archive fa-stack-1x fa-inverse"></i> </span> Projects</h2>
                  <div className="intro">
-                    <p>{projects.intro}</p>
+                    <p>{projects ? projects.intro : "No projects speficied"}</p>
                  </div>
-                 {' '}{ Array.isArray(projects.assignments) ? projects.assignments.map((as, i) =>
+                 {' '}{ projects && Array.isArray(projects.assignments) ? projects.assignments.map((as, i) =>
                      (<div key={i} className="item">
                         <span className="project-title">{as.title}</span>
                         - <span className="project-tagline">{as.tagline}</span>
