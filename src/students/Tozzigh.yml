@@ -1,30 +1,38 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
 template: "online-cv"
-skin: "green"
+skin: "orange"
 
 basic_info:
-    first_name: Mattia
-    last_name: Tozzi
-    motto: Full-Stack Developer
-    avatar: https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+
+    # Profile information
+    first_name: Emilio
+    last_name: Ballesta
+    motto: Psychologist, Data Science and Developer
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
       Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
       Soy una persona muy organizada, responsable, y perseverante, orientada al cumplimiento de horarios y plazos de entrega, además tengo una natural inclinación por facilitar un clima favorable de trabajo y trabajar en equipo.
       Tengo muchas ganas de aprender, practicar y crecer como programador.
-
+    # Sidebar links
     email: tozzigh@gmail.com
     phone: 617 578 648
-    linkedin: https://www.linkedin.com/in/mattia-tozzi-263556195/
+    website: 
+    linkedin: www.linkedin.com/in/mattia-tozzi-263556195/
     github: Tozzigh
+    twitter: 
+    stack-overflow: 
 
     languages:
-      - idiom: Italiano
-        level: Nativo
+      - idiom: Italian
+        level: Native
 
-      - idiom: Español
-        level: Intermedio
-
-      - idiom: Ingles
-        level: Intermedio
+      - idiom: Spanish 
+        level: Professional
+        
+      - idiom: English
+        level: Professional
 
     interests:
       - item: Coding
@@ -33,16 +41,62 @@ basic_info:
 
       - item: Cinema
 
+education:
+    - degree: 
+      university: 
+      time: 
+      details: |
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: 
+      time: 
+      company: 
+      details: |
+          - Bullet point
+          - Bullet point
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 skills:
     toolset:
-      - name: Python
-        level: 60%
+      - name: Python & Django
+        level: 98%
 
-      - name: Javascript
-        level: 70%
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
 
       - name: HTML5 & CSS
-        level: 80%
+        level: 95%
 
-      - name: Git
-        level: 65%
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
