@@ -3,7 +3,7 @@ pullRequestOpened: >-
     
     1. Github will try to test that your YML file is good and the project builds correctly. 
     2. If everything goes good, `mergify` will try to approve the pull request and automatically merge. 
-    3. If everything is merged then `now` will re-publish the website under https://sep.4geeksacademy.com and you should see yourself.
+    3. If everything is merged then `now` will re-publish the website under https://sep.4geeksacademy.co and you should see yourself.
 
     ### How long will my PR take to be published?
     
@@ -19,7 +19,7 @@ pullRequestOpened: >-
     
     1. Github va a intentar probar que tu archivo YML este correctamente creado y que la pagina web funcione correctamente.
     2. Si todo sale bien tu Pull Request sera aprobado y tu codigo se incluira automaticamente en el branch MASTER del repositorio principal.
-    3. Luego de que se incluya, un nuevo proceso va a intentar re-publicar la pagina para que ahora tu nombre aparezca en la lista de alumnos https://sep.4geeksacademy.com
+    3. Luego de que se incluya, un nuevo proceso va a intentar re-publicar la pagina para que ahora tu nombre aparezca en la lista de alumnos https://sep.4geeksacademy.co
 
     ### Cuanto tarda todo esto?
     
