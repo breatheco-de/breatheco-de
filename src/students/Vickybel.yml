@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Victoria
+    last_name: Lemus
+    
+    # Define yourself in 4-5 words
+    motto:  Dedicated, Honest, Creative, Determined
+    
+    # focus
+    focus: Digital Marketing, UX/UI Desing, Web Desing, Front-end Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Publicist focused in digital marketing, social media and content creation. With experience with accounts of high luxury and retail.
+     My main objective is bringing a combination of my own experience in publishing and marketing and my passion for web development, 
+     creating dynamic and entertaining web sites where the public will feel identified.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/programming_cat.jpg
+
+    # Contact Information
+    email: vickybel1995@hotmail.com #optional
+    phone:  +56 989250595
+    linkedin: https://www.linkedin.com/in/victoria-lemus/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Vickybel
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native 
+
+      - idiom: English
+        level: Intermediate B2
+
+      - idiom: French
+        level: Elementary A2
+
+
+    # Interests or hobbies
+    interests:
+      - item: Digital Marketing
+
+      - item: Programming
+
+      - item: Technology
+      
+      - item: Design
+
+# Your previous education
+education:
+    - degree: Systems Engineer
+      university: Universidad Bicentenaria de Aragua
+      time: 2019 - to present
+
+    - degree: University Technician in Marketing and Publicity
+      university: Instituto Universitario de Mercadotecnia
+      time: 2014 - 2016
+
+    - degree: Bachelor of Mathematics
+      university: Universidad Simón Bolívar 
+      time: 2012 - 2016 (Unfinished)
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Social Media Manager
+      time: March 2020 - to present
+      company: Dayanani Prestige Group (Chile)
+      details: |
+      Responsible for the creation of content for social networks of high-luxury brands, investment in advertising for various digital campaigns 
+      of the different brands,  attendance at corporate events for the positioning and the reporting for social networks of the brands.
+      In charge of launching products and new brands in digital media, as well as analyzing the results of the actions carried out.  In general,
+      focused on the digital development of the company, from the management of social networks to the maintenance of websites for the public.
+
+    - role: Social Media Manager 
+      time: July 2019 - to present
+      company: Turismo Karkú (Chile)
+      details: Freelance.
+      Responsible for the creation of advertising campaigns for digital media of the company's services as well as the creation of organic content
+      for social networks in English and Spanish and maintenance of the website.
+
+    - role: Social Media Manager
+      time: April 2019 - Octuber 2019
+      company: Poker CLub Fenix Online (Chile)
+      details: Freelance.
+      Responsible for the creation of digital content for social networks, focusing on communicating with an array of groups to maintain engagement.
+      
+    - role: Saleswoman 
+      time: March 2017 - March 2019 / April 2019 - November 2019 (Part-time) / December 2019 - February 2020
+      company: Bacará S.A (Chile)
+      details:
+      Responsible for customer service, sales, cash register management, inventory and administrative procedures.
+
+    - role: Social Media Manager
+      time: June 2016 - August 2016
+      company: Publigames C.A. (Venezuela)
+      details: Intern.
+      Responsible for the creation of content for social networks as well as the integral management of different accounts of company in digital media.
+        
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects in my public repository.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/Vickybel/Tarea-Postcard"
+        tagline: "A simple postcard created using html5 and css."
+
+      - title: Simple Instagram Feed
+        link: "https://github.com/Vickybel/My-first-Instagram-version-with-Bootstrap"
+        tagline: "Instagram feed uisng HTML and Bootstrap"
+      
+skills:
+    toolset:
+
+      - name: HTML5, CSS, Javascript
+        level: 95%
+
+      - name: JQuery, Popper, Bootstrap
+        level: 90%
+
+      - name: ReactJS
+        level: 60%
+
+      - name: Windows OS
+        level: 100%
+
+      - name: Linux OS
+        level: 85%
+
+      - name: MS SQL Server
+        level: 95%
+
+      - name: Python
+        level: 65%
+
+      - name: LaTex
+        level: 80%
+
+      - name: MS Office Tools
+        level: 100%
+
+      - name: Google Adwords
+        level: 65%
+
+      - name: Facebook Adwords
+        level: 90%        
+
+      - name: Adobe XD
+        level: 70%
+
+      - name: Adobe Photoshop
+        level: 80%    
+
+      - name: Adobe Illustrator
+        level: 60%                  
