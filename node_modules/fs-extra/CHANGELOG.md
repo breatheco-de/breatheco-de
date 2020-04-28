@@ -1,3 +1,55 @@
+8.1.0 / 2019-06-28
+------------------
+
+- Add support for promisified `fs.realpath.native` in Node v9.2+ ([#650](https://github.com/jprichardson/node-fs-extra/issues/650), [#682](https://github.com/jprichardson/node-fs-extra/pull/682))
+- Update `graceful-fs` dependency ([#700](https://github.com/jprichardson/node-fs-extra/pull/700))
+- Use `graceful-fs` everywhere ([#700](https://github.com/jprichardson/node-fs-extra/pull/700))
+
+8.0.1 / 2019-05-13
+------------------
+
+- Fix bug `Maximum call stack size exceeded` error in `util/stat` ([#679](https://github.com/jprichardson/node-fs-extra/pull/679))
+
+8.0.0 / 2019-05-11
+------------------
+
+**NOTE:** Node.js v6 support is deprecated, and will be dropped in the next major release.
+
+- Use `renameSync()` under the hood in `moveSync()`
+- Fix bug with bind-mounted directories in `copy*()` ([#613](https://github.com/jprichardson/node-fs-extra/issues/613), [#618](https://github.com/jprichardson/node-fs-extra/pull/618))
+- Fix bug in `move()` with case-insensitive file systems
+- Use `fs.stat()`'s `bigint` option in `copy*()` & `move*()` where possible ([#657](https://github.com/jprichardson/node-fs-extra/issues/657))
+
+7.0.1 / 2018-11-07
+------------------
+
+- Fix `removeSync()` on Windows, in some cases, it would error out with `ENOTEMPTY` ([#646](https://github.com/jprichardson/node-fs-extra/pull/646))
+- Document `mode` option for `ensureDir*()` ([#587](https://github.com/jprichardson/node-fs-extra/pull/587))
+- Don't include documentation files in npm package tarball ([#642](https://github.com/jprichardson/node-fs-extra/issues/642), [#643](https://github.com/jprichardson/node-fs-extra/pull/643))
+
+7.0.0 / 2018-07-16
+------------------
+
+- **BREAKING:** Refine `copy*()` handling of symlinks to properly detect symlinks that point to the same file. ([#582](https://github.com/jprichardson/node-fs-extra/pull/582))
+- Fix bug with copying write-protected directories ([#600](https://github.com/jprichardson/node-fs-extra/pull/600))
+- Universalify `fs.lchmod()` ([#596](https://github.com/jprichardson/node-fs-extra/pull/596))
+- Add `engines` field to `package.json` ([#580](https://github.com/jprichardson/node-fs-extra/pull/580))
+
+6.0.1 / 2018-05-09
+------------------
+
+- Fix `fs.promises` `ExperimentalWarning` on Node v10.1.0 ([#578](https://github.com/jprichardson/node-fs-extra/pull/578))
+
+6.0.0 / 2018-05-01
+------------------
+
+- Drop support for Node.js versions 4, 5, & 7 ([#564](https://github.com/jprichardson/node-fs-extra/pull/564))
+- Rewrite `move` to use `fs.rename` where possible ([#549](https://github.com/jprichardson/node-fs-extra/pull/549))
+- Don't convert relative paths to absolute paths for `filter` ([#554](https://github.com/jprichardson/node-fs-extra/pull/554))
+- `copy*`'s behavior when `preserveTimestamps` is `false` has been OS-dependent since 5.0.0, but that's now explicitly noted in the docs ([#563](https://github.com/jprichardson/node-fs-extra/pull/563))
+- Fix subdirectory detection for `copy*` & `move*` ([#541](https://github.com/jprichardson/node-fs-extra/pull/541))
+- Handle case-insensitive paths correctly in `copy*` ([#568](https://github.com/jprichardson/node-fs-extra/pull/568))
+
 5.0.0 / 2017-12-11
 ------------------
 

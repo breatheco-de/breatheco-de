@@ -9,7 +9,7 @@ var libc = env.LIBC || (detectLibc.isNonGlibcLinux && detectLibc.family) || ''
 
 // Get `prebuild-install` arguments that were passed to the `npm` command
 if (env.npm_config_argv) {
-  var npmargs = ['prebuild', 'compile', 'build-from-source', 'debug']
+  var npmargs = ['prebuild', 'compile', 'build-from-source', 'debug', 'verbose']
   try {
     var npmArgv = JSON.parse(env.npm_config_argv).cooked
     for (var i = 0; i < npmargs.length; ++i) {

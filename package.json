@@ -23,7 +23,7 @@
     "gatsby-plugin-sharp": "^2.0.37",
     "gatsby-plugin-typography": "^2.2.2",
     "gatsby-react-router-scroll": "^2.0.2",
-    "gatsby-source-filesystem": "^2.0.10",
+    "gatsby-source-filesystem": "^2.3.0",
     "gatsby-transformer-yaml": "^2.1.12",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",

@@ -21,6 +21,7 @@ const readChunk = (filePath, startPosition, length) => {
 };
 
 module.exports = readChunk;
+// TODO: Remove this for the next major release
 module.exports.default = readChunk;
 
 module.exports.sync = (filePath, startPosition, length) => {

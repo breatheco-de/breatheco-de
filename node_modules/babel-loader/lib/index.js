@@ -32,11 +32,15 @@ const transform = require("./transform");
 
 const injectCaller = require("./injectCaller");
 
+const schema = require("./schema");
+
 const {
   isAbsolute
 } = require("path");
 
 const loaderUtils = require("loader-utils");
+
+const validateOptions = require("schema-utils");
 
 function subscribe(subscriber, metadata, context) {
   if (context[subscriber]) {
@@ -64,6 +68,9 @@ function _loader() {
   _loader = _asyncToGenerator(function* (source, inputSourceMap, overrides) {
     const filename = this.resourcePath;
     let loaderOptions = loaderUtils.getOptions(this) || {};
+    validateOptions(schema, loaderOptions, {
+      name: "Babel loader"
+    });
 
     if (loaderOptions.customize != null) {
       if (typeof loaderOptions.customize !== "string") {
@@ -141,7 +148,7 @@ function _loader() {
       throw new Error(`babel-loader ^8.0.0-beta.3 requires @babel/core@7.0.0-beta.41, but ` + `you appear to be using "${babel.version}". Either update your ` + `@babel/core version, or pin you babel-loader version to 8.0.0-beta.2`);
     }
 
-    const config = babel.loadPartialConfig(injectCaller(programmaticOptions));
+    const config = babel.loadPartialConfig(injectCaller(programmaticOptions, this.target));
 
     if (config) {
       let options = config.options;

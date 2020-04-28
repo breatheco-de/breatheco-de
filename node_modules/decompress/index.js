@@ -19,6 +19,38 @@ const runPlugins = (input, opts) => {
 	return Promise.all(opts.plugins.map(x => x(input, opts))).then(files => files.reduce((a, b) => a.concat(b)));
 };
 
+const safeMakeDir = (dir, realOutputPath) => {
+	return fsP.realpath(dir)
+		.catch(_ => {
+			const parent = path.dirname(dir);
+			return safeMakeDir(parent, realOutputPath);
+		})
+		.then(realParentPath => {
+			if (realParentPath.indexOf(realOutputPath) !== 0) {
+				throw (new Error('Refusing to create a directory outside the output path.'));
+			}
+
+			return makeDir(dir).then(fsP.realpath);
+		});
+};
+
+const preventWritingThroughSymlink = (destination, realOutputPath) => {
+	return fsP.readlink(destination)
+		.catch(_ => {
+			// Either no file exists, or it's not a symlink. In either case, this is
+			// not an escape we need to worry about in this phase.
+			return null;
+		})
+		.then(symlinkPointsTo => {
+			if (symlinkPointsTo) {
+				throw new Error('Refusing to write into a symlink');
+			}
+
+			// No symlink exists at `destination`, so we can continue
+			return realOutputPath;
+		});
+};
+
 const extractFile = (input, output, opts) => runPlugins(input, opts).then(files => {
 	if (opts.strip > 0) {
 		files = files
@@ -47,12 +79,35 @@ const extractFile = (input, output, opts) => runPlugins(input, opts).then(files 
 		const now = new Date();
 
 		if (x.type === 'directory') {
-			return makeDir(dest)
+			return makeDir(output)
+				.then(outputPath => fsP.realpath(outputPath))
+				.then(realOutputPath => safeMakeDir(dest, realOutputPath))
 				.then(() => fsP.utimes(dest, now, x.mtime))
 				.then(() => x);
 		}
 
-		return makeDir(path.dirname(dest))
+		return makeDir(output)
+			.then(outputPath => fsP.realpath(outputPath))
+			.then(realOutputPath => {
+				// Attempt to ensure parent directory exists (failing if it's outside the output dir)
+				return safeMakeDir(path.dirname(dest), realOutputPath)
+					.then(() => realOutputPath);
+			})
+			.then(realOutputPath => {
+				if (x.type === 'file') {
+					return preventWritingThroughSymlink(dest, realOutputPath);
+				}
+
+				return realOutputPath;
+			})
+			.then(realOutputPath => {
+				return fsP.realpath(path.dirname(dest))
+					.then(realDestinationDir => {
+						if (realDestinationDir.indexOf(realOutputPath) !== 0) {
+							throw (new Error('Refusing to write outside output directory: ' + realDestinationDir));
+						}
+					});
+			})
 			.then(() => {
 				if (x.type === 'link') {
 					return fsP.link(x.linkname, dest);

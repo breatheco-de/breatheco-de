@@ -84,6 +84,21 @@ declare namespace CSSselect {
       `a === b`.
     */
     equals?: (a: Node, b: Node) => boolean;
+
+     /**
+     * is the element in hovered state?
+     */
+    isHovered?: (elem: ElementNode) => boolean;
+
+    /**
+     * is the element in visited state?
+     */
+    isVisited?: (elem: ElementNode) => boolean;
+
+    /**
+     * is the element in active state?
+     */
+    isActive?: (elem: ElementNode) => boolean;
   }
 
   // TODO default types to the domutil/httpparser2 types

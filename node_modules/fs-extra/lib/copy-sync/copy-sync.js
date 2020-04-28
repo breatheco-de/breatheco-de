@@ -4,13 +4,11 @@ const fs = require('graceful-fs')
 const path = require('path')
 const mkdirpSync = require('../mkdirs').mkdirsSync
 const utimesSync = require('../util/utimes.js').utimesMillisSync
-
-const notExist = Symbol('notExist')
-const existsReg = Symbol('existsReg')
+const stat = require('../util/stat')
 
 function copySync (src, dest, opts) {
   if (typeof opts === 'function') {
-    opts = {filter: opts}
+    opts = { filter: opts }
   }
 
   opts = opts || {}
@@ -23,45 +21,37 @@ function copySync (src, dest, opts) {
     see https://github.com/jprichardson/node-fs-extra/issues/269`)
   }
 
-  src = path.resolve(src)
-  dest = path.resolve(dest)
+  const { srcStat, destStat } = stat.checkPathsSync(src, dest, 'copy')
+  stat.checkParentPathsSync(src, srcStat, dest, 'copy')
+  return handleFilterAndCopy(destStat, src, dest, opts)
+}
 
-  // don't allow src and dest to be the same
-  if (src === dest) throw new Error('Source and destination must not be the same.')
-
+function handleFilterAndCopy (destStat, src, dest, opts) {
   if (opts.filter && !opts.filter(src, dest)) return
-
   const destParent = path.dirname(dest)
   if (!fs.existsSync(destParent)) mkdirpSync(destParent)
-  return startCopy(src, dest, opts)
+  return startCopy(destStat, src, dest, opts)
 }
 
-function startCopy (src, dest, opts) {
+function startCopy (destStat, src, dest, opts) {
   if (opts.filter && !opts.filter(src, dest)) return
-  return getStats(src, dest, opts)
+  return getStats(destStat, src, dest, opts)
 }
 
-function getStats (src, dest, opts) {
+function getStats (destStat, src, dest, opts) {
   const statSync = opts.dereference ? fs.statSync : fs.lstatSync
-  const st = statSync(src)
+  const srcStat = statSync(src)
 
-  if (st.isDirectory()) return onDir(st, src, dest, opts)
-  else if (st.isFile() ||
-           st.isCharacterDevice() ||
-           st.isBlockDevice()) return onFile(st, src, dest, opts)
-  else if (st.isSymbolicLink()) return onLink(src, dest, opts)
+  if (srcStat.isDirectory()) return onDir(srcStat, destStat, src, dest, opts)
+  else if (srcStat.isFile() ||
+           srcStat.isCharacterDevice() ||
+           srcStat.isBlockDevice()) return onFile(srcStat, destStat, src, dest, opts)
+  else if (srcStat.isSymbolicLink()) return onLink(destStat, src, dest, opts)
 }
 
-function onFile (srcStat, src, dest, opts) {
-  const resolvedPath = checkDest(dest)
-  if (resolvedPath === notExist) {
-    return copyFile(srcStat, src, dest, opts)
-  } else if (resolvedPath === existsReg) {
-    return mayCopyFile(srcStat, src, dest, opts)
-  } else {
-    if (src === resolvedPath) return
-    return mayCopyFile(srcStat, src, dest, opts)
-  }
+function onFile (srcStat, destStat, src, dest, opts) {
+  if (!destStat) return copyFile(srcStat, src, dest, opts)
+  return mayCopyFile(srcStat, src, dest, opts)
 }
 
 function mayCopyFile (srcStat, src, dest, opts) {
@@ -91,11 +81,10 @@ function copyFileFallback (srcStat, src, dest, opts) {
 
   const fdr = fs.openSync(src, 'r')
   const fdw = fs.openSync(dest, 'w', srcStat.mode)
-  let bytesRead = 1
   let pos = 0
 
-  while (bytesRead > 0) {
-    bytesRead = fs.readSync(fdr, _buff, 0, BUF_LENGTH, pos)
+  while (pos < srcStat.size) {
+    const bytesRead = fs.readSync(fdr, _buff, 0, BUF_LENGTH, pos)
     fs.writeSync(fdw, _buff, 0, bytesRead)
     pos += bytesRead
   }
@@ -106,104 +95,70 @@ function copyFileFallback (srcStat, src, dest, opts) {
   fs.closeSync(fdw)
 }
 
-function onDir (srcStat, src, dest, opts) {
-  const resolvedPath = checkDest(dest)
-  if (resolvedPath === notExist) {
-    if (isSrcSubdir(src, dest)) {
-      throw new Error(`Cannot copy '${src}' to a subdirectory of itself, '${dest}'.`)
-    }
-    return mkDirAndCopy(srcStat, src, dest, opts)
-  } else if (resolvedPath === existsReg) {
-    if (isSrcSubdir(src, dest)) {
-      throw new Error(`Cannot copy '${src}' to a subdirectory of itself, '${dest}'.`)
-    }
-    return mayCopyDir(src, dest, opts)
-  } else {
-    if (src === resolvedPath) return
-    return copyDir(src, dest, opts)
-  }
-}
-
-function mayCopyDir (src, dest, opts) {
-  if (!fs.statSync(dest).isDirectory()) {
+function onDir (srcStat, destStat, src, dest, opts) {
+  if (!destStat) return mkDirAndCopy(srcStat, src, dest, opts)
+  if (destStat && !destStat.isDirectory()) {
     throw new Error(`Cannot overwrite non-directory '${dest}' with directory '${src}'.`)
   }
   return copyDir(src, dest, opts)
 }
 
 function mkDirAndCopy (srcStat, src, dest, opts) {
-  fs.mkdirSync(dest, srcStat.mode)
-  fs.chmodSync(dest, srcStat.mode)
-  return copyDir(src, dest, opts)
+  fs.mkdirSync(dest)
+  copyDir(src, dest, opts)
+  return fs.chmodSync(dest, srcStat.mode)
 }
 
 function copyDir (src, dest, opts) {
-  fs.readdirSync(src).forEach(item => {
-    startCopy(path.join(src, item), path.join(dest, item), opts)
-  })
+  fs.readdirSync(src).forEach(item => copyDirItem(item, src, dest, opts))
 }
 
-function onLink (src, dest, opts) {
-  let resolvedSrcPath = fs.readlinkSync(src)
+function copyDirItem (item, src, dest, opts) {
+  const srcItem = path.join(src, item)
+  const destItem = path.join(dest, item)
+  const { destStat } = stat.checkPathsSync(srcItem, destItem, 'copy')
+  return startCopy(destStat, srcItem, destItem, opts)
+}
 
+function onLink (destStat, src, dest, opts) {
+  let resolvedSrc = fs.readlinkSync(src)
   if (opts.dereference) {
-    resolvedSrcPath = path.resolve(process.cwd(), resolvedSrcPath)
+    resolvedSrc = path.resolve(process.cwd(), resolvedSrc)
   }
 
-  let resolvedDestPath = checkDest(dest)
-  if (resolvedDestPath === notExist || resolvedDestPath === existsReg) {
-    // if dest already exists, fs throws error anyway,
-    // so no need to guard against it here.
-    return fs.symlinkSync(resolvedSrcPath, dest)
+  if (!destStat) {
+    return fs.symlinkSync(resolvedSrc, dest)
   } else {
-    if (opts.dereference) {
-      resolvedDestPath = path.resolve(process.cwd(), resolvedDestPath)
+    let resolvedDest
+    try {
+      resolvedDest = fs.readlinkSync(dest)
+    } catch (err) {
+      // dest exists and is a regular file or directory,
+      // Windows may throw UNKNOWN error. If dest already exists,
+      // fs throws error anyway, so no need to guard against it here.
+      if (err.code === 'EINVAL' || err.code === 'UNKNOWN') return fs.symlinkSync(resolvedSrc, dest)
+      throw err
     }
-    if (resolvedDestPath === resolvedSrcPath) return
+    if (opts.dereference) {
+      resolvedDest = path.resolve(process.cwd(), resolvedDest)
+    }
+    if (stat.isSrcSubdir(resolvedSrc, resolvedDest)) {
+      throw new Error(`Cannot copy '${resolvedSrc}' to a subdirectory of itself, '${resolvedDest}'.`)
+    }
 
     // prevent copy if src is a subdir of dest since unlinking
     // dest in this case would result in removing src contents
     // and therefore a broken symlink would be created.
-    if (fs.statSync(dest).isDirectory() && isSrcSubdir(resolvedDestPath, resolvedSrcPath)) {
-      throw new Error(`Cannot overwrite '${resolvedDestPath}' with '${resolvedSrcPath}'.`)
+    if (fs.statSync(dest).isDirectory() && stat.isSrcSubdir(resolvedDest, resolvedSrc)) {
+      throw new Error(`Cannot overwrite '${resolvedDest}' with '${resolvedSrc}'.`)
     }
-    return copyLink(resolvedSrcPath, dest)
+    return copyLink(resolvedSrc, dest)
   }
 }
 
-function copyLink (resolvedSrcPath, dest) {
+function copyLink (resolvedSrc, dest) {
   fs.unlinkSync(dest)
-  return fs.symlinkSync(resolvedSrcPath, dest)
-}
-
-// check if dest exists and/or is a symlink
-function checkDest (dest) {
-  let resolvedPath
-  try {
-    resolvedPath = fs.readlinkSync(dest)
-  } catch (err) {
-    if (err.code === 'ENOENT') return notExist
-
-    // dest exists and is a regular file or directory, Windows may throw UNKNOWN error
-    if (err.code === 'EINVAL' || err.code === 'UNKNOWN') return existsReg
-
-    throw err
-  }
-  return resolvedPath // dest exists and is a symlink
-}
-
-// return true if dest is a subdir of src, otherwise false.
-// extract dest base dir and check if that is the same as src basename
-function isSrcSubdir (src, dest) {
-  const baseDir = dest.split(path.dirname(src) + path.sep)[1]
-  if (baseDir) {
-    const destBasename = baseDir.split(path.sep)[0]
-    if (destBasename) {
-      return src !== dest && dest.indexOf(src) > -1 && destBasename === path.basename(src)
-    }
-    return false
-  }
-  return false
+  return fs.symlinkSync(resolvedSrc, dest)
 }
 
 module.exports = copySync

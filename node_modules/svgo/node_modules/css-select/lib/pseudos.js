@@ -179,7 +179,42 @@ var filters = {
     radio: getAttribFunc("type", "radio"),
     reset: getAttribFunc("type", "reset"),
     image: getAttribFunc("type", "image"),
-    submit: getAttribFunc("type", "submit")
+    submit: getAttribFunc("type", "submit"),
+
+    //dynamic state pseudos. These depend on optional Adapter methods.
+    hover: function(next, rule, options) {
+        var adapter = options.adapter;
+
+        if (typeof adapter.isHovered === 'function') {
+            return function hover(elem) {
+                return next(elem) && adapter.isHovered(elem);
+            };
+        }
+
+        return falseFunc;
+    },
+    visited: function(next, rule, options) {
+        var adapter = options.adapter;
+
+        if (typeof adapter.isVisited === 'function') {
+            return function visited(elem) {
+                return next(elem) && adapter.isVisited(elem);
+            };
+        }
+
+        return falseFunc;
+    },
+    active: function(next, rule, options) {
+        var adapter = options.adapter;
+
+        if (typeof adapter.isActive === 'function') {
+            return function active(elem) {
+                return next(elem) && adapter.isActive(elem);
+            };
+        }
+
+        return falseFunc;
+    }
 };
 
 //helper methods
@@ -262,7 +297,6 @@ var pseudos = {
     link: function(elem, adapter) {
         return adapter.hasAttrib(elem, "href");
     },
-    visited: falseFunc, //Valid implementation
     //TODO: :any-link once the name is finalized (as an alias of :link)
 
     //forms
@@ -394,6 +428,7 @@ module.exports = {
             return filters[name](next, subselect, options, context);
         } else if (typeof pseudos[name] === "function") {
             var func = pseudos[name];
+
             verifyArgs(func, name, subselect);
 
             if (func === falseFunc) {

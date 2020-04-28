@@ -35,7 +35,7 @@ function downloadPrebuild (downloadUrl, opts, cb) {
         reqOpts.url += '?access_token=' + opts.token
         reqOpts.headers = {
           'User-Agent': 'simple-get',
-          'Accept': 'application/octet-stream'
+          Accept: 'application/octet-stream'
         }
       }
 
@@ -85,30 +85,30 @@ function downloadPrebuild (downloadUrl, opts, cb) {
     var extract = tfs.extract(opts.path, options).on('entry', updateName)
 
     pump(fs.createReadStream(cachedPrebuild), zlib.createGunzip(), extract,
-    function (err) {
-      if (err) return cb(err)
+      function (err) {
+        if (err) return cb(err)
 
-      var resolved
-      if (binaryName) {
-        try {
-          resolved = path.resolve(opts.path || '.', binaryName)
-        } catch (err) {
-          return cb(err)
-        }
-        log.info('unpack', 'resolved to ' + resolved)
-
-        if (opts.runtime === 'node' && opts.platform === process.platform && opts.abi === process.versions.modules && opts.arch === process.arch) {
+        var resolved
+        if (binaryName) {
           try {
-            require(resolved)
+            resolved = path.resolve(opts.path || '.', binaryName)
           } catch (err) {
             return cb(err)
           }
-          log.info('unpack', 'required ' + resolved + ' successfully')
-        }
-      }
+          log.info('unpack', 'resolved to ' + resolved)
 
-      cb(null, resolved)
-    })
+          if (opts.runtime === 'node' && opts.platform === process.platform && opts.abi === process.versions.modules && opts.arch === process.arch) {
+            try {
+              require(resolved)
+            } catch (err) {
+              return cb(err)
+            }
+            log.info('unpack', 'required ' + resolved + ' successfully')
+          }
+        }
+
+        cb(null, resolved)
+      })
   }
 
   function ensureNpmCacheDir (cb) {

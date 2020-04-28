@@ -84,7 +84,7 @@ This loader also supports the following loader-specific option:
 
 * `cacheCompression`: Default `true`. When set, each Babel transform output will be compressed with Gzip. If you want to opt-out of cache compression, set it to `false` -- your project may benefit from this if it transpiles thousands of files.
 
-* `customize`: Default `null`. The path of a module that exports a `custom` callback [like the one that you'd pass to `.custom()`](#customized-loader). Since you already have to make a new file to use this, it is recommended that you instead use `.custom` to create a wrapper loader. Only use this is you _must_ continue using `babel-loader` directly, but still want to customize.
+* `customize`: Default `null`. The path of a module that exports a `custom` callback [like the one that you'd pass to `.custom()`](#customized-loader). Since you already have to make a new file to use this, it is recommended that you instead use `.custom` to create a wrapper loader. Only use this if you _must_ continue using `babel-loader` directly, but still want to customize.
 
 ## Troubleshooting
 
@@ -191,6 +191,37 @@ In the case one of your dependencies is installing `babel` and you cannot uninst
     test: /\.m?js$/,
     loader: 'babel-loader',
   }
+```
+
+## Customize config based on webpack target
+
+Webpack supports bundling multiple [targets](https://webpack.js.org/concepts/targets/). For cases where you may want different Babel configurations for each target (like `web` _and_ `node`), this loader provides a `target` property via Babel's [caller](https://babeljs.io/docs/en/config-files#apicallercb) API.
+
+For example, to change the environment targets passed to `@babel/preset-env` based on the webpack target:
+
+```javascript
+// babel.config.js
+
+module.exports = api => {
+  return {
+    plugins: [
+      "@babel/plugin-proposal-nullish-coalescing-operator",
+      "@babel/plugin-proposal-optional-chaining"
+    ],
+    presets: [
+      [
+        "@babel/preset-env",
+        {
+          useBuiltIns: "entry",
+          // caller.target will be the same as the target option from webpack
+          targets: api.caller(caller => caller && caller.target === "node")
+            ? { node: "current" }
+            : { chrome: "58", ie: "11" }
+        }
+      ]
+    ]
+  }
+}
 ```
 
 ## Customized Loader

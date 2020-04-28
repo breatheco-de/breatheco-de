@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Page, Text, View, Document, StyleSheet, Image, Font } from '@react-pdf/renderer';
 
 
 const ExternalProfile = (props) => {
+
     const stripJumps = (s) => s.split('').map(l => l.charCodeAt(0) === 10 ? " " : l).join('');
 
     //Funcion para que se permita solo un nombre y un apellido
@@ -13,8 +14,15 @@ const ExternalProfile = (props) => {
         } else {
             return s.join(' ')
         }
+    } 
+    //Funcion para que elimine los # del link
+    const stripLink = (s) => {
+        if(s === "#"){
+          return "Your project link" 
+        }
+        const regex = /#/gi;
+        return s.replace(regex,"");
     }
-
     //Funcion para que retornar skill level
     const convertSkill = (s) => {
         s.replace("[^0-9a-zA-Z]+", "");
@@ -55,14 +63,14 @@ const ExternalProfile = (props) => {
       </View>
       <View style={styles.pb}>
         <Text style={styles.titleB}>SUMMARY</Text>
-        <Text style={styles.descriptionD}>{stripJumps(props.node.basic_info.summary)}</Text>
+        <Text style={styles.descriptionD}>{props.node.basic_info != null ? stripJumps(props.node.basic_info.summary) : "Amateur man in programming, with a desire to learn to use it in everyday life"}</Text>
       </View>
       <View style={styles.section}>
         <View style={styles.skills}>
           <Text style={styles.title}>SKILLS</Text>
           <View>
             <Text style={styles.subtitle}>TOOLSET</Text>
-            {props.node.skills.toolset != null ? props.node.skills.toolset.map((item,i) => <Text style={styles.description} key={i}>{item.name + " - " + convertSkill(item.level)}</Text>) : <Text style={styles.description}>Python - Intermediate</Text>}
+            {props.node.skills.toolset != null ? props.node.skills.toolset.map((item,i) => <Text style={styles.description} key={i}>{item.name + " - " + convertSkill(item.level)}</Text>) : <Text style={styles.description}>Skill - Intermediate</Text>}
           </View>
           <View>
             <Text style={styles.subtitle}>PROJECTS</Text>
@@ -70,16 +78,20 @@ const ExternalProfile = (props) => {
             props.node.projects.assignments != null ?
             props.node.projects.assignments.map((item, i) => 
            <View key={i}>
-              <Text style={styles.descriptionC}>{item.title != null ? item.title.toUpperCase(): <Text style={styles.description}>Item Title</Text>}</Text>
-              <Text style={styles.descriptionL}>{item.link === "#" ? "Your project link" : item.link}</Text>
-              <Text style={styles.description}>{item.tagline}</Text>
+              <Text style={styles.descriptionC}>{item.title != null ? item.title.toUpperCase(): <Text style={styles.description}>PROJECT TITLE</Text>}</Text>
+              <Text style={styles.descriptionL}>{item.link != null ? stripLink(item.link) : "Your project link"}</Text>
+              <Text style={styles.description}>{item.tagline != null ? item.tagline : "Tagline"}</Text>
             </View>
-            ) :<Text style={styles.description}>Python - Intermediate</Text>
+            ) :<View>
+              <Text style={styles.descriptionC}>PROJECT TITLE</Text>
+              <Text style={styles.descriptionL}>Your Project Link</Text>
+              <Text style={styles.description}>Tagline</Text>
+            </View>
             }
             </View>
             <View>
             <Text style={styles.subtitle}>LANGUAGES</Text>
-             {props.node.basic_info.languages != null ? props.node.basic_info.languages.map((item, i) => <Text style={styles.description} key={i}>{item.idiom + " - " + item.level}</Text>) : <Text style={styles.description}>Item Title</Text>}
+             {props.node.basic_info.languages != null ? props.node.basic_info.languages.map((item, i) => <Text style={styles.description} key={i}>{item.idiom + " - " + item.level}</Text>) : <Text style={styles.description}>Language - Level</Text>}
             </View>
           </View>
         <View style={styles.experience}>
@@ -92,19 +104,33 @@ const ExternalProfile = (props) => {
                 <Text style={styles.descriptionB}>Time {item.time}</Text>
               </View>
               <Text style={styles.descriptionD}>{stripJumps(item.details)}</Text>
-          </View>) : <Text style={styles.description}>Python - Intermediate</Text>}
+          </View>) : <View >
+              <Text style={styles.sub}>Experience Role</Text>
+              <View style={styles.section}>
+                <Text style={styles.description}>Company Name</Text>
+                <Text style={styles.descriptionB}>Time</Text>
+              </View>
+              <Text style={styles.descriptionD}>Experience Details</Text>
+          </View>}
             <Text style={styles.title}>EDUCATION</Text>
             <View>
               {props.node.education != null ? props.node.education.map( (item, i) => 
               <View style={styles.div} key={i}>
-                <Text style={styles.sub}>{item.degree != null ? item.degree.toUpperCase() : <Text style={styles.description}>Item Title</Text>}</Text>
+                <Text style={styles.sub}>{item.degree != null ? item.degree.toUpperCase() : <Text style={styles.description}>DEGREE</Text>}</Text>
              <View style={styles.section}>
-                <Text style={styles.description}>{item.university.toUpperCase()}</Text>
-                <Text style={styles.descriptionB}>{item.time}</Text>
+                <Text style={styles.description}>{item.university != null ? item.university.toUpperCase() : "UNIVERSITY NAME"}</Text>
+                <Text style={styles.descriptionB}>{item.time != null ? item.time : "Time"}</Text>
               </View>
-                <Text style={styles.descriptionD}>{item.details != null ? stripJumps(item.details) : "Details here"}</Text>
+                <Text style={styles.descriptionD}>{item.details != null ? stripJumps(item.details) :"Education Details"}</Text>
               </View>) 
-               : <Text style={styles.description}>Item Title</Text>}
+               : <View style={styles.div}>
+                <Text style={styles.sub}>Education Degree</Text>
+             <View style={styles.section}>
+                <Text style={styles.description}>University or Academy</Text>
+                <Text style={styles.descriptionB}>Time</Text>
+              </View>
+                <Text style={styles.descriptionD}>Education Details</Text>
+              </View>}
             </View>
         </View>
       </View>

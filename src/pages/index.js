@@ -86,9 +86,14 @@ export default ({ data }) => {
                   name: "Ruby on Rails"
                 }
               ]
-            },
-            work_experience: null
-          })   
+            }
+         })
+     //Check if profile is null, if false dont set the content but use the info initially given
+     function onClickPdf(node){
+         if(node != null){
+             setContentPDF(node)
+         }
+     } 
     return (
         <>
         <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -128,7 +133,7 @@ export default ({ data }) => {
                 {
                     students
                         .filter(({ node }) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
-                        .map(({ node }, i) => (<li key={i} className="d-flex bd-highlight mb-3"><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link> <button type="button" className="btn btn-primary ml-auto p-2 bd-highlight" data-toggle="modal" data-target="#exampleModal" onClick={() => setContentPDF(node)}>View in PDF</button></li>))
+                        .map(({ node }, i) => (<li key={i} className="d-flex bd-highlight mb-3"><Link to={node.basic_info.github}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link> <button type="button" className="btn btn-primary ml-auto p-2 bd-highlight" data-toggle="modal" data-target="#exampleModal" onClick={() => onClickPdf(node) }>View in PDF</button></li>))
                 }
             </ul>
         </div>

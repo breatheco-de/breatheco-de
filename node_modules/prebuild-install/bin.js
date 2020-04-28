@@ -38,7 +38,7 @@ if (rc.help) {
 
 log.info('begin', 'Prebuild-install version', prebuildClientVersion)
 
-var opts = Object.assign({}, rc, {pkg: pkg, log: log})
+var opts = Object.assign({}, rc, { pkg: pkg, log: log })
 
 if (napi.isNapiRuntime(rc.runtime)) napi.logUnsupportedVersion(rc.target, log)
 
