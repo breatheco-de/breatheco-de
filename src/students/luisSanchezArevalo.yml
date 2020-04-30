@@ -32,7 +32,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/
+    avatar: https://avatars3.githubusercontent.com/u/48392946?s=460&u=f82adf6aa2fe9562f527f453646bb1e23d3fa37c&v=4
 
     # Contact Information
     email: luis.sanchezarevalorionegro@gmail.com #optional
