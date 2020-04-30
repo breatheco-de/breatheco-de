@@ -14,7 +14,6 @@ basic_info:
     summary: |
       I am a passionate of the new technologies and I am always willing to lear something new every single day.
       Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
-
     # Sidebar links
     email: hangelsanchez2@hotmail.com
     phone: +34 660 04 19 35
@@ -43,32 +42,25 @@ education:
       time: 2020 - present
       details: |
         Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script and more.
-
           - Bullet point
           - Bullet point
-
     - degree: Business Administration
       university: Rey Juan Carlos 
       time: 2007 - 2013
       details: |
         During these six years I am able to learn a wide range of concepts to manage a company in the principles areas (Accountability, Sales, Marketing)
-
-
 experiences:
     - role: Trade Marketing || Business Development
       time: 2018 - Present
       company: Adapta Group (Consultancy Marketing Startup)
       details: |
         My main responsabilities are to create marketing plans to our clientes for helping them to increase their sales.
-
           - Creating marketing plans to our clientes for helping them to increase their sales.
-
     - role: Trade Marketing
       time: 2017 - 2018
       company: Don Simón
       details: |
         Develop marketing plans to our retails clients and our shoppers for increasing company´s sales.
-
     - role: Sales & Marketing Support
       time: 2016 - 2017
       company: Altadis, Imperial Tobacco
@@ -78,16 +70,12 @@ experiences:
         -Preparation of reports for the commercial network to follow up on the objectives set.
         -Logistics distribution and stock control of the different materials to be implemented at the point of sale by the commercial network.
         Follow-up and resolution of incidents in the reception by the commercial network of these elements.
-
         Translated with www.DeepL.com/Translator (free version)
-
           - Bullet point
           - Bullet point
-
 projects:
     intro: >
      Here you can find a summary of my projects dones in 4Geeks Academy in my first 3 weeks of Bootcamp.
-
     assignments:
       - title: Instagram Photo Feed
         link: "#https://github.com/Asanchez-2/Instagram-PhotoFeed-Bootstrap"
