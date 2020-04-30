@@ -11,7 +11,7 @@ pullRequestOpened: >-
     
     ### How can I check for errors?
     
-    ![Check for errors](https://github.com/4GeeksAcademy/student-external-profile/blob/master/static/error_checking.gif?raw=true)
+    ![Check for errors](https://github.com/4GeeksAcademy/student-external-profile/blob/master/site/static/error_checking.gif?raw=true)
 
     On this website, further bellow you can see the status of the tests and the status of the build, green means good, red means bad. 
 
@@ -23,10 +23,10 @@ pullRequestOpened: >-
 
     ### Cuanto tarda todo esto?
     
-    Usualmente este proceso targa no mas de 5 minutos, si hay otros estudiantes esperando por revisión puede que tarde un poco mas, puedes siempre revisar el status mas abajo.
+    Usualmente este proceso tarda no mas de 5 minutos, si hay otros estudiantes esperando por revisión puede que tarde un poco mas, puedes siempre revisar el status mas abajo.
     
     ### Como puedo checkear si hubo un error?
 
-    ![Check for errors](https://github.com/4GeeksAcademy/student-external-profile/blob/master/static/error_checking.gif?raw=true)
+    ![Check for errors](https://github.com/4GeeksAcademy/student-external-profile/blob/master/site/static/error_checking.gif?raw=true)
     
     Dentro de esta misma página, mas abajo, puedes verificar el status de los tests que estan siendo probados y si fueron exitosos, rojo=fallo, verde=exito, naranja=exito pero con advertencias.

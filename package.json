@@ -6,7 +6,10 @@
     "test": "node site/test-yaml.js"
   },
   "devDependencies": {
-    "pre-commit": "^1.2.2"
+    "colors": "^1.4.0",
+    "js-yaml": "^3.13.1",
+    "pre-commit": "^1.2.2",
+    "simple-git": "^2.2.0"
   },
   "precommit.silent": true,
   "pre-commit": [

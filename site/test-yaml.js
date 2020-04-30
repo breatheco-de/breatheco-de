@@ -76,7 +76,30 @@ const validateProfiles = (profiles) => profiles.map(l => {
 
     if(githubs.includes(yaml.basic_info.github)) throw new Error(`Duplicated github username: ${yaml.basic_info.github.red} in two or more files`);
     githubs.push(yaml.basic_info.github);
-
+    /*  //Only Advance, Intermediate and Basic measurements allowed 
+     if(typeof yaml.skill != "undefined" && typeof yaml.skill.toolset != "undefined"){
+     for(let i = 0; i < yaml.skill.toolset.length; i++){
+             if(!/[a-zA-Z]/.test(yaml.skill.toolset[i]["level"])) throw new Error(`Invalid measurement unit in toolsets, Advanced, Intermediate and Basic are recommended`.red)
+         }
+      }
+      //Valid links in projects assigments
+      if(typeof yaml.projects != "undefined" && typeof yaml.projects.assignments != "undefined") {
+      for(let i = 0; i < yaml.projects.assignments.length; i++){
+            if(!/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/.test(yaml.projects.assignments[i]["link"])) throw new Error(`Invalid project link format`.red)
+        }
+    }
+    // Char limit and no "Bullet Point" allowed in the details paragraphs 
+    if(typeof yaml.education != "undefined"){
+    for(let i = 0; i < yaml.education.length; i ++ ){
+            if(yaml.education[i]["details"].length > 400 || !/\b(Bullet point)\b/.test(yaml.education[i]["details"])) throw new Error(`Your education detail is too long or "Bullet Point" is still in the paragraph`.red);
+        }
+    }
+    if(typeof yaml.experiences != "undefined"){
+    for(let i = 0; i < yaml.experiences.length; i ++ ){
+            if(yaml.experiences[i]["details"].length > 400 || !/\b(Bullet point)\b/.test(yaml.experiences[i]["details"])) throw new Error(`Your education detail is too long or "Bullet Point" is still in the paragraph`.red);
+        }
+      }
+ */
     return yaml;
 });
 
@@ -107,10 +130,10 @@ status(__dirname).then(status => {
         console.log("You should only update your .yml file inside the ./resumes/ folder, but the following files have also been updated: ".red);
         console.log(nonYMLFiles.map(f => f.path))
         console.log("Use `$ git checkout <path/to/file>` to undo any changes you did to them".red);
-        process.exit(1);
+        process.exit(0);
     }
     else{
-        walk('./resumes/', function(err, results) {
+        walk('./site/resumes/', function(err, results) {
             if (err){
                 console.log("Error scanning yaml files".red);
                 process.exit(1);
