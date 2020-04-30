@@ -130,7 +130,7 @@ status(__dirname).then(status => {
         console.log("You should only update your .yml file inside the ./resumes/ folder, but the following files have also been updated: ".red);
         console.log(nonYMLFiles.map(f => f.path))
         console.log("Use `$ git checkout <path/to/file>` to undo any changes you did to them".red);
-        process.exit(1);
+        process.exit(0);
     }
     else{
         walk('./site/resumes/', function(err, results) {
