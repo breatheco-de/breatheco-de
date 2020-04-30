@@ -7,7 +7,7 @@
 
 <h1 align="center">Welcome to 4Geeks Academy</h1>
 
-<h2 align="center"></ Time To Code ></h2>
+<h2 align="center">`</ Time To Code >`</h2>
 
 <p align="center">
   <a href="https://4geeksacademy.co/">
