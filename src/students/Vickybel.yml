@@ -19,9 +19,7 @@ basic_info:
     focus: Digital Marketing, UX/UI Desing, Web Desing, Front-end Developer
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Publicist focused in digital marketing, social media and content creation. With experience with accounts of high luxury and retail.
-     My main objective is bringing a combination of my own experience in publishing and marketing and my passion for web development, 
-     creating dynamic and entertaining web sites where the public will feel identified.
+    summary: Publicist focused in digital marketing, social media and content creation. With experience with accounts of high luxury and retail. My main objective is bringing a combination of my own experience in publishing and marketing and my passion for web development, creating dynamic and entertaining web sites where the public will feel identified.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -79,35 +77,35 @@ experiences:
       time: March 2020 - to present
       company: Dayanani Prestige Group (Chile)
       details: |
-      Responsible for the creation of content for social networks of high-luxury brands, investment in advertising for various digital campaigns 
-      of the different brands,  attendance at corporate events for the positioning and the reporting for social networks of the brands.
-      In charge of launching products and new brands in digital media, as well as analyzing the results of the actions carried out.  In general,
-      focused on the digital development of the company, from the management of social networks to the maintenance of websites for the public.
+        Responsible for the creation of content for social networks of high-luxury brands, investment in advertising for various digital campaigns 
+        of the different brands,  attendance at corporate events for the positioning and the reporting for social networks of the brands.
+        In charge of launching products and new brands in digital media, as well as analyzing the results of the actions carried out.  In general,
+        focused on the digital development of the company, from the management of social networks to the maintenance of websites for the public.
 
     - role: Social Media Manager 
       time: July 2019 - to present
       company: Turismo Karkú (Chile)
       details: Freelance.
-      Responsible for the creation of advertising campaigns for digital media of the company's services as well as the creation of organic content
-      for social networks in English and Spanish and maintenance of the website.
+        Responsible for the creation of advertising campaigns for digital media of the company's services as well as the creation of organic content
+        for social networks in English and Spanish and maintenance of the website.
 
     - role: Social Media Manager
       time: April 2019 - Octuber 2019
       company: Poker CLub Fenix Online (Chile)
       details: Freelance.
-      Responsible for the creation of digital content for social networks, focusing on communicating with an array of groups to maintain engagement.
+        Responsible for the creation of digital content for social networks, focusing on communicating with an array of groups to maintain engagement.
       
     - role: Saleswoman 
       time: March 2017 - March 2019 / April 2019 - November 2019 (Part-time) / December 2019 - February 2020
       company: Bacará S.A (Chile)
-      details:
-      Responsible for customer service, sales, cash register management, inventory and administrative procedures.
+      details: |
+        Responsible for customer service, sales, cash register management, inventory and administrative procedures.
 
     - role: Social Media Manager
       time: June 2016 - August 2016
       company: Publigames C.A. (Venezuela)
       details: Intern.
-      Responsible for the creation of content for social networks as well as the integral management of different accounts of company in digital media.
+        Responsible for the creation of content for social networks as well as the integral management of different accounts of company in digital media.
         
 # Your project portfolio
 projects:
