@@ -1,76 +1,37 @@
+<h1 align="center">
+	<img
+		width="300"
+		alt="4Geeks Academy"
+		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/media/img/background_art.jpg?raw=true">
+</h1>
 
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+<h1 align="center">Welcome to 4Geeks Academy</h1>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
-
-The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
-
-## What to do next?
-
-Create a `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running web-server using the following command:
-```sh
-$ pip3 install flask      (only the first time)
-$ python3 server.py
-```
-
-- You can create as many HTML files you want
-- You can also create CSS files and you can import them onto your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+<p align="center">Where code grows and evolve.</p>
 
 <p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
+  <a href="https://www.meetup.com/Angular-Medellin/members/">
+    <img src="https://img.shields.io/badge/👫-+1134_students-1d2935.svg?style=flat" alt="Students">
+  </a>
+  <a href="#-contribuyentes-">
+    <img src="https://img.shields.io/badge/👫-+353_partners-1d2935.svg?style=flat" alt="Partners">
+  </a>
+  <a href="http://yuxiglobal.com/">
+    <img src="https://img.shields.io/badge/💼💰-91%25_hiring_rate-1d2935.svg?style=flat" alt="Hiring Rate">
+  </a>
+  <a href="https://twitter.com/jdjuan">
+    <img src="https://img.shields.io/badge/🌎-worldwide-1d2935.svg?style=flat" alt="Branches">
+  </a>
+  <a href="./CODE_OF_CONDUCT.md">
+    <img src="https://img.shields.io/badge/⭐️-5_star_reviews-1d2935.svg?style=flat" alt="Reviews">
+  </a>
+
 </p>
 
-<p align="center">
-    <h2 align="center"> Student External Profile </h2>
-</p>
+  
+  
+  
 
-![Travis Build](https://api.travis-ci.org/4GeeksAcademy/student-external-profile.svg?branch=master)
+4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).
 
-This website serves like a Student Profile Showcase.
-
-Each student must upload a `<your_github_username>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
-
-The `yml` file must be filled with all your personal and professional information, after complating the YML fill the application will automatically generate a student portfolio like the following:
-
-<p align="center">
-  <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/preview.png">
-</p>
-
-<p align="center">
-  <a href="https://4geeksacademy.github.io/student-external-profile/sharu725" target="_blank">Wach Live Demo Here</a>
-</p>
-
-```
-Note: You can test your yaml syntax here: http://www.yamllint.com/
-```
-
-## Completing the YML file
-
-The YML file is comprised of 4 fundamental sections:
-```yml
-theme: You can choose a theme and skin colors.
-basic_info: Your personal info
-education: Previous studies.
-experiences: Previous jobs.
-projects: Describe the projects you have build as a developer.
-publications: Any articles you have published.
-skills: List your skills with percentage of expertise.
-```
-
-<p align="center">
-  <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/static/yml.png">
-</p>
-
-You can pick between your template and your skin, for example:
-```yml
-template: "online-cv"
-skin: "orange"
-
+4Geeks its a big company that feels like a small company, everyone is accesible, we like human contact, we belive in tailored education, without quitting your job, and 100% focused in code: We are the Teacher Jedy's of Code.
