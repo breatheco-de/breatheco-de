@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Page, Text, View, Document, StyleSheet, Image, Font } from '@react-pdf/renderer';
 
-
 const ExternalProfile = (props) => {
+  return null
 
     const stripJumps = (s) => s.split('').map(l => l.charCodeAt(0) === 10 ? " " : l).join('');
 
