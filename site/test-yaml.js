@@ -125,7 +125,7 @@ status(__dirname).then(status => {
         process.exit(1);
     }
     else{
-        walk('./resumes/', function(err, results) {
+        walk('./site/resumes/', function(err, results) {
             if (err){
                 console.log("Error scanning yaml files".red);
                 process.exit(1);
