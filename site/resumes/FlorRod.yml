@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Flor
+    last_name: Rodríguez
+    
+    # Define yourself in 4-5 words
+    motto: I am passionate about data and generate new projects
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Digital Marketing Specialist and I worked for the last two years in Womenalia. 
+      I love to make decision about data. And now I want to learn coding to improve my carrer
+      and create my own website.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1oOeL9SxclGM3UeccXTJjnsRPiZN297_w/view?usp=sharing
+
+    # Contact Information
+    email: florrod23@gmail.com #optional
+    phone: 34 669 95 14 72 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/flor-rodriguez-alvarez-mkt-digital #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Florrod
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Proffesional
+
+    # Interests or hobies
+    interests:
+      - item: Series
+
+      - item: Hiking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Master of Communication Research
+      university: Rey Juan Carlos
+      time: 2016 - 2017
+      details:
+    - degree: Sales & Marketing
+      university: ESIC Business School
+      # optional
+      university_logo:
+      time: 2010 - 2014
+      details:
+experiences:
+    - role: Digital Marketing
+      time: 2018 - Present
+      company: Womenalia
+      details: |
+          - Manage digital marketing campaign
+          - Web analysis
+          - Create email marketing campaign
+          - Develop new digital products
+          - Generate and manage the branded content strategy
+    - role: Marketing Junior
+      time: 2017 - 2018
+      company: Gympass
+      details: |
+          - Planning events
+          - Create email marketing campaign
+          - Manage RRSS
+          - Generate and manage the branded content strategy
+          
+skills:
+    toolset:
+      - name: Javascript
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 10%
