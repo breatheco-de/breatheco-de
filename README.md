@@ -2,7 +2,7 @@
 	<img
 		width="300"
 		alt="4Geeks Academy"
-		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/media/img/background_art.jpg?raw=true">
+		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
 </h1>
 
 <h1 align="center">Welcome to 4Geeks Academy</h1>
@@ -10,19 +10,19 @@
 <p align="center">Where code grows and evolve.</p>
 
 <p align="center">
-  <a href="https://www.meetup.com/Angular-Medellin/members/">
+  <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/👫-+1134_students-1d2935.svg?style=flat" alt="Students">
   </a>
-  <a href="#-contribuyentes-">
+  <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/👫-+353_partners-1d2935.svg?style=flat" alt="Partners">
   </a>
-  <a href="http://yuxiglobal.com/">
+  <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/💼💰-91%25_hiring_rate-1d2935.svg?style=flat" alt="Hiring Rate">
   </a>
-  <a href="https://twitter.com/jdjuan">
+  <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/🌎-worldwide-1d2935.svg?style=flat" alt="Branches">
   </a>
-  <a href="./CODE_OF_CONDUCT.md">
+  <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/⭐️-5_star_reviews-1d2935.svg?style=flat" alt="Reviews">
   </a>
 
