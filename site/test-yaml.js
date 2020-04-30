@@ -76,7 +76,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
 
     if(githubs.includes(yaml.basic_info.github)) throw new Error(`Duplicated github username: ${yaml.basic_info.github.red} in two or more files`);
     githubs.push(yaml.basic_info.github);
-     //Only Advance, Intermediate and Basic measurements allowed 
+    /*  //Only Advance, Intermediate and Basic measurements allowed 
      if(typeof yaml.skill != "undefined" && typeof yaml.skill.toolset != "undefined"){
      for(let i = 0; i < yaml.skill.toolset.length; i++){
              if(!/[a-zA-Z]/.test(yaml.skill.toolset[i]["level"])) throw new Error(`Invalid measurement unit in toolsets, Advanced, Intermediate and Basic are recommended`.red)
@@ -99,7 +99,7 @@ const validateProfiles = (profiles) => profiles.map(l => {
             if(yaml.experiences[i]["details"].length > 400 || !/\b(Bullet point)\b/.test(yaml.experiences[i]["details"])) throw new Error(`Your education detail is too long or "Bullet Point" is still in the paragraph`.red);
         }
       }
-
+ */
     return yaml;
 });
 
