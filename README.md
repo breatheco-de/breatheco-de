@@ -1,13 +1,13 @@
-<h1 align="center">
+<p align="center">
 	<img
 		width="300"
 		alt="4Geeks Academy"
 		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
-</h1>
+</p>
 
 <h1 align="center">Welcome to 4Geeks Academy</h1>
 
-<h2 align="center">&lt;\ Time To Code&gt;</h2>
+<h3 align="center">&lt;\ Time To Code&gt;</h3>
 
 <p align="center">
   <a href="https://4geeksacademy.co/">
