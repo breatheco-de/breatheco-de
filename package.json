@@ -1,0 +1,15 @@
+{
+  "name": "minimal",
+  "description": "Minimal router and client",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node site/test-yaml.js"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "precommit.silent": true,
+  "pre-commit": [
+    "test"
+  ]
+}
