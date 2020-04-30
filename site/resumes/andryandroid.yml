@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Andry
+    last_name: García
+    motto: Full Stack Developer
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    # Sidebar links
+    email: andjos27@hotmail.com
+    phone: +56  9 3448 2049
+    website:  #do not add http://
+    linkedin: AndryGarcia
+    github: andryandroid
+    twitter: 'AndryJG'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Portuguese
+        level: Beginner
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Reading
+
+      - item: Trekking
+
+      - item: biking
+
+education: 
+    - degree: Associate degree in Computer Science
+      university: Universidad Nacional Experimental de Guayana
+      time: 2010 - 2015
+      details: |
+        It develops solid knowledge in decision theory, 
+        General Systems Theory and Critical Thinking, 
+        among others, to respond to the need to create, 
+        evaluate and improve computer and communications technologies, 
+        in order to innovate, design, plan, build, 
+        implement and maintain integral solutions in organizations.
+
+
+experiences:
+    - role: Bell boy
+      time: 2018 - Present
+      company: Hotel Park Plaza Bonaparte, Santiago
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Random card
+        link: "https://github.com/andryandroid/random-card"
+        tagline: "A algorithm that randomly builds a card on every refresh."
+
+      - title: Excuses
+        link: "https://github.com/andryandroid/Excuses"
+        tagline: "a small website that generates an excuse each time a button is pressed."
+
+      - title: Dominian names
+        link: "https://github.com/andryandroid/dominian-names"
+        tagline: "A script that generate all the possible domain name combinations from a list of pronouns, adjectives and nouns."
+
+      - title: Instagram Post
+        link: "#"
+        tagline: "A website that using HTML and CSS replicates an Instagram Post."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 
+
+      - name: Javascript & jQuery
+        level: Intermediate
+
+      - name: React
+        level: 
+
+      - name: HTML5 & CSS
+        level: Advanced
+
+      - name: CorelDRAW & Photoshop
+        level: Intermediate

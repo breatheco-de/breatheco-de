@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Oscar
+    last_name: Marino
+    motto: Full Stack Developer
+    avatar: https://media-exp2.licdn.com/dms/image/C5603AQEi5SDOuLG9vg/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=F7S-6SLg-C8k11Ky4BgtbEE75VJLmiQ34wQv9_8iCiU
+    summary: |
+      I am Oscar Mariño I was born in May of 85. and I am a computer technician throughout my life I worked with an Avaya partner for 9 years so I am qualified to support Avaya PBX both IP office and Communication Manager, currently working in a travel services company and my main function is the support of the equipment, so that the agents can perform their work as well as possible
+
+      Soy Oscar Mariño naci en mayo del 85. y soy tecnico en informatica a lo largo de mi vida trabaje con un partner de Avaya durante 9 años por lo que estoy calificado para dar soporte a PBX Avaya tanto IP office como Comunication Manager,  actualemente laboro en un empresa de servicios de viaje y mi funcion principal es el soporte de los equipos, para que los agentes puedan realizar su trabajo lo mejor posible
+
+    # Sidebar links
+    email: oscarali1985@gmail.com
+    phone: 412 6147743
+    website: oscarali1985.com #do not add http://
+    linkedin: oscarali1985
+    github: oscarali1985
+    twitter: 'oscarali1985'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: basic
+
+      - idiom: French
+        level: basic
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Scuba
+
+      - item: Cheez
+
+      - item: Cooking
+
+education:
+
+    - degree: Desarrollador Web Full Stack
+      university: 4GERRKS ACADEMY
+      time: 2019 - 2020
+      details: |
+        This course lasted approximately 16 weeks where I learned Front and End. We work with HTML 5 - CCS3 and Javascript and the DOM, in addition to Reac. In addition, I work with Git to be able to keep a history of the work in order to return in time if an error occurs or to be able to work in an orderly group and thus be able to merge what has been done. For the Back End, I work with Python and MySQL
+
+        Este curso tuvo una duracion de 16 semanas aproximadas donde aprendi Front y End. Trabajamos con HTML 5 - CCS3 y Javascript y el DOM, ademas de Reac. Ademas se trabajo con Git para poder llevar un historico del trabajo con la finalidad de volver en el tiempo si ocurre algun error o para poder trabajar en grupo de manera ordenada y asi poder fusionar lo realizado. Para el Back End se trabajo con Python y MySQL
+
+          - Bullet point
+          - Bullet point
+
+    - degree: IT technician
+      university: IUTIRLA
+      time: 2006 - 2009
+      details: |
+        It is basically a three-year career where I learned the basic notions of programming. I also worked with Pascal and Visual Basic.
+
+        Basicamente es una carrera de tres años donde aprendi las nociones basicas de programacion Ademas trabaje con Pascal y Visual Basic.
+
+          - Bullet point
+          - Bullet point
+
+
+
+experiences:
+    - role: Desarrollador Web Full Stack
+      time: 2009 - Present
+      company: Freelance
+      details: |
+        As you can see, I took a Full Stack Web Developer course, so now I am willing to develop pages as a freelance. With the idea of obtaining extra income besides continuing to develop and learn
+
+          - Bullet point
+          - Bullet point
+
+    - role: Avaya engineer
+      time: 2009 - 2019
+      company: NGS TELECOM SERVICES
+      details: |
+        From 2009 to 2019 I was working in an Avaya partner company where I developed and learned from the world of Avaya from design, through configuration and installation, to implementation and then support and troubleshooting customer failures and errors. at the level of Communication Manager and Ip Office
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: Javascript & jQuery
+        level: 80%
+
+      - name: Angular
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 20%
+
+      - name: Sketch & Photoshop
+        level: 20%
+
+      - name: Avaya Configuration
+        level: 60%
+      

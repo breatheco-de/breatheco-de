@@ -1,53 +1,37 @@
 <p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
+	<img
+		width="300"
+		alt="4Geeks Academy"
+		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
 </p>
+
+<h1 align="center">Welcome to 4Geeks Academy</h1>
+
+<h3 align="center">&lt;\ Time To Code&gt;</h3>
 
 <p align="center">
-    <h2 align="center"> Student External Profile </h2>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/👫-+1134_students-1d2935.svg?style=flat" alt="Students">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/👫-+353_partners-1d2935.svg?style=flat" alt="Partners">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/💼💰-91%25_hiring_rate-1d2935.svg?style=flat" alt="Hiring Rate">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/🌎-worldwide-1d2935.svg?style=flat" alt="Branches">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/⭐️-5_star_reviews-1d2935.svg?style=flat" alt="Reviews">
+  </a>
+
 </p>
 
-![Buddy Works Build](https://app.buddy.works/breathecode/student-external-profile/pipelines/pipeline/162573/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012)
-![Travis Build](https://api.travis-ci.org/4GeeksAcademy/student-external-profile.svg?branch=master)
+  
+  
+  
 
-This application serves like a Student Profile Showcase.
+4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).
 
-Each student must upload a `<your_github_username>.yml` file inside `/src/students/` with all his information via Pull Request. For example: [rigoberto.yml](https://github.com/4GeeksAcademy/student-external-profile/blob/master/src/students/example.yml).
-
-The `yml` file must be filled with all your personal and professional information, after complating the YML fill the application will automatically generate a student portfolio like the following:
-
-<p align="center">
-  <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/preview.png">
-</p>
-
-<p align="center">
-  <a href="https://4geeksacademy.github.io/student-external-profile/sharu725" target="_blank">Wach Live Demo Here</a>
-</p>
-
-```
-Note: You can test your yaml syntax here: http://www.yamllint.com/
-```
-
-## Completing the YML file
-
-The YML file is comprised of 4 fundamental sections:
-```yml
-theme: You can choose a theme and skin colors.
-basic_info: Your personal info
-education: Previous studies.
-experiences: Previous jobs.
-projects: Describe the projects you have build as a developer.
-publications: Any articles you have published.
-skills: List your skills with percentage of expertise.
-```
-
-<p align="center">
-  <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/static/yml.png">
-</p>
-
-You can pick between your template and your skin, for example:
-```yml
-template: "online-cv"
-skin: "orange"
-```
-
-
+4Geeks its a big company that feels like a small company, everyone is accesible, we like human contact, we belive in tailored education, without quitting your job, and 100% focused in code: We are the Teacher Jedy's of Code.
