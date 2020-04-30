@@ -39,7 +39,6 @@
     "bc-console": "0.0.2",
     "gh-pages": "^2.0.1",
     "js-yaml": "^3.13.1",
-    
     "simple-git": "^1.124.0"
   }
 }

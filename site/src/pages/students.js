@@ -19,7 +19,7 @@ export default ({ data }) => {
                 </small>
             </div>
         </div>
-        <p className="text-center mt-4"><input type="text" className="form-control" onChange={(e) => setSearch(e.target.value.replace(" ","").toLowerCase())} placeHolder="Type student name to search" /></p>
+        <p className="text-center mt-4"><input type="text" className="form-control" onChange={(e) => setSearch(e.target.value.replace(" ","").toLowerCase())} placeholder="Type student name to search" /></p>
 
         <ul>
         {
