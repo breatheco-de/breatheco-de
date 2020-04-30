@@ -78,24 +78,24 @@ const validateProfiles = (profiles) => profiles.map(l => {
     githubs.push(yaml.basic_info.github);
      //Only Advance, Intermediate and Basic measurements allowed 
      for(let i = 0; i < yaml.skill.toolset.length; i++){
-         if(typeof yaml.skill != "undefined"){
+         if(typeof yaml.skill != "undefined" && typeof yaml.skill.toolset != "undefined"){
              if(!/[a-zA-Z]/.test(yaml.skill.toolset[i]["level"])) throw new Error(`Invalid measurement unit in toolsets, Advanced, Intermediate and Basic are recommended`.red)
          }
       }
       //Valid links in projects assigments
       for(let i = 0; i < yaml.projects.assignments.length; i++){
-        if(typeof yaml.projects != "undefined") {
+        if(typeof yaml.projects != "undefined" && typeof yaml.projects.assignments != "undefined") {
             if(!/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/.test(yaml.projects.assignments[i]["link"])) throw new Error(`Invalid project link format`.red)
         }
     }
     // Char limit and no "Bullet Point" allowed in the details paragraphs 
     for(let i = 0; i < yaml.education.length; i ++ ){
-        if(typeof yaml.education != "undefined" ){
+        if(typeof yaml.education != "undefined"){
             if(yaml.education[i]["details"].length > 400 || !/\b(Bullet point)\b/.test(yaml.education[i]["details"])) throw new Error(`Your education detail is too long or "Bullet Point" is still in the paragraph`.red);
         }
     }
     for(let i = 0; i < yaml.experiences.length; i ++ ){
-        if(typeof yaml.education != "undefined" ){
+        if(typeof yaml.experiences != "undefined"){
             if(yaml.experiences[i]["details"].length > 400 || !/\b(Bullet point)\b/.test(yaml.experiences[i]["details"])) throw new Error(`Your education detail is too long or "Bullet Point" is still in the paragraph`.red);
         }
       }
