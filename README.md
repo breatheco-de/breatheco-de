@@ -29,9 +29,26 @@
 </p>
 
   
-  
-  
+## Contents
+
+1. About.
+2. Founders.
+3. Team.
+4. Awards.
+5. Alumni.
+
+## About
+
+4Geeks its a big company that feels like a small company, everyone is accesible, we like human contact, we belive in tailored education, without quitting your job, and 100% focused in code: We are the Teacher Jedy's of Code.
+
+## Founders
 
 4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).
 
-4Geeks its a big company that feels like a small company, everyone is accesible, we like human contact, we belive in tailored education, without quitting your job, and 100% focused in code: We are the Teacher Jedy's of Code.
+## Team
+
+## Awards
+
+## Alumni
+
+
