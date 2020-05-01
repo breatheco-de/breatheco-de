@@ -13,6 +13,7 @@ h1, h2, h3{
     box-shadow: inset 0 0 10px #000000;
 }
 .badge.badge-dark a{ color: white;}
+.instructions a{ color: blue; }
 .students .row{
     font-size: 20px;
     padding: 10px 0;

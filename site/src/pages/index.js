@@ -190,12 +190,12 @@ export default ({ data }) => {
                 </div> 
             </div>
             
-            { addYourself && <div className="bg-light p-4 mt-3">
+            { addYourself && <div className="bg-light p-4 mt-3 instructions">
                 <h3 className="mb-3">How can you add yourself to this list?</h3>
                 <div className="row">
                     <div className="col">
                         <h4><span className="number">1</span> Create a student YML</h4>
-                        <p className="pl-4">The student information is stored in [YML format](https://www.youtube.com/watch?v=cdLNKUoMc6c) inside <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/tree/master/site/resumes" rel="noopener noreferrer" target="_blank">this folder</a>, you have to copy the file content and adapt to your own information, use <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/resumes/example.yml" rel="noopener noreferrer" target="_blank">this YML</a> as an example.</p>
+                        <p className="pl-4">The student information is stored in <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=cdLNKUoMc6c">YML format</a> inside <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/tree/master/site/resumes" rel="noopener noreferrer" target="_blank">this folder</a>, you have to copy the file content and adapt to your own information, use <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/resumes/example.yml" rel="noopener noreferrer" target="_blank">this YML</a> as an example.</p>
                     </div>
                 </div>
                 <div className="row">
