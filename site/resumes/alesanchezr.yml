@@ -21,7 +21,7 @@ basic_info:
         BreatheCode: Not-for-profit open source community aiming to accelerate the way junior developers learn and evolve using technology. 
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: a@4geeksacademy.co
     phone: 012 345 6789
     website: alesanchezr.com #do not add http://
     linkedin: alesanchezr
@@ -51,9 +51,9 @@ education:
       time: 2007 - 2011
 
 experiences:
-    - role: Lead Developer
+    - role: Managing Director
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: 4Geeks Academy Coding School
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.

@@ -3,7 +3,7 @@
 <h1 align="center">
   4Geeks Academy Alumni
 </h1>
-<p align="center">If you studied at 4Geeks Academy please add yourself to the list</p>
+<p align="center">If you studied at 4Geeks Academy please <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/tree/master/site/resumes">add your YML to this list</a></p>
 
 <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=4GeeksAcademy/About-4Geeks-Academy" />
