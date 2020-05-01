@@ -3,7 +3,8 @@
   "description": "Minimal router and client",
   "version": "0.0.1",
   "scripts": {
-    "test": "node site/test-yaml.js"
+    "test": "node site/test-yaml.js",
+    "preinstall": "node src/preinstall-script.js"
   },
   "devDependencies": {
     "colors": "^1.4.0",

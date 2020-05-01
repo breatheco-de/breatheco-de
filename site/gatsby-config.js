@@ -24,6 +24,14 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/resumes/`,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Quicksand']
+        }
+      }
     }
   ],
 };
