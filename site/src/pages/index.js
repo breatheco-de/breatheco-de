@@ -155,7 +155,7 @@ export default ({ data }) => {
                 </div>
                 <div className="col-8">
                     <small>
-                        Check if your commit is showing alreading on the main repository <a target="_blank" href="https://github.com/4GeeksAcademy/student-external-profile/commits/master">commits history</a> and your pull request should be listed as "closed" on the <a target="_blank" href="https://github.com/4GeeksAcademy/student-external-profile/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Aopen"> repository list of pull requests</a>, here is a list of <a target="_blank" href="https://travis-ci.org/4GeeksAcademy/student-external-profile/pull_requests">travis automated testing queue</a>.
+                        Check if your commit is showing alreading on the main repository <a target="_blank" href="https://github.com/4GeeksAcademy/student-external-profile/commits/master">commits history</a> and your pull request should have a ✅ green check on the <a target="_blank" href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/actions?query=workflow%3A%22Testing+for+Errors%22"> repository list of completed actions</a>.
                 </small>
                 </div>
             </div>
