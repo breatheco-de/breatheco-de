@@ -35,6 +35,8 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-share": "^4.1.0",
+    "react-social-sharing": "^3.0.1",
     "react-tooltip": "^3.10.0",
     "travis-ci": "^2.2.0",
     "typography": "^0.16.17",

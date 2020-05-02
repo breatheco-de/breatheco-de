@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 import moment from "moment";
+import Share from "../components/share.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faPalette, faGraduationCap, faPlusCircle, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -9,8 +10,6 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 //import ExternalProfile from "./PDF";
 import "../styles/home.css";
 import "bootstrap/dist/css/bootstrap.css";
-
-const shareURL = (text, url='') => `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${url}`;
 
 const clean = (url)=> {
     if(!url) return null;
@@ -35,6 +34,7 @@ export default ({ data }) => {
     const students = data.allResumesYaml.edges;
     const [search, setSearch] = useState('');
     const [addYourself, setAddYourself] = useState(false);
+    const [showShare, setShowShare] = useState(false);
     const [showModal, setShowModal] = useState({
         class: '',
         ariaModal: 'false',
@@ -138,6 +138,7 @@ export default ({ data }) => {
     } */
     return (
         <>
+        <Share message={"I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!"} hide={!showShare} onClose={() => setShowShare(false)} />
         <div className={"modal fade " + showModal.class} id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden={showModal.ariaHidden} aria-modal={showModal.ariaModal} style={showModal.style}>
             <div className="modal-dialog" role="document" style={{ marginLeft: "22rem" }}>
                 <div className="modal-content" style={{ width: "830px" }}>
@@ -186,7 +187,7 @@ export default ({ data }) => {
                 </div> 
                 <div className="col-12 col-sm-4 text-right">
                     <button className="btn btn-lg btn-light mb-2 w-100" onClick={() => setAddYourself(true)}><FontAwesomeIcon className="text-success" icon={faPlusCircle} /> Add yourself to this list</button>
-                    <a className="btn btn-lg btn-primary w-100" href={shareURL("I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!")}><FontAwesomeIcon icon={faShareAlt} /> Share your commitment</a>
+                    <button className="btn btn-lg btn-primary w-100" onClick={() => setShowShare(true)}><FontAwesomeIcon icon={faShareAlt} /> Share your commitment</button>
                 </div> 
             </div>
             
