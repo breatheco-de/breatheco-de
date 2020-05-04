@@ -29,3 +29,12 @@ h1, h2, h3{
     display: block;
     margin-top: -22px;
 }
+.social-share a:hover{
+    color: white;
+}
+.social-share a:first-of-type{
+    margin-left: 0 !important;
+} 
+.social-share a:last-of-type{
+    margin-right: 0 !important;
+}

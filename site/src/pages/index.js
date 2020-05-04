@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 import moment from "moment";
 import Share from "../components/share.js";
+import Layout from "../components/layout.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faPalette, faGraduationCap, faPlusCircle, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -137,8 +138,8 @@ export default ({ data }) => {
         }
     } */
     return (
-        <>
-        <Share message={"I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!"} hide={!showShare} onClose={() => setShowShare(false)} />
+        <Layout>
+        <Share message={"I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!"} url={"https://sep.4geeksacademy.co/"} hide={!showShare} onClose={() => setShowShare(false)} />
         <div className={"modal fade " + showModal.class} id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden={showModal.ariaHidden} aria-modal={showModal.ariaModal} style={showModal.style}>
             <div className="modal-dialog" role="document" style={{ marginLeft: "22rem" }}>
                 <div className="modal-content" style={{ width: "830px" }}>
@@ -177,7 +178,7 @@ export default ({ data }) => {
             <div className="row mt-5">  
                 <div className="col-12 col-sm-8">
                     <h1><FontAwesomeIcon icon={faGraduationCap} /> Learn in Public</h1>
-                    <p className="m-0 mb-1">Learning to code is hard, why do it alone? Share your profile, acomplishments and frustrations with the rest of 4Geeks's community!</p>
+                    <p className="m-0 mb-1">Learning to code is hard, why do it alone? Share your profile, acomplishments and frustrations with the rest of 4Geeks community!</p>
                     <ul className="m-0 p-0">
                         <li className="badge badge-dark p-2 mr-1"><a rel="noopener noreferrer" target="_blank" href="https://www.100daysofcode.com/">100DaysOfCode.com</a></li>
                         <li className="badge badge-dark p-2 mr-1"><a rel="noopener noreferrer" target="_blank" href="https://www.swyx.io/writing/learn-in-public/">Why Learn in Public</a></li>
@@ -246,7 +247,7 @@ export default ({ data }) => {
                 }
             </div>
         </div>
-        </>
+        </Layout>
   );
 };
 
