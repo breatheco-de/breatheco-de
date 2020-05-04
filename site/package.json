@@ -7,7 +7,6 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "test": "node test-yaml.js",
     "c9": "gatsby develop -p $PORT -H $IP",
     "deploy": "node deploy-to-github.js",
     "now-build": "gatsby build"
@@ -51,9 +50,5 @@
     "js-yaml": "^3.13.1",
     "pre-commit": "^1.2.2",
     "simple-git": "^1.124.0"
-  },
-  "precommit.silent": true,
-  "pre-commit": [
-    "test"
-  ]
+  }
 }
