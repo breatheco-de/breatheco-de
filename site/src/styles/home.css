@@ -38,3 +38,6 @@ h1, h2, h3{
 .social-share a:last-of-type{
     margin-right: 0 !important;
 }
+.modal-backdrop{
+    background: rgba(0,0,0,0.5) !important;
+}
