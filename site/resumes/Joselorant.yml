@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Lorant
+    
+    # Define yourself in 4-5 words
+    motto: enduring to the end
+    
+    # focus
+    focus: Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/jTSZXmQ/IMG-20200310-204937.jpg
+
+    # Contact Information
+    email: lorantmarquina@gmail.com #optional
+    phone: +569 99258384 #optional
+    Instagram: jglorant #optional
+    linkedin: josé-gabriel-lorant-morales-86b5ba1a6 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: vinojglm2965
+    
+    twitter: '@joselorant2' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: basic
+
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Work Out
+
+      - item: Cooking
+
+      - item: Basketball
+
+# Your previous education
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Auxiliar
+      time: january 2020 - Present
+      company: Domino La fuente de Soda de Chile
+          
+
+# Your project portfolio
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
