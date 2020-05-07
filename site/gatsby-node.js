@@ -5,6 +5,9 @@ const path = require("path");
 const getTemplate = (templateSlug) => {
   return path.resolve(`./src/templates/${templateSlug}/index.js`);
 };
+const getTemplatePdf = (templateSlug) => {
+  return path.resolve(`./src/templates/${templateSlug}/pdf.js`);
+};
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -44,6 +47,14 @@ exports.createPages = ({ actions, graphql }) => {
         createPage({
           path: node.basic_info.github,
           component: getTemplate(node.template || 'online-cv'),
+          context: {
+            // Data passed to context is available in page queries as GraphQL variables.
+            github: node.basic_info.github
+          },
+        });
+        createPage({
+          path: `/pdf/${node.basic_info.github}`,
+          component: getTemplatePdf(node.template || 'online-cv'),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
             github: node.basic_info.github

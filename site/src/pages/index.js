@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 import moment from "moment";
 //import { PDFViewer } from '@react-pdf/renderer';
-//import ExternalProfile from "./PDF";
+//import ExternalProfile from "./pdf";
 import "../styles/home.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default ({ data }) => {
     const students = data.allResumesYaml.edges;
     const [search, setSearch] = useState('');
+    const [usePdf, setUsePdf] = useState(false)
     const [showModal, setShowModal] = useState({
         class: '',
         ariaModal: 'false',
@@ -18,6 +19,12 @@ export default ({ data }) => {
             display: "none"
         }
     })
+    
+    useEffect(() => {
+      setUsePdf(true)
+      console.log(usePdf)
+    }, [])
+
     const [contentPDF, setContentPDF] = useState({
         basic_info: {
             github: "Github",
@@ -98,19 +105,19 @@ export default ({ data }) => {
         }
     })
 
-    /* function onClickPdf(node) {
-        setShowModal({
-            class: "show",
-            ariaModal: "true",
-            ariaHidden: "false",
-            style: {
-                display: "block"
-            }
-        })
-        if (node != null) {
-            setContentPDF(node)
-        }
-    } */
+    // // function onClickPdf(node) {
+    // //     setShowModal({
+    // //         class: "show",
+    // //         ariaModal: "true",
+    // //         ariaHidden: "false",
+    // //         style: {
+    // //             display: "block"
+    // //         }
+    // //     })
+    // //     if (node != null) {
+    // //         setContentPDF(node)
+    // //     }
+    // // } 
     return (
         <>
         <div className={"modal fade " + showModal.class} id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden={showModal.ariaHidden} aria-modal={showModal.ariaModal} style={showModal.style}>
@@ -130,9 +137,9 @@ export default ({ data }) => {
                         </button>
                     </div>
                     <div className="modal-body">
-                        {/* <PDFViewer width={800} height={500}>
+                       {/* {usePdf && <PDFViewer width={800} height={500}>
                             <ExternalProfile node={contentPDF} />
-                        </PDFViewer> */}
+                        </PDFViewer> } */}
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-dismiss="modal" onClick={() => setShowModal({
@@ -164,8 +171,8 @@ export default ({ data }) => {
             {
                         students
                             .filter(({ node }) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
-                            .map(({ node }, i) => (<li key={i} className="d-flex bd-highlight mb-3">{node.basic_info.first_name + ' ' + node.basic_info.last_name}<Link to={node.basic_info.github} className="btn btn-primary ml-auto p-2 bd-highlight">View in HTML</Link> 
-                            {/* <button type="button" className="btn btn-primary ml-1" data-toggle="modal" data-target="#exampleModal" onClick={() => onClickPdf(node)}>View in PDF</button> */}
+                            .map(({ node }, i) => (<li key={i} className="d-flex bd-highlight mb-3"><Link to={`/pdf/${node.basic_info.github}`}>{node.basic_info.first_name + ' ' + node.basic_info.last_name}</Link><Link to={`/${node.basic_info.github}`} className="btn btn-primary ml-auto p-2 bd-highlight">View in HTML</Link> 
+                             {/* <button type="button" className="btn btn-primary ml-1" data-toggle="modal" data-target="#exampleModal" onClick={() => onClickPdf(node)}>View in PDF</button>  */}
                             </li>))
                     }
             </ul>

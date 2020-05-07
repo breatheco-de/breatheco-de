@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Page, Text, View, Document, StyleSheet, Image, Font } from '@react-pdf/renderer';
 
 const ExternalProfile = (props) => {
-  return null
-
-    const stripJumps = (s) => s.split('').map(l => l.charCodeAt(0) === 10 ? " " : l).join('');
+  return null;
+  console.log(props)
+    const stripJumps = (s) => s !== undefined ? s.split('').map(l => l.charCodeAt(0) === 10 ? " " : l).join('') : "There is no text to display";
 
     //Funcion para que se permita solo un nombre y un apellido
     const stripName = (s) => {
@@ -38,26 +38,26 @@ const ExternalProfile = (props) => {
     <Page style={styles.body}>
       <View style={styles.dflex}>
         <View style={styles.studenName}>
-          <Text style={styles.name}>{props.node.basic_info.first_name != undefined ? stripName(props.node.basic_info.first_name.toUpperCase()): "FIRST NAME"}</Text>
-          <Text style={styles.lastname}>{props.node.basic_info.last_name != undefined ? stripName(props.node.basic_info.last_name.toUpperCase()): "LAST NAME"}</Text>
+          <Text style={styles.name}>{props.node.basic_info.first_name !== undefined ? stripName(props.node.basic_info.first_name.toUpperCase()): "FIRST NAME"}</Text>
+          <Text style={styles.lastname}>{props.node.basic_info.last_name !== undefined ? stripName(props.node.basic_info.last_name.toUpperCase()): "LAST NAME"}</Text>
           <Text style={styles.career}>Software Developer</Text>
         </View>
         <View style={styles.contactInfoView}>
          <View style={styles.dflexInfo}>
           <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png' style={styles.img}/>
-          <Text style={styles.contactInfoText}>{props.node.basic_info.github != undefined ? props.node.basic_info.github : "Your Github"}</Text>
+          <Text style={styles.contactInfoText}>{props.node.basic_info.github !== undefined ? props.node.basic_info.github : "Your Github"}</Text>
           </View>
           <View style={styles.dflexInfo}>
           <Image src='https://cdn4.iconfinder.com/data/icons/squared-line-communication/64/mail-circle-512.png' style={styles.img}/>
-          <Text style={styles.contactInfoText}>{props.node.basic_info.email != undefined ? props.node.basic_info.email: "Your Email"}</Text>
+          <Text style={styles.contactInfoText}>{props.node.basic_info.email !== undefined ? props.node.basic_info.email: "Your Email"}</Text>
           </View>
           <View style={styles.dflexInfo}>
           <Image src='https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png' style={styles.img}/>
-          <Text style={styles.contactInfoText}> { props.node.basic_info.phone != undefined ?  props.node.basic_info.phone : "Your Phone" }</Text>
+          <Text style={styles.contactInfoText}> { props.node.basic_info.phone !== undefined ?  props.node.basic_info.phone : "Your Phone" }</Text>
           </View>
           <View style={styles.dflexInfo}>
           <Image src='https://cdn.onlinewebfonts.com/svg/img_408253.png' style={styles.img}/>
-           <Text style={styles.contactInfoText}>{props.node.basic_info.linkedin != undefined ? props.node.basic_info.linkedin : "Your Linkedin"}</Text>
+           <Text style={styles.contactInfoText}>{props.node.basic_info.linkedin !== undefined ? props.node.basic_info.linkedin : "Your Linkedin"}</Text>
           </View>
         </View>
       </View>
