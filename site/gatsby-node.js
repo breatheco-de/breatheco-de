@@ -28,10 +28,53 @@ exports.createPages = ({ actions, graphql }) => {
       allResumesYaml{
         edges{
           node{
-            basic_info{
+            basic_info {
               github
+              first_name
+              last_name
+              motto
+              linkedin
+              twitter
+              email
+              linkedin
+              website
+              summary
+              languages {
+                idiom
+                level
+              }
             }
-            template
+            education {
+              degree
+              details
+              time
+              university
+            }
+            experiences {
+              company
+              details
+              role
+              time
+            }
+            projects {
+              assignments {
+                link
+                tagline
+                title
+              }
+            }
+            skills {
+              toolset {
+                level
+                name
+              }
+            }
+            work_experience {
+              company
+              details
+              role
+              time
+            }
           }
         }
       }
@@ -55,10 +98,7 @@ exports.createPages = ({ actions, graphql }) => {
         createPage({
           path: `/pdf/${node.basic_info.github}`,
           component: getTemplatePdf(node.template || 'online-cv'),
-          context: {
-            // Data passed to context is available in page queries as GraphQL variables.
-            github: node.basic_info.github
-          },
+          context: node,
         });
       });
 

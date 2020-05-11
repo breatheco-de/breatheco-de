@@ -1,4 +1,5 @@
---- 
+template: "online-cv"
+skin: "green"
 basic_info: 
   avatar: "https://randomuser.me/api/portraits/women/24.jpg"
   email: r09pott@gmail.com
