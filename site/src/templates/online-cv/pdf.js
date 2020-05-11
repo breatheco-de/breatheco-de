@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { PDFViewer } from '@react-pdf/renderer';
-import ExternalProfile from '../../pages/pdf';
+import ExternalProfile from '../../pages/pdf.js';
 
 export default ({ data, pageContext }) => {
   const node = pageContext;
