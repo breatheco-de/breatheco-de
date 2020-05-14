@@ -3,8 +3,7 @@ ports:
       onOpen: open-preview
 tasks:
     - init: >
-        npm install;
-      command: >
-        npm run start;
-    - init: >
         npm i now -g;
+        cd site && npm install;
+      command: >
+        cd site && npm run start;
