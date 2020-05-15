@@ -9,6 +9,7 @@ import os
 
 static_file_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), './')
 app = Flask(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0 #disable cache
 
 # Serving the index file
 @app.route('/', methods=['GET'])
