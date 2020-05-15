@@ -30,7 +30,7 @@ const validThemes = ['berry','blue','ceramic','green','orange','turquoise'];
 let githubs = [];
 const validateProfiles = (profiles) => profiles.map(l => {
 
-    console.log(("Validating: "+l).yellow);
+    console.log(("Validating file "+l).yellow);
     const content = fs.readFileSync(l, 'utf8');
     const yaml = jsyaml.load(content);
     const fileName = l.replace(/^.*[\\\/]/, '').split('.').slice(0, -1).join('.').toLowerCase();
