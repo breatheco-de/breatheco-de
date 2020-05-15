@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 
 const empty = (value) => !value || typeof value === "undefined" || value === "";
 const isArray = (value) => Array.isArray(value);
-export default ({ data, pageContext }) => {
+export default ({ data, pageContext}) => {
   const student = data.resumesYaml;
   const { basic_info, education, experiences, projects, skills } = student;
   require(`./styles/skins/${student.skin || 'blue'}.scss`);

@@ -5,6 +5,9 @@ const path = require("path");
 const getTemplate = (templateSlug) => {
   return path.resolve(`./src/templates/${templateSlug}/index.js`);
 };
+const getTemplatePdf = (templateSlug) => {
+  return path.resolve(`./src/templates/${templateSlug}/pdf.js`);
+};
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -25,10 +28,53 @@ exports.createPages = ({ actions, graphql }) => {
       allResumesYaml{
         edges{
           node{
-            basic_info{
+            basic_info {
               github
+              first_name
+              last_name
+              motto
+              linkedin
+              twitter
+              email
+              linkedin
+              website
+              summary
+              languages {
+                idiom
+                level
+              }
             }
-            template
+            education {
+              degree
+              details
+              time
+              university
+            }
+            experiences {
+              company
+              details
+              role
+              time
+            }
+            projects {
+              assignments {
+                link
+                tagline
+                title
+              }
+            }
+            skills {
+              toolset {
+                level
+                name
+              }
+            }
+            work_experience {
+              company
+              details
+              role
+              time
+            }
           }
         }
       }
@@ -48,6 +94,11 @@ exports.createPages = ({ actions, graphql }) => {
             // Data passed to context is available in page queries as GraphQL variables.
             github: node.basic_info.github
           },
+        });
+        createPage({
+          path: `/pdf/${node.basic_info.github}`,
+          component: getTemplatePdf(node.template || 'online-cv'),
+          context: node,
         });
       });
 

@@ -5,10 +5,10 @@ import moment from "moment";
 import Share from "../components/share.js";
 import Layout from "../components/layout.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile, faPalette, faGraduationCap, faPlusCircle, faShareAlt } from '@fortawesome/free-solid-svg-icons'
+import { faFile, faPalette, faGraduationCap, faPlusCircle, faShareAlt,faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 //import { PDFViewer } from '@react-pdf/renderer';
-//import ExternalProfile from "./PDF";
+//import ExternalProfile from "./pdf";
 import "../styles/home.css";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -36,145 +36,11 @@ export default ({ data }) => {
     const [search, setSearch] = useState('');
     const [addYourself, setAddYourself] = useState(false);
     const [showShare, setShowShare] = useState(false);
-    const [showModal, setShowModal] = useState({
-        class: '',
-        ariaModal: 'false',
-        ariaHidden: 'true',
-        style: {
-            display: "none"
-        }
-    })
-    const [contentPDF, setContentPDF] = useState({
-        basic_info: {
-            github: "Github",
-            first_name: "First Name",
-            last_name: "Last Name",
-            motto: "I like play with codes",
-            linkedin: "LinkedIn",
-            email: "youremail@gmail.com",
-            summary: "Amateur man in programming, with a desire to learn to use it in everyday life",
-            languages: [
-                {
-                    idiom: "Spanish",
-                    level: "Native"
-                },
-                {
-                    idiom: "English",
-                    level: "Medium"
-                },
-                {
-                    idiom: "Portuguese",
-                    level: "Basic"
-                }
-            ]
-        },
-        education: [
-            {
-                degree: "FullStack Web Developer",
-                details: "-Real “Senior” Mentoring All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry. -Top-notch Technology Stack The world of Coding grows and changes EVERY DAY. Learn the newest and most demanded languages and frameworks in the current market. Your potential employers will LOVE IT. -Really Part-time It is not about teaching on after-hours, it requires much more! This program is meant for employed professionals. We have designed the perfect method for both flexible and blended learning in an “after-hours” setting.",
-                time: "2019 - 2019",
-                university: "4Geeks Academy"
-            }
-        ],
-        experiences: [
-            {
-                company: "Startup Hubs, San Francisco",
-                details: "Describe your role here lorem ipsum dolor sit amet, consectetuer\nadipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.\nCum sociis natoque penatibus et magnis dis parturient montes,\nnascetur ridiculus mus. Donec quam felis, ultricies nec,\npellentesque eu, pretium quis, sem. Nulla consequat massa quis\nenim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus\nerror sit voluptatem accusantium doloremque laudantium, totam rem\naperiam, eaque ipsa quae ab illo inventore veritatis et quasi\narchitecto beatae vitae dicta sunt explicabo.\n  - Bullet point\n  - Bullet point\n",
-                role: "Lead Developer",
-                time: "2015 - Present"
-            }
-        ],
-        projects: {
-            assignments: [
-                {
-                    link: "Your Link",
-                    tagline: "A responsive website template designed to help startups promote, market and sell their products.",
-                    title: "Velocity"
-                },
-                {
-                    link: "Your Link",
-                    tagline: "A responsive website template designed to help web developers/designers market their services.",
-                    title: "DevStudio"
-                }
-            ]
-        },
-        skills: {
-            toolset: [
-                {
-                    level: "Medium",
-                    name: "Python & Django"
-                },
-                {
-                    level: "Advanced",
-                    name: "Javascript & jQuery"
-                },
-                {
-                    level: "Intermediate",
-                    name: "Angular"
-                },
-                {
-                    level: "Basic",
-                    name: "HTML5 & CSS"
-                },
-                {
-                    level: "Basic",
-                    name: "Ruby on Rails"
-                }
-            ]
-        }
-    })
 
-    /* function onClickPdf(node) {
-        setShowModal({
-            class: "show",
-            ariaModal: "true",
-            ariaHidden: "false",
-            style: {
-                display: "block"
-            }
-        })
-        if (node != null) {
-            setContentPDF(node)
-        }
-    } */
     return (
         <Layout>
         <Share message={"I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!"} url={"https://sep.4geeksacademy.co/"} hide={!showShare} onClose={() => setShowShare(false)} />
-        <div className={"modal fade " + showModal.class} id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden={showModal.ariaHidden} aria-modal={showModal.ariaModal} style={showModal.style}>
-            <div className="modal-dialog" role="document" style={{ marginLeft: "22rem" }}>
-                <div className="modal-content" style={{ width: "830px" }}>
-                    <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">Resume</h5>
-                        <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={() => setShowModal({
-                            class: '',
-                            ariaModal: 'false',
-                            ariaHidden: 'true',
-                            style: {
-                                display: "none"
-                            }
-                        })}>
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div className="modal-body">
-                        {/* <PDFViewer width={800} height={500}>
-                            <ExternalProfile node={contentPDF} />
-                        </PDFViewer> */}
-                    </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-dismiss="modal" onClick={() => setShowModal({
-                            class: '',
-                            ariaModal: 'false',
-                            ariaHidden: 'true',
-                            style: {
-                                display: "none"
-                            }
-                        })}>Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="container">
+         <div className="container">
             <div className="row mt-5">  
                 <div className="col-12 col-sm-8">
                     <h1><FontAwesomeIcon icon={faGraduationCap} /> Learn in Public</h1>
@@ -239,6 +105,7 @@ export default ({ data }) => {
                                     { node.basic_info.twitter && <a href={`https://github.com/${node.basic_info.github}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faTwitter} /></a> }
                                     { _linkedin && <a href={`https://${_linkedin}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faLinkedin} /></a> }
                                     <Link to={node.basic_info.github} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">HTML</span></Link> 
+                                    <Link to={"/pdf/"+node.basic_info.github} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">PDF</span></Link> 
                                     { node.basic_info.github && <a href={`https://github.com/${node.basic_info.github}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faGithub} /></a> }
                                 </div>
                             {/* <button type="button" className="btn btn-primary ml-1" data-toggle="modal" data-target="#exampleModal" onClick={() => onClickPdf(node)}>View in PDF</button> */}
