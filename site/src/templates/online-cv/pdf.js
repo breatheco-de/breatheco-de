@@ -1,7 +1,12 @@
-import React from 'react';
-import { Page, Text, View, Document, StyleSheet, Image } from '@react-pdf/renderer';
+import React,{ useEffect, useState } from 'react';
+import { Page, Text, View, Document, StyleSheet, Image, PDFViewer } from '@react-pdf/renderer';
 
-const ExternalProfile = (props) => {
+const ExternalProfile = ({pageContext}) => {
+  const [isBuilt, setIsBuilt] = useState(false);
+  const node = pageContext;
+  useEffect(() => {
+    setIsBuilt(true)
+  }, [])
  const checkObjOfUndefined = (obj, child) => {
     if (typeof obj === 'undefined' || typeof obj[child] === 'undefined') {
       return false;
@@ -55,49 +60,51 @@ const ExternalProfile = (props) => {
       return "Advanced"
     }
   }
-  return <Document>
+  return (<>{isBuilt &&
+  <PDFViewer width={1500} height={1500}>
+  <Document>
     <Page style={styles.body}>
       <View style={styles.dflex}>
         <View style={styles.studenName}>
-          <Text style={styles.name}>{checkObjOfUndefined(props.node, 'basic_info') ? stripName(props.node.basic_info.first_name.toUpperCase()) : "FIRST NAME"}</Text>
-          <Text style={styles.lastname}>{checkObjOfUndefined(props.node, 'basic_info') ? stripName(props.node.basic_info.last_name.toUpperCase()) : "LAST NAME"}</Text>
+          <Text style={styles.name}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.first_name.toUpperCase()) : "FIRST NAME"}</Text>
+          <Text style={styles.lastname}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.last_name.toUpperCase()) : "LAST NAME"}</Text>
           <Text style={styles.career}>Software Developer</Text>
         </View>
         <View style={styles.contactInfoView}>
           <View style={styles.dflexInfo}>
             <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png' style={styles.img} />
-            <Text style={styles.contactInfoText}>{checkObjOfUndefined(props.node, 'basic_info') ? props.node.basic_info.github : "Your Github"}</Text>
+            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.github : "Your Github"}</Text>
           </View>
           <View style={styles.dflexInfo}>
             <Image src='https://cdn4.iconfinder.com/data/icons/squared-line-communication/64/mail-circle-512.png' style={styles.img} />
-            <Text style={styles.contactInfoText}>{checkObjOfUndefined(props.node, 'basic_info') ? props.node.basic_info.email : "Your Email"}</Text>
+            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.email : "Your Email"}</Text>
           </View>
           <View style={styles.dflexInfo}>
             <Image src='https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png' style={styles.img} />
-            <Text style={styles.contactInfoText}> {checkObjOfUndefined(props.node, 'basic_info') ? props.node.basic_info.phone : ''}</Text>
+            <Text style={styles.contactInfoText}> {checkObjOfUndefined(node, 'basic_info') ? node.basic_info.phone : ''}</Text>
           </View>
           <View style={styles.dflexInfo}>
             <Image src='https://cdn.onlinewebfonts.com/svg/img_408253.png' style={styles.img} />
-            <Text style={styles.contactInfoText}>{checkObjOfUndefined(props.node, 'basic_info') ? props.node.basic_info.linkedin : "Your Linkedin"}</Text>
+            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.linkedin : "Your Linkedin"}</Text>
           </View>
         </View>
       </View>
       <View style={styles.pb}>
         <Text style={styles.titleB}>SUMMARY</Text>
-        <Text style={styles.descriptionD}>{checkObjOfUndefined(props.node, 'basic_info') ? stripJumps(props.node.basic_info.summary) : "Amateur man in programming, with a desire to learn to use it in everyday life"}</Text>
+        <Text style={styles.descriptionD}>{checkObjOfUndefined(node, 'basic_info') ? stripJumps(node.basic_info.summary) : "Amateur man in programming, with a desire to learn to use it in everyday life"}</Text>
       </View>
       <View style={styles.section}>
         <View style={styles.skills}>
           <Text style={styles.title}>SKILLS</Text>
           <View>
             <Text style={styles.subtitle}>TOOLSET</Text>
-            {checkObjOfUndefined(props.node, 'skills') ? props.node.skills.toolset.map((item, i) => <Text style={styles.description} key={i}>{item.name + " - " + convertSkill(item.level)}</Text>) : <Text style={styles.description}>Skill - Intermediate</Text>}
+            {checkObjOfUndefined(node, 'skills') ? node.skills.toolset.map((item, i) => <Text style={styles.description} key={i}>{item.name + " - " + convertSkill(item.level)}</Text>) : <Text style={styles.description}>Skill - Intermediate</Text>}
           </View>
           <View>
             <Text style={styles.subtitle}>PROJECTS</Text>
             {
-              checkObjOfUndefined(props.node, 'projects') ?
-                props.node.projects.assignments.map((item, i) =>
+              checkObjOfUndefined(node, 'projects') ?
+                node.projects.assignments.map((item, i) =>
                   <View key={i}>
                     <Text style={styles.descriptionC}>{item.title != null ? item.title.toUpperCase() : <Text style={styles.description}>PROJECT TITLE</Text>}</Text>
                     {item.link != null ? stripLink(item.link) : <Text style={styles.warning}>Missing Project Link</Text>}
@@ -112,12 +119,12 @@ const ExternalProfile = (props) => {
           </View>
           <View>
             <Text style={styles.subtitle}>LANGUAGES</Text>
-            {checkObjOfUndefined(props.node, 'basic_info') ? props.node.basic_info.languages.map((item, i) => <Text style={styles.description} key={i}>{item.idiom + " - " + item.level}</Text>) : <Text style={styles.description}>Language - Level</Text>}
+            {checkObjOfUndefined(node, 'basic_info') ? node.basic_info.languages.map((item, i) => <Text style={styles.description} key={i}>{item.idiom + " - " + item.level}</Text>) : <Text style={styles.description}>Language - Level</Text>}
           </View>
         </View>
         <View style={styles.experience}>
           <Text style={styles.title}>EXPERIENCE</Text>
-          {checkObjOfUndefined(props.node, 'experiences') ? props.node.experiences.map((item, i) =>
+          {checkObjOfUndefined(node, 'experiences') ? node.experiences.map((item, i) =>
             <View key={i}>
               <Text style={styles.sub}>{item.role.toUpperCase()}</Text>
               <View style={styles.section}>
@@ -135,7 +142,7 @@ const ExternalProfile = (props) => {
             </View>}
           <Text style={styles.title}>EDUCATION</Text>
           <View>
-            {checkObjOfUndefined(props.node, 'education') ? props.node.education.map((item, i) =>
+            {checkObjOfUndefined(node, 'education') ? node.education.map((item, i) =>
               <View style={styles.div} key={i}>
                 <Text style={styles.sub}>{item.degree != null ? item.degree.toUpperCase() : <Text style={styles.sub}>DEGREE</Text>}</Text>
                 <View style={styles.section}>
@@ -160,6 +167,8 @@ const ExternalProfile = (props) => {
       )} fixed />
     </Page>
   </Document>
+  </PDFViewer>
+  }</>)
 }
 
 
