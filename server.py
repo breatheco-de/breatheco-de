@@ -6,7 +6,7 @@ except ImportError:
     print("You don't have Flask installed, run `$ pip3 install flask` and try again")
     exit(1)
 
-import os
+import os, subprocess
 
 static_file_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), './')
 app = Flask(__name__)
@@ -17,8 +17,9 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0 #disable cache
 def serve_dir_directory_index():
     if os.path.exists("app.py"):
         # if app.py exists we use the render function
-        import app
-        return app.render()
+        out = subprocess.Popen(['python3','app.py'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        stdout,stderr = out.communicate()
+        return stdout if out.returncode == 0 else f"<pre style='color: red;'>{stdout.decode('utf-8')}</pre>"
     if os.path.exists("index.html"):
         return send_from_directory(static_file_dir, 'index.html')
     else:
