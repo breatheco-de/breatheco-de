@@ -67,7 +67,7 @@ experiences:
 
 projects:
     intro: >
-    These are some projects I done or I am working on. Some I did on my own and others with the collaboration of team members.
+      These are some projects I done or I am working on. Some I did on my own and others with the collaboration of team members.
 
     assignments:
       - title: ShipBack
@@ -85,7 +85,6 @@ projects:
       - title: LandingReact
         link: "https://github.com/AttilioGiglio/landingReact.git"
         tagline: "I build a landing page using React Function Components. The idea was to split Bootstrap components into different function Components"
-        "
 
       - title: TodoList-Fetch
         link: "https://github.com/AttilioGiglio/TodoList-Fetch.git"
