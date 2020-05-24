@@ -8,6 +8,7 @@ const ExternalProfile = ({pageContext}) => {
   const [lang, setLang] = useQueryParam("lang", StringParam);
   const [isBuilt, setIsBuilt] = useState(false);
   const node = pageContext.node;
+  console.log(node);
   
   useEffect(() => {
     setIsBuilt(true);
@@ -73,8 +74,8 @@ const ExternalProfile = ({pageContext}) => {
     <Page style={styles.body}>
       <View style={styles.dflex}>
         <View style={styles.studenName}>
-          <Text style={styles.name}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.first_name.toUpperCase()) : "FIRST NAME"}</Text>
-          <Text style={styles.lastname}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.last_name.toUpperCase()) : "LAST NAME"}</Text>
+          <Text style={styles.name}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.first_name.toUpperCase()) : translation[lang]["First Name"].toUpperCase()}</Text>
+          <Text style={styles.lastname}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.last_name.toUpperCase()) : translation[lang]["Last Name"].toUpperCase()}</Text>
           <Text style={styles.career}>{translation[lang]["Software Developer"]}</Text>
         </View>
         <View style={styles.contactInfoView}>
@@ -102,7 +103,7 @@ const ExternalProfile = ({pageContext}) => {
       </View>
       <View style={styles.section}>
         <View style={styles.skills}>
-          <Text style={styles.title}>{translation[lang]["Skills"].toUpperCase()}</Text>
+          <Text style={styles.titleC}>{translation[lang]["Skills"].toUpperCase()}</Text>
           <View>
             <Text style={{...styles.subtitle, textDecorationColor: color}}>{translation[lang]["Toolset"].toUpperCase()}</Text>
             {checkObjOfUndefined(node, 'skills') ? node.skills.toolset.map((item, i) => <Text style={styles.description} key={i}>{item.name + " - " + convertSkill(item.level)}</Text>) : <Text style={styles.description}>Skill - Intermediate</Text>}
@@ -276,6 +277,23 @@ const styles = StyleSheet.create({
     paddingTop: 5,
     marginLeft: 70,
     marginRight: 70,
+    marginBottom: 10,
+    marginTop: 10,
+    color: "white",
+    backgroundColor: "black",
+    borderTopLeftRadius: 9,
+    borderTopRightRadius: 9,
+    borderBottomRightRadius: 9,
+    borderBottomLeftRadius: 9,
+  },
+  titleC: {
+    fontSize: 12,
+    textAlign: 'center',
+    letterSpacing: 1.2,
+    paddingBottom: 5,
+    paddingTop: 5,
+    marginLeft: 40,
+    marginRight: 40,
     marginBottom: 10,
     marginTop: 10,
     color: "white",

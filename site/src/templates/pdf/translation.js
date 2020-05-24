@@ -1,4 +1,6 @@
 export const en = {
+    "First Name": "First Name",
+    "Last Name":"Last Name",
     "Missing Project Link": "Missing Project Link",
     "Intermediate": "Intermediate",
     "Advanced": "Advanced",
@@ -25,6 +27,8 @@ export const en = {
 }
 
  export const es = {
+    "First Name": "Nombre",
+    "Last Name":"Apellido",
     "Missing Project Link": "No hay link de proyecto",
     "Intermediate": "Intermedio",
     "Advanced": "Avanzado",
