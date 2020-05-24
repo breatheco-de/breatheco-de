@@ -99,7 +99,7 @@ exports.createPages = ({ actions, graphql }) => {
         createPage({
           path: `/pdf/${node.basic_info.github}`,
           component: getTemplatePdf('pdf'),
-          context: node,
+          context: {node},
         });
       });
      
