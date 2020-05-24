@@ -27,6 +27,7 @@
     "gatsby-plugin-sass": "^2.0.5",
     "gatsby-plugin-sharp": "^2.2.19",
     "gatsby-plugin-typography": "^2.2.2",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-react-router-scroll": "^2.0.2",
     "gatsby-source-filesystem": "^2.2.5",
@@ -39,9 +40,12 @@
     "react-share": "^4.1.0",
     "react-social-sharing": "^3.0.1",
     "react-tooltip": "^3.10.0",
+    "reactstrap": "^8.4.1",
+    "save": "^2.4.0",
     "travis-ci": "^2.2.0",
     "typography": "^0.16.17",
     "typography-theme-alton": "^0.15.10",
+    "use-query-params": "^1.1.3",
     "yaml-validator": "^2.0.0"
   },
   "devDependencies": {

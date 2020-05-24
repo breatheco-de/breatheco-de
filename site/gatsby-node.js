@@ -6,7 +6,7 @@ const getTemplate = (templateSlug) => {
   return path.resolve(`./src/templates/${templateSlug}/index.js`);
 };
 const getTemplatePdf = (templateSlug) => {
-  return path.resolve(`./src/templates/${templateSlug}/pdf.js`);
+  return path.resolve(`./src/templates/${templateSlug}/index.js`);
 };
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -95,13 +95,14 @@ exports.createPages = ({ actions, graphql }) => {
             github: node.basic_info.github
           },
         });
+        // Pdf template parameters
         createPage({
           path: `/pdf/${node.basic_info.github}`,
-          component: getTemplatePdf(node.template || 'online-cv'),
+          component: getTemplatePdf('pdf'),
           context: node,
         });
       });
-
+     
       resolve();
     });
   });

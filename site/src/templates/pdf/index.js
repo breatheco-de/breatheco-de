@@ -1,12 +1,19 @@
 import React,{ useEffect, useState } from 'react';
 import { Page, Text, View, Document, StyleSheet, Image, PDFViewer } from '@react-pdf/renderer';
+import { useQueryParam, StringParam } from "use-query-params";
+import * as translation from "./translation"
 
 const ExternalProfile = ({pageContext}) => {
+  const [color, setColor] = useQueryParam("theme", StringParam);
+  const [lang, setLang] = useQueryParam("lang", StringParam);
   const [isBuilt, setIsBuilt] = useState(false);
-  const node = pageContext;
+  const node = pageContext.node;
+  
   useEffect(() => {
-    setIsBuilt(true)
+    setIsBuilt(true);
   }, [])
+  
+  //Chequea que el objeto recibido sea undefined
  const checkObjOfUndefined = (obj, child) => {
     if (typeof obj === 'undefined' || typeof obj[child] === 'undefined') {
       return false;
@@ -23,7 +30,7 @@ const ExternalProfile = ({pageContext}) => {
   //Quita saltos de linea
   const stripJumps = (s) => {
     if (s === undefined || s === null) {
-      return "There is no text to display";
+      return translation[lang]["There is no text to display"];
     } else {
       return s.split('').map(l => l.charCodeAt(0) === 10 ? " " : l).join('')
     }
@@ -31,7 +38,7 @@ const ExternalProfile = ({pageContext}) => {
   //Funcion para que se permita solo un nombre y un apellido
   const stripName = (s) => {
     if (s === undefined || s === null) {
-      return "There is no text to display"
+      return translation[lang]["There is no text to display"]
     } else {
       let arr = s.split(' ')
       if (arr.length > 0) {
@@ -44,7 +51,7 @@ const ExternalProfile = ({pageContext}) => {
   //Funcion para que elimine los # del link
   const stripLink = (s) => {
     if (s === "#") {
-      return <Text style={styles.warning}>Missing Project Link</Text>
+      return <Text style={styles.warning}>{translation[lang]["Missing Project Link"]}</Text>
     }
     const regex = /#/gi;
     return <Text style={styles.descriptionL}>{s.replace(regex, "")}</Text>
@@ -53,11 +60,11 @@ const ExternalProfile = ({pageContext}) => {
   const convertSkill = (s) => {
     s.replace("[^0-9a-zA-Z]+", "");
     if (s < "80" && s > "50") {
-      return "Intermediate"
+      return translation[lang]["Intermediate"]
     } else if (s < "50") {
-      return "Basic"
+      return translation[lang]["Basic"]
     } else {
-      return "Advanced"
+      return translation[lang]["Advanced"]
     }
   }
   return (<>{isBuilt &&
@@ -68,83 +75,83 @@ const ExternalProfile = ({pageContext}) => {
         <View style={styles.studenName}>
           <Text style={styles.name}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.first_name.toUpperCase()) : "FIRST NAME"}</Text>
           <Text style={styles.lastname}>{checkObjOfUndefined(node, 'basic_info') ? stripName(node.basic_info.last_name.toUpperCase()) : "LAST NAME"}</Text>
-          <Text style={styles.career}>Software Developer</Text>
+          <Text style={styles.career}>{translation[lang]["Software Developer"]}</Text>
         </View>
         <View style={styles.contactInfoView}>
           <View style={styles.dflexInfo}>
-            <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png' style={styles.img} />
-            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.github : "Your Github"}</Text>
+            <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png' style={{...styles.img, backgroundColor: color}} />
+            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.github : ''}</Text>
           </View>
           <View style={styles.dflexInfo}>
-            <Image src='https://cdn4.iconfinder.com/data/icons/squared-line-communication/64/mail-circle-512.png' style={styles.img} />
-            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.email : "Your Email"}</Text>
+            <Image src='https://cdn4.iconfinder.com/data/icons/squared-line-communication/64/mail-circle-512.png' style={{...styles.img, backgroundColor: color}} />
+            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.email : ''}</Text>
           </View>
           <View style={styles.dflexInfo}>
-            <Image src='https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png' style={styles.img} />
+            <Image src='https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png' style={{...styles.img, backgroundColor: color}} />
             <Text style={styles.contactInfoText}> {checkObjOfUndefined(node, 'basic_info') ? node.basic_info.phone : ''}</Text>
           </View>
           <View style={styles.dflexInfo}>
-            <Image src='https://cdn.onlinewebfonts.com/svg/img_408253.png' style={styles.img} />
-            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.linkedin : "Your Linkedin"}</Text>
+            <Image src='https://cdn.onlinewebfonts.com/svg/img_408253.png' style={{...styles.img, backgroundColor: color}} />
+            <Text style={styles.contactInfoText}>{checkObjOfUndefined(node, 'basic_info') ? node.basic_info.linkedin : ''}</Text>
           </View>
         </View>
       </View>
       <View style={styles.pb}>
-        <Text style={styles.titleB}>SUMMARY</Text>
+        <Text style={styles.titleB}>{translation[lang]["Summary"].toUpperCase()}</Text>
         <Text style={styles.descriptionD}>{checkObjOfUndefined(node, 'basic_info') ? stripJumps(node.basic_info.summary) : "Amateur man in programming, with a desire to learn to use it in everyday life"}</Text>
       </View>
       <View style={styles.section}>
         <View style={styles.skills}>
-          <Text style={styles.title}>SKILLS</Text>
+          <Text style={styles.title}>{translation[lang]["Skills"].toUpperCase()}</Text>
           <View>
-            <Text style={styles.subtitle}>TOOLSET</Text>
+            <Text style={{...styles.subtitle, textDecorationColor: color}}>{translation[lang]["Toolset"].toUpperCase()}</Text>
             {checkObjOfUndefined(node, 'skills') ? node.skills.toolset.map((item, i) => <Text style={styles.description} key={i}>{item.name + " - " + convertSkill(item.level)}</Text>) : <Text style={styles.description}>Skill - Intermediate</Text>}
           </View>
           <View>
-            <Text style={styles.subtitle}>PROJECTS</Text>
+            <Text style={{...styles.subtitle, textDecorationColor: color}}>{translation[lang]["Projects"].toUpperCase()}</Text>
             {
               checkObjOfUndefined(node, 'projects') ?
                 node.projects.assignments.map((item, i) =>
                   <View key={i}>
                     <Text style={styles.descriptionC}>{item.title != null ? item.title.toUpperCase() : <Text style={styles.description}>PROJECT TITLE</Text>}</Text>
-                    {item.link != null ? stripLink(item.link) : <Text style={styles.warning}>Missing Project Link</Text>}
-                    <Text style={styles.description}>{item.tagline != null ? item.tagline : "Tagline"}</Text>
+                    {item.link != null ? stripLink(item.link) : <Text style={styles.warning}>{translation[lang]["Missing Project Link"]}</Text>}
+                    <Text style={styles.description}>{item.tagline != null ? item.tagline : translation[lang]["Tagline"]}</Text>
                   </View>
                 ) : <View>
-                  <Text style={styles.descriptionC}>PROJECT TITLE</Text>
-                  <Text style={styles.descriptionL}>Your Project Link</Text>
-                  <Text style={styles.description}>Tagline</Text>
+                  <Text style={styles.descriptionC}>{translation[lang]["Project Title"].toUpperCase()}</Text>
+                  <Text style={styles.descriptionL}>{translation[lang]["Missing Project Link"]}</Text>
+                  <Text style={styles.description}>{translation[lang]["Tagline"]}</Text>
                 </View>
             }
           </View>
           <View>
-            <Text style={styles.subtitle}>LANGUAGES</Text>
+            <Text style={{...styles.subtitle, textDecorationColor: color}}>{translation[lang]["Languages"].toUpperCase()}</Text>
             {checkObjOfUndefined(node, 'basic_info') ? node.basic_info.languages.map((item, i) => <Text style={styles.description} key={i}>{item.idiom + " - " + item.level}</Text>) : <Text style={styles.description}>Language - Level</Text>}
           </View>
         </View>
-        <View style={styles.experience}>
-          <Text style={styles.title}>EXPERIENCE</Text>
+        <View style={{...styles.experience, borderLeftColor: color}}>
+          <Text style={styles.title}>{translation[lang]["Experience"].toUpperCase()}</Text>
           {checkObjOfUndefined(node, 'experiences') ? node.experiences.map((item, i) =>
             <View key={i}>
-              <Text style={styles.sub}>{item.role.toUpperCase()}</Text>
+              <Text style={{...styles.sub, textDecorationColor: color}}>{item.role.toUpperCase()}</Text>
               <View style={styles.section}>
                 <Text style={styles.description}>{item.company.toUpperCase()}</Text>
-                <Text style={styles.descriptionB}>Time {item.time}</Text>
+                <Text style={styles.descriptionB}>{translation[lang]["Time"]} {item.time}</Text>
               </View>
               <Text style={styles.descriptionD}>{stripJumps(item.details)}</Text>
             </View>) : <View >
-              <Text style={styles.sub}>Experience Role</Text>
+              <Text style={{...styles.sub, textDecorationColor: color}}>{translation[lang]["Experience Role"]}</Text>
               <View style={styles.section}>
-                <Text style={styles.description}>Company Name</Text>
-                <Text style={styles.descriptionB}>Time</Text>
+                <Text style={styles.description}>{translation[lang]["Company Name"]}</Text>
+                <Text style={styles.descriptionB}>{translation[lang]["Time"]}</Text>
               </View>
-              <Text style={styles.descriptionD}>Experience Details</Text>
+              <Text style={styles.descriptionD}>{translation[lang]["Experience Details"]}</Text>
             </View>}
-          <Text style={styles.title}>EDUCATION</Text>
+          <Text style={styles.title}>{translation[lang]["Education"].toUpperCase()}</Text>
           <View>
             {checkObjOfUndefined(node, 'education') ? node.education.map((item, i) =>
               <View style={styles.div} key={i}>
-                <Text style={styles.sub}>{item.degree != null ? item.degree.toUpperCase() : <Text style={styles.sub}>DEGREE</Text>}</Text>
+                <Text style={{...styles.sub, textDecorationColor: color}}>{item.degree != null ? item.degree.toUpperCase() : <Text style={styles.sub}>DEGREE</Text>}</Text>
                 <View style={styles.section}>
                   <Text style={styles.description}>{item.university != null ? item.university.toUpperCase() : "UNIVERSITY NAME"}</Text>
                   <Text style={styles.descriptionB}>{item.time != null ? item.time : "Time"}</Text>
@@ -152,12 +159,12 @@ const ExternalProfile = ({pageContext}) => {
                 <Text style={styles.descriptionD}>{item.details != null ? stripJumps(item.details) : "Education Details"}</Text>
               </View>)
               : <View style={styles.div}>
-                <Text style={styles.sub}>Education Degree</Text>
+                <Text style={{...styles.sub, textDecorationColor: color}}>{translation[lang]["Education Degree"]}</Text>
                 <View style={styles.section}>
-                  <Text style={styles.description}>University or Academy</Text>
-                  <Text style={styles.descriptionB}>Time</Text>
+                  <Text style={styles.description}>{translation[lang]["University"]}</Text>
+                  <Text style={styles.descriptionB}>{translation[lang]["Time"]}</Text>
                 </View>
-                <Text style={styles.descriptionD}>Education Details</Text>
+                <Text style={styles.descriptionD}>{translation[lang]["Education Details"]}</Text>
               </View>}
           </View>
         </View>
