@@ -1,8 +1,0 @@
-{
-    "version": 2,
-    "alias": "sep.4geeksacademy.co",
-    "name": "Student External Profile",
-    "builds": [
-        { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
-    ]
-}

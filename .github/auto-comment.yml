@@ -1,28 +1,32 @@
 pullRequestOpened: >-
-    🇺🇸 Congratulations on your first pull request, this is what is happening now:  
+    # 🇺🇸 Congratulations on your first Pull-Request (↓Español más abajo↓), this is what is happening now:  
     
-    1. `Travis` will try to test that your YML file is good and the project builds correctly. 
+    1. Github will try to test that your YML file is good and the project builds correctly. 
     2. If everything goes good, `mergify` will try to approve the pull request and automatically merge. 
-    3. If everything is merged then `now` will re-publish the website under https://sep.4geeksacademy.com and you should see yourself.
+    3. If everything is merged then `now` will re-publish the website under https://sep.4geeksacademy.co and you should see yourself.
 
     ### How long will my PR take to be published?
     
-    It depends, usually around 5 minutes but if other students are queue before you, you will ahve to wait for their profile to be published first.
+    It depends, usually around 5 minutes but if other students are queue before you, you will have to wait for their profile to be published first.
     
     ### How can I check for errors?
     
-    On [this website](https://travis-ci.org/4GeeksAcademy/student-external-profile/pull_requests) you can see all the pull-requests that travis has processed or queue for processing, you can also check the status of the build, green means good, red means bad. ![Travis file upload](https://ucarecdn.com/8090b522-dec7-43c6-86c7-d639282b6e0f/travis.png)
+    ![Check for errors](https://github.com/4GeeksAcademy/student-external-profile/blob/master/site/static/error_checking.gif?raw=true)
 
-    🇪🇸 Felicidades por intentar hacer tu primer pull request, esto es lo que está pasando ahora mismo:  
+    On this website, further bellow you can see the status of the tests and the status of the build, green means good, red means bad. 
+
+    # 🇪🇸 Felicidades por intentar hacer tu primer Pull Request (PR), esto es lo que está pasando ahora mismo:  
     
-    1. `Travis` va a intentar probar que tu archivo YML este correctamente creado y que la pagina web funcione correctamente.
+    1. Github va a intentar probar que tu archivo YML este correctamente creado y que la pagina web funcione correctamente.
     2. Si todo sale bien tu Pull Request sera aprobado y tu codigo se incluira automaticamente en el branch MASTER del repositorio principal.
-    3. Luego de que se incluya, un nuevo proceso va a intentar re-publicar la pagina para que ahora tu nombre aparezca en la lista de alumnos https://sep.4geeksacademy.com
+    3. Luego de que se incluya, un nuevo proceso va a intentar re-publicar la pagina para que ahora tu nombre aparezca en la lista de alumnos https://sep.4geeksacademy.co
 
     ### Cuanto tarda todo esto?
     
-    Usualmente este proceso targa no mas de 5 minutos, pero puedes recisar el estatus aqui [status](https://travis-ci.org/4GeeksAcademy/student-external-profile/pull_requests)
+    Usualmente este proceso tarda no mas de 5 minutos, si hay otros estudiantes esperando por revisión puede que tarde un poco mas, puedes siempre revisar el status mas abajo.
     
     ### Como puedo checkear si hubo un error?
+
+    ![Check for errors](https://github.com/4GeeksAcademy/student-external-profile/blob/master/site/static/error_checking.gif?raw=true)
     
-    En esta pagina [this website](https://travis-ci.org/4GeeksAcademy/student-external-profile/pull_requests) puedes ver todos los pull-requests que estan pendientes de procesar o siendo procesados el status verde es bueno, rojo es malo y amarillo es PENDING. ![Travis file upload](https://ucarecdn.com/8090b522-dec7-43c6-86c7-d639282b6e0f/travis.png)
+    Dentro de esta misma página, mas abajo, puedes verificar el status de los tests que estan siendo probados y si fueron exitosos, rojo=fallo, verde=exito, naranja=exito pero con advertencias.
