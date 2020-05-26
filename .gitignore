@@ -1,3 +1,5 @@
 public/
+.theia/
 node_modules/
 .cache/
+.now

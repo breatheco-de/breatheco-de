@@ -1,0 +1,133 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    first_name: Ariel Vladimir
+    last_name: Calisaya Serrano
+
+    motto: "No dates only updates"
+
+    focus: become a senior programer.
+
+    summary: "Lazy man and programming enthusiast, wanting to learn new technologies to create a bot capable of doing the work of a lazy man"
+
+    # Profile picture URL
+    avatar: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fweb-and-seo-11-1%2F65%2F549-512.png&f=1
+
+    email: calisayaariel62@gmail.com
+    phone: +56 9 58980429
+    website:
+    linkedin: Ariel Vladimir Calisaya Serrano
+
+    github: ArielCalisaya
+
+    twitter:
+    stack-overflow: 11746179/ariel-calisaya
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+      - idiom: Portuguese
+        level: Basic
+
+    interests:
+      - item: Music
+
+      - item: Design
+
+      - item: Cooking
+
+      - item: Running
+
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: june-2019 / october-2019
+      details:
+          -Real “Senior” Mentoring
+          staff has 10  years coding and holds senior possitions in Miami's tech industry.
+          -Top-notch Technology Stack
+          -Really Part-time
+          The world of Coding grows and changes EVERY DAY.
+          It is not about teaching on after-hours, it requires much more!
+          This program is meant for employed professionals. We have designed
+          the perfect method for both flexible and blended learning in an “after-hours” setting.
+
+# Previous job experiences or voluntier
+experiences:
+    - role: File cabinet and digital document provider
+      time: october-2018 / june-2019
+      company: Huechuraba municipality - works sector
+      # optional
+      company_logo: https://www.huechuraba.cl/images/logo-municipalidad-huechuraba.png
+      details: |
+        I was in charge of storing physical and digital documents by filing
+        according to order of rol number, either in the commune
+        database or in the warehouse.
+
+# Project portfolio
+projects:
+    intro: >
+      These are some projects that have been proposed to me by the academy,
+      which have facilitated me where to start learning and adapting languages
+      ​​of progamation from the simplest to the most complex,
+      with "practice and error"
+    assignments:
+      - title: The Instagram post (html & css)
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/The-Instagram-Post-by-A.C
+        tagline: "simple post of instagram unresponsive which serves
+        to deepen and understand html and css (at that time I was
+        an ape in the css, I didn't know the grid)"
+
+      - title: Domain name Generator
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/DomainNameGenerator
+        tagline: "Learned to get all posible combinations of words"
+
+      - title: Todo List
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/TodoList
+        tagline: "Simple Todo-List with functions"
+
+      - title: Card Generator (poker)
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/cardRandomJS
+        tagline: "This project generates a random card with number and logo"
+
+      - title: Contact List context
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/exercise-contact-list-context
+        tagline: "create, delete and edit a contact using context"
+
+      - title: Generate User info
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/ArielCalisaya/PlayingWith_RandomUserGenerator-API
+        tagline: "Learned to fetch and get a random user info api"
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 70%
+
+      - name: Angular
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 50%
