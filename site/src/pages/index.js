@@ -9,7 +9,7 @@ import { faFile, faPalette, faGraduationCap, faPlusCircle, faShareAlt, faFilePdf
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import "../styles/home.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+import { Button,Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 
 const clean = (url) => {
@@ -42,41 +42,78 @@ export default ({ data }) => {
   })
   const [link, setLink] = useState('');
   const [isLink, setIsLink] = useState(false)
-  const [activeLang, setActiveLang] = useState({en:false, es: false});
-  const [activeColor, setActiveColor] = useState({white:false, orange: false});
+  const [activeLang, setActiveLang] = useState({ en: false, es: false });
+  const [activeColor, setActiveColor] = useState({ white: false, orange: false });
+  const [modal, setModal] = useState(false);
+  const [github, setGitHub] = useState('');
+  const [mode, setMode] = useState('')
 
-  function onClickLanguage(e){
+  function onClickLanguage(e) {
     let element = e.target.id
-    if(element === 'en'){
-      setActiveLang({en:true, es: false})
-      setTemplate({...template, lang: 'en'})
-    } else if(element === 'es'){
-      setActiveLang({en:false, es: true})
-      setTemplate({...template, lang: 'es'})
-    } 
-}
+    if (element === 'en') {
+      setActiveLang({ en: true, es: false })
+      setTemplate({ ...template, lang: 'en' })
+    } else if (element === 'es') {
+      setActiveLang({ en: false, es: true })
+      setTemplate({ ...template, lang: 'es' })
+    }
+  }
 
-  function onClickTheme(e){
+  function onClickTheme(e) {
     let element = e.target.id
-    if(element === 'white'){
-      setActiveColor({white: true, orange: false})
-      setTemplate({...template, color: 'white'})
-    } else if (element === 'orange'){
-      setActiveColor({white: false, orange: true})
-      setTemplate({...template, color: 'orange'})
+    if (element === 'white') {
+      setActiveColor({ white: true, orange: false })
+      setTemplate({ ...template, color: 'white' })
+    } else if (element === 'orange') {
+      setActiveColor({ white: false, orange: true })
+      setTemplate({ ...template, color: 'orange' })
+    }
   }
-}
+  useEffect(() => {
+    if (template.color !== '' && template.lang !== '') {
+      setLink('?' + 'lang=' + template.lang + '&' + 'theme=' + template.color)
+      setIsLink(true);
+    }
+  }, [link, template])
 
-useEffect(() => {
- if(template.color !== '' && template.lang !== ''){
-   setLink('?'+ 'lang=' + template.lang + '&' + 'theme=' + template.color)
-   setIsLink(true);
-  }
-}, [link,template])
-  
   return (
     <Layout>
       <Share message={"I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!"} url={"https://sep.4geeksacademy.co/"} hide={!showShare} onClose={() => setShowShare(false)} />
+      <Modal isOpen={modal} toggle={() => setModal(!modal)} >
+        <ModalHeader toggle={() => setModal(!modal)}>Preferences</ModalHeader>
+        <ModalBody>
+          <div className="row">
+            <div className="col-12">
+            <p>This preferences will set your PDF/Profile in a more personalized way so you can share with others your awesome skills</p>
+            <p>All you have to do is <span className="badge badge-dark p-2 mr-1">choose</span>a language and theme and go to the generated link.</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6 text-center">
+              <p>Language</p>
+              <div className="btn-group" role="group" aria-label="Basic example">
+                <button type="button" className={activeLang.en ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight"} onClick={(e) => onClickLanguage(e)} id='en'>English</button>
+                <button type="button" className={activeLang.es ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight"} onClick={(e) => onClickLanguage(e)} id='es'>Spanish</button>
+              </div>
+            </div>
+            <div className="col-6 text-center">
+              <p >Theme</p>
+              <div className="btn-group" role="group" aria-label="Basic example">
+                <button type="button" className={activeColor.white ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight"} onClick={(e) => onClickTheme(e)} id='white'>White</button>
+                <button type="button" className={activeColor.orange ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight orange"} onClick={(e) => onClickTheme(e)} id='orange'>Orange</button>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col-12 text-center">
+            {isLink && mode === 'pdf' ? <Link to={github + '/'+ mode + link} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">Go to PDF</span></Link> : isLink && <Link to={github + '/'+ mode + link} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">Go to HTML</span></Link>}
+            </div>
+          </div>
+        </ModalBody>
+        <ModalFooter>
+          <Button className="btn btn-light ml-2 bd-highlight" onClick={() => setModal(!modal)}>Cancel</Button>
+        </ModalFooter>
+      </Modal>
       <div className="container">
         <div className="row mt-5">
           <div className="col-12 col-sm-8">
@@ -141,38 +178,12 @@ useEffect(() => {
                       {_website && <a href={`https://${_website}`} rel="noopener noreferrer" target="_blank" className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faPalette} /> <span className="d-none d-sm-inline-block">Portfolio</span></a>}
                       {node.basic_info.twitter && <a href={`https://github.com/${node.basic_info.github}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faTwitter} /></a>}
                       {_linkedin && <a href={`https://${_linkedin}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faLinkedin} /></a>}
-                      <Link to={node.basic_info.github} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">HTML</span></Link>
-                      {/* <Link to={"/pdf/" + node.basic_info.github} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">PDF</span></Link> */}
-                      <Button className="btn btn-light ml-2 bd-highlight" id={"toggler" + i} >
+                      <Button className="btn btn-light ml-2 bd-highlight" onClick={() => {setGitHub(students[i]['node']['basic_info']['github']);setModal(!modal); setMode('profile')}}>
+                        <FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">HTML</span>
+                      </Button>
+                      <Button className="btn btn-light ml-2 bd-highlight" onClick={() => {setGitHub(students[i]['node']['basic_info']['github']);setModal(!modal); setMode('pdf')}}>
                         <FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">PDF</span>
                       </Button>
-                      <UncontrolledCollapse toggler={"#toggler" + i}>
-                        <Card className="bg">
-                          <CardBody>
-                            <div className="row">
-                              <div className="col-6 text-center">
-                                <p>Language</p>
-                                <div className="btn-group" role="group" aria-label="Basic example">
-                                  <button type="button" className={activeLang.en ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight"} onClick={(e) => onClickLanguage(e)} id='en'>English</button>
-                                  <button type="button" className={activeLang.es ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight"} onClick={(e) => onClickLanguage(e)} id='es'>Spanish</button>
-                                </div>
-                              </div>
-                              <div className="col-6 text-center">
-                                <p >Theme</p>
-                              <div className="btn-group" role="group" aria-label="Basic example">
-                                  <button type="button" className={activeColor.white ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight"} onClick={(e) => onClickTheme(e)} id='white'>White</button>
-                                  <button type="button" className={activeColor.orange ? "btn btn-light ml-2 bd-highlight active" : "btn btn-light ml-2 bd-highlight orange"} onClick={(e) => onClickTheme(e)} id='orange'>Orange</button>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="row">
-                              <div className="col-12 text-center">
-                            {isLink && <Link to={'/pdf/' + node.basic_info.github +link} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">Go to PDF</span></Link>}
-                            </div>
-                          </div>
-                          </CardBody>
-                        </Card>
-                      </UncontrolledCollapse>
                       {node.basic_info.github && <a href={`https://github.com/${node.basic_info.github}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faGithub} /></a>}
                     </div>
                   </div>)
