@@ -49,3 +49,8 @@ h1, h2, h3{
 .orange:hover{
     background-color: orange !important;
 }
+
+.preferences .row:hover{
+    background: rgb(224, 224, 224);
+    border-radius: 10px;
+}
