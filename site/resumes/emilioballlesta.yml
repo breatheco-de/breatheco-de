@@ -12,8 +12,11 @@ basic_info:
     motto: Psychologist, Data Science and Developer
     avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGAXB1xEM5JgQ/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=aZEw0FSsJvvmhRsMR8qvlw9cSehTv_B3CY_G8L3ix6w
     summary: |
-      Psychologist with 4 years of experience in HR consulting.
-      Actually studying Fullstack Developer at 4GeeksAcademy
+      Psychologist from Universidad Católica de Chile, with 4 years of experience in HR consulting.
+      Nowadays studying Fullstack Developer at 4GeeksAcademy and finishing a Master 
+      in Quantitative and Qualitative Methods for Social Research. Skills include analytics with statistic 
+      software (SPSS) and Python, consultancy, organizational development, and lately a series of Front-end
+      technologies. 
 
     # Sidebar links
     email: efballes@uc.cl
@@ -39,6 +42,8 @@ basic_info:
       - item: Beach
 
       - item: Playing videogames
+
+      - item: Learning
 
 education:
     - degree: Fullstack Developer
@@ -87,42 +92,47 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Postcard
+        link: "https://github.com/emilioballlesta/postcard.git"
+        tagline: "Initial project of generating a postcard only using html and CSS."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Instagram photofeed
+        link: "https://github.com/emilioballlesta/Instagram_photofeed_bootstrap.git"
+        tagline: "Using bootstrap to reproduce an instragram photofeed."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Random card generator
+        link: "https://github.com/emilioballlesta/random-card-generator.git"
+        tagline: "App that picks a random card from the french playing card deck. Created with html, CSS and JS."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Traffic light
+        link: "https://github.com/emilioballlesta/traffic-light.git"
+        tagline: "Responsive traffic light with React and JS, with a click indicates red, yellow or green light."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Rick and Morti API
+        link: "https://github.com/emilioballlesta/rick-and-morty-API.git"
+        tagline: "App created with React that uses the Rick and Morty API to generate views."
+
+      - title: Instagram data modeling
+        link: "https://github.com/emilioballlesta/instagram-data-modeling.git"
+        tagline: "Instragram modeling using UML and Python."
+
+      - title: Final project board
+        link: "https://github.com/emilioballlesta/4Geeks-academy-project/projects/1"
+        tagline: "In 4Geeks, we have to deliver a final project to get the Fullstack certificate. In this project it's the final project initial design using user stories and wireframes."
 
 skills:
     toolset:
       - name: Research
         level: 100%
-      
-      - name: Spanish
+
+      - name: Orgnizational Development
         level: 100%
 
       - name: Statistics Analysis and Software (SPSS)
         level: 80%
-      
-      - name: English
-        level: 70%
 
-      - name: Costumer management
-        level: 70%
+      - name: Consultancy and Costumer management
+        level: 80%
 
       - name: HTML5 & CSS
         level: 70%
