@@ -134,7 +134,7 @@ skills:
       - name: Sketch & Photoshop
         level: 20%
 
-skills:
+skills2:
     toolset:
       - name: Avaya Configuration
         level: 60%
