@@ -12,7 +12,7 @@ basic_info:
     motto: Full Stack Developer
     avatar: https://lh3.googleusercontent.com/a-/AOh14GhtQTi6FJ0TQphB301GSamyFoZ9mjpG2_ek1bWwTm8=s96-c-rg-br100
     summary: |
-      I am Oscar Mariño I was born in May of 85. and I am a computer technician throughout my life I worked with an Avaya partner for 9 years so I am qualified to support Avaya PBX both IP office and Communication Manager, currently working in a travel services company and my main function is the support of the equipment, so that the agents can perform their work as well as possible
+      I am Oscar Mariño, I was born in May 85. I have been a computer technician throughout my life. I worked with an Avaya partner for 9 years, so I am qualified to support Avaya PBX both IP office and Communication Manager, currently I work in a travel agency and my main function is the support of the teams so that the agents can carry out their work in the best possible way, in addition to offering support to our clients through a CRM tool
 
       Soy Oscar Mariño naci en mayo del 85. y soy tecnico en informatica a lo largo de mi vida trabaje con un partner de Avaya durante 9 años por lo que estoy calificado para dar soporte a PBX Avaya tanto IP office como Comunication Manager,  actualemente laboro en una agencia de viaje y mi funcion principal es el soporte de los equipos  para que los agentes puedan realizar su trabajo lo mejor posible, ademas de birndarle soporte a nuestros cliente a traves de una herraminta de CRM
 
@@ -36,9 +36,9 @@ basic_info:
         level: Native
 
     interests:
-      - item: Scuba
+      - item: Scuba Diving
 
-      - item: Cheez
+      - item: Chess
 
       - item: Cooking
 
@@ -74,6 +74,17 @@ experiences:
       company: Freelance
       details: |
         As you can see, I took a Full Stack Web Developer course, so now I am willing to develop pages as a freelance. With the idea of obtaining extra income besides continuing to develop and learn
+
+          - Bullet point
+          - Bullet point
+
+    - role: System coordinator
+      time: 2009 - Present
+      company: GBN Global Vision Network
+      details: |
+      In this company I have two roles. The main one is to give users on-site support. And that the systems remain active so that they can carry out their daily operations. And the second is to provide support in our systems to our clients. Detecting and giving you as much help as possible and escalate errors to the development department so they can be corrected
+
+      En esta empresa tengo dos roles. El principal es darle soporte en sitio a los usuarios. Y que los sistemas se mantengan activos para que puedar realizar sus operaciones diarias. Y el segundo es brindar soporte en nuestros sistemas a nuestros clientes. Detectando y brindalole la mayor ayuda posible y escalar los errores al departamento de desarrollo para que sean corregidos
 
           - Bullet point
           - Bullet point
@@ -116,6 +127,9 @@ projects:
 
 skills:
     toolset:
+      - name: Git
+        level: 30%
+
       - name: Python & Django
         level: 60%
 
@@ -134,8 +148,12 @@ skills:
       - name: Sketch & Photoshop
         level: 20%
 
-skills2:
-    toolset:
       - name: Avaya Configuration
+        level: 60%
+
+      - name: Nertworking
+        level: 40%
+
+      - name: Microsoft Office
         level: 60%
       
