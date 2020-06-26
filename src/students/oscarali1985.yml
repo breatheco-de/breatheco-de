@@ -117,10 +117,10 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 40%
+        level: 60%
 
       - name: Javascript & jQuery
-        level: 60%
+        level: 80%
 
       - name: Angular
         level: 30%
@@ -132,14 +132,8 @@ skills:
         level: 20%
 
       - name: Sketch & Photoshop
-        level: 10%
+        level: 20%
 
       - name: Avaya Configuration
         level: 60%
       
-    toolset:
-      - name: Microsoft Office
-        level: 60%
-
-      - name: Networking and Switch 
-        level: 60%
