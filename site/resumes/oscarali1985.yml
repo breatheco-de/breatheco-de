@@ -119,6 +119,12 @@ projects:
         link: "https://oscarali1985.github.io/Proyecto-4-ExcuseOAMD/"
         tagline: "Pagina sencilla pero parte del curso. Elavorada con javascripts. Simple page but part of the course. Made with javascripts"
 
+      - title: Final project
+        link: "#"
+        tagline: "Como proyecto final realice un pequeño sistema que me muestra los clientes previamente registrado por un personal de la empresa y luego y aun lado unas opciones para enviarle mensajes via telegram o por correo a dicho cliente. Dicho proyecto fue desarrollado en python y usando Mysql como base de dato
+
+        As a final project, I made a small system that shows me the clients previously registered by a company staff and then, and even some options, to send messages via telegram or by mail to said client. This project was developed in python and using Mysql as a data base"
+
       - title: Avaya IP OFFICE
         link: "#"
         tagline: "Durante mi trayectoria en NGS pude realizar varias intalaciones, configuraciones y soporte con esta PBX. Entre mis conocimientos puedo mencionar, las actualizaciones configuracion de usuario, troncal IP y SIP, configuracion de usuario, grupos, audios, correo integrado y voice mail pro, aunque poco tambien he trabajado con el IPOCC una herramienta de administracion de call center
@@ -134,25 +140,25 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 60%
+        level: 50%
 
       - name: Javascript & jQuery
-        level: 80%
+        level: 60%
 
       - name: Angular
-        level: 30%
+        level: 40%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 70%
 
       - name: Ruby on Rails
         level: 20%
 
       - name: Sketch & Photoshop
-        level: 20%
+        level: 10%
 
       - name: Avaya Configuration, Instalation ands Suport
-        level: 60%
+        level: 75%
 
       - name: Microsoft Office
         level: 60%      
