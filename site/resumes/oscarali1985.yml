@@ -14,7 +14,7 @@ basic_info:
     summary: |
       I am Oscar Mariño I was born in May of 85. and I am a computer technician throughout my life I worked with an Avaya partner for 9 years so I am qualified to support Avaya PBX both IP office and Communication Manager, currently working in a travel services company and my main function is the support of the equipment, so that the agents can perform their work as well as possible
 
-      Soy Oscar Mariño naci en mayo del 85. y soy tecnico en informatica a lo largo de mi vida trabaje con un partner de Avaya durante 9 años por lo que estoy calificado para dar soporte a PBX Avaya tanto IP office como Comunication Manager,  actualemente laboro en un empresa de servicios de viaje y mi funcion principal es el soporte de los equipos, para que los agentes puedan realizar su trabajo lo mejor posible
+      Soy Oscar Mariño naci en mayo del 85. y soy tecnico en informatica a lo largo de mi vida trabaje con un partner de Avaya durante 9 años por lo que estoy calificado para dar soporte a PBX Avaya tanto IP office como Comunication Manager,  actualemente laboro en una agencia de viaje y mi funcion principal es el soporte de los equipos  para que los agentes puedan realizar su trabajo lo mejor posible, ademas de birndarle soporte a nuestros cliente a traves de una herraminta de CRM
 
     # Sidebar links
     email: oscarali1985@gmail.com
@@ -45,7 +45,7 @@ basic_info:
 education:
 
     - degree: Desarrollador Web Full Stack
-      university: 4GERRKS ACADEMY
+      university: 4GEEKS ACADEMY
       time: 2019 - 2020
       details: |
         This course lasted approximately 16 weeks where I learned Front and End. We work with HTML 5 - CCS3 and Javascript and the DOM, in addition to Reac. In addition, I work with Git to be able to keep a history of the work in order to return in time if an error occurs or to be able to work in an orderly group and thus be able to merge what has been done. For the Back End, I work with Python and MySQL
