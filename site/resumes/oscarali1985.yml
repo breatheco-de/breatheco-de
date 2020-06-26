@@ -100,30 +100,36 @@ experiences:
 
 projects:
     intro: >
+
+      Mientras trabaje en la empresa NGS Telecom Services realice varios proyectos de implementacion de PBX en todas sus fases. Desde el diseño de la pbx segun el requerimiento del cliente, pasando por el proceso de instalacion y configuracion hasta el proceso final de en entramiento y luego los procesos de troubleshooting para resolver los inconvenientes de los clientes
+
+      While working at the NGS Telecom Services company, carry out several PBX implementation projects in all its phases. From the design of the pbx according to the client's requirement, going through the installation and configuration process to the final process of entering and then the troubleshooting processes to solve the client's problems
+
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: TheInstagramBoot
+        link: "https://oscarali1985.github.io/Proyecto-5-TheInstagramBoot/"
+        tagline: "Pagina responsive, parecida a Instagram. Solo es visual y fue realizada con Bootstrap. Responsive page, similar to Instagram. It is only visual and was done with Bootstrap."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: ExcuseOAMD
+        link: "https://oscarali1985.github.io/Proyecto-4-ExcuseOAMD/"
+        tagline: "Pagina sencilla pero parte del curso. Elavorada con javascripts. Simple page but part of the course. Made with javascripts"
 
-      - title: Tempo
+      - title: Avaya IP OFFICE
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Durante mi trayectoria en NGS pude realizar varias intalaciones, configuraciones y soporte con esta PBX. Entre mis conocimientos puedo mencionar, las actualizaciones configuracion de usuario, troncal IP y SIP, configuracion de usuario, grupos, audios, correo integrado y voice mail pro, aunque poco tambien he trabajado con el IPOCC una herramienta de administracion de call center
+        
+        During my NGS career I was able to perform various installations, configurations and support with this PBX. Among my knowledge I can mention the updates user configuration, IP and SIP trunk, user configuration, groups, audios, integrated mail and voice mail pro, although I have also worked little with the IPOCC a call center administration tool"
 
-      - title: Atom
+      - title: Avaya Communication Manager
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A igual que con el IP OFFICE, trabaje mucho con esta PBX desde la configuracion inicial hasta el soporte, donde de igual manera trabaje con la configuracion de usuarios, troncales, VDN, agentes. Tambien el uso del CMS, sistema de correo integrado y externo. He trabajado con versiones viejas hasta la mas nuevas en su version 7, desde el media gateway G700 y los G650. Avaya es un mundo tiene muchos equipos y he trabajado con mucho de ellos aunque aun faltan algunos por conocer he podido colaborar con los clientes que llegue a atender en la solucion de sus solicitudes.
+        
+        As with the IP OFFICE, work a lot with this PBX from the initial configuration to the support, where in the same way it works with the configuration of users, trunks, VDNs, agents. Also the use of the CMS, integrated and external mail system. I have worked with old versions until the newer ones in version 7, from the media gateway G700 and G650. Avaya is a world with many teams and I have worked with many of them, although there are still some to know, I have been able to collaborate with the clients that I come to attend to in the solution of their requests."
 
 skills:
     toolset:
@@ -145,6 +151,11 @@ skills:
       - name: Sketch & Photoshop
         level: 20%
 
-      - name: Avaya Configuration
+      - name: Avaya Configuration, Instalation ands Suport
         level: 60%
-      
+
+      - name: Microsoft Office
+        level: 60%      
+
+      - name: Networking
+        level: 50%   
