@@ -29,6 +29,9 @@ basic_info:
       - idiom: English
         level: basic
 
+      - idiom: French
+        level: basic
+
       - idiom: Spanish
         level: Native
 
