@@ -45,7 +45,7 @@ basic_info:
 education:
 
     - degree: Desarrollador Web Full Stack
-      university: 4GERRKS ACADEMY
+      university: 4GEEKS ACADEMY
       time: 2019 - 2020
       details: |
         This course lasted approximately 16 weeks where I learned Front and End. We work with HTML 5 - CCS3 and Javascript and the DOM, in addition to Reac. In addition, I work with Git to be able to keep a history of the work in order to return in time if an error occurs or to be able to work in an orderly group and thus be able to merge what has been done. For the Back End, I work with Python and MySQL
@@ -133,7 +133,8 @@ skills:
 
       - name: Sketch & Photoshop
         level: 20%
-
+        
+    toolset:
       - name: Avaya Configuration
         level: 60%
       
