@@ -36,9 +36,9 @@ basic_info:
         level: Native
 
     interests:
-      - item: Scuba
+      - item: Scuba Diving
 
-      - item: Cheez
+      - item: Chess
 
       - item: Cooking
 
@@ -134,8 +134,6 @@ skills:
       - name: Sketch & Photoshop
         level: 20%
 
-skills2:
-    toolset:
       - name: Avaya Configuration
         level: 60%
       
