@@ -9,15 +9,15 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Jorge
-    last_name: Solo
-
+    first_name: Wonder
+    last_name: Woman
+    
     # Define yourself in 4-5 words
-    motto: I dont loose I just win or learn.
-
+    motto: I like saving the world
+    
     # focus
-    focus:
-
+    focus: Killing Bad Boys
+    
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
@@ -27,7 +27,7 @@ basic_info:
       Donec quam felis, ultricies nec, pellentesque eu.
 
       Second paragraph if required.
-
+    
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
@@ -35,14 +35,14 @@ basic_info:
     # Contact Information
     email: a@a.com #optional
     phone: 234 2342 342 #optional
-    website:  #optional
-    linkedin:  #optional
-
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
     #
     # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/JorgeSolo
-    github: JorgeSolo
-
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sharu725
+    
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
