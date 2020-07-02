@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "green"
 
 # Personal Information
 basic_info:
@@ -13,41 +13,34 @@ basic_info:
     last_name: Coelho
     
     # Define yourself in 4-5 words
-    motto: I enjoy creating and coding
+    motto: I enjoy creating and coding.
     
     # focus
     focus: Learning
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      I have a degree in business administration. I know want to complete the dream of becoming a software developer
-
-      Second paragraph if required.
-    
+      Coding is what i am passionate about, i also have a degree in business administration.
+      
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
     email: alexsoncoelho21@gmail.com
     phone: 305-8784699 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: linkedin.com/in/alexsoncoelho/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
-    
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    github: alexscoelho
 
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Spanish
         level: Native
 
-      - idiom: Englis
+      - idiom: English
         level: Professional
 
     # Interests or hobies
@@ -60,36 +53,22 @@ basic_info:
 education:
     - degree: Associate Bussiness Administration
       university: Millenia Atlantic University
-     
+      time: 2018 - 2020
 # Your previous job experiences or voluntier
 experiences:
-    - role: Assistant developer
+    - role: Assistant to Developer
       time: 2019 - Present
       company: Stable Factory, Miami
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
+        Soclubtv.com Platform Design and Platform Development: Helped develop a social media platform with hundreds of concurrent users to engage with regular influencer-made shows. It had a realtime chat, e-commerce integration and more | Angular, NodeJS, MongoDB
+        RewardsWeb Platform Development Front end  Javascript/HTML/CSS 
+        Authentic Construction full website Front end  Javascript/HTML/CSS
+        
 
 # Your project portfolio
-projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-    assignments:
+assignments:
       - title: Instagram photo feed (bootstrap)
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -115,5 +94,4 @@ skills:
       - name: Mongodb
         level: basic
 
-      - name:  Photoshop
-        level: Basic
+      
