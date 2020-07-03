@@ -56,7 +56,7 @@ education:
       time: 2018 - 2020
 # Your previous job experiences or voluntier
 experiences:
-    - role: Assistant to Developer
+    - role: Full stack developer assistant
       time: 2019 - Present
       company: Stable Factory, Miami
       # optional
@@ -74,8 +74,8 @@ assignments:
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-     
+      - title: Excuse generator (javascript)
+        tagline: Randomly generate excuses using plain javascript and html
 
 skills:
     toolset:
