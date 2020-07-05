@@ -39,7 +39,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: camillawilliams
     
-    twitter: 'webjeda' #optional
+    twitter: '' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -66,62 +66,43 @@ education:
     - degree: Bachelor's in Business Administration
       university: Briarcliffe College
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fbriarcliffe-college%2F&psig=AOvVaw3Fbi1N8Uf--Mb-ENBbhMRj&ust=1593951117244000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCLru3Is-oCFQAAAAAdAAAAABAP
       time: 2005 - 2008
       details: |
         Studied Accounting and Business Administration
 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
+    - degree: Full Stack Development Bootcamp
+      University: 4 Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 2020 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Full Stack Software Developer.
 
           - Bullet point
           - Bullet point
 
-# Your previous job experiences or voluntier
+# Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Auditor
+      time: 2009 - 2009
+      company: Afirm, Miami
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.glassdoor.com%2Fsqll%2F278048%2Fus-reports-squarelogo-1487869320723.png&imgrefurl=https%3A%2F%2Fwww.glassdoor.com%2FReviews%2FAfirm-Reviews-E278048.htm&tbnid=Dm0MJEXgsE325M&vet=12ahUKEwjf1MqK8bTqAhXtQzABHbhgB_cQMygAegUIARCXAQ..i&docid=rd2zE7vTvLMYrM&w=200&h=200&q=afirm%20logo&ved=2ahUKEwjf1MqK8bTqAhXtQzABHbhgB_cQMygAegUIARCXAQ
+      details: |
+          - Individually Scheduling appointments with clients
+          - Submitting projects via web-portal and through the company’s auditing software 
+          - Contacting clients and communicating via phone, email, and face to face discussions 
+          - Examining commercial businesses’ payroll and tax records 
+          - Evaluating operational practices 
+          - Adhering to customer requirements and quality standards 
+
+    - role: Auditor
+      time: 2008 - 2009
+      company: See Level, Hx
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Conducting surveys of locations and surrounding areas to validate location accuracy for the company google.
 
     - role: UI Developer
       time: 2012 - 2014
