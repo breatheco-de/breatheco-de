@@ -13,7 +13,7 @@ basic_info:
     last_name: Williams
     
     # Define yourself in 4-5 words
-    motto: I like to code
+    motto: cool gal that loves code
     
     # focus
     focus: Full Stack Web Dev
@@ -72,14 +72,11 @@ education:
         Studied Accounting and Business Administration
 
     - degree: Full Stack Development Bootcamp
-      University: 4 Geeks Academy
+      university: 4 Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2020 - 2020
       details: |
         Full Stack Software Developer.
-
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
@@ -100,56 +97,52 @@ experiences:
       time: 2008 - 2009
       company: See Level, Hx
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://www.seelevelhx.com/wp-content/uploads/2018/02/seelevel-logo.png
       details: |
-        Conducting surveys of locations and surrounding areas to validate location accuracy for the company google.
+          - Conducting surveys of locations and surrounding areas to validate location accuracy for the company google.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Auditor
+      time: 2017 - 2018
+      company: Rodriguez, Trueba, and CO., PA,
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Testing of internal controls including disbursements, payroll, cash receipts, journal entry testing and purchasing and procurement. 
+          - Preparing financial statements for government single, and nonprofit audits 
+          - Performed accounting and audit research and address issues encountered during fieldwork 
+          - Searched  for unrecorded liabilities by examining invoices and cancelled checks to ensure liabilities were reasonably recorded with the fiscal year 
+          - Successfully completed audit fieldwork in an organized and efficient manner 
+          - Use of ProSystem fx Engagement  
 
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
+      Team Website
     assignments:
-      - title: Velocity
+      - title: Website
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A responsive website template"
 
-      - title: DevStudio
+      - title: Postcard
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A simple postcard."
 
-      - title: Tempo
+      - title: Instagram Photofeed
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "A mock version of a photofeed on Instagram"
 
-      - title: Atom
+      - title: Instagram Post
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "A replica of an instagram post."
 
       - title: Delta
         # optional
@@ -175,4 +168,4 @@ skills:
         level: 85%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 50%
