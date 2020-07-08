@@ -33,54 +33,45 @@ basic_info:
 
     # Contact Information
     email: zambranokislev@gmail.com 
-    phone: later
-    website: later #optional
-    linkedin: later #optional
+    phone: Soon
+    website: Soon #optional
+    linkedin: Soon #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: kislev-owo
     
-    twitter: 'webjeda' #optional
+    twitter: 'Soon' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Rookie
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Costura
 
-      - item: Snowboarding
+      - item: Estudios
 
-      - item: Cooking
+      - item: Moda
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Soon
+      university: UNEXPO "Sede Caracas Luis caballero mejias"
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://introsisdigitales.files.wordpress.com/2017/04/unexpo-logo.png
+      time: 2015 - 
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+        Estudio de ingenieria en sistemas 
+    - degree: 
+      university: 
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2007 - 2011
