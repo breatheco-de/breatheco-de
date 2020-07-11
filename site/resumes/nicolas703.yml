@@ -13,21 +13,20 @@ basic_info:
     last_name: Davila
     
     # Define yourself in 4-5 words
-    motto: Lucho por lo que me propongo
+    motto: En la ciencia no tenemos limites.
     
     # focus
-    focus: Crecer como programador y como persona
+    focus: Crecer como programador y como persona, siempre.
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+    summary: 
+      Joven enfocado, responsable, amable y colaborador. Vivo aprendiendo día a día, cada minuto cuenta.
+      Egresado de educacion media con buenas notas y de 4geeks academy con experiencia suficiente para desempeñar 
+      trabajos como desarrolador web y seguir aprendiendo cada día para mejorar como persona y como profesional
+      dando hasta lo último para superar cada una de las tareas propuestas con buenas practicas y un trabajo en equipo
+      excepcional.
 
-      Second paragraph if required.
-    
+
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/men/24.jpg
@@ -35,8 +34,6 @@ basic_info:
     # Contact Information
     email: nicolas8859.nd@gmail.com #optional
     phone: +56942714842 #optional
-    website: none.com #optional
-    linkedin: none #optional
     
     #
     # ******** IMPORTANT *******
@@ -64,86 +61,63 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Licenciatura de enseñansa media 
+      Institute: Liceo Gabriela Mistral
+      # optional
+      university_logo: https://vestimenta.cl/wp-content/uploads/2018/12/liceo-gabriela-mistral-independencia-logo-265x300.jpg
+      time: 2019
+      details: |
+        Promedio de notas de enseñanza media: 6.7
+
+    - degree: Programador Full-Stack
+      university: 4geeks Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+      time: 2020
+      #details:
 
 # Your previous job experiences or voluntier
 experiences:
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      time: 2020 - Present
+      company: Revista Brutal
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Proyecto académico final 4geeks Academy, desarrollo completo de revista dígital en pareja. 
 
-          - Bullet point
-          - Bullet point
+          - Repositorio: https://github.com/nicolas703/Proyecto-final-revista-digital
+          - Tiempo de edesarrollo: 80 horas
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+    # - role: Senior Software Engineer
+    #   time: 2014 - 2015
+    #   company: Google, London
+    #   # optional
+    #   company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   details: |
+    #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #     Cum sociis natoque penatibus et magnis dis parturient montes,
+    #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #     pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+    #       - Bullet point
+    # #       - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+    # - role: UI Developer
+    #   time: 2012 - 2014
+    #   company: Amazon, London
+    #   # optional
+    #   company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   details: |
+    #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #     Cum sociis natoque penatibus et magnis dis parturient montes,
+    #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #     pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+    #       - Bullet point
+    #       - Bullet point
 
 # Your project portfolio
 projects:
