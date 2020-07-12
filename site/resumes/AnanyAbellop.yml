@@ -42,7 +42,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: AnanyAbellop
     
-    twitter: 'AnanyAbellop' #optional
+    twitter: '' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
