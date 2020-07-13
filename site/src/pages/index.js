@@ -80,7 +80,7 @@ export default ({ data }) => {
     <Layout>
       <Share message={"I am publicly committing to the #100DaysOfCode with @4GeeksAcademy!"} url={"https://sep.4geeksacademy.co/"} hide={!showShare} onClose={() => setShowShare(false)} />
       <Modal isOpen={modal} toggle={() => setModal(!modal)} >
-        <ModalHeader toggle={() => setModal(!modal)}>Preferences</ModalHeader>
+        <ModalHeader toggle={() => setModal(!modal)}>Preferences for {github}</ModalHeader>
         <ModalBody>
           <div className="row">
             <div className="col-12">
@@ -106,7 +106,7 @@ export default ({ data }) => {
           </div>
           <div className="row mt-3">
             <div className="col-12 text-center">
-            {isLink && mode === 'pdf' ? <Link to={github + '/'+ mode + link} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">Go to PDF</span></Link> : isLink && <Link to={github + '/'+ mode + link} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">Go to HTML</span></Link>}
+            {isLink && mode === 'pdf' ? <Link to={github + '/'+ mode + link} className="btn btn-primary bd-highlight w-100"><FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">Go to PDF</span></Link> : isLink && <Link to={github + '/'+ mode + link} className="btn btn-primary bd-highlight w-100"><FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">Go to HTML</span></Link>}
             </div>
           </div>
         </ModalBody>
@@ -178,10 +178,10 @@ export default ({ data }) => {
                       {_website && <a href={`https://${_website}`} rel="noopener noreferrer" target="_blank" className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faPalette} /> <span className="d-none d-sm-inline-block">Portfolio</span></a>}
                       {node.basic_info.twitter && <a href={`https://github.com/${node.basic_info.github}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faTwitter} /></a>}
                       {_linkedin && <a href={`https://${_linkedin}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faLinkedin} /></a>}
-                      <Button className="btn btn-light ml-2 bd-highlight" onClick={() => {setGitHub(students[i]['node']['basic_info']['github']);setModal(!modal); setMode('profile')}}>
+                      <Button className="btn btn-light ml-2 bd-highlight" onClick={() => {setGitHub(node.basic_info.github);setModal(!modal); setMode('profile')}}>
                         <FontAwesomeIcon icon={faFile} /> <span className="d-none d-sm-inline-block">HTML</span>
                       </Button>
-                      <Button className="btn btn-light ml-2 bd-highlight" onClick={() => {setGitHub(students[i]['node']['basic_info']['github']);setModal(!modal); setMode('pdf')}}>
+                      <Button className="btn btn-light ml-2 bd-highlight" onClick={() => {setGitHub(node.basic_info.github);setModal(!modal); setMode('pdf')}}>
                         <FontAwesomeIcon icon={faFilePdf} /> <span className="d-none d-sm-inline-block">PDF</span>
                       </Button>
                       {node.basic_info.github && <a href={`https://github.com/${node.basic_info.github}`} className="btn btn-light ml-2 bd-highlight"><FontAwesomeIcon icon={faGithub} /></a>}
