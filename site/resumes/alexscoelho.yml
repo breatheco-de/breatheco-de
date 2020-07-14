@@ -13,7 +13,7 @@ basic_info:
     last_name: Coelho
     
     # Define yourself in 4-5 words
-    motto: I enjoy creating and coding.
+    motto: I enjoy creating.
     
     # focus
     focus: Learning
@@ -54,6 +54,9 @@ education:
     - degree: Associate Bussiness Administration
       university: Millenia Atlantic University
       time: 2018 - 2020
+    - degree: Systems Engeneering (5 semesters)
+      university: Universidad Santa Maria
+      time: 2009 - 2011
 # Your previous job experiences or voluntier
 experiences:
     - role: Full stack developer assistant
