@@ -13,7 +13,7 @@ basic_info:
     last_name: Rodrigues
     
     # Define yourself in 4-5 words
-    motto: If you dont try it, you'll  neve fail, i guess.
+    motto: If you dont try it, you'll never fail, i guess.
     
     # focus
     focus: Flying
@@ -58,11 +58,11 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Gaming
 
-      - item: Snowboarding
+      - item: Gaming
 
-      - item: Cooking
+      - item: Gaming
 
 # Your previous education
 education:
@@ -177,19 +177,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 1%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 1%
 
       - name: Angular
-        level: 98%
+        level: 2%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 5%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 4%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 5%
