@@ -17,12 +17,12 @@ basic_info:
     avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
 
     email: lewleal2012@gmail.com 
-    phone: 786 859 3806 
+    phone: 0056967106678 
     website: 
     linkedin: linkedin.com/in/lewis-leal-913807b5
     
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Lewleal
+    github: lewleal
     
     twitter: 
     stack-overflow: 
@@ -33,9 +33,6 @@ basic_info:
 
       - idiom: Spanish
         level: Native
-
-      - idiom: Portuguese
-        level: Basic
 
     interests:
       - item: Basseball
