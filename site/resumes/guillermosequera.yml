@@ -22,11 +22,11 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://ibb.co/H2mG9Cj
+    avatar: IMG_20170509_222429.jpg
 
     # Contact Information
     email: sequeracrespo@gmail.com #optional
-    phone: 9 865 57 852 #optional
+    phone: 986 557 852 #optional
     linkedin: linkedin.com/in/guillermo-sequera-45b5741a4 #optional
     
     #
@@ -39,7 +39,7 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Español
-        level: Native
+        level: Nativo
 
       - idiom: Ingles
         level: Basico
