@@ -33,16 +33,16 @@ basic_info:
 
     # Contact Information
     email: leshermira@gmail.com #optional
-    phone: +56950170305 #optional
-    website: not yet #optional
-    linkedin: leslie-herrera-miranda-99364a40/ #optional
+    phone: 9 50170305 #optional
+    website: hola.com #optional
+    linkedin: https://www.linkedin.com/in/leslie-herrera-miranda-99364a40/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/Dereemii
+    github: Dereemii
     
-    twitter: 'webjeda' #optional
+    twitter: 'Lderemi' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
