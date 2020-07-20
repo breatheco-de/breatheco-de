@@ -30,7 +30,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/Captura.PNG
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQHY-Ag87ewu8Q/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=o6j4OR0IFFOES8nlEVaLGuWGhYmDK3m7pK-sC-uoHYw
 
     # Contact Information
     email: josema.munoz@gmail.com #optional
@@ -67,7 +67,7 @@ education:
     - degree: Ingeniero Ambiental (Environmental Engineer)
       university: Universidad Andrés Bello
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: 
       time: 2006 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -82,51 +82,42 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Supervisor de Proyecto
+      time: 2019 - Present
+      company: GS3 Consultores, Chile
+      # optional
+      company_logo: 
+      details: |
+      Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
+      y liderar las actividades que se realizan para dar cumplimiento a la RCA 
+      de un área protegida. Mediante la extracción de datos de sensores, pozómetro, 
+      estación meteorológica y sondas de calidad de agua.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Supervisor de Proyecto
+      time: 2018 - 2019
+      company: Centro de Ecología Aplicada, Chile
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+      Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
+      y liderar las actividades que se realizan para dar cumplimiento a la RCA 
+      de un área protegida. Mediante la extracción de datos de sensores, pozómetro, 
+      estación meteorológica y sondas de calidad de agua.
 
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Especialista de Apoyo
+      time: 2015 - 2017
+      company: Centro de Ecología Aplicada, Chile
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Administración de proyectos ambientales, elaboración de informes, trabajos en terreno
+        y apoyo en el área de Ingeniería
 
           - Bullet point
           - Bullet point
@@ -139,52 +130,44 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
+      - title: 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        project_logo: 
+        link: 
+        tagline: 
 
-      - title: DevStudio
+      - title: 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        project_logo: 
+        link: 
+        tagline: 
 
-      - title: Tempo
+      - title: 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        project_logo: 
+        link: 
+        tagline: 
 
-      - title: Atom
+      - title: 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        project_logo: 
+        link: 
+        tagline: 
 
-      - title: Delta
+      - title:
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        project_logo: 
+        link:
+        tagline:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 20%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
+      - name: Javascript
         level: 98%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
