@@ -36,7 +36,7 @@ basic_info:
     email: josema.munoz@gmail.com #optional
     phone: 9 82467164 #optional
     website: asd.com #optional
-    linkedin: in/josemamunoz/ #optional
+    linkedin: josemamunoz #optional
     
     #
     # ******** IMPORTANT *******
