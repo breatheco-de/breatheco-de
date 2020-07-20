@@ -36,7 +36,7 @@ basic_info:
     email: josema.munoz@gmail.com #optional
     phone: 9 82467164 #optional
     website: asd.com #optional
-    linkedin: https://www.linkedin.com/in/josemamunoz #optional
+    linkedin: in/josemamunoz/ #optional
     
     #
     # ******** IMPORTANT *******
@@ -79,20 +79,6 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or voluntier
 experiences:
