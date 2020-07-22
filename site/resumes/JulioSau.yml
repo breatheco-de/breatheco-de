@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julio
+    last_name: Saucedo Musayón
+    
+    # Define yourself in 4-5 words
+    motto: Si se puede imaginar, se puede programar
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      En un inicio orienté mi carrera profesional hacia el sector de la educación y los trastornos del habla y lenguaje. Estudié magisterio de audición y lenguaje y pedagogía. Tras ver las pocas opciones laborales en España y haber trabajado 2 años en Perú con alumnos con alteraciones del lenguaje y dificultades de aprendizaje, decido volver a España y replantear mi trayectoria profesional. Me interesado por la programación y dentro de ella, el front-end. Actualmente estoy realizando un Bootcamp de Full Stack Developer.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg
+
+    # Contact Information
+    email: jsaucemu@gmail.com #optional
+    phone: 623 024087 #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/juliosaucedo/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JulioSau
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+      # - idiom: Spanish
+      #   level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Front-end
+
+      - item: Viajar y comer
+
+      - item: Ciencias sociales
+
+      - item: Python
+
+
+# Your previous education
+education:
+    - degree: Bootcamp Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://www.4geeksacademy.co/wp-content/uploads/2017/09/4G_LOGO_NEGRO-01-e1549572588846.png
+      time: Jul 2020 - Sep 2020
+
+    - degree: Pedagogy
+      university: Universidad Cpomplutense de Madrid
+      # optional
+      university_logo: https://www.ucm.es/data/cont/docs/3-2016-07-21-Marca%20UCM%20logo%20negro.png
+      time: 2012 - 2015
+      details: |
+        First year in computer engineering.
+
+    - degree: Maestro de Audición y Lneguaje
+      university: Universidad Cpomplutense de Madrid
+      # optional
+      university_logo: https://josemanuellosada.com/wp-content/uploads/2016/07/Logo-UCM.png
+      time: 2009 - 2011
+      details: |
+        Higher level training in telecommunications and computer systems.
+
+        - Introduction to programming.
+        - Electronics.
+        - Hardware.
+        - Radio.
+        - Television.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Mediador de seguros
+      time: 2019 - Present
+      company: Salesland, Madrid
+      # optional
+      company_logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/122016/untitled-1_82.jpg?itok=ACtnAUO8
+
+    - role: Terapeuta del lenguaje
+      time: 2018 - 2019
+      company: Mundo Optimo School, Lima
+      # optional
+      company_logo:
+      details: 
+        Evaluación e intervención de las alteraciones del habla y lenguaje que presentaban los alumnos del colegio.
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos que he ido desarrollando en el Bootcamp
+
+    assignments:
+      - title: Instragram Feed con Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/JulioSau/feed-instagram-bootstrap"
+        tagline: "I work with HTML and CSS replicating the Instagram format."
+
+      - title: PostCard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/JulioSau/MyPostcard"
+        tagline: "Dynamic card that builds your data into text fields and html selectors."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 80%
+
+      - name: CSS - Bootstrap
+        level: 60%
+      
+      - name: JavaScript
+        level: 60%
+
+    
