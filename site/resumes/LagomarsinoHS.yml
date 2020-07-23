@@ -121,23 +121,23 @@ projects:
       Pequeño listado de proyectos realizados durante mi periodo de aprendizaje o como pasatiempo.
 
     assignments:
-      - title: Proyecto Final
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/LagomarsinoHS/proyecto-frontend"
-        tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
+    - title: Proyecto Final
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/LagomarsinoHS/proyecto-frontend"
+      tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
 
-      - title: Starwars-API
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
-
-      - title: DBZ-API
+    - title: Starwars-API
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
-      tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
+      tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
+
+    - title: DBZ-API
+    # optional
+    project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    link: "#"
+    tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
 
      
 
