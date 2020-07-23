@@ -69,40 +69,40 @@ basic_info:
       details: |
       
     # Your previous job experiences or voluntier
-experiences:
-  
-  - role: Ingeniero Proyectos de Automatización de Procesos
-    time: 2019
-    company: IBM-Chile, Santiago
-    # optional
-    company_logo: https://www.ibm.com/design/language/dce3f5b8db2c0ff04296123f424b3d41/core_blue50_on_black.svg
-    details: |
-      Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
-      Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
-      generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
-      Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
+    experiences:
       
-  - role: Consultor de Desarrollo de Aplicaciones
-    time: 2016 - 2018
-    company: Accenture, Santiago
-    # optional
-    company_logo: https://1000marcas.net/wp-content/uploads/2020/03/Accenture-colores-768x432.jpg
-    details: |
-      Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
-      Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
-      Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
-      Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
-      Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
-      
-  - role: Analista Programador(Practicante)
-    time: Abril-Julio 2016
-    company: CEI Negocios, Santiago
-    # optional
-    company_logo: https://www.ceinegocios.cl/images/logo.svg
-    details: |
-      Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía
-      (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte
-      de sitio web, considerando….
+        - role: Ingeniero Proyectos de Automatización de Procesos
+          time: 2019
+          company: IBM-Chile, Santiago
+          # optional
+          company_logo: https://www.ibm.com/design/language/dce3f5b8db2c0ff04296123f424b3d41/core_blue50_on_black.svg
+          details: |
+            Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
+            Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
+            generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
+            Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
+            
+        - role: Consultor de Desarrollo de Aplicaciones
+          time: 2016 - 2018
+          company: Accenture, Santiago
+          # optional
+          company_logo: https://1000marcas.net/wp-content/uploads/2020/03/Accenture-colores-768x432.jpg
+          details: |
+            Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
+            Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
+            Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
+            Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
+            Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
+            
+        - role: Analista Programador(Practicante)
+          time: Abril-Julio 2016
+          company: CEI Negocios, Santiago
+          # optional
+          company_logo: https://www.ceinegocios.cl/images/logo.svg
+          details: |
+            Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía
+            (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte
+            de sitio web.
       
 # Your project portfolio
 projects:
