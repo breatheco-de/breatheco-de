@@ -2,124 +2,157 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 template: "online-cv"
-skin: "orange"
-
+skin: "blue"
+# Personal Information
 basic_info:
-  # Profile information
-  first_name: Humberto Stefano
-  last_name: Lagomarsino G.
-  motto: Entusiasta, perseverante, sociable, intenso, responsable
-  avatar:
-  summary: |
-    Ingeniero en informática con 3 años de experiencia dentro del rubro de Telecomunicaciones. Iniciando en desarrollo web con perfilamiento al back-end. Conocimiento en Python, ReactJs, JavaScript, GIT e implementación con Bootstrap.
-    Mi meta es continuar con el desarrollo de carrera en Proyectos full-Stack como un aliado para la creación y mantenimiento de aplicaciones Web. Desarrollando estrategias para maximizar cada parte del proceso mediante esfuerzo y un optimo levantamiento de información y asesoramiento a clientes internos o externos.
+    # Your full name
+    first_name: Humberto Stefano
+    last_name: Lagomarsino G.
+    
+    # Define yourself in 4-5 words
+    motto: Entusiasta, perseverante, sociable, intenso, responsable
+    
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Ingeniero en informática con 3 años de experiencia dentro del rubro de Telecomunicaciones. Iniciando en desarrollo web con perfilamiento al back-end. Conocimiento en Python, ReactJs, JavaScript, GIT e implementación con Bootstrap.
+      Mi meta es continuar con el desarrollo de carrera en Proyectos full-Stack como un aliado para la creación y mantenimiento de aplicaciones Web. Desarrollando estrategias para maximizar cada parte del proceso mediante esfuerzo y un optimo levantamiento de información y asesoramiento a clientes internos o externos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars3.githubusercontent.com/u/62841128?s=460&u=edb7efcedaafc04a85051b54adff0f0e23c808a0&v=4
+    # Contact Information
+    email: h.lagomarsino.g@gmail.com #optional
+    phone: +569 91650806 #optional
+    website:  #optional
+    linkedin: linkedin.com/in/hlagomarsinogarate/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LagomarsinoHS
 
-  # Sidebar links
-  email: h.lagomarsino.g@gmail.com
-  phone: +569 91650806
-  #website: #do not add http://
-  linkedin: hlagomarsinogarate
-  github: LagomarsinoHS
-  #twitter: '@homeroluzardo'
-  #stack-overflow: # Number/Username, e.g. 123456/alandoe
-
-  languages:
-        - idiom: Español
-          level: Native
-
-        - idiom: Ingles
-          level: Intermedio
-
-  interests:
-        - item: Deportes
-
-        - item: Trekking
-
-        - item: Cine
-
-education:
-      - degree: Desarrollador Full-Stack
-        university: 4geeks, Santiago
-        time: 2020
-        details: |
-          Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
-          Utilización de aplicaciones y tecnología back como python, python-Flask, mySql, sqlLite.
-          Creación de Api-RESTfull.
-          Nociones de uso de GIT para la administración de proyectos compartidos mediante repositorios remotos como locales.
-
-      - degree: Ingeniero en Informática
-        university: Universidad Tecnológa de chile, Inacap
-        time: 2011 - 2015
-        #details: |
-
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+      - idiom: Ingles
+        level: Intermedio
+    # Interests or hobies
+    interests:
+      - item: Deportes
+      - item: Trekking
+      - item: Cine
+      # Your previous education
+    education:
+    - degree: Desarrollador Full-Stack
+      university: 4geeks, Santiago
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020
+      details: |
+        Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
+        Utilización de aplicaciones y tecnología back como python, python-Flask, mySql, sqlLite.
+        Creación de Api-RESTfull.
+        Nociones de uso de GIT para la administración de proyectos compartidos mediante repositorios remotos como locales.
+        
+    - degree: Ingeniero en Informática
+      university: Universidad Tecnológa de chile, Inacap
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2015
+      details: |
+      
+    # Your previous job experiences or voluntier
 experiences:
-      - role: Ingeniero Proyectos de Automatización de Procesos
-        time: 2019
-        company: IBM-Chile, Santiago
-        details: |
-          Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
-          Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
-          generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
-          Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
-
-      - role: Consultor de Desarrollo de Aplicaciones
-        time: 2016 - 2018
-        company: Accenture, Santiago
-        details: |
-          Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
-          Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
-          Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
-          Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
-          Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
-
-      - role: Analista Programador(Practicante)
-        time: Abrir-Julio 2016
-        company: CEI Negocios, Santiago
-        details: |
-          Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte de sitio web.
-
+    
+    - role: Ingeniero Proyectos de Automatización de Procesos
+      time: 2019
+      company: IBM-Chile, Santiago
+      # optional
+      company_logo: https://www.ibm.com/design/language/dce3f5b8db2c0ff04296123f424b3d41/core_blue50_on_black.svg
+      details: |
+        Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
+        Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
+        generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
+        Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
+        
+    - role: Consultor de Desarrollo de Aplicaciones
+      time: 2016 - 2018
+      company: Accenture, Santiago
+      # optional
+      company_logo: https://1000marcas.net/wp-content/uploads/2020/03/Accenture-colores-768x432.jpg
+      details: |
+        Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
+        Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
+        Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
+        Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
+        Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
+        
+    - role: Analista Programador(Practicante)
+      time: Abril-Julio 2016
+      company: CEI Negocios, Santiago
+      # optional
+      company_logo: https://www.ceinegocios.cl/images/logo.svg
+      details: |
+        Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía
+        (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte
+        de sitio web, considerando….
+        
+# Your project portfolio
 projects:
     intro: >
-      Estos son algunos proyectos que realicé o aún estoy trabajando en ellos. Mi proyecto final lo hice junto a colaboración de compañeros de trabajo.
-
+      Pequeño listado de proyectos realizados durante mi periodo de aprendizaje o como pasatiempo.
+      Estos son algunos proyectos que realicé o aún estoy trabajando en ellos. Mi proyecto final lo hice junto a colaboración de compañeros de trabajo. 
+      
     assignments:
-      - title: Proyecto Final
-        link: "https://github.com/LagomarsinoHS/proyecto-frontend"
-        tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
-
-      - title: Starwars-API
-        link: "#"
-        tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
-
-      - title: DBZ-API
-        link: "#"
-        tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
-
+    - title: Proyecto Final
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/LagomarsinoHS/proyecto-frontend"
+      tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
+      
+    - title: Starwars-API
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
+      
+    - title: DBZ-API
+    # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
+      
 skills:
     toolset:
       - name: Python
         level: 50%
-
+        
       - name: Flask
         level: 30%
-
-      - name: JavaScript
+      
+      - name: Javascript
         level: 50%
-
-      - name: React JS
+      
+      - name: React
         level: 50%
-
-      - name: HTML % CSS3
+        
+      - name: HTML5 & CSS
         level: 30%
-
+        
       - name: GIT
         level: 50%
-
+        
       - name: NPM
         level: 50%
-
-      - name: MySQL
+        
+      - name: MYSql
         level: 20%
-
+        
       - name: Bootstrap
         level: 50%
