@@ -85,24 +85,15 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Ingeniero Proyectos de Automatización de Procesos
+      time: Julio-Octubre 2019
+      company: IBM-Chile, Santiago
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #company_logo: 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
+        Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
+        Desarrollo back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicacion web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
+        Desarrollo de plataforma general para mejorar la experiencia de usuario de clientes internos que ordena y agiliza la utilización de las diversas app y soluciones creadas por el departamento utilizando Html5, Css y Bootstrap.
 
     - role: Senior Software Engineer
       time: 2014 - 2015
