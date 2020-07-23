@@ -68,14 +68,10 @@ education:
       #university_logo: 
       time: Mayo-Junio 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
+        Utilización de aplicaciones y tecnología back como Python, Flask, MYSql, sqLite.
+        Creación de Api-RESTfull.
+        Nociones de GIT para la administración de proyectos compartidos mediante repositorios remotos como locales.
 
     - degree: BBBBBBBBBBBB
       university: Bristol University
