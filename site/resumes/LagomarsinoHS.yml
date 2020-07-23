@@ -153,13 +153,13 @@ skills:
         level: 50%
 
       - name: React
-        level: 50%
+        
 
       - name: HTML & CSS
         level: 30%
 
       - name: GIT
-        level: 50%
+        
 
       - name: NPM
         level: 50%
