@@ -12,12 +12,12 @@ basic_info:
     motto: Full Stack Developer
     avatar: https://drive.google.com/file/d/1DUbbQhH_-aEwlk4iBk4Q9HKF0Zf9_huO/view?usp=sharing
     summary: |
-      I am a passionate of the new technologies and I am always willing to lear something new every single day.
+      I am passionate about new technologies and I am always willing to learn something new every single day.
       Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
     # Sidebar links
     email: hangelsanchez2@hotmail.com
     phone: +34 660 04 19 35
-    linkedin: ángel-sánchez-migallón-morales-10538514b/
+    linkedin: ángel-sánchez-migallón/
     github: Asanchez-2
     twitter: '@Asanchez_2'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -41,7 +41,7 @@ education:
       university: 4Geeks Academy
       time: 2020 - present
       details: |
-        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script and more.
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
           - Bullet point
           - Bullet point
     - degree: Business Administration
@@ -93,8 +93,14 @@ projects:
 skills:
     toolset:
 
-      - name: Javascript & jQuery
-        level: 30%
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: 60%
+      
+      - name: Python/Flask
+        level: 50%
 
       - name: HTML5 & CSS
         level: 95%

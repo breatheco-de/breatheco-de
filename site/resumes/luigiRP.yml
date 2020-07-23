@@ -1,0 +1,94 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Luis 
+    last_name: Rosales
+    motto: I learn to learn
+    avatar: https://www.luisrp.com/static/media/perfil.440ee5d9.jpg
+    summary: |
+        I am someone who loves everything in the world of informatics and technology, specially in web developing.
+        Not only am I flexible when it comes to learning new things, but I am also excited to do so. I like to learn
+        things by myself or with a team, and I'm looking forward to learning the metholodologies of other people when
+        it comes to problem solving and any area.
+
+    email: luigirosales84@gmail.com
+    phone: 648 244 118
+    website: luisrp.com
+    linkedin: https://www.linkedin.com/in/luis-rosales-0b781a188/
+    github: luigiRP
+    twitter: LuigiRP99
+    stack-overflow: 13975430/Luis Rosales
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Cooking
+
+education:
+    - degree: Systems Engineering
+      university: Pontificia Universidad Javeriana
+      time: 2018-2020
+      details: Here I learned the basics of programming (C,C++ and Java), Databases and Object Oriented Programming, among other subjects.
+
+    - degree: Full-Stack Web Developer
+      university: 4Geeks Academy
+      time: Currently
+      details: Here I learned how to make web pages from the Front to the Back-end.
+      
+      
+experiences:
+    - role: Community Manager
+      time: 2018-2020
+      company: Neurosales Inc.
+      details: I managed the company's social media, mostly Linkedin, with tools like Sales Navigator.
+      
+projects:
+    intro: >
+      Here are some of the projects I made at the 4Geeks Academy, as well as a project I added to my webpage porftfolio (Super Merch).
+    
+    assignments:
+      - title: PostCard
+        link: https://github.com/luigiRP/4geeks-1-Postcard-
+        tagline: A postcard made with HTML and CSS
+
+      - title: Instagram Feed
+        link: https://github.com/luigiRP/Bootstrap-Feed
+        tagline: An Instagram Feed I made without using CSS, only HTML and Bootstrap.
+        
+      - title: Product Page
+        link: https://github.com/luigiRP/4Geeks-5.Product-
+        tagline: FA product page I made using HTML and CSS
+
+      - title: Excuse Generator
+        link: https://github.com/luigiRP/excuse
+        tagline: A Random excuse generator program using JavaScript
+             
+      - title: Super Merch
+        link: https://supermerch.netlify.app/
+        tagline: This is a project I made using React, HTML5, CSS, Javascript and Bootstrap. It is basically a clothing merchandise website without a payment feature. I made this before joining the 4Geeks Academy, when I was a self-taught developer.
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 70%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: React
+        level: 40%

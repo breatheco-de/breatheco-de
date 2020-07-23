@@ -1,0 +1,75 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Richard
+    last_name:  Duarte
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQHF4Q_walpG7g/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=WWgOyh4U9C88CtHaW-d8PO2_vf1OyI5j_etpMyfQB-Q
+
+    summary: |
+      Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y CSS. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
+      Soy una persona muy organizada, responsable, y perseverante, orientada al cumplimiento de horarios y plazos de entrega, además tengo una natural inclinación por facilitar un clima favorable de trabajo y trabajar en equipo.
+      Tengo muchas ganas de aprender, practicar y crecer como programador.
+
+    email: riduarte88@gmail.com
+    phone: 695 99 91 48
+    website: 
+    linkedin: linkedin.com/in/richard-duarte-3aa3814b
+    github: Riduarte
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portugues 
+        level: A2
+        
+      - idiom: English
+        level: B1
+
+    interests:
+      - item: Coding
+
+      - item: Web Desing
+
+      - item: Photography
+
+education:
+    - degree: 
+      university: Universidad Alejandro Humboldt
+      time: 2007-2012
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy cours!
+    
+    assignments:
+      - title: Instagram Bootstrap
+        link: https://github.com/riduarte/Feed-Instagram-Bootstrap.git
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/riduarte/Post-html.git1
+        tagline: "A responsive website template designed to input information on a postcard."
+skills:
+    toolset:
+      - name: Photoshop & Lithgroom
+        level: 80%
+
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 85%
