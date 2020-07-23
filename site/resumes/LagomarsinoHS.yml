@@ -20,10 +20,10 @@ basic_info:
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     esta parte la llenare despues
-     I'll fill this part later
+     Ingeniero en informática con 3 años de experiencia dentro del rubro de las Telecomunicaciones. Iniciando en desarrollo web con perfilamiento al front-end sin dejar de lado el full-stack. Conocimiento en Python, ReactJs, JavaScript, GIT e implementación con Bootstrap.
+     Mi meta es continuar con el desarrollo de carrera en Proyectos full-stack como un aliado para la creación y mantenimiento de aplicaciones Web. Desarrollando estrategias para maximizar cada parte del proceso mediante esfuerzo y un optimo levantamiento de información y asesoramiento a clientes internos o externos.
 
-      Second paragraph if required.
+      
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -91,7 +91,7 @@ education:
 
           - Bullet point
           - Bullet point
-          
+
     - degree: CCCCCCCCCCCCCC
       university: Bristol University
       # optional
