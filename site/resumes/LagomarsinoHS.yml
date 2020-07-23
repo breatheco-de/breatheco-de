@@ -118,40 +118,28 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Estos son algunos proyectos que aún estoy trabajando o ya los terminé. Mi proyecto final lo hice junto la colaboración de compañeros de trabajo.
 
     assignments:
-      - title: Velocity
+      - title: Proyecto Final
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/LagomarsinoHS/proyecto-frontend"
+        tagline: "Aplicación de control de stock, punto de venta y administración de usuarios. "
 
-      - title: DevStudio
+      - title: StarWars-API
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        #project_logo: 
+        link: "https://github.com/LagomarsinoHS/starWars-React"
+        tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars. "
 
-      - title: Tempo
+      - title: DBZ-API
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        #project_logo: 
+        link: "https://github.com/LagomarsinoHS/dbzApi-React"
+        tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z. "
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
