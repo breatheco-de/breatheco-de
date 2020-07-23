@@ -24,102 +24,102 @@ basic_info:
   #stack-overflow: # Number/Username, e.g. 123456/alandoe
 
   languages:
-    - idiom: Español
-      level: Native
+        - idiom: Español
+          level: Native
 
-    - idiom: Ingles
-      level: Intermedio
+        - idiom: Ingles
+          level: Intermedio
 
   interests:
-    - item: Deportes
+        - item: Deportes
 
-    - item: Trekking
+        - item: Trekking
 
-    - item: Cine
+        - item: Cine
 
 education:
-  - degree: Desarrollador Full-Stack
-    university: 4geeks, Santiago
-    time: 2020
-    details: |
-      Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
-      Utilización de aplicaciones y tecnología back como python, python-Flask, mySql, sqlLite.
-      Creación de Api-RESTfull.
-      Nociones de uso de GIT para la administración de proyectos compartidos mediante repositorios remotos como locales.
+      - degree: Desarrollador Full-Stack
+        university: 4geeks, Santiago
+        time: 2020
+        details: |
+          Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
+          Utilización de aplicaciones y tecnología back como python, python-Flask, mySql, sqlLite.
+          Creación de Api-RESTfull.
+          Nociones de uso de GIT para la administración de proyectos compartidos mediante repositorios remotos como locales.
 
-  - degree: Ingeniero en Informática
-    university: Universidad Tecnológa de chile, Inacap
-    time: 2011 - 2015
-    #details: |
+      - degree: Ingeniero en Informática
+        university: Universidad Tecnológa de chile, Inacap
+        time: 2011 - 2015
+        #details: |
 
 experiences:
-  - role: Ingeniero Proyectos de Automatización de Procesos
-    time: 2019
-    company: IBM-Chile, Santiago
-    details: |
-      Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
-      Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
-      generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
-      Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
+      - role: Ingeniero Proyectos de Automatización de Procesos
+        time: 2019
+        company: IBM-Chile, Santiago
+        details: |
+          Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
+          Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
+          generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
+          Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
 
-  - role: Consultor de Desarrollo de Aplicaciones
-    time: 2016 - 2018
-    company: Accenture, Santiago
-    details: |
-      Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
-      Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
-      Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
-      Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
-      Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
+      - role: Consultor de Desarrollo de Aplicaciones
+        time: 2016 - 2018
+        company: Accenture, Santiago
+        details: |
+          Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
+          Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
+          Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
+          Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
+          Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
 
-  - role: Analista Programador(Practicante)
-    time: Abrir-Julio 2016
-    company: CEI Negocios, Santiago
-    details: |
-      Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte de sitio web.
+      - role: Analista Programador(Practicante)
+        time: Abrir-Julio 2016
+        company: CEI Negocios, Santiago
+        details: |
+          Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte de sitio web.
 
 projects:
-  intro: >
-    Estos son algunos proyectos que realicé o aún estoy trabajando en ellos. Mi proyecto final lo hice junto a colaboración de compañeros de trabajo.
+    intro: >
+      Estos son algunos proyectos que realicé o aún estoy trabajando en ellos. Mi proyecto final lo hice junto a colaboración de compañeros de trabajo.
 
-  assignments:
-    - title: Proyecto Final
-      link: "https://github.com/LagomarsinoHS/proyecto-frontend"
-      tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
+    assignments:
+      - title: Proyecto Final
+        link: "https://github.com/LagomarsinoHS/proyecto-frontend"
+        tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
 
-    - title: Starwars-API
-      link: "#"
-      tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
+      - title: Starwars-API
+        link: "#"
+        tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
 
-    - title: DBZ-API
-      link: "#"
-      tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
+      - title: DBZ-API
+        link: "#"
+        tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
 
 skills:
-  toolset:
-    - name: Python
-      level: 50%
+    toolset:
+      - name: Python
+        level: 50%
 
-    - name: Flask
-      level: 30%
+      - name: Flask
+        level: 30%
 
-    - name: JavaScript
-      level: 50%
+      - name: JavaScript
+        level: 50%
 
-    - name: React JS
-      level: 50%
+      - name: React JS
+        level: 50%
 
-    - name: HTML % CSS3
-      level: 30%
+      - name: HTML % CSS3
+        level: 30%
 
-    - name: GIT
-      level: 50%
+      - name: GIT
+        level: 50%
 
-    - name: NPM
-      level: 50%
+      - name: NPM
+        level: 50%
 
-    - name: MySQL
-      level: 20%
+      - name: MySQL
+        level: 20%
 
-    - name: Bootstrap
-      level: 50%
+      - name: Bootstrap
+        level: 50%
