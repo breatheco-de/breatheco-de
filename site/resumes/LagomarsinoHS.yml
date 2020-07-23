@@ -7,8 +7,8 @@ skin: "orange"
 basic_info:
 
     # Profile information
-    first_name: Jonathan
-    last_name: Perez
+    first_name: humberto
+    last_name: Lagomarsin
     motto: I'm the best to ever do it
     avatar: https://randomuser.me/api/portraits/man/24.jpg
     summary: |
@@ -25,7 +25,7 @@ basic_info:
     phone: 012 345 6789
     website: alesanchezr.com #do not add http://
     linkedin: alesanchezr
-    github: Jphendrix51
+    github: LagomarsinoHS
     twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
