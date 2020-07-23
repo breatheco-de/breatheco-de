@@ -20,7 +20,7 @@ basic_info:
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     Ingeniero en informática con 3 años de experiencia dentro del rubro de las Telecomunicaciones. Iniciando en desarrollo web con perfilamiento al front-end sin dejar de lado el full-stack. Conocimiento en Python, ReactJs, JavaScript, GIT e implementación con Bootstrap.
+     Ingeniero en informática con 3 años de experiencia dentro del rubro de las Telecomunicaciones. Iniciando en desarrollo web con perfilamiento al front-end sin dejar de lado el full-stack. Conocimiento en Python, ReactJs, JavaScript, GIT e implementación con Bootstrap. <br /><br />
      Mi meta es continuar con el desarrollo de carrera en Proyectos full-stack como un aliado para la creación y mantenimiento de aplicaciones Web. Desarrollando estrategias para maximizar cada parte del proceso mediante esfuerzo y un optimo levantamiento de información y asesoramiento a clientes internos o externos.
 
       
@@ -101,7 +101,7 @@ experiences:
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Gestión de relaciones de negocios con el cliente con el fin de llevar un control d ehitos y avances de los proyectos a realizar.
+        Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
         Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
         Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
         Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor de WebService (JAVA).
