@@ -2,157 +2,164 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 template: "online-cv"
-skin: "blue"
-# Personal Information
-basic_info:
-    # Your full name
-    first_name: Humberto Stefano
-    last_name: Lagomarsino G.
-    
-    # Define yourself in 4-5 words
-    motto: Entusiasta, perseverante, sociable, intenso, responsable
-    
-    # focus
-    focus: 
-    
-    # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Ingeniero en informática con 3 años de experiencia dentro del rubro de Telecomunicaciones. Iniciando en desarrollo web con perfilamiento al back-end. Conocimiento en Python, ReactJs, JavaScript, GIT e implementación con Bootstrap.
-      Mi meta es continuar con el desarrollo de carrera en Proyectos full-Stack como un aliado para la creación y mantenimiento de aplicaciones Web. Desarrollando estrategias para maximizar cada parte del proceso mediante esfuerzo y un optimo levantamiento de información y asesoramiento a clientes internos o externos.
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars3.githubusercontent.com/u/62841128?s=460&u=edb7efcedaafc04a85051b54adff0f0e23c808a0&v=4
-    # Contact Information
-    email: h.lagomarsino.g@gmail.com #optional
-    phone: +569 91650806 #optional
-    website:  #optional
-    linkedin: linkedin.com/in/hlagomarsinogarate/ #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: LagomarsinoHS
+skin: "orange"
 
-    twitter: '' #optional
+basic_info:
+
+    # Profile information
+    first_name: Jonathan
+    last_name: Perez
+    motto: I'm the best to ever do it
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    # Sidebar links
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    website: alesanchezr.com #do not add http://
+    linkedin: alesanchezr
+    github: Jphendrix51
+    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # languages you speak, levels inculde: Native, Professional
+
     languages:
-      - idiom: Español
-        level: Nativo
-      - idiom: Ingles
-        level: Intermedio
-    # Interests or hobies
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
     interests:
-      - item: Deportes
-      - item: Trekking
-      - item: Cine
-      # Your previous education
-    education:
-    - degree: Desarrollador Full-Stack
-      university: 4geeks, Santiago
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2020
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
       details: |
-        Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
-        Utilización de aplicaciones y tecnología back como python, python-Flask, mySql, sqlLite.
-        Creación de Api-RESTfull.
-        Nociones de uso de GIT para la administración de proyectos compartidos mediante repositorios remotos como locales.
-        
-    - degree: Ingeniero en Informática
-      university: Universidad Tecnológa de chile, Inacap
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2015
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
       details: |
-      
-    # Your previous job experiences or voluntier
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
 experiences:
-    
-    - role: Ingeniero Proyectos de Automatización de Procesos
-      time: 2019
-      company: IBM-Chile, Santiago
-      # optional
-      company_logo: https://www.ibm.com/design/language/dce3f5b8db2c0ff04296123f424b3d41/core_blue50_on_black.svg
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
       details: |
-        Levantamiento de información respecto de expectativas y alcance requerido para proyectos de automatización de procesos con principales involucrados.
-        Desarrollo Back-end de solución digital que automatiza control de asistencia de colaboradores dentro de la empresa vía aplicación web dentro de la nube de la empresa utilizando JavaScript (NodeJs, Jquery, Express) y nodeRed, 
-        generando reducción de tiempo de análisis para el departamento de R.R.H.H y optimizando la toma de decisiones respecto a remuneraciones, compensaciones, beneficios, vacaciones, entre otros.
-        Desarrollo de plataforma general para mejorar la experiencia usuario de clientes internos que ordena y agiliza la utilización de las diversas apps y soluciones creadas por el departamiento utilizando Html5, CSS y Bootstrap.
-        
-    - role: Consultor de Desarrollo de Aplicaciones
-      time: 2016 - 2018
-      company: Accenture, Santiago
-      # optional
-      company_logo: https://1000marcas.net/wp-content/uploads/2020/03/Accenture-colores-768x432.jpg
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
       details: |
-        Gestión de relaciones de negocios con el cliente con el fin de llevar un control de hitos y avances de los proyectos a realizar.
-        Recopilación, validación y transformación de data de diversos orígenes para el mejoramiento de procesos de soporte y mantenimiento.
-        Encargado de administración de sistemas considerando el monitoreo de dominios Windows y Linux gestionando las actualizaciones y/o modificaciones de archivos necesarios para su correcto funcionamiento.
-        Desarrollo de aplicaciones orientadas a inteligencia de datos de comportamiento de consumidor y WebService (JAVA).
-        Encargado de brindar soporte al óptimo funcionamiento de aplicaciones y solucionar incidencias de segundo nivel (interrupción de servicios para clientes críticos) asignados a través de software de gestión de tickets, asegurando cumplimiento de procesos, procedimientos y SLA's.
-        
-    - role: Analista Programador(Practicante)
-      time: Abril-Julio 2016
-      company: CEI Negocios, Santiago
-      # optional
-      company_logo: https://www.ceinegocios.cl/images/logo.svg
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
       details: |
-        Desarrollo de formularios, contenido y portadas para aplicación Web de la compañía
-        (Wordpress y Prontus), gestión del contenido del sitio web. Encargado de soporte
-        de sitio web, considerando….
-        
-# Your project portfolio
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
 projects:
     intro: >
-      Pequeño listado de proyectos realizados durante mi periodo de aprendizaje o como pasatiempo.
-      Estos son algunos proyectos que realicé o aún estoy trabajando en ellos. Mi proyecto final lo hice junto a colaboración de compañeros de trabajo. 
-      
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
-    - title: Proyecto Final
-      # optional
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "https://github.com/LagomarsinoHS/proyecto-frontend"
-      tagline: "Aplicación de Software de control de stock, punto de venta y administrador de usuarios."
-      
-    - title: Starwars-API
-      # optional
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "Web responsiva que permite conseguir información respecto al mundo de StarWars"
-      
-    - title: DBZ-API
-    # optional
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
-      
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 skills:
     toolset:
-      - name: Python
-        level: 50%
-        
-      - name: Flask
-        level: 30%
-      
-      - name: Javascript
-        level: 50%
-      
-      - name: React
-        level: 50%
-        
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
       - name: HTML5 & CSS
-        level: 30%
-        
-      - name: GIT
-        level: 50%
-        
-      - name: NPM
-        level: 50%
-        
-      - name: MYSql
-        level: 20%
-        
-      - name: Bootstrap
-        level: 50%
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
