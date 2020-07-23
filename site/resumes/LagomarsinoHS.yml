@@ -65,8 +65,8 @@ education:
     - degree: Desarrollador Full-Stack
       university: 4geeks, Santiago
       # optional
-      university_logo: ""
-      time: 2020
+      #university_logo: 
+      time: 2007 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
