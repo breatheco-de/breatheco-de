@@ -65,14 +65,17 @@ education:
     - degree: Desarrollador Full-Stack
       university: 4geeks, Santiago
       # optional
-      university_logo: 
-      time: 2020
+      university_logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiw1NK7qPHiAhWjHrkGHYvfBjcQjRx6BAgBEAU&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FArchivo%3ALogo_DuocUC.svg&psig=AOvVaw1izFYlmQ7O-HcArUFlTDQp&ust=1560888366247850
+      time: 2007 - 2012
       details: |
-        Utilización de aplicaciones y tecnología front como Html5, Css3, JavaScript y ReactJs.
-        Utilización de aplicaciones y tecnología back como Python, Flask, MYSql, sqlLite.
-        Creación de Api-RESTfull.
-        Nociones de GIT para administración de proyectos compartidos mediante repositorios remoto como locales.
-        
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
 
     - degree: BBBBBBBBBBBB
       university: Bristol University
