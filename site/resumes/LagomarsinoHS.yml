@@ -45,24 +45,24 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Spanish
+      - idiom: Español
         level: nativo
 
-      - idiom: English
-        level: basic
+      - idiom: Ingles
+        level: Intermedio
 
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Deportes
 
-      - item: bike
+      - item: Trekking
 
-      - item: happiness
+      - item: Cine
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
+    - degree: AAAAAAAA
       university: Duoc UC
       # optional
       university_logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiw1NK7qPHiAhWjHrkGHYvfBjcQjRx6BAgBEAU&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FArchivo%3ALogo_DuocUC.svg&psig=AOvVaw1izFYlmQ7O-HcArUFlTDQp&ust=1560888366247850
@@ -77,7 +77,7 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
+    - degree: BBBBBBBBBBBB
       university: Bristol University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -91,6 +91,18 @@ education:
 
           - Bullet point
           - Bullet point
+          
+    - degree: CCCCCCCCCCCCCC
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
 # Your previous job experiences or voluntier
 experiences:
@@ -183,20 +195,29 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 50%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Flask
+        level: 30%
 
-      - name: Angular
-        level: 98%
+      - name: JavaScript
+        level: 50%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: React
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: HTML & CSS
+        level: 30%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: GIT
+        level: 50%
+
+      - name: NPM
+        level: 50%
+
+      - name: MYSql
+        level: 20%
+
+      - name: Bootstrap
+        level: 50%
