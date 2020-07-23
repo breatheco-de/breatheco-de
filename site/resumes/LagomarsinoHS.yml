@@ -135,9 +135,9 @@ projects:
 
     - title: DBZ-API
     # optional
-    project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    link: "#"
-    tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Aplicación para ver la información, planetas y estado de los personajes de Dragon Ball Z"
 
      
 
