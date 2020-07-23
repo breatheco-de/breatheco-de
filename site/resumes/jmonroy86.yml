@@ -54,7 +54,7 @@ basic_info:
     interests:
       - item: Deportes
       - item: Trekking
-- item: Cine
+      - item: Cine
 ​
 # Your previous education
 education:
