@@ -58,7 +58,7 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: Postgraduate Diplome in Branding
+    - degree: Postgraduate Diploma in Branding
       university: Andres Bello University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -149,7 +149,7 @@ experiences:
           - Assist in selection of complementary readings, media and instructional materials
           
 
-    - role: Fashion Branding Workshop Instructor
+    - role: Instructor on Fashion Branding Workshop
       time: 2019 - 2019
       company: Andres Bello University
       # optional
