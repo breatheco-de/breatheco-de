@@ -19,14 +19,11 @@ basic_info:
     focus: Coding
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+    summary: 
+      focused, committed and responsible young man. 
+      Interested in the technological innovations of today and tomorrow such as the manipulation of computer languages. 
+      I like teamwork, brainstorming and looking for ways to reach group agreements. 
+      I am always looking for ways to learn more about programming every day, from good practices when programming to learning new languages.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -36,7 +33,7 @@ basic_info:
     email: lorantmarquina@gmail.com #optional
     phone: +569 99258384 #optional
     Instagram: jglorant #optional
-    linkedin: josé-gabriel-lorant-morales-86b5ba1a6 #optional
+    linkedin: jose-gabriel-lorant-morales-86b5ba1a6 #optional
     
     #
     # ******** IMPORTANT *******
@@ -44,7 +41,7 @@ basic_info:
     github: vinojglm2965
     
     twitter: '@joselorant2' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
@@ -65,15 +62,31 @@ basic_info:
       - item: Basketball
 
 # Your previous education
+education:
+    - degree: Full Stack Web Programmer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - present
 
-# Your previous job experiences or voluntier
+# Your previous job experiences or voluntie
 experiences:
     - role: Auxiliar
-      time: january 2020 - Present
+      time: january 2020 - April 2020
       company: Domino La fuente de Soda de Chile
           
 
 # Your project portfolio
+experiences:
+    - role: Lead Developer
+      time: 2020 - Present
+      company: GrandLink
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        Final academic project 4geeks Academy, complete development of a web application aimed at teaching older adults to use the technological innovations of today. 
+          - Repositorio Front - End: https://github.com/Dereemii/FrontEnd-Pro
+          - Repositorio Back - End: https://github.com/Dereemii/BackEnd-Pro
+          
 skills:
     toolset:
       - name: Python & Django
