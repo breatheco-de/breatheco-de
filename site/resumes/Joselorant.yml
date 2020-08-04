@@ -19,7 +19,7 @@ basic_info:
     focus: Coding
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: 
+    summary: |
       focused, committed and responsible young man. 
       Interested in the technological innovations of today and tomorrow such as the manipulation of computer languages. 
       I like teamwork, brainstorming and looking for ways to reach group agreements. 
@@ -63,26 +63,33 @@ basic_info:
 
 # Your previous education
 education:
+
+    - degree: Licenciatura de enseñansa media 
+      Institute: Liceo Gabriela Mistral
+      # optional
+      university_logo: https://vestimenta.cl/wp-content/uploads/2018/12/liceo-gabriela-mistral-independencia-logo-265x300.jpg
+      time: 2019
+      details: |
+        Promedio de notas de enseñanza media: 6.9
+
     - degree: Full Stack Web Programmer
       university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2020 - present
 
-# Your previous job experiences or voluntie
-experiences:
+# Your previous job experiences or voluntier
+experiences: 
     - role: Auxiliar
       time: january 2020 - April 2020
       company: Domino La fuente de Soda de Chile
-          
 
-# Your project portfolio
-experiences:
+      
     - role: Lead Developer
       time: 2020 - Present
       company: GrandLink
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: 
+      details: |
         Final academic project 4geeks Academy, complete development of a web application aimed at teaching older adults to use the technological innovations of today. 
           - Repositorio Front - End: https://github.com/Dereemii/FrontEnd-Pro
           - Repositorio Back - End: https://github.com/Dereemii/BackEnd-Pro
