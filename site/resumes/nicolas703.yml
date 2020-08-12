@@ -21,7 +21,7 @@ basic_info:
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: 
       Joven enfocado, responsable, amable y colaborador. Vivo aprendiendo día a día, cada minuto cuenta.
-      Egresado de educacion media con buenas notas y de 4geeks academy con experiencia suficiente para desempeñar 
+      Egresado de educacion media con buenas notas y de 4geeks academy con nivel de estudios para desempeñar 
       trabajos como desarrolador web y seguir aprendiendo cada día para mejorar como persona y como profesional
       dando hasta lo último para superar cada una de las tareas propuestas con buenas practicas y un trabajo en equipo
       excepcional.
@@ -29,7 +29,7 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/men/24.jpg
+    #avatar: https://randomuser.me/api/portraits/men/24.jpg
 
     # Contact Information
     email: nicolas8859.nd@gmail.com #optional
@@ -121,58 +121,20 @@ experiences:
 
 # Your project portfolio
 projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
-      - title: Velocity
+      - title: Revista Brutal
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Aplicacion web para revista digital"
 
 skills:
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 70%
 
-      - name: Javascript & jQuery
+      - name: Javascript
         level: 80%
 
-      - name: Angular
-        level: 70%
-
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 98%
+        level: 90%
