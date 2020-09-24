@@ -1,0 +1,126 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Your full name
+    first_name: Adolfo
+    last_name: Ospina
+    
+    # Define yourself in 4-5 words
+    motto: Work smarter, not harder!
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Presently, I am learning coding to begin my career as a Full Stack 
+      Developer. Professionally, I have worked in the banking industry for 
+      nearly 20 years. Currently I am a Senior Credit Analyst, where I 
+      underwrite Commercial Credit requests for clients. Through my banking 
+      career, I have worked in Commercial Banking Sales, Portfolio Management, 
+      Credit Services, and Collections. I have also obtained a license to sell 
+      real estate, which I do part-time on the side, primarily for close 
+      friends and family.
+
+      In addition to pursuing a Full Stack Developer diploma, I am also 
+      currently taking upper level accounting classes to meet Florida 
+      requirements to be eligible to take the CPA exam.
+
+      # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://a4-images.myspacecdn.com/images04/3/fea00d2f47194d78ba7dbf8775974247/full.jpg
+
+    # Contact Information
+    email: aospina001@gmail.com #optional
+    phone: 305.979.0303
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: aospina001
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Fluent
+
+    # Interests or hobies
+    interests:
+      - item: Volleyball
+
+      - item: Coding
+
+      - item: Traveling
+
+education:
+    - degree: BBA in Finance and Marketing
+      university: Florida International University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Florida_Internation_University_seal.svg/1200px-Florida_Internation_University_seal.svg.png
+      time: 2006-2009
+      details: |
+        I graduated with a Bachelors in Business Administration with a double major in Finance and Marketing.
+
+    - degree: AA in Business Administration
+      university: Miami Dade College
+      # optional
+      university_logo: https://yt3.ggpht.com/a-/AAuE7mDHxc4hDxcSZmdnQx758U3fj-zEdy2xPnRpbA=s900-mo-c-c0xffffffff-rj-k-no
+      time: 2003-2006
+      details: |
+        I graduated with an Associates in Arts degree in Business Administration.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Senior Credit Analyst
+      time: 2019 - Present
+      company: First Horizon Bank
+      # optional
+      company_logo: https://bw-borovoice-site.s3.amazonaws.com/article_images/AN5cXjjE6ixLuOfZYd6Lmo5JpiwPo4VTsBfTD5ny.jpg
+      details: |
+        As a Senior Credit Analyst, my responsibility is to underwrite commercial credit facility requests from clients and/or prospects. In addition, I manage the portfolio of existing clientsby monitoring periodical financial covenants and manage the reporting requirements.
+
+    - role: Commercial Banking Officer
+      time: 2017 - 2019
+      company: Amerant Bank
+      # optional
+      company_logo: http://www.myspectatoronline.com/wp-content/uploads/2019/06/amerant-bank-squarelogo-1554918496077.png
+      details: |
+        A Commercial Banking Officer, also known as a relationship manager (RM), is primarily responsible of obtaining new clients that meet the criteria of the bank. As a RM, I would meet with prospects, get an understanding of their banking needs and cross-sell any banking products and services they may need.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Feed (primarily in HTML/CSS)
+
+      - title: Instagram Post
+
+      - title: Postcard
+
+publications: None
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 10%
