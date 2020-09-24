@@ -28,20 +28,20 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQHY-Ag87ewu8Q/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=o6j4OR0IFFOES8nlEVaLGuWGhYmDK3m7pK-sC-uoHYw
+    avatar: http://sep.breatheco.de/static/profile-images/Captura.PNG
 
     # Contact Information
     email: josema.munoz@gmail.com #optional
     phone: 9 82467164 #optional
-    website: asd.com #optional
-    linkedin: josemamunoz #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/josemamunoz #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: josemamunoz
+    github: https://github.com/josemamunoz
     
-    twitter: 'webjeda' #optional
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -65,102 +65,66 @@ education:
     - degree: Ingeniero Ambiental (Environmental Engineer)
       university: Universidad Andrés Bello
       # optional
-      university_logo: 
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2006 - 2012
       details: |
-        Estudios enfocados en la gestion y operacion de proyectos de 
-        saneamiento ambiental dimensionamiento y selección de sistemas, 
-        dirección de equipos de proyectos sometidos al sistema de 
-        evaluación de impacto ambiental, diagnósticos y auditorías ambientales, 
-        prevención de la contaminación, diseño e implementación de 
-        sistemas de gestión ambiental, planificación territorial, 
-        y aplicación de herramientas para la gestión sustentable de organizaciones
-        
+          Estudios enfocados en la gestion y operacion de proyectos de 
+          saneamiento ambiental dimensionamiento y selección de sistemas, 
+          dirección de equipos de proyectos sometidos al sistema de 
+          evaluación de impacto ambiental, diagnósticos y auditorías ambientales, 
+          prevención de la contaminación, diseño e implementación de 
+          sistemas de gestión ambiental, planificación territorial, 
+          y aplicación de herramientas para la gestión sustentable de organizaciones
 
+
+    
 
 # Your previous job experiences or voluntier
 experiences:
     - role: Supervisor de Proyecto
-      time: 2019 - Present
-      company: GS3 Consultores, Chile
-      # optional
-      company_logo: 
-      details: |
-      Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
-      y liderar las actividades que se realizan para dar cumplimiento a la RCA 
-      de un área protegida. Mediante la extracción de datos de sensores, que se analizan
-      y se reportan en informes periodicos.
+    time: 2019 - Present
+    company: GS3 Consultores, Chile
+    # optional
+    company_logo: 
+    details: |
+    Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
+    y liderar las actividades que se realizan para dar cumplimiento a la RCA 
+    de un área protegida. Mediante la extracción de datos de sensores, que se analizan
+    y se reportan en informes periodicos.
 
-          
+        
 
-    - role: Supervisor de Proyecto
-      time: 2018 - 2019
-      company: Centro de Ecología Aplicada, Chile
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-      Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
-      y liderar las actividades que se realizan para dar cumplimiento a la RCA 
-      de un área protegida. Mediante la extracción de datos de sensores, que se analizan
-      y se reportan en informes periodicos.
+  - role: Supervisor de Proyecto
+    time: 2018 - 2019
+    company: Centro de Ecología Aplicada, Chile
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+    Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
+    y liderar las actividades que se realizan para dar cumplimiento a la RCA 
+    de un área protegida. Mediante la extracción de datos de sensores, que se analizan
+    y se reportan en informes periodicos.
 
 
-    - role: Especialista de Apoyo
-      time: 2015 - 2017
-      company: Centro de Ecología Aplicada, Chile
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Administración de proyectos ambientales, elaboración de informes, trabajos en terreno
-        y apoyo en el área de Ingeniería
-
+  - role: Especialista de Apoyo
+    time: 2015 - 2017
+    company: Centro de Ecología Aplicada, Chile
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Administración de proyectos ambientales, elaboración de informes, trabajos en terreno
+      y apoyo en el área de Ingeniería
 
 # Your project portfolio
-projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title:
-        # optional
-        project_logo: 
-        link:
-        tagline:
 
 skills:
     toolset:
       - name: Python
-        level: 20%
+        level: 
 
       - name: Javascript
-        level: 98%
+        level: Intermediate
 
       - name: HTML5 & CSS
-        level: 95%
+        level: Intermediate
 
