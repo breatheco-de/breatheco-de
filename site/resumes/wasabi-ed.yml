@@ -1,0 +1,51 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Edward
+    last_name: Mendieta
+    
+    # Define yourself in 4-5 words
+    motto: Whatever you do, do something.
+    
+    # focus
+    focus: Learn a new skillset to change careers
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a determined and driven worker looking to grow and expand my horizons. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: emendieta90@gmail.com
+    phone: 305 244 6642
+    linkedin: https://www.linkedin.com/in/edward-mendieta-8a2077160/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/wasabi-ed
+    
+    twitter: N/A
+    stack-overflow: N/A
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Trivia
+
+      - item: Movies
+
+      - item: Cooking
