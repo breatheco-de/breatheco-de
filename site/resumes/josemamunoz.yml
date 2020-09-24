@@ -20,13 +20,11 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Desarrollador de Software Full Stack, ampliando mis conocimientos de Javascript, Python, React y Flask. 
+      De profesión Ingeniero Ambiental, con 5 años de experiencia en Supervision, procesamiento y análisis datos de proyectos ambientales.
+      Me caracterizo por mi entusiasmo, facilidad por aprender cosas nuevas, trabajo en equipo y el logro de metas y objetivos compartidos.
+      
+      Me apasiona el aprendizaje continuo y la practica de deportes.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -70,14 +68,14 @@ education:
       university_logo: 
       time: 2006 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Estudios enfocados en la gestion y operacion de proyectos de 
+        saneamiento ambiental dimensionamiento y selección de sistemas, 
+        dirección de equipos de proyectos sometidos al sistema de 
+        evaluación de impacto ambiental, diagnósticos y auditorías ambientales, 
+        prevención de la contaminación, diseño e implementación de 
+        sistemas de gestión ambiental, planificación territorial, 
+        y aplicación de herramientas para la gestión sustentable de organizaciones
+        
 
 
 # Your previous job experiences or voluntier
@@ -90,11 +88,10 @@ experiences:
       details: |
       Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
       y liderar las actividades que se realizan para dar cumplimiento a la RCA 
-      de un área protegida. Mediante la extracción de datos de sensores, pozómetro, 
-      estación meteorológica y sondas de calidad de agua.
+      de un área protegida. Mediante la extracción de datos de sensores, que se analizan
+      y se reportan en informes periodicos.
 
-          - Bullet point
-          - Bullet point
+          
 
     - role: Supervisor de Proyecto
       time: 2018 - 2019
@@ -104,11 +101,9 @@ experiences:
       details: |
       Supervisor en División Ministro Hales, Codelco. Responsable de supervisar 
       y liderar las actividades que se realizan para dar cumplimiento a la RCA 
-      de un área protegida. Mediante la extracción de datos de sensores, pozómetro, 
-      estación meteorológica y sondas de calidad de agua.
+      de un área protegida. Mediante la extracción de datos de sensores, que se analizan
+      y se reportan en informes periodicos.
 
-          - Bullet point
-          - Bullet point
 
     - role: Especialista de Apoyo
       time: 2015 - 2017
@@ -119,8 +114,6 @@ experiences:
         Administración de proyectos ambientales, elaboración de informes, trabajos en terreno
         y apoyo en el área de Ingeniería
 
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
