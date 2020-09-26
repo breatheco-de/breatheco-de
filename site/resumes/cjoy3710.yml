@@ -84,7 +84,7 @@ experiences:
       company: Little Opera Theater of New York (LOTNY) - NYC
       # optional
       company_logo: 
-      details: |
+      details:
         Perform the title role in Mozart's "The Shepherd King" with LOTNY and the New Baroque Orchestra. (This performance was postponed due to Covid-19.)
           
           
@@ -93,7 +93,7 @@ experiences:
       company: Holy Name Cathedral - Chicago, IL
       # optional
       company_logo: 
-      details: |
+      details:
         Soprano chorister, cantor, and soloist.
           
           
@@ -102,44 +102,8 @@ experiences:
       company: New World School of the Arts
       # optional
       company_logo: 
-      details: |
+      details: 
         Perform the role of Flaminia in Haydn's "Il mondo della luna" as a guest artist with the New World School of the Arts Opera Ensemble and symphony orchestra. (This performance was postponed due to Covid-19.)
-          
-          
-# Your project portfolio
-projects:
-    intro: >
-     TBD
-    assignments:
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline:
-
-      - title: 
-        # optional
-        project_logo:
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo:
-        link:
-        tagline: 
 
 skills:
     toolset:
