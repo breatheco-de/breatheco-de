@@ -9,13 +9,13 @@ basic_info:
     last_name: Spitzer
     
     # Define yourself in 4-5 words
-    motto: Just your everyday opera singing food blogger.
+    motto: An opera singing, food blogging, aspiring web developer.
     
     # focus
     focus: Navigating the world with new skills in web development.
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Junior web developer with a background in classical music and opera. In addition to my years of working as a professional musician with various organizations around the country, I have experience teaching both at the university level as an adjunct professor of lyric diction at Roosevelt University's Chicago College of the Performing Arts and as a private voice instructor for all skill levels. I enjoy working and collaborating as apart of a team and am very comfortable giving and leading presentations. 
+    summary: Aspiring junior web developer with a background in classical music and opera. In addition to my years of working as a professional musician with various organizations around the country, I have experience teaching both at the university level as an adjunct professor of lyric diction at Roosevelt University's Chicago College of the Performing Arts and as a private voice instructor for all skill levels. I enjoy working and collaborating as apart of a team and am very comfortable giving and leading presentations. Outside of my performing career, I run a small food blog sharing original recipes and cooking tips. I have experience writing posts, developing recipes, and providing high quality food photography for small and large brands and am familiar with a variety of digital marketing strategies including SEO and various social media platforms.
       
     
     # Your profile picture URL
@@ -71,7 +71,7 @@ education:
       time: 2010-2012
       details:
 
-     - degree: Professional Diploma in Opera
+    - degree: Professional Diploma in Opera
       university: Roosevelt University Chicago College of the Performing Arts
       # optional
       university_logo: 
@@ -79,29 +79,33 @@ education:
       details:
 # Your previous job experiences or voluntier
 experiences:
-        - role: Soprano, The Shepherd King
+    - role: Soprano, The Shepherd King
       time: May 2020
-      company: Little Opera Company of NY, NYC
+      company: Little Opera Theater of New York (LOTNY) - NYC
       # optional
-      company_logo:
+      company_logo: 
       details: |
-        Scheduled to perform the tile role in Mozart's The Shepherd King with LOTNY and the New Baroque Orchestra. (This performance was postponed due to Covid-19.)
-
-      - role: Soprano
+        Perform the title role in Mozart's "The Shepherd King" with LOTNY and the New Baroque Orchestra. (This performance was postponed due to Covid-19.)
+          
+          
+    - role: Soprano
       time: 2011-2020
-      company: Holy Name Cathedral
+      company: Holy Name Cathedral - Chicago, IL
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: 
       details: |
-       Sang as a cantor, chorister, and soloist with the Cathedral Schola Cantorum.
-        
-    - role: Soprano, La Boheme
-      time: 2015
-      company: Utah Festival Opera and Musical Theatre, Logan, UT
+        Soprano chorister, cantor, and soloist.
+          
+          
+    - role: Flaminia
+      time: April 2020
+      company: New World School of the Arts
       # optional
-      company_logo:
+      company_logo: 
       details: |
-        Performed the role of Mimi in Puccini's La Boheme.
+        Perform the role of Flaminia in Haydn's "Il mondo della luna" as a guest artist with the New World School of the Arts Opera Ensemble and symphony orchestra. (This performance was postponed due to Covid-19.)
+          
+          
 # Your project portfolio
 projects:
     intro: >
