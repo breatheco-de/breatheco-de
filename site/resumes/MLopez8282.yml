@@ -57,11 +57,11 @@ basic_info:
 education:
     - degree: BS in Communications
       university: Florida International University
-      time: 2002-2006
+      time: 2002 - 2006
       
 experiences:
     - role: Small Business Owner
-      time: 2009-2014
+      time: 2009 - 2014
       company: CongaConguera Art Bar
     
       
@@ -69,25 +69,25 @@ experiences:
         Owned, created and worked CongaConguera Art Bar in Coveñas, Colombia. 
 
     - role: Tour Guide
-      time: 2009-2014
+      time: 2009 - 2014
       company: Self-employed
       details: |
         Guided tourists by boat to different islands.
 
     - role: English Second Language Teacher
-      time: 2007-2009
+      time: 2007 - 2009
       company: American Language Academy
       details: |
         Taught English and tutored middle school aged kids in Medellin, Colombia
    
     - role: Freelance Photographer
-      time: 2007
+      time: 2007 - 2008
       company: Alcaldia de Medellin
       details: |
          Photography project - worked with victims of violence and displacement in Medellin, Colombia
 
     - role: Founder
-      time: 2009-2014
+      time: 2009 - 2014
       company: Cosquillas en el Cerebro
       details: |
          Worked with underprivileged children, creating art and teaching environmental education in the coast of Colombia
