@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Luis Anthony
+    last_name: Velazco
+    motto: Full Stack Developer
+     
+    summary: |
+      I am passionate about new technologies and I am always willing to learn something new every day.
+      Currently I am studying a Full Stack Web Developer at MDC 
+    # Sidebar links
+    email: luis.velazco001@mymdc.net
+    phone: 305-542-7429
+    github: Luvefa
+  
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Playing Soccer
+
+      - item: Coding
+
+      - item: Cooking
+
+education:
+    - degree: Currently-Full Stack Web Developer
+      College: MDC
+      time:  Present
+      details: Currently I am studying a Full Stack Web Developer at MDC 
+        
+    - High School: Jose Sabogal
+      Country: Peru 
+      time: 1997 - 2001
+      
+experiences:
+    - role: Shift Supervisor
+      time: 2015 - 2020
+      company: CVS Pharmacy
+      details: |
+        Responsible for the operation of the store during the shift.
+        Setup the daily schedule assigning the crew members to their jobs.
+        Ensure all safety, sanitation and security procedure
+    - role: Photo Lab Supervisor
+      time: 2012 - 2014
+      company: CVS Pharmacy
+      details: |
+       Responsible for all Customer Service at the photo Department and Front store.
+       Responsible for the operations of the Photo Department during the Shift.
+       Setup the daily schedule assigning the photo technician members to their jobs for the shift.
+       Inventory on Photo Department and More.
+    
+projects:
+    intro: >
+     Here you can find a summary of my projects dones in MDC-4Geeks Academy in my first 3 weeks of Bootcamp.
+    assignments:
+      - title: The Postcard
+        tagline: A postcard with HTML5 and CSS 
+      
+      - title: Instagram Photo Feed
+        tagline: "A responsive instagram photo feed with HTML5,CSS and Bootstrap."
+
+      
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: Beginner
+
+      - name: Bootstrap
+        level: Beginner
+      
+  
