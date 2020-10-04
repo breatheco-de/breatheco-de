@@ -76,11 +76,11 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Tecnico en Redes
+      university: Instituto Profesional CIISA
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://ciisa.cl/wp-content/uploads/2016/04/Sin-t%c3%adtulo.png
+      time: 2017 - 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
