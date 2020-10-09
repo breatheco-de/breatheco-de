@@ -66,7 +66,7 @@ education:
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2020 - 2020
     details: |
-      
+      prueba de texto
 
         - Bullet point
         - Bullet point
@@ -156,7 +156,7 @@ experiences:
     # optional
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      
+      texto de prueba
 
         - Bullet point
         - Bullet point
