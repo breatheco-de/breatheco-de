@@ -7,195 +7,214 @@ skin: "blue"
 
 # Personal Information
 basic_info:
+  # Your full name
+  first_name: Paul
+  last_name: Guzmán
 
-    # Your full name
-    first_name: Paul
-    last_name: Guzmán
-    
-    # Define yourself in 4-5 words
-    motto: Un apasionado de las tecnologías
-    
-    # focus
-    focus: Killing Bad Boys
-    
-    # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Implementador de Soluciones para mejora del ámbito laboral,mediante el manejo de distintos dispositivos y basado en Análisis de datos estadísticos con diversas herramientas.
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/lego/5.jpg
+  # Define yourself in 4-5 words
+  motto: Un apasionado de las tecnologías
 
-    # Contact Information
-    email: andres22.pgpa@gmail.com #optional
-    phone: +56 9 46433583 #optional
-    #website: asd.com #optional
-    linkedin: https://www.linkedin.com/in/paul-guzm%C3%A1n-415557a6/ #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: PGP28
-    
-    #twitter: 'webjeda' #optional
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # focus
+  focus: Killing Bad Boys
 
-    # languages you speak, levels inculde: Native, Professional
-    languages:
-      - idiom: English
-        level: intermediate
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Implementador de Soluciones para mejora del ámbito laboral,mediante el manejo de distintos dispositivos y basado en Análisis de datos estadísticos con diversas herramientas.
 
-      #- idiom: French
-      #  level: Professional
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/lego/5.jpg
 
-      #- idiom: Spanish
-      #  level: Professional
+  # Contact Information
+  email: andres22.pgpa@gmail.com #optional
+  phone: +56 9 46433583 #optional
+  #website: asd.com #optional
+  linkedin: https://www.linkedin.com/in/paul-guzm%C3%A1n-415557a6/ #optional
 
-    # Interests or hobies
-    interests:
-      - item: Snowboarding
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: PGP28
 
-      - item: basketball
+  #twitter: 'webjeda' #optional
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-      - item: Tenis de mesa
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: intermediate
+
+    #- idiom: French
+    #  level: Professional
+
+    #- idiom: Spanish
+    #  level: Professional
+
+  # Interests or hobies
+  interests:
+    - item: Snowboarding
+
+    - item: Basketball
+
+    - item: Tenis de mesa
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+  - degree: Desarrollador Full Stack
+    university: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2020 - 2020
+    details: |
+      
 
-          - Bullet point
-          - Bullet point
+        - Bullet point
+        - Bullet point
 
-    - degree: Tecnico en Redes
-      university: Instituto Profesional CIISA
-      # optional
-      university_logo: https://ciisa.cl/wp-content/uploads/2016/04/Sin-t%c3%adtulo.png
-      time: 2017 - 2019
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+  - degree: Tecnico en Redes
+    university: Instituto Profesional CIISA
+    # optional
+    university_logo: https://ciisa.cl/wp-content/uploads/2016/04/Sin-t%c3%adtulo.png
+    time: 2017 - 2019
+    details: |
+      El Técnico en Conectividad y Redes del Instituto Profesional CIISA 
+      tiene como propósito ejecutar proyectos para TI, administrar una 
+      infraestructura de red, ejecutar soluciones para TI y participar de equipos 
+      multidisciplinarios para la resolución de problemas de conectividad y redes. 
+      El Sello institucional de CIISA le permite desempeñarse de manera autónoma, polivalente y competente
+      en contextos de innovación y emprendimiento tecnológico para contribuir a la sustentabilidad del país, 
+      aplicando un enfoque integral desde el aprendizaje experiencial.
 
-          - Bullet point
-          - Bullet point
+        - Bullet point
+        - Bullet point
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+  - role: Analista TI N1
+    time: 2016 - 2020
+    company: Anida Consultores, Providencia, RM
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Procedimientos y mejoras continuas.
+      Informes Mensuales y Semanales del comportamiento de infraestructuras TI a clientes de la empresa.
+      Trabajos en equipo con área de calidad y procesos.
+      Reunión con clientes.
+      Administración servidores Linux y Windows.
 
-          - Bullet point
-          - Bullet point
+        - Manejo en herramientas (Administración, Monitorización e Integración)
+          - HP Micro Focus: 
+            SiteScope ; NNM ; BSM ; APM ; OMI ; Vugen (Orientado a generaciones de Script en HTML y Truclient).
+            Data Protector (Respaldos).
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Open Source Monitoring:
+            Zabbix ; Grafana; Elastic Stack; Nagios.
 
-          - Bullet point
-          - Bullet point
+          - Cloud:
+            AWS ; AZURE.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Administración TI:
+            VMware vSphere; Veeam Backup (Respaldos).
+            Active Directory; Office 365.
 
-          - Bullet point
-          - Bullet point
+          - Bases de Datos:
+            Testeo de querys para integración con plataformas Open Source en Bases de Datos:
+            Postgresql; SqlServer; MySql.
+
+          - Desarrollo de informes Estadísticos TI:
+            Power BI; Tableu; Report Builder.
+
+          - Gestor de Eventos:
+            Software Autotask; HPSM; Solarwinds Web Help Desk.
+
+  - role: Administrador de desarrollo de redes
+    time: 2015 - 2016
+    company: Promobank Servicios Limitada, Santiago de Chile, RM
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Soporte Informático a usuarios y perifericos.
+      Proyecto LAN Extendida (configuración e instalación desde cero)
+
+        - Bullet point
+        - Bullet point
+
+  - role: Especialista Técnico En redes 
+    time: 2012 - 2015
+    company: DTS CALL CENTER - Santiago de Chile, RM
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Especialista en redes
+
+        - Bullet point
+        - Bullet point
+
+    - role: Especialista Técnico En redes 
+    time: 2012 - 2015
+    company: DTS CALL CENTER - Santiago de Chile, RM
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      
+
+        - Bullet point
+        - Bullet point
 
 # Your project portfolio
 projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-    assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: DevStudio
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Tempo
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Atom
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Delta
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Python & Django
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Javascript & jQuery
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Angular
+      level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: HTML5 & CSS
+      level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Ruby on Rails
+      level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Sketch & Photoshop
+      level: 60%
