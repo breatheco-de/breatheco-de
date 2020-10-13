@@ -1,0 +1,97 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Manuela
+    last_name: Rodríguez Neufeld
+    
+    # Define yourself in 4-5 words
+    motto: Bailo bajo la lluvia
+    
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+    Me gusta aprender, crear, investigar, y por supuesto, nunca doy la espalda a un nuevo reto, la programación me aporta todo eso cada día, por eso decidí cambiar de profestión y empezar una nueva aventura como programadora full stack.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: manuela.neufeld@gmail.com
+    phone: 648 77 89 07
+    linkedin: https://www.linkedin.com/in/manuela-rodr%C3%ADguez-neufeld-710074154/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/manu-neufeld
+    
+    twitter: https://twitter.com/ManuelaNeufeld
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Un buen libro
+
+      - item: Cocinar, sobre todo lasaña
+
+# Your previous education
+education:
+    - degree: Ciencias Políticas
+      university: UNED, Educación a distancia
+      # optional
+# Your project portfolio
+projects:
+    intro: >
+    Durante mi tiempo en 4Geeks estoy aprendiendo y mejorando mis habilidades, lo que se ve reflejado en los proyectos que llevo a cabo
+    assignments:
+      - title: Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/manu-neufeld/html-instagram
+        tagline: Post creado con HTML y CSS
+
+      - title: Bootstrp post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/manu-neufeld/instagram-bootstrap
+        tagline: Primer trabajo realizado con bootstrap, un post de instagram
+
+      - title: Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/manu-neufeld/html-form
+        tagline: Fotmulario creado con HTML y CSS
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 15%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Git
+        level: 70%
+
+      - name: Bootstrap 
+        level: 35%
