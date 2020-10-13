@@ -1,3 +1,7 @@
+        #
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 template: "online-cv"
 skin: "orange"
 
@@ -9,32 +13,29 @@ basic_info:
     last_name: Rodríguez Neufeld
     
     # Define yourself in 4-5 words
-    motto: Bailo bajo la lluvia
+    motto: Me gusta bailar bajo la lluvia
     
     # focus
-    focus: developer full stack
+    focus: Full-Stack Web Developer.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Me gusta aprender, crear, investigar, y por supuesto, nunca doy la espalda a un nuevo reto, la programación me aporta todo eso cada día, por eso decidí cambiar de profestión y empezar una nueva aventura como programadora full stack.
+       Me gusta aprender, crear, investigar, y por supuesto, nunca doy la espalda a un nuevo reto, la programación me aporta todo eso cada día, por eso decidí cambiar de profestión y empezar una nueva aventura como programadora full stack.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: 
+    avatar: https://media.licdn.com/dms/image/C5603AQHUeXM_ZAbppw/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=FJz8CIO9oFZZGaELlWIgcgQXCB2q1fGnlY4Uw6WSb9c
 
     # Contact Information
-    email: manuela.neufeld@gmail.com
-    phone: 648 77 89 07
-    linkedin: https://www.linkedin.com/in/manuela-rodr%C3%ADguez-neufeld-710074154/
+    email: manuela.neufeld@gmail.com #optional
+    phone: 648 77 89 07 #optional
+    linkedin: https://www.linkedin.com/in/manuela-rodr%C3%ADguez-neufeld-710074154/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/manu-neufeld
+    github: manu-neufeld
     
-    twitter: https://twitter.com/ManuelaNeufeld
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Spanish
@@ -47,35 +48,43 @@ basic_info:
     interests:
       - item: Un buen libro
 
-      - item: Cocinar, sobre todo lasaña
+      - item: Cocinar (sobre todo lasaña)
+
+      - item: Viajar, da igual dónde
 
 # Your previous education
 education:
     - degree: Ciencias Políticas
-      university: UNED, Educación a distancia
+      university: UNED Universidad a Distancia
       # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Florida_International_University_FIU_logo.svg/2000px-Florida_International_University_FIU_logo.svg.png
+      time: 2015 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - 3.5 GPA
+          - Cum Laude
+          - Minor in Business
+
 # Your project portfolio
 projects:
     intro: >
-      Durante mi tiempo en 4Geeks estoy aprendiendo y mejorando mis habilidades, lo que se ve reflejado en los proyectos que llevo a cabo
-    assignments:
-      - title: Post
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: https://github.com/manu-neufeld/html-instagram
-        tagline: Post creado con HTML y CSS
+      These are some of the projects that I have completed. This list will be updated as the 
+      my coding journey advances.
 
-      - title: Bootstrp post
+    assignments:
+      - title: Bootstrap PostCard
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: https://github.com/manu-neufeld/instagram-bootstrap
-        tagline: Primer trabajo realizado con bootstrap, un post de instagram
+        tagline: "A responsive Postcard template designed with Html, CSS, and Bootstrap."
 
       - title: Form
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: https://github.com/manu-neufeld/html-form
         tagline: Fotmulario creado con HTML y CSS
+
 skills:
     toolset:
       - name: Python & Django
@@ -88,10 +97,5 @@ skills:
         level: 0%
 
       - name: HTML5 & CSS
-        level: 65%
+        level: 75%
 
-      - name: Git
-        level: 70%
-
-      - name: Bootstrap 
-        level: 35%
