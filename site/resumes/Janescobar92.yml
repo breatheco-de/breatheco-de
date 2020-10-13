@@ -1,155 +1,99 @@
-template: "online-cv"
-skin: "orange"
 
-# Personal Information
+template: "online-cv"
+skin: "ceramic"
+
 basic_info:
 
-    # Your full name
-    first_name: Jan Carlo
-    last_name: Escobar
-    
-    # Define yourself in 4-5 words
-    motto: Resilience is my doctrine.
-    
-    # focus
-    focus: Coding skill learning.
-    
-    # You have 1 paragraph to make a great impression, summarize your career.
+    first_name: Mattia
+    last_name: Tozzi
+    motto: Full-stack Developer
+    avatar: https://avatars1.githubusercontent.com/u/61799388?s=400&u=d7ae029bfdc27cbad9fc3f3ed8ee10b8271fc360&v=4
     summary: |
-      Committed and hard-working, always looking for new challenges and concepts to master.
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/men/69.jpg
+      Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
+      Soy una persona muy organizada, responsable, y perseverante, orientada al cumplimiento de horarios y plazos de entrega, además tengo una natural inclinación por facilitar un clima favorable de trabajo y trabajar en equipo.
+      Tengo muchas ganas de aprender, practicar y crecer como programador.
 
-    # Contact Information
-    email: infojanescobar@gmail.com #optional
-    phone: 672225655 #optional
-    website:  #optional
-    linkedin: https://www.linkedin.com/in/jan-escobar-725410124/ #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    email: tozzigh@gmail.com
+    phone: 617 578 648
+    website: 
+    linkedin: www.linkedin.com/in/mattia-tozzi-263556195/
     github: Janescobar92
-    
-    Instagram: 'JanEscobar92' #optional
+    twitter: 
     stack-overflow: 
 
-
-    # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Spanish
+      - idiom: Italian
         level: Native
 
+      - idiom: Spanish 
+        level: Professional
+        
       - idiom: English
-        level: Native
+        level: Professional
 
-      - idiom: 
-        level: 
-
-    # Interests or hobies
     interests:
-      - item: Calisthenics
+      - item: Coding
 
-      - item: Photography
+      - item: Gaming
 
-      - item: Filming
+      - item: Cinema
 
-# Your previous education
 education:
-    - degree: Image Higher Technical Certificate
-      university: C.I.F.P. Jose Luis Garcí
-      # optional
-      university_logo: 
-      time: 2011 - 2012
-      details: |
-        Higher Technical Certificate in image sepecialized in lightning, photography captation and filming audiovisual content.
-          - Bullet point
-          - Bullet point
-    - degree: Filming  Higher Technical Certificate
-      university: C.I.F.P. Jose Luis Garcí
-      # optional
-      university_logo: 
-      time: 2013 - 2017
-      details: |
-        Higher Technical Certificate in image sepecialized in lightning, photography captation and filming audiovisual content.
-          - Bullet point
-          - Bullet point
-# Your previous job experiences or voluntier
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
 experiences:
-    - role: Technical chief.
-      time: 2019 - 2020
-      company: Grupo Tiempo Activo, Burgos, Spain
-      # optional
-      company_logo: 
-      details: |
-        In charge of bla bla bla...
-          
-          - Bullet point
-          - Bullet point
-    - role: financial business
-      time: 2017 - 2019
-      company: Evo Finance, Spain
-      # optional
-      company_logo: 
-      details: |
-         Sales agent
-          - Bullet point
-          - Bullet point
-# Your project portfolio
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      There are some of my github projects for the 4GeeksAcademy course!
+    
     assignments:
-      - title: Shopify Landing Page
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/Janescobar92/Spotify-Landing-Page"
-        tagline: "A sales web template."
+      - title: Selection sort algorithm
+        link: https://github.com/Tozzigh/sortingCardsSelectionAlgorithm
+        tagline: "Create a deck of random poker card by input a number than sort those cards with a selection sort algoritm and display the full log.   --"
+
+      - title: Random Card Generator
+        link: https://github.com/Tozzigh/cardGenerator
+        tagline: "Random display a single poker card.   --"
+        
+      - title: Landing Page
+        link: https://github.com/Tozzigh/flexBoxPage
+        tagline: "Thsi is a full responsive web page I created using FlexBox withoud Bootstrap4.   --"
 
       - title: Excuse Generator
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/Janescobar92/excuse-generator"
-        tagline: "A responsive website wich generates random excuses."
+        link: https://github.com/Tozzigh/theExcuseGenerator
+        tagline: "Random excuse generator.   --"
+             
+      - title: Ballons Challenge
+        link: https://github.com/Tozzigh/baloonsChallenge
+        tagline: "This is a little challenge I created; pop all the ball that spawn before those hit the roof.   --"
 
-      - title: Git Colaboration Proyect
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/Janescobar92/git-collabotation"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Baloons Poppin
+        link: https://github.com/Tozzigh/baloonsPoppin
+        tagline: "A little game where we need to pop all the baloos to win.   --"
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Instagram Bootstrap
+        link: https://github.com/Tozzigh/bootstrap4Ex1
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
 
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Postcard
+        link: https://github.com/Tozzigh/postcard0.1
+        tagline: "A responsive website template designed to input information on a postcard.   --"
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 0%
+      - name: Python
+        level: 50%
 
-      - name: Javascript & jQuery
-        level: 15%
-
-      - name: Angular
-        level: 0%
+      - name: Javascript
+        level: 65%
 
       - name: HTML5 & CSS
         level: 85%
-
-      - name: Ruby on Rails
-        level: 0%
-
-      - name: Sketch & Photoshop
-        level: 90%
