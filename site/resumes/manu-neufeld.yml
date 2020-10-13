@@ -16,7 +16,7 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-    Me gusta aprender, crear, investigar, y por supuesto, nunca doy la espalda a un nuevo reto, la programación me aporta todo eso cada día, por eso decidí cambiar de profestión y empezar una nueva aventura como programadora full stack.
+      Me gusta aprender, crear, investigar, y por supuesto, nunca doy la espalda a un nuevo reto, la programación me aporta todo eso cada día, por eso decidí cambiar de profestión y empezar una nueva aventura como programadora full stack.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -57,7 +57,7 @@ education:
 # Your project portfolio
 projects:
     intro: >
-    Durante mi tiempo en 4Geeks estoy aprendiendo y mejorando mis habilidades, lo que se ve reflejado en los proyectos que llevo a cabo
+      Durante mi tiempo en 4Geeks estoy aprendiendo y mejorando mis habilidades, lo que se ve reflejado en los proyectos que llevo a cabo
     assignments:
       - title: Post
         # optional
