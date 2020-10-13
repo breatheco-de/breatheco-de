@@ -6,24 +6,21 @@ basic_info:
     first_name: Fadi
     last_name: El Assar De La Fuente
     
-    motto: 
+    motto: If I cannot do great things, I can do small things in a great way.
     
     focus: Programming
     
-    summary: 
+    summary: General Manager Large surface / Dental Clinics Manager / E-commerce & Marketing Operation Manager /
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: 
-
+    avatar:
     email: fadielassar@hotmail.com 
-    phone: 
+    phone: +34 622 08 13 37
     website: 
-    linkedin: 
-    
+    linkedin: https://www.linkedin.com/in/fadielassardelafuente/
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: fadielassar
-    
-    twitter: 
+    twitter: fadielassar
     stack-overflow: 
 
     languages:
@@ -37,35 +34,83 @@ basic_info:
         level: Native
 
     interests:
-      - item: 
+      - item: Sports
 
-      - item: 
+      - item: Fishing
 
-      - item: 
+      - item: Constant Learning
 
 education:
     - degree: FullStack Web Developer
       university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2020
-      details:
+      time: 2020 - Actual
+      details: FullStack Web Developer
+
+    - degree:  Master's degree
+      university: CEU Cardenal Herrera University
+      university_logo: https://media-exp1.licdn.com/dms/image/C510BAQFNHkccN5xsWA/company-logo_100_100/0?e=1610582400&v=beta&t=yuP23cx8aK9ubQMhzr9HNm-2Dvsp0nSQV89XY8ksw-Y
+      time: 2020 - Actual
+      details: Dental Clinic Administration and Management
+
+    - degree: Advanced Program PDP
+      university: Official College of Dentists and Stomatologists of the 1st Region 
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGlvUvaNsZQSg/company-logo_200_200/0?e=1610582400&v=beta&t=uPJmoSOUmp9xWN9zamFQ-iwWSKvc4iTAeQLuh0FNi8c
+      time: 2019 - 2020
+      details: Dental Clinic Administration and Management
+
+    - degree:  Doble Master's degree 
+      university:  Camilo José Cela University && I.M.F Business School
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHRlJCxQI44Uw/company-logo_100_100/0?e=1610582400&v=beta&t=GEqZmIhROWELMWkI7b4fYXFg7U6svWinsEeN-4zM3bo
+      time: 2015 - 2017
+      details: Marketing and Digital Communication
+
+    - degree:  Master's degree
+      university: EFEM Escuela de Formacion Empresarial
+      university_logo: https://media-exp1.licdn.com/dms/image/C560BAQHxJA3IaPNTYQ/company-logo_100_100/0?e=1610582400&v=beta&t=qlmk5qv-2jPdkjIagZC1ksLTSp10sv_olauUsiYVS2w
+      time: 2013 - 2014
+      details: Adiminstration and Business Management
+
+    - degree:  Master's degree 
+      university:  Foro de Economía Digital Business School
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQE--h7hKmH-bQ/company-logo_100_100/0?e=1610582400&v=beta&t=BbheKyrQVXDzAqaj8oDIuPnNaKJLDTS9U71ipd1NU4Y
+      time: 2013 - 2014
+      details: Electronic Commerce Management
+
+    - degree:  Bachelor's degree 
+      university:  Tishreen University
+      university_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGX6QbeDZYKjg/company-logo_100_100/0?e=1610582400&v=beta&t=D5ixKgglbJL8pQgYzGcYnzTYaQPWevosyGZHbxLbETk
+      time: 2013 - 2014
+      details: Business Administration and Management, General
           
 # Your previous job experiences or voluntier
-experiences:
-    - role: 
-      time: 
-      company: 
+experiences: 
+    - role: Dental Clinics Manager
+      time: 2019-Actual
+      company: Dental Aguilar S.l.P
       # optional
       company_logo: 
-      details: |
+      details: For more information visit my Linkedin
+
+    - role: CEO & Marketing Operation Manager
+      time: 2015-2018
+      company: Dream & Click Travels
+      # optional
+      company_logo: 
+      details: For more information visit my Linkedin
+
+    - role: General Manager Large surface 
+      time: 2006-2013
+      company: Eroski
+      # optional
+      company_logo: 
+      details: For more information visit my Linkedin
        
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+     
     assignments:
       - title: 
         # optional
@@ -91,9 +136,12 @@ skills:
         level: 0%
 
       - name: HTML5 & CSS
-        level: 50%
+        level: 0%
 
       - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
         level: 0%
 
       - name: Sketch & Photoshop
