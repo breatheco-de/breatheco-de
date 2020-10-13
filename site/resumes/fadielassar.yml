@@ -1,0 +1,110 @@
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Fadi
+    last_name: El Assar De LA Fuente
+    motto: If I cannot do great things, I can do small things in a great way. 
+    focus: learn programming over 45.
+    summary: General Manager Large surface / Dental Clinics Manager / E-commerce & Marketing Operation Manager /
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    email: fadielassar@hotmail.com
+    phone: +34 622 08 13 137
+    website: 
+    linkedin: https://www.linkedin.com/in/fadielassardelafuente/
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fadielassar
+    
+    twitter: fadielassar
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Arabic
+        level: Native
+
+    interests:
+      - item: Sporte
+
+      - item: Fishing
+
+      - item: Learning
+
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Actual 
+      
+    - degree: Master's degree
+      university: CEU Cardenal Herrera University
+      time: Actual
+      details: Dental Clinic Administration and Management
+        
+    - degree: Master's degree
+      university: Official College of Dentists and Stomatologists of the 1st Region 
+      time: 2019 -2020
+      details: Dental Clinic Administration and Management
+        
+    - degree: Doble Master's degree
+      university: Camilo José Cela University && I.M.F Business School
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHRlJCxQI44Uw/company-logo_100_100/0?e=1610582400&v=beta&t=GEqZmIhROWELMWkI7b4fYXFg7U6svWinsEeN-4zM3bo
+      time: 2017
+      details: Marketing and Digital Communication
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role:  Dental Clinics Manager
+      time: 2020 - Present
+      company: Dental Aguilar S.l.P
+      # optional
+      #company_logo: 
+      details: |
+          As Director, my main mission is to ensure the proper functioning of the different established protocols as well as the correct compliance by the staff of the internal regulations.
+          I manage an expertise team, to carry out their daily responsibilities with the lack of margin of error and total transparency in order to provide impeccable customer service.
+
+          Main duties and achievements:
+
+          - Financial control, authorization for purchases of consumables and equipment, budget compliance, and investments.
+          - Team organization, synchronizing the collaboration between the medical and auxiliary team.
+          - Quality and loyalty, establishing the necessary premises so that the facilities comply with current regulations regarding health matters and follow established protocols without exception.
+          - Negotiation and contracting of third party teams, ensuring that the best agreements are obtained for the correct fulfillment of financial and qualitative objectives.
+          -Carry out multi-channel marketing strategies and program offline and online marketing actions focused on each type of patient.
+
+# Your project portfoli
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: BootStrap
+        level: 0%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
