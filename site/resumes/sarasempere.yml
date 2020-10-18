@@ -5,18 +5,18 @@ skin: "orange"
 basic_info:
 
     # Your full name
-    first_name: Flor
-    last_name: Rodríguez
+    first_name: Sara
+    last_name: Sempere
     
     # Define yourself in 4-5 words
-    motto: I am passionate about data and generate new projects
+    motto: I would describe myself as someone who is highly-motivated, and I particularly enjoy working as a part of a team. 
     
     # focus
-    focus: Killing Bad Boys
+    focus: new tech
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      I am a Digital Marketing Specialist and I worked for the last two years in Womenalia. 
+      I am a Veterinary (working as Food safety and quality technician) and I worked for the last three years in El Corte Inglés. 
       I love to make decision about data. And now I want to learn coding to improve my carrer
       and create my own website.
     
@@ -32,7 +32,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Florrod
+    github: sarasempere
 
     # languages you speak, levels inculde: Native, Professional
     languages:
@@ -41,47 +41,38 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Series
+      - item: Family
 
-      - item: Hiking
+      - item: Netflix
 
-      - item: Cooking
+      - item: Sports
 
 # Your previous education
 education:
-    - degree: Master of Communication Research
+    - degree: Veterinary
       university: Universidad Complutense de Madrid
       time: 2003 - 2009
       details:
-    - degree: Sales & Marketing
-      university: ESIC Business School
-      # optional
-      university_logo:
-      time: 2010 - 2014
+    - degree: Master business entreprenurship
+      university: UCM
+      time: 2014 - 2016
       details:
 experiences:
-    - role: Digital Marketing
-      time: 2018 - Present
-      company: Womenalia
+    - role: Food safety and quality technician.
+      time: 2017 - Present
+      company: El Corte Inglés
       details: |
-          - Manage digital marketing campaign
-          - Web analysis
-          - Create email marketing campaign
-          - Develop new digital products
-          - Generate and manage the branded content strategy
-    - role: Marketing Junior
-      time: 2017 - 2018
-      company: Gympass
+          - Responsible for recognizing, identifying, documenting, and communicating all analytical, quality, and food safety evaluation and processing checks.
+    - role: Manager
+      time: 2013 - 2017
+      company: Silliker Iberica -  Merieux Nutriscense
       details: |
-          - Planning events
-          - Create email marketing campaign
-          - Manage RRSS
-          - Generate and manage the branded content strategy
+          - Market research
           
 skills:
     toolset:
       - name: Javascript
-        level: 5%
+        level: 60%
 
       - name: HTML5 & CSS
-        level: 10%
+        level: 60%
