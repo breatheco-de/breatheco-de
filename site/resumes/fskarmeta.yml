@@ -24,8 +24,6 @@ basic_info:
       a passion that integrates very well with my personality: web development. Currently
       absorbing the entire spectrum, from design to architecture and implementation of systems.
       Willing to work in a company or project that gives me meaning and allows me to continue learning. 
-
-      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -33,7 +31,7 @@ basic_info:
 
     # Contact Information
     email: f.skarmeta@gmail.com #optional
-    phone: +569 991 994 79 #optional
+    phone: 569 991 994 79 #optional
     website: bafian.com #optional
     linkedin: fabianskarmeta #optional
     
@@ -72,9 +70,10 @@ education:
       university: 4Geeks Academy Bootcamp
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2020 - 
+      time: 2020 - 2020
       details: |
         Intensive work and very joyfull experience.
+        
           - CSS3, HTML5, JS
           - React, Bootstrap 
           - Python, Flask, MySQL
@@ -86,7 +85,8 @@ education:
       university_logo: https://raw.githubusercontent.com/gist/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg
       time: 2019 - 2020
       details: |
-        My first encounter with my new love. 
+        My first encounter with my new love.
+
           - Responsive Web Design Certification
           - JavaScript Algorithms and Data Structures Certification
           - Front End Libraries Certification
@@ -98,6 +98,7 @@ education:
       time: 2012 - 2016
       details: |
         Coursed 4 years of Sociology studies.
+
           - Sociological Theory
           - Statistics 
           - Contemporary Thought Diploma
@@ -108,6 +109,7 @@ education:
       university_logo: https://www.projazz.cl/projazz/wp-content/uploads/logoprojazzweb.png
       time: 2008 - 2010
       details: |
+
           - Theory, Harmony, Composition, Rythmic
           
 
