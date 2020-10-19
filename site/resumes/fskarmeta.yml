@@ -81,7 +81,7 @@ education:
     - degree: Various Certifications
       university: FreeCodeCamp
       # optional
-      university_logo: https://raw.githubusercontent.com/gist/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg
+      university_logo: 
       time: 2019 - 2020
       details: |
         My first encounter with my new love.
@@ -93,7 +93,7 @@ education:
     - degree: Sociology studies
       university: Universidad Diego Portales
       # optional
-      university_logo: https://upload.wikimedia.org/wikipedia/commons/0/0c/Escudo_de_la_Universidad_Diego_Portales.svg
+      university_logo: 
       time: 2012 - 2016
       details: |
           - Sociological Theory
@@ -103,7 +103,7 @@ education:
     - degree: Musical composition with mention in piano
       university: IP Projazz
       # optional
-      university_logo: https://www.projazz.cl/projazz/wp-content/uploads/logoprojazzweb.png
+      university_logo: 
       time: 2008 - 2010
       details: |
           - Theory, Harmony, Composition, Rythmic
@@ -113,9 +113,9 @@ education:
 experiences:
     - role: Entrepreneur
       time: 2020 - Present
-      company: icastu, Santiago, Chile
+      company: icastu, Chile
       # optional
-      company_logo: http://159.138.119.173/icastu.cl/wp-content/uploads/2020/10/logo-icastu.png
+      company_logo: 
       details: |
         Lead investor and supervisor of icastu, a platform that connects publicity, entratainment and television
         production companies with workers of the field with the finality of facilitating the casting process through
@@ -126,9 +126,9 @@ experiences:
 
     - role: Executive Producer
       time: 2016 - 2019
-      company: Inda Goycoolea & Asociados, Santiago, Chile
+      company: Inda Goycoolea & Asociados, Chile
       # optional
-      company_logo: https://i.ibb.co/7NB82jz/iga.jpg
+      company_logo: 
       details: |
         Worked as executive producer in several musicals, plays and concerts for the show production company Inda Goycoolea & Asociados
         (indaproducciones.com) where he recently served as executive producer of the musicals "TAR" (2018), "Piratas del Caribe"(2019)
