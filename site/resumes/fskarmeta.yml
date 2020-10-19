@@ -20,10 +20,7 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      After a long period of flirting with the humanities and the arts, I have discovered
-      a passion that integrates very well with my personality: web development. Currently
-      absorbing the entire spectrum, from design to architecture and implementation of systems.
-      Willing to work in a company or project that gives me meaning and allows me to continue learning. 
+      After a long period of flirting with the humanities and the arts, I have discovered a passion that integrates very well with my personality: web development. Currently absorbing the entire spectrum, from design to architecture and implementation of systems. Willing to work in a company or project that gives me meaning and allows me to continue learning. 
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
