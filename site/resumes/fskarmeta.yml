@@ -16,11 +16,13 @@ basic_info:
     motto: Not a muggle.
     
     # focus
-    focus: Learning and creating inovative products and services.
+    focus: Learning and creating innovative products and services.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      After a long period of flirting with the humanities and the arts, I have discovered a passion that integrates very well with my personality: web development. Currently absorbing the entire spectrum, from design to architecture and implementation of systems. Willing to work in a company or project that gives me meaning and allows me to continue learning. 
+      After a long period of flirting with the humanities and the arts, I have discovered a passion that integrates
+      very well with my personality: web development. Currently absorbing the entire spectrum, from design to architecture
+      and implementation of systems. Willing to work in a company or project that gives me meaning and allows me to continue learning. 
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -53,7 +55,7 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Coding, learning to code
+      - item: Coding, learning to code, teaching code
 
       - item: Playing jazz piano
 
@@ -94,8 +96,6 @@ education:
       university_logo: https://upload.wikimedia.org/wikipedia/commons/0/0c/Escudo_de_la_Universidad_Diego_Portales.svg
       time: 2012 - 2016
       details: |
-        Coursed 4 years of Sociology studies.
-
           - Sociological Theory
           - Statistics 
           - Contemporary Thought Diploma
@@ -106,7 +106,6 @@ education:
       university_logo: https://www.projazz.cl/projazz/wp-content/uploads/logoprojazzweb.png
       time: 2008 - 2010
       details: |
-
           - Theory, Harmony, Composition, Rythmic
           
 
@@ -122,6 +121,8 @@ experiences:
         production companies with workers of the field with the finality of facilitating the casting process through
         specialized filters for finding the right actors, models and workers for your productions. 
 
+          - Bullet point
+          - Bullet point
 
     - role: Executive Producer
       time: 2016 - 2019
@@ -133,6 +134,9 @@ experiences:
         (indaproducciones.com) where he recently served as executive producer of the musicals "TAR" (2018), "Piratas del Caribe"(2019)
         both for MallPlaza, the "Siempre Tango" concert (2017) in the Municipal Theater of Santiago and the musical "Sirena" (2019) for 
         Nestlé's Leche Nido. He was also in charge of the hit comedy "Me Cargan Los Optimistas" (2018-2019) as general producer and composer.
+
+          - Bullet point
+          - Bullet point
 
 
 # Your project portfolio
