@@ -33,15 +33,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: victorcolina2202@gmail.com
-    phone: + 56 9 3649 4019
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/victorcolina22
+    github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -56,9 +56,11 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Videogames
+      - item: Climbing
 
-      - item: Soccer
+      - item: Snowboarding
+
+      - item: Cooking
 
 # Your previous education
 education:
@@ -94,9 +96,9 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: 
-      time: 
-      company: 
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -184,19 +186,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 
+        level: 98%
 
       - name: Javascript & jQuery
-        level: 
+        level: 98%
 
       - name: Angular
-        level: 
+        level: 98%
 
       - name: HTML5 & CSS
-        level: 
+        level: 95%
 
       - name: Ruby on Rails
-        level: 
+        level: 85%
 
       - name: Sketch & Photoshop
-        level: 
+        level: 60%
