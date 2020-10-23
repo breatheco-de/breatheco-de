@@ -9,7 +9,7 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Carlos 
+    first_name: Carlos
     last_name: Plaza
     
     # Define yourself in 4-5 words
@@ -33,29 +33,29 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: carlosfplaza@hotmail.com.com #optional
-    phone: 9 9780 1737 #optional
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: CarlosP18
+    github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Español
+      - idiom: English
         level: Native
 
-      - idiom: Ingles
+      - idiom: French
         level: Professional
 
-      - idiom: 
-        level: 
+      - idiom: Spanish
+        level: Professional
 
     # Interests or hobies
     interests:
