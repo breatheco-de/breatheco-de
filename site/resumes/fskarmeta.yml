@@ -9,28 +9,28 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Fabián
+    last_name: Skármeta
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Not a muggle.
     
     # focus
-    focus: Killing Bad Boys
+    focus: Learning and creating innovative products and services.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      After a long period of flirting with the humanities and the arts, I've
+      discovered a pasion that integrates very well with my personality:
+      web developmente.
 
-      Second paragraph if required.
+      Currently absorbing the entire spectrum, from design to arquitecture
+      and implementation of systems. Willing to work in a company or project
+      that gives me meaning and allows me to continue learning.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://i.ibb.co/WkMB5Dm/linkedinyo.jpg
 
     # Contact Information
     email: a@a.com #optional
