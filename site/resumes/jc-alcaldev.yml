@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Juan Carlos
+    last_name: Alcalde Vasquez
+    
+   
+    motto: Full Stack Developer
+    
+    
+
+    
+    
+   
+    summary: | 
+      Hace un tiempo que me he dado cuenta que la programacion es el sector donde quiero crecer profesionalmente, por ello decidi apuntarme a 4Geeks Academy, concretamente en Desarrolo Web Full-Stack con la
+      intencion de aprender mas al finalizar el curso.
+
+      Espero que esto sea el principio de un buen futuro como desarrollador
+
+ 
+    avatar: https://avatars1.githubusercontent.com/u/70212775?s=460&u=bede8cff61bca0a28ff3b2517c97b1d4f1b9ba0f&v=4
+
+ 
+    email: carlosjuan1812@gmail.com
+    phone: 60 51 43 832
+    linkedin: https://www.linkedin.com/in/juan-carlos-alcalde-vasquez-1275671b4
+    
+  
+  
+    github: jc-alcaldev
+    
+   
+    languages:
+      - idiom: Inglés
+        level: Medio-Alto
+
+      - idiom: Español
+        level: Nativo
+
+ 
+    interests:
+      - item: Tecnología
+
+      - item: Telecomunicaciones
+
+      - item: Deportes
+
+      - item: Cine, Series
+
+education:
+    - degree: Grado de Ingenieria en Tecnologias de las Telecomunicaciones
+      university: Universidad Complutense de Madrid
+      time: 2015-2019
+
+    - degree: Developer Full Stack
+      university: 4Geeks Academy
+      time: 2020
+      
+experiences:
+    - role: Camarero
+      time: 2012-2020
+      company: Grupo Alsea (Vips)
+      details: |
+        Ventas, gestión de pedidos, stock y SAP Retail. 
+    
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
