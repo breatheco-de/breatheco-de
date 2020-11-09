@@ -7,49 +7,60 @@ basic_info:
     first_name: Virginia
     last_name: Martínez
     motto: Full-stack Developer - UX / UI / IxD Designer
-    avatar: https://avatars1.githubusercontent.com/u/61799388?s=400&u=d7ae029bfdc27cbad9fc3f3ed8ee10b8271fc360&v=4
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQHU7TusdlH-hw/profile-displayphoto-shrink_200_200/0?e=1610582400&v=beta&t=93TM5xhXJ9DVjc31MDeI3Hfx9eE4Qg2x7BPNBeoAA8c
     summary: |
       En una nueva etapa para completar mi perfil UX/UI añado ahora una pieza 
       importante para mi desarrollo como profesional, formarme como Full Stack Developer. 
       Todo mi conocimiento previo me ayudará a diseñar y desarrollar productos digitales que 
-      hagan la vida más fácil a las personas. 
+      hagan la vida más fácil a las personas.
 
     email: hola@virginiak.es
     phone: +34 645 402 404
-    website: 
+    website: https://www.virginiak.es/
     linkedin: https://www.linkedin.com/in/virginiakmartinez/
     github: VirginiaKMartinez
     twitter: 
     stack-overflow: 
 
     languages:
-      - idiom: Italian
+      - idiom: Spanish 
         level: Native
 
-      - idiom: Spanish 
-        level: Professional
-        
       - idiom: English
         level: Professional
+        
+      - idiom: French
+        level: Conversational
 
     interests:
       - item: Coding
 
       - item: Gaming
 
-      - item: Cinema
+      - item: Sports
 
 education:
-    - degree: 
-      university: 
-      time: 
-      details: 
+    - degree: Full Stack Developer
+      university: 4Geeks Academy España
+      time: 2020-2021
+      details: HTML, CSS, Bootstrap, JavaScript, BabelJS, DOM, WebPack, React, Flux, Context API, SQL, MySQL, Python, Flask, SQLAlchemy, git, GitHub.
       
+    - degree: Master UX/UI
+      university: Trazos School
+      time: "2019"
+      details: Gestión de proyectos aplicando metodologías de Design Thinking. Experience maps, entrevistas, user persona, storytelling, arquitectura de la información y desarrollo de prototipos de baja y alta fidelidad. Prototiado interactivo y diseño web responsive con Figma, Sketch, Invision y Marvel app.
+
 experiences:
     - role: Student
       time: Currently
       company: 4Geeks Academy
       details: Practicing with javascript! 
+    
+    - role: Diseñadora y Analista UX / UI
+      time: "2020"
+      company: Walmeric Soluciones
+      details: Dentro del departamento de Innovación he trabajado trabajado junto con el Product Owner para dar forma a los productos tecnológicos que comercializa Walmeric. Investigar, conceptualizar, dibujar wireframes, consultar y conversar de todo ello con mis compañeros de desarrollo para mejorar y avanzar los proyectos ha sido mi día a día. 
+
       
 projects:
     intro: >
