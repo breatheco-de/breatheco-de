@@ -58,50 +58,36 @@ experiences:
     
     - role: Diseñadora y Analista UX / UI
       time: "2020"
-      company: Akimad Agency
-      details: Diseño web responsive y apps móviles con Figma o Sketch. Diseño de interacciones para apps móviles y web. Preparación y dinamización de talleres UX. Posterior análisis de los datos obtenidos para la ejecución del proyecto. Reuniones y presentaciones de diseños y prototipos a clientes nacionales e internacionales (en inglés y francés).
+      company: Walmeric Soluciones
+      details: Dentro del departamento de Innovación he trabajado trabajado junto con el Product Owner para dar forma a los productos tecnológicos que comercializa Walmeric. Investigar, conceptualizar, dibujar wireframes, consultar y conversar de todo ello con mis compañeros de desarrollo para mejorar y avanzar los proyectos ha sido mi día a día.
 
     - role: Diseñadora y Analista UX / UI
       time: "2019-2020"
-      company: Walmeric Soluciones
-      details:
+      company: Akimad Agency
+      details: Diseño web responsive y apps móviles con Figma o Sketch. Diseño de interacciones para apps móviles y web. Preparación y dinamización de talleres UX. Posterior análisis de los datos obtenidos para la ejecución del proyecto. Reuniones y presentaciones de diseños y prototipos a clientes nacionales e internacionales (en inglés y francés).
       
 projects:
     intro: >
       There are some of my github projects for the 4GeeksAcademy course!
     
     assignments:
-      - title: Selection sort algorithm
-        link: https://github.com/Tozzigh/sortingCardsSelectionAlgorithm
-        tagline: "Create a deck of random poker card by input a number than sort those cards with a selection sort algoritm and display the full log.   --"
+      - title: Bootstrap4
+        link: https://github.com/VirginiaKMartinez/Instagram-Bootstrap
+        tagline: "My very first project with Bootstrap 4.   --"
 
-      - title: Random Card Generator
-        link: https://github.com/Tozzigh/cardGenerator
-        tagline: "Random display a single poker card.   --"
+      - title: Instagram Card Generator
+        link: https://github.com/VirginiaKMartinez/Conditional-Profile-Card
+        tagline: "A Instagram card generator.   --"
         
-      - title: Landing Page
-        link: https://github.com/Tozzigh/flexBoxPage
-        tagline: "Thsi is a full responsive web page I created using FlexBox withoud Bootstrap4.   --"
+      - title: Domain generator
+        link: https://github.com/VirginiaKMartinez/DomainNameGenerator
+        tagline: "Domain generator, playing with JavaScript.   --"
 
       - title: Excuse Generator
-        link: https://github.com/Tozzigh/theExcuseGenerator
+        link: https://github.com/VirginiaKMartinez/excuseGenerator
         tagline: "Random excuse generator.   --"
              
-      - title: Ballons Challenge
-        link: https://github.com/Tozzigh/baloonsChallenge
-        tagline: "This is a little challenge I created; pop all the ball that spawn before those hit the roof.   --"
-
-      - title: Baloons Poppin
-        link: https://github.com/Tozzigh/baloonsPoppin
-        tagline: "A little game where we need to pop all the baloos to win.   --"
-
-      - title: Instagram Bootstrap
-        link: https://github.com/Tozzigh/bootstrap4Ex1
-        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
-
-      - title: Postcard
-        link: https://github.com/Tozzigh/postcard0.1
-        tagline: "A responsive website template designed to input information on a postcard.   --"
+      
 
 skills:
     toolset:
