@@ -42,7 +42,7 @@ basic_info:
 education:
     - degree: Full Stack Developer
       university: 4Geeks Academy España
-      time: 2020-2021
+      time: "2020-2021"
       details: HTML, CSS, Bootstrap, JavaScript, BabelJS, DOM, WebPack, React, Flux, Context API, SQL, MySQL, Python, Flask, SQLAlchemy, git, GitHub.
       
     - degree: Master UX/UI
@@ -58,9 +58,13 @@ experiences:
     
     - role: Diseñadora y Analista UX / UI
       time: "2020"
-      company: Walmeric Soluciones
-      details: Dentro del departamento de Innovación he trabajado trabajado junto con el Product Owner para dar forma a los productos tecnológicos que comercializa Walmeric. Investigar, conceptualizar, dibujar wireframes, consultar y conversar de todo ello con mis compañeros de desarrollo para mejorar y avanzar los proyectos ha sido mi día a día. 
+      company: Akimad Agency
+      details: Diseño web responsive y apps móviles con Figma o Sketch. Diseño de interacciones para apps móviles y web. Preparación y dinamización de talleres UX. Posterior análisis de los datos obtenidos para la ejecución del proyecto. Reuniones y presentaciones de diseños y prototipos a clientes nacionales e internacionales (en inglés y francés).
 
+    - role: Diseñadora y Analista UX / UI
+      time: "2019-2020"
+      company: Walmeric Soluciones
+      details:
       
 projects:
     intro: >
