@@ -38,7 +38,7 @@ basic_info:
     email: luis.sanchezarevalorionegro@gmail.com #optional
     phone: 234 2342 342 #optional
     # website: asd.com #optional
-    linkedin: https://www.linkedin.com/in/luis-s%C3%A1nchez-ar%C3%A9valo-rionegro-77939579/ #optional
+    linkedin: https://www.linkedin.com/in/luissanchezarevalorionegro/ #optional
     
     #
     # ******** IMPORTANT *******
@@ -146,14 +146,14 @@ projects:
       - title: ExcuseGenerator
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/LuisSanchezArevaloRionegro/TheExcuseGenerator"
-        tagline: "Project in JavaScript that generates a random excuse based on several lists of strings."
+        link: "https://github.com/LuisSanchezArevaloRionegro/movies_app"
+        tagline: "A functional application with calls to an API."
 
-      - title: InstragramFeed
+      - title: components_mobile_app
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/LuisSanchezArevaloRionegro/InstagramFeed"
-        tagline: "I work with HTML and CSS replicating the Instagram format."
+        link: "https://github.com/LuisSanchezArevaloRionegro/components-mobile-app"
+        tagline: "An application that uses many Flutter components."
 
       - title: ConditionalProfileCard
         # optional
@@ -172,16 +172,17 @@ skills:
       - name: .NET
         level: 60%
 
-      - name: Python
-        level: 30%
-
+      - name: HTML5 & CSS
+        level: 60%
+      
       - name: Javascript & jQuery
-        level: 30%
+        level: 60%
+
+      - name: Python
+        level: 50%
+
+      - name: Flutter
+        level: 50%
 
       - name: GoLang
         level: 30%
-
-      - name: HTML5 & CSS
-        level: 30%
-
-      
