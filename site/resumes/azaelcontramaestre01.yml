@@ -9,8 +9,8 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Azael
-    last_name: Contramaestre
+    first_name: Azael 
+    last_name: cONTRAMAESTRE
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://ibb.co/XJHPzV4
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
     email: galaxyhhd@hotmail.com #optional
@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/AzaelContramaestre01
+    github: AzaelContramaestre01
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -50,24 +50,24 @@ basic_info:
       - idiom: English
         level: Advanced
 
-      - idiom: Spanish
-        level: native
-
-      - idiom: Portuguese
+      - idiom: FPortuguese
         level: Intermediate
+
+      - idiom: Spanish
+        level: Native
 
     # Interests or hobies
     interests:
-      - item: Sports
+      - item: Climbing
 
-      - item: Videogames
+      - item: Snowboarding
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: Commercial Pilot
-      university: Top Fly
+    - degree: Commercial Pilot and Flight Attendant
+      university: Top Fly Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2017 - 2018
@@ -94,7 +94,7 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Dev
+    - role: Lead Developer
       time: 2015 - Present
       company: Startup Hubs, San Francisco
       # optional
