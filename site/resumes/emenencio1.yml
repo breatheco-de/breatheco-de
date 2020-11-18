@@ -129,18 +129,7 @@ projects:
 
 skills:
     toolset:
-      - name: 
-        level: 
-
-      - name: 
-        level: 
-
-      - name: 
-        level: 
-
-      - name: 
-        level:
-
+      
       - name: Ruby on Rails
         level: 85%
 
