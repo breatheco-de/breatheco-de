@@ -43,7 +43,7 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Basic
+        level: Intermedie
 
       - idiom: Spanish
         level: Native
