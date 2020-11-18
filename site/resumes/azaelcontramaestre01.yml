@@ -94,7 +94,7 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead
+    - role: Lead Dev
       time: 2015 - Present
       company: Startup Hubs, San Francisco
       # optional
