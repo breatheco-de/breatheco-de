@@ -6,14 +6,14 @@ template: "online-cv"
 skin: "blue"
 
 # Personal Information
-basic_info: Audiovisual Translator trying to learn more about programming and the IT World
+basic_info:
 
     # Your full name
     first_name: Naldi 
     last_name: Castro
     
     # Define yourself in 4-5 words
-    motto: Go For It
+    motto: I like saving the world
     
     # focus
     focus: Killing Bad Boys
@@ -32,38 +32,37 @@ basic_info: Audiovisual Translator trying to learn more about programming and th
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: naldi.castro@gmail.com #optional
-    phone: +56963348758 #optional
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: NeaCS
+    github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English 
-        level: Professional 
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
 
       - idiom: Spanish
-        level: Native
+        level: Professional
 
     # Interests or hobies
     interests:
-      - item: Biking
+      - item: Climbing
 
-      - item: Technology 
+      - item: Snowboarding
 
-      - item: Nature 
-
-      - item: Hockey 
-
-      - item: Gamming
+      - item: Cooking
 
 # Your previous education
 education:
@@ -192,4 +191,6 @@ skills:
       - name: Ruby on Rails
         level: 85%
 
-    
+      - name: Sketch & Photoshop
+        level: 60%
+  
