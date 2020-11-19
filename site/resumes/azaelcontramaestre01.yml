@@ -10,7 +10,7 @@ basic_info:
 
     # Your full name
     first_name: Azael 
-    last_name: cONTRAMAESTRE
+    last_name:  Contramaestre
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -58,11 +58,11 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Videogames
 
-      - item: Snowboarding
+      - item: Sports
 
-      - item: Cooking
+      - item: Coding
 
 # Your previous education
 education:
