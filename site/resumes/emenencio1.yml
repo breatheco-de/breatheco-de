@@ -13,14 +13,19 @@ basic_info:
     last_name: Lopez
     
     # Define yourself in 4-5 words
-    motto: expontaneo
+    motto: I like saving the world
     
     # focus
-    focus: telecomunicaciones
+    focus: Killing Bad Boys
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Expontaneo.
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -37,7 +42,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: https://github.com/emenencio1
     
-    twitter: 'emenencio1' #optional
+    twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
