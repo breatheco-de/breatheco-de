@@ -9,7 +9,7 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Naldi 
+    first_name: Naldi
     last_name: Castro
     
     # Define yourself in 4-5 words
@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: NeaCS
+    github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
