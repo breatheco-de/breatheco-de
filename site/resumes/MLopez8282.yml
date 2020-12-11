@@ -1,0 +1,133 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Monica
+    last_name: Lopez
+    
+   
+    motto: Don't fix the blame, fix the problem
+    
+    
+
+    
+    
+   
+    summary: |
+      Received a Bachelor's in Communications from FIU in 2006.
+      Taught English as a second language in South America. Lived on the Colombian coast where I owned/created and worked an art bar. Was a tour guide that took tourists by boat to nearby isands.
+      Currently enrolled at 4Geeks Academy. Exposed to HTML, CSS, Bootstrap and Javascript.
+
+
+
+      
+    
+ 
+    avatar: https://avatars1.githubusercontent.com/u/69557106?s=400&u=b63c40473b1c1c2050040f7f0904db78418aac4f&v=4
+
+ 
+    email: saltairpix@gmail.com
+    phone: 786-918-6944
+    linkedin: https://www.linkedin.com/in/monica-lopez-webdeveloper/
+    
+  
+  
+    github: MLopez8282
+    
+   
+    languages:
+      - idiom: English
+        level: Fluent
+
+      - idiom: Spanish
+        level: Fluent
+
+ 
+    interests:
+      - item: Freediving with sharks
+
+      - item: kiteboarding
+
+      - item: watching Netflix
+
+
+education:
+    - degree: BS in Communications
+      university: Florida International University
+      time: 2002 - 2006
+      
+experiences:
+    - role: Small Business Owner
+      time: 2009 - 2014
+      company: CongaConguera Art Bar
+    
+      
+      details: |
+        Owned, created and worked CongaConguera Art Bar in Coveñas, Colombia. 
+
+    - role: Tour Guide
+      time: 2009 - 2014
+      company: Self-employed
+      details: |
+        Guided tourists by boat to different islands.
+
+    - role: English Second Language Teacher
+      time: 2007 - 2009
+      company: American Language Academy
+      details: |
+        Taught English and tutored middle school aged kids in Medellin, Colombia
+   
+    - role: Freelance Photographer
+      time: 2007 - 2008
+      company: Alcaldia de Medellin
+      details: |
+         Photography project - worked with victims of violence and displacement in Medellin, Colombia
+
+    - role: Founder
+      time: 2009 - 2014
+      company: Cosquillas en el Cerebro
+      details: |
+         Worked with underprivileged children, creating art and teaching environmental education in the coast of Colombia
+          
+
+
+
+      assignments:
+      - title: Instagram Post
+        link: "https://github.com/MLopez8282/Instagram-Post-HTML-CSS"
+        tagline: "A website template designed to practice HTML and CSS."
+
+      - title: Postcard
+        link: "https://github.com/MLopez8282/Postcard"
+        tagline: "A website template designed to practice HTML"
+
+      - title: Simple Instagram Feed
+        link: "https://github.com/MLopez8282/Simple-Instagram-Feed-HTML-CSS-"
+        tagline: "A website template designed to practice HTML and CSS"
+
+      - title: https://github.com/MLopez8282/InstagramFeed-Bootstrap
+        link: "https://github.com/MLopez8282/InstagramFeed-Bootstrap"
+        tagline: "A website template designed to practice Bootstrap"
+
+      - title: Product Page
+        link: "https://github.com/MLopez8282/Product-Page-HTML-CSS-first-exercises-"
+        tagline: "A website template designed to practice HTML and CSS"
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 70%
+
+      - name: CSS
+        level: 75%
+
+      - name: Bootstrap
+        level: 80%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 45%

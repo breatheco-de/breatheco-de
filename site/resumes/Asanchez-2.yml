@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Angel
+    last_name: Sanchez-Migallón Morales
+    motto: Full Stack Developer
+    avatar: https://drive.google.com/file/d/1DUbbQhH_-aEwlk4iBk4Q9HKF0Zf9_huO/view?usp=sharing
+    summary: |
+      I am passionate about new technologies and I am always willing to learn something new every single day.
+      Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
+    # Sidebar links
+    email: hangelsanchez2@hotmail.com
+    phone: +34 660 04 19 35
+    linkedin: ángel-sánchez-migallón/
+    github: Asanchez-2
+    twitter: '@Asanchez_2'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Playing football
+
+      - item: Coding
+
+      - item: Cooking
+
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2020 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+          - Bullet point
+          - Bullet point
+    - degree: Business Administration
+      university: Rey Juan Carlos 
+      time: 2007 - 2013
+      details: |
+        During these six years I am able to learn a wide range of concepts to manage a company in the principles areas (Accountability, Sales, Marketing)
+experiences:
+    - role: Trade Marketing || Business Development
+      time: 2018 - Present
+      company: Adapta Group (Consultancy Marketing Startup)
+      details: |
+        My main responsabilities are to create marketing plans to our clientes for helping them to increase their sales.
+          - Creating marketing plans to our clientes for helping them to increase their sales.
+    - role: Trade Marketing
+      time: 2017 - 2018
+      company: Don Simón
+      details: |
+        Develop marketing plans to our retails clients and our shoppers for increasing company´s sales.
+    - role: Sales & Marketing Support
+      time: 2016 - 2017
+      company: Altadis, Imperial Tobacco
+      details: |
+        -Analysis of market behaviour (volume, market shares, different segments) both own and competitors', and issuing conclusions that can be turned into opportunities for the company
+        -Analysis of different macroeconomic variables that may affect the market.
+        -Preparation of reports for the commercial network to follow up on the objectives set.
+        -Logistics distribution and stock control of the different materials to be implemented at the point of sale by the commercial network.
+        Follow-up and resolution of incidents in the reception by the commercial network of these elements.
+        Translated with www.DeepL.com/Translator (free version)
+          - Bullet point
+          - Bullet point
+projects:
+    intro: >
+     Here you can find a summary of my projects dones in 4Geeks Academy in my first 3 weeks of Bootcamp.
+    assignments:
+      - title: Instagram Photo Feed
+        link: "#https://github.com/Asanchez-2/Instagram-PhotoFeed-Bootstrap"
+        tagline: "A responsive instagram photo feed with HTML5,CSS and Bootstrap."
+
+      - title: Excuse Generator
+        link: "#https://github.com/Asanchez-2/tutorial-project-excuse-generator-javascript"
+        tagline: "Exercise based in getting a random excuse onloading the browser with JavaScript."
+
+      - title: Domain Generator
+        link: "#https://github.com/Asanchez-2/The-Domain-Name-Generator"
+        tagline: "A exercise based in getting a complete list of domain using arrays and loops."
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: 60%
+      
+      - name: Python/Flask
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%

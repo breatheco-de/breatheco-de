@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: George R.
+    last_name: Mihov
+
+    # Define yourself in 4-5 words
+    motto: Web Developer | React Fan
+
+    # focus
+    focus: Building impeccable web-apps
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Bringing 2 years of programming experience and excellent interpersonal and collaborative skills, stemming from a corporate background in HR for Tech. Open to opportunities in Front-End to apply strong aptitude for ingenuity, self-management, adaptability to a constantly changing professional environment, and taking end-to-end ownership of assigned tasks.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQFe7-2xe9l3ug/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=XelEmFPf2nuMIhKD9_E2hWPo6qGrD04SW-T4ThgnzM8
+
+    # Contact Information
+    email: gmihov001@gmail.com 
+    phone: #optional
+    website:  https://wandertrackerfront-end.gmihov001.now.sh/
+    linkedin:  https://www.linkedin.com/in/gmihov/
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gmihov001
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Bulgarian
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Traveling
+
+      - item: Archaeology
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BBA Management/Computer Science
+      university: Florida International University
+      # optional
+      university_logo: http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png
+      time: 2014 - 2019
+      details: |
+        
+    - degree: AS Business Administration
+      university: Broward College
+      # optional
+      university_logo:
+      time: 2011 - 2014
+      details: |
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Developer
+      time: 2020 - Present
+      company: ForwardLane, London - New York
+      # optional
+      company_logo: https://forwardlane.com/wp-content/uploads/2019/10/ForwardLaneLogo256x26-2-1.png
+      details: |
+        
+    - role: Web Development Teacher Assistant
+      time: 2019 - Present
+      company: 4Geeks Academy, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 68%
