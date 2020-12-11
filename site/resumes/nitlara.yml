@@ -19,7 +19,7 @@ basic_info:
     focus: developer full stack
 
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
+    summary: 
 
      I am a social and communication analyst. With more than 10 years of experience from field management to data analysis and reports. With experience in R programming and growing as a web developer.
      Focused on finding new and better ways to communicate the work done.
@@ -36,15 +36,12 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: nitlara
 
-
-
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Catalan
         level: Native
       - idiom: Spanish
         level: Native
-
       - idiom: English
         level: B1
 
@@ -83,24 +80,17 @@ experiences:
       # optional
       details:
         Management and training of the field team, data analysis and testing, reporting and derivative products.
-    -    
-
 skills:
     toolset:
       - name: R
         level: 50%
-
       - name: Javascript & jQuery
         level: En ello
-
       - name: HTML5 & CSS
         level: 25%
-
       - name: Bootstrap
         level: 25%
-
       - name: Sketch & Photoshop
         level: 25%
-
       - name: Canva 
         level: 100%
