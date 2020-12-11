@@ -22,7 +22,7 @@ basic_info:
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
       Journalist with a strong knowledge of Web based projects and Content Management Systems (CMS). 
-      Currently trainint to be a Full Stack web developer.
+      Currently training to be a Full Stack web developer.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -99,11 +99,11 @@ experiences:
       details: |
         In this role I managed the Training and Quality team within the Canon technical support team at Arvato Bertelsmann. 
         My main tasks included
-        - Defining and documenting processes related to training and quality
-        - Liaising with client and different areas of the business to improve on quality and training processes
-        - Identifying missing processes within the project.
-        - Monitoring and tracking progress and effectiveness of training and quality projects.
-        - Reporting and supporting quality and training processes.
+          - Defining and documenting processes related to training and quality
+          - Liaising with client and different areas of the business to improve on quality and training processes
+          - Identifying missing processes within the project.
+          - Monitoring and tracking progress and effectiveness of training and quality projects.
+          - Reporting and supporting quality and training processes.
     - role: Web development specialist
       time: 2011 - 2014
       company: Canon, Ámsterdam
