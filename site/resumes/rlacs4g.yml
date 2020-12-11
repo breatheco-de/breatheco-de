@@ -1,0 +1,60 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: ~
+  first_name: Rafael
+  focus: Coding
+  github: Rlacs4g
+  interests: 
+    - 
+      item: Coding
+    - 
+      item: "Weight Training"
+    - 
+      item: Gardening
+  languages: 
+    - 
+      idiom: English
+      level: Native
+    - 
+      idiom: Tagalog
+      level: "Limited Working Proficiency"
+  last_name: Lacson
+  motto: "It is important to draw wisdom from many different places."
+  phone: ~
+  summary: "My aim is to learn more about Full Stack Development. As an IT Coordinator, I would like to learn to use coding as an essential tool in any future endeavors."
+education: 
+  - 
+    degree: "Bachelor of Science in Information Technology"
+    details: "Originally majored in Computer Engineering, I later switched to Information Technology after gaining more interest in managing networks and back-end developments."
+    time: 2011-2017
+    university: "Florida International University"
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+experiences: 
+  - 
+    company: "Piusi USA"
+    company_logo: ~
+    details: "Responsible for determining, developing and implementing organization's information technology goals. Daily activities include reviewing and filling internal help requests and monitoring computer performance for potential problems."
+    role: "IT Coordinator"
+    time: "2017 - Present"
+projects: 
+  assignments: 
+    - 
+      link: https://github.com/rlacs4g/Digital-Postcard
+      tagline: "Simple layout of postcard with CSS and HTML"
+      title: Postcard
+  intro: "A list of a few projects I've created\n"
+skills: 
+  toolset: 
+    - 
+      level: 10%
+      name: "Javascript & jQuery"
+    - 
+      level: 20%
+      name: "HTML5 & CSS"
+    - 
+      level: 20%
+      name: Python
+skin: blue
+template: online-cv
+
