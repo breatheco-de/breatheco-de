@@ -32,7 +32,7 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: franxuss_gp@hotmail.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: https://github.com/Franxuss
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -63,11 +63,11 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Biotech
+      university: University Miguel Hernández
       # optional
-      university_logo: https://parquecientificoumh.es/sites/default/files/styles/ancho_1024/public/2018-06/logoumhcuadradocopia.jpg?itok=dRvaMfVm
-      time: 2010 - 2015 (without end)
+      university_logo: https://ceeielche.emprenemjunts.es/fotos/44938_foto1.jpg
+      time: 2010 - 2014 (without end)
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
