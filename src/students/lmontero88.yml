@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lilian
+    last_name: Montero
+    
+    # Define yourself in 4-5 words
+    motto: Muchas ganas de crecer aprendiendo de la tecnología.
+    
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Después de muchos años dedicada a la arquitectura, descubrí el arte en la tecnología: "La magia de lo lógico". Decidí ponerle todo mi empeño y esfuerzo a crecer como Full Stack Developer. Inicialmente por temas relacionados al diseño me incliné más por el Front-end, pero al conocer el Back-end, se complementó todo. 
+      El trabajo en equipo y la organización, son una de las habilidades fundamentales que he desarrollado para poder avanzar en este mundo tecnológico. Sin embargo el uso de lenguajes y frameworks como JavaScript, React, Python, SQL, HTML y CSS me abrieron una gama de posibilidades para adentrarme en otras tecnologías.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: lilianmonterolopez@gmail.com #optional
+    phone: +56994433896 #optional
+    website:  #optional
+    linkedin: lmontero88 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lmontero88
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+    # Interests or hobies
+    interests:
+      - item: La tecnología
+
+      - item: El arte
+
+# Your previous education
+education:
+    - degree: Arquitectura
+      university: Universidad de Camaguey, Cuba
+      # optional
+      university_logo: https://www.reduc.edu.cu 
+      time: 2006 - 2011
+      details: |
+        En la carrera se trata todo lo que es diseño, ya sea arquitectonico, urbano, estructural.
+
+          
+
+    - degree: Desarrollador Full-Stack
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
+      time: 2020 - 2020
+      details: |
+       Programa de Bootcamp, enfocado en una nueva manera de formar desarrolladores en un período corto de tiempo.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Arquitecto
+      time: 2011 - 2014
+      company: Ecoing 15, Cuba
+      # optional
+      company_logo: https://www.micons.gob.cu/es
+      details: |
+        Especialista en presupuestos y programación de obras. Diseño en ejecución.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Store Manager
+      time: 2014 - 2020
+      company: GMO
+      # optional
+      company_logo: https://gmo.cl
+      details: |
+        Dirigir y organizar el proceso operativo de la óptica.
+
+          - Bullet point
+          - Bullet point
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      La mayoría de los proyectos fueron hechos en la práctica durante el período de la Academia. El resto son de Forma autodidacta.
+
+    assignments:
+      - title: MatchUp
+        # optional
+        project_logo: https://github.com/lmontero88/Frontend_FinalProject4Geek
+        link: "#"
+        tagline: "Aplicación para que personas que practican deportes encuentren pareja de juego."
+
+      - title: Trafficc-light
+        # optional
+        project_logo: https://github.com/lmontero88/trafficc-light
+        link: "#"
+        tagline: "Trabajo con JS y el DOM."
+
+      - title: 4Geeks Academy
+        # optional
+        project_logo: https://github.com/lmontero88
+        link: "#"
+        tagline: "El resto de los proyectos se pueden ver en Github"
+
+     
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 98%
+
+      - name: Javascript & React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+     
+
+    
