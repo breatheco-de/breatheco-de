@@ -11,74 +11,64 @@ basic_info:
     # Your full name
     first_name: Andres
     last_name: Olivares
-    
+
     # Define yourself in 4-5 words
-    motto: I like to learn a lot
-    
+    motto: Learning is my passion
+
     # focus
-    focus: Learn code day by day 
-    
+    focus: Becoming a better programmer
+
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-    I studied 3 years of Computer Engineering, I could not finish my degree at the university.
-    During these years I have been discovering that programming is a very important factor both in work and as a student.
-    So I decided to study programming and enrolled in a boot camp at 4geeks and I am really learning and discovering my new passion.
-    I am dreaming of becoming a Software Engineer and becoming from junior to senior.
-      
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: http://sep.breatheco.de/static/profile-images/IMG_0005.jpg
 
     # Contact Information
     email: andresolivares.se@outlook.com #optional
-    phone: +569 344 63 970 #optional
-    website: --- #optional
-    linkedin: --- #optional
-    
+    phone: 56 9 34463970 #optional
+    website: asd.com #optional
+    linkedin: notnow #optional
+
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: Ronin-1986
-    
-    twitter: andresolivares1 #optional
+
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
+      - idiom: English
+        level: Intermediate
+
       - idiom: Spanish
         level: Native
 
-      - idiom: English
-        level: I have learning, i think between basic to intermediate
 
     # Interests or hobies
     interests:
-      - item: Movies and series
+      - item: movies and series
 
-      - item: weightlifting
+      - item: Playing video games
 
-      - item: play videogames
+      - item: Weightlifting
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science1
-      university: University of London
+    - degree: Teacher of English
+      university: Universidad de Concepcion
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics1
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: 
+      time: 2011 - 2017
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -89,7 +79,7 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer1
+    - role: Lead Developer
       time: 2015 - Present
       company: Startup Hubs, San Francisco
       # optional
@@ -106,7 +96,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer1
+    - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
       # optional
@@ -119,7 +109,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer1
+    - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
       # optional
@@ -171,13 +161,16 @@ projects:
 
 skills:
     toolset:
-      
-      - name: Javascript & jQuery
-        level: 98%
-        
+      - name: Python
+        level: 90%
+
+      - name: Javascript
+        level: 100%
+
+
+
       - name: HTML5 & CSS
         level: 95%
-        
-      - name: Sketch & Photoshop
-        level: 60%
-        
+
+      - name: Bootstrap
+        level: 80%
