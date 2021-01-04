@@ -1,0 +1,102 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo 
+    last_name: Avila
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Full stack devlopment
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Una persona que acaba de matricularse en un instituto y busca tener un buen trabajo 
+      donde pueda aumentar sus conocimientos acerca del area informatica,
+      logrando asi poder ayudar a crecer la empresa de manera professional y
+      asi tambien crecer como ser humano internamente
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: pablo.avila2171@gmail.com 
+    phone: +56 9 66327166
+    website: asd.com #optional
+    linkedin: alandoe #optional 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Yoda2171
+
+    twitter: 'webjeda' #optional
+    stack-overflow: U01EJELSTMH/Pablo Avila # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Karate-Do
+
+      - item: Guitarra
+
+# Your previous education
+education:
+    - degree: 4°medio
+      university: Colegio Terraustral del sol
+      # optional
+      university_logo: https://docplayer.es/docs-images/93/111344989/images/1-0.jpg
+      time: 2009 - 2020
+      details: |
+        Educacion basica y media transcurrido en el mismo colegio 
+        tomando ramos matematicos con base para la universidad o instituto
+        logrando asi tener a futuro un gran redimiento en ello.
+# Your previous job experiences or voluntier
+experiences:
+ - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+    - role: 
+      time: 
+      company: 
+# Your project portfolio
+projects:
+    intro: >
+      Postcard 4geek
+      instagramFeed
+      instagramFull
+      FormularioHTML5
+    assignments:
+      - title: Curso FullStack 4Geek
+
+skills:
+    toolset:
+      - name: Javascript
+        level: basico
+        
+      - name: HTML5 & CSS
+        level: intermerdio
