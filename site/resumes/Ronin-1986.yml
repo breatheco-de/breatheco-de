@@ -27,7 +27,7 @@ basic_info:
       
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://pbs.twimg.com/profile_images/503933038858747904/_kuIwgpE_400x400.jpeg
+    avatar: https://byuc.files.wordpress.com/2012/07/avat-2.jpg
 
     # Contact Information
     email: andresolivares.se@outlook.com #optional
