@@ -19,8 +19,8 @@ basic_info:
     focus: Crecimiento profesional
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Ingeniero en Automatica, con experiencia en Informática y amplio conocimiento en
-administración de Redes informáticas y la defectación y arreglos menores de equipos electronicos.
+    summary: Ingeniero en Automatica, con experiencia en Informatica y amplio conocimiento en
+administracion de Redes informaticas y la defectacion y arreglos menores de equipos electronicos.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -66,15 +66,13 @@ education:
       details: 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+    - role: Profesora de introduccion a la progracion c++
+    - role: Profesora de circuitos eletricos
+      time: 2012 - 2016
+      company: Universidar de Oriente, Santiago de Cuba, Cuba
 # Your project portfolio
 projects:
-    intro: >
+    intro: 
       
     assignments:
       - title:
