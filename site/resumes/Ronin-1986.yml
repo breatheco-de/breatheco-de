@@ -2,15 +2,15 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
-template: "online-cv"
-skin: "blue"
+template:"online-cv"
+skin:"blue"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Andres
-    last_name: Olivares
+    first_name:Andres
+    last_name:Olivares
     
     # Define yourself in 4-5 words
     motto: I like to learn a lot
@@ -19,7 +19,8 @@ basic_info:
     focus: Learn code day by day 
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |I studied 3 years of Computer Engineering, I could not finish my degree at the university.
+    summary:|
+    I studied 3 years of Computer Engineering, I could not finish my degree at the university.
     During these years I have been discovering that programming is a very important factor both in work and as a student.
     So I decided to study programming and enrolled in a boot camp at 4geeks and I am really learning and discovering my new passion.
     I am dreaming of becoming a Software Engineer and becoming from junior to senior.
@@ -170,20 +171,13 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
+      
       - name: Javascript & jQuery
         level: 98%
-
-      - name: Angular
-        level: 98%
-
+        
       - name: HTML5 & CSS
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
+        
       - name: Sketch & Photoshop
         level: 60%
+        
