@@ -61,7 +61,7 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
+    - degree: MSc in Computer Science1
       university: University of London
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -74,7 +74,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
+    - degree: BSc in Applied Mathematics1
       university: Bristol University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -89,7 +89,7 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
+    - role: Lead Developer1
       time: 2015 - Present
       company: Startup Hubs, San Francisco
       # optional
@@ -106,7 +106,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
+    - role: Senior Software Engineer1
       time: 2014 - 2015
       company: Google, London
       # optional
@@ -119,7 +119,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
+    - role: UI Developer1
       time: 2012 - 2014
       company: Amazon, London
       # optional
