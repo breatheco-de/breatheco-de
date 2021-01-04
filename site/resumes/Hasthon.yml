@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Vannia  
+    last_name: Jaque
+    
+    # Define yourself in 4-5 words
+    motto: Soy tan esforzada y trabajadora como una hormiguita
+    
+    # focus
+    focus: Ser una buena desarrolladora
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Soy Diseñadora de vestuario con 4 años de experiencia, he trabajado en 2 grandes empresas, las
+      cuales me dieron la oportunidad de crecer y desarrollarme como profesional.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: vannia.jaque@gmail.com #optional
+    phone: 961339843 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/vannia-jaque-rubio-016b527a/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Hasthon
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: basico
+
+      - idiom: French
+        level: no
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Karate
+
+      - item: correr
+
+      - item: jardineria
+
+# Your previous education
+education:
+    - degree: Diseñadora de Vestuario
+      university: Inacap
+      # optional
+      university_logo: 
+      time: 2013-2016
+      details: Durante el proceso de aprendizaje, realice diversos proyectos, tales como vestuario de pret a porter refinado, como tambien desfiles en Hotel Sheraton 
+    - degree: desarrollador Full stack 
+      university: 4geeks Academy
+      # optional
+
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020-2021
+      details: proyectos de HTML, CSS, BOOTSTRAP, JAVASCRIPT
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: diseñadora de vestuario
+      time: 2018-2020
+      company: Cencosud retail
+      # optional
+      company_logo: 
+      details: Con dos años de carrera trabajando para Eurofashion Cencosud, me desarrolle de forma ejemplar en trato directo con proveedores internacionales, el  trabajo en equipo es fundamental. Mis funciones fueron principales fueron el desarrollo de producto desde fichas tecnicas,pruebas de calce en modelos y aprovar los productos.
+      
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+     
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+# Your project portfolio
+projects:
+    intro: >
+      el proyecto principalmente es desarrollar una imitacion de Instagram
+    assignments:
+      - title: Instagram Photo Feed
+        # optional
+        project_logo: 
+        link: https://github.com/Hasthon/instagram-photo-feed-bootstrap
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0
+
+      - name: Javascript & jQuery
+        level: basic
+
+      - name: bootstrap
+        level: basico
+
+      - name: HTML5 & CSS
+        level: basico
+
+      - name: Ruby on Rails
+        level: 0
+
+      - name: Photoshop
+        level: intermedio 
