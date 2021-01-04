@@ -95,11 +95,33 @@ experiences:
         Work collaboratively with patients, families, physicians, and nurses to ensure high quality care
         Act as the patient's advocate as it relates to insurance coverage and financial assistance
         Maintain the patient's comprehensive clinical record through detailed documentation
-        Coordinate with third party payors on a regular basis
+      Coordinate with third party payors on a regular basis
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
-      
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
 # Your project portfolio
 projects:
     intro: >
@@ -139,10 +161,20 @@ projects:
 
 skills:
     toolset:
-            - name: Javascript & jQuery
-        level: Basic
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: basic
+
+      - name: Angular
+        level: 0%
 
       - name: HTML5 & CSS
         level: intermediate
 
-  
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
