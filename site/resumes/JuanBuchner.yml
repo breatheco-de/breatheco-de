@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Juan
+    last_name: Buchner
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Me gusta salvar gatitos.
     
     # focus
-    focus: Killing Bad Boys
+    focus: La Busqueda del sentido de la existencia.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -32,15 +32,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: jc@buchner.cl #optional
+    phone: 56 9 62199118 #optional
+    website: buchner.cl #optional
+    linkedin: www.linkedin.com/in/jcbuchner #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: jcbuchner
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -48,21 +48,21 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Intermediate
 
-      - idiom: French
+      - idiom: Otro
         level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Nativo
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Karate
 
-      - item: Snowboarding
+      - item: Piano
 
-      - item: Cooking
+      - item: Videogames
 
 # Your previous education
 education:
@@ -176,20 +176,23 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      # - name: Python & Django
+      #   level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      # - name: Javascript & jQuery
+      #   level: 98%
 
-      - name: Angular
-        level: 98%
+      # - name: Angular
+      #   level: 98%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Bootstrap
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      # - name: Ruby on Rails
+      #   level: 85%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
