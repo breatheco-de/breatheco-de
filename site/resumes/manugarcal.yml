@@ -20,15 +20,15 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      I'm a adiction therapist whit 10 years of experience with psycology and marketing studies, i'm living in chile and i developing programming skills trying to enhance my carreer path to IT industry.
+       I'm a adiction therapist whit 10 years of experience with psycology and marketing studies, i'm living in chile and i developing programming skills trying to enhance my carreer path to IT industry.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: mgarciac@outlook.it #optional
-    phone: +56988859660 #optional
+    email: mgarciac@outllok.it #optional
+    phone: 56 9 88859660 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
@@ -37,19 +37,19 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: https://github.com/manugarcal
     
-    twitter: @MAGC589 #optional
+    twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: upper intermediate
+        level: Upper Intermediate
 
       - idiom: italian
-        level: advanced
+        level: Advanced
 
       - idiom: Spanish
-        level: native
+        level: Native
 
     # Interests or hobies
     interests:
@@ -72,7 +72,7 @@ education:
       university: Bristol University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2020 - 2021
+      time: 2007 - 2011
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -87,7 +87,7 @@ experiences:
       time: 2017 - 2019
       company: APGXXIII - Santiago de Chile
       # optional
-      company_logo: https://daicistai.apg23.org/wp-content/uploads/2019/12/placeholder-apg23.png
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
         Coordinate and facilitate patient care through assessment, evaluation, planning, and implementation
         Communicate patient needs to a variety of care team members and follow up accordingly
@@ -95,7 +95,7 @@ experiences:
         Work collaboratively with patients, families, physicians, and nurses to ensure high quality care
         Act as the patient's advocate as it relates to insurance coverage and financial assistance
         Maintain the patient's comprehensive clinical record through detailed documentation
-      Coordinate with third party payors on a regular basis
+        Coordinate with third party payors on a regular basis
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
@@ -171,7 +171,7 @@ skills:
         level: 0%
 
       - name: HTML5 & CSS
-        level: intermediate
+        level: intermediate.
 
       - name: Ruby on Rails
         level: 0%
