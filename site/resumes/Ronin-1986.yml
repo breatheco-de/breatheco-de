@@ -9,60 +9,54 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Andres
+    last_name: Olivares
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like to learn a lot
     
     # focus
-    focus: Killing Bad Boys
+    focus: Learn code day by day 
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-    
+    summary: |I studied 3 years of Computer Engineering, I could not finish my degree at the university.
+    During these years I have been discovering that programming is a very important factor both in work and as a student.
+    So I decided to study programming and enrolled in a boot camp at 4geeks and I am really learning and discovering my new passion.
+    I am dreaming of becoming a Software Engineer and becoming from junior to senior.
+      
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://twitter.com/andresolivares1/photo
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: andresolivares.se@outlook.com #optional
+    phone: +569 344 63 970 #optional
+    website: --- #optional
+    linkedin: --- #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: Ronin-1986
     
-    twitter: 'webjeda' #optional
+    twitter: andresolivares1 #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: I have learning, i think between basic to intermediate
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Movies and series
 
-      - item: Snowboarding
+      - item: weightlifting
 
-      - item: Cooking
+      - item: play videogames
 
 # Your previous education
 education:
