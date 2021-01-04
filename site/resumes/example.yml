@@ -104,11 +104,14 @@ projects:
       You can list your side projects or open source 
       
 #ejemplo assignments: 
-      - title: Velocity
+      - title: Digital postcard
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products." 
+        tagline: Este ejercicio cubre los siguientes fundamentos 1. Estructura básica para cada sitio web HTML5. 2.
+         La etiqueta Link para importar Reglas CSS. 3. Uso de fuentes de google. 
+         3. Uso de diferentes selectores disponibles en CSS. 
+         4. Trabajo con cajas border, padding y margins. 5. Overflow. 6. Uso de un formulario simple. 
 
 
 skills:
