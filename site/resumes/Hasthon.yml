@@ -20,7 +20,7 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     Soy Diseñadora de vestuario con 4 años de experiencia, he trabajado en 2 grandes empresas, las
+     Soy Disenadora de vestuario con 4 anios de experiencia, he trabajado en 2 grandes empresas, las
       cuales me dieron la oportunidad de crecer y desarrollarme como profesional.
 
     # Your profile picture URL
@@ -62,7 +62,7 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: Diseñadora de Vestuario
+    - degree: Disenadora de Vestuario
       university: Inacap
       # optional
       university_logo: 
@@ -78,12 +78,12 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: diseñadora de vestuario
+    - role: disenadora de vestuario
       time: 2018-2020
       company: Cencosud retail
       # optional
       company_logo: 
-      details: Con dos años de carrera trabajando para Eurofashion Cencosud, me desarrolle de forma ejemplar en trato directo con proveedores internacionales, el  trabajo en equipo es fundamental. Mis funciones fueron principales fueron el desarrollo de producto desde fichas tecnicas,pruebas de calce en modelos y aprovar los productos.
+      details: Con dos anos de carrera trabajando para Eurofashion Cencosud, me desarrolle de forma ejemplar en trato directo con proveedores internacionales, el  trabajo en equipo es fundamental. Mis funciones fueron principales fueron el desarrollo de producto desde fichas tecnicas,pruebas de calce en modelos y aprovar los productos.
       
     - role: 
       time: 
