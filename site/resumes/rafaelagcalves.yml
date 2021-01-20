@@ -40,10 +40,10 @@ basic_info:
 
 
 education:
-    - degree: 
-      university: 
-      time: 
-      details: 
+    - degree: General Certificate of Education (GCE)
+      university: College Estevão Correia
+      time: 2015-2017
+      details: Cuiabá-Brazil
       
 experiences:
     - role: Student
