@@ -39,6 +39,7 @@ basic_info:
     languages:
       - idiom: English
         level: Lower Advanced
+
       - idiom: Spanish
         level: Native
 
@@ -55,6 +56,7 @@ education:
     - degree: Master in Marketing Management
       university: Universidad Diego Portales
       time: 2014 - 2016
+      # optional
       details:
     - degree: Pharmaceutical Chemist
       university: Universidad Nacional Andres Bello
@@ -66,7 +68,7 @@ experiences:
     - role: Marketing Strategist and Consultant in Pharmaceutical Terminology
       time: 2017 - Present
       company: National Center Health Information System (CENS in Spanish)
-      details: 
+      details: |
           - Develop and collaborate in the Strategic Marketin Plan for CENS
           - Collaborates in the business turn form product look to a Buyer Persona look
           - Develop exercises with the standard Health Level 7 - Fast HealthCare Interoperability Resources (HL7-FHIR) for TechConnect-2020 event. Leader of the track Electronic Medical Prescription
@@ -80,12 +82,12 @@ experiences:
     - role: Technical Director
       time: 2012 - 2016
       company: Different Independent Pharmacies, such as "Manriquez", "Salcobrand - Farmaprecio" and "Eltit"
-      details: 
-          - Goals achieved: Increase sales more than 90% in one year and Return on Sales from 4,4 to 12,8% en a period od 8 months with cross and up selling strategy.
+      details: |
+          - Increase sales more than 90% in one year and Return on Sales from 4,4 to 12,8% en a period od 8 months with cross and up selling strategy.
     - role: Pharmacology Professor
       time: 2011 - 2012
-      details: 
-          - Encourage and address students' academic doubts in order to enhance their learning process.
+      details: |
+          - Encourage and address students academic doubts in order to enhance their learning process.
     
 skills:
     toolset:
