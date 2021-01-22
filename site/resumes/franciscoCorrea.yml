@@ -64,10 +64,13 @@ education:
       university_logo:
       time: Graduated 2011
       details:
+# Your previous job experiences or voluntier
 experiences:
     - role: Marketing Strategist and Consultant in Pharmaceutical Terminology
       time: 2017 - Present
       company: National Center Health Information System (CENS in Spanish)
+      # optional
+      company_logo:
       details: |
           - Develop and collaborate in the Strategic Marketin Plan for CENS
           - Collaborates in the business turn form product look to a Buyer Persona look
@@ -76,16 +79,23 @@ experiences:
     - role: Project Assistant
       time: 2016 - 2017
       company: CORFO
+      # optional
+      company_logo:
       details: |
           - Generate the "Chilean Pharmaceutical Terminology" taking as reference international standards, managing
             and controlling load and cross review of more than 30,000 data.
     - role: Technical Director
       time: 2012 - 2016
       company: Different Independent Pharmacies, such as "Manriquez", "Salcobrand - Farmaprecio" and "Eltit"
+      # optional
+      company_logo:
       details: |
           - Increase sales more than 90% in one year and Return on Sales from 4,4 to 12,8% en a period od 8 months with cross and up selling strategy.
     - role: Pharmacology Professor
       time: 2011 - 2012
+      company: ENFA
+      # optional
+      company_logo:
       details: |
           - Encourage and address students academic doubts in order to enhance their learning process.
     
