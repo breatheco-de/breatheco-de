@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Correa
+    
+    # Define yourself in 4-5 words
+    motto: I'm a fan of pharmaceutical digital health problem solving
+    
+    # focus
+    focus: Digital Health, Marketing and Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Pharmaceutical Chemist, with consolidated experience in the field and extensive knowledge in Marketing and
+             Information Technologies linked to the pharmaceutical area. Proactive, thoughtful, creative, analytical, decisive
+             professional, with great strategic vision. He stands out for his leadership, his constant concern to expand his knowledge,
+             negotiation and his ability to form multidisciplinary work teams. (TI Teams, Healthcare professionals and C-level).|
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1dSsuhIOVIIwKfxO4YEF69RZExAHf_v_w/view?usp=sharing
+
+    # Contact Information
+    email: fcorrea.fernandez@gmail.com #optional
+    phone: +56 9 90970930 #optional
+    website: https://linktr.ee/francisco_correa #optional
+    linkedin: https://www.linkedin.com/in/francisco-javier-correa-fernandez/ #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: francisco-correa
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Lower Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Skiing
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Master in Marketing Management
+      university: Universidad Diego Portales
+      time: 2014 - 2016
+      # optional
+      details:
+    - degree: Pharmaceutical Chemist
+      university: Universidad Nacional Andres Bello
+      # optional
+      university_logo:
+      time: Graduated 2011
+      details:
+# Your previous job experiences or voluntier
+experiences:
+    - role: Marketing Strategist and Consultant in Pharmaceutical Terminology
+      time: 2017 - Present
+      company: National Center Health Information System (CENS in Spanish)
+      # optional
+      company_logo:
+      details: |
+          - Develop and collaborate in the Strategic Marketin Plan for CENS
+          - Collaborates in the business turn form product look to a Buyer Persona look
+          - Develop exercises with the standard Health Level 7 - Fast HealthCare Interoperability Resources (HL7-FHIR) for TechConnect-2020 event. Leader of the track Electronic Medical Prescription
+          - Manage the "Medicine Search Engine" project with a Team with 3 Software Engineers using Chilean Pharmaceutical Terminology.
+    - role: Project Assistant
+      time: 2016 - 2017
+      company: CORFO
+      # optional
+      company_logo:
+      details: |
+          - Generate the "Chilean Pharmaceutical Terminology" taking as reference international standards, managing
+            and controlling load and cross review of more than 30,000 data.
+    - role: Technical Director
+      time: 2012 - 2016
+      company: Different Independent Pharmacies, such as "Manriquez", "Salcobrand - Farmaprecio" and "Eltit"
+      # optional
+      company_logo:
+      details: |
+          - Increase sales more than 90% in one year and Return on Sales from 4,4 to 12,8% en a period od 8 months with cross and up selling strategy.
+    - role: Pharmacology Professor
+      time: 2011 - 2012
+      company: ENFA
+      # optional
+      company_logo:
+      details: |
+          - Encourage and address students academic doubts in order to enhance their learning process.
+    
+skills:
+    toolset:
+      - name: Javascript
+        level: 10%
+
+      - name: CSS
+        level: 50%
+
+      - name: HTML5
+        level: 80%
