@@ -1,0 +1,134 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Montes
+
+    # Define yourself in 4-5 words
+    motto: Practice makes perfect!
+
+    # focus
+    focus: Become a great developer
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a video producer and editor with 6 years of experience in the audiovisual
+      field. I have been working as a freelance video editor/producer for two companies
+      that specializes on wedding videos. I also have experience handling DSLR cameras
+      and filming. I am bilingual, my native language is spanish but my english is
+      fluent. I am a fast learner and adapt easily to new work environments. Now i'm
+      on my path to become a great developer.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmia1-2.fna.fbcdn.net/v/t1.0-9/166891_496317176570_4016586_n.jpg?_nc_cat=105&_nc_oc=AQmaalm8PtOquBHu2KE8lth3k71JfnOddnmJ7gOOjcyibmZLuCVme14tZGvncECV8cxNcLPAe2GZeMfNovphZ_H6&_nc_ht=scontent.fmia1-2.fna&oh=64f9e34b550fdba833031d003873712e&oe=5E1EE90A
+
+    # Contact Information
+    email: jorgemontes771@gmail.com #optional
+    phone: 305 798 46 57 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/jorge-montes-0727378b/
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gorshet
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Sports
+
+      - item: Music
+
+      - item: Cooking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Masters degree in Audiovisual Production
+      university: Universitat Autonoma de Barcelona
+      # optional
+      time: 2011 - 2012
+      details: |
+       During this Master i learned how to create an audiovisual project
+       working on every step. From pre-production to post-production, from
+       the script to distribute and market your project.
+
+    - degree: Bachelors degree on Communications
+      university: Universidad Santa Maria
+      time: 2004 - 2009
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Inventory Supervisor.
+      time: 2017 - 2019
+      company: Best buy
+      # optional
+      company_logo:
+      details: |
+        Execute strategic plans in merchandising, inventory, and asset protection.
+        also lead, and mentor a small team to confirm accurate record keeping, storage
+        and shipment of products are handled, while fostering a strong asset
+        protection culture throughout the store. Assisting in the hiring selection,
+        performance management, training, and special events while keeping team
+        communication strong.
+
+    - role: Videographer/Video editor
+      time: 2014 - 2016
+      company: Sucre Produccion Audiovisual
+      # optional
+      details: |
+        My main resposibility was to set up the equipment, lights and microphones and
+        also film during weddings and events and then proceed to do all the
+        post-production to deliver high quality audiovisual content.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Champions League Card Challenge
+        link: "https://github.com/marcosdevelo/championsLeaguePlayoffsApp.git"
+        tagline: A soccer card game that fetch information from an external API to update the players value.
+
+      - title: Contact Management
+        link: "https://github.com/gorshet/Contact-Management-Application.git"
+        tagline: An App that allows the user to create, save, and update contacts in their contact list.
+
+      - title: Star Wars Blog Reading List
+        link: "https://github.com/gorshet/Starwars-Blog-Reading-List.git"
+        tagline: A website that fetch information from an external Star Wars API with everything you need to know.
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: React
+        level: 60%

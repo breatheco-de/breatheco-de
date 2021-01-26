@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Anna
+    last_name: Lara
+
+    # Define yourself in 4-5 words
+    motto: Checking yourself is also moving forward
+
+    # focus
+    focus: developer full stack
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+
+     I am a social and communication analyst. With more than 10 years of experience from field management to data analysis and reports. With experience in R programming and growing as a web developer.
+     Focused on finding new and better ways to communicate the work done.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.app.goo.gl/i2BFP8TjHMSHn4Y68
+
+    # Contact Information
+    email: nitlara@gmail.com
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nitlara
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Catalan
+        level: Native
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Make cakes
+      - item: Eat cakes (with a latte)
+      - item: Go around town
+
+# Your previous education
+education:
+    - degree: Political Science
+      university: UAB (Barcelona - Spain)
+      # optional
+      time: 2002 - 2006
+    - degree: Marqueting and Political communication
+      university: UAB (Barcelona - Spain)
+      # optional
+      time: 2006 - 2007
+    - degree: Applied social research techniques
+      university: UB & UAB (Barcelona - Spain)
+      time: 2007 - 2008
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Coordinator
+      time: 2016 - 2019
+      company: CAV (political association)
+      # optional
+      details:
+        Preparation of reports, data collection and database management.
+        Preparation and management of the corporate communication strategy Administrative management
+    - role: Analyst & Field Coordinator
+      time: 2008-2016
+      company: Fundació Carles Pi i Sunyer
+      # optional
+      details:
+        Management and training of the field team, data analysis and testing, reporting and derivative products.
+skills:
+    toolset:
+      - name: R
+        level: 50%
+      - name: Javascript & jQuery
+        level: En ello
+      - name: HTML5 & CSS
+        level: 25%
+      - name: Bootstrap
+        level: 25%
+      - name: Sketch & Photoshop
+        level: 25%
+      - name: Canva 
+        level: 100%

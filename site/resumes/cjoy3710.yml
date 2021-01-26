@@ -1,0 +1,120 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cathy
+    last_name: Spitzer
+    
+    # Define yourself in 4-5 words
+    motto: An opera singing, food blogging, aspiring web developer.
+    
+    # focus
+    focus: Navigating the world with new skills in web development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Aspiring junior web developer with a background in classical music and opera. In addition to my years of working as a professional musician with various organizations around the country, I have experience teaching both at the university level as an adjunct professor of lyric diction at Roosevelt University's Chicago College of the Performing Arts and as a private voice instructor for all skill levels. I enjoy working and collaborating as apart of a team and am very comfortable giving and leading presentations. Outside of my performing career, I run a small food blog sharing original recipes and cooking tips. I have experience writing posts, developing recipes, and providing high quality food photography for small and large brands and am familiar with a variety of digital marketing strategies including SEO and various social media platforms.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.wixstatic.com/media/33b167_1dfd2b7f309645549ea969f90adf8177~mv2_d_2832_3540_s_4_2.jpg/v1/fill/w_542,h_678,al_c,q_85,usm_0.66_1.00_0.01/33b167_1dfd2b7f309645549ea969f90adf8177~mv2_d_2832_3540_s_4_2.webp
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website: catherinespitzersoprano@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/catherine-ortega-spitzer-0361a161/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cjoy3710
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Conversational
+
+      - idiom: Italian
+        level: Proficient
+
+    # Interests or hobies
+    interests:
+      - item: Cooking
+
+      - item: Food Photography
+
+      - item: Blogging/Writing
+
+# Your previous education
+education:
+    - degree: B.M Vocal Performance
+      university: New World School of the Arts (University of Florida)
+      # optional
+      university_logo: 
+      time: 2005-2009
+      details:
+        
+    - degree: M.M. Voice Performance
+      university: Roosevelt University Chicago College of the Performing Arts
+      # optional
+      university_logo: 
+      time: 2010-2012
+      details:
+
+    - degree: Professional Diploma in Opera
+      university: Roosevelt University Chicago College of the Performing Arts
+      # optional
+      university_logo: 
+      time: 2012-2014
+      details:
+# Your previous job experiences or voluntier
+experiences:
+    - role: Soprano, The Shepherd King
+      time: May 2020
+      company: Little Opera Theater of New York (LOTNY) - NYC
+      # optional
+      company_logo: 
+      details:
+        Perform the title role in Mozart's "The Shepherd King" with LOTNY and the New Baroque Orchestra. (This performance was postponed due to Covid-19.)
+          
+          
+    - role: Soprano
+      time: 2011-2020
+      company: Holy Name Cathedral - Chicago, IL
+      # optional
+      company_logo: 
+      details:
+        Soprano chorister, cantor, and soloist.
+          
+          
+    - role: Flaminia
+      time: April 2020
+      company: New World School of the Arts
+      # optional
+      company_logo: 
+      details: 
+        Perform the role of Flaminia in Haydn's "Il mondo della luna" as a guest artist with the New World School of the Arts Opera Ensemble and symphony orchestra. (This performance was postponed due to Covid-19.)
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Digital Photography
+        level: 98%
+
+      - name: Adobe Lightroom
+        level: 90%

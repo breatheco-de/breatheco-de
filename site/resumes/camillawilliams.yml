@@ -1,0 +1,171 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camilla 
+    last_name: Williams
+    
+    # Define yourself in 4-5 words
+    motto: cool gal that loves code
+    
+    # focus
+    focus: Full Stack Web Dev
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Full Stack Junior Web Developer with knowledge of Html, CSS, Bootstrap
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: Camillawilliamsdu@gmail.com #optional
+    phone: 347 774 6227 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: camillawilliams
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: 
+        level: 
+
+      - idiom:
+        level:
+
+    # Interests or hobies
+    interests:
+      - item: Dancing
+
+      - item: Working Out
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor's in Business Administration
+      university: Briarcliffe College
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fbriarcliffe-college%2F&psig=AOvVaw3Fbi1N8Uf--Mb-ENBbhMRj&ust=1593951117244000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCLru3Is-oCFQAAAAAdAAAAABAP
+      time: 2005 - 2008
+      details: |
+        Studied Accounting and Business Administration
+
+    - degree: Full Stack Development Bootcamp
+      university: 4 Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2020
+      details: |
+        Full Stack Software Developer.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Auditor
+      time: 2009 - 2009
+      company: Afirm, Miami
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.glassdoor.com%2Fsqll%2F278048%2Fus-reports-squarelogo-1487869320723.png&imgrefurl=https%3A%2F%2Fwww.glassdoor.com%2FReviews%2FAfirm-Reviews-E278048.htm&tbnid=Dm0MJEXgsE325M&vet=12ahUKEwjf1MqK8bTqAhXtQzABHbhgB_cQMygAegUIARCXAQ..i&docid=rd2zE7vTvLMYrM&w=200&h=200&q=afirm%20logo&ved=2ahUKEwjf1MqK8bTqAhXtQzABHbhgB_cQMygAegUIARCXAQ
+      details: |
+          - Individually Scheduling appointments with clients
+          - Submitting projects via web-portal and through the company’s auditing software 
+          - Contacting clients and communicating via phone, email, and face to face discussions 
+          - Examining commercial businesses’ payroll and tax records 
+          - Evaluating operational practices 
+          - Adhering to customer requirements and quality standards 
+
+    - role: Auditor
+      time: 2008 - 2009
+      company: See Level, Hx
+      # optional
+      company_logo: https://www.seelevelhx.com/wp-content/uploads/2018/02/seelevel-logo.png
+      details: |
+          - Conducting surveys of locations and surrounding areas to validate location accuracy for the company google.
+
+    - role: Auditor
+      time: 2017 - 2018
+      company: Rodriguez, Trueba, and CO., PA,
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          - Testing of internal controls including disbursements, payroll, cash receipts, journal entry testing and purchasing and procurement. 
+          - Preparing financial statements for government single, and nonprofit audits 
+          - Performed accounting and audit research and address issues encountered during fieldwork 
+          - Searched  for unrecorded liabilities by examining invoices and cancelled checks to ensure liabilities were reasonably recorded with the fiscal year 
+          - Successfully completed audit fieldwork in an organized and efficient manner 
+          - Use of ProSystem fx Engagement  
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Team Website
+    assignments:
+      - title: Website
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template"
+
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A simple postcard."
+
+      - title: Instagram Photofeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A mock version of a photofeed on Instagram"
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A replica of an instagram post."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 50%

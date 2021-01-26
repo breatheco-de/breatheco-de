@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carmina
+    last_name: Adame
+    
+    # Define yourself in 4-5 words
+    motto: When life hands you lemons, make lemonade. 
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      •	Experienced with analyzing, organizing and streamlining practices to help increase overall efficiency and productivity
+      •	Implements software and hardware, and performs basic IT troubleshooting
+      •	Proficient with various operating systems such as Windows and Mac OS as well as with software such as Microsoft Office (Outlook, Word, Excel, PowerPoint, Skype and OneNote), Google Suite (Docs, Sheets and Slides) QuickBooks and Oracle  
+      •	Very computer savvy  
+      •	Types 60 WPM
+      •	Fluent in English and Spanish
+      •	Problem solver; highly organized and detail oriented 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: carmi.adame@hotmail.com #optional
+    phone: 813 455 1167 #optional
+    website: asd.com #optional
+    linkedin: willsetitup #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Carmi1234
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Salsa Dancing
+
+      - item: Playing Sports
+
+      - item: Trying new cuisines
+
+# Your previous education
+education:
+    - degree: BSc in Business Administration
+      university: University of Arizona
+      # optional
+      time: 1996 - 2000
+      details: |
+        I studied business administration with concentration in marketing  
+# Your previous job experiences or volunteer
+experiences:
+    - role: IT and Finance Manager
+      time: 2010 - Present
+      company: A. Oliveros Transportation, Miami, FL
+      # optional
+      details: |
+        •	Established and reconfigured the company’s computer network by forming a centralized location with a server backup system and application software ensuring efficient communication flow, a company filing system, reservation database and proper use of bookkeeping software.
+        •	Oversaw company website design and functionality, established a merchant account for online customer payment options and implemented an online reservation request form; significantly increased operations, sales and cashflow.
+        •	Performed bookkeeping and managed company finances by monitoring accounts receivable and accounts payable transactions; oversaw a total budget of over $2million. 
+        •	Actively communicated and advised company owners on issues and offered solutions; served as a business consultant to assist with company growth and expansion.
+          
+    - role: Installation Resources Coordinator
+      time: 2012 - 2015
+      company: Power Design, Inc. Petersburg, FL 
+      # optional
+      details: |
+        •	Collaborated with company IT Department to streamline information flow and efficiently execute contracts using an e-signing software; reduced turnaround time by over 70%.
+        •	Prepared and reviewed over 25 Schedule of Values (SOV) packages for long term electrical contracting projects; responsible for communicating with Project Managers and Superintendents for payment to subcontractors in 2 of 3 regions.
+        •	Gathered and analyzed subcontractor payment reports for company CFO; provided feedback and identified existing issues.
+        •	Reviewed, approved, and processed over 70 bi-weekly invoices for payment
+
+    - role: Computer Technician/Sales
+      time: 2009 - 2010
+      company: Best Buy, Killeen, TX
+      # optional
+      details: |
+        •	Assisted over 200 customers monthly; provided initial customer service, product check- in, and ran basic tests to determine product needs and service solutions. 
+        •	Performed computer related installations and upgrades; troubleshot operating systems and internet connection issues; installed computer related devices such as hardware, software, and peripherals; researched issues that were not common hardware and software problems.
+        •	Accurately handled and maintained sensitive customer information in accordance with store privacy policy.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%

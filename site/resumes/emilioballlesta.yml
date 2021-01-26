@@ -1,0 +1,162 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Emilio
+    last_name: Ballesta
+    motto: Psychologist, Data Science and Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGAXB1xEM5JgQ/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=aZEw0FSsJvvmhRsMR8qvlw9cSehTv_B3CY_G8L3ix6w
+    summary: |
+      Psychologist from Universidad Católica de Chile, with 4 years of experience in HR consulting.
+      Nowadays studying Fullstack Developer at 4GeeksAcademy and finishing a Master 
+      in Quantitative and Qualitative Methods for Social Research. Skills include analytics with statistic 
+      software (SPSS) and Python, consultancy, organizational development, and lately a series of Front-end
+      technologies. 
+
+    # Sidebar links
+    email: efballes@uc.cl
+    phone: +56 9 93232898
+    website: linkedin.com/emilioballesta #do not add http://
+    linkedin: emilioballesta
+    github: emilioballlesta
+    twitter: 'emilioballesta'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Go out with friends
+
+      - item: Reading
+
+      - item: Beach
+
+      - item: Playing videogames
+
+      - item: Learning
+
+education:
+    - degree: Fullstack Developer
+      university: 4Geeks Academy
+      time: 2020 - Present (in final project)
+      details: |
+
+    - degree: Master at Quantitative and Qualitative Methods for Social Research
+      university: Universidad Diego Portales
+      time: 2018 - Present (in thesis)
+      details: |
+
+    - degree: Psychology
+      university: Pontificia Universidad Católica de Chile
+      time: 2010 - 2015
+      details: |
+
+experiences:
+    - role: Consultant
+      time: 2015 - Present
+      company: eb | EVIDENCE BASED CONSULTING
+      details: |        
+        eb | CONSULTING is a company that provides Human Resources services to other companies, 
+        which seeks to build organizational solutions based on expert processing of the best available evidence. 
+        In this company, I have worked both as a consultant on different HR issues (training, climate, 
+        organizational studies using statistics, between others), and also developing HR online platforms in the 
+        role of designing the wireframes, thinking the functionalities of the platform, and testing it (QA) before it goes to the final client. 
+        Thanks to my experience in this company I discovered that programming is my pasion, and I can't wait to look for new growing opportunities in this area.
+
+    - role: Organizational Psychologist Intership
+      time: 2014 - 2015
+      company: Bci
+      details: |        
+        Bci is a chilean bank which seeks to give quality financial services to its clients with security and closeness.
+        In this bank, I have worked as an Intership of the Human Resources Department, according to the University requirements to have my Psychologist title.
+        As part of my intership, I participated in the management of the first cycle of workshops 
+        for the Leadership Academy, and supported various recognition programs of the bank. I also participated 
+        in the development of a "Manager Kit" which consisted of a set of tools intended to support 
+        and recognize the newly managers of the bank. 
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/emilioballlesta/postcard.git"
+        tagline: "Initial project of generating a postcard only using html and CSS."
+
+      - title: Instagram photofeed
+        link: "https://github.com/emilioballlesta/Instagram_photofeed_bootstrap.git"
+        tagline: "Using bootstrap to reproduce an instragram photofeed."
+
+      - title: Random card generator
+        link: "https://github.com/emilioballlesta/random-card-generator.git"
+        tagline: "App that picks a random card from the french playing card deck. Created with html, CSS and JS."
+
+      - title: Traffic light
+        link: "https://github.com/emilioballlesta/traffic-light.git"
+        tagline: "Responsive traffic light with React and JS, with a click indicates red, yellow or green light."
+
+      - title: Rick and Morti API
+        link: "https://github.com/emilioballlesta/rick-and-morty-API.git"
+        tagline: "App created with React that uses the Rick and Morty API to generate views."
+
+      - title: Instagram data modeling
+        link: "https://github.com/emilioballlesta/instagram-data-modeling.git"
+        tagline: "Instragram modeling using UML and Python."
+
+      - title: Final project board
+        link: "https://github.com/emilioballlesta/4Geeks-academy-project/projects/1"
+        tagline: "In 4Geeks, we have to deliver a final project to get the Fullstack certificate. In this project it's the final project initial design using user stories and wireframes."
+
+skills:
+    toolset:
+      - name: Research
+        level: 100%
+
+      - name: Orgnizational Development
+        level: 100%
+
+      - name: Statistics Analysis and Software (SPSS)
+        level: 80%
+
+      - name: Consultancy and Costumer management
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 70%
+      
+      - name: React
+        level: 60%
+
+      - name: Python
+        level: 50%
+      
+      - name: R
+        level: 50%
+
+      - name: Agile methodologies
+        level: 50%
+
+      - name: GIT
+        level: 50%
+      
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: Ruby
+        level: 30%

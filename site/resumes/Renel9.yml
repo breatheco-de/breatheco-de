@@ -1,0 +1,95 @@
+template: "online-cv"
+skin: "green"
+basic_info: 
+  avatar: "https://randomuser.me/api/portraits/women/24.jpg"
+  email: r09pott@gmail.com
+  first_name: Renel
+  focus: "Learning to become a Full Stack Developer and growing my network within Miami. Expaning my knowledge as much as possible to start my own company, and/or do consulting work for firms throughout the US."
+  github: Renel9
+  interests: 
+    - 
+      item: "Basketball, Football, Track"
+    - 
+      item: Science/Tech/Space
+    - 
+      item: "Traveling/Food/playing with my Dog"
+  languages: 
+    - 
+      idiom: English
+      level: Native
+    - 
+      idiom: Spanish
+      level: Somewhat
+  last_name: Potter
+  linkedin: "https://www.linkedin.com/in/renel-potter-903930139/"
+  motto: "I'm ambitious, intelligent and fun."
+  phone: "518 596 0900"
+  stack-overflow: ~
+  summary: "I began an Accounting career while still in High School thanks to our \"May Project\" progam. This allowed all seniors to skip school for the month of May and get an internshhip instead. At the completion of my internship, I was offered a position as the Ar/Ap clerk. I contnued for 2 years while going to college, before moving into a Budget Analyst role for the NYS Department of Health. Following a brief stint there, for about a year, I was lucky enough to accept an offer as an Accoutning Manager for a privately owend company in NY. I completed my degree in Finance, while working as an Accounting Manager over the next 2+ years; and eventually saved enough money to quit and move to Miami. Upon arriving in Miami almost 2 years ago, I accepted another accounting Job for a public company. A year later, I decided I'd had enough of Accounting and took a job with Robert Half as the Client Service Director for the Southeast region. While working at Robert Half is when I decided to dive into coding/programming and really diversify my skillset."
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "BS in Finance"
+    details: "I actually began at Siena as a Biology student determined to enter Med School and become an Anesthesiologist. However, I was forced to start working full time to support myself, and taking classes part time. Siena College is a small private school, so they weren't able to offer a part time Biology Degree. This forced me to switch my degree to either Finance or Accounting if I wanted to finish there. So I took Finance because it seemed more interesting at the time."
+    time: "2012 - 2015"
+    university: "Siena College"
+experiences: 
+  - 
+    company: "Robert Half Int'l"
+    details: "My primary repsonsibilities are to generate new business, and meet with the decision makers of companies to decide how best we can assist them in completing complex projects within Finance, Accounting, Audit and Tax."
+    role: "Client Service Director"
+    time: "2018 - Present"
+  - 
+    company: "AMG, Miami FL"
+    details: "I was an accountant overseeing the AR/AP departments, and also resonsibile for assiting with acquisitions and the transition of Financial data from the new company to ours. In addition, I was responsible for handling the banks, reconciliations, and payments both coming/going."
+    role: "Accounting Supervisor"
+    time: "2016 - 2018"
+  - 
+    company: "Amazon, London"
+    details: "Handle all Accounting/Finance responsibilities including taxes for both locations (NY and NV). In addition, oversaw a team of 5 and reported directly to the President Owner. Handled all banking and AR/AP, collections/credit, and audit duties."
+    role: "Accounting Manager"
+    time: "2014 - 2016"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: N/A
+skills: 
+  toolset: 
+    - 
+      level: 25%
+      name: "Python & Django"
+    - 
+      level: 60%
+      name: "Javascript & jQuery"
+    - 
+      level: 25%
+      name: Angular
+    - 
+      level: 75%
+      name: "HTML5 & CSS"
+    - 
+      level: 25%
+      name: "Ruby on Rails"
+    - 
+      level: 25%
+      name: "Sketch & Photoshop"
