@@ -1,0 +1,10 @@
+--- 
+basic_info: "Personal info"
+education: "Previous studies."
+experiences: "Previous jobs."
+projects: "Describe the projects you've built as a developer."
+publications: "Any articles you have published."
+skills: "List your skills with a percentage of expertise."
+theme: "You can choose a theme and skin colors."
+template: "online-cv"
+skin: "orange"
