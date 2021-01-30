@@ -1,0 +1,188 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yun-Joung
+    last_name: Ji
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Full stack development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Una persona que acaba de matricularse en un instituto y busca tener un buen trabajo 
+      donde pueda aumentar sus conocimientos acerca del area informatica,
+      logrando asi poder ayudar a crecer la empresa de manera professional y
+      asi tambien crecer como ser humano internamente
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: yunjoungji@gmail.com
+    phone: 56 9 6840 3976
+    website: https://virtualex.cl/
+    linkedin: https://www.linkedin.com/in/yunjoung-ji-90692a107/?originalSubdomain=cl #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yun-joung
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Advance
+      - idiom: English
+        level: Advance
+      - idiom: Korean
+        level: Native
+ 
+
+    # Interests or hobies
+    interests:
+      - item: Karate do 
+      - item: Viaje
+
+# Your previous education
+education:
+    - degree: MSc, Strategic Management of Projects 
+      university: UCL (University College London)
+      # optional
+      university_logo: 
+      time: 2015 - 2160
+      details: |
+education:
+    - degree: MA, Fine Arts 
+      university: Hongik University
+      # optional
+      university_logo: 
+      time: 2008 – 2010 
+      details: |
+education:
+    - degree: Associate’s degree, Design and Visual Communication 
+      university: Seoul Institute of Arts 
+      # optional
+      university_logo: 
+      time: 2003 – 2006 
+      details: |
+# Your previous job experiences or voluntier
+experiences:
+    - role: Gerente General 
+      time: 2020 - Present
+      company: VirtualEX
+      # optional
+      company_logo: 
+      details: |
+        - Emprendimiento B2B enfocado en marketing basado en realidad virtual y simulación 3D.
+        - Gestión comercial para desarrollar cartera de clientes en el segmento inmobiliario e industrial.
+        - Coordinación operativa con proveedores coreanos y americanos para ejecución de los servicios
+
+    - role: Investigadora de Mercado 
+      time: 04. 2018 – 06.2019 
+      company: Oficina Comercial del Gobierno de Corea (Kotra)
+      # optional
+      company_logo:
+      details: |
+        - Investigación de mercados, tendencia, importación de los productos (procesos y reglas de importación, volúmenes anuales y comportamiento de compra, etc.) en Chile 
+        - Monitoreo de tendencias políticas y macroeconómicas en Chile.
+        - Elaboración de reporte anual Información de País (Chile 2018~2019)
+        - Gané el premio del mejor reporte en el segundo semestre de 2018 entre las todas oficinas del mundo
+        - Web de la Compañía (http://www.chile.kotra.or.kr , http://www.kotra.or.kr)
+
+    - role: Especialista en Gestión de Marcas y Comunidades 
+      time: 04. 2017 – 03.2018 
+      company: Authentic Brand Trades
+      # optional
+      company_logo: 
+      details: |
+        - Construcción de la estrategia de las marcas de los productos (según valores corporativos)
+        - Rediseño de la categorización de productos 
+        - Desarrollo de contenidos y para la estrategia de marketing online
+        - Jefe de proyecto para el desarrollo del nuevo e-commerce (desarrollo de sitio web con wordpress, instalación de plugins y creación de modo de pago online, administración de seguridad, etc)
+        - Ejecutar publicidad online (SEO) vía Google
+        - Web de la Compañía (http://abtrades.cl)
+
+    - role: Jefe de Promoción de Marcas Online 
+      time: 10. 2012 – 02. 2017 
+      company: Miri DIH
+      # optional
+      company_logo: 
+      details: |
+        - Análisis de datos para comprender las tendencias del mercado objetivo.
+        - Planificar e implementar el desarrollo de nuevos productos incluyendo desarrollo de contenidos y estrategia de comercialización. 
+        - Planificar y publicar el Magazine on/offline, SNS (Social Network Services), y Blog basado en estrategias de marketing O2O (Online to Offline).
+        - Ejecutar publicidad online (SEO) vía Google y buscadores locales (Incremento de 200% en cifras de venta).
+        - Web de la Compañía (http://www.bizhows.com, http://www.miridih.com)
+      - role: Especialista en Gestión de Marcas 
+      time: 10. 2010 – 10. 2012 
+      company: Hyundai Development Company (HDC) 
+      # optional
+      company_logo: 
+      details: |
+        - Alinear a los proveedores del área en el proyecto de actualización de la marca corporativa
+        - Establecer las directrices corporativas para construir una identidad de marca coherente
+        - Publicación del reporte anual y el reporte de sustentabilidad de la compañía
+        - Planificar y dar soporte en campañas corporativas para promover la identidad de marca entre los empleados
+        - Supervisar la aplicación de las directrices corporativas de marca en terreno 
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: InstagramFULL
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: FormHTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: InstagramFeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Generador de excusas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Javascript 
+        level: intermedio
+
+      - name: HTML5 & CSS
+        level: Avance
