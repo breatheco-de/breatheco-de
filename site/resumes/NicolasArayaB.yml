@@ -59,6 +59,11 @@ experiences:
       company: HarvardX
       details: CS50's Introduction to Computer Science, learning C, Python, SQL, HTML, CSS, JS, Flask
 
+    - role: Flight Attendant
+      time: 2014 - Present
+      company: LATAM Airlines
+      details: Working as part of the cabin crew on international flights from Chile to USA, Spain, Italy, Australia, New Zeland among others
+
 projects:
     intro: >
       You can review some of my projects on github from The Odin Project and 4GeeksAcademy courses!
