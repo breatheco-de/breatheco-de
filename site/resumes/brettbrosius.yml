@@ -1,0 +1,94 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Brett
+    last_name: Brosius
+    
+    # Define yourself in 4-5 words
+    motto: Cool dude learning to code
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am in the process of learning to code with 4Geeks Academy. I previously worked in sales but I have committed to a career change, and I'm now doing what I am passionate about.
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: brettbrosius11@gmail.com
+    phone: 555-555-5555 #optional
+    linkedin: linkedin.com/in/brettbrosius/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: brettbrosius
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Playing Video Games
+
+      - item: Playing Sports (Basketball, Golf, Skateboarding)
+
+# Your previous education
+education:
+    - degree: Bachelor of Science in Bussiness Administration
+      university: University of Central Florida
+      time: 2016 - 2020
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Regional Account Manager
+      time: 2020 - 2021
+      company: Elysium Tiles, Florida
+      # optional
+        
+
+# Your project portfolio
+
+assignments:
+      - title: Instagram photo feed (bootstrap)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Random Excuse generator (javascript)
+        tagline: "Randomly generate excuses using plain javascript and html"
+      - title: Random Card Generator
+        tagline: "Randomly generate a playing card using plain javascript and html"
+
+skills:
+    toolset:
+      - name: HTML, CSS & Bootstrap
+        level: 75%
+
+      - name: Javascript 
+        level: 50%
+
+      - name: React
+        level: 25%
+
+      - name: Nodejs-express
+        level: 25%
+
+      - name: Mongodb
+        level: 25%
