@@ -82,19 +82,25 @@ assignments:
 
 skills:
     toolset:
-      - name: HTML, CSS & Bootstrap
+      - name: HTML, CSS, Bootstrap
         level: Intermediate
 
       - name: Javascript 
         level: Intermediate
 
       - name: React
-        level: Basic
+        level: Intermediate
 
-      - name: Nodejs-express
-        level: Basic
+      - name: Python
+        level: Intermediate
 
-      - name: Mongodb
-        level: basic
+      - name: Flask
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: MySql
+        level: Intermediate
 
       
