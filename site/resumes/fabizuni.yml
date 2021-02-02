@@ -1,0 +1,65 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Fabiola
+  last_name: Zúñiga Rojas
+
+  # Define yourself in 4-5 words
+  motto: Proactive, Tenacious, Sociable, Hard-working
+
+  # focus
+  focus: Learning full stack developer
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Enthusiastic full stack developer student. I was woorking as customs administration for 6 years, but my passion always have been the technology.  
+
+    Second paragraph if required.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar:
+
+  # Contact Information
+  email: fabiola.ucr@gmail.com
+  phone: 506 8741-2481
+  website:
+  linkedin:
+    Fabiola Zuniga
+    # This github username will be use to generate your public profile URL like this: https://github.com/Fabizuni
+  github: fabizuni
+  twitter: FabiolaZigaR1
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: English
+      level: Intermediate
+
+    - idiom: Spanish
+      level: Native
+
+    # Interests or hobies
+  interests:
+    - item: Travel
+
+    - item: Sport (Hiking, Swimming, Running)
+
+    - item: Cooking
+
+  education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2021
+      details: -HTML5
+        -CSS
+        -Bootstrap
+        -Javascript
+        -React
