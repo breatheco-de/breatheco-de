@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Zachary
+    last_name: Kurkin
+    
+    # Define yourself in 4-5 words
+    motto: I create solutions.
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am an enthusiastic Computer Science student seeking work experience as a software engineer intern. I've completed my Associates in Arts at Miami Dade College within one year and managed to graduate with the highest honors.
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: zkurkin@gmail.com
+    phone: 305-458-9444 #optional
+    # linkedin: linkedin.com/in/alexsoncoelho/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ZKurkin
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - #idiom: Spanish
+        #level: Native
+
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      #- item: Playing Guitar
+      - item: Football
+
+      - item: Fishing
+
+      - item: Exercicing
+
+# Your previous education
+education:
+    - degree: Computer Science (A.A.)
+      university: Miami Dade College
+      time: 2019 - 2020
+    - degree: Computer Science (B.S.)
+      university: Florida International University
+      time: 2021 - 2022 (Expected)
+# Your previous job experiences or voluntier
+
+# 
+# experiences:
+    # - role: Full stack developer assistant
+      # time: 2019 - Present
+      # company: Stable Factory, Miami
+      # optional
+      # details: |
+        # Soclubtv.com Platform Design and Platform Development: Helped develop a social media platform with hundreds of concurrent users to engage with regular influencer-made shows. It had a realtime chat, e-commerce integration and more | Angular, NodeJS, MongoDB
+        # RewardsWeb Platform Development Front end  Javascript/HTML/CSS 
+        # Authentic Construction full website Front end  Javascript/HTML/CSS
+# 
+        
+
+# Your project portfolio
+
+#assignments:
+ #     - title: Instagram photo feed (bootstrap)
+  #      # optional
+   #     project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #    link: "#hook"
+     #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      #- title: Excuse generator (javascript)
+       # tagline: Randomly generate excuses using plain javascript and html
+
+skills:
+    toolset:
+      - name: HTML, CSS & Bootstrap
+        level: Intermediate
+
+      - name: Javascript 
+        level: Basic
+
+      # - name: React
+        # level: Basic
+
+      # - name: Nodejs-express
+        # level: Basic
+
+      - name: C++
+        level: Intermediate
+      
+      - name: Java
+        level: Intermediate
+      
+      - name: Python
+        level: Intermediate
+
+      
