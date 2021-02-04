@@ -19,13 +19,13 @@ basic_info:
 
     
    
-    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+    avatar: https://pbs.twimg.com/profile_images/1167410193606565888/tuIsaPxg_400x400.jpg
 
     
     email: finolweb@gmail.com
     # phone: 954 297 3940 
     # website: asd.com 
-    linkedin: https://www.linkedin.com/in/mark-mulville-5a1b2a85/
+    linkedin: https://www.linkedin.com/
     
     
     github: jafinol
@@ -151,20 +151,19 @@ experiences:
 #         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
 #         link: "#"
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-# skills:
+ #skills:
 #     toolset:
 #       - name: Python & Django
 #         level: 98%
 
 #       - name: Javascript & jQuery
-#         level: 98%
+#         level: 60%
 
 #       - name: Angular
 #         level: 98%
 
 #       - name: HTML5 & CSS
-#         level: 95%
+#         level: 60%
 
 #       - name: Ruby on Rails
 #         level: 85%
