@@ -15,9 +15,7 @@ basic_info:
     
     
     summary: |
-      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer. 
-      I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
-      For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
+     I have had an interest in web development. So I decided to jump in and take on web development head on. 
 
     
    
@@ -38,15 +36,14 @@ basic_info:
     
     languages:
       - idiom: English
-        level: Native
+        level: High
 
     
     interests:
-      - item: Riding bmx
+      - item: Technology
 
-      - item: Health & wellness
+      - item: NFL
 
-      - item: Suring
 
 
 
@@ -68,9 +65,9 @@ basic_info:
 
 
 experiences:
-    - role: Professional bike rider 
-      time: 2002 - Present
-      company: Profile Racing
+    - role: IT Support 
+      time: 2018 - Present
+      company: CCLS Miami
     
       # details: |
       #     - Confirms insurance coverage. Determines necessity for pre-authorization and obtains authorization for scheduled procedures.
