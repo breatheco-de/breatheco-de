@@ -4,8 +4,8 @@ skin: "orange"
 basic_info:
 
 
-    first_name: Mark
-    last_name: Mulville
+    first_name: Jose
+    last_name: Finol
     
     
     motto: Dedication, learning, caring, helping, active
@@ -24,15 +24,15 @@ basic_info:
     avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
 
     
-    email: 321mulville@gmail.com
+    email: finolweb@gmail.com
     # phone: 954 297 3940 
     # website: asd.com 
     linkedin: https://www.linkedin.com/in/mark-mulville-5a1b2a85/
     
     
-    github: 84mulville
+    github: jafinol
     
-    twitter: 'MarkMulville' 
+    twitter: 'jafinolc' 
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     
