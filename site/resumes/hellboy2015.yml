@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Julio
+  last_name: Avila
+  motto: First learn, and THEN do your best.
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  summary: |
+    Passionate about my family, job and hobbies. Have been working with professional
+    from services and IT from the past 13 years and look forward to continue developing my skills.
+
+  # Sidebar links
+  email: julio_exp@outlook.com
+  phone:
+  website: #do not add http://
+  linkedin: https://www.linkedin.com/in/julio-avila-a9004856/
+  github: hellboy2015
+  twitter: julioavalon2015
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Advance
+
+    - idiom: Portuguese
+      level: Intermediate
+
+  interests:
+    - item: Soccer
+
+    - item: Video Games
+
+    - item: Cooking
+
+education:
+  - degree: Systems Engineering
+    university: UNADECA University
+    time: 2008 - Ongoing
+    details: |
+
+experiences:
+  - role: IT Specialist
+    time: Nov 2011 - May 2012
+    company: TeleTech
+    details: |
+      - Installation, configuration, administration, and repair of personal computers, hard phones, and laptops.
+      - Setting up wireless and wired networks.
+      - Create, modify, and remove profiles on active directory.
+      - Provide accurate and timely support in and off-site operations.
+      - VLAN management.
+
+  - role: GWFM Specialist I
+    time: Jul 2012 - Jul 2013
+    company: TeleTech
+    details: |
+      - Understand and improve the key success metrics associated with workforce management goals.
+      - Determine growth and reductions based on changing forecasts and needs.
+      - Escalate staffing issues as appropriate.
+      - Handle recommendations for staffing and scheduling.
+      - Control licenses, vacation, holidays.
+      - Real-time monitoring and control over team schedules.
+
+  - role: Web Developer
+    time: Jul 2013 - Mar 2014
+    company: Freelance
+    details: |
+      Front-End and Back-End development using HTML, CSS, JavaScript, jQuery, PHP, MySQL, and Responsive Design technologies.
+  
+  - role: Senior Account Manager
+    time: Mar 2014 – Jan 2018
+    company: Cheetah Digital
+    details: |
+      - Manage, supervise, and deploy email marketing campaigns, while maintaining an excellent relationship with our clients.
+      - Debugging HTML and CSS code for massive campaign deployments.
+  
+  - role: Site Reliability Engineer
+    time: Jan 2018 – Present
+    company: Cheetah Digital
+    details: |
+      - Provision new clients into the company's platform and provide continued support in our company's servers using technologies like Linux, Windows servers, AWS, Kubernetes.
+      - Setup delegated domains and subdomains to work in the company's DNS servers and architecture.
+      - Enable different services and features provided by the company's platform.
+
+projects:
+  intro: #
+
+  assignments:
+    - title: #
+      link: #
+      tagline: #
+
+skills:
+  toolset:
+
+    - name: JavaScript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 75%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: C#
+      level: 75%
