@@ -51,16 +51,16 @@ projects:
     assignments:
       
       - title: Excuse Generator
-        link: https://github.com/smorales95/ExcuseGenerator
+       
         tagline: "Random excuse generator.   --"
              
 
       - title: Instagram Bootstrap
-        link: https://github.com/smorales95/Instagram-bootstrap
+       
         tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
 
       - title: Postcard
-        link: https://github.com/smorales95/Poscard
+     
         tagline: "A responsive website template designed to input information on a postcard.   --"
 
 skills:
