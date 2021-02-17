@@ -1,0 +1,152 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Heidys
+  last_name: Nunez
+
+  # Define yourself in 4-5 words
+  motto: Collaborative person
+
+  # focus
+  focus: Full Stack Developer
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Software engineer, capable to study new technologies and functionalities. Self-motivated, well organized, with critical attention to detail and deadlines.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar:
+
+  # Contact Information
+  email: heidysnunez15@gmail.com #optional
+  phone: #optional
+  website: #optional
+  linkedin: www.linkedin.com/in/heidysnj #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: heidysnj
+
+  twitter: "@HeidysNJ" #optional
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Medium
+
+  # Interests or hobies
+  interests:
+    - item: Programming
+
+# Your previous education
+#education:
+#   - degree: Computer Science
+#   university: Universidad Tecnologica de La Habana "Jose Antonio Echeverria", CUJAE
+    # optional
+#   university_logo: https://cujae.edu.cu/
+#  time: 2008-2013
+
+# - course: FullStack Web Developer
+#  academy: 4Geeks Academy
+    # optional
+# university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#time: 2021-2021
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: Computer Engineer/ Software Quality Assurance
+    time: 2016 - 2018
+    company: Conoce Cuba, La Habana Cuba
+    # optional
+    company_logo: https://conocecuba.com/
+    details:
+      - Territorial Manager, Responsible for publication, edition of business, events and offers contained in the Platform.
+      - Quality Assurance of Android Application.
+      - Successfully completed all major projects on time despite many last-minute changes and revisions to program and system architectures.
+      - Partnered with developers to create comprehensive testing solution based on application architecture, environment, and technical design.
+      - Developed test plans and documented detailed test cases to cover all levels of testing and requirements including functional, integration, regression and system.
+      - Conducted testing on multiple software versions and supported platforms. Worked closely with developers during test execution to ensure proper communication of defects.
+
+  - role: Computer Engineer
+    time: 2013 - 2016
+    company: Ministry of Justice (Minjus)
+    # optional
+    details:
+      - Provided support to systems such as Civil Registry, Wills Registry, MINJUS Website and Intranet.
+      - Database Manager.
+      - Created and executed automated software test plans, cases and scripts to uncover, identify and document software problems and their causes.
+      - Recognized for developing excellent test plans/scripts and rapidly discovering defects.
+      - Conducted formal and informal product design reviews throughout the software development lifecycle to provide input on functional requirements, product designs, schedules and potential issues. Leveraged developer background to communicate effectively with software design team, quickly gaining their respect and becoming a valued, “go-to” team member on challenging test cases.
+      - Responsible for day-to-day QA activities such as testing new requirements, running regression Testing, logging defects, updating QA checklist and reporting daily progress to direct managers.
+
+  - role: SQA Tester
+    time: 2010 - 2012
+    company: ERP-Cuba Project
+    # optional
+    details: |
+      - The implementation of test cases and tests software.
+      - Software quizzes to small and large scale.
+      - Knowledge in tools, such as Visual Paradigm, Rational Rose, SQL Server, PGAdmin, ExtJs, Apache.
+      - Knowledge About all types of software testing such as usability testing, security testing, integration testing, components interfaces testing etc.
+
+# Your project portfolio
+projects:
+  assignments:
+    - title: Postcard
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/heidysnj/Postcard.git"
+      tagline: "First project with HTML"
+
+    - title: Instagram Photo Feed
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/heidysnj/InstagramPost.git"
+      tagline: "First project with CSS"
+
+    - title: Payment
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/heidysnj/PaymentBootstrap.git"
+      tagline: "First project with Bootstrap"
+
+    - title: Instagram Post with Bootstrap
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/heidysnj/InstagramPostBootstrap.git"
+      tagline: "Project with Bootstrap y CSS"
+
+skills:
+  - name: Java
+    level: 100%
+
+  - name: HTML5 & CSS
+    level: 90%
+
+  - name: Bootstrap 5.0
+    level: 85%
+
+toolset:
+  - name: Eclipse & Netbeans
+    level: 95%
+
+  - name: PostgreSQL
+    level: 95%
+
+  - name: Gitpod
+    level: 85%
+
+  - name: GitHub
+    level: 75%
