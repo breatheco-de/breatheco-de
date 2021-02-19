@@ -31,6 +31,8 @@ basic_info:
     email: mazuga92@gmail.com #optional
     phone: +50686971990 #optional
     linkedin: https://www.linkedin.com/in/marco-z%C3%BA%C3%B1iga-ugalde/ #optional
+    twitter: https://twitter.com/Marco40669826
+
     
     #
     # ******** IMPORTANT *******
@@ -74,6 +76,13 @@ education:
           - Cum Laude
           - Minor in Business
 
+experiences:
+    - role: Coordinator
+      time: 2016 - 2020
+      company: Yakukua
+      # optional
+      details:
+        Crear ideas innovadoras basado en la triple utilidad.
 # Your project portfolio
 projects:
     intro: >
