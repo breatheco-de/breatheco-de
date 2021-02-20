@@ -1,3 +1,7 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 template: "online-cv"
 skin: "blue"
 
@@ -57,7 +61,7 @@ education:
       # optional
       university_logo: https://documentos.una.ac.cr/bitstream/handle/unadocs/1684/UNA1LINE.JPG
       time: 2015-2019
-      details: |
+      details: 
 
 # Your previous job experiences or voluntier
 experiences:
@@ -71,13 +75,6 @@ experiences:
           Además de realizar mantenimiento a sistemas en winform.  
 
 # Your project portfolio
-projects:
-    intro: >
-       En proceso de agregar........
-
-    assignments:
-      - title: Velocity
-        # optional
 
 skills:
     toolset:
