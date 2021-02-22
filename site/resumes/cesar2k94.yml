@@ -15,7 +15,11 @@ basic_info:
     
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
+    summary: Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
       
     
     
@@ -66,7 +70,7 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: IT Coordinator
+    - role: 
       time: 
       company: 
       # optional
