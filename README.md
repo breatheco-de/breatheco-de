@@ -5,25 +5,11 @@
 		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
 </p>
 
-<<<<<<< HEAD
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
-=======
+
 <h1 align="center">Welcome to 4Geeks Academy</h1>
->>>>>>> 3fd31dcf55b8362092b33414b2b1aa099b3d0821
 
 <h3 align="center">&lt;\ Time To Code&gt;</h3>
 
-<<<<<<< HEAD
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/web-docs/static/hello-html-intro.jpg?raw=true)](https://youtu.be/dfbDCMu_p-0)
-
-## What to do next?
-
-Create a `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running web-server using the following command:
-
-```sh
-$ pip3 install flask && python3 server.py
-```
-=======
 <p align="center">
   <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/👫-+1134_students-1d2935.svg?style=flat" alt="Students">
