@@ -1,0 +1,69 @@
+--- 
+basic_info: 
+  avatar: ""
+  email: "alvarocr21@gmail.com"
+  first_name: Alvaro
+  focus: "Learning to become a Full Stack Develope. Expaning my knowledge as much as possible to change my career and knowledge."
+  github: alvarocr21
+  interests: 
+    - 
+      item: "Music, Sooccer, Track"
+    - 
+      item: Metal/Networking/Programming
+    - 
+      item: "Traveling/Food/read books"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: B1
+  last_name: Solano
+  linkedin: "https://www.linkedin.com/"
+  motto: "Patient, fun"
+  phone: "+506 88405049"
+  stack-overflow: ~
+  summary: "I think the best way to impress is to speak your truth. 
+      And the truth is that when I finished the university I was not prepared for the computer science career, i
+      t took 10 years to understand that you do not learn computer science in the classroom, you must like programming, 
+      you must be passionate about programming, if you comply with this you do not need a title, you have something more valuable. Your brain."
+  twitter: ~
+  website: ~
+# Your previous education
+education:
+
+    - degree: Full Stack
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2021
+      details: |
+        I took the program starting with the basics of creating web pages, as I progressed,I managed to learn about Javascript and frameworks widely used nowadays.
+    
+    -
+# Your previous job experiences or voluntier
+experiences:
+
+    - role: Developer
+      time: 2018 - 2021
+      company: Grupo Argus
+      company_logo: https://sistema.grupoargus.co.cr/LogosClientes/Argus_logoGA.png
+      details: |
+       Support, development.
+       
+skills:
+    toolset:
+      - name: Javascript 
+        level: 40%
+        
+      - name: C#
+        level: 40%
+
+      - name: PHP
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Sql
+        level: 60%  
