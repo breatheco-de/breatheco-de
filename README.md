@@ -40,7 +40,7 @@
 
 ## About
 
-4Geeks its a big company that feels like a small company, everyone is accesible, we like human contact, we belive in tailored education, without quitting your job, and 100% focused in code: We are the Teacher Jedy's of Code.
+4Geeks is a big company that feels like a small company; everyone is accessible, we like human contact, we believe in tailored education, without quitting your job, and 100% focused on code: We are the Teacher Jedy's of Code.
 
 ## Founders
 
@@ -51,6 +51,7 @@
 ## Awards
 
 ## Alumni
->>>>>>> 3fd31dcf55b8362092b33414b2b1aa099b3d0821
+
+
 
 
