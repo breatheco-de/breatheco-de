@@ -42,10 +42,10 @@ administracion de Redes informaticas y la defectacion y arreglos menores de equi
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Ingles
         level: Basico
 
-      - idiom: Spanish
+      - idiom: Espanol
         level: Nativo
 
     # Interests or hobies
@@ -58,7 +58,7 @@ administracion de Redes informaticas y la defectacion y arreglos menores de equi
 
 # Your previous education
 education:
-    - degree: Ing. Atomatica
+    - degree: Ing. Automatica
       university: Universidad de Oriente, Santiago de Cuba
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -69,7 +69,7 @@ experiences:
     - role: Profesora de introduccion a la progracion c++
     - role: Profesora de circuitos eletricos
       time: 2012 - 2016
-      company: Universidar de Oriente, Santiago de Cuba, Cuba
+      company: Universidad de Oriente, Santiago de Cuba, Cuba
 # Your project portfolio
 projects:
     intro: 
