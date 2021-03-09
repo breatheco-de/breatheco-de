@@ -1,0 +1,47 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Joshua
+    last_name: Marichal
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer.
+
+    
+   
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+
+    
+    email: marichaljoshua@gmail.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/joshuamarichal/
+    
+    
+    github: MarichalJosh
+    
+    #twitter: 'MarkMulville' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: C1+
+
+    
+    interests:
+      - item: Playing Basketball
+
+      - item: Video games
+
+      - item: Sleep
