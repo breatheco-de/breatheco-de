@@ -9,7 +9,7 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Bárbara
+    first_name: Barbara
     last_name: Ulloa
     
     # Define yourself in 4-5 words
@@ -30,7 +30,7 @@ basic_info:
 
     # Contact Information
     email: ulloaby@gmail.com #optional
-    phone:  + 56 937410583 #optional
+    phone:  56937410583 #optional
     website: #optional
     linkedin:  #optional
     
