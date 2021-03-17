@@ -1,0 +1,38 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Alvardo
+    
+    # Define yourself in 4-5 words
+    motto: I like learn new things.
+    
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+     I like learn new things about the world of technology.
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Contact Information
+    email: luafer95@gmail.com #optional
+    phone: 506 8670 6608 #optional
+    website: optional.com #optional
+    linkedin: optional.com #optional
+    Github: LuisAlvarado-19 
