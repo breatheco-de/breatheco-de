@@ -71,21 +71,6 @@ education:
 # Your previous job experiences or voluntier
 
 experiences:
-- role: Community Manager
-      time: 2021
-      company: World Plots, Santiago de Chile
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: 
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
  - role: Room Assistant
 
       time: 2020
