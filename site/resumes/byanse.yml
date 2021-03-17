@@ -19,7 +19,7 @@ basic_info:
     focus: developer full stack
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
+    summary: 
       In my life I have been very happy and to that same extent I have been my own executioner. What has kept me upright and with faith is the constant learning always making human revolution.
     
       Without a doubt you have to live without truce.
@@ -64,7 +64,7 @@ education:
       university_logo: 
       time: Five years
 
-      details: |
+      details: 
        The public finance career aims to train professionals who can create, manage and, above all, control budget systems; to efficiently apply or distribute the expenditures of the country's public sector.
 
     
@@ -73,12 +73,12 @@ education:
 experiences:
 - role: Community Manager
 
-      time: 2020-2021
+      time: 2020 2021
       company: World Plots, Santiago de Chile
 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      details: 
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -90,11 +90,11 @@ experiences:
 
  - role: Room Assistant
 
-      time: 2019-2020
+      time: 2019 2020
       company: Money Global exchange house, Santiago de Chile
       # optional
       company_logo:
-      details: |
+      details: 
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -106,11 +106,11 @@ experiences:
     
   - role: Investment promoter
 
-      time: 2018-2019
+      time: 2018 2019
       company: Bicentennial Public Stock Exchange, Caracas-Venezuela
       # optional
       company_logo:
-      details: |
+      details: 
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -122,11 +122,11 @@ experiences:
 
   - role: Director of budget policy monitoring
 
-      time: 2016-2017
+      time: 2016 2017
       company: Ministry of economy, finance and foreign trade, Caracas-Venezuela
       # optional
       company_logo: 
-      details: |
+      details: 
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -143,7 +143,7 @@ experiences:
    
 # Your project portfolio
 projects:
-    intro: >
+    intro: 
      I am starting in the development world in the 4GeekAcademy bootcamp, therefore the projects are increasing in difficulty as the days go by.
 
     assignments:
