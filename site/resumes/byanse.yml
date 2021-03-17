@@ -73,7 +73,7 @@ education:
 experiences:
 - role: Community Manager
 
-      time: 2020 2021
+      time: 2021
       company: World Plots, Santiago de Chile
 
       # optional
@@ -90,7 +90,7 @@ experiences:
 
  - role: Room Assistant
 
-      time: 2019 2020
+      time: 2020
       company: Money Global exchange house, Santiago de Chile
       # optional
       company_logo:
@@ -106,7 +106,7 @@ experiences:
     
   - role: Investment promoter
 
-      time: 2018 2019
+      time: 2019
       company: Bicentennial Public Stock Exchange, Caracas-Venezuela
       # optional
       company_logo:
@@ -122,7 +122,7 @@ experiences:
 
   - role: Director of budget policy monitoring
 
-      time: 2016 2017
+      time: 2017
       company: Ministry of economy, finance and foreign trade, Caracas-Venezuela
       # optional
       company_logo: 
