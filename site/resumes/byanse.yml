@@ -85,7 +85,7 @@ projects:
     I am starting in the development world in the 4GeekAcademy bootcamp, therefore the projects are increasing in difficulty as the days go by.
 
   assignments:
-- title: Digital Postcard
+    - title: Digital Postcard
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "https://github.com/byanse/Digital-Postcard-Dia-1-AM.git"
@@ -120,7 +120,7 @@ projects:
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "https://github.com/byanse/Javascript-Excuse-Generator-JV-Dia-5-AM.git"
       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-      
+
 skills:
   toolset:
     - name: Python & Django
