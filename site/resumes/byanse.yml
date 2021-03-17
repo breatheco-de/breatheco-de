@@ -1,56 +1,84 @@
----
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
 basic_info:
-  avatar: "https://randomuser.me/api/portraits/man/24.jpg"
-  email: ulloabygmail.com
-  first_name: Bárbara
-  github: byanse
-  interests:
-    - item: "Sports lover, sports lover, professional swimmer"
-    - item: "Salsa casino and bachata dancer"
-    - item: "Love the gummies, candies and laugh without measure"
+  # Profile information
+  first_name: Yerssin
+  last_name: Rios
+  motto: Full Stack Developer
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  summary: |
+    Summarise your career: I have been in sales in some way for all of my career.
+    tech, is very new to me, some could say its like learning Russian. My coding skills 
+    are improving, learning the Hypertext and Style sheets. some bumbs along the way with JS,
+    but confident ill succeed.
+
+    Second paragraph if required.
+
+  # Sidebar links
+  email: yerssin15@gmail.com
+  phone: 56936573221
+  website: #do not add http://
+  linkedin: https://www.linkedin.com/in/antuan-frayman-4b0a53b/
+  github: yerssin
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
   languages:
     - idiom: Español
       level: Native
-    - idiom: ~
-      level: ~
-    - idiom: ~
-      level: ~
-  last_name: Ulloa
-  linkedin: "https://www.linkedin.com/in/b%C3%A1rbara-yans%C3%A9-ulloa-flores-080192145/"
-  motto: "Full Stack Developer"
-  phone: 56937410583
-  stack-overflow: ~
-  summary: |
-    In my life I have been very happy and to that same extent I have been my own executioner. What has kept me upright and with faith is the constant learning always making human revolution.
 
-    Without a doubt you have to live without truce.
-  twitter: ByanseU
-  website: ~
+    - idiom:
+      level:
+
+    - idiom:
+      level:
+
+  interests:
+    - item: Soccer
+
+    - item: Watching Soccer
+
+    - item: Cooking, wine tasting , cooking , eating
+
 education:
-  - degree: "Bachelor of Tax Sciences, mention of Public Finance"
-    details: "The public finance career aims to train professionals who can create, manage and, above all, control budget systems; to efficiently apply or distribute the expenditures of the country's public sector.\n"
-    time: "2010 - 2015"
-    university: "National School of Administration and Public Finance"
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2019 - 2020
+    details: |
+      Front end coding Java Script
+      back end coding Php, python, ruby
+
+        - Bullet point
+        - Bullet point
+
 experiences:
-  - company: "World Plots, Santiago de Chile"
+  - role: Sales Executive
+    time: 10/2007 - 2014
+    company: The Frayman Group, Brooklyn NY
     details: |
       Prepare and deliver technical presentations explaining products or services to customers and prospective customers. 
       Confer with customers and engineers to assess equipment needs and to determine system requirements. ... 
       Help clients solve problems with installed equipment.
         - Bullet point
         - Bullet point
-    role: "Community Manager"
-    time: 2021
-  - company: "Money Global exchange house, Santiago de Chile"
+
+  - role: Sales Executive
+    time: 04/2014 - 2018
+    company: Zenedge, London
     details: |
       Prepare and deliver technical presentations explaining products or services to customers and prospective customers. 
       Confer with customers and engineers to assess equipment needs and to determine system requirements. ... 
       Help clients solve problems with installed equipment.
         - Bullet point
         - Bullet point
-    role: "Room Assistant"
-    time: 2020
-  - company: "Bicentennial Public Stock Exchange, Caracas-Venezuela"
+
+  - role: Sales Exexcutive
+    time: 2018 - present
+    company: Cujo, Sunny Isles Fl
     details: |
       Prepare and deliver technical presentations explaining products or services to customers and prospective customers. 
       Confer with customers and engineers to assess equipment needs and to determine system requirements.
@@ -58,48 +86,50 @@ experiences:
 
         - Bullet point
         - Bullet point
-    role: "Investment promoter"
-    time: 2019
+
 projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
   assignments:
-    - link: "https://github.com/byanse/Digital-Postcard-Dia-1-AM.git"
-      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
-      tagline: "A digital postcard to start in the world of Html and Css"
-      title: "Digital Postcard"
-    - link: "https://github.com/byanse/The-Instagram-Post-Dia-1-Clases.git"
-      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
       tagline: "A responsive website template designed to help web developers/designers market their services."
-      title: "The Instagram Post"
-    - link: "https://github.com/byanse/The-Instagram-Photo-Feed-Dia-2-AM.git"
-      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
-      title: "The Instagram Photo Feed"
-    - link: "https://github.com/byanse/Instagram-photo-feed-with-bootstrap-Dia-2-PM.git"
-      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      link: "#"
       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-      title: "The Instagram Photo feed with bootstrap"
-    - link: "https://github.com/byanse/Create-a-HTML5-Form-Dia-3.git"
-      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+
+    - title: Delta
+      link: "#"
       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-      title: "Create form bootstrap"
-    - link: "https://github.com/byanse/Javascript-Excuse-Generator-JV-Dia-5-AM.git"
-      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-      title: "JS Excuse Generator"
-  intro: "I am starting in the development world in the 4GeekAcademy bootcamp, therefore the projects are increasing in difficulty as the days go by.\n"
+
 skills:
   toolset:
-    - level: none
-      name: "Python & Django"
-    - level: none
-      name: "Javascript & jQuery"
-    - level: none
-      name: Angular
-    - level: none
-      name: "HTML5 & CSS"
-    - level: none
-      name: "Ruby on Rails"
-    - level: none
-      name: "Sketch & Photoshop"
-skin: blue
-template: online-cv
+    - name: Python & Django
+      level: none
+
+    - name: Javascript & jQuery
+      level: none
+
+    - name: Angular
+      level: none
+
+    - name: HTML5 & CSS
+      level: none
+
+    - name: Ruby on Rails
+      level: none
+
+    - name: Sketch & Photoshop
+      level: none
