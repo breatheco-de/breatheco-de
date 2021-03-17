@@ -3,42 +3,43 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "berry"
 
 # Personal Information
 basic_info:
   # Your full name
-  first_name: Barbara
+  first_name: Bárbara
   last_name: Ulloa
 
   # Define yourself in 4-5 words
-  motto: kind, sensitive, passionate and loyal to being
+  motto: Very enthusiastic self-learner
 
   # focus
-  focus: developer full stack
+  focus: Full Stack Development
 
   # You have 1 paragraph to make a great impression, summarize your career.
-  summary:
+  summary: |
     In my life I have been very happy and to that same extent I have been my own executioner. What has kept me upright and with faith is the constant learning always making human revolution.
 
     Without a doubt you have to live without truce.
 
   # Your profile picture URL
-  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
   avatar:
 
   # Contact Information
-  email: ulloaby@gmail.com #optional
-  phone: 56937410583 #optional
+  email: ulloaby@gmail.com
+  phone: +569 37410583 #optional
   website: #optional
-  linkedin: #optional
+  linkedin: https://www.linkedin.com/in/b%C3%A1rbara-yans%C3%A9-ulloa-flores-080192145/ #optional
 
+  #
   # ******** IMPORTANT *******
-  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
   github: byanse
 
-  twitter: ByanseU
-  stack-overflow: # n/a
+  twitter: ByanseU #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
 
   # languages you speak, levels inculde: Native, Professional
   languages:
@@ -61,10 +62,7 @@ education:
     university_logo:
     time: Five years
 
-    details: The public finance career aims to train professionals who can create, manage and, above all, control budget systems; to efficiently apply or distribute the expenditures of the country's public sector.
-
 # Your previous job experiences or voluntier
-
 experiences:
   - role: Community Manager
     time: 2021
