@@ -1,0 +1,105 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Kevin  
+    last_name: Rodriguez
+    
+    motto: 
+    
+    focus: Programming
+    
+    summary: Experienced General Manager with a demonstrated history of working in the executive office industry. Skilled in Negotiation, Business Planning, Operations Management, Microsoft Word, and Sales. Strong operations and analytical professional.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+
+    email: kev.rdgz@gmail.com
+    phone: 
+    website: 
+    linkedin: 
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kevrdgz
+    
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Basseball
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2019
+      details:
+          -Real “Senior” Mentoring
+          All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry.
+          -Top-notch Technology Stack
+          The world of Coding grows and changes EVERY DAY. Learn the newest and most demanded languages and frameworks in the current market. Your potential employers will LOVE IT.
+          -Really Part-time
+          It is not about teaching on after-hours, it requires much more! This program is meant for employed professionals. We have designed the perfect method for both flexible and blended learning in an “after-hours” setting.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+      
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
