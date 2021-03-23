@@ -1,7 +1,7 @@
 
 
 template: "online-cv"
-skin: "white"
+skin: "orange"
 
 # Personal Information
 basic_info:
@@ -34,7 +34,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/arielstark1
+    github: arielstark1
     
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
 
