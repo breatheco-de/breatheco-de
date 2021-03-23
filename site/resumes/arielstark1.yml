@@ -56,6 +56,8 @@ basic_info:
 # Your previous education
 education:
     - degree: Bachellor
+      university: University San Simon.
+      time: 2021
 
     - degree: Full-Stack Software Developer - Actually.
       university: 4Geeks Academy.
