@@ -1,0 +1,108 @@
+
+
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ariel Marvin    
+    last_name: Acurana Flores
+    
+    # Define yourself in 4-5 words
+    motto: I love programming and dancing  
+    
+    # focus
+    focus: develop is my passion,love for technology
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´m enginner electromecanic and web development all my life going to contest of technology
+      I used been in my computer and love make programs in robotic and games for education in schools  and highschool
+      and finish in university education 
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+     https://images.unsplash.com/photo-1572541859037-2d4c68076e12?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80
+    # Contact Information
+    email: arielmarvin@gmil.com #optional
+    phone: +591 77414821 #optional
+    website: https://www.blogger.com/blog/posts/118029728559890303 #optional
+    linkedin: https://www.linkedin.com/in/ariel-marvin-acurana-flores-2b7743104/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/arielstark1
+    
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Excelent
+
+    # Interests or hobies
+    interests:
+      - item:  Read,Robotic,programming
+
+      - item: Science and innovation contest.
+
+
+# Your previous education
+education:
+    - degree: Bachellor
+
+    - degree: Full-Stack Software Developer - Actually.
+      university: 4Geeks Academy.
+      time: 2021
+      # optiona
+# Your previous job experiences or voluntier
+experiences:
+    - role: Center of tecnology enginner of systems,mecatronic 
+      time: OCT 2015, MAY 2017
+      company: university of San Simon, Bolivia
+
+
+ -    role: program in non-destructive testing
+
+      time: MAY 2017, OCTUBER 2018
+      company: university of West Pomeranian , Poland 
+
+
+      role: Center of investigation ,
+      time: NOV 2018, DECEMBER 2019
+      company: university of San Simon, laboratory PITA
+
+      # optional
+      # company_logo: 
+      details:
+
+          - Customer Support.
+
+skills:
+    toolset:
+       
+      - name: HTML5 & CSS
+        level: 100%
+ 
+      - name: Bootstrap
+        level: 100%
+
+      - name: Git
+        level: 85%
+
+      - name: Javascript 
+        level: 80%
+
+      - name: React
+        level: 70%
+
+      - name: Python
+        level: 88%
+
+        
