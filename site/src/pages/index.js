@@ -164,8 +164,8 @@ export default ({ data }) => {
         <div className="students">
           {
             students
-              .filter(({ node }) => search === '' ? true : (node.basic_info.first_name + node.basic_info.last_name).toLowerCase().indexOf(search) > -1)
-              .map(({ node }, i) => {
+                .filter(({ node }) => search === '' ? true : typeof(node.basic_info) !== "object" ? false : ((node.basic_info.first_name || "") + (node.basic_info.last_name || "")).toLowerCase().indexOf(search) > -1)              
+                .map(({ node }, i) => {
                 const _website = clean(node.basic_info.website);
                 const _linkedin = cleanLn(node.basic_info.linkedin);
                 return (
