@@ -1,0 +1,74 @@
+
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    first_name: Eddicson
+    last_name: Hernandez
+    motto: Full-stack Developer
+    avatar: https://randomuser.me/api/portraits/man/32.jpg
+    summary: |
+      En una nueva etapa para completar mi perfil de desarrollador fullstack, añadiendo nuevas tecnologías a mis conocimientos
+
+    email: eddicsonh@gmail.com
+    phone: +584149205020
+    website: -
+    linkedin: https://www.linkedin.com/in/eddicson-r-hernandez-a-06361082/
+    github: eddicsonh
+    twitter: -
+    stack-overflow: -
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+  
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Cinema
+
+education:
+    - degree: Systems Engineer
+      university: I.U.P. Santiago Mariño
+      time: 2008 - 2015
+      
+experiences:
+    - role: Full-Stack developer .Net
+      time: Currently
+      company: MatrixCpm Solutions
+      details: Desarrollar aplicacion web Detekti (y otras) para la gestión de gobierno de identidad
+      
+projects:
+    intro: >
+      
+    
+    assignments:
+      - title: Detekti
+        link: http://detekti.com/
+        tagline: "Portal web de aplicacion de detekti"
+
+      - title: Portal web Adsecurity
+        link: https://adsecurity.cl/
+        tagline: "Portal web para empresa AdSecurity"
+        
+
+skills:
+    toolset:
+      - name: C# & .Net
+        level: 80%
+
+      - name: Javascript
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 85%
+      
+      - name: SQL
+        level: 90%
