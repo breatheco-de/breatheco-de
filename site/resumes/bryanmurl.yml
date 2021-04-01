@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bryan
+    last_name: Murillo
+    
+    # Define yourself in 4-5 words
+    motto: Pura vida!
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´m a business manager. I like much to learn new things about the world of technology.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: abc@gmail.com
+    phone: 111 2222 333
+    website: abcd.com 
+    linkedin: abcdef 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Technological change
+      - item: Public politics
+      - item: Environmental sustainability
+
+# Your previous education
+education:
+    - degree: Bachelor of Business Administrator
+      university: Universidad Latina de Costa Rica
+      graduate: "2015"
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. D
+
+
+# Your previous job experiences or voluntier
+experiences:
+
+      company: Microsoft, Silicon Valley
+   
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: CorelDraw X8
+        level: 98%
+        
+      - name: Photoshop
+        level: 50%
+
+      - name: US Hacking
+        level: 70%
