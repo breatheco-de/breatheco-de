@@ -1,0 +1,115 @@
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Rojas
+
+    # Define yourself in 4-5 words
+    motto: I like to code
+
+    # focus
+    focus: Become a better person every day
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Started to learn code on my own very slowly, I am very passionate about creating new things and coming up with ideas. I began a bootcamp in 4GeeksAcademy and I am very exited to see what I can achieve.
+      
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    #avatar: #nopic
+
+    # Contact Information
+    email: jorgebeto00@outlook.com #optional
+    phone: 72863067l
+    #website:  #optional
+    linkedin: Jorge Alberto Rojas Vargas #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jorgebeto00
+
+    #twitter: '' #optional
+    stack-overflow: user:14336898/Jorge R
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2+
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree:
+      university:
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: #
+      time: #
+      company: #
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: #
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: ""
+
+skills:
+    toolset:
+
+      - name: Bootstrap
+        level: 98%
+
+      - name: React
+        level: 85%
+
+      - name: HTML5, CSS & JavaScript
+        level: 95%
+
+      - name: Python & Flask
+        level: 70%
