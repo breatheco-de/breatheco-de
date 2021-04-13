@@ -1,0 +1,64 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Walt
+  last_name: Castillo
+  motto: Full Stack Developer
+  avatar: 
+  summary: |
+    Summarise your career: A hard working person commited to growth and learn.
+
+  # Sidebar links
+  email: walt.castillo@gmail.com
+  phone: (506) 70179100
+  website: #do not add http://
+  linkedin: 
+  github: waltcastillo
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+
+  interests:
+    - item: Soccer
+
+    - item: Watching Soccer
+
+    - item: Cooking, wine tasting , cooking , eating
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2021 - 2021
+    details: |
+      Front end coding Java Script
+      back end coding Python & Flask
+
+        - Bullet point
+        - Bullet point
+
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 25%
+
+    - name: Javascript & jQuery
+      level: 50%
+
+    - name: React
+      level: 70%
+
+    - name: HTML5 & CSS
+      level: 95%
