@@ -1,185 +1,81 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 template: "online-cv"
-skin: "blue"
+skin: "ceramic"
 
-# Personal Information
 basic_info:
 
-    # Your full name
     first_name: David
-    last_name: Berdiell
-    
-    # Define yourself in 4-5 words
-    motto: Amante del arte.
-    
-    # focus
-    focus: developer full stack
-    
-    # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      Soy diseñador publicitario, trabajo como freelance, amo toda expresión artistica e intento hacer proyectos nuevos en un inicio como hobbie y luego trato de aplicarlo en mi emprendimiento, aprender desarrollo web me ayuda y me aumenta muchisimo mis opciones en el mercado.
-      Second paragraph if required.
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    last_name: Berdiell Sanchez
+    motto: Full-stack Developer
     avatar: 
-
-    # Contact Information
-    email: allan.castillo2707@gmail.com #optional
-    phone:  8809-4341 #optional
-    website: #optional
-    linkedin:  #optional
+    summary: |
+      Estudiante de forgeeks 
     
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
-    
-    twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    email: david_berdiell@hotmail.com
+    phone: 652200331
+    website: 
+    linkedin: https://www.linkedin.com/in/david-berdiell-s%C3%A1nchez-3aab9a204/
+    github: tapuks
+    twitter: 
+    stack-overflow: 
 
-    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Spanish
         level: Native
-
+        
       - idiom: English
+        level: Bajo
+        
+        - idiom: Catalan
         level: Intermedio
-
-    # Interests or hobies
     interests:
-      - item: Pintura, dibujo, tallado de madera y serigrafia.
+      - item: Coding
 
-      - item: Ajedrez 
+      - item: jugar Padel
 
-# Your previous education
+
 education:
-    - degree: Bachillerato en Diseño publicitario
-      university: Universidad Hispanoamericana
-      # optional
-      university_logo: 
-      time: 
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: 
-      university: 
-      # optional
-      university_logo: 
-      time: 
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# Your previous job experiences or voluntier
+    - degree: Grado superior de Desarrollo de Aplicaciones Web.
+      university: Ilerna
+      time: 2 años
+      details: 
+      
+      education:
+    - degree: Grado superior medio de Electricidad.
+      university: IES Escola del treball
+      time: 2 años
+      details: 
+      
 experiences:
-    - role: Freelance en diseño publicitario
-      time: 2018 - 2020
-      company: Propio.
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Entrenador de procesos.
-      time: 2010 - 2018
-      company: Allergan Medical
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: 
-      time: 
-      company: 
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# Your project portfolio
+    - role: Electricista
+      time: 2 años
+      company: Electricista 2013
+      details: Confidencial
+      
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      There are some of my github projects for the 4GeeksAcademy course!
+    
     assignments:
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
+      
+      - title: Excuse Generator
+       
+        tagline: "Random excuse generator.   --"
+             
 
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
+      - title: Instagram Bootstrap
+       
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
 
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
-
-      - title: 
-        # optional
-        project_logo: 
-        link: 
-        tagline: 
+      - title: Postcard
+     
+        tagline: "A responsive website template designed to input information on a postcard.   --"
 
 skills:
     toolset:
-      - name: 
-        level: 
+      - name: Python
+        level: 40%
 
-      - name: Javascript & jQuery
-        level: 25%
-
-      - name: 
-        level: 
-
-      - name: HTML5 & CSS
+      - name: Javascript
         level: 50%
 
-      - name: 
-        level: 
-
-      - name: 
-        level: 
+      - name: HTML5 & CSS
