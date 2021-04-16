@@ -1,0 +1,32 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+    Name: Marcos
+    Apellido: Pérez
+    E-mail: marcos.perez.garcia0@gmail.com
+    Teléfono: +59899068025
+
+education:
+    Universidad: Facultad de Información y Comunicación (FIC) – Universidad de la República (UdelaR)
+    Fecha: 2012 - (Cursando el Ciclo de Graduación)
+
+    Cursos: Curso de Marketing Digital
+            IAB Spain (Interactive Advertising Bureau) - GOOGLE
+
+            Curso de desarrollo de apps móviles
+            Universidad Complutense de Madrid - GOOGLE
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 60%
+
+      - name: Illustrator
+        level: 65%
+
+      - name: Premiere Pro
+        level: 90%
+
+      - name: After Effects
+        level: 60%
