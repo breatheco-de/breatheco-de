@@ -16,26 +16,31 @@ basic_info:
         email: valentinacuello@outlook.com
         linkedin: /valentinacuello
 
+    github: valentinacuello      
+
     lenguages:
-        spanish: native
-        english: high - intermediate
+       - idiom: Spanish
+         level: Native
+
+       - idiom: English
+         level: High - Intermediate
 
 
 education:
     - degree: Full Stack Development
-      academy: 4Geeks Academy
+      university: 4Geeks Academy
       time: April 2021 - June 2021
       
     - degree: Web Design
-      academy: Coderhouse
+      university: Coderhouse
       time: February 2021 - March 2021
 
     - degree: Front-End Web Development
-      academy: Jóvenes a Programar - Plan Ceibal
+      university: Jóvenes a Programar - Plan Ceibal
       time: April 2020 - November 2020
 
     - degree: UX/UI Design
-      academy: Coderhouse
+      university: Coderhouse
       time: September 2020 - November 2021
 
 
@@ -54,8 +59,9 @@ projects:
 
 
 skills:
-    - toolset:
-      name: HTML5 y CSS
+    toolset:
+    
+      - name: HTML5 & CSS 
+      
+      - name: Figma
 
-    - toolset:
-      name: Figma
