@@ -1,0 +1,75 @@
+
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+
+    
+    first_name: Analía  
+    last_name: Belo
+
+   
+    motto: Web developer student
+
+    
+    summary: |
+     Student with knowledge in html, css, bootstrap, js and python
+
+    github: analiabelo98
+
+    
+   
+    languages:
+      - idiom: english
+        level: b2
+
+      - idiom: spanish
+        level: native
+
+
+    
+    interests:
+      - item: music
+
+      - item: art
+
+      - item: crochet
+
+
+education:
+    - degree: certificate of completion
+      university: JAP web developer course
+      time: 2020-2020
+
+    - degree: Animación 3D
+      university: BIOS
+      time: 2017-2019
+      
+    - degree: Full Stack developer
+      university: 4Geeks Academy 
+      time: 2021
+  
+experiences:
+
+projects:
+    assignments:
+      - title: Ecommerce.
+        tagline: "Final JAP project. A responsive ecommerce"
+      - title: Weather App.
+        tagline: "Weather App with js."
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 70%
+    
