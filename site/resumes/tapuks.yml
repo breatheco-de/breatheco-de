@@ -1,0 +1,80 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: David
+    last_name: Berdiell Sanchez
+    motto: Full-stack Developer
+    avatar: 
+    summary: |
+      Estudiante de forgeeks 
+    
+    email: david_berdiell@hotmail.com
+    phone: 652200331
+    website: 
+    linkedin: https://www.linkedin.com/in/david-berdiell-s%C3%A1nchez-3aab9a204/
+    github: tapuks
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Bajo
+        
+        
+    interests:
+      - item: Coding
+
+      - item: jugar Padel
+
+
+education:
+    - degree: Grado superior de Desarrollo de Aplicaciones Web.
+      university: Ilerna
+      time: 2 años
+      details: 
+      
+      education:
+    - degree: Grado superior medio de Electricidad.
+      university: IES Escola del treball
+      time: 2 años
+      details: 
+      
+experiences:
+    - role: Electricista
+      time: 2 años
+      company: Electricista 2013
+      details: Confidencial
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+      - title: Excuse Generator
+       
+        tagline: "Random excuse generator.   --"
+             
+
+      - title: Instagram Bootstrap
+       
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+     
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
