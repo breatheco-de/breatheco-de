@@ -1,0 +1,56 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+  first_name: Agustín
+  last_name: Peraza
+
+  motto: The only way to do great work is to love what you do.
+
+  summary: I've been learning to be a Developer since i started the UTEC computer technologist carrer two years ago. I've taken this opportunity to learn new things and improve my skills as a developer.
+
+  email: aguspe458@outlook.com
+
+  github: Agus458
+
+  languages:
+    - idiom: English
+      level: First Certificate
+
+    - idiom: Spanish
+      level: Native
+
+  interests:
+    - item: Cicling
+
+    - item: Gaming
+
+    - item: Learning
+
+education:
+
+experiences:
+
+projects:
+  intro: > 
+    As I'm currently doing my formation I don't have a lot of proyects.
+    In time, this list will grow.
+
+publications:
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 50%
+
+    - name: React.js
+      level: 0%
+
+    - name: HTML5 & CSS
+      level: 50%
+
+    - name: Php
+      level: 30%
+
+    - name: Java
+      level: 60%
