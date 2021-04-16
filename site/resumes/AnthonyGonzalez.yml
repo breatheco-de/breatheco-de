@@ -1,0 +1,24 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: "Anthony"
+    last_name: "Gonzalez"
+    
+    # Contact Information
+    email: anthonygonzalez.3@hotmail.com #optional
+    phone: 666-666-666
+    website: github.com #optional
+    linkedin: google.com #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: chepy223
