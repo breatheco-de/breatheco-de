@@ -31,11 +31,11 @@ interests:
 #Profile Descriptions
 skills:
   - name: HTML
-      level: 90%
+    level: 90%
   - name: CSS
-      level: 90%
+    level: 90%
   - name: BOOTSTRAP
-      level: 70%
+    level: 70%
 
 career_profile:
   - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
