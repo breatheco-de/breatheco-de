@@ -15,6 +15,10 @@ basic_info:
     website: examplewebsite.com
     github: edup94
 
+     summary: |
+    I've been working on costumer service for around 2 years (same time i have in US) and i'm looking 
+    for a growth opportunity as a Developer.
+
 languages:
 
     - idiom: Spanish
@@ -33,8 +37,6 @@ interests:
       - item: Gaming
   
 motto: Full Stack Developer
-
-summary: Student with knowledge in Java, SQL, Html, CSS & Bootstrap
 
 education:
     - degree: SQL developer
