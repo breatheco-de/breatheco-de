@@ -1,0 +1,75 @@
+#Template & Skin
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+#Profile information
+    first_name: Eduardo
+    last_name: Paredes
+    focus: Full Stack Developer
+
+    #Sidebar links
+    email: eduardo.p.4794@gmail.com
+    phone: (+598) 99 534 768
+    website: examplewebsite.com
+    github: edup94
+
+summary: |
+    Student with knowledge in JAVA, SQL, Html, CSS & Bootstrap.
+languages:
+
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: B2
+
+interests:
+      - item: Music
+
+      - item: Movies
+
+      - item: Technologies
+
+      - item: Gaming
+
+motto: Full Stack Developer
+
+education:
+    - degree: SQL developer
+      university: UTEC
+      time: 2018-2019
+
+    - degree: Java developer
+      university: UTEC
+      time: 2018-2019
+
+    - degree: Full Stack developer
+      university: 4Geeks Academy
+      time: 2020-2020
+
+experiences:
+
+projects:
+    assignments:
+      - title: Storage App.
+        tagline: CRUD App for Storages.
+
+#Profile Descriptions
+skills:
+
+  - name: Java
+    level: 70%
+
+  - name: SQL
+    level: 90%
+
+  - name: HTML
+    level: 90%
+
+  - name: CSS
+    level: 90%
+
+  - name: BOOTSTRAP
+    level: 70%
