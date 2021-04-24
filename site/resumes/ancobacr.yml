@@ -1,0 +1,67 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: ancobacr@gmail.com
+  first_name: Andres
+  focus: "grow up as tech professional"
+  github: ancobacr
+  interests: 
+    - 
+      item: "Science and Tech"
+    - 
+      item: "Social policy"
+    - 
+      item: Gardening
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Professional
+  last_name: Badilla
+  linkedin: www.linkedin.com/in/ancobacr
+  motto: "forever young, forever brave"
+  phone: ~
+  summary: "a guy with a young spirit, always trying to improve myself in many life aspects"
+  website: ~
+education: 
+  - 
+    degree: "Bachelor Graphic Design"
+    time: "2013 - 2014"
+    university: "Universidad de las Ciencias y las Artes de Costa Rica"
+    university_logo: ~
+experiences: 
+  - 
+    company: CONCENTRIX
+    details: 
+      - "Customer Service Support."
+      - "Sales support."
+    role: "Customer Representative"
+    time: "NOV 2020, JAN 2021"
+  - 
+    company: "SELF EMPLOYED"
+    details: "- Offered graphic design services in social media managment, brangins, photo edition, etc\n"
+    role: "Graphic Designer"
+    time: "OCT 2007 - present"
+  - 
+    company: "GRUPO PERIODISTICO EXTRA"
+    details: "- I developed as a editorial graphic designer.\n"
+    role: "Graphic Designer"
+    time: "JUN 2009 - NOV 2015"
+projects: 
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 25%
+      name: "Javascript & jQuery"
+    - 
+      level: 50%
+      name: "HTML5 & CSS"
+    - 
+      level: 90%
+      name: "Sketch & Photoshop"
+
+skin: green
+template: online-cv
