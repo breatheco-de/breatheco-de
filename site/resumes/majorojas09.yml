@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María José
+    last_name: Rojas Oconitrillo
+    avatar: 
+    summary: 
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+
+    # Sidebar links
+    email: majorojas09@gmail.com
+    phone: +506 85294419
+    linkedin: www.linkedin.com/in/maríajosérojasoc
+    github: https://github.com/majorojas09
+    instagram: _mj.rojas_
+    facebook: Mary Rojas
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: 80%
+
+    interests:
+      - item: Watch series on Netflix
+      - item: Technology
+      - item: Know new places
+
+education:
+    - degree: Bachelor's degree in Systems Engineering
+      university: Universidad Americana
+      time: 2020 - Present
+
+skills:
+    toolset:
+      - name: C++
+        level: 70%
+      
+      - name: Java
+        level: 75%
+
+      - name: C#
+        level: 75%
+
+      - name: Python
+        level: 80%
+
+      - name: Javascript
+        level: 80%
+
+      - name: React
+        level: 80%
+
+      - name: Bootstrap
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Git
+        level: 80%
+
+      - name: SQL Server
+        level: 80%
+
+      - name: Photoshop
+        level: 75%
+      
+      - name: Illustrator
+        level: 75%
+      
