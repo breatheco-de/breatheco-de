@@ -1,0 +1,78 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: emilyam23@gmail.com
+  first_name: Emily
+  github: Emi-A
+  interests: 
+    - 
+      item: Desarrollo-Web 
+    - 
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Intermedio
+
+  last_name: Acuña
+  phone: "85161295"
+  facebook: Emily Acuña
+  website: ~
+education: 
+  - 
+    degree: Bachillerato en Ingenieria en Sistemas 
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: 2020-now
+    university: UNA(Universidad Nacional)
+    university_logo: ~
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: ~
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 70%
+      name: "C ++"
+    - 
+      level: 70%
+      name: "Javascript & Python"
+    - 
+      level: 90%
+      name: "HTML5 & CSS"
+skin: green
+template: online-cv
