@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Gabriel
+    last_name: Corrales Mora
+    
+    # Define yourself in 4-5 words
+    motto: I love camping
+    
+    # focus
+    focus: Develop myself as a programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´m a Junior developer full stack,knowing the world of programming.I fell in love with this beautiful world.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/77903506?v=4
+
+    # Contact Information
+    email: luizclzm@gmail.com #optional
+    phone: +506 71762250 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/luis-gabriel-corrales-mora-88223a14b/#optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Gab20031995
+    
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item:  Read
+
+      - item: Science, technology and innovation.
+
+
+# Your previous education
+education:
+    - degree: High school degree
+
+    - degree: Full-Stack Software Developer - Actually.
+      university: 4Geeks Academy.
+      time: 2021
+      # optiona
+# Your previous job experiences or voluntier
+experiences:
+    - role: Restaurant manager
+      time: Abril 2013, October 2017
+      company: Mcdonalds
+      company_logo: https://logos-marcas.com/wp-content/uploads/2020/04/McDonalds-Logo.png
+      details:
+
+          - Customer service.
+
+skills:
+    toolset:
+       
+      - name: HTML5 & CSS
+        level: 90%
+ 
+      - name: Bootstrap
+        level: 100%
+
+      - name: Git
+        level: 85%
+
+      - name: Javascript 
+        level: 50%
+
+      - name: React
+        level: 80%
+
+      - name: Python
+        level: 50%
