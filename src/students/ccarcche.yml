@@ -1,0 +1,81 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Cecilio Alberto
+    last_name: Carcache 
+    motto: Desarrollador Web Junior
+    summary: |
+        Tengo poca expeienccia en esta área pero si muchos deseos de aprender este arte.
+        
+    # Sidebar links
+    email: ceciliocarcache @gmail.com
+    phone: +506 8387-0334
+    website:  in process... #do not add http://
+    linkedin: https://www.linkedin.com/in/cecilio-carcache/
+    github: ccarcache
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: basic
+
+    interests:
+      - item: Coding
+      - item: diseño de bases de datos
+      - item: Cycling
+
+education:
+    - degree: Business
+      university: Universidad Hispanoamericana
+      time: 2018 -2021
+
+    - degree: Bases de datos
+      university: ICAI - Universidad Nacional
+      time: 2019
+
+
+experiences:
+    - role: Diseñador de bases de datos
+      time: 2017 - 2019
+      company: Caja costarriense del seguro social
+      details: Development and maintenance of  las bases de datos de la empresa.    
+
+    - role: Supervior de proyectos de investigación
+      time: 2014-2016
+      company:  Analitica
+      details: In charge  del equipo de investigacion de mercado
+
+    - role:   Responsable del área de  ventas
+      time: 2003 - 2013
+      company:  BATCA
+      details: Provide my team with the knowledge, tools, direction and leadership necessary to achieve the goals established by the client.
+
+projects:
+    intro: He estado desarrollando  proyectos en materia de  comercio interncional
+
+
+skills:
+    toolset:
+      - name: PHP
+        level: 50%
+
+      - name: DBA, MYSQL, SQL
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+      
+      - name: Bootstrap
+        level: 50%
+
+      - name: Angular 2 
+        level: 20%
+      
