@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mily
+    last_name: Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: A smile goes a long way
+    
+    # focus
+    focus: Software developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Bachelor of Engineering, English teacher turned Software Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+      https://avatars.githubusercontent.com/u/75169568?v=4
+
+    # Contact Information
+    email: milycrn26@gmail.com #optional
+    phone: 111 2222 333 #optional
+    website: https://github.com/MilyRodz #optional
+    linkedin: milyrodz #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: milyrodz
+    
+    twitter: 'milyrodz' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - Language: Spanish
+        level: Native
+
+      - Language: English
+        level: C2 Proficiency
+
+      - Language: French
+        level: A2 Pre-intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Technology
+
+      - item: Coding
+
+      - item: Music 
+
+      - item: Languages
+
+      - item: Spirituality
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Bachelor of Engineering (petroleum engineering specialization)
+      university: LUZ (La Universidad del Zulia)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/3/30/LogoLUZ.gif
+      time: 2006 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: English teacher
+      time: 2019 - 2021
+      company: Smooth talkers, Santiago de Chile
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Some of the projects I have been working on
+
+    assignments:
+      - title: Appointment administrator with ReactJs
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MilyRodz/administrador-de-citas.git"
+        tagline: "A responsive appointments administrator with ReactJS."
+
+      - title: News finder with ReactJs
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MilyRodz/news-finder.git"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Breaking Bad phrases generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MilyRodz/breaking-bad-phrases.git"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Cocktail recipes
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MilyRodz/cocktail-recipes.git"
+        tagline: "A cocktail recipes finder created with ReactJS."
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: React
+        level: 49%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 60%
+
+      - name: GIT 
+        level: 40%
+      
+      - name: Docker
+        level: 10%
