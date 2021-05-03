@@ -1,21 +1,52 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
 template: "online-cv"
-skin: "orange"
+skin: "blue"
 
 basic_info:
-  name: Esteban Céspedes
-  Tagline: Full Stack Developer
-  avatar: profile.png
 
-  email: estebancalf@gmail.com
-  phone: +506 8839 7996
-  website: 
-  linkedin:
-  github: tebanban
-  twitter:
-  stack-overflow: https://stackexchange.com/users/21421050/esteban-cespedes
-
-  languages: 
-    idiom: english
-    level: C1
-
+    # Profile information
+    first_name:  Esteban
+    last_name: Céspedes
+    motto: Student
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary:
     
+        Focused on developing and programming
+        
+
+    # Sidebar links
+    email: estebancalf@gmail.com
+    phone: 506 88397996
+    website: tebanban.com #do not add http://
+    linkedin:
+    github: tebanban
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: Architecture, Photography, politics.
+      
+
+education:
+    - degree: Architecture
+      university: UCR
+      time: 2005
+
+skills:
+    toolset:
+      - name: HTML5 & CSS, React JS, javascript, wordpress
+  
+       
+
+
+
