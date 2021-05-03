@@ -1,0 +1,21 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  name: Esteban Céspedes
+  Tagline: Full Stack Developer
+  avatar: profile.png
+
+  email: estebancalf@gmail.com
+  phone: +506 8839 7996
+  website: 
+  linkedin:
+  github: tebanban
+  twitter:
+  stack-overflow: https://stackexchange.com/users/21421050/esteban-cespedes
+
+  languages: 
+    idiom: english
+    level: C1
+
+    
