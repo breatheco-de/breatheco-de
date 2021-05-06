@@ -1,0 +1,124 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María Eugenia
+    last_name: Chacón
+    
+    # Define yourself in 4-5 words
+    motto: Creative, enterprising, passionate about technological solutions
+    # focus
+    focus: Create added value for my life and that of others
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Economist, data science and marketing specialist and web developer of 4Geek's Academy. I like to learn new things. Now I want to learn coding to improve my carrer and create my own social entrepreneurship project. 
+     Like to write, read, and listen to music.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars2.githubusercontent.com/u/72889569?s=460&u=0ebc9367023607f70b58c5e6591f23e4c95f4d8e&v=4
+
+    # Contact Information
+    email: chacon.mariae.ucv@gmail.com #optional
+    phone: 584241687899 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/maría-chacón-b3632a65 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: maruchf
+    
+    twitter: '' #optional
+    stack-overflow: '' # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music 
+
+      - item: Data analysis & Code
+
+      - item: Social projects and voluntier
+
+# Your previous education
+education:
+    - degree: Economist
+      university: Universidad Central de Venezuela
+      # optional
+      university_logo: http://www.ucv.ve/fileadmin/templates/core/img/ucv.png
+      time: 2007- 2012
+      details: |
+        Economist 
+
+    - degree: Marketing Management Specialist
+      university: Universidad Simón Bolívar
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/USB_logo.svg/1200px-USB_logo.svg.png
+      time: 2017-2018
+      details: | 
+       More information in http://gerencia.coord.usb.ve/
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Leader of Customer Experience
+      time: 2017 - Present
+      company: Telefónica
+      # optional
+      company_logo: https://www.telefonica.com/telefonica-theme/images/dFront/modules/mod_footer/logo_telefonica_azul.png
+      details: |
+        Research, data analysis, maps, benchmarks, customer journeys, desing, user flows end 2 end process, service design y blueprints
+          
+    - role: Administration Manager
+      time: 2017-2017
+      company: Tax Administration Service of the Sucre municipality
+      # optional
+      company_logo: https://ii.ct-stc.com/7/logos/empresas/2017/01/06/servicio-desconcentrado-de-administracion-tributaria-del-municipio-sucre-076900607B60237Ethumbnail.jpeg
+      details: |
+        Planning, budget, purchases and supplies, human talent manager
+
+# Your project portfolio
+projects:
+    intro: >
+      My Projects
+    assignments:
+      - title: B2B form for new clients 
+        # optional
+        project_logo: 
+        link: "https://www.movistar.com.ve/Empresas/contactanos-formulario.html#"
+        tagline: "Form for potential clients "
+
+      - title: InstagramPost Example
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/maruchf/Proyecto2-InstagramPost"
+        tagline: "A example for bootcamp similar to Instagram"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: MySQL
+        level: 80%
+
+      - name: Visualizations Tools
+        level: 95%

@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+    # Profile information
+    first_name: Jose
+    last_name: Navarrete
+    motto: Coder and Consulting
+    avatar: https://avatars.githubusercontent.com/u/17910232?s=60&v=4
+    summary: |
+        Dedicated to conquering the world through pragmatic programming and new order: 20 years of experience, in various IT worlds, walked by Technical Support, End User Support, Infrastructure Administrator, Monitoring Engineer, Project Director, 
+        Process Consultant, today Programmer tomorrow we will see. 
+
+    # Sidebar links
+    email: josnavch@gmail.com
+    phone: +506 8823-7523
+    website:  in process... #do not add http://
+    linkedin: josnavch
+    github: josnavch
+    twitter: '@josnavch'
+    stack-overflow:  15246365/josnavch
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: New Projects
+      - item: Sport
+      - item: DBA
+
+education:
+    - degree: Computer Systems Engineer
+      university: ULATINA, CR
+      time: 2001 - 2004
+
+experiences:
+    - role: Operations Director
+      time: 2008 - Present
+      company: Gridshield
+      details: Consulting, engineering and project management for the implementation of information technology management tools and processes.
+        
+
+    - role: IT Coordinator 
+      time: 2006 - 2008
+      company: Nestle, Costa Rica
+      details: Infrastructure, Systems and End User Support
+
+projects:
+    intro: Many of the projects carried out have had their greatest boom during my experience as Director of Monitoring Projects for different clients in Costa Rica and Central America. Provided a lot of collaboration in the implementation of IT Management Processes under international frameworks and standards such as ITL and COBIT
+
+
+skills:
+    toolset:
+      - name: PHP
+        level: 95%
+
+      - name: DBA, MYSQL, PLSQL, SYBASE, MSSQL
+        level: 90%
+
+      - name: PERL
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: SO LINUX, ADMIN
+        level: 85%
+
+      - name: SO WINDOWS, ADMIN
+        level: 85%
+      
+      - name: BASH
+        level: 85%
+
+      - name: MONITORING
+        level: 85%

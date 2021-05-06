@@ -1,0 +1,55 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+  # Profile information
+  first_name: Ricardo
+  last_name: Tapia Venegas
+  motto: Full Stack Developer / QE Software Engineer
+  summary: |
+    I love to program and solve real life problems to help people aorund the world.
+
+  # Sidebar links
+  email: rtapiatec@gmail.com
+  github: tapiar7
+
+  languages:
+    - idiom: English
+      level: Fluent
+
+    - idiom: Spanish
+      level: Native
+
+education:
+  - degree: Lic. Electronics Engineer
+    university: Tecnologico de Costa Rica
+    time: 2012 - 2020
+    details: Specialized in software.
+
+projects:
+  intro: >
+    Introduction to projects
+
+
+  assignments:
+    - title: Postcard
+      link: ""
+      tagline: "A classic HTML project"
+
+    - title: Photo Feed
+      link: ""
+      tagline: "Funny project"
+
+skills:
+  toolset:
+    - name: HTML & CSS
+      level: Beginner
+
+    - name: JS
+      level: Beginner
+
+    - name: Git
+      level: Beginner
+
+    - name: C, C++, C# & Java
+      level: Intermediate

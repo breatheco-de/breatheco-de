@@ -1,0 +1,26 @@
+--- 
+basic_info: 
+  avatar: img.png
+  email: jgarciaf106@gmail.com
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Professional
+    - 
+      idiom: Portuguese
+      level: Basic
+  linkedin: linkedin.com/in/jose-andres-garcia-fernandez-257798b7/
+  first_name: Andres
+  last_name: Garcia
+  phone: 8566-0802
+  stack-overflow: https://stackoverflow.com/users/11871517/andres-garcia-fernandez
+  github: jgarciaf106
+  tagline: "Full Stack Developer"
+  twiter: "@jgarciaf106"
+  website: mypage.com
+  motto: An investment in knowledge always pays the highest return.
+skin: green
+template: online-cv
