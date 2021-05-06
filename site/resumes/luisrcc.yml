@@ -1,0 +1,102 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Castillo
+    
+    # Define yourself in 4-5 words
+    motto: Lover of books and codeshare
+    
+    # focus
+    focus: Consulting, create, share
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am a Communicator, who decided to fulfill his dream of being a programmer, with extensive experience in the logistics area and personnel management, knowledge in SAP and Technology.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/12ql48f8XFpswXQCHCd7lm0SMZnpuTH_l/view?usp=sharing
+
+    # Contact Information
+    email: luisrcc91@gmail.com #optional
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/luiscastillochacin/ #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luisrcc
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Read
+
+      - item: Run
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Bachelor of Social Communication
+      university: Universidad Rafael Belloso Chacin
+      university_logo:
+      time: Graduate 2012
+      # optional
+      details:
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrative SAP
+      time: 2019 - Present
+      company: Artel SAIC
+      # optional
+      company_logo:
+      details: |
+          - Manage Revolving Inventories
+          - Manage operations staff
+          - Responsible for entry, storage, replacement and dispatch of products
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+          - 
+            
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: 
+          - 
+    - role: 
+      time:
+      company:
+      # optional
+      company_logo:
+      details: 
+          - 
+    
+skills:
+    toolset:
+      - name: Javascript
+        level: 10%
+
+      - name: Python
+        level: 10%
+
+      - name: HTML5
+        level: 80%
