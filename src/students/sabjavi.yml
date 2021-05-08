@@ -1,0 +1,182 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Saborio
+    
+    # Define yourself in 4-5 words
+    motto: Disfrutar de cada oportunidad que me da la vida de aprender nuevas cosas
+    
+    # focus
+    focus: Data Analyst
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Analista de datos e investigador de mercado.
+      Más de 20 años de experiencia en sectores tales como consumo masivo, industrial y educación.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: jasabal@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: Javier Saborio #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sabjavi
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Technological trends
+
+      - item: Data analysis
+
+# Your previous education
+education:
+    - degree: MBA en Administración de Empresas con énfasis en Mercadeo
+      university: Universidad Fundepos 
+      # optional
+      university_logo: https://fundepos.ac.cr/wp-content/uploads/2020/08/LOGO-FUNDEPOS-COLOR.png
+      time: 2014-2016
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Bachiller en Adminitración de Empresas
+      university: Universidad Internacional de las Américas
+      # optional
+      university_logo: https://uia.ac.cr/control-uploads/img/ac_about_history_Bandera_UIA-01.jpg
+      time: 1995-1998
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Coordinador de Analisis en Investigación de Mercados
+      time: 2016 - 2021
+      company: CCCN
+      # optional
+      company_logo: https://www.centrocultural.cr/wp-content/themes/cccnv3/assets/img/logo.png
+      details: |
+        Inteligencia de negocios, desarrollo y análisis de reportes para tomas de decisiones. 
+        Desarrollo de planes estratégicos. Coordinación y ejecución de estudios de mercado. 
+
+          
+
+    - role: Líder de Producto
+      time: 2011 - 2015
+      company: CCCN
+      # optional
+      company_logo: https://www.centrocultural.cr/wp-content/themes/cccnv3/assets/img/logo.png
+      details: |
+        Desarrollo de estrategias de comunicación y promoción. 
+        Promoción de la matrícula. Control y ejecución del presupuesto de gasto.
+        Desarrollo de materiales de comunicación. Manejo de proveedores. 
+        Compra y control de inventarios de materiales de comunicación. 
+        Control y manejo de presupuesto de inversión A&P. Coordinación con agencias de publicidad.
+          
+
+    - role: Jefe de Marcas Locales
+      time: 2007 -2009
+      company: Mabe Centroam+erica
+      # optional
+      company_logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0015/2358/brand.gif?itok=2M-pEGtb
+      details: |
+        Desarrollo de estrategias comerciales para Centroamérica y República Dominicana para las marcas Atlas y Cetron.
+        Seguimiento con la agencia de publicidad a proyectos específicos para las marcas tales como diseño de POP, desarrollo 
+        y producción de catálogos de productos, producción de comerciales para tv, radio y prensa, etc.
+        Coordinación de planes de medios para las diferentes temporadas en la región. 
+        
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 50%
+
+      - name: CSS
+        level: 50%
+
+      - name: BOOTSTRAP
+        level: 50%
+
+      - name: JAVASCRIPT
+        level: 20%
+
+      - name: PYTHON
+        level: 20%
+
+      - name: GIT
+        level: 45%
