@@ -1,0 +1,78 @@
+--- 
+basic_info: 
+  email: lily96bozan@gmail.com
+  first_name: Lilliana
+  github: LilyBoza
+  languages: 
+    - 
+      idiom: English
+      level: Intermediate
+    - 
+      idiom: Spanish
+      level: Native
+  last_name: Boza
+  linkedin: LillianaBoza
+  motto: "I like to learn new skills"
+  phone: 86186168
+  summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education: 
+  - 
+    degree: "Lic Electronic engineering"
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    time: "2015 - 2021"
+    university: "Instituto Tecnologico de Costa Rica"
+experiences: 
+  - 
+    company: "Edwards, Cartago"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    role: Intern
+    time: "2021 - Present"
+projects: 
+  assignments: 
+    - 
+      link: "#Bootstrap"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website with different pictures for to do a Instagram feed"
+      title: "Feed Instagram"
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 60%
+      name: python
+    - 
+      level: 70%
+      name: Javascript
+    - 
+      level: 60%
+      name: VHDL
+    - 
+      level: 70%
+      name: "HTML5 & CSS"
+skin: blue
+template: online-cv
