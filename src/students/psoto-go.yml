@@ -11,12 +11,13 @@ basic_info:
   motto: Up to you
   avatar: https://cdn.intra.42.fr/users/psoto-go.jpg
   summary: |
-    Summarise your career: I have been in sales in some way for all of my career.
-    tech, is very new to me, some could say its like learning Russian. My coding skills 
-    are improving, learning the Hypertext and Style sheets. some bumbs along the way with JS,
-    but confident ill succeed.
-    Second paragraph if required.
-  # Sidebar links
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+    Second paragraph if required.  # Sidebar links
   email: pabletesglez@gmail.com
   phone: +34 606672122
   website: #do not add http://
@@ -46,57 +47,92 @@ education:
   - degree: 42 Madrid
     time: 2020 - 2023
 
+# Your previous job experiences or voluntier
 experiences:
-  - role: Sales Executive
-    time: 10/2007 - 2014
-    company: The Frayman Group, Brooklyn NY
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      Prepare and deliver technical presentations explaining products or services to customers and prospective customers. 
-      Confer with customers and engineers to assess equipment needs and to determine system requirements. ... 
-      Help clients solve problems with installed equipment.
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
         - Bullet point
         - Bullet point
-  - role: Sales Executive
-    time: 04/2014 - 2018
-    company: Zenedge, London
+
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      Prepare and deliver technical presentations explaining products or services to customers and prospective customers. 
-      Confer with customers and engineers to assess equipment needs and to determine system requirements. ... 
-      Help clients solve problems with installed equipment.
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
         - Bullet point
         - Bullet point
-  - role: Sales Exexcutive
-    time: 2018 - present
-    company: Cujo, Sunny Isles Fl
+
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      Prepare and deliver technical presentations explaining products or services to customers and prospective customers. 
-      Confer with customers and engineers to assess equipment needs and to determine system requirements.
-      Help clients solve problems with installed equipment.
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
         - Bullet point
         - Bullet point
+
+# Your project portfolio
 projects:
   intro: >
     You can list your side projects or open source libraries in this
     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
   assignments:
     - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#hook"
       tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
     - title: DevStudio
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
       tagline: "A responsive website template designed to help web developers/designers market their services."
 
     - title: Tempo
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
     - title: Atom
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
     - title: Delta
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
