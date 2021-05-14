@@ -9,11 +9,11 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Diego 
-    last_name: Ezquerro
+    first_name: Alejandro 
+    last_name: Moran
     
     # Define yourself in 4-5 words
-    motto: everything is weird until is not
+    motto: share for everyone's progress
     
     # focus
     focus: Web Development
@@ -32,15 +32,15 @@ basic_info:
     avatar: https://avatars3.githubusercontent.com/u/49835178?s=460&u=944de2ad887921e3b6e261d1d60ef272a4350677&v=4
 
     # Contact Information
-    email: diegoezquerro@gmail.com #optional
-    phone: +34 625 848 735 #optional
-    website: https://diego-ec.github.io/curriculum-diego-ezquerro/ #optional
-    linkedin: https://www.linkedin.com/in/diegoec/ #optional
+    email: alejandroariel.moran9@gmail.com #optional
+    phone: +34 613 010 666 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/alejandro-moran-2898a8211/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Diego-EC
+    github: AlejandroAriel
     
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -48,39 +48,28 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Professional
+        level: Basic
 
       - idiom: Spanish
         level: Native
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Football
 
-      - item: Snowboarding
+      - item: Videogames
 
       - item: Cooking
-
+      
+      - item: Make music
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+
+    - degree: Full stack developer
+      university: Soy henry
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: 
+      time: 2020
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -91,11 +80,11 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 
+      time: 
+      company: 
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: 
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -108,11 +97,11 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 
+      time:
+      company: 
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo:
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -121,11 +110,11 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: 
+      time: 
+      company: 
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: 
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -141,13 +130,13 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: 
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
+        link: "#h"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: 
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
@@ -173,20 +162,20 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: 
+        level: 
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: 
+        level: 
 
-      - name: Angular
-        level: 98%
+      - name: 
+        level: 
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: 
+        level: 
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: 
+        level: 
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: 
+        level:
