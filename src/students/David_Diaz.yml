@@ -9,35 +9,37 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: 
-    last_name: 
+    first_name: David
+    last_name: Diaz
     
     # Define yourself in 4-5 words
-    motto: 
+    motto: Ease of speech , friendly, enthusiastic , cooperative.
     
     # focus
-    focus: 
+    focus: FrontEnd
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
+    summary: I have been dedicated to the web world since I was 16 years old Knowledge of SEO / SEM. Good mastery of ADOBE CLOUD |
+     
       
     
     # Your profile picture URL
+    
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars2.githubusercontent.com/u/73644092?s=400&amp
+    avatar: 
 
     # Contact Information
-    email: 
-    phone: 
-    website: 
-    linkedin: 
+    email: daed_diaz@hotmail.com
+    phone: 99-9999999
+    website: demo@demo.com
+    
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: https://github.com/soydeif
     
-    twitter:  #optional
+   
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -46,59 +48,50 @@ basic_info:
         level: B2
 
       - idiom: Spanish
-        level: Nativo
+        level: Native
 
     # Interests or hobies
     interests:
-      - item:
+      - item: Coding
 
-      - item: 
+      - item: Music
 
-      - item: 
+      - item: Videogames
 
 # Your previous education
 education:
-    - degree: 
-      university_logo: 
-      time: 
-      details: 
-      
+
+    - degree: Full Stack
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2021
+      details: Bootcamp part-time May|
+        
+    
     -
 # Your previous job experiences or voluntier
 experiences:
-    
-    - role: 
-      time: 
-      company: 
-      company_logo:
-      details: 
-       
-       - role:
-      time: 
-      company:
-      company_logo: 
-      details:
-      
-       
-       
-       
 
+    - role: UI designer 
+      time: 2013-2014
+      company: Freelance
+      company_logo: https://lh3.googleusercontent.com/ogw/ADGmqu8wQKL5bENKdPITqAZzVeP9oLBl4jTY3BsW0vgp7g=s83-c-mo
+      details: Branding and web design  |
+       
+       
 skills:
     toolset:
-      - name: 
-        level:
+      - name: Javascript 
+        
 
-      - name: 
-        level: 
+      - name: CSS & HTML
+        
 
-      - name:
-        level: 
+      - name: GIT
+        
 
-      - name: 
-        level: 
+      - name: PHP
+        
 
-      - name: 
-        level: 
-
-      - name: 
-        level: 
+      - name: ADOBE CLOUD
+        
