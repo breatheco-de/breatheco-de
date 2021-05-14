@@ -12,7 +12,7 @@ basic_info:
     motto: I would describe myself as someone who is highly-motivated, and I particularly enjoy working as a part of a team. 
     
     # focus
-    focus: new tech
+    focus: new tech, shopping
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -36,7 +36,7 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish & English
         level: Proffesional
 
     # Interests or hobies
