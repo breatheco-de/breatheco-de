@@ -1,0 +1,62 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Felipe
+    last_name: Araujo
+    motto: Full Stack Developer
+    avatar: ~
+    summary: |       
+         ~
+
+    # Sidebar links
+    email: fsdexter@gmail.com
+    phone: ~
+    website: ~
+    linkedin: ~
+    github: fsdexter
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: medium
+
+      - idiom: English
+        level: C2
+
+      - idiom: portugues
+        level: Native
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: Nautical Science
+      university: CIABA
+      time: 2010 - 2013
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
