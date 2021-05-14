@@ -25,7 +25,7 @@ basic_info:
   twitter: pabletesglez
   stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-  languages:
+  languages:()
     - idiom: Spanish
       level: Native
 
