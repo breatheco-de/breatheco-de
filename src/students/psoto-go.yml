@@ -36,21 +36,16 @@ basic_info:
       level: Basic
 
   interests:
-    - item: Soccer
-
-    - item: Watching Soccer
-
-    - item: Cooking, wine tasting , cooking , eating
+    - item: Cybersecurity
+    - item: Artificial Intelligence
 
 education:
-  - degree: Full Stack Develpor
-    university: 4 Geeks Academy
-    time: 2019 - 2020
-    details: |
-      Front end coding Java Script
-      back end coding Php, python, ruby
-        - Bullet point
-        - Bullet point
+  - degree: Full Stack Developer
+    university: 4GeeksAcademy
+    time: 2021 - 2021
+  - degree: 42 Madrid
+    time: 2020 - 2023
+
 experiences:
   - role: Sales Executive
     time: 10/2007 - 2014
