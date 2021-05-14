@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Paula
+    last_name: Fernández
+    
+    # Define yourself in 4-5 words
+    motto: Hanging in there.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Working hard and vibing whether it takes me.   
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: #optional
+    phone:  #optional
+    #website: asd.com #optional
+    linkedin: Paula Fernández #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: pilarguz10pauliki8
+    
+    #twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Art
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: Historia del Arte
+      university:  Complutense University of Madrid
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2019
+      details: |
+        
+        
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrative assistant.
+      time: 2020 - September 2021
+      company: ODM Computers 
+      # optional
+      company_logo: 
+      details: |
+     
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:  
+      details: |
+       
+
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 20%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: C#
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: MySQL
+        level: 0%
+
+   
