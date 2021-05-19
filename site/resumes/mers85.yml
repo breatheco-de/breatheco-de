@@ -10,10 +10,10 @@ basic_info:
     last_name: Rodriguez Singh
     
     # Define yourself in 4-5 words
-    motto: everything is weird until is not
+    motto: Oni bone vidas nur per sia koro. La esenco estas nevidebla per la okuloj.
     
     # focus
-    focus: Game development
+    focus: Full Stack Developer
     
     # You have 1 paragraph to make a great impression, summarize your career. LATER
     summary: |
@@ -30,15 +30,14 @@ basic_info:
 
     # Contact Information
     email: mers85@gmail.com #optional
-    phone: +34 667780442 #optional
-    linkedin: https://www.linkedin.com/in/mayra-rodriguez-440549167/ #optional
+    linkedin: https://www.linkedin.com/in/mayra-rodriguez-singh/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: mers85
     
-    twitter: @SinghMayra #optional
+    
 
     # languages you speak, levels inculde: Native, Professional
     languages:
@@ -53,27 +52,18 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
-
-      - item: 
+      - item: Traveling
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Learned to create responsive websites using HTML, CSS, Javascript, 
+        Python and React.js. 
    
 # Your previous job experiences or voluntier
 experiences:
@@ -98,30 +88,41 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      There are some of my github projects for the 4GeeksAcademy course!
     assignments:
-      - title: Velocity
+      - title: Ready2help
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: https://github.com/mers85/4geeks_ready2help
+        tagline: "A platform designed to help small organizations to promote, look for donations and volunteers for their projects."
+
+      - title: Random Card Generator
+        link: https://github.com/mers85/4geeks-random-card-dealer-in-javascript-html-and-css
+        tagline: "Random display a single poker card."
+
+      - title: Instagram (Grid and Feed)
+        link: https://github.com/mers85/4geeks-the-instagram-photo-feed
+        tagline: "A simple, responsive website designed with HTML, CSS and Bootstrap."
 
 
 skills:
     toolset:
+      - name: Ruby on Rails
+        level: 85%
+
       - name: Python & Django
-        level: 98%
+        level: 50%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 78%
 
-      - name: Vue.js
-        level: 98%
+      - name: React js
+        level: 50%
+
+      - name: Bootstrap
+        level: 90%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 85%
 
-      - name: Ruby on Rails
+      - name: GIT
         level: 85%
