@@ -16,7 +16,7 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Bachelor's in Communications, twenty-five years in television, career changer. 
+      Bachelor's in Communications with twenty-five years in television lookin for opportunities to enter career into web development.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -25,7 +25,7 @@ basic_info:
     # Contact Information
     email: wsasser72@gmail.com #optional
     phone: 860-324-3056 #optional
-    website: nowebadded #optional
+    website: noneyt #optional
     linkedin: https://www.linkedin.com/in/wyatt-sasser-a790b010/ #optional
     
     #
@@ -33,7 +33,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: wsasser3
     
-    twitter: '@MrSalicornio' #optional
+    twitter: '@wsasser3' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -71,17 +71,23 @@ education:
 experiences:
     - role: Satellite Teleport Operator/Administrator
       time: 2019 - Present
-      company: Corporate Satellite Communications
+      company: Corporate Satellite Communications, Miami FL
       # optional
-      company_logo: https://i.pinimg.com/originals/50/37/f6/5037f66ab847410c6d817b83facfd098.png
+      company_logo: https://www.cscmgt.com/index.php
       details: |
-        Tour guide, events programmer, winery shop.
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
           
     - role: Lead Master Control/Media Operator
       time: 2014 - 2019
       company: ESPN, Bristol CT
       # optional
-      company_logo: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAkFBMVEXNJC7////NISvTSE/KAAv56+vKABTKABH12tvy0NHMBxrMFiPdg4b33+DJAADMHSjLER/01tflnqHvxMbsurzJAAbVVlz++vrgio7xy8378vLnp6rZaW7PMjvRPUXqsLLikpXkmZzXYWbtvb/bcXbdfIDac3fTSlHSQUnQNT3npKfVU1nPLDXcfoH45ufYZWrKT6VaAAAFp0lEQVR4nO2da1vqOhCF2+zSQiskIFDACxfxfjn//9+dFHVv2wmmq5543M+z3o/YIZk0mayZRI1+kdZEirQmIoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCAlLniEUfwxVkaeQrZ80NxrvmrX6pj/SkJ/2AYaLt9FSZnS5WC8R2xYMptv5KH/3PF+3tdrczYqjHv6HpGWM8PzaKWO2PciuPeWZfnM8AZp4eU7Czy6lMFd2h2UyO8GGGKM8zw99G0FWfR18tPQd5shT1aPRKWYEs6/mltKY0Sp45CpusB6NrE2yxGw6UL0TPQeNlknowdpA/enZ/uQT0IkOXKX4e4zjufY7/BXyNdSdfhapC9SHLtgAZLao0TQPO1gpFn6ucnR4O2KjFt7QKgs7WNkQ6s6DiUYhN8LfTEyUDmCrKGyIn62g3pwU+hZ2oQvrPEqw91hxGXawMqw3O11cwy50oRosfArfBR0sBcqse2W+YS+Mq/WunnCri6CDVZxjvbFhd4r70IFFl/Vehk0QQZllt5t0DPvQBbveYZkVr8KqUjNZ9QCWuR0sxKArqztVLKCuVZwG1lkmQag6k0IWXbHBp4CNAo8VIeR/R6cQ1sK0fLRRTcfaSa2tEh8qX98Dj9V8PEDQkdm2tLja7rI/1fQp1MxgvNfqrtlQv57M6HPRExN0sIoFpGPKGZTdluv3avoMzVz2hUNm1dNkmUrY7oXEPEAu9LMowzTp/rCbowXiKsmTcnlVVwYyleiHrdDkWDXLij5wsOLramnoX5hRHGeOatZLXZ/LOR5Yk2Z9yIWzDkWmKtBoMAONV3a9i0L/sh7A5UHZWdjBSrBq1qJD+XKZwaExjsepoyrZKBrnIg4uAufRmA/nOsLLWUpF5gy02bgKstvaZuc4CjgPel6h7jEfqtqaAf2Orwu00H84rkhdX/QB/SgeCFsn1TvMhypowAdhNtCBoTFemEjJPeGxNnEcUzzsZlicQD6sDjpmBnpuQ02Ghcap3faKvfj4qS6ztqJ7gatZmMwaHl6dyrED6WkOyqxN9U6kzCrrE0fKrGFgmXUFebF83Y7UbI+IrXWuLts/3Tt7OrSSiz2hKbPEK/t2mTW+PjnO7j1oFJmaH3nwWYz/1jhkltv4eneRvOWTck8YNGTWS/OBdWCZJXTdJCmO8yHAKn3kmUTMiJtCyqwyMe4WfoelnyezZvKNf7VBuTrmWsqsnjcWy8PfSV1myXtl+6CD5TiZ231V18kZoZQMjQNf6cmxJ3hlVtgTVofM+rKuk8fII0dovPKFF0fqPffJrLD/Kq14brZXjpLjl4IrB333hxMhvO0m5ltSDvQ/Yiwin8wKWyh1yKz+8Dh2a85PP/n5K81vXKaOu6He0OhIvUe1B2RCPwyrScGT+Mpt/K6GlVky5fVe0ZN7gldmLcPOLLCQt0al+IFF4VhS977wIquS4x8nsz5lY/CKZzWJHBmo92RB7gkNmSXn+CbscQV4N2tfwBXPuLp3I0Njz3uyIFPvhsySczywzAKrWbcavHNTYbNbKbPG3pRXViWffTLrNmjpD71n/qRkduvlwVXN8sosx3usy2VHBee7ZdanlAle8Tyoo5kIjQ8dZJavmhX60BCreVodg1Y8bdS1cygXn3aQWWV9fP8CmQUeBlkbqyQd1SxvBupNvb9dZoFHgB1k1mm1NBwZqPeerHdPkNe+f5bM2hqk4lmxOIQRh8zyrhjvniDz9W1YmWWw3AWUWasH/dp9GRr91Sy53hsyKxLt3YSVWeAvLD3qtgfL5ctyMh+9//afXFJ9b3hJxHfW9wQlr32HlVnWDYjqzkK7J2dJ+vEmW9H8eYsFI76zMRTK1T1CCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQv42/gUKs4dGXURYpAAAAABJRU5ErkJggg==
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Flogo-logos.com%2Fwp-content%2Fuploads%2F2016%2F11%2FESPN_logo.png&imgrefurl=https%3A%2F%2Flogo-logos.com%2Fespn-logo-789.html&tbnid=8fP-ditxrSaI0M&vet=12ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ..i&docid=7jhKxX-zrqF07M&w=4415&h=1298&q=espn%20logo&ved=2ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -91,6 +97,36 @@ experiences:
           - Bullet point
           - Bullet point
 
+    - role: Supervisor Media Library/Ingest Operations
+      time: 2006-2012
+      company: Discovery Communications, Sterling VA
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2017%2F04%2Fdiscovery-channel-logo-0.png&imgrefurl=https%3A%2F%2Fen.logodownload.org%2Fdiscovery-channel-logo%2F&tbnid=z7A4xcRMWxhpIM&vet=12ahUKEwiPgIWw-9XwAhVGmVMKHfQOBhgQMygAegUIARDMAQ..i&docid=0_7OVwHeY3N-BM&w=4096&h=4096&q=discovery%20channel%20logo&ved=2ahUKEwiPgIWw-9XwAhVGmVMKHfQOBhgQMygAegUIARDMAQ
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point   
+
+    - role: Technician II
+      time: 1997-2006
+      company: ESPN, Bristol CT
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Flogo-logos.com%2Fwp-content%2Fuploads%2F2016%2F11%2FESPN_logo.png&imgrefurl=https%3A%2F%2Flogo-logos.com%2Fespn-logo-789.html&tbnid=8fP-ditxrSaI0M&vet=12ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ..i&docid=7jhKxX-zrqF07M&w=4415&h=1298&q=espn%20logo&ved=2ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point 
+          
+     
+
 # Your project portfolio
 projects:
     intro: >
@@ -98,23 +134,23 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Digital Postcard
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: https://github.com/wsasser3/Digital-Postcard
+        tagline: "A postcard created with HTML and limited CSS."
 
-      - title: DevStudio
+      - title: Instagram Post
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        link: https://github.com/wsasser3/New-Instagram-Post
+        tagline: "A replica Instagram Post using HTML and CSS."
 
-      - title: Tempo
+      - title: Instagram Feed
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        link: https://github.com/wsasser3/Bootstrap-Instagram-Feed
+        tagline: "An Instagram feed that toggles between a gallery view and post feed using Bootstrap."
 
       - title: Atom
         # optional
