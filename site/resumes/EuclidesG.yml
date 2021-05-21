@@ -1,0 +1,80 @@
+--- 
+basic_info: 
+  avatar: "https://drive.google.com/file/d/1UTIIz5m_hxl1FGZ49Nj3hekDLjeE0r5w/view?usp=sharing"
+  email: euclides.garrido@garridocorporan.com
+  first_name: Euclides
+  focus: "Learning to code"
+  github: EuclidesG
+  interests: 
+    - 
+      item: "Playing piano"
+    - 
+      item: Trekking
+    - 
+      item: Traveling
+  languages: 
+    - 
+      idiom: Spanih
+      level: Native
+    - 
+      idiom: English
+      level: Professional
+  last_name: Garrido
+  linkedin: "https://www.linkedin.com/in/euclidesgarrido/"
+  motto: "I love traveling"
+  phone: "1 809 777 2662"
+  stack-overflow: ~
+  summary: "Accounting and finance profesional with experience in taxes and financial due diligence consulting for companies in \n\
+      Central America and Caribbean. Since when I was young I was passionated about science and technology, so now im looking for \n\
+      an transition for a more tech focused job were i can actively participate in the development of the companies and\n\
+      products that are changing the world.  \n"
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "Bachelor degree in Financial management and audit"
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    time: "2011 - 2012"
+    university: PUCMM
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+experiences: 
+  - 
+    company: "Panama,"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    role: Advisor
+    time: "2017 - 2019"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Placeholder
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 10%
+      name: Python
+    - ~
+skin: white
+template: online-cv
