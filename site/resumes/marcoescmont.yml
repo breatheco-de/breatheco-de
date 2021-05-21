@@ -24,7 +24,7 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/marco-escalona.png
+    avatar: http://sep.breatheco.de/static/marco-escalona.png
 
     # Contact Information
     email: marcoescmont@gmail.com #optional
