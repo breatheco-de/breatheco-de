@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Diego
+  last_name: Jacob
+
+  # Define yourself in 4-5 words
+  motto: Is reading a lot of new information
+
+  # focus
+  focus: Full stack developer
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Kinesiólogo, futuro desarrollador web!
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/U09_Luis_Su%C3%A1rez_7540.jpg/200px-U09_Luis_Su%C3%A1rez_7540.jpg
+
+  # Contact Information
+  email: d.jacobpulgar@gmail.com #optional
+  phone: +56 9 3030 00 00 #optional
+  website: #optional
+  linkedin: diegoejp #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: diegoejp
+
+  twitter: #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: Intermedie
+
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobies
+  interests:
+    - item: sports/footbal/tennis/mma
+
+    - item: Nuevas tecnologías
+
+    - item: Playas
+
+# Your previous education
+education:
+  - degree: Kinesiólogo
+    university: UNAB
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2012 - 2018
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+  - degree: Full Stack Developer
+    university: 4Geek Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2021 - 2022
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: Kinesiologo
+    time:
+    company:
+    # optional
+    company_logo:
+    details:
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Instagram page
+      # optional
+      project_logo:
+      link: https://github.com/diegoejp/instagram-cooy.git
+      tagline: " Primer Proyecto en 4geeks."
+
+skills:
+  toolset:
+    - name: Python
+      level: 2%
+
+    - name: Javascript
+      level: 10%
+
+    - name: Java
+      level: 10%
+
+    - name: HTML5 & CSS
+      level: 30%
