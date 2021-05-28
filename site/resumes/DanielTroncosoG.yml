@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel Ignacio
+    last_name: Troncoso Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: I like programming and reading new stuff
+    
+    # focus
+    focus: Codes and novels
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Student of chemical engineer of "Universidad de Chile"/ Full stack developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: di.trgonzalez@gmail.com #optional
+    phone: 
+    website: 
+    linkedin: linkedin.com/in/daniel-troncoso-gonzalez-88a117207 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DanielTroncosoG
+    
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advance
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Volleyball
+
+      - item: Surfing
+
+      - item: Anime / Light Novel
+
+# Your previous education
+education:
+    - degree: License in chemical engineer
+      time: 2011-2017
+      university: Universidad de Chile
+      # optional
+      university_logo: 
+      details: |
+        I' studying chemical engineer, this career focus on the modeling
+        of process in the industrial enviroment either making designs to 
+        create new machines for industrial requirements, designing the 
+        anufacture process of the products that we want to create or 
+        making a process that already exist more efficient.
+   
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Shopper
+      time: 2018 - Present
+      company: Cornershop, Chile
+      # optional
+      company_logo: https://pbs.twimg.com/profile_images/1390063964642451459/-gMVISav.jpg
+      details: |
+        In cornershop I am in charge of do the supermarket shopping for 
+        the costumer of the app. The most important thing in this job 
+        is that you have to buy all the products like if it's to your 
+        home, but listening to every request of the costumer. In this
+        job the most important part is the costume experience.
+
+    - role: Logistic Manager
+      time: 2014 - 2015
+      company: Pastenes S.A, Chile
+      # optional
+      company_logo:
+      details: |
+        I was in charge of designing routes for the distribution of 
+        alcoholic and no alcoholic drinks for Concha y Toro S.A.
+        I also was in charge of the control and inspection of delivery 
+        and bill for Concha y Toro's order audit.
+        Finally I had to make sure that the relation with the final
+        client had the experience and quoality that Concha y Toro
+        expect for his costumers.
+
+# Your project portfolio
+projects:
+
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 80%
+
+      - name: Python
+        level: 80%
+      
+      - name: Bootstrap
+        level: 80%
