@@ -1,0 +1,121 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Victor
+    last_name: Fernandez
+
+    # Define yourself in 4-5 words
+    motto: I enjoy the tech world
+
+    # focus
+    focus: Never stop learning
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am currently training as a Full-Stack developer. In search of job opportunities that allow me to grow in my career as a developer. I am responsible and dedicated. I like to learn new things every day. In the future I want to be a game developer. I also have interest in machine learning and IA. I like mathematics and problem solving.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgur.com/a/tKk7naw
+
+    # Contact Information
+    email: dariocontrerasfc@gmail.com
+    website: vicdario.com
+    linkedin: victordfernandez
+    twitter: '@Vicdariof'
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: VicDario
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Sport
+
+      - item: Music
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: Bachelor of Science
+      university: School "Beata Maria de San José"
+      # optional
+      time: 2011-2016
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Warehouse Operator
+      time: November 2020 - May 2021
+      company: Rhein Chile SPA
+      # optional
+      company_logo:
+      details: Warehouse Order, Container Unloading, Picking.
+
+    - role: Warehouse Operator
+      time: August 2019 - September 2020
+      company: Distribuidora Mödinger y CIA LTDA
+      # optional
+      company_logo:
+      details: Unloading merchandise, ordering in the warehouse, e-commerce operator.
+  
+# Your project portfolio
+projects:
+    intro: There are some of my projects
+
+    assignments:
+      - title: Administrator Bot
+        # optional
+        project_logo:
+        link: https://github.com/VicDario/Administrator
+        tagline: "A discord bot to manage your server. You can kick, ban, check latency, and can play music"
+
+      - title: Product Landing Page with Plain HTML/CSS
+        # optional
+        project_logo:
+        link : https://github.com/VicDario/Exercise-product-landing-page-plain-CSS
+        tagline : "A simple landing page of a website shop"
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo:
+        link: https://github.com/VicDario/instagram-photo-feed-with-bootstrap
+        tagline: "A responsive website built using HTML, CSS and Bootstrap that showcases your photos, just like Instagram."
+
+      - title: Simon says
+        # optional
+        project_logo:
+        link: https://github.com/VicDario/Simonsays
+        tagline: "A simple Simon Says game in javascript"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Bootstrap
+        level: 60%
+
+      - name: Git
+        level: 60%
