@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fabian marcelo
+    last_name: Lopez Vasquez
+    
+    # Define yourself in 4-5 words
+    motto: I like sports
+    
+    # focus
+    focus: Personal development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I work early after graduated from high school and i decided to change my life with 
+      with hard work!
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: /workspace/About-4Geeks-Academy/site/static/yop.jpg
+
+    # Contact Information
+    email: fabichidori2@gmail.com #optional
+     #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/fabi%C3%A1n-l%C3%B3pez-762185213/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: c0venn
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      # - idiom: Spanish
+      #   level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Basketball
+      - item: Gaming
+      - item: Investing
+
+
+
+# Your previous education
+education:
+    - degree: Scientific Studies
+      time: 2004-2018
+      university: Paula Jaraquemada 
+# Your previous job experiences or voluntier
+experiences:
+    - role: operator logistic
+      time: 2018-2019
+      company: Cencosud
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cencosud-2014.svg/1200px-Cencosud-2014.svg.png
+      details: |
+       Operator with electric pallet truck, in charge of dispatch and reception guides.
+
+    - role: Coin Casher
+      time: 2020-2021
+      company: Prosegur LTDA
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+        Receptionist of bags with customer money to be counted their remittances from commercial stores.
