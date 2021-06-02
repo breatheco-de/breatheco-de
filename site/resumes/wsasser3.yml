@@ -1,0 +1,185 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Wyatt
+    last_name: Sasser
+    
+    # Define yourself in 4-5 words
+    motto: If it doesn't kill you, it'll make you stronger.
+    
+    # focus
+    focus: Family, Hiking, Career Change
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Bachelor's in Communications with twenty-five years in television lookin for opportunities to enter career into web development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars2.githubusercontent.com/u/73470664?s=460&u=e3e8302070d5baaa27a97b031d57d49c45bae80f&v=4
+
+    # Contact Information
+    email: wsasser72@gmail.com #optional
+    phone: 860-324-3056 #optional
+    website: noneyt #optional
+    linkedin: https://www.linkedin.com/in/wyatt-sasser-a790b010/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: wsasser3
+    
+    twitter: '@wsasser3' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: n/a
+        level: n/a
+
+      - idiom: n/a
+        level: n/a
+
+    # Interests or hobies
+    interests:
+      - item: Hiking
+
+      - item: Cooking
+
+      - item: Stock Market
+
+# Your previous education
+education:
+    - degree: Bachelor's in Communications
+      university: Southern Connecticut State University
+      # optional
+      university_logo: https://www.southernct.edu/sites/default/files/scsu-logo.png
+      time: 1990 - 1994
+      details: |
+        Communications degree specailizing in corporate video, however branched into live television with extensive 
+        experience in master control, non-linear editing, and quality control. 
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Satellite Teleport Operator/Administrator
+      time: 2019 - Present
+      company: Corporate Satellite Communications, Miami FL
+      # optional
+      company_logo: https://www.cscmgt.com/index.php
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+          
+    - role: Lead Master Control/Media Operator
+      time: 2014 - 2019
+      company: ESPN, Bristol CT
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Flogo-logos.com%2Fwp-content%2Fuploads%2F2016%2F11%2FESPN_logo.png&imgrefurl=https%3A%2F%2Flogo-logos.com%2Fespn-logo-789.html&tbnid=8fP-ditxrSaI0M&vet=12ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ..i&docid=7jhKxX-zrqF07M&w=4415&h=1298&q=espn%20logo&ved=2ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+    - role: Supervisor Media Library/Ingest Operations
+      time: 2006-2012
+      company: Discovery Communications, Sterling VA
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2017%2F04%2Fdiscovery-channel-logo-0.png&imgrefurl=https%3A%2F%2Fen.logodownload.org%2Fdiscovery-channel-logo%2F&tbnid=z7A4xcRMWxhpIM&vet=12ahUKEwiPgIWw-9XwAhVGmVMKHfQOBhgQMygAegUIARDMAQ..i&docid=0_7OVwHeY3N-BM&w=4096&h=4096&q=discovery%20channel%20logo&ved=2ahUKEwiPgIWw-9XwAhVGmVMKHfQOBhgQMygAegUIARDMAQ
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point   
+
+    - role: Technician II
+      time: 1997-2006
+      company: ESPN, Bristol CT
+      # optional
+      company_logo: https://www.google.com/imgres?imgurl=https%3A%2F%2Flogo-logos.com%2Fwp-content%2Fuploads%2F2016%2F11%2FESPN_logo.png&imgrefurl=https%3A%2F%2Flogo-logos.com%2Fespn-logo-789.html&tbnid=8fP-ditxrSaI0M&vet=12ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ..i&docid=7jhKxX-zrqF07M&w=4415&h=1298&q=espn%20logo&ved=2ahUKEwjtqYDe-tXwAhUCnlMKHXldDicQMygAegUIARC3AQ
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point 
+          
+     
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/wsasser3/Digital-Postcard
+        tagline: "A postcard created with HTML and limited CSS."
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/wsasser3/New-Instagram-Post
+        tagline: "A replica Instagram Post using HTML and CSS."
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/wsasser3/Bootstrap-Instagram-Feed
+        tagline: "An Instagram feed that toggles between a gallery view and post feed using Bootstrap."
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
