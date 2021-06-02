@@ -1,0 +1,128 @@
+template: "online-cv"
+skin: "orange"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mayra
+    last_name: Rodriguez Singh
+    
+    # Define yourself in 4-5 words
+    motto: Oni bone vidas nur per sia koro. La esenco estas nevidebla per la okuloj.
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career. LATER
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars3.githubusercontent.com/u/49835178?s=460&u=944de2ad887921e3b6e261d1d60ef272a4350677&v=4
+
+    # Contact Information
+    email: mers85@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/mayra-rodriguez-singh/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mers85
+    
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: A2
+
+      - idiom: Esperanto
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Traveling
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2021
+      details: |
+        Learned to create responsive websites using HTML, CSS, Javascript, 
+        Python and React.js. 
+   
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+   
+# Your project portfolio
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    assignments:
+      - title: Ready2help
+        # optional
+        link: https://github.com/mers85/4geeks_ready2help
+        tagline: "A platform designed to help small organizations to promote, look for donations and volunteers for their projects."
+
+      - title: Random Card Generator
+        link: https://github.com/mers85/4geeks-random-card-dealer-in-javascript-html-and-css
+        tagline: "Random display a single poker card."
+
+      - title: Instagram (Grid and Feed)
+        link: https://github.com/mers85/4geeks-the-instagram-photo-feed
+        tagline: "A simple, responsive website designed with HTML, CSS and Bootstrap."
+
+
+skills:
+    toolset:
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Python & Django
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 78%
+
+      - name: React js
+        level: 50%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: GIT
+        level: 85%
