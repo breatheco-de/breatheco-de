@@ -1,0 +1,80 @@
+template: "online-cv"
+skin: "blue"
+basic_info:
+    # Your full name
+    first_name: Apolo
+    last_name: Pino
+    
+    motto: ""
+    
+    # focus
+    focus: Web Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Aspiring developer, background in corporate innovation.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQEoPqw4W97e8w/profile-displayphoto-shrink_400_400/0/1589567869141?e=1627516800&v=beta&t=FqlkyrdJY3PuCdV4FzUZImaDEOI37Tv87IGdJ_p9dzc
+    # Contact Information
+    email: apolo.pino@gmail.com #optional
+    phone:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: apolopino
+    
+    twitter: 'apolopino' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+      - idiom: English
+        level: Full proficiency
+      - idiom: Portugues
+        level: Basic
+    # Interests or hobies
+    interests:
+      - item: Learning
+      - item: Cooking
+      - item: Podcasting
+# Your previous education
+education:
+    - degree: BA in Business
+      university: U. Mayor
+      # optional
+      university_logo: 
+      time: 2014 - 2015  
+      details: BA in Business, finance
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Hispam Partnerships 
+      time: 2017 - Present
+      company: Wayra Hispam
+      # optional
+      company_logo: 
+      details: |
+         
+   
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+      
+        
+skills:
+    toolset:
+      - name: 
+        level: 
+      - name: 
+        level: 
