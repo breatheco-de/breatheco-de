@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  # Profile information
+  first_name: Brandon
+  last_name: Fernandez Creed
+  motto: Full Stack Developer
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  summary: |
+    Summarise your career here: Originally a chemist but transitioning into the tech industry. Very eager to learn
+     and make products that will improve the lives of others.
+
+  # Sidebar links
+  email: brandon.f.creed@gmail.com
+  phone: 646 257 0133
+  website: N/A #do not add http://
+  linkedin: brandon-creed
+  github: brcre001
+  twitter: N/A
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: Spanish
+      level: Professional
+
+    - idiom: French
+      level: Beginner
+
+  interests:
+    - item: Ultimate Frisbee
+
+    - item: Basketball
+
+    - item: Travel
+education:
+  - degree: Bachelor of Arts in Chemistry
+    university: Goucher College
+    time: 2014 - 2018
+    details: |
+      Learned main principles of general chemistry as well as organic chemistry.
+      Also develed into topics such as inorganic chemistry,
+      physical chemistry, medicinal chemistry, and biochemistry.
+
+        - President of Chemistry Club (2018)
+        - Track and Field (2016 - 2018)
+
+  - degree: Master of Science in Biomedical Science
+    university: Barry University
+    time: 2020 - 2022
+    details: |
+      Studied in depth topics about the human body such as human physiology,
+      gross anatomy, immunology and physiological biochemistry.
+
+
+experiences:
+  - role: Analytical Chemist
+    time: 2018 - 2019
+    company: Kaycha Labs
+    details: |
+      Lead a team of other chemists to extract medicinal cannabis products to relay
+      values to the medical cannabis production companies
+
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 30%
+
+    - name: Javascript & jQuery
+      level: 80%
+
+    - name: Angular
+      level: 15%
+
+    - name: HTML5 & CSS
+      level: 80%
+
+    - name: Ruby on Rails
+      level: 0%
