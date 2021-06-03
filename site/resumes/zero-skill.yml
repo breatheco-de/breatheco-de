@@ -73,6 +73,7 @@ education:
 experiences:
     - role: Freelance Web Developer
       time: 2018 - Present
+      company: none
       # optional
       #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
