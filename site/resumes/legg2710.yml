@@ -1,0 +1,40 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    # Profile information
+    first_name: Luis.
+    last_name: Gonzalez.
+    motto: Never skip a day to be a better you.
+    avatar: 
+    summary: |
+        I have been willing to learn coding since childhood and recently got the opportunity in 4GeeksAcademy to start diggin in the world of Full-Stack Developers.
+
+    # Sidebar links
+    email: luisemilio2710@hotmail.com
+    phone: 
+    website:  #do not add http://
+    linkedin: 
+    github: legg2710
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Music and Art
+      - item: Filosophy
+      - item: Spirituality
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 70%
+
+      
