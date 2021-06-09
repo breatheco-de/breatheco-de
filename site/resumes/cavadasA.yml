@@ -1,0 +1,110 @@
+template: "online-cv"
+skin: "orange"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio
+    last_name: Cavadas Gonzalez Urtusuaztegui
+    
+    # Define yourself in 4-5 words
+    motto: Carpe Diem
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career. LATER
+    summary: |
+      Siempre abierto a nuevas oportunidades y formas de expandir mi conocimiento y mi red, mientras que dedico todos mis esfuerzos a entregar resultados rápidos y de alta calidad.
+      Versátil y dinámico, líder, proactivo, con hambre de aprender, identificar y resolver los diferentes problemas y necesidades para satisfacer al cliente
+      - "Tecnologías": JavaScript | SQL | WebPack | API Rest | ReactJS | Python | Flask | Flux | Babel | HTML | CSS | git
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQEaS8CO5HgWvg/profile-displayphoto-shrink_200_200/0/1568154115636?e=1628726400&v=beta&t=BOpzDdaJe4DbTQmXG3ye_4_AFLgFV5I33uuhbUsA4QA
+
+    # Contact Information
+    email: antonio.cavadas.gu@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/antonio-cavadas/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cavadasA
+    
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Traveling
+
+      - item: Football
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2021
+      details: |
+        Learned to create responsive websites using HTML, CSS, Javascript, 
+        Python and React.js. 
+   
+# Your previous job experiences or voluntier
+experiences:
+    - role: Admissions Advisor
+      time: 2020 - Present
+      company: IE Business School, Madrid
+      # optional
+      company_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIE_University&psig=AOvVaw2vMBb9OouxKMOIsBYsFV2B&ust=1623340693388000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDDo7_1ivECFQAAAAAdAAAAABAD
+      details: |
+        - Advise, assist and enroll students in our Exponential Learning Programs.
+        - Deliver business targets and objectives in a performance-oriented culture.
+        - Provide feedback to Marketing Managers on leads and campaign quality.
+   
+# Your project portfolio
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    assignments:
+      - title: dturist
+        link: https://github.com/jmar76/placeholders
+        tagline: "A platform designed for local and rural turism in Andalucia"
+
+      - title: Random Card Generator
+        link: https://github.com/cavadasA/randomCardGenerator
+        tagline: "Random display a single poker card."
+
+      - title: To do App
+        link: https://github.com/cavadasA/ToDoApp
+        tagline: "A simple to do app created with React."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 80%
+
+      - name: React js
+        level: 70%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: GIT
+        level: 85%
