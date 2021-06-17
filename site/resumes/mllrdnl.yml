@@ -13,13 +13,13 @@ basic_info:
     last_name: Daniel
     
     # Define yourself in 4-5 words
-    motto: 
+    motto: TCB! (Take Care of Business)
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary:     
+    summary: I am a knowledge-hungry programming beginner.  I love to learn and am looking forward to each opportunity that allows me to do so, and becomming a well-rounded, full stack developer.      
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: 
+    avatar: https://avatars.githubusercontent.com/u/84468533?v=4
     # Contact Information
     email: mllr.dnl@gmail.com  
     phone: 206-290-8014 
@@ -29,6 +29,14 @@ basic_info:
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: mllrdnl
+
+     # Interests or hobies
+    interests:
+      - item: Nature/Hiking/Exploring 
+
+      - item: Programming/Creating
+
+      - item: Reading
     
 
     # languages you speak, levels inculde: Native, Professional
