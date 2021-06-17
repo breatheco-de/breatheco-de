@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "orange"
 
 # Personal Information
 basic_info:
@@ -13,10 +13,10 @@ basic_info:
     last_name: Perez
     
     # Define yourself in 4-5 words
-    # motto: Fanatica del Tetris, cat lover, con un escritorio muy ordenado, con mucha motivación de seguir aprendiendo. 
+    motto: Love watching movies, relaxing, working out and coding. 
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    # summary: Analista de datos con especializacion en datos sociodemograficos y perfil de usuarios. Con mucho interes por la programación.    
+    summary: Interested in learning coding.    
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://avatars.githubusercontent.com/u/84752403?v=4
