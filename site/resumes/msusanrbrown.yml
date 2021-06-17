@@ -1,0 +1,49 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: M. Susan
+    last_name: Brown
+    
+    # Define yourself in 4-5 words
+    motto: Love to learn, enjoy very much coding and everything tech. I am also a fitness enthusiast.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Industrial Engineer, MBA, and Master of Science in Information Technology, with front-end and back-end programming skills.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/77818720?s=400&u=98a443fa940078dd24c93d4603fb457dc64830c2&v=4
+    # Contact Information
+    email: msusanrbrown@gmail.com 
+    phone: (954) 298-4986
+    linkedin: https://www.linkedin.com/in/mary-brown-767807127/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: msusanrbrown
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Programming
+
+      - item: Fitness
+
+      - item: Reading 
+
