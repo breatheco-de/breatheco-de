@@ -1,0 +1,86 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Josh
+  last_name: Fishman
+
+  # Define yourself in 4-5 words
+  motto: Here to learn code
+
+  # focus
+  focus: Learn a lot of code to solve complex problems and make the lives of others easier.
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: My career is currently pending because, I have yet to learn enough code as of 6/15/2021
+    
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://placeimg.com/640/480/animals
+
+  # Contact Information
+  email: #optional
+  phone:  #optional
+  website: #optional
+  linkedin: https://www.linkedin.com/in/josh-fishman-972054214/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: JoshFishman97
+
+  twitter: #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+
+    - idiom: English
+      level: Native
+
+  # Interests or hobies
+  interests:
+    - item: MMA
+
+    - item: BJJ
+
+    - item: Coding
+
+    - item: Gym
+
+    - item: Dogs
+
+# Your previous education
+education:
+  - degree: Bachlors in Criminology
+    university: University of South Florida
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2015 - 2019
+    details: 
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  
+# Your previous job experiences or voluntier
+
+skills:
+  toolset:
+    - name: HTML5
+      level: 71%
+
+    - name: CSS3
+      level: 70%
+
+    - name: Bootstrap
+      level: 70%
+
+    - name: Javascript
+      level: 70%
