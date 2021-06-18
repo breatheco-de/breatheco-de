@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "Online-CV"
+skin: "red"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo
+    last_name: Cairo
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    # summary: Nuevo en el mundo del desarrollo web. Apasionado por el diseño.
+      
+    
+    
+    # Contact Information
+    email: guillermocairo14@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin:  www.linkedin.com/in/guillermo-rafael-cairo-9981b11b6 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/GuillermoCairo26
+    
+   
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Advance
+
+    # Interests or hobies
+    interests:
+      - item: Diseño
+
+      - item: Cine
+
+# Your previous education
+education:
+    - degree: Estudiante de derecho
+      university: Universidad de la República
+      # optional
+      university_logo:
+      time: 
+      details: |
+        Abogacia
+
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: voluntier
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        Voluntariado en Club Leo
+
+    - role: Vicepresidente
+      time: 2016-2018
+      company: Club de Leones
+      # optional
+      company_logo: 
+      details: |
+        
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      Simple counter
+
+
+    assignments:
+      - title: 
+        # optional
+        project_logo:
+        link: https://github.com/GuillermoCairo26/Contador_Simple_con_React.git
+        tagline: 
+
+
+skills:
+    toolset:   
+      - name: Javascript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: React
+        level: 40%
+      
+      - name: Bootstrap
+        level: 60%
+
+     
