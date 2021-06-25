@@ -23,13 +23,13 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://imgur.com/a/tKk7naw
+    avatar:
 
     # Contact Information
     email: dariocontrerasfc@gmail.com
     website: vicdario.com
     linkedin: victordfernandez
-    twitter: '@Vicdariof'
+    twitter: 'Vicdariof'
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
@@ -97,8 +97,8 @@ projects:
       - title: Instagram Photo Feed with Bootstrap
         # optional
         project_logo:
-        link: https://github.com/VicDario/instagram-photo-feed-with-bootstrap
-        tagline: "A responsive website built using HTML, CSS and Bootstrap that showcases your photos, just like Instagram."
+        link: https://github.com/VicDario/Star-Wars-Page
+        tagline: "A responsive website built using HTML, CSS and Bootstrap. In this website you can read about the Star Wars Universe."
 
       - title: Simon says
         # optional
@@ -109,7 +109,7 @@ projects:
 skills:
     toolset:
       - name: Javascript
-        level: 30%
+        level: 50%
 
       - name: HTML5 & CSS
         level: 90%
