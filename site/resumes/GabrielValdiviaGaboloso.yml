@@ -1,0 +1,121 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriel A.
+    last_name: Valdivia N.
+    
+    # Define yourself in 4-5 words
+    motto: Challenges make life more interesting
+    
+    # focus
+    focus: Overcoming
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Development wizard / Fullstack Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: g.valdivia1436@gmail.com #optional
+    phone: +56 9 4442***** #optional
+    website: luisjrodriguez.dev #optional
+    linkedin: Gabriel Valdivia Norambuena #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GabrielValdiviaGaboloso
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedie
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Gymnasio
+
+      - item: Electronic games
+
+# Your previous education
+education:
+    - degree: Developer Full Stack
+      university: 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021-2021
+      details: 
+       
+
+    - degree: Atomation and industrial control
+      university: Inacap
+      # optional
+      university_logo: https://portales.inacap.cl/Assets/imagenes/Comunicaciones/2021/mayo/Licitacion/logo-portada.jpg
+      time: 2011 - 2015
+      details: 
+       
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2021 - Present
+      company: 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Working on it
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: ""
+        tagline: ""
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: Angular
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 80%
