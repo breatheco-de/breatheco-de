@@ -1,0 +1,57 @@
+template: "online-resume"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Stefany E.
+    last_name: Aranzazu Gerdel
+    
+    # Define yourself in 4-5 words
+    motto: Funny but professional
+    
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio libero, dignissim at dolor et, faucibus condimentum sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed pellentesque aliquet turpis. Sed ante mauris, laoreet sed scelerisque venenatis, venenatis non odio. Cras nulla lacus, facilisis nec dolor a, malesuada vulputate lorem. In ornare fermentum dolor, id sollicitudin augue lacinia vel. In id nunc volutpat, pharetra arcu quis, maximus velit. Donec pulvinar sagittis purus, id posuere eros mollis non. Vestibulum mattis felis vitae orci facilisis, quis semper leo vestibulum. Nullam laoreet lacus a auctor feugiat. Vivamus congue neque orci, id pretium urna laoreet quis.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: stefanyaranzazu1310@gmail.com #optional
+    phone: 618918808 #optional
+   
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/StefAranzazu
+    
+  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Meduim
+
+      - idiom: Italian
+        level: Basic  
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: TAPSD
+      university: IES Pérez Galdós
+      
