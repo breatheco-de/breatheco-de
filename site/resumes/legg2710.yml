@@ -59,7 +59,7 @@ basic_info:
 # Your previous education
 education:
     - degree: AutoCAD2017 Bidimensional
-      university: Autodesk® Authorized Training Center(ATC®)
+      university: Autodesk Authorized Training Center(ATC)
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2017
