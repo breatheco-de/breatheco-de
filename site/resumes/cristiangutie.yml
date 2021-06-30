@@ -1,0 +1,77 @@
+template: "online-cv"
+skin: "blue"
+basic_info:
+    # Your full name
+    first_name: Cristián
+    last_name: Gutiérrez
+    
+    motto: What did you learn today?
+    
+    # focus
+    focus: Full stack development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: SEO,SEM, web developer result oriented ninja obsessed with performance currently improving my programing knowledge to become a Full stack ninja.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/22823689?v=4
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cristiangutie
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+      - idiom: English
+        level: Full proficiency
+    # Interests or hobies
+    interests:
+      - item: Hiking
+      - item: Martial arts
+      - item: Gaming
+# Your previous education
+education:
+    - degree: Marketing
+      university: Universidad del Pacífico
+      # optional
+      university_logo: 
+      time: 
+      details: 
+        
+# Your previous job experiences or voluntier
+experiences: 
+    - role: Digital marketing consultant
+      time: 2014-Preset
+      company: Freelance
+      # optional
+      company_logo: 
+      details:
+         
+   
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+      
+        
+skills:
+    toolset:
+      - name: 
+        level: 
+      - name: 
+        level: 
