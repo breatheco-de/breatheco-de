@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando
+    last_name: Rios
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta aprender
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me considero una persona leal, honesta y motivada. Destaco que he tenido buenas relaciones interpersonales promoviendo siempre el trabajo en equipo. Me apasiona aprender constantemente todo lo que me lleve a desarrollarme como persona y profesional.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: ""
+
+    # Contact Information
+    email: fernandor.p@hotmail.com #optional
+    phone: 971963046 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/fernando-rp
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Guitarra
+
+      - item: Teología
+
+      - item: Ciclismo
+
+# Your previous education
+education:
+    - degree: Civil Engineer
+      university: Diego Portales
+      # optional
+      university_logo: ""
+      time: 2010 - 2015
+      details: |
+        ""
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 35%
+
+      - name: Javascript
+        level: 85%
+
+      - name: React
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 30%
