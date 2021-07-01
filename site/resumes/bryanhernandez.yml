@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://image1.masterfile.com/getImage/NjQ5LTAzODU4MDE2ZW4uMDAwMDAwMDA=ACfsdG/649-03858016en_Masterfile.jpg
 
     # Contact Information
     email: bryan.andres@gmail.com #optional
@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: bryanhernadez
+    github: bryanhernandez
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
