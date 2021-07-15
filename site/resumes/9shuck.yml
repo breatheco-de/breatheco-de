@@ -1,0 +1,108 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Rubén
+    last_name: Pérez
+    motto: Learning everyday 
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFMlDCGlHC9Qw/profile-displayphoto-shrink_200_200/0/1610836398056?e=1616630400&v=beta&t=3XuUH1N5zm6cfTQiesDBR-ln7z9boGMhVfK-P5qWdcI
+    summary: |
+      Highly motivated upcoming graduate from Technical University of Madrid with knowledges about programming. 
+      |
+      Able to work flexibly and well both in a team and individually, with a good capacity of auto-learning and resolving problems. 
+      |
+      Knowledges about the IA industry and able to communicate fluently in Spanish, Catalan and with good level in English
+
+    email: rubb.phz@gmail.com
+    phone: +34 610895841
+    website:
+    linkedin: https://www.linkedin.com/in/rubenp-z/
+    github: 9Shuck
+    twitter: 
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Enslish
+        level: B2
+
+      - idiom: Catalan
+        level: Native
+
+    interests:
+      - item: Programming
+
+      - item: Videogames
+
+      - item: Yoga
+
+      - item: Dogs
+
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: jul 2021 - sep 2021
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp.
+        
+    - degree: Aerospace Engineering
+      university: Technical University of Madrid
+      university_logo: 
+      time: sep 2013 - jul 2020
+      details: Aerospace Navigation Systems.
+
+    
+experiences:
+    - role: Collaboration Scholarship Technical University of Madrid
+      time: feb 2017 - jun 2017
+      company: Technical University of Madrid
+      company_logo:  
+
+    - role: Technician
+      time: jul 2019 - dec 2020
+      company: Prosegur Alarmas S.L
+      company_logo: 
+      details: As Marketing Manager at Waterrevive and Motorrevive I am in charge of developing the Digital Marketing strategy including E-commerce, Communication, Social Networks, SEO and Blogs, Ads and recently, Amazon Seller.
+
+
+    - role:
+      time:
+      company:
+      company_logo:
+      details:
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+    assignments:
+      - title: Digital Postcard
+        link: https://github.com/9Shuck/postcard
+        tagline: "My First HTML and CSS project"
+
+      - title: Instagram
+        link: https://github.com/9Shuck/instagram
+        tagline: "Instagram-look-a-like feed using HTML and CSS."
+
+      - title: Form Bootstrap
+        link: 
+        tagline: "A payment form using Bootstrap exclusively"
+
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 30%
+
+      - name: CSS
+        level: 60%
+
+      - name: bootstrap
+        level: 50%
+
