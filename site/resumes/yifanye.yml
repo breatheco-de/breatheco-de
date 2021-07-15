@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Yifan
+    last_name: Ye Zhang
+    motto: Estudiante de Full-Stack Web Development
+    avatar: https://media-exp3.licdn.com/dms/image/C4D03AQGdDjDO_vSoEQ/profile-displayphoto-shrink_800_800/0/1593989265741?e=1631750400&v=beta&t=ohhDSBw119mh1bk2LdczT14U3v_GDEEgM5ny3jOBvh4
+    summary: |
+        Trilingüe en español, inglés y chino mandarín. Empático culturalmente y extrovertido. Multidisciplinario. 
+
+        Rapidez en la adquisición de nuevos conocimientos y aptitudes. Con buena presencia y experiencia en la vida comercial.
+
+        Me considero un híbrido entre un perfil creativo y analítico. 
+
+        Creativo porque escribo dos libros: uno sobre filosofía (La sangre de los filósofos) y una fantasía épica (El último aliento). Estoy preparando un disco de rap (Noctámbulo) y también me gusta mucho dibujar.
+
+        Analítico porque estudio las cosas metodicamente con un pensamiento critico, viendo los datos y las evidencias, investigando, y creando planes y posibles casos en mi cabeza.
+
+        Considero lo más importante conocer las necesidades de la empresa y las del cliente para poder satisfacer ambas.
+
+    # Sidebar links
+    email: yifanyemontpe@gmail.com
+    phone: 626981477
+    website:  #do not add http://
+    linkedin: https://www.linkedin.com/in/yifan-ye-zhang-8042171b2/
+    github: https://github.com/YifanYes
+    twitter: YifanYes
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: C1
+
+      - idiom: Chino
+        level: Nativo
+
+      - idiom: Francés
+        level: B1
+
+      - idiom: Japonés
+        level: Básico
+
+    interests:
+      - item: Mercados bursátiles y finanzas
+      - item: Ciencias y tecnología
+      - item: Arte
+      - item: Kendo y baloncesto
+      - item: Las motocicletas
+      - item: Los gatos
+
+education:
+    - degree: Grado en Ingeniería informática
+      university: UCM
+      time: 2017 - 2018
+
+    - degree: Grado en Diseño y desarrollo de videojuegos
+      university: URJC
+      time: 2016 - 2017
+
+experiences:
+    - role: Cofundador
+      time: 2020 - Actualidad
+      company: Ynvest
+      details: |
+        Trading e inversiones en bolsa (acciones, opciones y futuros) y criptomonedas. Gestión de activos. Gestión de riesgos.
+        Programación de indicadores, estrategias y algoritmos de trading. Psicotrading.
+
+    - role: Cofundador
+      time: 2019 - 2020 
+      company: Bawy Design
+      details: |
+        Creación de una marca de streetwear. Diseño de moda. Estrategias de marketing en redes sociales.
+        Print on demand. Embudos de ventas.
+
+    - role: Agente inmobiliario
+      time: 2019 - 2019
+      company: Redpiso
+      details: |
+        Trabajo en zona. Gestión de cartera de inmuebles. Planificación de estrategias comerciales. Búsqueda de contactos.
+
+    - role: Agente inmobiliario
+      time: 2018 - 2019
+      company: Tecnocasa
+      details: |
+        Puerta fría. Valoración de inmuebles. Gestión de encargos. Llamadas a pedidos. Tramitación de herencias. CRM.
+
+    - role: IBO
+      time: 2016 - 2018
+      company: Amway
+      details: |
+        Independent Business Owner. Networking. Economía colaborativa. Liderazgo. Redes de mercadeo.
+
+projects:
+    intro: >
+      Esta es una lista de mis proyectos actuales. 
+
+    assignments:
+      - title: ElectroSwap
+        link: https://github.com/YifanYes/Electroswap
+        tagline: "Es una plataforma descentralizada para truque seguro usando la red de ethereum. Usa un token ERC-20 llamado BarterCoin con un algoritmo de consenso de prueba de participacion."
+
+skills:
+    toolset:
+      - name: Diseño gráfico
+        level: 50%
+
+      - name: Desarrollo empresarial 
+        level: 70%
+
+      - name: Blockhain
+        level: 30%
+
+      - name: Estrategias de marketing
+        level: 60%
