@@ -1,0 +1,77 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Ricardo
+    last_name: Rosario
+    motto: If not now, when?
+    avatar: https://avatars.githubusercontent.com/u/85288528?v=4
+    summary: Enthusiastic about design with more than 4 years of experience in the field. After developing myself as a professional in graphic design and illustration I decided to develop myself in the field of new technologies, learning how to program in 4GeeksAcademy. On a personal level, what fullfills me is working out at the gym, hanging with friends and enjoying music.
+
+    email: ricardorsario@gmail.com 
+    phone: +34 661 320 786 
+    website: saurotoro.com
+    linkedin: linkedin.com/in/ricardorsario/
+    github: ricardorsario
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Enslish
+        level: C1
+
+    interests:
+      - item: Gym
+
+      - item: Music
+
+      - item: Travel
+
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: jul 2021 - sept 2021
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp.
+        
+    - degree: Master in Digital Illustration
+      university: Trazos
+      time: oct 2019 - mar 2020
+      details: Color, drawing, technique, styles, composition and more using Photoshop and Procreate.
+
+    - degree: Degree in Design
+      university: Universidad Complutense de Madrid
+      time: oct 2013 - jul 2017
+      details: Graphic languages, tools and software for modeling, simulating and solving problems in the field of design.
+
+experiences:
+    - role: Graphic designer, Illustrator
+      time: oct 2019 - jul 2021
+      company: Trive
+      details: Design of online stores for car manufacturer brands (Kia, Hyundai, Mitsubishi, Peugeot, Subaru, SsangYong, etc.), Trive is in turn an online dealer. I was a graphic designer in the Product and Marketing departments.
+
+    - role: Graphic designer
+      time: jul 2019 - oct 2019
+      company: Alem Comunicación
+      details: Communication and marketing agency. Graphic designer mainly for layout, posters, presentations, newsletters, content for clients' RRSS, etc.
+
+    - role: Graphic designer, Illustrator
+      time: jan 2018 - jun 2019
+      company: Duam Comunicación
+      details: Marketing, advertising and event organization agency. As a graphic designer and illustrator. Creating and solving all the graphic content for fixed clients and other specific jobs within different areas; branding, editorial, illustration for animation, social media content, etc.
+      
+skills:
+    toolset:
+      - name: Photoshop
+        level: 80%
+
+      - name: Illustrator
+        level: 90%
+
+      - name: Procreate
+        level: 60%
+
+      - name: Anything to do with coding
+        level: Learning
