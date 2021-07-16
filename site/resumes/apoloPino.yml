@@ -1,11 +1,10 @@
 template: "online-cv"
-skin: "blue"
+skin: "dark"
 basic_info:
     # Your full name
-    first_name: Apolo
-    last_name: Pino
-    
-    motto: ""
+    first_name: Bryan Andrés
+    last_name: Tell 
+
     
     # focus
     focus: Web Development
