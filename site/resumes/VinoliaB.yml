@@ -1,0 +1,70 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Vinolia
+    last_name: Barreto
+    motto: Vino
+    avatar:
+    summary: I decided to take the way of programming, because I have always been a person who likes to learn and, although it is hard, I feel that it is a gratifying job
+      
+    email: vinolia.barreto@gmail.com
+    phone: 638 31 11 49
+    website: 
+    linkedin: https://www.linkedin.com/in/vinoliabarreto/
+    github: VinoliaBarreto
+    twitter: Vibarle
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Sports
+
+      - item: Coding
+
+      - item: Travel
+
+education:
+    - degree: BsC Computer Science
+      university: ULPG
+      time: long time ago
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: full-stack Developer
+      
+projects:
+    intro: 
+      I have some prejects in my repository of my github, this are some I did and I'm doing in the course 
+      of 4Geeks Academy
+    
+    assignments:
+      - title: Postcard
+        link: https://github.com/Laura-Romero/postCard
+        tagline: A responsive website where can input information on a Postcard
+    
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Boostrap
+        level: 30%
