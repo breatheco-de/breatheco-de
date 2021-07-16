@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Iván 
+    last_name: Jaén
+    motto: Full-stack Developer
+    avatar: https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png
+    summary: |
+      Soy una persona tranquila y de confianza.
+      Desde pequeño tengo una gran habilidad para la informática y he desarrollado la capacidad de autoaprendizaje y de adaptarme rápido a cualquier situación.
+      Siempre cumplo todo lo que me propongo.
+
+    email: kholostyak17@gmail.com
+    phone: no disponible 
+    website: 
+    linkedin: www.linkedin.com/in/ivan-jaen-kholostyak17/
+    github: kholostyak17
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Professional
+
+    interests:
+      - item: Ver la naturaleza
+
+education:
+    - degree: Full Stack Development
+      university: 4GeeksAcademy España
+      time: abril 2021 - junio 2021
+      details: 
+    
+    - degree: Grado en Ingeniería Mecánica
+      university: Universidad de Málaga
+      time: 2017 - actualmente
+      details: 
+      
+experiences:
+    - role: Teacher Assistant
+      time: julio 2021 - septiembre 2021
+      company: 4Geeks AcademyEspaña
+      details: 
+      
+projects:
+    intro: >
+      aquí están algunos de mis proyectos más importantes))
+    
+    assignments:
+      - title: Braulg
+        link: https://github.com/Tozzigh/sortingCardsSelectionAlgorithm
+        tagline: "Create a deck of random poker card by input a number than sort those cards with a selection sort algoritm and display the full log.   --"
+
+      - title: Star Wars Blog
+        link: https://github.com/Tozzigh/cardGenerator
+        tagline: "Random display a single poker card.   --"
+        
+      - title: Reproductor de música
+        link: https://github.com/Tozzigh/flexBoxPage
+        tagline: "Thsi is a full responsive web page I created using FlexBox withoud Bootstrap4.   --"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 85%
+
+      - name: HTML & CSS
+        level: 90%
+        
+      - name: REACT.js
+        level: 90%
+
+      - name: ANGULAR
+        level: 15%
+
+      - name: Python
+        level: 75%
+
+      - name: FLASK
+        level: 65%
+
+      - name: SQL
+        level: 65%
+        
+      - name: GIT
+        level: 95%
+        
+      - name: Java
+        level: 30%
+        
+      - name: C
+        level: 50%
+        
+      - name: C++
+        level: 50%
