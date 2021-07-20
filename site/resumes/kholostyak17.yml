@@ -53,16 +53,16 @@ projects:
     
     assignments:
       - title: Braulg
-        link: https://github.com/Tozzigh/sortingCardsSelectionAlgorithm
-        tagline: "Create a deck of random poker card by input a number than sort those cards with a selection sort algoritm and display the full log.   --"
-
+        link: https://github.com/kholostyak17/project-braulg
+        
       - title: Star Wars Blog
-        link: https://github.com/Tozzigh/cardGenerator
-        tagline: "Random display a single poker card.   --"
+        link: https://github.com/kholostyak17/P20-Star-Wars-Blog
         
       - title: Reproductor de música
-        link: https://github.com/Tozzigh/flexBoxPage
-        tagline: "Thsi is a full responsive web page I created using FlexBox withoud Bootstrap4.   --"
+        link: https://github.com/kholostyak17/P18-Audio-Player
+        
+      - title: Tic Tac Toe
+        link: https://github.com/kholostyak17/P16-Tic-Tac-Toe
 
 skills:
     toolset:
