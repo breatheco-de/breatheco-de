@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    # Profile information
+    first_name: Karina
+    last_name: López
+    motto: Trust the proccess
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQGpM68TIddEmg/profile-displayphoto-shrink_800_800/0/1608829412758?e=1632355200&v=beta&t=xfR6GQ7C3oSluws1NB2VpIkCAq0A7i_OnDjkSf-EoTY
+    summary: |
+      Software Engineering student at UPM, with knowledge of JAVA, C, C ++ and SQL. I consider myself a responsible, self-taught person and team worker. I am interested in topics such as Data Science, Databases and web programming.
+
+    # Sidebar links
+    email: karina.giuseppina@gmail.com
+    phone: +34 674 75 22 49
+    website: www.linkedin.com/in/karinaglopez #do not add http://
+    linkedin: karinaglopez
+    github: karinagiuseppina
+    twitter: '@karinagllr'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Reading
+
+      - item: Writing
+
+      - item: Traveling
+
+education:
+    - degree: Software engineering
+      university: Universidad Politécnica de Madrid
+      time: 2017 - 2022
+
+experiences:
+    - role: Business Analyst Trainee
+      time: 2021 - To date
+      company: Bip Spain
+
+projects:
+    intro: >
+      Projects I have developed througout my student years. 
+
+    assignments:
+      - title: APennyForYourThoughts
+        link: "#hook"
+        tagline: "A responsive website that based on a quote from a person predicts their personality. "
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 68%
+
+      - name: Javascript
+        level: 80%
+
+      - name: PHP 
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java
+        level: 90%
+
+      - name: UML
+        level: 98%
