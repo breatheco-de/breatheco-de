@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Elizabeth 
+    last_name: Bolaños
+    
+    # Define yourself in 4-5 words
+    motto: Never stop being curious, learning, surprise yourself.
+    
+    # focus
+    focus: Be constant and positive energy, everything needs to flow.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am an entrepreneur, cofounder and ceo in fitech and lifesytle sectors, +8 years experience in business development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.linkedin.com/in/elizabethbolanosfuentes/
+
+    # Contact Information
+    email: elizabeth.bolanosf@gmail.com #optional
+    phone: +34 888888888 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/elizabethbolanosfuentes/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: E-Bolf
+    
+   
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Profficiency
+
+    # Interests or hobies
+    interests:
+      - item: outdoor sports
+
+      - item: sunday with friends
+
+# Your previous education
+education:
+    - degree: Master in marketing and advertising
+      university: IED
+      # optional
+      university_logo: https://es.wikipedia.org/wiki/Istituto_Europeo_di_Design
+      time: 2013 - 2014
+      details: Management of marketing, advertising and communications strategies for companies.
+
+    - degree: Licence en Sciences de l'Information et de la Communication.
+      university: Université Côte d'Azur, France
+      # optional
+      university_logo: https://fr.wikipedia.org/wiki/Universit%C3%A9_C%C3%B4te-d%27Azur
+      time: 2010 - 2013
+      details: 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Founder and CEO
+      time: March 2021 - Act
+      company: Dexva
+      # optional
+      company_logo: https://dexva.io/
+      details: Fintech focused in the personal finance of freelancers.
+
+    - role: Business development and marketing freelancer
+      time: 2014 - 2021
+      company: Myself.
+      # optional
+      company_logo: 
+      details: Create strategies for several companies in fashion, lifestyle, culture and tech such as Forbes, Esquire, Robb Report, Django Cloud (Air Liquide-Athelia), TechBa, etc.
+      
+    - role: Production director
+      time: 2016 - 2018
+      company: Víctor Ullate Ballet - Comunidad de Madrid
+      # optional
+      company_logo: h
+      details: Built and managed the budget for international and national tours.
+        In charged of the negotiation with clients and suppliers.
+        In charged of all the organization and logistic of each tour.
+        Responsible of entire ballet company staff (41 persons).
+        Validated all contracts with theaters and operas for production related features.
+        Built and managed the company's annual planning to coordinate administration, communication department, tours, distributors, etc.
+        Community manager of the company's Instagram account.
+        In charge of the production of company and school Galas and marketing events.
+
+# Your project portfolio
+projects:
+    intro: You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link:
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 15%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
