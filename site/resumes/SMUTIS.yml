@@ -1,0 +1,81 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    first_name: Sandra
+    last_name: Mutis
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQFV6K3fbu7L0A/profile-displayphoto-shrink_800_800/0/1527535312194?e=1632960000&v=beta&t=ctw_vKTpcmCFw6mNwRwaxTfDkJbGEBkai6JIKYTN4qk
+    summary: |
+      Currently, starting my training as a full stack developer in the 4geeks academy bootcamp
+
+    
+
+    email: sandramutissanabria@gmail.com
+    phone: 
+    website: 
+    linkedin: https://www.linkedin.com/in/sandra-mutis-sanabria-744038155/
+    github: SMUTIS
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: 
+
+      - item: 
+
+
+education:
+    - degree: Full Stack Web Development (Part-time Bootcamp)
+      university: 4Geeks Academy
+      time:  2021 - Currently
+      details:
+
+    - degree: Business Administration and Management Degree
+      university: Complutense 
+      time: 5 years
+      details:
+      
+experiences:
+    - role: Rental Asset management technician
+      time: 2019-Currently
+      company: Confidential
+      details: 
+      
+projects:
+    intro: >
+      
+    
+    assignments:
+      
+      - title: 
+        link: 
+        tagline: 
+             
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
