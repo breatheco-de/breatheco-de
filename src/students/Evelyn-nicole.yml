@@ -1,0 +1,77 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "green"
+
+
+theme: You can choose a theme and skin colors.
+
+
+basic_info:
+
+    first_name: Evelyn
+    last_name: Santibanez
+    motto: Without sacrifice, there is no reward
+    avatar: 
+    summary: Professional of the HSE area, in search of new challenges in the area of ​​web development
+
+    
+
+education: 
+    
+    time: From 2016 to 2019
+    job title: Engineering at Health, Security and Environment (HSE)
+    university: INACAP
+
+    time2: From 2021 
+    job title2: developer Full-stack
+    university2: 4GeeksAcademy 
+
+
+
+contact:
+
+    email: evelyn.nicolee92@gmail.com
+    phone: +56 9 58731937
+    twitter: NicoleeEvelyn
+    linkedin: https://www.linkedin.com/in/evelyn-santiba%C3%B1ez-b12a98191/
+    github: Evelyn-nicole
+
+
+
+
+projects developer:
+
+    name projects: Postcard
+    link: https://github.com/Evelyn-nicole/Postcard.git
+    description: developed with HTML
+
+
+    name projects2: Photo Instagram
+    link2: https://github.com/Evelyn-nicole/The-Instagram-Photo-Feed.git
+    description2: developed with HTML and CSS
+
+
+    name projects3: Intagram Post
+    link3: https://github.com/Evelyn-nicole/Instagram_Bootstrap.git
+    description3: developed with HTML, CSS and Boostrap
+
+
+
+# skills: 
+
+#  toolset:
+      
+#       - name: HTML5 & CSS
+#         level: 
+
+#       - name: Javascript
+#         level: 
+
+#       - name: GIT
+#         level: 
+
+
+  
