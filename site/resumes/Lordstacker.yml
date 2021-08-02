@@ -1,7 +1,46 @@
-Nombre: Nicola
-Apellido: Martinez
-Edad 27
-Nacionalidad: venezolana e italiana
-residencia Chile
-Meta: keep coding
-act
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "Orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicola
+    last_name: Martinez
+
+    # Define yourself in 4-5 words
+    motto: teach and grind hard
+
+    # focus
+    focus: Conocer lo que es Dev Web.
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: nicoenrique_1994@hotmailcom.com #optional
+    phone: 56998078917 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/nicola-martinez-96b035176/  #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lordstacker
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
