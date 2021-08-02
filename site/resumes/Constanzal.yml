@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Constanza
+    last_name: López
+    
+    # Define yourself in 4-5 words
+    motto: Curious, coffee lover 
+    
+    # focus
+    focus: Learning programming from scratch
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Constanzal
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Playing and listeting to music
+
+      - item: Watching movies and series
+
+# Your previous education
+education:
+    - degree: Full-Stack Developer
+      university: 4Geeks Academy Chile
+      # optional
+      university_logo: https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/6971/4geeks-icon-black.png
+      time: 2021 (currently studying)
+
+# Your project portfolio
+projects:
+    intro: >
+      These are my very first projects
+    assignments:
+      - title: Postcard
+        # optional 
+        link: https://github.com/Constanzal/Postcard-html-css
+
+      - title: Instagram Post
+        # optional 
+        link: https://github.com/Constanzal/Instagram-Post
+
+      - title: Instagram Clone
+        # optional 
+        link: https://github.com/Constanzal/Instagram-with-Bootstrap
+
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 50%
+
+      - name: Bootstrap4
+        level: 50%
