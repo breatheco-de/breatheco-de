@@ -1,0 +1,129 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yolfrank
+    last_name: Abreu
+    
+    # Define yourself in 4-5 words
+    motto: Simple and honest.
+    
+    # focus
+    focus: Learning programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/54.jpg
+
+    # Contact Information
+    email: someuser4geeks@gmail.com #optional
+    phone: 123 4567 890 #optional
+    website: google.com #optional
+    linkedin: --- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AbreuY
+    
+    Instagram: 'instagram' #optional
+    stack-overflow: ''
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Baseball
+
+      - item: Gaming
+
+      - item: Music
+
+      - item: Programming
+
+# Your previous education
+education:
+    - degree: Jose Maria Carreño University Institute of Technology
+      university: Jose Maria Carreño University Institute of Technology
+      # optional
+      university_logo: https://i.imgur.com/HDilRyJ.jpg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Customer service executive
+      time: 2015 - Present
+      company: Empresa líder en Venezuela, con experiencia en el área de Centros de Contacto, y en la gestión de consumo masivos, 
+        corporativos y especializados, alcanzando un promedio a la fecha de once millones de minutos mensuales.
+      # optional
+      company_logo: https://contactop2p.com/img/ima/NOSOTROS-2.png
+      details: |
+        Ofrecer la mejor atención, gestión y telemercadeo de productos y servicios a nuestros clientes, 
+        a través de Centros de Contacto con atención cordial, ágil y efectiva.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the exercises assigned in the 4geeksacademy bootcamp.
+    assignments:
+      - title: PostCard Exercise 4geeksAcademy
+        # optional
+        project_logo: https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/preview.png
+        link: "https://github.com/AbreuY/Postcard-excercise-4geeksacademy"
+        tagline: "Build a Digital Postcard with HTML/CSS"
+
+      - title: Calendar Icon
+        # optional
+        project_logo: https://raw.githubusercontent.com/4GeeksAcademy/css-layouts-tutorial-exercises/master/.learn/assets/AlDLXvy.png
+        link: "https://github.com/AbreuY/Calendar-Icon-Exercise-4GeeksAcademy"
+        tagline: "In this case, we are using the ::before and ::after elements to try to recreate a calendar icon like the image"
+
+      - title: Static layout exercise
+        # optional
+        project_logo: https://raw.githubusercontent.com/4GeeksAcademy/css-layouts-tutorial-exercises/master/.learn/assets/0B62fyP.png
+        link: "https://github.com/AbreuY/static-layout-exercise-4geeks-academy"
+        tagline: "Apply the necessary styles to .wrapper, <header>, <nav> and <section> to make the website look like the image"
+
+      - title: Instagram Photo Feed HTML/CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AbreuY/Instagram-Photo-Feed-Exercise-4geeksacademy"
+        tagline: "exercise to practice your beginner HTML/CSS skills"
+
+      - title: The excuse generator exercise
+        # optional
+        project_logo: https://cdn.business2community.com/wp-content/uploads/2014/05/no-excuses.jpg
+        link: "https://github.com/AbreuY/The-Excuse-Generator-Exercise-4GeeksAcademy"
+        tagline: "Please create a small website that generates an excuse each time a button is pressed."
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 5%
