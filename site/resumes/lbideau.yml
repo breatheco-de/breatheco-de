@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Leshlie
+    last_name: Bideau
+    motto: Design and Developed 
+    avatar: https://avatars.githubusercontent.com/u/88116885?v=4
+    summary: |
+        In the last two years I entered the field of web design, which gave me enough experience to design, layout and develop any website and adapt to the needs of each client.
+
+I have designed: Information page. Landing Pages. Catalog type pages. Ecommerce. Among others.
+
+If you are an entrepreneur, individual or company, my main objective is to increase your business, personal brand or growth through strategies to increase your online visibility, because it becomes one of the preferred methods when searching for you on Google. In short, I want to bring your project to life.
+
+    # Sidebar links
+    email: designerweb@leshliebideau.com
+    website: leshliebideau.com #do not add http://
+    github: lbideau
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    interests:
+      - item: Space exploration
+      - item: Everyday Physics
+      - item: Blockchain
+
+education:
+    - degree: Bachelor of Science
+      institute: YMCA
+      time: 2009 - 2013
+
+    - degree: 
+      university: Systems Engineer
+      time: studying
+
+experiences:
+    - role: Computer assistant
+      time: 2014 - 2016
+      company: Puig
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Designer Web 
+      time: 2019 - Present
+      company: Freelance
+      details: |
+        Design, layout and development of websites for all types of businesses.
+          - Layout
+          - Design
+      
+projects:
+    intro: >
+     I have worked on personal projects and for companies of different rubles
+
+    assignments:
+      - title: personal project
+        link: "#hook"
+        tagline: "Website where I show my personal web designs and with the companies I have worked with."
+
+  skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 15%
+
+      - name: Angular
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 20%
+
+      - name: Wordpress
+        level: 80%
+
