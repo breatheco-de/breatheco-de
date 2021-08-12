@@ -1,64 +1,49 @@
-    template: "online-cv"
-    skin: "orange"
-
-  #Personal information
-  basic_info: Personal info
-    #Your full name
-    first_name: Joaquin
-    last_name: Abarca
-
-    #Define yourself in 4-5 words
-    motto: Very proactive and motivated person
-
-    #focus
-    focus: Doing the things that I love
-
-
-    #Contact information
-    email: joaquinabarca@live.com / jabarcai@udd.cl
-    linkedin: https://www.linkedin.com/in/joaquin-abarca-ihmaidan-0046501b3/
-
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Joaquinabarca95
-
-    Instagram: 'joacoabarca'
-
-    languages:
-      - language: Spanish
-        level: Native
-      
-      - language: English
-        level: Advanced
-
-    interest:
-      - item: Gaming
-      - item: Music
-      - item: Football
-      - item: Travelling
-
-
-  education: 
-    - Degree: Phisio-therapist / Kinesiologo
-      university: Universidad del Desarrollo
-      time: 2014-2021
-
-    - Degree: Web Front End Developer
-      course: Nextu
-
-    - Degree: Full Stack Developer
-      course: Udemy
-
-  experiences: 
-    - Internal in practice: COANIL (2018)
-    - Internal in practice: KINEX (2018)
-    - Internal in practice: Hospital Padre Hurtado (2018)
-    - Internal in practice: Gym Universidad del Desarrollo (2018)
-    - Sponsor Christmas Campaign: « Trek » 2013, Almacenes Paris Portal Ñuñoa
-    - Sponsor Ice Creams: « Biancolate » 2014, Jumbo Los Presidentes, Peñalolén
-    -Voluntary in Summer Works: TTVV UDD Parral Summer 2017.
-    - Lift Operator: Boreal Mountain Resort December 2017 - March 2018
-
+--- 
+basic_info: 
+  first_name: Joaquin
+  last_name: Abarca
+  email: "joaquinabarca@live.com jabarcai@udd.cl"
+  github: Joaquinabarca95
+  linkedin: "https://www.linkedin.com/in/joaquin-abarca-ihmaidan-0046501b3"
+  interests: 
+    - 
+      item: Gaming
+    - 
+      item: Music
+    - 
+      item: Football
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Advanced
+  
+  
+education: 
+  - 
+    degree: Phisiotherapist
+    time: "2014 - 2021"
+    university: "Universidad del Desarrollo"
+experiences: 
+  - 
+    company: "UPC CLINICA VESPUCIO"
+    role: "Internal in practice"
+    time: 2021
+  - 
+    company: "GYM CLINICA VESPUCIO"
+    role: "Internal in practice"
+    time: 2021
+  - 
+    company: COANIL
+    role: "Internal in practice"
+    time: 2019
+  - 
+    company: KINEX
+    role: "Internal in practice"
+    time: 2019
+skin: blue
+template: online-cv
 
 
