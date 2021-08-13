@@ -1,0 +1,94 @@
+template: "online-cv"
+skin: "blue"
+
+# basic_info:
+
+    first_name: Aaron
+    last_name: Arismendi
+    
+    motto: I always try to do things in the best possible way
+    
+    focus: Programming
+    
+    summary: 
+    
+    avatar: https://avatars.githubusercontent.com/u/87841503?v=4
+
+    email: arismendiaaron@gmail.com
+    phone: (0416) 517-9229
+    website: 
+    
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Aaron2301
+    
+    twitter: @itsaarondaf
+
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Barbershop
+
+      - item: Swimming
+
+      - item: Exercise
+
+education:
+    - degree: 
+      university: 
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 
+      details:
+          
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Barber
+      time: 2020 - Present
+      company: Cavalier Barber
+      # optional
+      company_logo: https://scontent-mia3-2.cdninstagram.com/v/t51.2885-19/s150x150/118472262_307663587127764_870590044605976059_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_ohc=F5bbAIGwDKgAX97MLqh&tn=G3p1bVRRc0xQ0exL&edm=ABfd0MgBAAAA&ccb=7-4&oh=17d9868fb4d1614a83fd87fcdf8832bb&oe=611CF2BD&_nc_sid=7bff83
+      details: |
+       • We change your style and create a new perspective for you • The best service, quality and prices
+
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
