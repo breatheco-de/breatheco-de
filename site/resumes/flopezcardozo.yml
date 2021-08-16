@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Fabián
+    last_name: López
+    motto: Star Wars Fan
+    avatar: 
+    summary: |
+      Informatic Technician, now starting a new career path within the fascinating world of Coding
+
+    # Sidebar links
+    email: flopezcardozo@gmail.com
+    phone: 
+    linkedin: 
+    github: flopezcardozo
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Sports
+      - item: Travel
+      - item: The Last Airbender
+
+education:
+    - degree: university
+      university: UTEC ITR 
+      time: 2008 - 2012
+      details: |
+        Math Specialty
+
+# experiences:
+#     - role: Customer Support Agent
+#       time: 2020 - Present
+#       company: Amazon
+#       details: |
+#         Customer Support Services
+
+
+# projects:
+#     intro: >
+#       Software development projects as part of the 4GeeksAcademy.
+
+#     assignments:
+#       - title: Excuse Generator
+#         link: "https://github.com/edges696/Excuse-Generator"
+#         tagline: "A tool to generate an appropiate excuse for every ocation "
+
+#       - title: The Instagram Post
+#         link: "https://github.com/edges696/The-Instagram-Post"
+#         tagline: "An instagram feed using HTML & CSS "
+
+#       - title: Domain Generator
+#         link: "https://github.com/edges696/The-Domain-Name-Generator"
+#         tagline: "A javascript tool to automatically generate domain names from a list o names "
+
+#       - title: Postcard
+#         link: "https://github.com/edges696/The-Postcard"
+#         tagline: "A nice postcard to send to family and friends for any ocation "
+
+skills:
+    toolset:
+      - name: React
+        level: 65%
+
+      - name: Javascript
+        level: 70%
+
+      - name: GIT
+        level: 85%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Excel
+        level: 85%
+
+      - name: ACAD
+        level: 99%
+
