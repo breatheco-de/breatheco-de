@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camila 
+    last_name: Sanchez
+    
+    # Define yourself in 4-5 words
+    motto: nice & loving developer
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Front-End Junior Developer at Effectus Software and Software Engineering student at Universidad de la Republica (Uruguay).
+      Experience working with React.js, JavaScript, HTML, CSS & SASS; and currently learning Node.js and Python for becoming a Full-Stack Developer.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/73668147?v=4
+
+    # Contact Information
+    email: contactcamilasanchez@gmail.com #optional
+    phone: +598 303 094 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/camilasanchezv/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: camilasanchezv
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom:
+        level:
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Working Out
+
+      - item: Programming (crazy, i know)
+
+# Your previous education
+education:
+    - degree: Software Engineering
+      university: Universidad de la Republica
+      # optional
+      university_logo: http://udelar.edu.uy/portal/wp-content/uploads/sites/48/2020/04/04-Udelar-isologotipo-versi%C3%B3n-preferencial-positiva-rgb-web.png
+      time: since 2020
+      details: |
+        Currently second grade student.
+
+    - degree: Full Stack Developer
+      university: 4GeeksAcademy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2021
+      details: |
+        Full Stack Software Developer Bootcamp.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Front-End Developer
+      time: since august 2021
+      company: Effectus Software
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQHsFWDmHWY1mA/company-logo_200_200/0/1611338032428?e=2159024400&v=beta&t=LzHEmltiK6o14JAspq7qgfi5ElYDTJvXVgWK4y29lL4
+      details: |
+          - React.js Junior Developer
+
+# Your project portfolio
+projects:
+    intro: >
+      Have a lot of projects at my github account, but i'll share the biggest (and public) one of them, an administration app for a Car Rental.
+      The code is private by the moment, but this is an old public copy of the project I made for sharing.
+
+      Also another simplier project I have, is a React.js basic Spreadsheet I did for a job interview, int actually really small and did it in a couple of days,
+      but wanted to include because it really shows my react knowledge.
+    assignments:
+      - title: Martínez Rent a Car
+        # optional
+        link: https://github.com/camilasanchezv/martinez-rentacar-1
+        tagline: "App for Rent a Car Service"
+
+      - title: React Spreadsheet
+        # optional
+        link: https://github.com/camilasanchezv/react-spreadsheet
+        tagline: "React Spreadsheet"
+
+
+skills:
+    toolset:
+      - name: React.js
+        level: 70%
+
+      - name: Javascript
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
