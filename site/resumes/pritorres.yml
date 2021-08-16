@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Priscila
+  last_name: Torres
+
+  # Define yourself in 4-5 wordsg
+  motto: Responsible and strut
+
+  # focus
+  focus: Become a Digital Developer
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Results-oriented young man with great ease of communication which allows me to have a excellent treatment for customer service. Competent to assume responsibilities under good practice approach. Responsible for teamwork and handling information confidential. Committed, honest, proactive and leader; willing to face new challenges with the greatest dedication. In search of personal improvement and to acquire new knowledge.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/86023113?v=4
+  # Contact Information
+  email: priscila.torres.reyes@gmail.com #optional
+  phone: 9-71986438#optional
+  website: #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: pritorres
+  linkedin: priscila-constanza-torres-reyes-885a10135
+
+  twitter: #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Native
+  # Interests or hobies
+  interests:
+    - item: Ride a bike
+    - item: Go to the gym
+    - item: Trekking
+    - item: Listen to music
+    - item: Video game
+
+# Your previous education
+education:
+  - degree: Dental Assistant
+    university: AIEP,Viña del mar
+    # optional
+    university_logo:
+    time:
+    details: |
+    
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: dental assistant
+    time: 1 yaer
+    company: Clinic "Smile"
+    # optional
+    company_logo:
+    details: |
+      Atencion de paciente, agendar pacientes, confirmacion de citas medicas,esterilizacion y asistir al doctor.
+
+        
+
+# Your project portfolio
+projects:
+  intro: >
+
+  assignments:
+    - title: Form-HTML
+      # optional
+      project_logo: 
+      link: "https://github.com/pritorres/HTML5-form"
+      tagline: "My first project creating a form "
+
+    - title: Facebook-twetter-post
+      # optional
+      project_logo: 
+      link: "https://github.com/pritorres/facebook-twetter-post"
+      tagline: "My first project creating a Card "
+
+    - title: Photo-feed
+      # optional
+      project_logo: 
+      link: "https://github.com/pritorres/photo_feed"
+      tagline: "One of my first projects during my studies at 4week"
+
+  
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 50%
+
+    - name: HTML5 & CSS
+      level: 95%
