@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexander
+    last_name: Carnicelli
+    
+    # Define yourself in 4-5 words
+    motto: Always learning to grow
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I'm a chemical engineer that found out that his true passion was the IT world. I enjoy being always learning new things, and I strongly believe that's the only way to persevere. 
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQHM3lPJk_r73A/profile-displayphoto-shrink_400_400/0/1520720030312?e=1634774400&v=beta&t=gVhk4ww3nY7RZrEmrtvqsrvlgI8kkO4oR64lEV08--k
+
+    # Contact Information
+    email: alecarnicelli@hotmail.com #optional
+    phone: (+598) 96-721-452 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/acarnicelli
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: 75%
+
+    # Interests or hobbies
+    interests:
+      - item: VideoGames
+
+      - item: Code
+
+      - item: Cycling, Kayaking
+
+# Your previous education
+education:
+    - degree: Chemical Engineer
+      university: Universidad de la República
+      # optional
+      university_logo: https://udelar.edu.uy/portal/wp-content/uploads/sites/48/2018/11/cropped-logo_udelar.png
+      time: 2007 - 2017
+      details:
+    
+# Your previous job experiences or voluntier
+experiences:
+- role: Laboratory Analyst
+  time: 2014 - 2019
+  company: LATU, Coca-Cola FEMSA
+  # optional
+  company_logo: 
+  details:
+
+# Your project portfolio
+projects:
+  intro: >
+    Here you can see all the information of my completed projects.
+  assignments:
+    - title: Sitio web de una cervecería artesanal usando Django
+      # optional
+      project_logo: https://github.com/abraham1798/Instagram-Bootstrap
+      link: https://www.youtube.com/watch?v=byU01B4Lfu4&t=910s"
+      tagline: "Final project for Django course"
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: Begginer
+
+      - name: HTML5 & CSS
+        level: Intermediate
+
+      - name: C
+        level: Begginer
+
+      - name: Microsoft Power Platform
+        level: Begginer
+
+
