@@ -1,0 +1,77 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Silvina
+    last_name: Anguilla
+
+    # Define yourself in 4-5 words
+    motto: Responsable, empática, organizada y 
+
+    # focus
+    focus: Aprender y crecer en el mundo tecnológico.
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+        Comenzando en las bases del testing, me encuentro hoy en día trabajando en el área y agregando nuevos conocimientos en desarrollo, automation y diseño ux/ui.
+       # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/a-/AOh14GhqBrhhswIC60RV2BvsaJMlApMlB6J7iJ2NCanEGBo=s360-p-rw-no 
+
+   
+
+    # Contact Information
+    email: silvinaas4@gmail.com #optional
+    phone: +598 93 566 247 #optional
+    website:  #optional
+    linkedin: Silvina Anguilla #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: silvinaas
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: nativo
+
+      - idiom: Ingles
+        level: Intermedio-Alto
+
+
+    # Interests or hobies
+    interests:
+      - item: Deportes
+
+      - item: Marketing
+
+      - item: Programacion
+
+# Your previous education
+education:
+    - degree: tester
+      university: Jovenes a programar - plan ceibal
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
