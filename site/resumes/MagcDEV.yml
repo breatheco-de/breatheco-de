@@ -1,0 +1,69 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Manuel
+  last_name: Guevara
+  motto: Full Stack Developer
+  avatar: https://avatars.githubusercontent.com/u/13088419?v=4
+  summary: |
+    Summarise your career: Self-Taught Developer, with a passion for learning and solving complex problems.
+  # Sidebar links
+  email: manuel17g@gmail.com
+  phone: 0414 116 7417
+  website: magcdev.github.io #do not add http://
+  linkedin: https://www.linkedin.com/in/manuelaguevarac/
+  github: MagcDEV
+  twitter: MagcDev
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English moy pocito
+      level: Professional
+
+  interests:
+    - item: Kickbxing
+
+    - item: training
+
+    - item: Cooking, wine tasting , cooking , eating
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2021 - 2021
+    details: |
+      Front end coding Java Script
+      back end coding Php, python, ruby
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Sales Executive
+    time: 12/2013 - Present
+    company: Banco de Venezuela, Caracas VE
+    details: |
+      Me desempeño como gerente del are de credito.
+        - Bullet point
+        - Bullet point
+
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: Javascript & ReactJS
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
