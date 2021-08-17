@@ -1,0 +1,203 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ernesto
+    last_name: Solorzano Lobo
+
+    # Define yourself in 4-5 words
+    motto: learner
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+
+
+    
+    # Contact Information
+    email: erneslobo@gmail.com #optional
+    phone:  +(506) 83408811 #optional
+    website: #optional
+    linkedin:  https://www.linkedin.com/in/ernesto-solorzano-lobo-3a8a8960/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: erneslobo
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Cloud Computing
+      
+      - item: Programing
+
+      - item: Cycling, Triathlon
+
+
+# Your previous education
+education:
+    - degree: Bachelor’s degree in Information Technologies for Business Administration
+      university: Universidad Latina de Costa Rica
+      # optional
+      university_logo: https://www.esencialcostarica.com/wp-content/uploads/2018/02/ulatina.jpg
+      time: 2016 - 2020
+      details: |
+        Bachelor’s degree in Information Technologies for Business Administration
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Customer Service for Capital One credit cards
+      time: 2007 – 2009
+      company: Sykes Latin America
+      # optional
+      company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo.svg
+      details: |
+        Providing information about account statements and credit card status.
+        Offer credit card products, like payment protection, insurance protection, among others.
+        Determine appropriate action to be taken on behalf of the customer, which may include problem determination and appropriate next steps.
+        Informs customer of the appropriate next steps and work with customer to achieve issue resolution.
+        Receive customer calls of requests for products and services.
+        Recognizing and managing assertive customer calls.
+
+    - role: 3com Screening Support Engineer Database analyst agent
+      time: 2008 – 2009
+      company: Sykes Latin America
+      # optional
+      company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo.svg
+      details: |
+        Hardware Troubleshooting for 3com products (Routers, Switches, IP Phones, PBXs, Wireless Device, among others)
+        Diagnose problems and performing minor configurations on different small business devices like wireless routers, routers, switches, IP Phones among others.
+
+    - role: Cisco TAC CUCM Engineer
+      time: 2009 – 2012
+      company: Sykes Latin America
+      # optional
+      company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo.svg
+      details: |
+        CUCM (Windows and Linux versions) troubleshooting and configuring complex network environments in the VoIP area being the main issue the CallManager server or involving integrations such as CTI (IPCC, Unified Attendant Console) and SIP like MS Exchange Server 2010, CUBE and others.
+        Provide Support to CUXAC server, configuration and troubleshooting of the integration with the supported CallManager versions either in VMWare or Physical installations.
+        The services supported include; Call management, Conferencing, Transcoding, IP communicator soft phone, Voicemail, Mobility features among several others.
+        Troubleshooting and configuring IP Phones, deal with issues like phone registration, firmware upgrade, hardware issues, among others.
+        Understating customer’s environment and provide a quick and effective resolutions to problems related to CallManager.
+
+    - role: Cisco TAC UCCX Engineer
+      time: 2012 – 2013
+      company: Sykes Latin America
+      # optional
+      company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo.svg
+      details: |
+        UCCX (Windows and Linux versions) troubleshooting and configuring complex network environments in the VoIP area being the main issue the Contact Center Express server.
+        Troubleshooting and configuring UCCX Desktops suites like Cisco Agent Desktop, Cisco Supervisor Desktop and Cisco Desktop Administrator.
+        Troubleshooting custom scripts created by customers.
+        Troubleshooting and configuring Recording and Monitoring CAD and SPAN base for UCCX Agents.
+        Troubleshooting and configuring Historical Report Tool.
+        Understating customer’s environment and provide a quick and effective resolutions to problems related to Contact Center Express.
+
+    - role: Cisco TAC UCCX Back Bone Engineer
+      time: 2013 – 2013
+      company: Sykes Latin America
+      # optional
+      company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo.svg
+      details: |
+        To be part of escalation engineering team for Cisco TAC UCCX technology.
+        As a part of the escalation team provide support to lower level team when required.
+        To be in contact directly with Business Unit and Development team when required.
+        Response questions in internal forums for Cisco TAC as a part of a knowledge database.
+
+    - role: Cisco TAC UCCE Back Bone Engineer
+      time: 2014 – 2014
+      company: Sykes Latin America
+      # optional
+      company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo.svg
+      details: |
+        To be in contact directly with Business Unit and Development team when required.
+        Response questions in internal forums for Cisco TAC as a part of a knowledge database.
+        Understating customer’s environment and provide a quick and effective resolutions to problems related to Contact Center Enterprise solution.
+        UCCE troubleshooting and configuring complex network environments in the VoIP area.
+        Troubleshooting and configuring UCCE Desktops suites like Cisco Agent Desktop, Cisco Supervisor Desktop and Cisco Desktop Administrator, CTIOS, Finesse.
+        Troubleshooting custom scripts created by customers.
+        Troubleshooting and configuring Recording and Monitoring.
+        Troubleshooting and configuring Historical Report Tool.
+        Troubleshooting Cisco Voice Portal.
+
+    - role: Cisco TAC UCCE Back Bone Engineer
+      time: 2014 – 2016
+      company: Cisco Systems
+      # optional
+      company_logo: https://www.cisco.com/web/fw/i/logo-open-graph.gif 
+      details: |
+        To be in contact directly with Business Unit and Development team when required.
+        Response questions in internal forums for Cisco TAC as a part of a knowledge database.
+        Understating customer’s environment and provide a quick and effective resolutions to problems related to Contact Center Enterprise solution.
+        UCCE troubleshooting and configuring complex network environments in the VoIP area.
+        Troubleshooting and configuring UCCE Desktops suites like Cisco Agent Desktop, Cisco Supervisor Desktop and Cisco Desktop Administrator, CTIOS, Finesse.
+        Troubleshooting custom scripts created by customers.
+        Troubleshooting and configuring Recording and Monitoring.
+        Troubleshooting and configuring Historical Report Tool.
+        Troubleshooting Cisco Voice Portal.
+
+    - role: UCCE Senior Escalation Engineer
+      time: 2016 – current position
+      company: TTEC 
+      # optional
+      company_logo: https://www.ttec.com/sites/default/files/ttec-t-smile-green.png
+      details: |
+        Responsible for UCCE escalation troubleshooting and configuring complex network environments in the VoIP area.
+        Understating customer’s environment and provide a quick and effective resolutions to problems related to Contact Center Enterprise solution.
+        Configuring UCCE/CVP complex network environments.
+        Provide team training on UCCE/CVP technologies.
+
+# Your project portfolio
+projects:
+    intro: >
+
+    assignments:
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+
+skills:
+    toolset:   
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Bootstrap
+        level: 25%
+
+      - name: Python
+        level: 25%
+
+      - name: Java
+        level: 50%
+
+      - name: Git
+        level: 25%
+
+      - name: Github
+        level: 25%
+
+      - name: Cisco Collaboration
+        level: 100%
+
+     
