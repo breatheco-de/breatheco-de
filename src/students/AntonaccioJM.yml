@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Marcos 
+    last_name: Antonaccio Caorsi
+    
+    # Define yourself in 4-5 words
+    motto: Continuous improvement
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am looking to apply my knowledge in new projects, since I have liked programming for a long time, I am also currently as a teacher at Utec and in some private academies. I am looking for new knowledge to be able to apply it. Responsible for teamworing information confidential. Committed, honest, proactive and leader; willing to face new challenges with the greatest dedication. In search of personal improvement and to acquire new knowledge.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://media-exp1.licdn.com/dms/image/C4E03AQFhf551oAIGCA/profile-displayphoto-shrink_800_800/0/1599158837060?e=1634774400&v=beta&t=gdXqEXZmcse79hvgBZNG_PMqNrmDItyddkK9_i0FFGo<your file name>
+
+    # Contact Information
+    email: jmantonaccio@gmail.com #optional
+    phone: +59899362361 #optional
+    linkedin: https://www.linkedin.com/in/juan-antonaccio-a752851b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOd2%2Bw9cZSwG6Pr4ptdr47Q%3D%3D
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/JuanAntonaccio
+    
+    stack-overflow: #
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: 50%
+
+    # Interests or hobies
+    interests:
+      - item: Code
+
+      - item: friends
+
+      - item: Horses
+
+# Your previous education
+education:
+    - degree: LTI Licencitura de Tecnologias de la informacion UTEC - Durazno - Uruguay
+      university: UTEC - ITRCS - Durazno - Uruguay
+      # optional
+      university_logo: # 
+      time: 2019 - 2021 
+     
+    
+
+skills:
+    toolset:
+      - name: Python 
+        level: 55%
+
+      - name: Javascript 
+        level: 50%
+
+      - name: React
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Java 8
+        level: 85%
+
+
+      - name: Oracle, Mysql
+        level: 70% 
+   
+      - name: PHP
+        level: 40%
+
+      - name: Bootstrap
+        level: 40%
+      
+      - name: Bootstrap/React
+        level: 40%
+
+      - name: R
+        level: 60%
+
+      - name: MongoDB
+        level: 60%  
+
+
