@@ -13,7 +13,7 @@ basic_info:
     last_name: Suárez
     
     # Define yourself in 4-5 words
-    motto: Flexible, Proactivo
+    motto: Full-Stack Developer
     
     # focus
     focus: Desarrollo de Aplicaciones
@@ -35,7 +35,7 @@ basic_info:
     email: martin.suarez.personal@gmail.com #optional
     phone: +598 98 585 784
     website:  #optional
-    linkedin: https://www.linkedin.com/in/mart%C3%ADn-su%C3%A1rez/ #optional
+    linkedin: www.linkedin.com/in/martín-suárez #optional
     
     #
     # ******** IMPORTANT *******
@@ -159,7 +159,7 @@ skills:
         level: 50%
 
       - name: Javascript
-        level: 30%
+        level: 60%
 
       - name: NoSQL & SQL
         level: 60%
@@ -171,4 +171,7 @@ skills:
         level: 68%
 
       - name: Scrum
+        level: 56%
+
+      - name: Git - Github
         level: 56%
