@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fiorella
+    last_name: Crocco Grappiolo
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a university student, in the actually study Tec. Administration in Udelar. I like the possibility boost my soft skills and follow growing everyday.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQE_CBpAKhcjhQ/profile-displayphoto-shrink_800_800/0/1603669352245?e=1634774400&v=beta&t=AXoHUxpJyTloLuELNtDAgMzjM2uPc27gJORE19g1L_M
+
+    # Contact Information
+    email: fiorellacrocco@gmail.com #optional
+    linkedIn: www.linkedin.com/in/fiorellacroccograppiolo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/FiorellaCrocco
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Code
+
+      - item: Graphic Design
+
+      - item: Learn
+
+# Your previous education
+education:
+
+    - degree: University
+      school: Facultad de Ciencias Economicas y de Administracion
+      # optional
+      time: 2021 - Actually
+
+    - degree: High school graduate
+      school: Escuela de Artes Graficas
+      # optional
+      time: 2018 - 2020
+    
+# Your previous job experiences or voluntier
+job:
+
+    - company: Genexus Consulting
+      position: Administrative
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram-Bootstrap
+        # optional
+        link: https://github.com/FiorellaCrocco/Instagram-Photo-Feed_with_Bootstrap.git
+        tagline: "Its a  imitation of instagram"
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 95%
+
+      - name: InDesign
+        level: 90%
+
+      - name: Illustrator
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: SQL
+        level: 40%
+
+      - name: Javascript
+        level: 30%
+
