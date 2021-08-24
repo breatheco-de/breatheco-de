@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Paola Alejandra
+    last_name: Sanchez Carrero
+
+    # Define yourself in 4-5 words
+    motto: Hard work > Talent && Luck.
+
+    # focus
+    focus: Becoming a Full Stack Developer
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      When you let someone like me join your team, you will acquire a team player! I never fail to demonstrate initiative, and urgency in my job.
+      I am a fast learner, and I am highly motivated. You will not regret allowing me in your team.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: paola.sanchezv98@gmail.com #optional
+    phone: 954-982-5249 #optional
+    website: https://github.com/paola9896 #optional
+    linkedin: https://www.linkedin.com/in/paola-sanchez-5139841b8/ #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: paola9896
+
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Improving my coding skills.
+
+      - item: Digital art.
+
+# Your previous education
+education:
+    - degree: Certificate of Completion
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/260/original/4g-logo-negro-01.png
+      time: 2021 - present
+      # details: 
+      summary: |
+        Learning to be proficient in HTML, CSS, JavaScript, Bootstrap, Python, GIT, ReactJS, and other tools\n\
+        in order to become a good junior programmer that will keep self studying and practicing to be more\n\
+        experienced every day.        \n
+# Your previous job experiences or voluntier
+experiences:
+    - role: Starbucks Supervisor
+      time: "NOV 2020 - Present"
+      company: Starbucks
+      # optional
+      # company_logo:
+      details: |
+          - Ensured proper cash management and cash register policies.
+          - Delegated resposibilities and helped baristas during rushes.
+          - Addressed issues from customers in a prompt manner.
+          - Earned Partner of the Quarter for my work ethics.
+    - role: Packaging Technician
+      time: JUL 2019 - NOV 2020
+      company: AB7 Innovation
+      # optional
+      # company_logo:
+      details: |
+          - Calculated and recoded daily production on log books.
+          - Operated various machinery to package pet medicine. 
+          - Followed safety rules while minimizing waste of materials.
+          - Double-checked accuracy of medications before starting packaging.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+assignments:
+       - title: Instagram Feed with Bootstrap
+    #     # optional
+    #     company_logo:
+         link: "https://github.com/paola9896/Instagram-Feed-with-Bootstrap"
+         tagline: "A clone of Instagram designed to be responsive with Bootstrap."
+
+       - title: Excuse Generator
+    #     # optional
+    #     company_logo:
+         link: "https://github.com/paola9896/Excuse-Generator---Paola-S"
+         tagline: "A website made to generate excuses every time the screen is loaded."
+
+       - title: Basic Postcard
+    #     # optional
+    #     company_logo:
+         link: "https://github.com/paola9896/POSTCARD"
+         tagline: "Simple postcard designed to be filled/edited and sent to friends and relatives."
+
+
+skills:
+    toolset:
+
+      - name: Javascript & Bootstrap
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 80%
+             
