@@ -13,7 +13,7 @@ basic_info:
     last_name: Strakhova
 
     # Define yourself in 4-5 words
-    motto: I like change the world
+    motto: creative, dedicated, hardworker, easygoing, reliable
 
     # focus
     focus: be an amazing developer
@@ -26,7 +26,7 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://i.ibb.co/QPn4FRv/aaaa.jpg
+    avatar: 
 
     # Contact Information
     email: irinastrakhova0007@gmail.com #optional
@@ -51,132 +51,68 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: workout
 
-      - item: bike
+      - item: travel
 
-      - item: happiness
+      - item: acting
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: Duoc UC
-      # optional
-      university_logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiw1NK7qPHiAhWjHrkGHYvfBjcQjRx6BAgBEAU&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FArchivo%3ALogo_DuocUC.svg&psig=AOvVaw1izFYlmQ7O-HcArUFlTDQp&ust=1560888366247850
-      time: 2007 - 2012
+    - degree: BSc in PR & Advertising
+      university: Florida International University
+      time: 2018 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        GPA 3.7
 
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: AS in linguistic
+      university: Lipetsk Teachers Training University
+      time: 2009 - 2011
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Hospotality agent
+      time: 2012 - Present
+      company: Lingenfelser Enterprises, Miami Beach
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Providing excellent service to ensure satisfaction.
+        Increased average net sales per day by 8 percent. 
+        As a reward I received a gift card, gained team recognition and appreciation.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
+    - role: Interpreter
       time: 2014 - 2015
-      company: Google, London
+      company: Interlanguage Interpreting, Inc/ Interpreter, North Miami
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Online interpreting
+        Text interpreting
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      section.
 
     assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
+      - title: Postcard
+        link: https://github.com/Istra007/My-sweet-postcard.git
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+      - title: Instagram Bootstrap
+        link: https://github.com/Istra007/bootstrap-instagram.git
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+      - title: Instagram Post
+        link: https://github.com/Istra007/Instagram-card.git
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
@@ -193,7 +129,7 @@ skills:
         level: 95%
 
       - name: Digital design
-        level: 85%
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Adobe Indesign & Photoshop
+        level: 90%
