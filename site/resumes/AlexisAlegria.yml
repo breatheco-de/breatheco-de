@@ -13,7 +13,7 @@ basic_info:
     last_name: Alegria
     
     # Define yourself in 4-5 words
-    motto: New Challengins coming up!
+    motto: New Challengens coming up!
     
     # focus
     focus: Web Development
@@ -62,7 +62,7 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: Full Stack Developer
+    - degree: Full Stack Developer Student
       university: 4Geeks Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -204,18 +204,18 @@ skills:
     software:
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: -%
 
       - name: Revit
-        level: 90%
+        level: -%
 
       - name: Navisworks
-        level: 60%
+        level: -%
 
       - name: AutoCad
-        level: 90%
+        level: -%
 
       - name: Ender 3 Creality + Cura
-        level: 70%
+        level: -%
 
     soft skills and knowledge: Solve problems oriented, Customer Satisfaction, High Employee and Data Volume Enviroment Experience
