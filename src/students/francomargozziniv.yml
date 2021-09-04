@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Franco
+    last_name: Margozzini Valdés
+    
+    # Define yourself in 4-5 words
+    motto: Ingeniero comercial aprendiz de programación
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Alegre, responsable, metódico, emprendedor, orientado al cumplimiento de objetivos y con alta capacidad de adaptación al cambio. Ingeniero Comercial mención Finanzas titulado con distinción, Universidad del Desarrollo; último semestre cursado en Universidad Duale Hochschule Baden-Württemberg, Alemania. Diplomado en Emprendimiento y Administración de Empresas, FEN, Universidad de Chile.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQEVQZZZ5Xp3TA/profile-displayphoto-shrink_800_800/0/1597421920467?e=1635984000&v=beta&t=PSBIJgUrmSs1-YtQ1CJlmpP2WxoNe55iWHxhRcZ3OUU
+
+    # Contact Information
+    email: fmargozziniv@gmaill.com #optional
+    phone: +56 9 7879 3269 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/francomargozziniv
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: Inglish
+        level: Medio
+
+      - idiom: Alemán
+        level: Básico  
+
+    # Interests or hobies
+    interests:
+      - item: Deportes
+
+      - item: Naturaleza
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: Ingeniero Comercial, mencion Finanzas, Univesidad del Desarrollo
+      university: Universidad del Desarrollo
+      # optional
+      university_logo: https://derecho.udd.cl/investigacion/files/2010/05/logo-udd-tesis-2.jpg
+      time: 2011 - 2015 
+      details: |
+        Ingeniero Comercial, mención Finanzas, Universidad del Desarrollo.
+        Titulado con distinción.
+          - Práctica profesional en Banco Internacional
+          - Práctica profesional en Copec
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link:
+        tagline: 
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: principiante
+
+      - name: CSS
+        level: principiante
+
+      - name: JavaScript
+        level: principiante
+
+  
