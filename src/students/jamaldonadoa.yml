@@ -1,1 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
 
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesus
+    last_name: Maldonado
+    
+    # Define yourself in 4-5 words
+    motto: I'm starting to learn
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+      Principante de la programación de sitios web. Buscando aprender cada día
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: jadolfomaldonadoa@gmail.com #optional
+    phone: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/jamaldonadoa
+    
+    stack-overflow: #
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: 75%
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Code
+
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: Profesional Degree
+      university: Santa María
+      # optional
+      university_logo: #
+      time: 20 - 2019 
+     
+    
+
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: React
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Java 8
+        level: 0%
+
+      - name: PHP,PHP Myadmin
+        level: 20%
+
+      - name: SQL
+        level: 20%
+
+      - name: Oracle, Mysql
+        level: 20% 
+   
+      - name: PHP
+        level: 20%
+
+      - name: Bootstrap
+        level: 70%
+      
+      - name: Bootstrap/React
+        level: 0%
+
+      - name: React Hooks
+        level: 0%
