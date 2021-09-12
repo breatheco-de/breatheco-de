@@ -1,27 +1,31 @@
 --- 
 basic_info: 
-  email: yguillenparedes@gmil.com
   first_name: "Yraida J"
-  github: "https://github.com/yguillenparedes"
-  languages: 
+  last_name: "Guillén Paredes"
+
+summary: "Analista y desarrollador de soluciones enfocadas a procesos de negocios. Diseñador de bases de datos. Docente\n"
+
+email: yguillenparedes@gmail.com
+
+github: "https://github.com/yguillenparedes"
+
+languages: 
     - 
       idiom: Spanish
       level: Native
     - 
       idiom: English
       level: Basic
-  last_name: "Guillén Paredes"
-  linkedin: ~
-  phone: ~
-  summary: "Analista y desarrollador de soluciones enfocadas a procesos de negocios. Diseñador de bases de datos. Docente\n"
-  website: ~
-education: 
+
+education:  
   - 
     degree: "Computer Engineer"
+    university: "Universidad Simón Bolívar"
   - 
     degree: "Full-Stack Software Developer - Actually."
     time: 2021
     university: "4Geeks Academy."
+
+
 skin: blue
 template: online-cv
-
