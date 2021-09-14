@@ -1,0 +1,69 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Luis
+    last_name: Garcia 
+    motto: Good God, Get a Grip
+    avatar:
+    summary: I decided to learn programming 'cause I have always loved technology since I was little, so it felt like destiny.
+      
+    email: larm.gd@gmail.com
+    phone: 424 211 6948
+    website: 
+    linkedin: 
+    github: larmgd
+    twitter: 
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: C2
+
+    interests:
+      - item: Videogames
+
+      - item: Cinema
+
+      - item: Music
+
+education:
+    - degree:
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Full-stack Developer
+      
+projects:
+    intro: 
+      I have some prejects in my repository of my github, this are some I did and I'm doing in the course 
+      of 4Geeks Academy
+    
+    assignments:
+      - title: Postcard with HTML/CSS
+        link: https://github.com/larmgd/Postcard-Luis-Garcia
+        tagline: A website where you can input information on a Postcard
+
+      - title: Instagram post with HTML/CSS
+        link: https://github.com/larmgd/Instagram-Post
+        tagline: A website where I made a copy of a IG Post    
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 20%
+
+      - name: Javascript
+        level: 5%
+
+      - name: Boostrap
+        level: 10%
