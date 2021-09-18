@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier  
+    last_name: Manteca Velasco
+    
+    # Define yourself in 4-5 words
+    motto: patience
+    
+    # focus
+    focus: Developer Full Stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Lerarning and improving day by day 
+
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: janteca@jmanvel.com #optional
+    phone:  646384060 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/javier-manteca-velasco-657a479b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: chavisam
+  
+    twitter:  #optional
+    stack-overflow: https://es.stackoverflow.com/users/128509/javier
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2 Official English School
+
+    # Interests or hobies
+    interests:
+      - item: Technology
+
+      - item: Outdoor Sports
+
+# Your previous education
+education:
+    - degree: Teacher's degree in primary education
+      university: Unir University
+      # optional
+      university_logo: 
+      time: 4 years
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Degree in tourism
+      university: Rey Juan Carlos University, Madrid
+      # optional
+      university_logo: 
+      time: 3 Years
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Developer
+      time: 2018 - 2021
+      company: J Manvel Apps
+      # optional
+      company_logo: 
+      details: www.jmanvel.com
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+  
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Ski Analytics App
+        # optional
+        project_logo: https://skianalytics.jmanvel.com/image/logo60.png
+        link: www.ski-analytics.com
+        tagline: "An App for Alpine Skiing"
+
+    
+
+skills:
+    toolset:
+
+      - name: Prestashop
+        level: 90%
+
+      - name: Python & Django
+        level: 3%
+
+      - name: Javascript & jQuery
+        level: 70%
+
+      - name: Php
+        level: 50%
+
+      - name: Laravel
+        level: 30%
+
+      - name: HTML5 & Bootstrap
+        level: 90%
+
+      - name: Office
+        level: 85%
+
+      - name: Photoshop
+        level: 20%
+      
+      - name: Wordpress
+        level: 50%
+
+     
