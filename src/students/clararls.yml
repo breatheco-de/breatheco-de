@@ -1,0 +1,28 @@
+
+template: "online-cv"
+skin: "green"
+
+basic_info: 
+  name: "Clara"
+  last_name: "Rojano León-Salas"
+  email: clararojanols@gmail.com
+  phone: (+34) 637144393
+  linkedin: https://www.linkedin.com/in/clara-rojano-le%C3%B3n-salas-ab2b70b9/
+  github: clararls
+
+education: 
+  specialty: Master in Business Administration
+  university: Universidad de Málaga
+  period: 2020-2021
+
+
+experiences:
+    - role: economist
+      time: 2019 - 2020
+      company: Dragados S.A
+
+skills:
+  html: 90%
+  css: 70%
+  bootstrap: 70%
+  javascript: 50%
