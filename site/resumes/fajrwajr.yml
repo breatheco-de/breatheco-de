@@ -1,0 +1,31 @@
+template: "online-cv"
+skin: "yellow"
+
+basic_info:
+          
+          first_name: Fajr
+          last_name: Muhammad
+
+motto: Keep Learning
+
+education: HomeSchooled
+
+projects: For one project I had to implement Stripe and when I published the page the intergration
+  wasn't working and I realized I published the site with the private key instead of the public key.
+
+contact:
+  email: bookreaderfajr@gmail.com
+  phone: 954-825-1289
+  linkedin: https://www.linkedin.com/in/fajr-muhammad-00469a181/
+   
+
+skills: 
+    toolset:
+      - name: HTML & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 40%
+
+      - name: Javascript
+        level: 30%
