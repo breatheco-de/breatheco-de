@@ -1,0 +1,114 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Pablo
+    last_name: Álamo
+    
+    motto: “If you were waiting for the opportune moment, that was it.”
+    
+    focus: Full-focus on getting better on a daily basis
+    
+    summary: |
+      I am a chemical engineer specialized Programming and Nanotechnology.
+      I have always been passionate about programming, this being the pillar of
+      my achievements both on a scientific and personal level.
+    
+    avatar: https://avatars.githubusercontent.com/u/85352752?s=400&u=1d4f7e739ea38435ea534da120cd42f7b1bcdb48&v=4
+
+    email: pabloalamovargas@gmail.com
+    phone: 695 565 910 
+    website: 
+    linkedin: https://www.linkedin.com/in/pablo-%C3%A1lamo/
+    github: peibol888
+    twitter:
+    stack-overflow:
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+    
+    interests:
+      - item: Coding
+
+      - item: Parkour
+
+      - item: Guitar
+
+education:
+    - degree: Chemical Engineering degree
+      university: Universidad Politécnica de Madrid
+      university_logo: https://www.upm.es/sfs/Rectorado/Gabinete%20del%20Rector/Logos/UPM/Logotipo%20con%20Leyenda/LOGOTIPO%20leyenda%20color%20PNG.png
+      time: 2014 - 2019
+      details: |
+        Process control and regulation- Chemical physics applied to multicomponent
+        systems - Industrial separation methods of multicomponent systems - Occupational
+        health and safety - Advanced Physics
+
+    - degree: Advanced Materials, Nanotechnology and Photonics master's degree
+      university: Universidad Autónoma de Madrid
+      university_logo: https://50aniversario.uam.es/wp-content/uploads/2017/09/logoFoot-3.png
+      time: 2019 - 2020
+      details: |
+        Simulation and numerical methods in materials and nanostructures - Synthesis of
+        advanced materials and nanostructures - Nanocharacterization of materials by
+        microscopic techniques - Nanodevices - Synchrotron Technology
+
+experiences:
+    - role: Research assistant
+      time: 2021 - Present
+      company: UAM, Spain
+      company_logo: https://50aniversario.uam.es/wp-content/uploads/2017/09/logoFoot-3.png
+      details: |
+            - Research in solar cells.
+            - Simulation of materials with nextnano
+
+    - role: Student
+      time: 2021 - Present
+      company: 4GeeksAcademy, Spain
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+            - Currently studing
+
+projects:
+    intro: >
+     
+    
+    assignments:
+
+      - title: Postcard
+        link: https://github.com/peibol888/Postcard.git
+        tagline: A digital postcard to practice with HTML and CSS
+
+      - title: Excuse-Generator
+        link: https://github.com/peibol888/Excuse-Generator.git
+        tagline: An excuse generator using HTML and CSS
+
+      - title: Instagram Photo-Feed
+        link: https://github.com/peibol888/images-feed.git
+        tagline: Instagram Photo Feed using HTML and CSS
+
+      - title: Instagram Post
+        link: https://github.com/peibol888/Instagram-Post.git
+        tagline: An example of an Instagram post to practice with HTML and CSS
+        
+
+skills:
+    toolset:
+
+      - name: C++
+        level: 20%
+
+      - name: Python
+        level: 30%
+
+      - name: Javascript
+        level: 10%
+
+      - name: HTML5 & CSS3
+        level: 40%
