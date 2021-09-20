@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo 
+    last_name: Da Silva
+    
+    # Define yourself in 4-5 words
+    motto: Responsable, studious, sociable, generous
+    
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am a young man of 24 years with studies and experience in the tourism sector, where I have always led small work groups. I speak three languages ​​and I have always felt great passion and interest for the technological world, with the dream of dedicating myself to programming and learning to create applications, web pages and help the development of software.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/88863584?s=400&u=7cd93ef792941b80382d30b6898b3a073478f172&v=4
+
+    # Contact Information
+    email: ricardojdasilva15@gmail.com #optional
+    phone: +34 617 65 64 27 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ricardodsb
+    
+    twitter: 'RicardoDS15' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Football
+
+      - item: Cryptocurrencies
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Higher degree in accommodation and tourist guides
+      university: Escuela Superior de Hostelería y Turismo
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1171903962708094977/txuD2KqO.jpg
+      time: 2018 - 2021
+      details: |
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Head waiter
+      time: 2017 - 2020
+      company: La Sucursal Chamberí, Madrid
+      # optional
+      company_logo: https://static.wixstatic.com/media/b8f810_5c912a3baa6549899fda7a498fcf9316~mv2.png/v1/fill/w_530,h_204,al_c,q_85,usm_0.66_1.00_0.01/b8f810_5c912a3baa6549899fda7a498fcf9316~mv2.webp
+      details: |
+        
+    - role: Recepcionist
+      time: 2020-2021
+      company: Catalonia Hotels, Madrid
+      # optional
+      company_logo: https://www.cataloniahotels.com/es/blog/wp-content/uploads/2014/10/cataloniacaribbean-logo.jpg
+      details: |
+       
+    
+# Your project portfolio
+projects:
+    intro: >
+     
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
