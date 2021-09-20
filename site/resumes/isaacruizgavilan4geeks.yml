@@ -9,11 +9,11 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Ivan
-    last_name: Da Ruos
+    first_name: Isaac
+    last_name: Ruiz Gavilán
     
     # Define yourself in 4-5 words
-    motto: Per audacia ad astra
+    motto: "No son nuestras habilidades las que muestran cómo somos, si no nuestras elecciones"
     
     # focus
     focus: K
@@ -32,8 +32,8 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/men/48.jpg
 
     # Contact Information
-    email: iodaruosgg@gmail.com #optional
-    phone: +58 424 1471200 #optional
+    email:  #optional
+    phone:  #optional
     website: na #optional
     linkedin: na #optional
     
@@ -58,19 +58,19 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Surfing
 
-      - item: Snowboarding
+      - item: Reading
 
-      - item: Cooking
+      - item: Eating great meals
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: MSc in PE Teaching
+      university: University of Pablo de Olavide
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: 
+      time: 
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -79,11 +79,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: BSc in Sports Sciences
+      university: Universidad de Sevilla
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -94,9 +94,9 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 
+      time: 
+      company: 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -111,9 +111,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 
+      time: 
+      company: 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -124,9 +124,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: 
+      time: 2
+      company: 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
