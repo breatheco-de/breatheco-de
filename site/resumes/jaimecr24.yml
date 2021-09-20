@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jaime
+    last_name: Caro
+    
+    # Define yourself in 4-5 words
+    motto: Intuitive attentive optimistic & resourceful
+    
+    # focus
+    focus: development and growth
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have an important basic training in computer science thanks to the studies
+      at the Faculty of Computer Science of Barcelona. Later, I studied a Bachelor
+      of Philosophy from UNED. Training in so many different fields allows me to have
+      a broad vision of reality, which I think can be useful in the field of programming.
+      It's a task that I'm passionate about and that is why I want to dedicate myself to it.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/67288569?v=4
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 111 111 111 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/jaimecr24/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jaimecr24
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: French
+        level: Advanced
+
+      - idiom: Italian
+        level: Upper-intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Walking
+
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Technical engineer in Computer Science
+      university: Polytechnic University of Catalonia
+      # optional
+      university_logo: https://profesoresim2019.upc.edu/wp/wp-content/uploads/2018/09/logo_UPC.png
+      time: 1990 - 1998
+      details: |
+        The objective of Technical Engineering in Management Informatics is to provide
+        the student with professional competence in the field of Information Systems Engineering
+        in everything that refers to technical design, construction and maintenance of
+        information systems for organizations.
+
+    - degree: Degree in philosophy
+      university: National University of long distance Education (UNED)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/LogoUNED.jpg/240px-LogoUNED.jpg
+      time: 1995 - 2000
+      details: |
+        The Degree Plan in Philosophy seeks to transmit the important inheritance of knowledge acquired
+        by philosophical thought, introduce the student to the issues addressed by it, present them with current
+        affairs and actively initiate them in the formation of their own philosophical reflection.
+        This is intended to provide students with sufficient knowledge of philosophical methods that allow them
+        to critically approach texts and problems on their own and that they know how to deal with sources
+        and with the bibliography search and selection instruments that at any given time specify.
+        The student must show the capacity for dialogue and understanding of the various arguments,
+        analysis and reflection.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Programmer
+      time: 1995 - 1995
+      company: Cyborg Systems, Barcelona.
+      # optional
+      company_logo: 
+      details: |
+        University-company educational cooperation program agreement.
+        Implementation of industrial process control programs.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo:
+        link: "https://github.com/jaimecr24/InstagramPhotoFeedB"
+        tagline: "Design exercise with HTML, CSS and Bootstrap"
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level:
+
+      - name: HTML5 & CSS
+        level:
+
