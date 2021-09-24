@@ -1,0 +1,109 @@
+        #
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Héctor Manuel
+    last_name: Coa Hernández
+
+    # Define yourself in 4-5 words
+    motto: i'm a great person.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Professional committed to the fulfillment of tasks and activities. Proactive, punctual, willing to work as a team, share knowledge that allows the personal and professional growth necessary for the achievement of goals or objectives.
+
+    # Contact Information
+    email: hectorcoa.14@gmail.com # optional
+    phone: +56 9 5677 7738
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hcoagithub
+    
+  
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: 50%
+
+  # Interests or hobies
+    interests:
+      - item: Be a professional web developer.
+
+      - item: Create mobile applications.
+
+      - item: Develop large web projects.
+
+# Your previous education
+education:
+    - degree: developer web (Front-End)
+      university: 4-Geeks-Academy
+    
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Code-Instagram-Post
+        link: https://github.com/hcoagithub/Code-Instagram-Post.git
+        tagline: "It is my Code Instagram Post"
+        # optional
+      - title: Code-Photo-Feed
+        link: https://github.com/hcoagithub/Code-Photo-Feed.git
+        tagline: "It is my Code Photo Feed"
+        # optional
+      - title: Code-The-Instagram-Photo-Feet-html-css
+        Link: https://github.com/hcoagithub/Code-The-Instagram-Photo-Feet-html-css.git
+        tagline: "It is my Code Photo Feed"
+        # optional
+      - title: Code-Linea-de-Comando
+        link: https://github.com/hcoagithub/Code-Linea-de-Comando.git
+        tagline: "It is my Code Linea de Comando"
+        # optional
+      - title: exercise-collaborative-html-website
+        link: https://github.com/hcoagithub/exercise-collaborative-html-website.git
+        tagline: "It is my Code collaborative"
+        # optional
+      - title: Code-Booststrap 
+        link: https://github.com/hcoagithub/Code-Booststrap.git
+      - tagline: "It is my Code Booststrap"
+        # optional
+      - title: CodeFormularios 
+        link: https://github.com/hcoagithub/CodeFormularios.git
+        tagline: "It is my Code Formulario"
+
+
+skills:
+    toolset:
+
+      - name: HTML & CSS
+        level: 70%
+
+      - name: Booststraap
+        level: 50%
+
+      - name: Javascript 
+        level: 60%
+
+
+
+
+    
+    
+ 
+
+
+
+    
+
+
