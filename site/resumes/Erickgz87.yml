@@ -1,0 +1,47 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Erick
+    last_name: gonzalez
+    
+    
+    motto: superarme cada dia. y apreder de cada error cosas nuevas.
+    
+    
+    focus: aprender lo mas rapido que pueda. 
+    
+    
+    summary: |
+     yo soy administrador, y actualmente me desempeño como encargado de bodega,y aspiro a ser un desarrollador web a corto plazo que es lo que me apasiona realmente.
+
+    
+   
+    avatar: 
+
+    
+    email: erickgz87@gmail.com
+    # phone: 941189090
+    # website:
+    linkedin: 
+    
+    
+    github: Erickgz87
+    
+    twitter: erickgz87 
+    
+
+    
+    languages:
+      - idiom: spanish
+        level: Native
+
+    
+    interests:
+      - item: sports
+
+      - item: futbol
+
+      - item: baloncesto
