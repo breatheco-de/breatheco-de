@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felipe
+    last_name: Rotjes
+    
+    # Define yourself in 4-5 words
+    motto: I love design and code
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Design & Code
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: /static/feliperotjes.png
+
+    # Contact Information
+    email: feliperotjes@gmail.com #optional
+    phone: +584122076544 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/FelipeRotjes
+    
+    stack-overflow: # Number/Username, e.g. 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: 80%
+
+    # Interests or hobies
+    interests:
+      - item: Design
+
+      - item: Code
+
+      - item: Bike MTB
+
+# Your previous education
+education:
+    - degree: Comunicacion Social
+      university: Universidad Santa MAria
+      # optional
+      university_logo: https://ceeielche.emprenemjunts.es/fotos/44938_foto1.jpg
+      time: 2008 - 2013 
+      details: |
+        Comunicacion Audiovisual
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram-Bootstrap
+        # optional
+        project_logo: https://github.com/FelipeRotjes/instagram-boostrap
+        link: https://github.com/FelipeRotjes/instagram-boostrap
+        tagline: "Its a  imitation of instagram"
+
+      - title: Instagram-Photo-Feed
+        # optional
+        project_logo: https://github.com/FelipeRotjes/instagram-photo-feed
+        link: https://github.com/FelipeRotjes/instagram-photo-feed
+        tagline: "A simple landing page using React.js components."
+
+      - title: Instagram-Post
+        # optional
+        project_logo: https://github.com/FelipeRotjes/Instagram-post
+        link: https://github.com/FelipeRotjes/Instagram-post
+        tagline: "A colaborative web app "
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 35%
+
+      - name: Javascript & jQuery
+        level: 45%
+
+      - name: Angular
+        level: 15%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 100%
