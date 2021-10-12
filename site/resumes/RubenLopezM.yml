@@ -1,0 +1,30 @@
+template: "online-cv"
+skin: "red"
+
+basic_info:
+
+   first_name:"Rubén"
+   last_name:"López"
+
+education:
+   -degree: Licenciatura en Administración y Dirección de empresas
+   -time: 2009-2012
+
+experiences:
+   -role: Junior Accountant
+   -time: April 2013-May 2014
+   -description: Help the head accountant with the daily tasks such as invoice posting.
+
+projects:
+   -intro: Now I am studying a web development bootcamp in 4GeeksAcademy. Some of the projects I have made are an excuse Generator with Javascript or an Instagram Post.
+   
+
+skills: 
+   tools:
+    - name: Javascript
+      level: 10%
+    - name: HTML
+      level: 20%
+    - name: CSS
+      level: 20%
+
