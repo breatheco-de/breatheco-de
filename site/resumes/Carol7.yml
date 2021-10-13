@@ -3,29 +3,27 @@ skin: "blue"
 
 basic_info:
 
-    first_name: Alexandre
-    last_name: Henriques
+    first_name: Carolina
+    last_name: Traba Hernández
     
-    motto: I have no special talent. I am only passionately curious.
+    motto: 
     
     focus: Programming
     
-    summary: Experienced General Manager with a demonstrated history of working in the executive office industry. Skilled in Negotiation, Business Planning, Operations Management, Microsoft Word, and Sales. Strong operations and analytical professional.
-    
+    summary: 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
 
-    email: alexresende@ymail.com 
-    phone: 786 859 3806 
+    email: carol.cth93@gmail.com
+    phone: 650 27 57 14 
     website: 
-    linkedin: www.linkedin.com/in/alexandre-henriques-12678a85
+    linkedin: https://www.linkedin.com/in/caroltraba/
     
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: aamrh
+    github: Carolth7
     
-    twitter: 
-    stack-overflow: 
+   
 
     languages:
       - idiom: English
@@ -34,21 +32,19 @@ basic_info:
       - idiom: Spanish
         level: Professional
 
-      - idiom: Portuguese
-        level: Native
-
+  
     interests:
       - item: Tennis
 
-      - item: Snowboarding
+      - item: Bike
 
       - item: Cooking
 
 education:
     - degree: FullStack Web Developer
       university: 4Geeks Academy
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2019 - 2019
+      university_logo: 
+      time: 2021-2022
       details:
           -Real “Senior” Mentoring
           All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry.
@@ -59,30 +55,18 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 
+      time: 
+      company: 
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer 
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
     assignments:
       - title: Velocity
         # optional
