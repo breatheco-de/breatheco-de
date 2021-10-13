@@ -1,0 +1,40 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "aquamarine"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana Gabriela    
+    last_name: Gonzalez Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: I love smile  
+    
+    # focus
+    focus: Develop myself as a programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Summarise your career here lorem ipsum dolor sit amet, consectetuer
+     adipiscing elit. You can [download this free resume/CV template here]().
+     Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+     Donec quam felis, ultricies nec, pellentesque eu.
+
+     Second paragraph if required.
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: anag1559@gmail.com #optional
+    phone: 506 8692 2121 #optional
+    website: optional.com #optional
+    linkedin: https://www.linkedin.com/in/ana-gabriela-gonzalez-gonzalez-218b12133/ #optional
