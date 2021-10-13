@@ -1,0 +1,102 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    name: Eliana Jordan
+    tagline: Full Stack Developer
+    avatar: eliana-cv-small.jpg
+
+    summary: |
+      I am always seeking for new challenges, projects and opportunities, that's why I reinvent myself multiple times and focus my career towards my big passion, travelling. Currently, I'm studying at 4Geeks to become a full-stack web developer.
+      
+      Moreover, I am Business Administration graduate specialised in social media and content creation with over 5 years experience. I have developed my own Instagram brand with almost 30,000 followers so far (@eliana_jordan). 
+      I am fluent in Spanish and English. I am proficient in using platforms such as Lightroom, Photoshop, Illustrator, Premiere, After Effects, Facebook, Twitter, Instagram, Youtube, Hootsuite, Wordpress, and Google Analytics and Business, I am also skilled in photography.  
+      
+      On the other hand, talking about my hobbies, besides of travelling and discovering other cultures, I love scuba diving, what it took me to become scuba diving instructor at the Great Barrier Reef in Australia to share my passion with others. I practice surf, skate, climbing, yoga and a little bit of kitesurf as well.
+
+    email: elianajr1@gmail.com 
+    phone: +34 618 401 966 
+    linkedin: elianajordanromea 
+    github: elianajr
+    twitter: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Enslish
+        level: Professional
+
+      - idiom: Portuguese
+        level: Basic
+
+    interests:
+      - item: Travelling
+
+      - item: Surf 
+
+      - item: Skate
+
+      - item: Scuba diving
+
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: oct 2021 - dec 2021
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp.
+        
+    - degree: Business Administration degree 
+      university: University of Zaragoza 
+      time: 2018 - 2021
+      details: Bachelor degree in Business and Marketing
+
+    
+experiences:
+    - role: PADI scuba instructor
+      time: may 2019 - jan 2020
+      company: Seastar
+      details: Guiding future divers at their first steps in the water, conducting courses from Open Water to Dive Master, boat driving and glass bottom boat tours about the Great Barrier Reef.
+
+    - role: Community Manager
+      time: jun 2016 - oct 2017
+      company: Es Paradis
+      details: Working in a busy team, developing new social media and website contents to introduce the company in a new target audiences. Managing all contents, advertisement and SEO. Recruiting some new people for our team. In charge of VIP area, managing bookings and personalized customer care. 
+
+    - role: Commercial department
+      time: jun 2015 - oct 2015
+      company: Danone
+      details: Supporting Sales Director, visiting sales point and doing improvements, managing retails and monitoring developments, negotiating with suppliers, making action plans for sales.
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+    assignments:
+      - title: Digital Postcard
+        link: https://github.com/AlmuUve/Postcard
+        tagline: "My First HTML and CSS project"
+
+      - title: Instagram
+        link: https://github.com/AlmuUve/instagram-post-html-and-css.git
+        tagline: "Instagram-look-a-like feed using HTML and CSS."
+
+      - title: Form Bootstrap
+        link: https://github.com/AlmuUve/form-bootstrap
+        tagline: "A payment form using Bootstrap exclusively"
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 30%
+
+      - name: CSS
+        level: 60%
+
+      - name: bootstrap
+        level: 50%
+
