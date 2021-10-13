@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Chacón
+    
+    # Define yourself in 4-5 words
+    motto: Empathic, friendly, creative, responsable.
+    
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I have worked in different areas and environments like digital marketing, illustration, education. This has made me realize that the tech area offers the perfect environment to provide innovative solutions, thus, I have found the niche where I want to develop as a professional for the next 20 years.
+         
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: davidchaconn1993@gmail.com
+    phone: 58 4126189176
+    website: 
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/naguarineis
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: C2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Riding bicycle
+
+      - item: Hiking
+
+      - item: Reading
+
+# Your previous education
+education:
+
+    - degree: Full Stack
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      details: |
+        My journey with 4Geeks Academy is on course
+    
+    -
+# Your previous job experiences or voluntier
+experiences:
+
+    - role: Klaviyo specialist
+      time: 2020 - 2021
+      company: Ejam
+      company_logo: https://ejam.com/assets/images/ejam_logo_Black.png
+      details: |
+       I am part of the Email Marketing department, and the admin for brand accounts used in klaviyo
+       
+skills:
+    toolset:
+      - name: Javascript 
+        level: 10%
+
+      - name: Python
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Sql
+        level: 0%  
