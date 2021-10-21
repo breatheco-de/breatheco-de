@@ -1,0 +1,10 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  first_name: Wiesz 
+  last_name: Poliard
+
+  motto: Dedication, learning, caring, helping, active
+  focus: Learning everything I can about web development.
+  github: wiesz1
