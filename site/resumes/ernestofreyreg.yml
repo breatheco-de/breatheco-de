@@ -1,0 +1,10 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  first_name: Ernesto
+  last_name: Freyre
+
+  motto: Dedication, learning, caring, helping, active
+  focus: Learning everything I can about web development.
+  github: ernestofreyreg
