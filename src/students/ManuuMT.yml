@@ -1,0 +1,53 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+
+template: "online-cv"
+skin: "green"
+
+# Personal information
+
+basic_info:
+name: "Emanuel"
+last_name: "Maldonado Tuero"
+
+# Define yourself in 4-5 words
+
+motto: Always learning
+
+focus: Becoming a great Full Stack Developer.
+
+# Sidebar link
+
+email: ema14mt@gmail.com.
+phone: 600973836
+linkedin: https://www.linkedin.com/in/emanuel-maldonado-tuero-71b39b152/
+github: ManuuMT
+
+#language you speak, levels include
+
+languages:
+spanish: Native
+english: Intermediate
+
+#education
+
+high school: completed 
+
+#interests or hobbie
+
+- item: programming
+- item: music
+- item: photography
+
+#previous jobs
+
+Waiter , Customer Service, IT technician.
+
+skills: Fast learning
+
+html: 30%
+css: 30%
+bootstrap: 30%
+javascript: 30%
