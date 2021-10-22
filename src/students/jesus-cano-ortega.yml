@@ -114,7 +114,7 @@ skills:
         level: 50%
 
       - name: Snake
-        level: 95%
+        level: 95!
 
       - name: Ruby on Rails
         level: 100%
