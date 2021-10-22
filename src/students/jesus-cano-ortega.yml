@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesús
+    last_name: Cano Ortega
+    
+    # Define yourself in 4-5 words
+    motto: "The lorem ipsum sensei"
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus nibh erat, sed sagittis arcu fringilla quis. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: #URL foto
+
+    # Contact Information
+    email: #optional
+    phone: lorem ipsum
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/jesus-cano-ortega
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catala
+        level: Native
+
+      - idiom: Inglish
+        level: 90%
+
+    # Interests or hobies
+    interests:
+      - item: lorem ipsum
+
+      - item: lorem ipsum
+
+      - item: lorem ipsum
+
+# Your previous education
+education:
+    - degree: Industrial Design Engineering
+      university: ELISAVA University Design of Barcelona
+      # optional
+      university_logo:
+      time: 2015 - 2019
+      details: |
+        Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point: Fusce eget vestibulum lectus. Nunc in convallis velit. Aenean ipsum ligula, mattis ac augue quis, iaculis egestas ante.
+          - Bullet point: Fusce eget vestibulum lectus. Nunc in convallis velit. Aenean ipsum ligula, mattis ac augue quis, iaculis egestas ante.
+          - Bullet point: Fusce eget vestibulum lectus. Nunc in convallis velit. Aenean ipsum ligula, mattis ac augue quis, iaculis egestas ante.
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Lorem Ipsum
+        # optional
+        project_logo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        link: "#"
+        tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+      - title: Lorem Ipsum
+        # optional
+        project_logo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        link: "#"
+        tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+      - title: Lorem Ipsum
+        # optional
+        project_logo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        link: "#"
+        tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+      - title: Lorem Ipsum
+        # optional
+        project_logo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        link: "#"
+        tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+
+skills:
+    toolset:
+      - name: Lorem Ipsum
+        level: 100%
+
+      - name: HTML5, CSS3, JS
+        level: 1000%
+
+      - name: React
+        level: 50%
+
+      - name: Snake
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 100%
+
+      - name: Sketch & Photoshop
+        level: 30%
