@@ -1,0 +1,67 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+
+template: "Online-CV"
+skin: "green"
+
+# Personal information
+
+basic_info:
+name: "Daniel"
+last_name: "Bañobre Dopico"
+
+# Define yourself in 4-5 words
+
+motto: It's important to stay tidy for getting good chaos.
+
+focus: People oriented fullstack development.
+
+# Sidebar link
+
+email: daniel.banobre.dopico@protonmail.com
+phone: (34)616656123
+linkedin: https://www.linkedin.com/in/daniel-ba%C3%B1obre-dopico/
+github: DanielBanobreDopico
+
+#language you speak, levels include
+
+languages:
+spanish: level-native
+english: level-basic
+
+#education
+
+high school: electronics
+
+#interests or hobbie
+
+- item: comics
+- item: series
+
+#previous jobs
+
+ToDo: So much data to copy & paste... let's do it later.
+
+skills:
+
+html: 30%
+css: 30%
+bootstrap: 5%
+javascript: 70%
+python: 70%
+svelte: 50%
+
+
+
+
+
+
+
+
+
+
+
+
+
