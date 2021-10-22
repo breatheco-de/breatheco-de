@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rodrigo
+    last_name: Carvalho de Oliveira
+    
+    # Define yourself in 4-5 words
+    motto: Constantly evolving
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+     Ccd srcreative, proactive and always willing to learn
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: nonono@nononomail.com #optional
+    phone: 85102366 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/abraham1798
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish
+        level: 90%
+
+      - idiom: English
+        level: 50%
+
+    # Interests or hobies
+    interests:
+      - item: Code
+
+      - item: Photography
+
+      - item: Play Music
+
+      - item: Cook
+
+# Your previous education
+education:
+    - degree: Photography
+      university: University Miguel Hernández
+      # optional
+      university_logo: https://ceeielche.emprenemjunts.es/fotos/44938_foto1.jpg
+      time: 2016 - 2018
+          
+    - master: Contemporary Photography
+      university: University Miguel Hernández
+      time: 2018 - 2019
+
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram Photo Feed
+        # optional
+        link: "https://github.com/CRodr86/Instagram-Photo-Feed"
+        tagline: "Its a  imitation of instagram"
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Sketch & Photoshop
+        level: 35%
