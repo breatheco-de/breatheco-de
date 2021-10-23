@@ -1,0 +1,94 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Arausy Naomí.
+    last_name: Corzo Coraspe.
+    
+    # Define yourself in 4-5 words
+    motto: Funny, creative, crazy, cool and shy. 
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a student, I want to create things to inspire people to bring out their smart and creative best version to advance in the world of technology. 
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.pinterest.es/pin/683632418424784717/
+
+    # Contact Information
+    email: arausyncc@gmail.com #optional
+    phone: no phone
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/ArausyCorzo
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: 70%
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Volleyball
+
+      - item: Draw
+
+      - item: Study
+
+# Your previous education
+education:
+    - degree: 
+      university: Andres Bello Catholic University 
+      # optional
+      university_logo: data:image/jpeg;base64,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
+      time: 2019 - 2021 (in process)
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram-Post
+        # optional
+        project_logo:  https://github.com/ArausyCorzo/igpost
+        link: "#hook"
+        tagline: "Its a  imitation of instagram"
+
+     
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+ 
