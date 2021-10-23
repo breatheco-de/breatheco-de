@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Milano Perez
+    
+    # Define yourself in 4-5 words
+    motto: Siempre busco mejorar 
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Entre a la Academia de 4 Geeks buscando ampliar mi conocimiento hacia la programación, aprender lo que no sabía y en futuro convertirme en un buen programador. Tengo como visión graduarme en esta academia, pulir el concoimiento adquirido; ya sea trabajando, practicando con proyectos propios, instruyéndome cada día de nueva información que salga, ingeniar cosas que tengo en mente desde que comencé aquí y planeo también compartir mi conocimiento a otras personas que esten en la misma situación que yo, que les guste la programación y tengan sed de querer saber más. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images
+
+    # Contact Information
+    email: dmilanop28@gmail.com #optional
+    phone: 04242778337 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/dmilanop
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: 25%
+
+    # Interests or hobies
+    interests:
+      - item: Carros
+
+      - item: Programar
+
+      - item: Series
+
+# Your previous education
+education:
+    - degree: Administración 
+      university: Universidad Católica Andrés Bello
+      # optional
+      university_logo:
+      time: 2018 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram-Bootstrap
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 40%
