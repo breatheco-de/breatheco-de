@@ -1,0 +1,81 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lenin
+    last_name: Rodriguez
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      student Full-Stack Developer en 4Geeks.
+
+      
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: ""
+
+    # Contact Information
+    email: yexle15@hotmail.com
+
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LENIN309
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: nativo
+
+      - idiom: Ingles
+        level: Intermedio
+
+
+    # Interests or hobies
+    interests:
+      - item: Soccer
+
+      - item: Music
+
+      - item: game
+
+# Your previous education
+education:
+    - degree: Desarrollador Full-Stack (cursando)
+      university: 4geeks
+      # optional
+      #university_logo: 
+      time: Noviembre 2021
+
+    - degree: Desarrollo web (cursando)
+      university: Facultad de ingeniería UDELAR
+      # optional
+      #university_logo: 
+      time: 2019 - Actualidad
+
+skills:
+    toolset:
+      - name: C++
+        level: 10%
+
+      - name: Python
+        level: 10%
+
+      - name: JavaScript
+        level: 10%
+
+      - name: HTML & CSS
+        level: 20%
+
+      - name: Bootstrap
+        level: 10%
