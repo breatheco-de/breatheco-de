@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Keili
+    last_name: Rosales
+    
+    # Define yourself in 4-5 words
+    motto:    Empathy, Collaborative, Autodidact, Happy
+    
+    
+    # focus
+    focus:  Developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Publicist I have worked as an account executive for three years and since 6 years ago I have developed professionally in the digital marketing area creating content, managing communities, planning and analyzing SEO/SEM campaigns, besides being involved in the creative processes contributing ideas and designing them. I have acquired some skills outside the university in graphic design, so it has been a great plus for the development of my functions in all my former projects.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<keikeka>
+    avatar: https://avatars2.githubusercontent.com/u/73644092?s=400&amp
+
+    # Contact Information
+    email: keilirosalesr@gmail.com
+    phone: 657 310 302
+    website: https://keilirosales.myportfolio.com/
+    linkedin: https://www.linkedin.com/in/keili-rosales/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/keikeka
+    
+    twitter: 'keikeka' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: A2
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Photography
+
+      - item: Design Graphics
+
+      - item: Read
+
+# Your previous education
+education:
+    - degree:   ADVERTISING GRADUATE
+     university: Alejandro de Humboldt University. Caracas-Venezuela
+     university_logo: "https://unihumboldt.edu.ve/img/logo.png"
+     time: 2007 - 2010
+      
+     
+    -
+# Your previous job experiences or voluntier
+experiences:
+    
+    - role: SOCIAL MEDIA MANAGER
+      time: 2020 - 2021
+      company: Renovagy Distribución Eléctrica SL
+      company_logo: https://www.renovagy.es/wp-content/uploads/2018/06/logo_header.png
+      details: | 
+    Plan, execute and manage digital marketing plan. Develop social media content calendar. Production of the corporate graphic and audiovisual line. Internal and external content layout. Creation and management of internal newsletter. Increase online community and enhance brand recognition in online marketing. Brand recognition in online marketing. Monthly reports with results analysis.
+       
+       - role: SOCIAL MEDIA MANAGER
+      time: 2017 - 2019
+      company: Universidad Miguel de Cervantes
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR35qH6tEo9KyQwS409K_8fN98Mx2YOkSVLuQMNmtCKx6IOfeZSDs1BTxbiRHknS9d30mA&usqp=CAU
+      details: | 
+    Propose, plan, execute and manage digital marketing plan. Propose content grid with weekly planning. Production of the institutional graphic and audiovisual line. Content layout. Online community growth and conversion to potential clients. Evaluate and improve online reputation. Prepare weekly and monthly reports. Web analytics. Development and collaboration in the optimization of the institutional website. Digital environment study, competitor benchmarking. Proposal and development of SEO and SEM strategy. Management of databases obtained in organic or paid campaigns. or paid campaigns.
+       
+       - role: COMMUNITY MANAGER
+      time: 2016 - 2017
+      company: SD Med
+      company_logo: https://sdmed.cl/wp-content/uploads/2019/08/sdmed-logo.png
+      details: |  
+    Management and creation of content for RRSS, massive uploading of products to the online store of social network Facebook. Activation of advertising campaigns on Facebook Ads. Massive uploading of publications on Mercadolibre and Linio sales platforms. Updating, uploading of products and graphic designs on website through Wordpress. through Wordpress. Photo shoot, editing, retouching and publication according to the website (Mercadolibre, Linio, www.sdmed.cl). Graphic design for flyers, ads/signs, banners, booths and more for physical store and sport or fitness events. physical store and sport or fitness events.
+       
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 90%
+
+      - name: Illustrator
+        level: 60%
+
+      - name: Wordpress
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: SEO
+        level: 50%
+
+      - name: Photography
+        level: 50%
+        
