@@ -1,0 +1,102 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alfredo
+    last_name: Supanta Alave
+    
+    # Define yourself in 4-5 words
+    motto: Ahorro capitalismo y trabajo duro
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Soy una persona confiable, con vocación, proactiva, innovadora, adaptable, de trabajar en equipo, acostumbrado a trabajar bajo presión y cumplir con tareas urgentes. Con 10 años de experiencia en el área administrativa, en donde he tenido la oportunidad de tener a cargo diferentes equipos de trabajo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fari1-1.fna.fbcdn.net/v/t1.6435-9/92720720_1127762284229639_2244058354177540096_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGrNcsu4soJU7M7Kp6JZ8n_NhslFyEbXwg2GyUXIRtfCI2jJT0FJ8-UMzN_LruI4fMRhzFFtmv3nEnOGTDMGb1E&_nc_ohc=oMu9J3WYCj4AX-Aag82&_nc_ht=scontent.fari1-1.fna&oh=1638c036f80761a506c87a90a79e33d0&oe=61A1A7BE
+
+    # Contact Information
+    email: alfredo.supanta.26@gmail.com
+    phone: +569-82154185#optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlfredoMarcelo
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: 40%
+
+    # Interests or hobies
+    interests:
+      - item: Fútbol
+
+      - item: Code
+
+      - item: Leer 
+      
+      - item: Ver Artes Marciales Mixtas
+
+# Your previous education
+education:
+    - degree: Ingeniero en Administración De Empresas
+      university: Universidad Tecnológia De Chile Inacap
+      # optional
+      university_logo: https://portales.inacap.cl/Assets/noticias/img/2018/general/11-09-2018-Suspencion11/1200x400H_LOGOTIPO_SISTEMA_INTEGRADO.jpg
+      time: 2016 - 2020.
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram photo feed
+        # optional
+        project_logo: https://blog.facialix.com/wp-content/uploads/2021/04/html-css-bootstrap.jpg
+        link: https://github.com/AlfredoMarcelo/instagramconbootstrap.git
+        tagline: "Uno de los primeros proyectos con HTML, CSS y Bootstrap"
+
+      - title: https://github.com/AlfredoMarcelo/formvalidation.git
+        # optional
+        project_logo: https://www.bootstrapdash.com/wp-content/uploads/2017/08/how-to-use-bootstrap-with-html.png
+        link: https://github.com/AlfredoMarcelo/formvalidation.git
+        tagline: "Formulario realizado con HTML y Bootstrap."
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+     
