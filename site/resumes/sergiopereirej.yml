@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio Enrique Ignacio
+    last_name: Pereira Jorquera
+    
+    # Define yourself in 4-5 words
+    motto: passion, proactive, perfectionist, studious and dynamic
+    
+    # focus
+    focus: Developer Full-Stack, Public Health, Health Accreditation and Continuous Training
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a Nurse, MSc Public Heath, Accreditor in Health certified by the Superintendency of Health and studen a program "Full-Stack Developer " in Academy 4Geeks Chile.
+
+      Within my interests is: Artificial Intelligence, Technological Developments, Public Health, Accreditation Systems in Health, Continuing Education and Sports.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: site/static/sergiopereira.JPG
+
+    # Contact Information
+    email: sergiopereira.jorquera@gmail.com #optional
+    phone: +569 94935192  #optional
+    website: optional.com #optional
+    linkedin: https://www.linkedin.com/in/sergio-enrique-pereira-jorquera-45847650 #optional
+
+        #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/sergiopereiraj
+    
+   
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic Competence 
+
+    # Interests or hobies
+    interests:
+      - item: Sport = Basketball, Running and Trail Running
+
+      - item: Cooking
+
+      - item: Travel
+
+      - item: student 
+
+# Your previous education
+education:
+
+    - degree: Full-Stack Developer
+      university: 4Geeks Academy Chile
+      # optional
+      university_logo: site/static/4g-logo-negro-01.png
+      time: 2021
+      
+    - degree: Diploma in Health Quality Accreditation
+      university: University of Chile
+      # optional
+      University_logo: https://www.uchile.cl/image/f159277-0-h.jpeg?3144
+      time: 2018
+
+    - degree: MCs Public Health
+      university: University Mayor
+      # optional
+      university_logo: https://www.learnchile.cl/wp-content/uploads/2019/05/logo-umayor.jpg
+      time: 2014 - 2016
+
+    - degree: Nursing
+      university: University of Valparaiso
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Logo_universidad_de_valparaiso_2008.svg/1200px-Logo_universidad_de_valparaiso_2008.svg.png
+      time: 2006 - 2011
+
+
+
+# Your previous job experiences or voluntier
+experiences:
+
+    - role: Territorial Referent 
+      time: february-september 2021
+      company: Cabinet of Ministers, Ministery of Health
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/f/f2/MINSAL.png
+      details: |
+        Territorial Referente for "National Strategy for Testing, Traceability and Isolation for COVID-19", for Region "Metropolitana" Chile.
+
+    - role: Health Quality Accreditation
+      time: march 2021 to date
+      company: SEA Salud
+      # optional
+      company_logo: 
+      details: |
+
+    - role: Nursin Of Quality
+      time: 2016 - 2021
+      company: CESFAM "Lo Franco"
+      # optional
+      company_logo: https://scontent-scl2-1.xx.fbcdn.net/v/t1.18169-9/13445655_258633901168728_2562944567940911857_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEp7AkminT7sn4R7ot-URITRrZhf9qt4X5GtmF_2q3hfg2kFdYS5fRvvxICu_UaOkI&_nc_ohc=kCXperzfVEQAX9qRi7f&_nc_ht=scontent-scl2-1.xx&oh=a46d1634e8f71c5636ff23e69a681f7b&oe=61A1702C
+      details: Preparation for quality "Standards of the Superintendency of Health"
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
