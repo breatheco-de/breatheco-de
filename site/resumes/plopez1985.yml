@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Patricia J.
+    last_name: Lopez C.
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta viajar, aprender cosas nuevas, leer e ir a la playa.
+
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy Contadora y estoy en una nueva etapa para completar mi perfil. Añado ahora una pieza 
+      importante para mi desarrollo como profesional, formarme como Full Pogramadora. 
+      Todo mi conocimiento previo me ayudará a diseñar y desarrollar productos digitales que 
+      hagan la vida más fácil a las personas.
+   
+    # Contact Information
+    email: pl586546@gmail.com 
+    phone: +56 9 897 10 462
+    linkedin: Patricia López Carreño
+    github: plopez1985  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Aleman
+        level: Basico
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Viajar
+
+      - item: La Playa
+
+      - item: Leer
+
+# Your previous education
+education:
+    - degree: Técnico en Contaduria Publica
+      university: Instituto Universitario de Mercadotecnia
+      # optional
+      time: 2013-2016
+      details: 
+
+    - degree: Cajero Bancario
+      university: Inacap
+      # optional
+      time: 2019
+      details: 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Service Manager 
+      time: 2021- presente
+      company: Empresas Movistar
+      # optional
+      details: |
+        Recibir las solicitudes de los clientes de mi cartera, estar pendiente que todo funcione perfectamente. 
+
+    - role: Ejecutiva Vox 
+      time: 2019-2021
+      company: Banco Santander  
+      # optional
+      details: |
+        • Activación y desbloqueo de Claves de Internet. *
+        • Cartolas y detalles de abonos recibidos.
+        • Transferencias electrónicas.
+        • Activaciones de Pagos Automáticos.
+        • Bloqueos y órdenes de no pago.
+        • Soporte para usuarios de Office Banking.
+        • Compra y venta de divisas. *
+        • Renovar tu Certificado Digital o Firma Electrónica Avanzada. *
+        • Información sobre productos y servicios.
+
+    - role: Asistente Comercial
+      time: 2016-2019
+      company: Confecciones Top
+      # optional
+      details: |
+        • Activación y desbloqueo de Claves de Internet. *
+        • Cartolas y detalles de abonos recibidos.
+        • Transferencias electrónicas.
+        • Activaciones de Pagos Automáticos.
+        • Bloqueos y órdenes de no pago.
+        • Soporte para usuarios de Office Banking.
+        • Compra y venta de divisas. *
+        • Renovar tu Certificado Digital o Firma Electrónica Avanzada. *
+        • Información sobre productos y servicios.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Feed
+        link: "https://github.com/plopez1985/instagram-feed"
+        tagline: "This was my first responsive Bootstrap project."
+
+      - title: Excuse Generator
+        link: "https://github.com/plopez1985/excuse-generator"
+        tagline: "My first excercise using events and js."
+
+      - title: Domain generator
+        link: "https://github.com/plopez1985/domain"
+        tagline: "Domain generator, playing with JavaScript.   --"
+
+
+  
