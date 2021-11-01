@@ -1,0 +1,66 @@
+template: "online-cv"
+
+
+#Personal info
+
+basic-info:
+#full-name
+fisrt-name: James
+Last-name: NORE
+
+#education
+
+Academy: 4Geeks Academy
+option: Web Programation
+
+experiences: Data entry at Cherlo Travel Agency.
+
+
+projects: Develope an app with web page for gaming.
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Javascript
+        level: 50%
+
+      - name: Reactjs
+        level: 50%
+
+# Interests or hobies
+    interests:
+      - item: Listen to music
+      - item: Self Learning
+      - item: Travel around World
+      - item: Gaming
+
+# languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Haitian Creole
+        level: Native
+
+      - idiom: French
+        level: C2
+
+      - idiom: English
+        level: intermediate
+      
+      - idiom: Spanish
+        level: intermediate
+
+
+#
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/Jamesjy9
+    github: Jamesjy9
+
+
+
+# Contact Information
+    email: jamesnore1989@gmail.com 
+    phone:  #optional
+
+
