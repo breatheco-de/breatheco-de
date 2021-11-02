@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jhon
+    last_name: Tellez
+    
+    # Define yourself in 4-5 words
+    motto: Responsable y siempre dispuesto a aprender.
+    
+    # focus
+    focus: Enfocado en aprender nuevas tecnologías.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Ingeniero en Sistemas, 2 años de experiencia con proyectos relacionados con el área de Oil and Gas, donde realice tareas en diseño de bases de datos, análisis de datos y programación.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: #optional
+    phone:
+    website:
+    linkedin:
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JhonT01
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: 50%
+
+    # Interests or hobies
+    interests:
+      - item: Desarrollo y diseño Web. 
+
+      - item: Analisis de datos.
+
+      - item: Computer Science.
+
+      - item: Videojuegos.
+
+      - item: Cine.
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer - Actually.
+      university: 4Geeks Academy.
+      # optional
+      university_logo: 
+      time: 2021
+      details: |
+        Actualmente estudiando en la academia para convertirme en un Desarrollador Web Full-Stack.
+
+    - degree: Ingeniero de sistemas.
+      university: Universidad Industrial de Santander.
+      # optional
+      university_logo: 
+      time: 2019
+      details: |
+        Ingeniero de sistemas. 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Soporte Técnico Especializado.
+      time: 2019 - 2021
+      company: TIP Colombia
+      # optional
+      company_logo:
+      details: |
+        Soporte técnico especualizado en tareas relacionadas al area de ingenieria de sistemas.
+
+    - role: Auxiliar administrativo.
+      time: 2018 - 2019
+      company: Universidad Industrial de Santander.
+      # optional
+      company_logo:
+      details: |
+        Auxiliar y apoyo administrativo en la viserrectoria de investigación y extensión de la Universidad industrial de Santander.
+
+# Your project portfolio
+projects:
+    intro: >
+      Repositorio de trabajos en:
+      https://github.com/JhonT01
+
+skills:
+    toolset:
+      - name: SQLServer
+        level: 40%
+
+      - name: Javascript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 50%
+      
+      - name: Python
+        level: 50%
+      
+      - name: Git
+        level: 40%
+      
+      - name: MySql
+        level: 50%
