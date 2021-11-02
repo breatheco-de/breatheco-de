@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "gray"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesús
+    last_name: León
+    
+    # Define yourself in 4-5 words
+    motto: I don't know anything
+    
+    # focus
+    focus: Learning something
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm an accountant, I specialize in tax compliance. I aim to learn about programming in order to 
+      develop ways which agilize the way I do my job.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.motorevistacr.com/wp-content/uploads/2020/07/YAMAHA-XT250-2021-1140x641.jpg
+
+    # Contact Information
+    email: placeholder@email.com #optional
+    phone: 6666 6666 #optional
+    website: placeholder.com #optional
+    linkedin: www.linkedin.com/in/jesus-leon-abb044b8 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: leonjesusC
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Learning
+
+      - item: Video Games
+
+      - item: Motorcycles
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Licenciatura en Contaduría Pública
+      university: Universidad Latinoamericana de Ciencia y Tecnología (ULACIT)
+      # optional
+      university_logo: https://biblioteca.aurens.com/universidades/colleges/logos/6.png
+      time: 2014 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Tax Compliance Senior
+      time: 2021 - Present
+      company: KPMG Costa Rica
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/9/9d/KPMG_logo.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Something interesting."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 5%
+      - name: CSS
+        level: 5%
+      - name: Bootstrap
+        level: 2%
+
