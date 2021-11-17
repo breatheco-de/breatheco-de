@@ -1,0 +1,16 @@
+basic_info: 
+  avatar: img.png
+  email: skylerrobinson145@gmail.com
+  languages: 
+    - 
+      idiom: English
+      level: Native
+
+  linkedin: skyler-robinson-691853224/
+  name: "Skyler Robinson"
+  phone: (661)340-7900
+  github: skylerr1996
+  tagline: "Full Stack Developer"
+  website: mywebsite.com
+skin: berry  
+template: online-cv
