@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rafael
+    last_name: Benejam Florit
+
+    # Define yourself in 4-5 words
+    motto: I like challenges and be a developer is a challenge for life, I don't like the routine, I love travel and I like to have yime for myself.
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: felbf92@gmail.com #optional
+    phone: 648749638
+    website: 
+    linkedin:  #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Felbf
+
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Scuba Diving
+
+      - item: Surfing and Climbing
+
+      - item: Martial Arts
+
+      - item: Read books
+
+      - item: Cooking
+# Your previous education
+education:
+    - degree: degree in Criminology
+      time: 2014-2018
+      university: Universidad de Barcelona
+      # optional
+      university_logo: 
+      details: |
+        
+   
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Waiter
+      time: 2010 - 2018 (summers)
+      company: Bar Triton, Menorca
+      # optional
+      company_logo: 
+      details: |
+        I start to work like waiter in summers to help me to pay my studies.
+    - role: Delivery man
+      time: 2018- 2015
+      company: Pastenes S.A, Chile
+      # optional
+      company_logo:
+      details: |
+        I was in charge of designing routes for the distribution of 
+        alcoholic and no alcoholic drinks for Concha y Toro S.A.
+        I also was in charge of the control and inspection of delivery 
+        and bill for Concha y Toro's order audit.
+        Finally I had to make sure that the relation with the final
+        client had the experience and quoality that Concha y Toro
+        expect for his costumers.
+# Your project portfolio
+projects:
+
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 80%
+
+      - name: Python
+        level: 80%
+
+      - name: Bootstrap
+        level: 80% 
