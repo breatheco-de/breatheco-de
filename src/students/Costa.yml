@@ -1,0 +1,96 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    first_name: Maise
+    last_name: Costa
+    motto: Full-stack Developer
+    avatar: 
+    summary: I am currently enrolled in this program to learn about programming, as I am a complete beginner. I am working towards successfully finishing this program and learning new things, slowly and steady
+      
+
+    email: 
+    phone: 
+    website: 
+    linkedin: 
+    github: 
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+        
+
+    interests:
+      - item: Coding
+
+      - item: Light gaming
+
+      - item: 2000's music
+education:
+    - degree: Linguistics and Translation
+      university: Ul
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing html, javascript, and CSS! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: 
+        link: 
+        tagline:  
+
+      - title: 
+        link: 
+        tagline:
+        
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+             
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link:
+        tagline: 
+      - title: Instagram Bootstrap
+        link: 
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: 
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 50%
+      - name: github
+        level: 70%
+      - name: gitPod
+        level: 80%
