@@ -1,0 +1,22 @@
+template: "online-cv"
+skin: "white"
+
+basic_info:
+  # Profile information
+  first_name: Vitor
+  last_name: Tamberlini
+  motto: Full Stack Developer
+  avatar: https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-1024.png
+  summary: |
+    Summarise your career: I have been in sales in some way for all of my career.
+    tech, is very new to me, some could say its like learning Russian. My coding skills 
+    are improving, learning the Hypertext and Style sheets. some bumbs along the way with JS,
+    but confident ill succeed.
+    Second paragraph if required.
+  # Sidebar links
+  email: vitor.tamberlini@outlook.com
+  phone: 930 579 252
+  linkedin: www.linkedin.com/in/vitor-tamberlini
+  github: vitortamberlini
+  twitter: vitortamberlini
+  stack-overflow: https://stackoverflow.com/users/10398023/vitor-tamberlini
