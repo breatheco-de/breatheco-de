@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marina
+    last_name: Rojo
+    
+    # Define yourself in 4-5 words
+    motto: Tech enthusiast looking for new challenges
+    
+    # focus
+    focus: Becoming a programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: marinarojo.cc@gmail.com #optional
+    phone: 696 738 036 #optional
+    linkedin: https://www.linkedin.com/in/marina-rojo-urquiola-01233887/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MarinaRojo
+    
+    twitter: RedCodeGames #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Fluent
+
+    # Interests or hobies
+    interests:
+      - item: Board Games
+
+      - item: Video Games
+
+      - item: Movies
+
+      - item: Tech
+
+# Your previous education
+education:
+
+    - degree: Full stack web development 
+      university: 4 Geeks Academy 
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Present
+
+    - degree: Grado Multimedia
+      university: UOC 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - Present
+     
+    - degree: Dirección Cinematográfica
+      university: CECC (Centre d'Estudis Cinematografics de Catalunya)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: COO
+      time: Present
+      company: LVP (Mediapro)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Directora de operaciones en la Liga de Videojuegos Profesional. 
+
+    - role: Productora
+      time: 2016 - Actualidad
+      company: LVP (Mediapro)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Productora de eventos y proyectos audiovisuales en el ámbito de los esports. 
+
+    - role: Coordinadora técnica 
+      time: 2007 - 2019
+      company: Festival Internacional de Cine de San Sebastián
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
+    - role: Coordinadora técnica 
+      time: 2007 - 2019
+      company: Festival Europeo de Cine de Sevilla
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+     
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 
+      
+      - name: Javascript 
+        level: 
+
+      - name: Python 
+        level: 
+
+      - name: NodeJs
+        level:
+
+      - name: React
+        level: 
+        
+      - name: Vue
+        level: 
+
+      
+
+      
