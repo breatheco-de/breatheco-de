@@ -10,7 +10,7 @@ basic_info:
 
     # Your full name
     first_name: Orlando
-    last_name: Monroy
+    last_name: Monrroy
 
     # Define yourself in 4-5 words
     motto: Doy el 100 en todo lo que hago.
@@ -87,7 +87,7 @@ experiences:
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
-          - Bullet point
+          - Experiencia adicional
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
