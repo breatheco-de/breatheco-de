@@ -1,0 +1,66 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+    # Profile information
+    first_name: Maximiliano 
+    last_name: Eekhout
+    motto: Be happy :smile:
+    summary: I believe that I can function under pressure. I adapt easily to teamwork, with initiative and motivated to find the most efficient solution.
+        
+    # Sidebar links
+    email: maxeekhout93@gmail.com
+    phone: +58 4142288339
+    website:  in process... #do not add http://
+    linkedin: 
+    github: maxeekhout33
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    interests:
+      - item: Coding
+      - item: 
+      - item: 
+
+education:
+    - degree: Electronic Engineer
+      university: Universidad Simon Bolivar
+      time: 2010-2021
+
+
+experiences:
+    - role: 
+      time: 
+      company: 
+      details: 
+        
+
+projects:
+    intro: 
+
+
+skills:
+    toolset:
+      - name: PHP
+        level: 
+
+      - name: DBA, MYSQL, SQL
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
+      
+      - name: Bootstrap
+        level: 
+
+      - name: React 2 
+        level: 
