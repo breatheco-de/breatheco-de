@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Orianna
+    last_name: Suarez
+    
+    # Define yourself in 4-5 words
+    motto: patience
+    
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´ve been working in customer service for the past 14 years, so now I want to make technology my passion. I like much to learn new things about the world of technology.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: orianasuarezprensa@gmail.com
+    phone:  622942180 #optional
+    website: #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: missnutty
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Technological change
+
+      - item: Action movies
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: 
+      
+      company_logo: 
+      details: |
+        
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: "
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 
+
+      - name: Javascript & jQuery
+        level: 
+
+      - name: Angular
+        level: 
+
+      - name: HTML5 & CSS
+        level:
+
+      - name: Ruby on Rails
+        level: 
+
+      - name: Sketch & Photoshop
+        level: 
