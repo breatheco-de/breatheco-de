@@ -1,0 +1,88 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Oscar
+    last_name: Mouras
+    motto: Full Stack Developer
+    avatar: https://avatars.githubusercontent.com/u/90273339?s=400&u=db2cb16525a5708d2c0e6e1599f2a77fc38f6267&v=4
+    summary: Hola soy Oscar Mouras, lo que mas me motiva es aprender y vivir de nuevas experiencias por lo tanto siempre aplico la resiliencia para asi siempre encontrar la solucion a mis problemas tanto en la vida como en la programacion
+
+    # Sidebar links
+    email: oscar.mourasp@gmail.com
+    phone: 56974095167
+    linkedin: https://www.linkedin.com/in/oscar-mouras-pardo-213511195/
+    github: https://github.com/oscarmouras28
+    stack-overflow: 17331289/oscar-mouras
+
+    languages:
+      - idiom: English
+        level: advanced
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Manga/Anime
+
+      - item: Programar de forma recreativa
+
+      - item: Deportes
+
+      - item: Naturaleza
+
+education:
+
+    - degree: Desarrollador Web Full Stack
+      university: 4GEEKS ACADEMY
+      time: 2019 - 2021
+      details: 4GEEKS ACADEMY es un curso intensivo de programacion web full stack asi aprendiendo front-end, back-end y muy importante control de versiones.
+
+
+    - degree: Analista Programador Computacional
+      university: DuocUC
+      time: 2020-2022
+      details: Una carrera que me preparo en varios ambitos sobre la programacion, como son el programar paginas web y conectarlas con bases de datos, crear aplicaciones conectadas a un servidor, y manejo de datos con sqlDeveloper
+
+
+experiences:
+    - role: Chef
+      time: 2016 - Present
+      company: Ma'Re'Os
+      details: En este trabajo Defini mis habilidades blandas y madurez laboral lo cual ha hecho desempeñarme de mucho mejor forma. Trabajo en cocina o cajero
+
+projects:
+    intro: 
+
+    assignments:
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 15%
+
+      - name: Angular
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 50%
+
+      - name: Avaya Configuration, Instalation ands Suport
+        level: 0%
+
+      - name: Microsoft Office
+        level: 60%      
+
+      - name: Networking
+        level: 50%   
