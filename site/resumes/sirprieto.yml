@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Abraham
+    last_name: Prieto
+    
+    # Define yourself in 4-5 words
+    motto: Curious, observant, contributing, ambitious. 
+    
+    # focus
+    focus: Leanr and apply
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      On a daily basis many people and companies have problems with their computers, printers, networks and often lack of knowledge in certain technological tools that they encounter in their work, I take care of being the one who solves the problems and gives them advice. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: hi@abrahamprieto.com #optional
+    phone: 001 #optional
+    website: www.abrahamprieto.com
+    linkedin: https://www.linkedin.com/in/abrahamprieto #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sirprieto
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Ingles
+        level: Medium
+
+      
+
+    # Interests or hobies
+    interests:
+      - item: Movies
+
+      - item: Read
+
+      - item: Learn every tool that I can
+
+# Your previous education
+education:
+    - degree: Associate
+      university: IUFRONT
+      time: 2010
+experiences:
+    - role: IT Support
+      time: 6 years
+      company: ARTECA
+      details: Provide companies with technical support, equipment and network management, installation, configuration and training in business management tools. 
+    - role: SysAdmin
+      time: 5 Years
+      company: Representaciones DAYCA
+      details: Support internal company users in the use of computers, printers and technological services, administrator of the company's management program, decision maker in the systems department. 
+          
+skills:
+    toolset:
+      - name: ActiVe Directory
+        level: Advance
+
+      - name: Servers Administrator 
+        level: Advance
+
+      - name: PowerShell
+        level: Padawan
+
