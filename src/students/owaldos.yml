@@ -36,7 +36,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: owaldos
     
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -69,8 +69,7 @@ education:
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+        
 
     - degree: 
       university: 
@@ -84,37 +83,39 @@ education:
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Teacher
-      time: 2009 - 2012
-      company: Ministerio del Poder Popular para la Educación, Estado Sucre
-      # optional
-      company_logo:
-      details: |
-       I worked as a classroom teacher at the Bolivarian School
+  - role: Teacher
+    time: 2009 - 2012
+    company: Ministerio del Poder Popular para la Educación, Estado Sucre
+    # optional  
+    company_logo:
+    details: |
+      I worked as a classroom teacher at the Bolivarian School
       Buenos Aires, Yaguaraparo Edo Sucre.
+    
+
           
-    - role: Administrative coordinator
-      time: 2012 - 2013
-     company: Ministerio del Poder Popular para la Educación, Estado Sucre
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: I worked as coordinator of the Escuela Bolivariana Buenos
-              Aires. Yaguaraparo, Edo Sucre during a school year
+  - role: Administrative coordinator
+    time: 2012 - 2013
+    company: Ministerio del Poder Popular para la Educación, Estado Sucre
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      I worked as coordinator of the Escuela Bolivariana Buenos
+      Aires. Yaguaraparo, Edo Sucre during a school year
        
 
-    - role: Supervisor of Bolivarian Schools
-      time: 2013 - 2016
-      company: Ministerio del Poder Popular para la Educación, Estado Sucre
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        work as supervisor of Bolivarian schools
-        of the municipality Cajigal, Edo Sucre
+  - role: Supervisor of Bolivarian Schools
+    time: 2013 - 2016
+    company: Ministerio del Poder Popular para la Educación, Estado Sucre
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      work as supervisor of Bolivarian schools
+      of the municipality Cajigal, Edo Sucre
 # Your project portfolio
 projects:
     intro: >
@@ -172,3 +173,7 @@ skills:
 
       - name: Material ui
         level: 60%
+
+
+
+        
