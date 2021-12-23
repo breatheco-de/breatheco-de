@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Oswaldo
+    last_name: Salas
+    
+    # Define yourself in 4-5 words
+    motto: if I imagine it, I can do it
+    
+    # focus
+    focus: developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am an integral teacher, I want to solve difficult problems, I love programming in javaScript.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/oswaldo.jpg
+    
+
+    # Contact Information
+    email: salasoswaldoa@gmail.com #optional
+    phone: +584127618411 #optional
+    website: optional.com #optional
+    linkedin: oswaldosalasr #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Technological change
+
+      - item: carpentry
+
+# Your previous education
+education:
+    - degree: Degree in education
+      university: U.B.V
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2004 - 2009
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Teacher
+      time: 2009 - 2012
+      company: Ministerio del Poder Popular para la Educación, Estado Sucre
+      # optional
+      company_logo:
+      details: |
+       I worked as a classroom teacher at the Bolivarian School
+      Buenos Aires, Yaguaraparo Edo Sucre.
+          
+    - role: Administrative coordinator
+      time: 2012 - 2013
+     company: Ministerio del Poder Popular para la Educación, Estado Sucre
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: I worked as coordinator of the Escuela Bolivariana Buenos
+              Aires. Yaguaraparo, Edo Sucre during a school year
+       
+
+    - role: Supervisor of Bolivarian Schools
+      time: 2013 - 2016
+      company: Ministerio del Poder Popular para la Educación, Estado Sucre
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        work as supervisor of Bolivarian schools
+        of the municipality Cajigal, Edo Sucre
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & flask
+        level: 60%
+
+      - name: Javascript 
+        level: 90%
+
+      - name: React
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: Material ui
+        level: 60%
