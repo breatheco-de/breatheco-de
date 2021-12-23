@@ -1,0 +1,43 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Ana
+    last_name: Recio
+
+contact_information:
+    email: anarecio.89@gmail.com
+    phone: +506 8327-9029
+    website: 
+    linkedin: https://www.linkedin.com/in/ana-recio-057a1015/
+
+education: 
+ Bachelor degree in International Business (ULACIT)
+ Front End Development Program (CENFOTEC)
+
+experiences: |
+  I've been working in finance for the last 7 years, now I’m looking for a career change to a technology area.
+
+projects: 
+
+skills: 
+toolset:
+      - name: Javascript 
+        level: 40%
+
+      - name: HTML5 & CSS (Bootstrap)
+        level: 60%
+
+
+languages:
+
+      - language: Spanish
+        level: Native
+
+      - language: English
+        level: 	Proficient
+
+      - language: French
+        level: 	Proficient.
+
+    

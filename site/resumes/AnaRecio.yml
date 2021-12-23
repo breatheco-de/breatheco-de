@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Ana
+  last_name: Recio
+  motto: Hardest worker in the room.
+  avatar: 
+  summary: |
+    I've been working in finance for the last 7 years, now I’m looking for a career change to a technology area.
+  # Sidebar links
+  email: anarecio.89@gmail.com
+  phone: +50683279029
+  linkedin: https://www.linkedin.com/in/ana-recio-057a1015/
+  github: AnaRecio
+
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Advanced
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+    - item: Gym and sports
+
+education:
+  - degree: Bachelor CS engineer
+    university: ULACIT
+    time: 2017-2020
+    details: |
+      Backend development and database design.
+      - Java
+      - C#
+      - Python
+      - Node
+experiences:
+  - role: QA Automation Engineer
+    time: 03/2016 - 02/2019
+    company: EX2 Outcoding
+    details: |
+      Leading an automation team to accomplish the goals for a sprint and doing research about new technologies and implementations in the automation team.
+      Developing automated test cases using Selenium and Appium for web app and mobile app in java for an ecomerce website following the steps of test written by qa manual testers.
+      API automation development in java for a REST API service which was used by more than 1000 users.
+  
+  - role: QA Automation Engineer
+    time: 03/2019 - 02/2021
+    company: Gorilla Logic
+    details: |
+      Developing automated test cases in java for microservices backend functionality which was using kafka as its primary core logic
+      Web UI automated development for a react website using Java and Ruby.
+      Automated Performance test development with Jmeter.
+      Postman automation development for a GraphQlAPI.
+  
+  - role: Software Engineer
+    time: 03/2021 - Present
+    company: Microsoft
+    details: |
+      Development of code samples for AI, SDK, and API technologies.
+      Creation of a new infraestructure and development to process MD files and convert them into HTML for the Microsoft docs website.
+      Code reviews for content and software development.
+projects:
+  intro: >
+    Web Automation framework using Selenium
+    Mobile Automation framework using selenium and Appium.
+skills:
+  toolset:
+    - name: Java
+      level: 95%
+
+    - name: C#
+      level: 95%
+
+    - name: Kotlin
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 10%
+
+    - name: Python
+      level: 75%
+
+    - name: REST API
+      level: 80%
+
+    - name: GraphQl API
+      level: 75%
+
+    - name: Selenium
+      level: 95%
+
+    - name: Appium
+      level: 65%
