@@ -1,0 +1,31 @@
+template: "online-cv"
+skin: "grey"
+
+basic_info:
+
+    # Profile information
+    first_name: José Manuel
+    last_name: Vera
+    motto: 
+    summary: |
+      Developer with skills related with Data, Optimization and Machine Learning.
+    # Sidebar links
+    website: jomavera.github.io
+    linkedin: José Manuel Vera
+    github: jomavera
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advance
+
+    interests:
+      - item: Rock climbing
+
+
+skills:
+    toolset:
+      - name: Python
+        level: Advance
