@@ -1,0 +1,170 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Wilker
+    last_name: Blanco
+    
+    # Define yourself in 4-5 words
+    motto: I am in constant personal and professional growth.
+    
+    # focus
+    focus: Full Stack Developer/Mechanical Engineer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a mechanical engineer interested in programming and I am studying to be a Full Stack Python developer.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: wilkerblanco18@gmail.com #optional
+    phone: +584129092116 #optional
+    website: github.com/WilkerB-12 #optional
+    #linkedin: oscars97 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: WilkerB-12
+    
+    twitter: #'nicesocksbb' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Sports Data
+
+      - item: Artificial Intelligence
+
+      - item: Automation
+
+      - item: Football
+
+      - item: Climmbing
+
+# Your previous education
+education:
+    - degree: Python Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Mechanical Engineer
+      university: Central University of Venezuela
+      # optional
+      university_logo: https://lh3.googleusercontent.com/proxy/-vOs7eFrFzsZLERl904TxArWYiLzByXT3EokB57CIuLNi1SHGN1mIuziAFlUrpKsxAV9x0aeBhz3xHYqrGwoOOPt8MA3viU_W68o1tWUNQcS-5_ZeozdBg
+      time: 2012 - 2018 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Project Engineer
+      time: 2018 - 2022
+      company: Tecnoconsult S.A
+      # optional
+      company_logo: https://static.wixstatic.com/media/1643f3_35a2e70ef5314ecbaa8b9676fb96c309~mv2.jpg/v1/fill/w_560,h_196,al_c,q_80,usm_0.66_1.00_0.01/TC%2520LOGO%2520NUEVO%2520JUN%25202013_edited_jp.webp
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your project portfolio
+projects:
+    intro: >
+      My portfolio is based on projects developed for the 4Geeks Full Stack developer program.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 60%
+
+      - name: CSS
+        level: 60%
+
+      - name: BOOTSTRAP
+        level: 60%
+
+      - name: JAVASCRIPT
+        level: 30%
+
+      - name: PYTHON
+        level: 10%
+
+      - name: GIT
+        level: 50%
