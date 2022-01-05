@@ -1,0 +1,61 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Josh
+  last_name: Buckman
+  motto: "The most important step a man can take. It's not the first one, is it? It's the next one. Always the next step."
+  avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/146208674_5312318962126639_6244084036489217581_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=yYgSvGPQuMEAX9v0XDc&_nc_ht=scontent-mia3-1.xx&oh=f43baf832867826f68841138ca6fefba&oe=60926C7B
+  summary: |
+    Having a background in law enforcement, high volume medical tech, project management, and process development, I've been armed with a wide array of skills and knowledge that will propel me further into the coding field.
+
+  # Sidebar links
+  email: Buckman.joshua@gmail.com
+  phone: (828) 450-0885
+  #website: 
+  linkedin: https://www.linkedin.com/in/joshua-buckman-61335821b/
+  github: Jarraxus
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+
+    - idiom: English
+      level: Native
+
+  interests:
+    - item: Gaming
+
+    - item: Reading
+
+    - item: Learning
+
+    - item: Cutting/Bleeding Edge tech
+
+    - item: 
+
+education:
+  - degree: Full Stack Developer (Student)
+    university: 4 Geeks Academy
+    time: 2021 - 2022
+
+experiences:
+  - role: Site Lead/Project Manager
+    time: 09/2019 - 09/2021
+    company: 3-D Technology Group
+    details: |
+      Cooperated with both internal and external personnel to achieve both client and company goals for productivity, quality, and customer service. Primary duties included discovery, deployment, and troubleshooting of devices. Additional experience working with go-live crews, network crews, and staff augmentation at emergency requests from clients. Served as Site Lead for several large, long termd eployment contracts since June of 2020. Transferred mid 2021 to Managed Services where I worked with data quality, client site mapping, and deliverables to clients.
+# projects:
+#   intro: >
+    
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 50%
+
+    - name: HTML5 & CSS
+      level: 90%
