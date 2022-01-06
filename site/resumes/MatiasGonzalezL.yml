@@ -1,0 +1,65 @@
+template: online-cv
+skin: green
+
+basic_info:
+        first_name: Matías
+        last_name:  González
+        motto: Creative, Hard-working, Tenacious, Patient
+        github: MatiasGonzalezL
+
+        summary: |
+            Teacher and Content Specialist with more 5 years of experience.
+          
+        languages:
+        - idiom: Spanish
+          level: Native
+
+        - idiom: English
+          level: Advanced
+
+        - idiom: Portuguese
+          level: Advanced
+
+        interests:
+          - item: Videogames
+          - item: Writing
+          - item: Reading
+
+education: 
+    - degree: MA in Education
+      university: Universidad Andrés Bello
+      time: 2019 - 2021 
+
+    - degree: Language teacher (English)
+      university: Universidad Andrés Bello
+      time: 2016 - 2016
+    
+    - degree: Bachelor of Arts in Translation
+      university: Universidad de Santiago de Chile
+      time: 2009 - 2013
+
+work experience:
+    - role: Content Specialist
+      time: 2020 - Present
+      company: Nivelat
+      details: |
+        - Create e-learning courses to virtual platforms.
+        - Summarize educational information on e-learning platforms.
+      
+    - role: Language teacher (English)
+      time: 2017 - 2019
+      company: Instituto de Educación Rural (IER)
+      details: |
+        - Annual and monthly planning for teaching.
+        - English classes to students from 14 to 17.
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Python & Django
+        level: 0%
