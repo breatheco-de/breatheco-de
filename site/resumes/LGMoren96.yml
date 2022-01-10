@@ -1,0 +1,188 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Guillermo
+    last_name: Moreno Lombardo
+    
+    # Define yourself in 4-5 words
+    motto: Diligent / Loyal / Reliable / Competitive
+    
+    # focus
+    focus: Building a long-term career as a software developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Since I graduated from university, my career as a production engineer has focused on manufacturing processes, working in the most important mass consumption company in Venezuela and in a bakery with a large presence in the country. I have worked as a freelancer doing copywriting and ghostwriting in both English and Spanish. In 2021, I decided to shift my career focus to coding and software development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/MNFC2xn/Foto-de-perfil-LG.jpg
+
+    # Contact Information
+    email: l.guillermo01@gmail.com #optional
+    phone: +58 4142234084 #optional
+    website:  Fiverr.com/users/lgmoreno96/ #optional
+    linkedin: https://www.linkedin.com/in/luis-guillermo-moreno-lombardo/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LGMoreno96
+    
+    twitter: 'LGMoreno96' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobies
+    interests:
+      - item: Cooking
+
+      - item: Videogames
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: BSc in Production Engineering
+      university: Universidad Metropolitana de Caracas
+      # optional
+      university_logo: https://www.unimet.edu.ve/wp-content/uploads/2017/03/Logo-unimet-1.png
+      time: 2014 - 2019
+      details: |
+        I learned about the organization, planning, continuous improvement and control of the production processes of goods and services, applying management knowledge in the optimization of material, human and technological resources.
+
+          - Academic Excellence Scholarship.
+          - Teaching assistant for the mathematics and mechanics department.
+
+    - degree: HSDG
+      university: Colegio San Ignacio de Loyola
+      # optional
+      university_logo: https://www.colegiosanignacio.com.ve/portal/csi/images/colegio/imaglogo/LOGO%20OFICIAL%20CSI.png
+      time: 2002 - 2014
+      details: |
+        
+          - Member of the soccer team.
+          - Coach for children's and women's soccer teams.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Production Manager
+      time: 2021 
+      company: Panificadora Costa Dorada, Caracas
+      # optional
+      company_logo: https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/160198868_184558580137478_1168390066553505365_n.png?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Z299zZAnrRYAX8-peBa&_nc_ht=scontent-mia3-1.xx&oh=00_AT8_ZL6_A2mRKOZoO5kV9cDDisrJ1IcDnwgTRcdUSZA0dg&oe=62032534
+      details: |
+        
+          - Plan, coordinate, develop and monitor the productive management of the bakery for the development of traditional breads, donuts and the like according to a product development plan, positioning itself in the market through direct sales and production quality.
+          - Develop registration, monitoring and control system that allow keeping updated data to analyze processes, improve processes and ensure product quality.
+          - Coordinate with the internal areas, suppliers and the purchasing department to always have the necessary supplies.
+
+    - role: Freelance - Content Creator
+      time: 2017 - 2021
+      company: Fiverr
+      # optional
+      company_logo: https://1000marcas.net/wp-content/uploads/2020/10/Fiverr-Logo.png
+      details: |
+        Bilingual Copywriting, ghostwriting and SEO writing (English
+        and Spanish) for customers from more than 20 countries with
+        more than 150 5-star reviews
+
+          - Platform: Fiverr.com/users/lgmoreno96/
+          
+
+    - role: Production Intern
+      time: 2019 - 2020
+      company: Pepsi Cola-Venezuela, C.A. (Empresas Polar) - Concentrate Plant, Caracas
+      # optional
+      company_logo: https://static.wikia.nocookie.net/logopedia/images/d/d4/EmpresasPolar2010.png/revision/latest/scale-to-width-down/300?cb=20200403161102&path-prefix=es
+      details: |
+
+          - Monitoring and calculation of the filling process and expected 
+            reduction in the production of concentrate for Golden 
+            carbonated beverages. With the determination of filler times, 
+            the scrap rate was reduced by 80%, improving compliance 
+            with the production plan.
+          - Development of a macro in VBA for the automatic creation of 
+            training certificates for technicians and operators, achieving 
+            a 95% reduction of the time previously used for this activity.
+          - Reviewing and updating of fifty-nine work manuals for 
+            training technicians and operators in their jobs and their
+            subsequent performance assessment.
+          - Updating cleaning manuals for areas and machines used in 
+            production, optimizing cleaning time by 30% and improving 
+            the results of that process.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Excel & VBA
+        level: 75%
