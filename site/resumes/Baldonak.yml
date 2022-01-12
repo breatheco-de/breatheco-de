@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Víctor
+    last_name: Maynou Gómez
+    
+    # Define yourself in 4-5 words
+    motto: Progress not perfection
+    
+    # focus
+    focus: Full Stack Developer continuous improvement
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Friendly, passionate about technology, responsible, and persevering.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/D4D35AQEXAPoO-B2sGg/profile-framedphoto-shrink_400_400/0/1627574996489?e=1642086000&v=beta&t=IXUxaFh3KyCcq2RsJKuz5VFNsGn7PwElrYjTn30Jd1g
+
+    # Contact Information
+    email: victormaynougomez@gmail.com #optional
+    phone: (+34) 605610900 #optional
+    website:   #optional
+    linkedin: www.linkedin.com/in/victor-maynou #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Baldonak
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+        level: Level 2+ intermediate
+
+      - idiom: English
+        level: Level 1+ intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Photography
+
+      - item: Animals and plants 
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Architect
+      university: University Tecnologica Metropolitana (UTEM)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2005 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Functional analyst (Internship)
+      time: 2021 - 2021
+      company: Freelancer
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+skills:
+    toolset:
+      - name: HTML
+        level: -%
+
+      - name: CSS
+        level: -%
+
+      - name: BOOTSTRAP
+        level: -%
+
+      - name: JAVASCRIPT
+        level: -%
+
+      - name: PYTHON
+        level: -%
+
+      - name: GIT
+        level: -%
+
+    software:
+
+      - name: Photoshop
+        level: 60%
+
+      - name: Revit
+        level: 90%
+
+      - name: AutoCad
+        level: 30%
+
+      - name: Ender 3 Creality + Cura
+        level: 70%
+
+    soft skills and knowledge: Customer management, design thinking, planning, coordination, yoga and care of mixis and plants. 
