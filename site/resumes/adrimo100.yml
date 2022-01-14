@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Adrián
+    last_name: Molina
+    motto: Estudiante de 4Geeks Academy
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary: |
+        Siempre me ha gustado la tecnología, en especial el mundo del software. Es por ello que he estudiado la tecnología de telecomunicaciones y ahora me estoy especializando
+        en el desarrollo Full-Stack.
+
+        También me gusta la música, en especial las bandas sonoras de películas y videojuegos
+
+    # Sidebar links
+    email: adrimo100@gmail.com
+    phone: 
+    website:  #do not add http://
+    linkedin: Adrián Molina
+    github: adrimo100
+    twitter: '@alesanchezr'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Música
+      - item: Videojuegos
+      - item: Blockchain
+
+education:
+    - degree: Ingeniería en telecomunicaciones con mención en telemática
+      university: UOC
+      time: 2018-2022
+
+    
+
+experiences:
+    
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: Five More Minutes
+        link: "#hook"
+        tagline: "Videojuego de corta duración presentado a una game-jam"
+
+      
+
+skills:
+    toolset:
+      - name: Java
+        level: 90%
+
+      - name: SQL
+        level: 70%
+
+      - name: C#
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: C
+        level: 75%
+
