@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Jorge Luis 
+    last_name: Pardo Rodriguez
+    motto: Graphic & UI Designer
+    avatar: https://avatars.githubusercontent.com/u/3333220?s=96&v=4
+    summary: |
+      UI Designer and Graphic Designer graduated in 2012. During my first years as a professional, I worked as a Creative Designer for a small chain of restaurants and gained a lot of experience in offline and online design.
+
+      In the last four and a half years I've been working as UI Lead in Gato Salvaje Studio, an indie videogame company located in a Coruña, Spain. We are currently developing The Waylanders, a RPG game inspired by the Celt mythology of the north of Spain.
+
+    # Sidebar links
+    email: iamjorgepardo@gmail.com
+    phone: 555 555 5555
+    website: 
+    linkedin: jorgeluispardo
+    github: jorgepardor
+    twitter: '@jorgepardor'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+      - idiom: Galician
+        level: Basic competences
+
+    interests:
+      - item: Classic video games (mostly shoot'em ups beat'em ups)
+      - item: Airplanes Ultra Geek
+      - item: Early adopter
+
+education:
+    - degree: Técnico Superior en Diseño Gráfico
+      university: CUMT
+      time: 2010 - 2012
+
+
+experiences:
+    - role: Lead UI/UX Designer
+          time: 2017-Present
+          company: Gato Studio Games
+          details: |
+            I started working at Gato Studio at the beginning of the project The Waylanders, an RPG inspired by the Dragon Age saga and set in Celtic and medieval times in which you control a party of 5 characters. The game is currently in the Early Access phase on Steam and the final launch is expected in 2021.
+
+            At Gato I have worked as the lead of the UI / UX team for the development of this project since the beginning. We are currently four people in the team, although during some phases of development we have had collaboration from the concept team.
+
+            In addition to working on UI / UX, during some phases of the project I have participated in tasks of the Script and Marketing team, where they have asked me to participate in the design of promotional art pieces for the video game, the Kickstarter campaigns of both The Waylanders board game and the video game and the design of the stands used in company presentations at fairs. I attended the 2018 and 2019 editions of Gamescom, in Cologne, where we presented the project to the public. In the 2019 edition I participated in Devcom, where we made a presentation telling about our experience designing an RPG.
+
+   
+projects:
+
+
+skills:
+    toolset:
+      - name: Adobe Illustrator
+        level: 95%
+
+      - name: Adobe Photoshop
+        level: 90%
+
+      - name: Adobe Indesign
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: UX Prototyping
+        level: 80%
