@@ -1,0 +1,92 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Jose Luis
+    last_name: Medina Tortosa
+    
+   
+    motto: Full Stack Developer
+    
+    
+
+    
+    
+   
+    summary: |
+      Después de varios años trabajando en el sector Retail decidí reinventarme profesionalmente y apuntarme a un Bootcamp en modalidad Fulltime de Desarrollador Web Full-Stak en 4Geeks Academy España ya que la programación siempre ha sido un campo que me ha llamado la atención y en donde siempre he querido trabajar.
+
+      En cuanto a mi vida laboral, puedo decir que gracias a mi carrera profesional en El Corte Inglés he adquirido en los últimos años conocimientos en la gestión de pedidos, stock y SAP Retail a nivel de tienda. 
+
+      Actualmente me encuentro estudiando HTML, CSS, Bootstrap y Javascript.
+      
+    
+ 
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQHO0Ug3U_9DTA/profile-displayphoto-shrink_200_200/0/1635857453465?e=1643241600&v=beta&t=PakGJzZ2ziptgsSrIKk4gGQDUVw64030nGX8pN4XsOo
+
+ 
+    email: josemedinatortosa@gmail.com
+    phone: 618119375
+    linkedin: https://www.linkedin.com/in/jose-luis-medina-tortosa-720aaa197/
+    
+  
+  
+    github: josemt90
+    
+   
+    languages:
+      - idiom: Inglés
+        level: Basico
+
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Catalan
+        level: Nativo
+
+ 
+    interests:
+      - item: Tecnología
+
+      - item: Viajar
+
+      - item: Cine
+
+
+education:
+    - degree: CFGS de DAM
+      university: Ilerna Online
+      time: 2018 - 2010
+    - degree: CFGS Instalacines electrotecnicas
+      university: IES Badia del Valles
+      time: 2014 - 2016
+      
+      
+experiences:
+    - role: Tecnico en lineas de SMD
+      time: 2016 - Actualidad
+      company: Elax SA
+       
+    
+          
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
