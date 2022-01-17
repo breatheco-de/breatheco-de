@@ -1,0 +1,66 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+   
+    first_name: José Jesús
+    last_name: Cedeño Sosa
+    
+   
+    motto: Full Stack Developer
+
+    summary: |
+      ME gusta viajar, conocer y disfrutar de las cosas pequeñas de la vida
+
+    email: josejesuscedeno@gmail.com
+    phone: 555 555 555
+    linkedin: linkedin.com/in/josé-cedeño-sosa-8802a7b8
+    Twitter: josejesusjj
+    stack-overflow: jbf-17782186
+    github: josejesusjj
+
+    languages:
+      - idiom: Inglés
+        level: C1
+
+      - idiom: Español
+        level: Nativo
+
+    interests:
+      - item: Tecnología
+
+      - item: Read
+
+      - item: Mountain
+
+      - item: Ecology
+
+education:
+    - degree: Full stack Development
+      university: 4Geeks Academy
+      time: 2021
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 20%
+
+      - name: CSS
+        level: 20%
+
+      - name: Bootstrap
+        level: 10%
+
+      - name: Git
+        level: 10%
+
+      - name: Github
+        level: 20%
+
+      - name: JavaScript
+        level: 10%
+
+      - name: React.js
+        level: 5%
