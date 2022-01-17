@@ -1,0 +1,70 @@
+
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+  first_name: Frank
+  last_name: Lobo
+
+  motto: Learning programing to have a different point of view to my professional and personal life
+
+  focus: trying to solve problems
+
+  summary: Graphic Designer and future fullstack developer.
+  avatar: https://i.guim.co.uk/img/media/8f02bb49224d9a94699b75213664bf898617c062/0_288_5315_3189/master/5315.jpg?width=700&quality=85&auto=format&fit=max&s=f6164807f61efb8855f49490c5f4f101
+
+
+  email: frankeloboq@gmail.com
+  phone: +69 9 8403 55 54
+  linkedin: Frank Enrique Lobo Quijada
+  github: FrankLobo
+
+  languages:
+    - idiom: Spanish
+      Nivel: Native    
+
+    - idiom: English
+      Nivel: Intermedie
+
+  interests:
+     - item : Videogames
+
+     - item : Go Karts
+     
+     - item : Pool / Bowling
+
+     - item : Paintball
+
+education:
+  - degree: business administration in design
+    university: Nueva Esparta University 
+    time: 2011-2016
+    details:
+      lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   
+
+  - degree: Fullstack Developer
+    university: 4Geeks Academy Chile
+    time: 2022-2022
+    details:
+      lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.     
+
+experiences:
+   - role: Graphic Designer
+     time: 2016-2017
+     company: LaWeb Mercadeo interactivo, Caracas-Venezuela
+
+   - role: Graphic Designer
+     time: 2019-2021
+     company: Mente Creativa, Santiago-Chile
+
+skills:
+    toolset:
+      - name: HTML5 y CSS
+        level: 70%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Illustrator & Photoshop
+        level: 80%
