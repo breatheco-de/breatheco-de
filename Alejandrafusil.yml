@@ -1,0 +1,64 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Alejandra
+  last_name: Fusil
+  motto: Futura Desarolladora Web
+  summary: tengo mucha facilidad para trabajar en equipo, amante de la tecnologia. En los ultimos meses decidi empezar a codificar y me esta gustando bastante lo que estoy haciendo, porque desafio mi mente constantemente.
+
+  # Sidebar links
+  email: alejandrafusil@gmail.com
+  phone: +56 91747022
+  website: in process... #do not add http://
+  linkedin: https://www.linkedin.com/in/alejandra-fusil-93385a225/
+  github: alejandrafusil
+
+  languages:
+    - idiom: Español
+      level: Nativo
+
+    - idiom: Ingles
+      level: B1
+
+  interests:
+    - item: programar
+    - item: bailar
+    - item: componer
+
+education:
+  - degree: Bachiller en Ciencias
+    university: Instituto "Generalisimo Francisco de Miranda"
+    time: 2012 - 2017
+
+experiences:
+  - role: Operaria de Bodega Inhouse
+    time: 2021 - Present
+    company: Inversiones Asinara SPA
+    details: Encargada de llevar la logistica, crear rutas, modificar y despachar pedidos.
+
+  - role: Asistente Administrativo
+    time: 2019 - 2020
+    company: Inversiones y Asesorias Gestion Creativa
+    details: Archivar, organizar guardar y revisar todo tipo de documentos. Procesar y registrar informacion mediante la actualizacion de base de datos o archivos informaticos.
+
+  - role: Asistente Administrativo
+    time: 2018 - 2019
+    company: 5ta Cordillera
+    details: Presentar menu, ser enlace entre la cocina y el comensal, mantener comunicacion continua con los clientes, procesar pagos y estar al dia con las politicas y procedimientos de seguridad.
+
+skills:
+  toolset:
+
+    - name: Javascript
+      level: 50%
+
+    - name: HTML5 & CSS
+      level: 80%
+
+    - name: Bootstrap
+      level: 80%
