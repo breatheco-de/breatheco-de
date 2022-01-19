@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Contreras  
+    
+    # Define yourself in 4-5 words
+    motto: La innovación es lo que distingue a un líder de los demás.
+    
+    # focus
+    focus: Developer full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    #avatar: http://sep.breatheco.de/static/profile-images/wotanCode.jpg
+
+    # Contact Information
+    email: cont.pab@gmail.com #optional
+    phone:  9 63892492 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/pablo-contreras-510711170 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/pablocontrerasc
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Code
+
+      - item: Watch movies
+
+
+# Your previous education
+education:
+    - degree: Ingeniero en Informática 
+      university: Duoc UC
+     # optional
+      university_logo: 
+      time: 2018-2021
+      details: |
+       Describe your study here 
+
+         - Bullet point 
+         - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+
+    - role: Analista Programador
+      time: Octubre 2021 - noviembre 2021
+      company: Inversiones TI SPA
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -	Desarrollo de módulos y funcionalidades para ERP contable utilizando framework Cakephp, se realizan validaciones por el lado Frontend con JavaScript. 
+
+          #- Bullet point
+          #- Bullet point
+
+    - role: Informático
+      time: Julio 2020 - marzo 2021
+      company: Brecha Digital Consultores, www.brechadigital.cl
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Desarrollo de proyectos en Angular versiones 8 y 10, con Node.js (framework Express) y base de datos en MongoDB, implementación de protocolos de Autenticación y Seguridad JWT.
+       Desarrollo de proyecto con metodología ágil Scrum de 4 meses.
+       Manejo de control de versiones en GitHub.
+       Desarrollo de funcionalidades utilizando MongoDB y Node.js (creación de APIs).
+       Creación de módulos para gestores de contenido con WordPress y manejo de base de datos MySQL.
+       Desarrollo de aplicación para Android con Unity (proyecto de 3 meses).
+
+# Your project portfolio
+#projects:
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#    assignments:
+#      - title: Velocity
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: HTML $ CSS
+        level: 90%
+
+      - name: Javascript 
+        level: 70%
+
+      - name: Angular
+        level: 50%
