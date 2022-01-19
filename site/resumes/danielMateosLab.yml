@@ -1,0 +1,24 @@
+template: "online-cv"
+skin: berry
+
+basic_info:
+  first_name: Daniel
+  last_name: Mateos Labrador
+  avatar: https://media-exp1.licdn.com/dms/image/C4D03AQGpc309NbtbbA/profile-displayphoto-shrink_800_800/0/1635148190746?e=1648080000&v=beta&t=YRDlL8W6-pqhrAPf8IuvKCTwm1ykX1mRU-luBQeNigU
+  
+  summary: I am a person with various interests such as health, environmentalism and tech.
+
+  github: DanielMateosLab
+  stack-overflow: 10872827/daniel-mateos-labrador
+
+  languages:
+  - idiom: Spanish
+    level: Native
+
+  - idiom: English
+    level: Professional
+
+education: 
+  - degree: Physiotherapy
+    university: Universidad de Salamanca
+    time: 2014 - 2018
