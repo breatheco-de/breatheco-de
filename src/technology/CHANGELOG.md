@@ -2,7 +2,7 @@
 
 
 
-## 📝 `Jan` 20/2021 (Reviews and Events)
+## 📝 `Jan 20th 2021` Reviews and Events
 
 1) :star:️ Reviews
 The “reviews” functionality on breathecode has been upgrade to keep track of the comments and rating that the student left us on the specific review platform, its really important to keep track of this as it will be used to feed the website automatically. 
