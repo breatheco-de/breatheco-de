@@ -1,0 +1,13 @@
+ #Be aware that even a small syntax error here can lead to failures in output.
+
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ronald
+    last_name: Butler
+    github: ron24g
