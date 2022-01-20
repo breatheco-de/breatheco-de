@@ -1,0 +1,13 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  # Profile Info
+  name: Wayne Bailey
+  tagline: Full Stack Developer
+  avatar: wb.png
+
+  #Sidebar Links
+  email: imwaynebailey@gmail.com
+  github: itrytocodethings
+  twitter: '@itrytocodestuff'
