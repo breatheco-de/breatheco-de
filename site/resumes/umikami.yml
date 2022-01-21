@@ -1,0 +1,77 @@
+--- 
+basic_info: 
+  avatar: "https://randomwordgenerator.com/img/picture-generator/54e0dd4a4357a514f1dc8460962e33791c3ad6e04e5074417c2d78d1914fc0_640.jpg"
+  email: "ernestox.061@gmail.com,"
+  first_name: Ernesto
+  focus: "Becoming a greater problem solver while having fun."
+  github: umikami
+  interests: 
+    - 
+      item: "Video games, retro music, learning languages"
+    - 
+      item: Web development / PWAs / IOS development 
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Fluent
+  last_name: Gonzalez
+  linkedin: "https://www.linkedin.com/in/ernesto-gonzalez-3228001b8/"
+  motto: "Plus Ultra"
+  stack-overflow: ~
+  summary: "tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam"
+  twitter: ~
+  website: "ernestoglportfolio.com"
+education: 
+  - 
+    degree: "AA Computer Science"
+    details: "Basic intro to computer science and algorithms"
+    time: "2020-2022"
+    university: "Miami Dade College"
+experiences: ~
+projects: 
+  assignments: 
+    - 
+      link: "https://umikami.github.io/IG-Feed-with-Bootstrap/"
+      tagline: "Instagram-like site with dynamic layout. Bootstrap was used to style 99% of the site."
+      title: IG Feed
+    - 
+      link: "https://umikami.github.io/IG-Post/"
+      tagline: "Instagram post replica. Uses pure html and css, as well as some javascript."
+      title: IG Post
+    - 
+      link: "https://umikami.github.io/Documentation-Page-Proj_4/"
+      tagline: "A documentation page with night mode and side nav bar."
+      title: Documentation Page
+    - 
+      link: "https://umikami.github.io/Product-Landing-Page-Proj_3/"
+      tagline: "Product landing page with a theme of eco products."
+      title: Product Landing Page
+  intro: 4Geeks and personal projects.
+skills: 
+  toolset: 
+    - 
+      level: 60%
+      name: "Python"
+    - 
+      level: 60%
+      name: "Javascript"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 92%
+      name: "HTML5, CSS, SASS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 75%
+      name: "Sketch & Photoshop"
+    -
+      level: 50%
+      name: "Java, C#, & C++"
+skin: blue
+template: online-cv
