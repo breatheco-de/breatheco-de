@@ -18,12 +18,12 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Results-oriented young man with great ease of communication which allows me to have a excellent treatment for customer service. Competent to assume responsibilities under good practice approach. Responsible for teamwork and handling information confidential. Committed, honest, proactive and leader; willing to face new challenges with the greatest dedication. In search of personal improvement and to acquire new knowledge.
+      Soy Licenciado en Idiomas Modernos egresado de la Universidad Metropolitana en Caracas Venezuela, desde el primero momento he trabajado en el sector de turismo y luego de muchos años he decidido darle un giro total a mi carrera profesional y empezar a estudiar programacion. Con este nuevo reto espero poder aprender muchas cosas nuevas y salir de mi zona de confort, empezar a trabajar en una empresa desde abajo y poco a poco ir aprendiendo y ganando mucha experiencia para, eventualmente, convertirme en un gran programador y seguir con nuevos retos.  
   
 
     # Contact Information
-    email: abrahamc.a@hotmail.com #optional
-    phone: 85102366#optional
+    email: pereiraalvaro@gmail.com #optional
+    phone: +34 364 235 789
     
     #
     # ******** IMPORTANT *******
@@ -34,35 +34,38 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Spanish
-        level: Native
+      - idioma: Español
+        nivel: Nativo
 
-      - idiom: Inglish
-        level: 85%
+      - idioma: Ingles
+        nivel: Bilingue
+
+      - idioma: Portugues
+        nivel: 85%
+
+      - idioma: Italiano
+        nivel: 45%
 
     # Interests or hobies
     interests:
-      - item: VideoGames
+      - item: Futbol, playa, festivales de musica electronica.
 
-      - item: Code
+      - item: Videojuegos, Cine/series, fotografia.
 
-      - item: Motorbikes
+      - item: Bicicleta, Viajar, perros.
 
 # Your previous education
 education:
-    - degree: Biotech
-      university: University Miguel Hernández
+    - degree: Lic. Idiomas Modernos.
+      university: Univ. Metropolitana. 
       # optional
-      university_logo: https://ceeielche.emprenemjunts.es/fotos/44938_foto1.jpg
-      time: 2010 - 2014 (without end)
+      time: 2009 - 2013
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-          - Bullet point
-          - Bullet point
     
 # Your previous job experiences or voluntier
 
@@ -73,45 +76,16 @@ projects:
     assignments:
       - title: Instagram-Bootstrap
         # optional
-        project_logo: https://github.com/abraham1798/Instagram-Bootstrap
-        link: "#hook"
+        project_logo: https://github.com/pereiraalvaro14/InstagramPhotoFeed
+        link:
         tagline: "Its a  imitation of instagram"
-
-      - title: Landing-page
-        # optional
-        project_logo: https://github.com/abraham1798/Landing-page
-        link: "#"
-        tagline: "A simple landing page using React.js components."
-
-      - title: KaChing
-        # optional
-        project_logo: https://github.com/abraham1798/Proyecto-Final-4Geeks
-        link: "#"
-        tagline: "A colaborative web app "
-
-      - title: Atom
-        # optional
-        project_logo: TicTacToec
-        link: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        tagline: "A simple videogame."
 
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 35%
 
       - name: Javascript & jQuery
-        level: 85%
-
-      - name: Angular
-        level: 15%
+        level: 45%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 0%
-
-      - name: Sketch & Photoshop
-        level: 30%
+        level: 75%
