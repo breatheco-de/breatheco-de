@@ -9,20 +9,17 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Abraham
-    last_name: Chinchilla Aguilar
+    first_name: Alvaro
+    last_name: Pereira Alves
     
     # Define yourself in 4-5 words
-    motto: I love the technology
+    motto: Me gusta el futbol y la playa.
     
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
       Results-oriented young man with great ease of communication which allows me to have a excellent treatment for customer service. Competent to assume responsibilities under good practice approach. Responsible for teamwork and handling information confidential. Committed, honest, proactive and leader; willing to face new challenges with the greatest dedication. In search of personal improvement and to acquire new knowledge.
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://www.facebook.com/photo/?fbid=3611721278907753&set=a.100575693355680
+  
 
     # Contact Information
     email: abrahamc.a@hotmail.com #optional
