@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Vanessa
+    last_name: Pinchetti
+
+    # Define yourself in 4-5 words
+    motto: Valiente, positiva y empática
+
+    # focus
+    focus: Aprender cada día cosas nuevas
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGmXk81xg15CQ/profile-displayphoto-shrink_800_800/0/1605841800295?e=1648684800&v=beta&t=V64ggyhCH-tfHQxrNwzzX_g5l39JGxAEaa3knWidiyg
+
+    # Contact Information
+    email: vanessa.pinchetti@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  https://www.linkedin.com/in/vanessa-pinchetti-inostroza-a73712160/ #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: VanessaPinchetti
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Yoga
+
+      - item: Read
+
+      - item: Pilates
+
+# Your previous education
+education:
+    - degree: Bilingual Executive Assistant (Student)
+      university: Manpower
+      # optional
+      university_logo: 
+      time: 2007 - 2009
+
+    - degree: Full Stack Web Programmer
+      university: 4Geeks Academy
+      time: 2021 - 2022
+      # optional
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Secretaria Dirección Digital
+      time: 2009 - 2019
+      company: LATAM Airlines Group S.A.
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQHIaFSp6kGegA/company-logo_200_200/0/1635768285198?e=1651104000&v=beta&t=w7Q8cWonriwEmGdqZJmiqrDDwxjyKjNkKY5jfuM9gII
+      details: |
+        Atención clientes internos y externos, manejo de agenda, 
+        reserva de viajes para funcionarios y externos (pasajes, hotel, 
+        arriendo de autos, radio taxi y activación roaming), 
+        rendiciones de viajes, coordinación y reserva de salas de reuniones, atención telefónica, 
+        recepción y despacho de correspondencia, compra de materiales de oficina, administración caja chica, 
+        coordinación y soporte de video conferencias y call conference. Solicitudes de estacionamientos, 
+        organización de desayunos y almueros. Ingreso de facturas en pesos, dólares y euros, 
+        creación de solicitudes de pedidos, OC y HES. Seguimientos de pagos a proveedores.
+        He trabajado en diferentes gerencias de la compañía como: Gerencia Servicio a Bordo, Gerencia Negocio Long Haul, Gerencia Gerenal Internacional, 
+        Gerencia LAN.com, Auditoria Interna y Dirección e-Business LATAM.
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+       
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: 
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 
+
+      - name: Javascript
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 0%
+
+      - name: Java
+        level: 0%
+
+      - name: Sony Vegas
+        level: 0%
