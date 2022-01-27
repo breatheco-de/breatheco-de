@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "Light Brown"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felipe
+    last_name: Contreras Fuller
+    
+    # Define yourself in 4-5 words
+    motto: Me considero una persona muy optimista! 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Estudie Ingeneria civil industrial en TI y he tenido dos trabajos en el area de operaciones/TI/comercial relacionadas al ecommerce.  He trabajado con empresas multinacionales y he tenido el privilegio de trabajar con softwares de primera calidad.   
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGWIPLQsUYjJg/profile-displayphoto-shrink_200_200/0/1601313611318?e=1648684800&v=beta&t=ShANuOqUt3QMGsVWD9dR6dB61FfFgAmTPYtfzZxFfZE
+    # Contact Information
+    email: pipecontreras2@gmail.com 
+    phone: (569) 8 4644530 
+    linkedin: Felipe Contreras Fuller 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Pipecontreras02
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Chinese
+        level: Intermediate
+      
+    # Interests or hobies
+    interests:
+      - item: MountainBike and Trail Running 
+
+      - item: Dogs and crossfit
+
+      - item: ecommerce
+
+# Your previous education
+education:
+    - degree: Titulo de ingeniero civil industrial TI
+      university:  Universidad Adolfo Ibañez
+      time: 2013 - 2027
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Kam ecommerce
+      time: Aug 2019 - July 2021
+      company: Ecomsur
+      details: |
+       -DLM (Database Lifecycle Management)
+       -Consultoria
+       -Planificar estrategias para diferentes marcas de ecommerce.
+
+    - role: Analista de Control Interno
+      time: March 2018 - Aug 2019
+      company: Buscalibre 
+      details: |
+        -Levantamiento de datos
+        -MySql
+        -Software Development
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 60%
+      
+      - name: Bootstrap
+        level: 60%
+
+      - name: Php
+        level: 50%
+
+      - name: MySQL
+        level: 80%
+
+      - name: PowerBI
+        level: 80%
