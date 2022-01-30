@@ -1,0 +1,83 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christian
+    last_name: Olivares
+    
+    # Define yourself in 4-5 words
+    motto: Entusiasta!
+    
+    # focus
+    focus: Motivado a aprender constantemente.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Estudiante de ciberseguridad y Diseñador de vestuario por hobby, cursos de Ethical Hacking y certifiación en auditoría.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGDTcLMJkOdPA/profile-displayphoto-shrink_400_400/0?e=1601510400&v=beta&t=lMT0n0zz0g6UV41JAZqpwE1IO4YeW8VUt7pOjDMWoy8
+
+    # Contact Information
+    email: christianolivare01@gmail.com
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/christian-olivares-15190b209/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: InTr0p
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: A1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Correr
+
+      - item: Programar
+
+      - item: Aprender
+# Your previous education
+education:
+    - degree: Educacion Media
+      university: Colegio Rafael Sanhueza Lizardi
+      time: 2006 - 2019
+
+    - degree: Diseño de Vestuario 
+      university: DUOC
+      time: 2020 - 2021
+     
+    - degree: full stack developer junior
+      university: 4Geeks Academy
+      time: 2022 - 2022
+
+    - degree: I. Ciberseguridad
+      university: USEK
+      time: 2022 - 2026 
+    
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: Diseño de vestuario y dibujo
+      time: mar 2019 - oct 2021
+      company: Particular, mini pyme.
+
+    - role: Garzon 
+      time: 2017 - 2018
+      company: Post production Chile
