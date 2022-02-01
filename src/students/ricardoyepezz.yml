@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo
+    last_name: Yepez
+    
+    # Define yourself in 4-5 words
+    motto: Give your best on every moment
+    
+    # focus
+    focus: Back-end Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      Professional passionate about the world of software development, with experience in the electronics area and teamwork skills. I am currently in constant training for the area of web development, and in search of a challenge that allows me to develop in the area of technology.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: ricardoyepezz@gmail.com #optional
+    phone:  #optional
+    website: github.com/ricardoyepezz #optional
+    linkedin: linkedin.com/in/ricardoyepez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ricardoyepezz
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Technological trends
+
+      - item: Databases
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2022
+      details: |
+        Javascript, Python, React, Flask
+
+    - degree: Degree in Mechatronics Engineering
+      university: Unexpo
+      # optional
+      university_logo: 
+      time: 2010 - 2016
+      details: |
+       
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Electronic Technician
+      time: 2017 - 2021
+      company: Komatsu
+      # optional
+      company_logo: 
+      details: |
+        - Programming in Labview for HMI of test benches.
+        - Improvements and fault detection of simulators.
+        - Functional tests and simulations of signals on electronic cards.
+        - Electronic card repair.
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 100%
+
+      - name: CSS
+        level: 80%
+
+      - name: BOOTSTRAP
+        level: 80%
+
+      - name: JAVASCRIPT
+        level: 60%
+
+      - name: PYTHON
+        level: 60%
+
+      - name: GIT
+        level: 80%
