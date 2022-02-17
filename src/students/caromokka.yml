@@ -1,0 +1,51 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+
+template: "online-cv"
+skin: "green"
+
+# Personal information
+
+basic_info:
+name: "Carolina"
+last_name: "Araya Gonzalez"
+
+# Define yourself in 4-5 words
+
+motto: 
+
+focus: Web Full Stack Developer
+
+# Sidebar link
+
+email: ci.arayagonzalez@gmail.com.
+phone: 
+linkedin: https://www.linkedin.com/in/carolina-araya-gonzalez/
+github: https://github.com/CaroMokka
+
+#language you speak, levels include
+
+languages:
+spanish: level-native
+english: level-intermediate
+
+#education
+
+high school: 
+univeristy:
+
+
+#previous jobs
+
+
+
+
+skills:
+
+html: 80%
+css: 70%
+bootstrap: 50%
+javascript: 60%
+python: 60%
