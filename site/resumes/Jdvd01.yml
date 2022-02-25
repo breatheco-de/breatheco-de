@@ -1,0 +1,56 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "black"
+
+basic_info:
+
+    # Profile information
+    first_name: Jose
+    last_name: Velasquez
+    motto: University Student
+    avatar: ~
+    summary: |
+        Studying at 4Geeks Academy and UDO (Systems Engineering). Interested in Software Development 
+         
+    # Sidebar links
+    email: velasquezdenorajose@gmail.com
+    phone: +58 412 194 2352
+    website: ~
+    linkedin: linkedin.com/in/jose-velasquez-0a77a122b/
+    github: Jdvd01
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: None
+      university: Universidad de Oriente
+      time: 2016 - 2019
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
+
+      - name: C++
+        level: ~
