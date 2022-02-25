@@ -1,0 +1,69 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Miguel
+    last_name: Morrone Dore
+    
+    # Define yourself in 4-5 words
+    motto: Always find the way to resolve a problem
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I always have had curiosity about programing and everything ralationated with the tech world.|
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: josemmorrone@gmail.com #optional
+    phone: +58 424-1071806 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Josemi19
+    
+    stack-overflow: #
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: 65%
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Code
+
+      - item: Cars
+      
+      - item: Video-games
+
+# Your previous education
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      # optional
+      
+    
+
+skills:
+    toolset:
+        
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Bootstrap
+        level: 30%
