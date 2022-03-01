@@ -1,65 +1,103 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 template: "online-cv"
-skin: "blue"
+skin: "turquoise"
 
-# Personal Information
 basic_info:
-  # Your full name
-  first_name: Facundo
-  last_name: Gul
 
-  # Define yourself in 4-5 words
-  motto: Proactive, Tenacious, Sociable, Hard-working
+    # Profile information
+    first_name: Facundo
+    last_name: Gul
+    motto: Resilient, adaptive, strong and flexible.
+    avatar: https://avatars.githubusercontent.com/u/92039939?v=4
+    summary: |
+        I dedicated my life to coding since I was 13 years old, today I'm fortunate to make a living building and teaching code to everyone throughout my different business endeavors:
+        
+        First I founded 4Geeks Developers Community: At the company, we built and launched 50 tech products during 10 years mainly focused in LatinAmerican markets. We opened offices in 7 different countries, 300 employees and more than $8,000,000 in revenues.
+        
+        4Geeks Academy: Coding academy with 700+ alumni worldwide, ~90% of the graduates had an average 20% increase in salary after completing the program. $1,000,000+ in annual revenues in 6 locations.
+        
+        BreatheCode: Not-for-profit open source community aiming to accelerate the way junior developers learn and evolve using technology. 
 
-  # focus
-  focus: Learning full stack developer
+    # Sidebar links
+    email: facundogds@gmail.com
+    phone: (+598) 92 233 995
+    linkedin: Facundo Gul (https://www.linkedin.com/in/facundoguldossantos/)
+    github: FacundoGdS
 
-  # You have 1 paragraph to make a great impression, summarize your career.
-  summary: |
-    Enthusiastic full stack developer student. I was woorking as customs administration for 6 years, but my passion always have been the technology.  
+    languages:
+      - idiom: Spanish
+        level: Native
 
-    Second paragraph if required.
+      - idiom: English
+        level: Intermediate-advanced (B2-First)
 
-  # Your profile picture URL
-  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-  avatar:
+    interests:
+      - item: Artificial Intelligence applications
+      - item: Sports (Swimming, Football, Running)
+      - item: Economy and geopolitics
 
-  # Contact Information
-  email: fabiola.ucr@gmail.com
-  phone: 506 8741-2481
-  website:
-  linkedin:
-    Fabiola Zuniga
-    # This github username will be use to generate your public profile URL like this: https://github.com/Fabizuni
-  github: FacundoGdS
-  twitter: FabiolaZigaR1
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+education:
+    - degree: Bachelor's Degree in Communication
+      university: University of Montevideo (Uruguay)
+      university_logo: https://www.um.edu.uy/sites/default/files/LogoUniversidadMontevideo.png
+      time: 2018-2022
 
-  languages:
-    - idiom: English
-      level: Intermediate
-
-    - idiom: Spanish
-      level: Native
-
-    # Interests or hobies
-  interests:
-    - item: Travel
-
-    - item: Sport (Hiking, Swimming, Running)
-
-    - item: Cooking
-
-  education:
-    - degree: FullStack Web Developer
+    - degree: Full-Stack Developer
       university: 4Geeks Academy
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      time: 2021-2022
+
+experiences:
+    - role: Outreach assistant
       time: 2021 - 2021
-      details: -HTML5
-        -CSS
-        -Bootstrap
-        -Javascript
-        -React
+      company: Forensic Sciences Group
+      details: |
+        I participated in the investigation of the use of fingerprints as evidence in Uruguay,
+        conducted interviews with experts in the field and produced an audiovisual dissemination
+        product within the framework of the 4th International Seminar on Forensic Sciences.
+
+    - role: Advisor and researcher in the first edition of the program “Communication to save the planet”,
+            articulated by INJU (MIDES), the Ministry of Environment of Uruguay and UNICEF.
+      time: 2021 - 2021
+      company: INJU (MIDES) - Ministry of Environment of Uruguay
+      details: |
+        I advised the NGO, Rotaract Tacuarembó Sur. I made a diagnosis of the organization,
+        through content analysis techniques in networks and metrics such as the engagement rate.
+        Conducted formative research on habits and practices related to recycling.
+        I designed strategic plans of social marketing, relationship with the press and
+        incidence in public policies.
+
+    - role: Voluntary in the landscapes of 'El Chileno', 'La Alegría', 'Cuchilla Ramírez'
+            and 'Mazamorra', Department of Durazno (Uruguay).
+      time: 2014 - 2015
+      company: Don Bosco Workshops
+      details: |
+        Service and assistance to the community, activities of construction and development,
+        supply to the population vulnerable.
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: XMiLE
+        link: https://github.com/FacundoGdS/Proyecto-XMiLe
+        tagline: 'A customizable website template designed to help accounting firms and users to
+                  streamline electronic invoicing reporting (by automating and processing such invoices)'
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 50%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Sketch & Photoshop
+        level: 65%
