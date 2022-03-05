@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Manuel
+    last_name: Martin 
+
+    # Define yourself in 4-5 words
+    motto: Instead of work, music and sport
+
+    # focus
+    focus: Looking for a new life style like full stack developer.
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Im a person who´s acostume to work and studie. At this moment i have suffered and injury
+      on my knee and I have to expend the most of my time lying on the bed recovering my knee,
+      so i decided to study this to look for a better job in a close future.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 958626262 This is fiction
+    website: asd.com #optional
+    linkedin: alandoe #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Josema9119
+
+    twitter: none #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: B2
+
+      - idiom: Frances
+        level: B1
+
+    # Interests or hobies
+    interests:
+      - item: Baloncesto
+
+      - item: Musica, guitarra
+
+      - item: Conciertos/viajar
+
+# Your previous education
+education:
+    - degree: TSAFAD
+      university: Full stack developer
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022-...
+      details: |
+       Inwas working like basketball and personal trainer during a few years but is badpaid so
+       i decided to start a new project like full stack developer, looking for improve my skills
+       and my style of life. I have won many social habilities that have hlepd me to finde good 
+       jobs and continuing my carreer
+# Your previous job experiences or voluntier
+experiences:
+    - role: Painter
+      time: 2020-2022
+      company: Kaefer,Cádiz
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Working like a painter with cruisers and term and electric companies.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
