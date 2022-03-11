@@ -1,0 +1,114 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Olga
+    last_name: Golovina
+    
+    # Define yourself in 4-5 words
+    motto: Learning software Full-Stack development
+
+    
+    # focus
+    focus: focus on results
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´ve been working in supply chain automotive sector for the last 6 years. Now it´s time to learn somehting new. Technological sector is very interesting and perspective. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQGQxG69E8drmw/profile-displayphoto-shrink_800_800/0/1599689595452?e=1652313600&v=beta&t=cfTvXeSMSK4PyW7ff9yHHe-MqPvUbcCSOIQP2yrP_CY
+
+    # Contact Information
+    email: oy.golovina@gmail.com #optional
+    phone: ----- #optional
+    website: --- #optional
+    linkedin: ---- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Heylga
+    
+    twitter: '@heylga' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: Spanish
+        level: C1
+
+      - idiom: German
+        level: A2
+
+    # Interests or hobies
+    interests:
+      - item: Jogging
+
+      - item: Painting
+
+      - item: Processing
+
+# Your previous education
+education:
+    - degree: Higher education in Economics
+      university: STATE UNIVERSITY OF MANAGEMENT
+      # optional
+      university_logo: https://guu.ru/assets/img/logo_en.png
+      time: 2009 - 2014
+      details: |
+        Foreign-economic activity (World economy)
+    - degree: Intership in International Business and Economics
+      university: Uniwersytet Ekonomiczny w Poznaniu
+      # optional
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHSgNJd6BGgng/company-logo_200_200/0/1634556973451?e=1655337600&v=beta&t=NtxyOKfe4vBMfOkEbVBpTpem5vmi_cUPsY8s941lc6E
+      time: 2011 - 2012
+      details: |
+        International Business and Economics
+# Your previous job experiences or voluntier
+experiences:
+    - role: Team Coordinator
+      time: 2018 - Present
+      company: Daimler, AG, Barcelona
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGI2YOMRiKeOQ/company-logo_100_100/0/1638291602473?e=1655337600&v=beta&t=H3mb7szHc1JgPfasVwG_2rYxtWerEHCtqCYouGrSrGM
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+   
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: 
+        link: https://github.com/Heylga/4GEEKS-PT-01-MyPostcard
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
