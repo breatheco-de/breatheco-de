@@ -1,0 +1,99 @@
+--- 
+basic_info: 
+  avatar: "https://randomuser.me/api/"
+  email: "arnaldo.perez.dev@gmail.com"
+  first_name: Arnaldo
+  focus: "Vivir en paz"
+  github: arnaldoperez
+  interests: 
+    - 
+      item: "Beach"
+    - 
+      item: Metal/Networking/Programming
+    - 
+      item: "Plumbing and woodworking"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: C2
+  last_name: Pérez
+  linkedin: "https://www.linkedin.com/arnaldoperez"
+  motto: "Do or do not, there's no try"
+  phone: ""
+  stack-overflow: ~
+  summary: "Code poet"
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "Telecom Technician"
+    details: "Network, telecom knowledge"
+    time: "2014 - 2016"
+    university: "Instituto Nacional de Aprendizaje"
+experiences: 
+  - 
+    company: "Convergenets IT Solutions"
+    details: "My primary repsonsibilities are Sales and Tshoot"
+    role: "Technical Sales Engiener"
+    time: "2020 - Present"
+  - 
+    company: "Componenetes el ORBE"
+    details: "Telecom Technician"
+    role: "Telecom Technician"
+    time: "2016 - 2019"
+  - 
+    company: "Quicknet Solutions"
+    details: "Telecom Technician"
+    role: "Telecom Technician"
+    time: "2014 - 2016"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: N/A
+skills: 
+  toolset: 
+    - 
+      level: 0%
+      name: "Python & Django"
+    - 
+      level: 10%
+      name: "Javascript & jQuery"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 50%
+      name: "HTML5 & CSS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 15%
+      name: "Sketch & Photoshop"
+    - 
+      level: 90%
+      name: "Networking & Security"
+skin: orange
+template: online-cv
