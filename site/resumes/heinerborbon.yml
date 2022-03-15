@@ -1,0 +1,65 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Heiner
+  last_name: Borbón
+
+  motto: Full Stack Developer
+
+  summary: |
+    Decidí tomar un rumbo en mi carrera ya que me apasiona la tecnología y la programación.
+
+    Actualmente me encuentro estudiando HTML, CSS, Bootstrap y Javascript.
+
+  avatar: https://ca.slack-edge.com/T0BFXMWMV-U034CQL2S0L-f9c47c35411a-512
+
+  email: heinerborle@gmail.com
+  phone: "+50683153921"
+  linkedin: https://www.linkedin.com/in/heiner-borb%C3%B3n-le%C3%B3n-7198b4b4/
+
+  github: heinerborle
+
+  languages:
+    - idiom: Inglés
+      level: Alto
+
+    - idiom: Español
+      level: Nativo
+
+  interests:
+    - item: Tecnología
+
+education:
+  - degree: Bachiller en Inglés
+    university: Universidad de Costa Rica
+    time: 2011 - 2015
+
+experiences:
+  - role: Senior Deployment Specialist
+    time: 2019 - 2021
+    company: Cheetah Digital
+    details: |
+      Email Marketing and Bussiness Inteligence
+
+assignments:
+  - title: Instagram Postcard
+    link: "https://github.com/heinerborle/instagram-postcard"
+    tagline: "Realizado login template usando Bootstrap, CSS y HTML."
+
+skills:
+  toolset:
+    - name: HTML
+      level: 40%
+
+    - name: CSS
+      level: 40%
+
+    - name: Bootstrap
+      level: 50%
+
+    - name: Git
+      level: 40%
+
+    - name: Github
+      level: 40%
