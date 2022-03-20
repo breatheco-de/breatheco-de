@@ -1,0 +1,86 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Daniela
+    last_name: Angulo Martin
+    
+    motto: I like to learn new things.
+    
+    focus: Programming
+    
+    summary: I´m a psychologist studying to be a Full Stack developer. My passion is technology. I like to learn new things about the world of technology.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    email: dani.angulo1910@gmail.com 
+    phone: +34 622 259 481
+    website: 
+    linkedin: https://www.linkedin.com/in/daniela-angulo
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: daninzrth
+    
+    twitter: danielanzrth
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    interests:
+      - item: Food
+
+      - item: Adventure Books
+
+      - item: Cooking
+
+education:
+    - degree: FullStack Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2022
+      details:
+          FullStack Developer
+          - HTML and CSS
+          - Javascript
+          - Python
+          - React
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Talent Acquisition Partner
+      time: 2021 - Present
+      company: Alten Spain
+      # optional
+      company_logo: 
+      details: |
+       - Taking requirements with the figure of the Business Managers for the search of candidates.
+        - Publication of offers in employment portals, together with the completion of the curricular screening.
+        - Proactive search for candidates on employment platforms such as InfoJobs, Linkedin and Tecnoempleo
+        - Conducting interviews with candidates and consultants.
+        - Preparation and maintenance of database of candidates.
+        - Support for the Employer Branding activity and attendance at job fairs and forums.
+
+# Your project portfolio
+projects:
+    assignments:
+      - title: Instagram Fee Bootstrap
+        # optional
+        project_logo: 
+        link: https://github.com/Daninzrth/Instagram-Bootstrap
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 50%
