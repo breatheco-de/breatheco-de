@@ -9,15 +9,16 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Hector
+    first_name: Hector Jesus
     last_name: Medina Garcia
     
     # Define yourself in 4-5 words
-    motto: Proactivo, desarrollador web
+    motto: Proactive, dedicated, decisive,retailer, collaborator
     
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
+      Currently, I am 100% dedicated to web development, both backend and frontend, always looking for the best result in the final product.
       Results-oriented young man with great ease of communication which allows me to have a excellent treatment for customer service. Competent to assume responsibilities under good practice approach. Responsible for teamwork and handling information confidential. Committed, honest, proactive and leader; willing to face new challenges with the greatest dedication. In search of personal improvement and to acquire new knowledge.
     
     # Your profile picture URL
@@ -68,41 +69,25 @@ projects:
     intro: >
       Here you can see all the information of my completed projects.
     assignments:
-      - title: Instagram-Bootstrap
+      - title: Project ReparaHub Front End
         # optional
         project_logo: 
-        link: "#hook"
-        tagline: "Its a  imitation of instagram"
+        link: https://github.com/etomedina/ReparaHub-web-front-end.git"
+        tagline: "Final Project XIX"
 
-      - title: Landing-page
+      - title: Project ReparaHub Back End
         # optional
-        project_logo: https://github.com/abraham1798/Landing-page
-        link: "#"
-        tagline: "A simple landing page using React.js components."
-
-      - title: KaChing
-        # optional
-        project_logo: https://github.com/abraham1798/Proyecto-Final-4Geeks
-        link: "#"
-        tagline: "A colaborative web app "
-
-      - title: Atom
-        # optional
-        project_logo: TicTacToec
-        link: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        tagline: "A simple videogame."
-
+        project_logo: 
+        link: https://github.com/etomedina/ReparaHub-API-back-end.git
+        tagline: "Final Project XIX"
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 35%
+      - name: Python 
+        level: 40%
 
       - name: Javascript & jQuery
-        level: 85%
-
-      - name: Angular
-        level: 15%
+        level: 80%
 
       - name: HTML5 & CSS
         level: 95%
@@ -111,4 +96,4 @@ skills:
         level: 0%
 
       - name: Sketch & Photoshop
-        level: 30%
+        level: 10%
