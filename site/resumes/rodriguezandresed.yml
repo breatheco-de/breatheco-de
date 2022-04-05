@@ -1,0 +1,97 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Andres
+    last_name: Rodriguez
+    motto: Mechanical Engineer & Electronics Engineer with a major in Automation and Control 
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQHMQDPf3PT_Pg/profile-displayphoto-shrink_200_200/0/1598370823218?e=1654732800&v=beta&t=I4fpI5K4_Y7aoQL5vJXSE84VRZqNU_gB7XwDSVTeQiQ
+    summary: |
+                Result oriented individual with a continuous improvement mindset, with initiative to tackle and respond to problems efficiently using technical and analytical skills while contributing to the company's goals. Mechanical Engineer & Electronics Engineer with 4+ years of experience in production supervisory roles, production improvement and cost reduction of processes related to production lines, and skills in the areas of production, telecommunications, troubleshooting, instrumentation, automation and control systems. 
+
+
+    
+
+    email: rodriguezandresed@gmail.com
+    phone: 580424 634 0871
+    website: 
+    linkedin: https://www.linkedin.com/in/andres-eduardo-rodriguez-hernandez/?locale=en_US
+    github: rodriguezandresed
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Bilingual Proficency
+
+      - idiom: French
+        level: Learning B1 Proficency
+
+    interests:
+      - item: Coding
+
+      - item: 
+
+
+education:
+    - degree: Mechanical Engineer
+      university: La Universidad del Zulia
+      time: 5 years
+      details: Maracaibo - Venezuela
+
+    - degree:  Electronics Engineer with a major in Automation and Control
+      university: Universidad Rafael Belloso Chacin
+      time: 5 years
+      details: Maracaibo - Venezuela
+
+    - degree:  Master in Cybersecurity
+      university: Centro Europeo de Postgrado y Empresa
+      time: 1 year
+      details: on progress
+      
+experiences:
+    - role: Operations Engineer
+      time:  4 years
+      company: Zuliana de Plasticos
+      details: 
+
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+      - title: To Do List!
+        link: https://github.com/rodriguezandresed/to-do-list-fetch
+        tagline: "A to do list site with interaction with the todo api --"
+             
+
+      - title: Instagram Bootstrap
+        link: https://github.com/rodriguezandresed/excercise-random-card-generator
+        tagline: "A random card generator  --"
+
+      - title: Instagram Feed using Bootstrap
+        link: https://github.com/rodriguezandresed/excercise-instagram-feed-bootstrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view   --"
+
+skills:
+    toolset:
+      - name: Networking
+        level: 80%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: VmWare EsXI
+        level: 50%
+
+      - name: Cybersecurity
+        level: 80%
