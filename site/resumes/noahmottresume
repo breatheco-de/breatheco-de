@@ -1,0 +1,63 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Mohamad
+    last_name: Alzaim
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQH8zIbzLyvrhw/profile-displayphoto-shrink_400_400/0?e=1610582400&v=beta&t=gZTfsZM7B9WqQqkb3TmBWpm-SbfKlRws2ptm1sQG6uM
+    summary: |
+     I am a future software engineer from 4Geeks. I am at time 21 years old leaving the automotive field to prosue a better life for myself as a developer.
+    email: noahdmott@gmail.com
+    phone: 404 772 4598
+    website: 
+    linkedin:
+    github: NoadDMott
+    twitter: 
+    stack-overflow: 
+
+    languages:
+        
+      - idiom: English
+        level: Professional
+
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+       
+      - item: Cars
+
+
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 5%
+
+      - name: Javascript
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 75%
