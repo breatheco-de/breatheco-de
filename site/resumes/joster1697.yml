@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Jorge
+  last_name: Mendoza
+  motto: Full Stack Developer
+  summary: |
+    My main skills are my ability to adapt quickly to any situation and my self-taught personality, 
+    100% involved in learning and researching new knowledge related to computing, 
+    as well as the development of personal projects both individually and collectively, 
+    always with the aim of enjoying, learning and improving both personally and professionally.
+
+  # Sidebar links
+  email: jorgemendoza1697@gmail.com
+  phone: +(506) 71097327
+  linkedin: www.linkedin.com/in/jorge-mendoza-sanchez-a4190b154
+  github: joster1697
+
+  languages:
+    - idiom: English
+      level: B2
+
+    - idiom: Spanish
+      level: Native
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022 - CURRENT
+    details: |
+      Front end coding Java Script, React
+      Back end coding Php, Node.js
+
+experiences:
+  - role: Full Stack Developer
+    time: 2018 - 2020
+    company: Comunidad de Aplicaiones Móviles TEC
+    details: |
+      - Development of a web application for appointment management. Used technology: HTML, CSS, JavaScript, Angular, Node.js, SQL server.
+      - Development of an odontogram application. Used technology: HTML, CSS, JavaScript, Node.js, SQL server.
+      - Development of an android application to book appointments: Android java, SQL server.
+
+  - role: Junior Software Developer
+    time: 04/2021 - 11/2021
+    company: Appy LLC
+    details: |
+      - Development of a web application for the configuration of a telephone center. Used technology: WordPress, HTML, CSS, JavaScript, PHP, SQL server.
+      - Audio editing system with text to speech and format auto-conversion required by the telephone center. Used technology: HTML, CSS, JavaScript, PHP.
+      - Development of a flow designer to configure connections between phone accounts. Used technology: HTML, CSS, JavaScript, PHP.
+      - Development of a builder banner to create and edit banners. Used technology: HTML, CSS, JavaScript, PHP.
+      - Development of an electronic invoice api. Used technology: C#, SQL server.
+
+  - role: Software Developer
+    time: 12/2021 - present
+    company: Intel
+    details: |
+      - Application to manage and analyze stress chips test data.
+
+projects:
+  intro: >
+    Personal projects that I have developed to learn and practice my programming skills.
+
+  assignments:
+    - title: Real Estate website
+      tagline: "Website for buying and selling real estate. Used technology: HTML, CSS, JavaScript, PHP, SQL server."
+
+    - title: Barber Shop
+      tagline: "Web application for reservation of appointments and services of a barber shop. Used technology: HTML, CSS, JavaScript, PHP, MySQL."
+
+    - title: Project Manager Application
+      tagline: "Development of a project manager application. Used technology: HTML, CSS, JavaScript, PHP, MySQL, SASS."
+
+skills:
+  toolset:
+    - name: HTML & CSS
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: React
+      level: 70%
+
+    - name: PHP & Node.js
+      level: 90%
+
+    - name: SQL Server & MongoDB
+      level: 85%
+
+    - name: Android
+      level: 80%
