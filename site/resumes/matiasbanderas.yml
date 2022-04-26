@@ -32,7 +32,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: matiasbanderas
 
-# languages you speak, levels inculde: Native, Professional
+    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
         level: Professional
@@ -73,7 +73,7 @@ experiences:
 
 # Your project portfolio
 projects:
-    intro: >
+    intro: 
       You can list your side projects or open source libraries in this
       section. 
     assignments:
