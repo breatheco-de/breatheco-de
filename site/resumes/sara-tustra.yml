@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sarai
+    last_name: Santiago 
+    
+    # Define yourself in 4-5 words
+    motto: Very enthusiastic self-learner
+    
+    # focus
+    focus: Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      From Political Science to Construction services, I am very versatile when it comes to work and interests!
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.app.goo.gl/FyPdxDa7v4JVSG5T6
+
+    # Contact Information
+    email: saraisantiagom@gmail.com
+    phone: +569 48874469 #optional
+    website:  #optional
+    linkedin: http://www.linkedin.com/in/sarai-virginia-santiago-monsalve #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: sara-tustra
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Trekking
+
+      - item: Gardening
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Bachelor of Political Science
+      university: Universidad de Los Andes, Venezuela
+      time: 2008 - 2014
+      details: 
+        I did several extra curricular activities in diverse areas of study and fully enjoyed the university experience.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Partner Manager
+      time: 2020 - Present
+      company: Fundacion Huella Animal
+      details: |
+        I manage the memberships from people who monthly give donations to the fundation, also keeping contact with the members and delivering information about the rescued dogs and cats.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects I have been creating during my 4Geeks Web Development Bootcamp
+
+    assignments:
+      - title: Instagram Feed
+        link: "https://github.com/sara-tustra/day-2-Instagram-photo-feed-bootstrap.git"
+        tagline: "This was my first responsive Bootstrap project."
+
+      - title: Excuse Generator
+        link: "https://github.com/sara-tustra/Day-5-excuse-generator-js.git"
+        tagline: "My first excercise using events and js."
+
+      
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 33%
+
+      - name: Ruby on Rails
+        level: 0%
+
+  

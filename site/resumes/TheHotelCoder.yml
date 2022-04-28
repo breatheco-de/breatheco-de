@@ -1,0 +1,104 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Diana
+    last_name: Ware
+    motto: I plan to master the Lazy Coding technique
+    avatar: 
+    summary: 
+      
+    email: dianasofia.ware@gmail.com
+    phone: +34 (631 557 831)
+    website: 
+    linkedin: dianasofiawareramos
+    github: TheHotelCoder
+    twitter: DianaWareR
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Bilingual
+        
+      - idiom: French
+        level: Conversational
+
+    interests:
+      - item: Space & Space exploration
+
+      - item: Food and Travel
+
+      - item: Science Facts
+
+education:
+    - degree: Full Stack Web Development (Part-time Bootcamp)
+      university: 4Geeks Academy
+      time: 2021 - Currently
+      details:
+
+    - degree: Master in Hotel Management & Food and Beverage
+      university: EAE / OSTELEA School of Tourism and Hospitlity (Spain)
+      time: 2007 - 2009
+      details: 
+
+    - degree: Bachelor in Tourism
+      university: Universidad Dr. José Matías Delgado (El Salvador)
+      time: 2009 - 2013
+      details: 
+      
+experiences:
+    - role: Building Manager & Sales
+      time: 2021 - Present
+      company: Aticco Coworking
+      details: |
+        Account Management.
+        Inboud Sales Management.
+        Administrative process & procedures.
+        Achieved a 90% satisfaction from our coworkers.
+
+    - role: Front Office, Rooms Operations department
+      time: 2013 - 2020
+      company: Barcelona.
+      details: |
+        El Palace Hotel, The Barcelona Edition, CoolRooms, Hilton, Marriott.
+        Implementation of strict 5*GL quality standards in all contact points of the customer's journey.
+        Responsible of night audit on a rotating schedule basis.
+        Part of the opening team for Aparthotel CoolRooms Paseo de Gràcia, continuing in CoolRooms Maldà
+        boutique hotel.
+        Created, implemented and strengthen SOP’s regarding the management and logistics of the guests’ stay, 
+        reservations, inventory control, customer journey and concierge.
+        In charge of the training process for new members of the team.
+        
+    - role: TV Host/ Producer / EMCEE
+      time: 2013 - 2017
+      company: Channel 33 TV Station, El Salvador
+      details: |
+        Successful production of music show "Videorama" I was in charge of the script, 
+        camera footage, hosting, editing and marketing strategies.
+        As a host on TV Show “De Mujer a Mujer”, as a team we achieved a successful transition 
+        of a program with more than ten years on air, ensuring and increasing the audience and sponsors.
+
+projects:
+    intro: 
+    
+    assignments:
+      - title: Excuse Generator
+        link: https://github.com/TheHotelCoder/Excuse-Generator
+        tagline: HTML + CSS, JS
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Bootstrap
+        level: 30%
+        

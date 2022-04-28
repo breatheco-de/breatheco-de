@@ -1,0 +1,41 @@
+---
+# Personal Information
+basic_info:
+
+# Your full name
+  first_name: Aaron
+  last_name: Trujillo
+
+# Contact Information
+  email: atrujilloembry@gmail.com #optional
+  phone: +56 9 61911040 #optional
+  website: none #optional
+  linkedin: https://www.linkedin.com/in/aar%C3%B3n-trujillo-embry-1000a225/ #optional
+  telegram: none 
+
+# This github username will be use to generate your public profile URL
+  github: TrujiE
+  interests:
+    -
+      item: Technology
+    -
+      item: Music
+  languages:
+    -
+      idiom: Spanish
+      level: Native
+    -
+      idiom: English
+      level: medio
+  stack-overflow: ~
+  summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+  twitter: none
+    -
+skin: blue
+template: online-cv

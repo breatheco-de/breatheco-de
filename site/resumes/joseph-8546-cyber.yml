@@ -1,0 +1,68 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+   
+    first_name: Joseph Manuel
+    last_name: Blanco Flores
+    
+   
+    motto: Full Stack Developer
+
+    summary: |
+      Yo he tenido experiencia en el sector de turismo y hoteleria, pero en el sector de tecnologia tengo poca experiencia pero la verdad 
+      la experiencia que he adquirido en 4Geeks es sumamente genial y he tenido un gran cambio del conocimiento que tenia y ha sido una gran
+      experiancia.
+
+    email: manueljosephtrabajo@gmail.com
+    phone: 506-85-86-40-38
+    linkedin: linkedin.com/in/joseph-manuel-blanco-flores-560428206
+    Twitter: JosephManuelBl1
+    stack-overflow: jbf-8546
+    github: joseph-8546-cyber
+
+    languages:
+      - idiom: Inglés
+        level: b1
+
+      - idiom: Español
+        level: Nativo
+
+    interests:
+      - item: Tecnología
+
+      - item: Read
+
+      - item: music
+
+      - item: play video games
+
+education:
+    - degree: Full stack Development
+      university: 4Geeks Academy
+      time: 2021
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: React.js
+        level: 35%

@@ -1,0 +1,70 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Luis Fernando
+  last_name: Corrales
+  motto: Full Stack Developer
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  summary: |
+    Summarise your career: I have been in sales in some way for all of my career.
+    tech, is very new to me, some could say its like learning Russian. My coding skills 
+    are improving, learning the Hypertext and Style sheets. some bumbs along the way with JS,
+    but confident ill succeed.
+
+    Second paragraph if required.
+
+  # Sidebar links
+  email: fernandocorralesm76@gmail.com
+  phone: (506) 63389464
+  website: #do not add http://
+  linkedin: 
+  github: Fernando1976CR
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+
+  interests:
+    - item: Soccer
+
+    - item: Watching Soccer
+
+    - item: Cooking, wine tasting , cooking , eating
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2021 - 2021
+    details: |
+      Front end coding Java Script
+      back end coding Python & Flask
+
+        - Bullet point
+        - Bullet point
+
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 25%
+
+    - name: Javascript & jQuery
+      level: 50%
+
+    - name: React
+      level: 70%
+
+    - name: HTML5 & CSS
+      level: 95%
+

@@ -1,0 +1,24 @@
+--- 
+basic_info: 
+  avatar: img.png
+  email: kzs2291@gmail.com
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Basic
+    - 
+      idiom: Portuguese
+      level: Basic
+  linkedin: karol-marcela-zuniga-segura-257798b7
+  name: "Karol Zuniga"
+  phone: 87484547
+  stack-overflow: karol.zuniga.segura
+  github: kzs2291
+  tagline: "Full Stack Developer"
+  twiter: "@kzs2291"
+  website: mywebsite.com
+skin: blue  
+template: online-cv

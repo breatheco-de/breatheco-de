@@ -1,0 +1,76 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Marigen
+    last_name: Rivero
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGeR_MNbQ_54g/profile-displayphoto-shrink_200_200/0?e=1609977600&v=beta&t=8bZwDCIFl1LFh-Qj0_gAJWQlKxKgAjX9p9NOcD8zw7I
+    summary: |
+      Actualmente en formación 4Geeks Academa como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git.
+
+    
+
+    email: marigen@gmail.com
+    phone: 643 276 428
+    website: 
+    linkedin: https://www.linkedin.com/in/m-rivero-mirabal/
+    github: riveromj
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: 
+
+
+education:
+    - degree: Ing. Infromática
+      university: UCAB
+      time: 5 años
+      details: Caracas - Venezuela
+      
+experiences:
+    - role: 
+      time: 
+      company: 
+      details: 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+      - title: Excuse Generator
+        link: https://github.com/riveromj/The-Domain-Name-Generator
+        tagline: "Random excuse generator.   --"
+             
+
+      - title: Instagram Bootstrap
+        link: https://github.com/riveromj/Intagram_feed_Bootstrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/riveromj/Instagram
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%

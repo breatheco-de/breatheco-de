@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sara
+    last_name: Sempere
+    
+    # Define yourself in 4-5 words
+    motto: I would describe myself as someone who is highly-motivated, and I particularly enjoy working as a part of a team. 
+    
+    # focus
+    focus: new tech, shopping
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Veterinary (working as Food safety and quality technician) and I worked for the last three years in El Corte Inglés. 
+      I love to make decision about data. And now I want to learn coding to improve my carrer
+      and create my own website.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.google.com/search?tbs=simg:CAQSvQIJlNb6AYwXeAsasQILEKjU2AQaAghDDAsQsIynCBpiCmAIAxIokBqFH5wf9RmGH_1oemx_10GZEamh_1eJbMx_1zC2Mf4w3SW0Mf0w-jDcJRowQpl79DUF2sX_1EKw_12bc5vLypdAPaWjG1Jy5k75JevKTuRnRsgtprQM_1JP5VDT1LYIAQMCxCOrv4IGgoKCAgBEgTslK9TDAsQne3BCRqeAQoXCgRnaXJs2qWI9gMLCgkvbS8wNXI2NTUKGQoFd29tYW7apYj2AwwKCi9tLzAzYnQxdmYKFwoDZnVu2qWI9gMMCgovbS8wZHM5OWxoCicKFHBvcnRyYWl0IHBob3RvZ3JhcGh52qWI9gMLCgkvbS8wY2htbDkKJgoRZmxhc2ggcGhvdG9ncmFwaHnapYj2Aw0KCy9nLzF0cjE3enc4DA&sxsrf=ALeKk011U4HEUZGW2Sp0wcyJeE0nnq-uTA:1594063197071&q=girl&tbm=isch&sa=X&ved=2ahUKEwj3nfGUrLnqAhU2D2MBHZQPCqwQwg4oAHoECA8QKA&biw=1536&bih=722&dpr=1.25#imgrc=T2Y2oWfOaUd2TM
+
+    # Contact Information
+    email: semperesara@gmail.com #optional
+    phone: 34 686921885 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/sarasempere/ #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sarasempere
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish & English
+        level: Proffesional
+
+    # Interests or hobies
+    interests:
+      - item: Family & Friends
+
+      - item: Netflix
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: Veterinary
+      university: Universidad Complutense de Madrid
+      time: 2003 - 2009
+      details:
+    - degree: Master business entreprenurship
+      university: UCM
+      time: 2014 - 2016
+      details:
+experiences:
+    - role: Food safety and quality technician.
+      time: 2017 - Present
+      company: El Corte Inglés
+      details: |
+          - Responsible for recognizing, identifying, documenting, and communicating all analytical, quality, and food safety evaluation and processing checks.
+    - role: Manager
+      time: 2013 - 2017
+      company: Silliker Iberica -  Merieux Nutriscense
+      details: |
+          - Market research
+          
+skills:
+    toolset:
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 60%

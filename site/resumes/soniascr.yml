@@ -1,0 +1,181 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sònia
+    last_name: Chaves Roca
+    
+    # Define yourself in 4-5 words
+    motto: From journalist to Full Stack web developer
+    
+    # focus
+    focus: Digital world
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Journalist with a strong knowledge of Web based projects and Content Management Systems (CMS). 
+      Currently training to be a Full Stack web developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://www.soniachaves.eu/img/Sonia.jpg
+
+    # Contact Information
+    email: soniascr@gmail.com #optional
+    phone:  #optional
+    website: http://www.soniachaves.eu #optional
+    linkedin: soniascr #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: soniascr
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Upper-intermediate
+        
+      - idiom: Dutch
+        level: Beginner
+
+
+
+    # Interests or hobies
+    interests:
+      - item: Traveling
+
+      - item: Photography
+
+      - item: Yoga
+
+# Your previous education
+education:
+    - degree: Journalism
+      university: Universitat Autònoma de Barcelona
+      # optional
+      university_logo:
+      time: 2000 - 2005
+      details: |
+        Degree in journalism by Universitat Autònoma de Barcelona.
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Técnica de Comunicación
+      time: 2019 - 2020
+      company: Consorci de Promoció Turística del Maresme, Mataró.
+      # optional
+      company_logo:
+      details: |
+         I took care of web content creation and management, press releases, social media management
+         and creation of newsletter workflow using Mailchimp.
+         I was also responsible for press and media relations and I took care of 
+         web analytics and communication reports within the department. 
+    - role: Quality and training manager
+      time: 2014 - 2017
+      company: Arvato Bertelsmann, Barcelona
+      # optional
+      company_logo: 
+      details: |
+        In this role I managed the Training and Quality team within the Canon technical support team at Arvato Bertelsmann. 
+        My main tasks included
+          - Defining and documenting processes related to training and quality
+          - Liaising with client and different areas of the business to improve on quality and training processes
+          - Identifying missing processes within the project.
+          - Monitoring and tracking progress and effectiveness of training and quality projects.
+          - Reporting and supporting quality and training processes.
+    - role: Web development specialist
+      time: 2011 - 2014
+      company: Canon, Ámsterdam
+      # optional
+      company_logo: 
+      details: |
+        As a Web Development Specialist I worked with the business and development departments defining the structure of global websites,
+        on quality assurance for upgrades of content management systems 
+        and as a liaison between ICT and the business to drive excellence to our websites.
+    - role: Web content specialist
+      time: 2009 - 2011
+      company: Canon, Ámsterdam
+      # optional
+      company_logo: 
+      details: |
+        I managed the publication process for all online content for Canon in the EMEA region,
+        including product launches and new product releases.
+    - role: Web content specialist
+      time: 2009 - 2011
+      company: Canon, Ámsterdam
+      # optional
+      company_logo: 
+      details: |
+        As a SEO (Search Engine Optimization) content writer specialised in SEO for the Spanish market 
+        I created and published content for their web pages and worked on several web projects within eDreams. 
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 25%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name:  Photoshop
+        level: 65%

@@ -1,0 +1,154 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Franklin
+    last_name: Monjarrez
+    
+    # Define yourself in 4-5 words
+    motto: Stay in Motion
+    
+    # focus
+    focus: Stay Thirsty My Friend
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.npr.org/assets/img/2012/09/14/headshot---cropped_vert-b425b9d3553d0de2a586b5fb27743ab809088051.jpg
+
+    # Contact Information
+    email: franklin@staythirstymyfriend.com #optional
+    phone: +58 412 6087447 #optional
+    website: https://www.aaaa.org/timeline-event/dos-equis-interesting-campaign-world/ #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Franklinmiami
+    
+    twitter: 'Franklinmiami' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: beer
+
+      - item: tequila
+
+      - item: fast cars
+
+# Your previous education
+education:
+    - degree: MS in Debauchery
+      university: University of Miami
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Tequila Taster
+      time: 2015 - Present
+      company: Tequila, Mexico
+      # optional
+      
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%

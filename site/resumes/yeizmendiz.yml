@@ -1,0 +1,145 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yahilyn
+    last_name: Eizmendiz
+    
+    # Define yourself in 4-5 words
+    motto: The only source of knowledge is experience
+    
+    # focus
+    focus: Become a FullStack developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Discovering programming has been the most interesting and important challenge of my life. I am passionate about always having a different goal, discovering something new every day and having constant and infinite learning. My way of thinking about analyzing is not the same, life looks different.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/drive/my-drive
+
+    # Contact Information
+    email: yahieizmendiz@gmail.com
+    linkedin: yahilyn-eizmendiz-yiong
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yeizmendiz
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Travel
+
+      - item: Coding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2020 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+          
+    - degree: Bachelor of Science in Industrial Engineering
+      university: Universidad Jose Antonio Echeverría CUJAE
+      # optional
+      university_logo: https://www.javonet.com/wp-content/uploads/2018/04/logo-cujae.jpg
+      time: 2009 - 2014
+     
+    - degree: Computer Engineer technician
+      university: Fernando Aguado y Rico. Habana
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2005 - 2008
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: Data Entry Technician
+      time: 2019 - 2020
+      company: Diamonds International, Miami FL
+      # optional
+      
+    - role: Manager
+      time: 2017 - 2019
+      company: Unique Discount Designs, Miami FL 
+      # optional
+      
+    - role: Accountant
+      time: 2009 - 2017
+      company: Energoimport, Habana Cuba
+      # optional
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%

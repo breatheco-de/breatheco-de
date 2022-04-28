@@ -1,0 +1,107 @@
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Jose Angel
+    last_name: Gutiérrez Cabrera
+    motto: Junior Full-stack Developer
+    avatar: https://avatars3.githubusercontent.com/u/75372070?s=460&u=24a636fc2c4f608ade2ba9e178f92e27643311ec&v=4
+    summary: |
+      My professional goal is to achieve a position that combines my passion for travel with the possibility of continuing to learn and grow as a web developer. That allows me to have enough autonomy to be able to make decisions that are translate visible results.
+
+    email: jagutierrezc7@gmail.com
+    phone: 675 879 303
+    website: 
+    linkedin: https://www.linkedin.com/in/jose-angel-gutiérrez
+    github: jagtrrz
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional / B2
+        
+      - idiom: 
+        level: 
+
+    interests:
+      - item: Coding
+
+      - item: Traveling
+
+      - item: Chess 
+
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      time: 2021-2021
+      details: knowledge necessary to be able to develop a website both in the front and in the end. Learning programming languages such as JavaScrpit, CSS, HTML and Python 
+
+    - degree: Marketing Digital master degree
+      university: The Power MBA
+      time: 2020-2021
+      details:
+
+    - degree: Master degree in Direction and Management of Tourism Companies
+      university: CESAE Bussines and Managment School
+      time: 2019-2020
+      details: Knowledge of finance, marketing, revenue management and business management.
+    
+    - degree: Tourism
+      university: UNED
+      time: 2013-2018
+      details:      
+      
+experiences:
+    - role: Revenue Management Trainee
+      time: 2020-2020
+      company: Melia Hotels International
+      details: Trinee program in Revenue Management for the hotels in Tanzania (Melia Serengeti, Gran Melia Arusha and Melia Zanzibar). 
+
+    - role: Travel agent
+      time: 2018-2020
+      company: Groupinghotels
+      details: Tasks focused on group travel. Advice, search for suppliers, coordination of reservations, event management, invoicing.
+    
+    - role: Office Assistant
+      time: 2012-2015
+      company: Notary Public of Arevalo (Avila, Spain)
+      details: Preparation of proceedings, monthly Notary Index report, invoicing.
+      
+      
+projects:
+    intro: This are a few project that I have to do in may first week of a web developer.      
+    
+    assignments:
+            
+      - title: Landing Page
+        link: https://github.com/jagtrrz/simple-landing-page
+        tagline: "Thsi is a full responsive web page I created with a classmate. We use HTML, CSS, Bootstrap and Git   --"
+
+      - title: Excuse Generator
+        link: https://github.com/jagtrrz/excuses-generator
+        tagline: "Random excuse generator coding with HTML an JavaScript  --"
+             
+      - title: Instagram Bootstrap
+        link: https://github.com/jagtrrz/Instagram-Photo-Feed-with-Bootstrap-
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/jagtrrz/postcard
+        tagline: "First project of my life working with CSS and HTML.   --"
+
+skills:
+    toolset:
+      - name: Git
+        level: 30%
+
+      - name: Javascript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 60%

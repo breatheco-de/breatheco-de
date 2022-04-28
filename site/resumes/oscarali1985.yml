@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Oscar
+    last_name: Marino
+    motto: Full Stack Developer
+    avatar: https://lh3.googleusercontent.com/a-/AOh14GhtQTi6FJ0TQphB301GSamyFoZ9mjpG2_ek1bWwTm8=s96-c-rg-br100
+    summary: |
+      I am Oscar Mariño, I was born in May 85. I am a computer technician and I have worked in a few companies in which I have lasted the longest, it was one that has been an Avaya partner for 9 years, so I am qualified to support PBX Avaya both IP office and Comunication Manager, currently I work in a travel agency and my main function is the support of the teams so that the agents can carry out their work in the best possible way, in addition to offering support to our clients through a CRM tool
+
+      Soy Oscar Mariño naci en mayo del 85. y soy tecnico en informatica he trabajado en pocas empresas en la que mas he durado fue una que es partner de Avaya durante 9 años por lo que estoy calificado para dar soporte a PBX Avaya tanto IP office como Comunication Manager,  actualmente laboro en una agencia de viaje y mi funcion principal es el soporte de los equipos  para que los agentes puedan realizar su trabajo lo mejor posible, ademas de birndarle soporte a nuestros cliente a traves de una herraminta de CRM
+
+    # Sidebar links
+    email: oscarali1985@gmail.com
+    phone: 412 6147743
+    website: oscarali1985.com #do not add http://
+    linkedin: oscarali1985
+    github: oscarali1985
+    twitter: 'oscarali1985'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: basic
+
+      - idiom: French
+        level: basic
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Scuba Diving
+
+      - item: Chess
+
+      - item: Cooking
+
+education:
+
+    - degree: Desarrollador Web Full Stack
+      university: 4GEEKS ACADEMY
+      time: 2019 - 2020
+      details: |
+        This course lasted approximately 16 weeks where I learned Front and End. We work with HTML 5 - CCS3 and Javascript and the DOM, in addition to Reac. In addition, I work with Git to be able to keep a history of the work in order to return in time if an error occurs or to be able to work in an orderly group and thus be able to merge what has been done. For the Back End, I work with Python and MySQL
+
+        Este curso tuvo una duracion de 16 semanas aproximadas donde aprendi Front y End. Trabajamos con HTML 5 - CCS3 y Javascript y el DOM, ademas de Reac. Ademas se trabajo con Git para poder llevar un historico del trabajo con la finalidad de volver en el tiempo si ocurre algun error o para poder trabajar en grupo de manera ordenada y asi poder fusionar lo realizado. Para el Back End se trabajo con Python y MySQL
+
+          - Bullet point
+          - Bullet point
+
+    - degree: IT technician
+      university: IUTIRLA
+      time: 2006 - 2009
+      details: |
+        It is basically a three-year career where I learned the basic notions of programming. I also worked with Pascal and Visual Basic.
+
+        Basicamente es una carrera de tres años donde aprendi las nociones basicas de programacion Ademas trabaje con Pascal y Visual Basic.
+
+          - Bullet point
+          - Bullet point
+
+
+
+experiences:
+    - role: System coordinator
+      time: 2008 - Present
+      company: GBN Global Vision Network
+      details: |
+        In this company I have two roles. The main one is to give users on-site support. And that the systems remain active so that they can carry out their daily operations. And the second is to provide support in our systems to our clients. Detecting and giving you as much help as possible and escalate errors to the development department so they can be corrected
+
+        En esta empresa tengo dos roles. El principal es darle soporte en sitio a los usuarios. Y que los sistemas se mantengan activos para que puedar realizar sus operaciones diarias. Y el segundo es brindar soporte en nuestros sistemas a nuestros clientes. Detectando y brindalole la mayor ayuda posible y escalar los errores al departamento de desarrollo para que sean corregidos        
+
+          - Bullet point
+          - Bullet point
+
+    - role: Desarrollador Web Full Stack
+      time: 2009 - Present
+      company: Freelance
+      details: |
+        As you can see, I took a Full Stack Web Developer course, so now I am willing to develop pages as a freelance. With the idea of obtaining extra income besides continuing to develop and learn
+
+          - Bullet point
+          - Bullet point
+
+    - role: Avaya engineer
+      time: 2009 - 2019
+      company: NGS TELECOM SERVICES
+      details: |
+        From 2009 to 2019 I was working in an Avaya partner company where I developed and learned from the world of Avaya from design, through configuration and installation, to implementation and then support and troubleshooting customer failures and errors. at the level of Communication Manager and Ip Office
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+
+      Mientras trabaje en la empresa NGS Telecom Services realice varios proyectos de implementacion de PBX en todas sus fases. Desde el diseño de la pbx segun el requerimiento del cliente, pasando por el proceso de instalacion y configuracion hasta el proceso final de en entramiento y luego los procesos de troubleshooting para resolver los inconvenientes de los clientes
+
+      While working at the NGS Telecom Services company, carry out several PBX implementation projects in all its phases. From the design of the pbx according to the client's requirement, going through the installation and configuration process to the final process of entering and then the troubleshooting processes to solve the client's problems
+
+      Durante el curso de full stack realice varios ejercicios. aunque son sencillos solo es para mostrar y cumplir con una parte del curso de subir este perfil
+
+      During the full stack course, do several exercises. although they are simple, it is only to show and fulfill a part of the course to upload this profile
+      
+
+    assignments:
+      - title: TheInstagramBoot
+        link: "https://oscarali1985.github.io/Proyecto-5-TheInstagramBoot/"
+        tagline: "Pagina responsive, parecida a Instagram. Solo es visual y fue realizada con Bootstrap. Responsive page, similar to Instagram. It is only visual and was done with Bootstrap."
+
+      - title: ExcuseOAMD
+        link: "https://oscarali1985.github.io/Proyecto-4-ExcuseOAMD/"
+        tagline: "Pagina sencilla pero parte del curso. Elavorada con javascripts. Simple page but part of the course. Made with javascripts"
+
+      - title: Final project
+        link: "#"
+        tagline: "Como proyecto final realice un pequeño sistema que me muestra los clientes previamente registrado por un personal de la empresa y luego y aun lado unas opciones para enviarle mensajes via telegram o por correo a dicho cliente. Dicho proyecto fue desarrollado en python y usando Mysql como base de dato
+
+        As a final project, I made a small system that shows me the clients previously registered by a company staff and then, and even some options, to send messages via telegram or by mail to said client. This project was developed in python and using Mysql as a data base"
+
+      - title: Avaya IP OFFICE
+        link: "#"
+        tagline: "Durante mi trayectoria en NGS pude realizar varias intalaciones, configuraciones y soporte con esta PBX. Entre mis conocimientos puedo mencionar, las actualizaciones configuracion de usuario, troncal IP y SIP, configuracion de usuario, grupos, audios, correo integrado y voice mail pro, aunque poco tambien he trabajado con el IPOCC una herramienta de administracion de call center
+        
+        During my NGS career I was able to perform various installations, configurations and support with this PBX. Among my knowledge I can mention the updates user configuration, IP and SIP trunk, user configuration, groups, audios, integrated mail and voice mail pro, although I have also worked little with the IPOCC a call center administration tool"
+
+      - title: Avaya Communication Manager
+        link: "#"
+        tagline: "A igual que con el IP OFFICE, trabaje mucho con esta PBX desde la configuracion inicial hasta el soporte, donde de igual manera trabaje con la configuracion de usuarios, troncales, VDN, agentes. Tambien el uso del CMS, sistema de correo integrado y externo. He trabajado con versiones viejas hasta la mas nuevas en su version 7, desde el media gateway G700 y los G650. Avaya es un mundo tiene muchos equipos y he trabajado con mucho de ellos aunque aun faltan algunos por conocer he podido colaborar con los clientes que llegue a atender en la solucion de sus solicitudes.
+        
+        As with the IP OFFICE, work a lot with this PBX from the initial configuration to the support, where in the same way it works with the configuration of users, trunks, VDNs, agents. Also the use of the CMS, integrated and external mail system. I have worked with old versions until the newer ones in version 7, from the media gateway G700 and G650. Avaya is a world with many teams and I have worked with many of them, although there are still some to know, I have been able to collaborate with the clients that I come to attend to in the solution of their requests."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: Angular
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 20%
+
+      - name: Sketch & Photoshop
+        level: 10%
+
+      - name: Avaya Configuration, Instalation ands Suport
+        level: 75%
+
+      - name: Microsoft Office
+        level: 60%      
+
+      - name: Networking
+        level: 50%   

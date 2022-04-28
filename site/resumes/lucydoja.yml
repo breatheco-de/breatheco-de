@@ -1,0 +1,131 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lucia
+    last_name: Dominguez
+    
+    # Define yourself in 4-5 words
+    motto: Civil Engineer interested in the wolrd of Computer Science. 
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Graduated in Civil Engineering from the Universidad de Costa Rica. 
+      Incorporated to the Federated College of Engineers and Architects of Costa Rica, credential N° IC-34897.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/137543451_10214935951191387_330915055320850787_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGxVvUcP84cSU1LNMb04qdGI6NsI9S-_d0jo2wj1L793Sl5sdUvK5Jnb3oI3ri5fmk&_nc_ohc=tEmKZShevHkAX_NGjwl&_nc_ht=scontent-dfw5-2.xx&oh=dd0d816380ad9a6a4e9703d9e84482f6&oe=60364D11
+
+    # Contact Information
+    email: lucydoja@hotmail.com
+    phone: +525531160532 
+    linkedin: www.linkedin.com/in/lucía-domínguez-jara
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lucydoja
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: French
+        level: Advanced (B2)
+
+      - idiom: Portuguese
+        level: Intermediate
+
+
+    # Interests or hobies
+    interests:
+      - item: Working out
+
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BSc Civil Engineering
+      university: Universidad de Costa Rica
+      # optional
+      
+      time: 2014 - 2019
+      details: Specialty areas of choice; geotechnical, transportation, hydraulic and structures.
+
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Consulting engineer
+      time: January 2020 – present
+      company: Transconsult S.A. de C.V.– 
+      # optional
+      details: Writing reports, benchmarking and information analysis for the Integral Sustainable Urban Mobility Program of the Monterrey Metropolitan Area (PIMUS-ZMM, for its Spanish initials).
+    - role: Professors’ assistant
+      time: March 2018 – December 2019
+      company: Universidad de Costa Rica
+      # optional
+      
+      details: Review and grade assignments, short exams, and projects, as well as solving students’ doubts.
+         
+    - role: Assistant
+      time: July 2015 – December 2017
+      company: Laboratorio Nacional de Materiales y Modelos Estructurales (LanammeUCR) 
+      details: Assistant in the Management and Evaluation of the National Road Network Unit, where my responsibilities included; analyzing and synthesizing data on surface irregularities (IRI), friction (GRIP), impact deflectometer (FWD) and pavement auscultation to determine the condition of Costa Rica's paved national road network, as part of the biennial evaluation report that is responsibility of LanammeUCR as the auditing body. In addition, I carried out visual auscultation work through the use of Geo3D software.
+# Your project portfolio
+projects:
+    intro: >
+      I haven't developed much as a developer.
+    assignments:
+      - title: Project 1
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Descripcion 1"
+
+      - title: Project 2
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Descripcion 2"
+
+      - title: Project 3
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Desripcion"
+
+     
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%

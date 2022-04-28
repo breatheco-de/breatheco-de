@@ -1,0 +1,93 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Silvina 
+    last_name: Valverde
+    
+    # Define yourself in 4-5 words
+    motto: Not a dreamer
+    
+    # focus
+    focus: Be myself
+    
+    
+    summary: |
+      Im a sound designer studying on IT. I like working on digital workstations in a collaborative way, 
+      I think my communicaton abilities are adequate. 
+  
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdn130.picsart.com/344247310006201.jpg?type=webp&to=min&r=640
+
+    # Contact Information
+    email: silvinavd@gmail.com #optional
+    phone: +008 008 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: silvinavd
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: 8080/Vlis
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Sound designing
+
+      - item: Running
+
+      - item: Developing
+
+# Your previous education
+education:
+    - degree: Full Stack Depelover
+      university: UTEC 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021-Now
+      
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Astronaut
+      time: 2010 - 2015
+      company: 
+      # optional
+      company_logo: https://i.pinimg.com/originals/ad/1f/b0/ad1fb0a039d5329b9c5db0d2ac8ec30b.jpg
+      
+# Your project portfolio
+projects:
+    intro: >
+      The actual project im working on is study a lot!
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Js
+        level: 70%
+
+      - name: Sketch & Photoshop
+        level: 80%
