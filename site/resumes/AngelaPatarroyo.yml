@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "Mi primera CV"
+skin: "Black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Angela
+    last_name: Patarroyo
+    
+    # Define yourself in 4-5 words
+    motto: Persistente, ambisiosa,trabajadora, emprendedora
+    
+    # focus
+    focus: Adquirir los conocimientso necesarios para convertirme en una exitosa web developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      "Tengo 7 años de experiencia trabajando en Digitasl Marketing" donde he trabajado en una variad de verticales, desde e-commerce hasta pure branding. He adquirido muchas habilidades manejando plataformas nativas de publicidad como Facebook/Instagram, Snapchat, Pinterest, TikTok entre otas.""
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.linkpicture.com/q/17191526_10154717694947415_3164112921920979587_n.jpg
+
+    # Contact Information
+    email: aangela.patarroyo@hotmail.com #
+    phone: 07477610208 #
+    linkedin: https://www.linkedin.com/in/angela-patarroyo-1026a640/ #
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: AngelaPatarroyo
+    
+    twitter: 'melbynrojo' #
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Cycling
+
+      - item: Ver peliculas independientes
+
+      - item: Programming
+
+# Your previous education
+education: 
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2022
+      details: |
+        Learned the basics of coding with Html5 and Css. 
+        Learned how to use coding social websites such as Github, Stack Overflow & Stack. 
+        Built different projections as the lessons progressed with different programs. 
+
+    - degree: 
+      university: London Metropolitan University
+      time: 2010 - 2012
+      details: |
+        
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Associate Director
+      time: 2021 - Present
+      company: OMG Global
+      
+        
+
+    - role: Associate Director
+      time: 2019 - 2021
+      company: Performics
