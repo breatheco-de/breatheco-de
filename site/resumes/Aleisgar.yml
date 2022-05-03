@@ -1,3 +1,6 @@
+template: "online-cv"
+skin: "blue"
+
 # Personal Information
 basic_info:
 
@@ -93,7 +96,7 @@ projects:
 
     assignments:
       - title: My Postcard
-        link: "
+        link: 
         tagline: "My first coding project built an interactive Postcard with Html5 and Css."
 
       - title: Instragram Feed
