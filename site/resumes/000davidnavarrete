@@ -1,0 +1,67 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: David
+    last_name: Navarrete
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      I was always interested in IT, I had studied Python, HTML and CSS on my own, although I was always working as a locksmith, because it's the family business and it's what was expected of me. 
+      Come 2021, I decided it was time to work on what I always wanted and started training on Codecademy and Udemy: in Python and GIT. 
+      In 2022, I contacted 4Geeks Academy and learned with them the rest of the skills I needed to become a web developer. 
+      I am currently a full-stack web developer, specifically, I am more attracted to front-end development, although I am passionate about the whole world of software development, and I do not rule out that my degree of interest between the different fields, may vary during my career in this world.
+
+    
+    email: davidnavarretea1996@gmail.com
+    # phone: +34 693 333 353
+    # website: dna.com 
+    linkedin: https://www.linkedin.com/in/davidnavarretea/
+    
+    
+    github: davidnavarretea
+    
+    twitter: 'NavarreteDev' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Spanish
+      - level: Native
+      - idiom: English
+        level: Intermediate
+
+    
+    interests:
+      - item: Technology
+
+      - item: Space
+
+      - item: Biotechnology
+
+
+
+# education:
+#     - degree: Full Stack Developer
+#       bootcamp: 4Geeks Academy 
+#       time: 2022
+
+
+# skills:
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & React
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
