@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nelson
+    last_name: Chang
+    
+    # Define yourself in 4-5 words
+    motto: Hakuna matata
+    
+    # focus
+    focus: Playing with my dog
+
+    # Contact Information
+    email: nelsonc924@gmail.com #optional
+    phone: Buy me a drink first #optional
+    # website: asd.com #optional
+    # linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NChang007
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Russian
+        level: Some What There
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Watching Shows/Movies
+
+      - item: Cooking
+
+      - item: Billiards
+
+      - item: Cars
+
+# Your previous education
+education:
+    - degree: AA in Animation & Game Art
+      university: MDC
+      time: 2018 - 2020
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Mechanic
+      time: 2022 - Present
+      company: Doral Hyundai
+     
+
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Photoshop
+        level: 97%
+      
+      - name: Maya
+        level: 100%
