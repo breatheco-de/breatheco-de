@@ -12,9 +12,6 @@ basic_info:
     first_name: Brian
     last_name: Murray
     
-    # Define yourself in 4-5 words
-    motto: I like saving the world
-    
     # focus
     focus: Learning to code
     
