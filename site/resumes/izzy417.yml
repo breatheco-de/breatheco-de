@@ -1,56 +1,48 @@
 template: "online-cv"
-skin: "green"
+skin: "blue"
 
-# personal information
 basic_info:
 
-# full name
-first_name: Israel
-last_name: Dail
+    first_name: Israel
+    last_name: Dail
+    
+    motto: sometimes I wonder if I should do something... and then I ask, why not?
+    
+    focus: creating a lucrative career for myself and my family.
+    
+    summary: Hello, my name is Israel Dail and I am learning to program. I have always been interested in computers and finally decided that I NEED to pick up on a technical skill. So I am going with programming, I am starting off with the full-stack program but I don't plan on stopping there in terms of learning. I want to learn all facets of programming little by little.
+    
 
 
-#motto
-motto: sometimes I wonder if I should do something... and then I ask, why not?
+    email: israeldail2@gmail.com
+    phone: 786 431 7401
+    website: 
+    
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: izzy417
+    
+    twitter: DailIsrael
+    stack-overflow: 
 
+    languages:
+      - idiom: English
+        level: Professional
 
-#focus
-focus: creating a lucrative career for myself and my family.
+      - idiom: Spanish
+        level: Native
 
-#summary
-summary: Hello, my name is Israel Dail and I am learning to program. I have always been interested in computers and finally decided that I NEED to pick up on a technical skill. So I am going with programming, I am starting off with the full-stack program but I don't plan on stopping there in terms of learning. I want to learn all facets of programming little by little.
+      
 
+    interests:
+      - item: Running
 
-#contact information
-email: israeldail2@gmail.com
-phone: 786 431 7401
-twitter: DailIsrael
-github: izzy417
+      - item: Weight Lifting
 
-languages:
- - idiom: Spanish
-   level: Native
+      - item: Reading
 
- - idiom: English
-   level: Professional   
-  
-interests: 
-
- - item: weightlifting
- - item: running
- - item: video games
- - item: programming
- - item: customizing computer hardware
- - item: Reading
- - item: organzing things (not ocd... I think)
- - item: organzing virtual data in bulk
- - item: automating simple tasks
-
-
-Highschool: Miami Sunset Senior High
-diploma: High School Diploma
-graduation year: 2016
-
-degree: Full Stack Developer Certification
-university: 4Geeks Academy
-time: Present
-details: 16-week (300+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, FLUX, Webpack, Python, Django, RESTful API's, SQL, MongoDB, HTTP Architecture, AJAX, MVC, ORM, Migrations, Git
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2019
