@@ -11,7 +11,7 @@ basic_info:
     last_name: Odulate
     
     # Define yourself in 4-5 words
-    motto: There's more sleep after death
+    motto: There's much sleep after death
     
     # focus
     focus: Product Management
@@ -24,7 +24,7 @@ basic_info:
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://www.facebook.com/photo/?fbid=3271439556416797&set=a.1389287534632018
-    
+
     # Contact Information
     email: tofunmiodulate@gmail.com #optional
     phone: 2813231891 #optional
@@ -44,14 +44,14 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Intermediate
+      - idiom: Yoruba
+        level: Native
 
       - idiom: Spanish
         level: Professional
 
-      - idiom: Yoruba
-        level: Native
+      - idiom: French
+        level: Intermediate
       
 
     # Interests or hobies
@@ -64,10 +64,10 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MBA
+    - degree: Master of Business Admnistration
       university: Texas State University
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://www.txstate.edu/.resources/gato-template-mobilefirst/images/txst-header-logo.svg
       time: 2021-2022
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -76,29 +76,24 @@ education:
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          - Advanced Statistical Methods
+          - Organizational Behavior
+          - Professional Development
+          - International Human Resource Management
 
     - degree: BA in Human Behavior
       university: Baptisit University of the Americas
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://www.bua.edu/wp-content/uploads/2016/07/BUA-Main-Logo.png
       time: 2016 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        
 
     - degree: BSc in Economics
       university: Redeemer's University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: http://cpgs.run.edu.ng/wp-content/uploads/2020/11/LOGO-CPGS.png
       time: 2010 - 2015
+      details: 
       
 
 
