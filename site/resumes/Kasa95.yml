@@ -13,20 +13,15 @@ basic_info:
     last_name: Casanova
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Learning to code, learning to live
     
     # focus
-    focus: Killing Bad Boys
+    focus: Getting better each day
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      I studied a degree in English Studies, lived in Germany and England, moved to Valencia and 
+      finally decided to get into programming.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -36,7 +31,7 @@ basic_info:
     email: a@a.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: casanova95 #optional
     
     #
     # ******** IMPORTANT *******
@@ -48,20 +43,20 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Proficient
 
-      - idiom: Spanish
+      - idiom: Italian
         level: Professional
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Padel
 
-      - item: Snowboarding
+      - item: Crossfit
 
       - item: Cooking
 
