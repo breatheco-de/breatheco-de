@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Derick
+    last_name: Colas
+    
+    # Define yourself in 4-5 words
+    motto: Call me Skye please
+    
+    # focus
+    focus: Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have worked extensive work in public service. Being a sevant to people is something I believe to be vital and important
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: dcolas98@gmail.com #optional
+    linkedin: Derick Colas #optional
+    
+    
+    github: https://github.com/dcolas98
+    
+    Instagram: 'D_Coca_Colas' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Haitian Creole
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Rugby
+
+      - item: Anime
+
+      - item: Basketball
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Assistant Manager
+      time: 2019 - 2021 
+      company: T-Mobile Miami
+      # optional
+      company_logo: https://www.t-mobile.com/support/___sbsstatic___/sftp-sync/images/T_Mobile_logo_social.jpg
+      details: |
+        Manage group of 7 employees, and provide training to teach customer service and sales.
+        Drive sales through visual display
+        Provide Customer Service and tech support
+
+    - role: Commission Aide
+      time: 2022 - present
+      company: Florida
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        Public Service, aid constituents in finding vital resources that increase quaility of life
+        Service people looking for rent/mortage assistance. Aid law enforcement in building trust in community
+        Develop relationships with business owners, organizations, HOA's, and finiacial institutions
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
