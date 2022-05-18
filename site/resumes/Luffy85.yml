@@ -20,7 +20,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://tse3.mm.bing.net/th?id=OIP.gewsDHBehuvAIcn5ePjWMgHaD5&pid=Api&P=0&w=288&h=151
 
     # Contact Information
     email: macias85ale@gmail.com #optional
@@ -107,8 +107,3 @@ API
 Training
 Blog
 About
-
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
