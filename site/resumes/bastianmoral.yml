@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bastian
+    last_name: Moral
+    
+    # Define yourself in 4-5 words
+    motto: Searching for knowledge
+    
+    # focus
+    focus: Killing bugs
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Hi, I'm Bastián a Jr. Fullstack Development from Chile. 
+      My stack are HTML, CSS, Boostrap, Javascript, React, Python, Flask, API, SQLlite
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/87488969?s=400&u=bdfde5b53e699d73b4175989d21d7f579692e396&v=4
+
+    # Contact Information
+    email: bastihc@gmail.com #optional
+    phone: +56945857389 #optional
+    website: https://github.com/Bastianmoral #optional
+    linkedin: https://www.linkedin.com/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: bastianmoral
+    
+    twitter: 'bastihc' #optional
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Plants
+
+      - item: Hot dogs
+
+# Your previous education
+education:
+    - degree: Political Science
+      university: Universidad Diego Portales
+      # optional
+      university_logo: https://pbs.twimg.com/media/C95uV6hXUAA3mI7?format=jpg&name=large
+      time: 2011 - 2015
+      details: |
+        Estudié Ciencia Política una vez saliendo de la universidad ya que estaba muy interesado
+        en el poder y el estudio del mismo. Aquí me dí cuenta d emi amor por la estadística y los métodos
+        cuantitativos. 
+          - Filosofía POlítica
+          - Metodología Cauntitativa
+# Your previous job experiences or voluntier
+experiences:
+    - role: Jefe de administración y logisitca Cáñamo. 
+      time: 2015 - 2020
+      company: Cañamo Chile
+
+    - role: Encargado de sistemas y redes. 
+      time: 2020 - present
+      company: Siembra Chile
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 80%
+
+      - name: Javascript & React
+        level: 90%
+
+      - name: Node.js
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Figma
+        level: 60%
