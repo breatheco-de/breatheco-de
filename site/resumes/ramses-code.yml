@@ -1,0 +1,93 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ramses
+    last_name: Cevallos
+    
+    # Define yourself in 4-5 words
+    motto: I love to learn new skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+
+    # Contact Information
+    email: cevallosramses@gmail.com 
+    phone: +52 812 509 8880
+    linkedin: www.linkedin.com/in/ramses-cevallos
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ramses-code
+    
+    twitter: ramses_cev
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading books
+
+      - item: watching movies
+
+# Your previous education
+education:
+    - degree: High School diploma
+      time: 2019
+
+# Your project portfolio
+projects:
+    assignments:
+      - title: Postcard
+        # optional
+        link: "https://github.com/ramses-code/Postcard.git"
+        tagline: "A digital postcard with html and CSS."
+
+      - title: Instagram post
+        # optional
+        link: "https://github.com/ramses-code/Insta-Post.git"
+        tagline: "A photo post with html and CSS."
+
+      - title: Excuse Generator
+        # optional
+        link: "https://github.com/ramses-code/Excuses-Project.git"
+        tagline: "A project that generate random excuses. html, CSS3 and Javascript."
+
+      - title: Bootstrap photo feed
+        # optional
+        link: "https://github.com/ramses-code/bootstrap-project.git"
+        tagline: "A responsive phot feed webpage using html and Bootstrap"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5
+        level: 50%
+
+      - name: CSS & Bootstrap 4.6
+        level: 40%
+      
+      - name: Python
+        level: 40%
+
+      - name: SQL
+        level: 40%
+
+      - name: C
+        level: 30%
