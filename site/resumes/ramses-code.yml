@@ -47,6 +47,7 @@ basic_info:
 # Your previous education
 education:
     - degree: High School diploma
+      university: N/A
       time: 2019
 
 # Your project portfolio
