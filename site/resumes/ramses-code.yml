@@ -50,6 +50,12 @@ education:
       university: N/A
       time: 2019
 
+# Your previous job experiences or voluntier
+experiences:
+    - role: Pricing
+      time: Present
+      company: 100 Logistics
+
 # Your project portfolio
 projects:
     assignments:
