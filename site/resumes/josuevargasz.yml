@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Roger Josue
+  last_name: Vargas Zuñiga
+
+  # Define yourself in 4-5 words
+  motto: Eagerness is the first step of learning, keep that mindset through the whole process and you will accomplish your goals.
+
+  # focus
+  focus: Programming and getting better everyday, step by step
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Creative Systems Engineer and Software developer based in Costa Rica, with a passion for building responsive websites and pixel-perfect UI's, proficient and self-sufficient in JavaScript, HTML, CSS, SASS, React, Git, GitHub, among other tools. Currently, becoming a full-stack engineer and sharpening my front-end skills. I'm always open to learn new technologies and seize new opportunities.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/68032186?s=400&u=d15a35fee4e44490ab3b33bd47f8301ac920e1bd&v=4
+
+  # Contact Information
+  email: jovazu17@gmail.com #optional
+  phone: +506 8605 6357 #optional
+  website: https://josuevargasz.github.io/portfolio-app/ #optional
+  linkedin: https://www.linkedin.com/in/josue-vargas-zuñiga-260681190/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: josuevargasz
+
+  twitter: "" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Bilingual
+
+  # Interests or hobies
+  interests:
+    - item: Fitness
+
+    - item: Music
+
+    - item: Coding
+
+# Your previous education
+education:
+  - degree: BSc in Systems Engineering
+    university: UISIL
+    # optional
+    university_logo: https://uisil.ac.cr/files/branding/navbar-logo.png?592590173
+    time: 2017 - 2020
+    details: |
+      Deep focus on different branches that make up Systems engineering as a whole, such as the understanding of project management, software development, and computer networking.
+# Your previous job experiences or voluntier
+experiences:
+  - role: Cisco consultant engineer
+    time: 2022 - 2022
+    company: Sykes, Costa Rica
+    # optional
+    company_logo: https://www.sykescostarica.com/wp-content/uploads/2020/10/Logo-CR-X2.png
+    details: |
+      Tier 1 support engineer for the Cisco technical assistance center, giving support to Cisco's ASA and Firepower firewalls
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: The movie shelf
+      # optional
+      project_logo: https://firebasestorage.googleapis.com/v0/b/portfolio-app-b4a43.appspot.com/o/the_movie_shelf_logo.png?alt=media&token=ad5754a0-df58-4dca-ba8d-5a517018bf7d
+      link: https://josuevargasz.github.io/the-movie-shelf/
+      tagline: "A responsive website designed to explore your favorite movies, tv shows, and celebrities in the cinema industry."
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React
+      level: 90%
+
+    - name: Typescript
+      level: 85%
+
+    - name: HTML5
+      level: 90%
+
+    - name: CSS and SASS
+      level: 98%
+
+    - name: Angular
+      level: 60%
