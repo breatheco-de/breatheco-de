@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrés
+    last_name: Halac
+    
+    # Define yourself in 4-5 words
+    motto: Opportunities dance with those on the dance floor
+    
+    # focus
+    focus: Ask and Learn 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I've been working in technology for a few years, especially in the business development part,
+ now it's time to create it, challenge myself and explore new paths.
+
+   
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: andreshalac@gmail.com
+    linkedin: Andres Sebastian Halac 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/andreshalac
+    
+  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - Language: Spanish
+        level: Native
+
+      - Language: English
+        level: Professional
+
+      - Language: Portuguese
+        level: Intermediate
+
+   
+
+# Your previous education
+education:
+    - degree: MSc in Social Communications
+      university: Universidad de Nacional de Misiones, Argentina 
+      
+      details: 
+
+          
+
+    - Master Degree: Corporate & Strategic Communication
+      university: Universidad de Málaga, España. 
+      
+      details: |
+
+   - Doctorate: Phd in Economics 
+     university: Universidad de Málaga, España. 
+
+JOB EXPERIENCE:
+
+    - role: Country Manager 
+      time: 2020 - Now
+      company: Uali Drones
+      
+        I am in charge of operations, business development, talent acquisition and market expansion of Uali,
+        a company that integrates drone technology, AI, ML to value assets in the energy industry.
+
+
+# Your project portfolio
+projects: in process
+
+skills:
+    toolset:
+      - name: Python 
+        level: ...
+
+      - name: Javascript 
+        level: ...%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: ...%
+
+     -  name: React
+         Level: ...%
+
+      - name: PM Tools (Jira, Trello, BaseMap, Pipeline) 
+        level: 80%
