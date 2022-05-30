@@ -79,6 +79,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+    - 
    
 # Your previous job experiences or voluntier
 experiences:
@@ -168,9 +169,6 @@ skills:
         level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
         level: 98%
 
       - name: HTML5 & CSS
