@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Tomás
+    last_name: Carranza Caparros
+    motto: Full Stack Developer
+    avatar: https://drive.google.com/file/d/1DUbbQhH_-aEwlk4iBk4Q9HKF0Zf9_huO/view?usp=sharing
+    summary: |
+      Siempre me motivo el añadir nuevas habilidades a mi caja de herramientas, actualmente estoy cursando un Bootcamp de Desarrollo Web Full Stack, aprendiendo a 
+      mejorar mi pensamiento lógico y a desarrollar una variedad de proyectos de progamación.
+    # Sidebar links
+    email: tomascarranzac@gmail.com
+    phone: +34 673 09 52 70
+    linkedin: /tomascarranza/
+    github: TomasCarranzaC
+    
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Intermedio
+
+    interests:
+      - item: Hacer deportes
+
+      - item: Programar
+
+      - item: Cocinar
+      
+      - item: Aprender nuevas habilidades
+
+educacion:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2022 - present
+      details: |
+        Bootcamp intensivo de cuatro meses para Desarrollador Web Full Stack durante los cuales estoy aprendiendo a mejorar mi pensamiento lógico y desarrollar una amplia gama de proyectos de programación con HTML5, CSS, Bootstrap, Java Script, React JS, Python, Flask, MySQL Alchemy y más.
+    - degree: Diplomado en Marketing Digital
+      university: Blas Pascal 
+      time: 2017 - 2018
+      details: |
+        Diplomado de 1 año de duración en el que aprendí las herramientas mas importantes del marketing digital y como ponerlas en práctica, incluyendo Google Ads, Facebook Ads, YouTube Ads, SEO, etc.
+experiences:
+    - role: Representande de ventas B2B
+      time: 2021 - Present
+      company: Energy to Market (Trader de energía)
+      details: |
+       Puesto de ventas orientado a la generación de leads a traves de llamadas en frío a empresas de la industria Mexicana.
+    - role: Encargado de local comercial
+      time: 2020 - 2021
+      company: CELL FOX (Locales comerciales de productos tecnológicos y servicio técnico)
+      details: |
+        Encargado de atención al público y ventas
+   
+projects:
+    intro: >
+    
+    assignments:
+      - title: Instagram Photo Feed
+        link: https://github.com/TomasCarranzaC/Instagram-Feed-Bootstrap
+        tagline: "Un feed de fotos de Instagram responsive con HTML5, CSS y Bootstrap."
+
+      - title: Excuse Generator
+        link: "#https://github.com/Asanchez-2/tutorial-project-excuse-generator-javascript"
+        tagline: "Exercise based in getting a random excuse onloading the browser with JavaScript."
+
+      - title: Domain Generator
+        link: "#https://github.com/Asanchez-2/The-Domain-Name-Generator"
+        tagline: "A exercise based in getting a complete list of domain using arrays and loops."
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: 60%
+      
+      - name: Python/Flask
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
