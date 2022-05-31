@@ -9,13 +9,13 @@ basic_info:
     last_name: Bartos Pérez
     
     # Define yourself in 4-5 words
-    motto: I like all in the world
+    motto: I like the life
     
     # focus
     focus: learn and practice
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
+    summary: 
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
@@ -25,7 +25,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: IMG_6769.jpg.jpg
+    avatar: https://avatars.githubusercontent.com/u/102585101?v=4
 
     # Contact Information
     email: ana.l.bartos@gmail.com #optional
@@ -36,7 +36,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/anabartos
+    github: anabartos
     
     #twitter: 'webjeda' #optional
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -79,7 +79,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - 
+     
    
 # Your previous job experiences or voluntier
 experiences:
@@ -135,7 +135,7 @@ projects:
     assignments:
       - title: Velocity
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo: https://4geeks.co/wp-contentG/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
@@ -165,13 +165,16 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Flask
+        level: 20%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript & React
+        level: 30%
 
       - name: HTML5 & CSS
         level: 95%
+
+      - name: GIT
+        level: 50%
 
       
