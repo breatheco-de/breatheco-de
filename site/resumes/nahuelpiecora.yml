@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Nahuel
+    last_name: Piecora
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Be the change you want to see in the world.
     
     # focus
-    focus: Killing Bad Boys
+    focus: 
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -32,45 +32,44 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: nahuelpie@live.com #optional
     phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    website: nahuelpiecora.com #optional
+    linkedin: NahuelPiecora #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: nahuelpiecora
     
-    twitter: 'webjeda' #optional
+    twitter: 'NahuelCreates' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
+        level: Fluent
 
       - idiom: Spanish
-        level: Professional
+        level: Fluent/Native
+
+    
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Working out
 
-      - item: Snowboarding
+      - item: Reading
 
-      - item: Cooking
+      - item: turning my ideas into reality
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: AS 
+      university: Broward College
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2012 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
