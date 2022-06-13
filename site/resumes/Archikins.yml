@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Nelson  
+    last_name: Ferreira
+    motto: Fullstack developer at Jump into tech
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQH05YqXXGVldQ/profile-displayphoto-shrink_200_200/0/1588101503941?e=1660780800&v=beta&t=LJ2MpZ8oyHdT90Lbp7mXr1x7bDKSMhxO1wkFIJrVpK0
+    summary: |
+      Full-stack Developer | Focused on Python3+ and Django/Flask, deep knowledge in Django-REST framework combined with React. Always looking to learn more and improve myself. Native in Spanish, Fluent in English and Catalan, basic Portuguese and Italian.
+
+    # Sidebar links
+    email: ferreiranelson17295@gmail.com  
+    phone: +34 654455288
+    website: www.linkedin.com/in/nelson-ferreira-050887a9 #do not add http://
+    linkedin: Nelson Ferreira
+    github: Archikins
+    twitter: 'archie_f'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Professional
+
+      - idiom: Portuguese
+        level: Medium
+
+    interests:
+      - item: Go out with friends
+
+      - item: Reading
+
+      - item: Beach
+
+      - item: Playing videogames
+
+      - item: Learning
+
+education:
+    - degree: Fullstack Developer
+      university: 4Geeks Academy
+      time: 2022 - Present (in final project)
+      details: |
+
+experiences:
+    - role: Fullstack Developer
+      time: 2020 - Present
+      company: JIT | Jump into tech
+      details: |        
+        Development of web projects, integration with APIs, custom modules, DevOps
+        · Python/Django
+        - Integration with APIs (Django REST Framework)
+        · Python/Flask
+        · AWS
+        - Project Deployment
+        - Server Maintenance
+        Use of Agile Technologies, GitHub for version control.
+
+    - role: Web Developer
+      time: 2017 - Present
+      company: Freelance
+      details: |        
+        Elaboration of all kinds of commercial web projects. From mockups to custom web design and development.
+        · Python/Django
+        - Corporate websites (Django/React/Bootstrap)
+        - Ecommerce (oscar)
+        - Custom Projects (PWA)
+        · Wordpress
+        - Corporate websites (Elementor PRO)
+        - Ecommerce (WooCommerce)
+        · Shopify
+        · Magento
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/Archikins/4GeeksPostcard"
+        tagline: "Initial project of generating a postcard only using html and CSS."
+
+      - title: Instagram photofeed
+        link: "https://github.com/Archikins/4geeks-InstagramPost"
+        tagline: "Using HTML/CSS to reproduce an instragram photofeed."
+
+      - title: Instagram Card
+        link: "https://github.com/Archikins/4GeeksIntagramphoto"
+        tagline: "Using HTML/CSS to reproduce an instragram card."
+
+      - title: Instagram photofeed wwith tabs
+        link: "https://github.com/Archikins/4GeeksBootstrap"
+        tagline: "Using Bootstrap to reproduce an instragram photofeed."
+
+      - title: Jump into tech website 
+        link: "https://www.jumpintotech.com/es/inicio/"
+        tagline: "Corporate website using Bootstrap, Python, Django, and JS"
+
+      - title: Randome excuse generator
+        link: "https://github.com/Archikins/4GeeksExcuseGenerator"
+        tagline: "Using JS to generate a ramdom excuse very time the page loads"
+
+skills:
+    toolset:
+      - name: Research
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 80%
+      
+      - name: React
+        level: 20%
+
+      - name: Python
+        level: 60%
+
+      - name: Agile methodologies
+        level: 60%
+
+      - name: GIT
+        level: 60%
+      
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: Django
+        level: 50%
+
+      - name: Flask
+        level: 50%
