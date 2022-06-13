@@ -1,0 +1,108 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Stefany
+    last_name: Albarran
+    
+    # Define yourself in 4-5 words
+    motto: Desarrollando mi vida
+    
+    # focus
+    focus: Software Developer
+    
+    # You have 1 paragraph to make a great impression, summarize yons are depending upon what stage they are in their lives. I am looking for my next opportunity to progress.
+    summary: Uno de mis valores es la superación personal , por lo tanto  busco nuevas oportunidades de crecimiento y poder crecer tanto laboralmente como personalmemte. Cada reto que se me presenta , siempre intento superarlo dando lo mejor de mí y así progresar en mi carrera.
+     
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars1.githubusercontent.com/u/45376194?s=460&v=4
+
+    # Contact Information
+    email: stefanyalbarran@hotmail.com #optional
+    phone:
+    website:  
+    linkedin: https://www.linkedin.com/in/stefany-albarran/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: stephaniealbarran
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Tecnologia
+      - item: Moda
+      - item: Videojuegos
+      - item: Lenguajes de programación
+
+# Your previous education
+education: 
+    - degree: Full Stack Developer 
+      university: 4GeeksAcademy
+      time: Mayo 2022 - Agosto 2022
+      
+
+    - degree: BA Ciencias 
+      university: Gabriel García Márquez
+      time: 2012 - 2019
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Joyería y Relojería
+      time: Noviembre 2021 - Present
+      company: Fossil
+      details: Resolución de problemas, configurando smartwatch y resolviendo dudas de los clientes.
+  
+
+# Your project portfolio
+projects:
+    intro: >
+     
+
+    assignments:
+      - title: Instagram feed developed with HTML and CSS
+        link: https://github.com/stephaniealbarran/INSTAGRAM-FEED.git
+        tagline: 
+
+      - title: Post Instagram developed with HTML and CSS
+        link: https://github.com/stephaniealbarran/POST-INSTAGRAM.git
+        tagline: 
+
+      - title: Faux Instagram feed developed with HTML, CSS, and Bootstrap
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML
+        level: 30%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 20%
+        
+      - name: Javascript
+        level: 10%
+        
+   
+        
+
