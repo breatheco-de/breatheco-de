@@ -1,0 +1,70 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristian
+    last_name: Sepulveda
+    
+    # Define yourself in 4-5 words
+    motto: Software Engineer, Full Stack Development Bootcamp student, Civil Engineer by training, lover of technology and code.
+    
+    # focus
+    focus: Software Engineering
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Civil Engineer with experience managing and directing industrial projects. I have made the decision to make a change in my career and dedicate myself to what I like the most, the code. I am known for my business understanding, logical-mathematical skills, teamwork skills, leadership and honesty.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/foto.png
+
+    # Contact Information
+    email: csepulvedavenegas@gmail.com #optional
+    phone: +56 966724185 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: crisepu
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: basic
+
+      - idiom: Spanish
+        level: native
+
+    # Interests or hobies
+    interests:
+      - item: Surf
+
+      - item: Soccer
+
+      - item: Formula 1
+
+# Your previous education
+education:
+    - degree: Civil Engineering
+      university: Universidad del Bío Bío
+      # optional
+      university_logo: 
+      time: 2011 - 2017
+      details: |
+        
+
+# Your previous job experiences or voluntier
