@@ -1,4 +1,10 @@
- # Your full name
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
     first_name: Santiago
     last_name: Acevedo
 
@@ -23,7 +29,7 @@
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: NealXero
+    github: SantiXero
 
     twitter: lNealXero #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
