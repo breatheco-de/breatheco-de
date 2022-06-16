@@ -25,13 +25,13 @@ basic_info:
 
   # Your profile picture URL
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  avatar: https://i.imgur.com/SariO31.jpg
 
   # Contact Information
-  email: samuelpalacios@1234.com #optional
+  email: samuelpl0888@gmail.com #optional
   phone: +1 347 123 456 #optional
   website: asd.com #optional
-  linkedin: samuel #optional
+  linkedin: https://www.linkedin.com/in/samuel-palacios-216394242/ #optional
 
   #
   # ******** IMPORTANT *******
