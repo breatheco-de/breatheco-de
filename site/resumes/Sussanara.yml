@@ -66,7 +66,7 @@ education:
               en Comunicación Social
       university: Universidad Santo Tomás
       # optional
-      university_logo:
+      university_logo: m
       time: 2011 - 2015
       details: 
         
@@ -76,7 +76,7 @@ experiences:
       time: 2018 - 2020
       company: Asociación Nacional de la Prensa A.G
       # optional
-      company_logo: 
+      company_logo: m
       details: Responsable de coordinar y gestionar todos los estudios y
       proyectos de la ANP:
        Barómetro de Acceso a la información.
@@ -93,7 +93,7 @@ experiences:
       time: 2017 - 2018
       company: Editorial Zig-Zag S.A 
       # optional
-      company_logo: 
+      company_logo: m
       details: 
         Asistente de marketing y comunicaciones en el área de
         marketing, reemplazo de pre y post natal, a cargo de la
@@ -109,7 +109,7 @@ experiences:
       time: 2016
       company: D & V Comunicaciones
       # optional
-      company_logo: 
+      company_logo: m
       details: 
         Coordinación y ejecución de proyectos de RSE de Grupo
         Enersis, Endesa Chile y Chilectra para la Gerencia de
@@ -119,7 +119,7 @@ experiences:
       time: 2015 freelance
       company: Productora Open Previa S.A
       # optional
-      company_logo: 
+      company_logo: m
       details:    
         Producción de eventos, stands, creación de base de datos
         para actividades de la compañía Chilectra S.A.
@@ -128,7 +128,7 @@ experiences:
       time: 2015
       company: Enersis S.A
       # optional
-      company_logo: 
+      company_logo: m
       details: 
         Práctica profesional realizada en el área de Servicios 
         de comunicaciones en la Gerencia de Comunicación de
