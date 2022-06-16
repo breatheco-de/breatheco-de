@@ -49,6 +49,9 @@ basic_info:
       - idiom: Español
         level: Nativo
 
+      - idiom: m
+        level: m
+
 
     # Interests or hobies
     interests:
