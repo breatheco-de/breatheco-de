@@ -39,14 +39,14 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this:
-    github: Jp7720
+    github: Shoktapus
 
     twitter:  #
     stack-overflow: #
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Español
+      - idiom: English
         level: Native
 
       - idiom: Spanish
