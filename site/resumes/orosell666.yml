@@ -7,24 +7,23 @@ basic_info:
     first_name: Oriol
     last_name: Rosell
     
-    motto: Dedication, learning, caring, helping, active
+    motto: Dedication, learning, applying
     
     
     focus: Learning everything I can about web development. 
     
     
     summary: |
-      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer.
-
+      Keeping building
     
    
-    avatar: 
+    avatar: src="https://avatars.githubusercontent.com/u/95528052?s=400&u=22fe49875b30fafea2d803a9fa5a4e277fc6e14a&v=4"
 
     
-    email: marichaljoshua@gmail.com
+    email: o.rosell.ribas@gmail.com
     # phone: 954 297 3940 
     # website: asd.com 
-    linkedin: https://www.linkedin.com/in/joshuamarichal/
+    linkedin: https://www.linkedin.com/in/orosell/
     
     
     github: orosell666
@@ -35,7 +34,13 @@ basic_info:
     
     languages:
       - idiom: English
-        level: Proficiency
+        level: Proficiency   
+      - idiom: German
+        level: Basic
+      - idiom: Spanish
+        level: Native
+      - idiom: Catalan
+        level: Native         
 
     
     interests:
