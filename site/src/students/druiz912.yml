@@ -1,11 +1,18 @@
-About: >
+template: "online-cv"
+skin: "blue"
 
- Hello i'm Daniel
+basic_info: 
 
- From Spain and I like to
+  #Información del perfil
+  name: Daniel Ruiz González
+  tagline: FullStack Developer
+  avatar: profile.png
 
- Play videogames.
-
-Car:
-  movil: 685
-  email: druiz
+  #sidebar links
+  email: druiz264@gmail.com 
+  phone: 685 
+  website: druiz912.github.io
+  linkedin: druiz
+  github: druiz912
+  twitter: raphidden
+  stack-overflow: druiz912
