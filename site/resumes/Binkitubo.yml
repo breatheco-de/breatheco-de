@@ -115,7 +115,7 @@ experiences:
 
     - role: Administrative Assistant
       time: 2019 - 2019
-      company: Nadal Cerrajeria Decoración SL, Valencia, Spain
+      company: Nadal Cerrajeria Decoración SL, Xativa, Spain
       # optional
       company_logo: 
       details: |
@@ -128,9 +128,54 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Bartender
+      time: 2020 - 2020
+      company: La Miga Artesanal, Xativa, Spain
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point          
+
+    - role: Blacksmith
+      time: 2020 - 2020
+      company: Nadal Cerrajeria Decoración SL, Xativa, Spain
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Store Clerk
+      time: 2020 - 2021
+      company: Nadal Cerrajeria Decoración SL, Xativa, Spain
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Treatment and Coating of Metals
+      time: 2021 - 2021
+      company: Galol SA, L'Olleria, Spain
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -172,19 +217,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 0%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 10%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 80%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 10%
