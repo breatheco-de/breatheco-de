@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  # Profile information
+  first_name: Victor
+  last_name: Seidman
+  motto: Goals don't get closer if you dont chase them.
+  summary: |
+    I've been working on Technical support for around 2 years and i'm looking 
+    for a growth opportunity as a Developer.
+
+  # Sidebar links
+  email: victorseidman@gmail.com
+  phone: +58 4244591816
+  linkedin: https://www.linkedin.com/in/victor-seidman-balza-91a660168/
+  github: vseidman
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+    - item: Technology
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022 - 2022
+    details: |
+      Front end coding Java Script
+      back end coding python
+        - FlaskSQL
+        - REST APIs
+
+experiences:
+  - role: Technical support
+    time: 01/2015 - 05/2017
+    company: TX-CELCOM
+    details: |
+      Hardware and software support.
+        
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    # - title: Game Finder
+    #   # link: "#hook"
+    #   tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: Java
+      level: 75%
