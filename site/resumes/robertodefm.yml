@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Roberto
+    last_name: De Freitas
+    
+    # Define yourself in 4-5 words
+    motto: Enthusiast, involved, focus, loyal
+    
+    # focus
+    focus: Grow as a software developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Businessman, operations manager and computer engineering student, with the desire to be the best in the world of software developer and computer science.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: robertodefm@gmail.com #optional
+    phone: +351 924 369 382 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/roberto-de-freitas #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/robertodefm
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portugues
+        level: B2
+
+      - idiom: English
+        level: A2
+
+    # Interests or hobies
+    interests:
+      - item: Cooding
+
+      - item: Gaming
+
+      - item: Take a walk
+
+# Your previous education
+education:
+    - degree: Informatics Engineering
+      university: Universidad Catolica Andres Bello (Venezuela)
+      # optional
+      university_logo: 
+      time: 2013 - 2015
+      details: |
+        Started but not completed.
+
+    # - degree: BSc in Applied Mathematics
+    #   university: Bristol University
+    #   # optional
+    #   university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   time: 2007 - 2011
+    #   details: |
+    #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #     pretium quis, sem.
+    #       - Bullet point
+    #       - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Businessman
+      time: 2018 - 2022
+      company: Inversiones Alibacco, c.a.
+      # optional
+      company_logo: 
+      details: |
+        Operations manager and owner.
+
+#     - role: Senior Software Engineer
+#       time: 2014 - 2015
+#       company: Google, London
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+#     - role: UI Developer
+#       time: 2012 - 2014
+#       company: Amazon, London
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+# # Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Pascal
+        level: 80%
+      
+      - name: C++
+        level: 30% 
+
+      - name: Javascript 
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Photoshop & Premiere
+        level: 60%
