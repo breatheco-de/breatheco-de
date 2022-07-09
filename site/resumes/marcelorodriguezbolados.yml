@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcelo
+    last_name: Rodríguez
+    
+    # Define yourself in 4-5 words
+    motto: Un leon jamas voltea cuando un perro ladra
+    
+    # focus
+    focus: diciplina
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Poseo 2 carreras profesionales asociadas al mundo de la Ingeniería.
+      Actualmente me encuentro en desarrollo para ser Full-Stack Software Developer en 4geekz academy Chile.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp2.licdn.com/dms/image/C5103AQGblGyTEY54RQ/profile-displayphoto-shrink_800_800/0/1517617714834?e=1662595200&v=beta&t=8xD1k144Hd93c-AuFilcjol2FQp61UQwAAw_fwhvY0E
+
+    # Contact Information
+    email: marcelofabianrb@gmail.com #optional
+    phone: +56954045560 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/marcelo-fabi%C3%A1n-rodr%C3%ADguez-bolados-87767011a/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marcelorodriguezbolados
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Chino mandarín
+        level: intermedio 1
+
+      - idiom: Inglés
+        level: intermedio
+
+      - idiom: Spanish
+        level: nativo
+
+    # Interests or hobies
+    interests:
+      - item: lectura
+
+      - item: entrenamiento gimnasio
+
+      - item:
+
+# Your previous education
+education:
+    - degree: Ingeniería Civil Industrial.
+      university: Universidad San Sebastían.
+      # optional
+      university_logo: https://media-exp2.licdn.com/dms/image/C4E0BAQG7hdFWBWy56A/company-logo_200_200/0/1540213790667?e=1665619200&v=beta&t=gG1p32BZ1ad_h8JT2Lw9F1_wNx3chkyTCDTkcUr8b0w
+      time: 2018 - 2021
+      details: |
+        
+    - degree: Ingeniería en Prevención de Riesgos, calidad y ambiente.
+      university: INACAP
+      # optional
+      university_logo: https://media-exp2.licdn.com/dms/image/C4E0BAQFrWhI3SbcbVg/company-logo_200_200/0/1544534751726?e=1665619200&v=beta&t=4cWgFZepQYuH40iLq6zUT3nD0KD5QbcDlpgOlfMlpng
+      time: 2010 - 2014
+      details: |
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Asesor gubernamental 
+      time: ene. 2019 - actualidad
+      company: Asociación Chilena de Seguridad.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Asesorar a empresas gubernamentales en materia de prevención de riesgos laborales adheridas la Asociación Chilena de Seguridad: 
+        Corporación Administrativa del Poder Judicial.
+        Ministerio de Obras Púbicas.
+        Dirección del Trabajo.
+    -
+      # optional
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      
+skills:
+    toolset:
+      
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap.
+        level: 50%
+
+      
