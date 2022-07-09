@@ -1,0 +1,68 @@
+# 
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bairon
+    last_name: Navia
+    
+    # Define yourself in 4-5 words
+    motto: Centrado en mis metas
+    
+    # focus
+    focus: Cumplir mis metas
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy un estudiante de 4geeck que se esta integrando al mundo de la programacion 
+      para comenzar mi carrera como programador y desarrollamre en este mundo aun no 
+      tengo un area preferida pero estoy abieto a cualquier area para aprender y crecer en ella 
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+
+    # Contact Information
+    email: bairon97@icloud.com #optional
+    phone: +56 9 74983902 #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Bairon00
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: English
+        level: Básico
+
+    # Interests or hobies
+    interests:
+      - item: deportes
+
+# Your previous education
+education:
+    - degree: Ingenieria civil (incompleta)
+      university: Universidad de Valparaiso
+      time: 3 años
+      # optional
+
+skills:
+    toolset:
+        - name: HTML5 & CSS
+        level: 50%
