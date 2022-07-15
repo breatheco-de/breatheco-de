@@ -1,0 +1,71 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: William
+    last_name: Koonz
+    motto:  It's a marathon, not a sprint
+    avatar: 
+    summary: I've been a full time trader in the equities & crypto markets for 5 years until I've recently grown quite 
+      fond of how software & web applications are actually built. This led me down the rabbit hole of software Engineering
+      which I dove into head first with HTML & CSS and continued learning from there. Excited to see where this field takes me
+      and the opportunities that can come from it.
+      
+
+    # Sidebar links
+    email: williamgeorgekoonz@gmail.com
+    phone: (602) 354 0599
+    github: koonzinc
+
+    languages:
+      - idiom: English
+        level: Advanced
+
+
+    interests:
+      - item: Golf
+
+      - item: Working out
+
+      - item: Cycling
+
+      - item: Swimming
+
+      - item: Traveling
+
+
+education:
+    - degree: High School Diploma
+      university: Shaker High School
+      time: 2013 - 2017
+
+experiences:
+    - role: Retail Equities/Crypto Trader
+      time: 2017 - 2022
+      company: Self Employed
+      details: |
+        Trading equities and crypto on medium to longer term time frames based on technicals, fundamentals and market sentiment with an
+        emphasis on technicals
+
+
+projects:
+    intro: >
+      I am new in github
+
+skills:
+    toolset:
+
+      - name: HTML
+        level: Intermediate
+
+      - name: CSS
+        level: Intermediate
+
+      - name: Javascript
+        level: Beginner
+
