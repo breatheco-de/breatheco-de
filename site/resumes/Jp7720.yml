@@ -1,0 +1,149 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jeffry
+    last_name: Porras Barahona.
+
+    # Define yourself in 4-5 words
+    motto: Personable, innovative, Dreamer, Wonderlust
+
+    # focus
+    focus: Learning tools to become a software developer in tech/fintech
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      "My career until now has been choatic, fun and challenging. I have been able to learn from different companies how to become a
+      well rounded individual. My love of learning has pulled me into different directions now leading up to learning how to code, build websites and possibly change the world.
+      I have been able to adapt in very different positions, from managing a fast food resturant with over 75 employees, to handling over 100
+      catastrophe cases in different states and learning how to exercise empathy. Now I am learning how to write computer code and be able to build a dream to reality.
+      In the next 6 months I believe to acquire a junior developer position in a kick ass company.
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: jeffryporrasbarahona@gmail.com #
+    phone: (506) 89-57-09-39 #
+    website:  #
+    linkedin: #
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this:
+    github: Jp7720
+
+    twitter:  #
+    stack-overflow: #
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Playing the drums
+
+      - item: Adventures with my family
+
+      - item: Book Clubs
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2019 - Present
+      details: |
+        Learned the basics of coding with Html5 and Css.
+        Learned how to use coding social websites such as Github, Stack Overflow & Stack.
+        Built different projections as the lessons progressed with different programs.
+
+    - degree: Bachelor's in Mass Communications
+      university: Florida International University
+      time: 2007 - 2010
+      details: Focus in Advertising & Marketing
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Claims Adjuster
+      time: 2017 - Present
+      company: Assurant, Miami
+      details: |
+        Fast paced energetic environment and results driven while providing
+        exceptional customer service. Daily review of property damage claims
+        information from the Independent Adjusters, complete the investigation
+        process and resolve the claim. Exercise strong organizational abilities and
+        empathetic interpersonal skills to assist the clients.
+        Investigate and adjust claims according to applicable laws and
+        policy provisions.
+        Build and maintain effective internal and external working
+        relationships. Collaborate with internal support teams and
+        management as appropriate.
+        Collabrated with Puerto Rico field office in handling over
+        16,000 Hurricane Maria Claims.
+
+    - role: Assistant Manager
+      time: 2008 - 2017
+      company: McDonald's, Miami
+      details: |
+        Performed a variety of tasks such as planning monthly goals,
+        hire and retain quality employees, inventory management,
+        scheduling employees while adhering to Florida
+        workplace guidelines, training employees and
+        shift managers in food safety, customer service
+        and daily maintance and cleanliness
+        Food Safety Certification
+        Outstanding Assistant Manager 2015
+
+# Your project portfolio
+projects:
+    intro: >
+        Currently working in building an excuse generator with Bootstrap.
+
+    assignments:
+      - title: My Postcard
+        link: "#"
+        tagline: "My first coding project built an interactive Postcard with Html5 and Css."
+
+      - title: Instragram Feed
+        link: ""
+        tagline: "My second coding project further used my Css skills and learned how to make a responsive website."
+
+      - title: Collab Project
+        link: ""
+        tagline: "My first collboration with other students in my cohort. Built the Navbar using Bootstrap 4."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Ruby on Rails
+        level: 25%
+
+      - name: Quickbooks
+        level: 60%

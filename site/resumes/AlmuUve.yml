@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Almu
+    last_name: Velázquez
+    motto: Learning everyday 
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFMlDCGlHC9Qw/profile-displayphoto-shrink_200_200/0/1610836398056?e=1616630400&v=beta&t=3XuUH1N5zm6cfTQiesDBR-ln7z9boGMhVfK-P5qWdcI
+    summary: |
+      Enthusiastic about communication with more than 6 years of experience in marketing agencies and departments.
+      |
+      After developing myself as a professional in communication projects, marketing, digital marketing, e-commerce, social networks, Amazon ... I decided to develop myself in the field of new technologies, learning how to program thanks to 4GeeksAcademy.
+      |
+      On a personal level, what fullfills me is learn languages, visit a museum, take a plane anywhere, enjoy a good movie or attend a concert. 
+      |
+      Curious, persevering and thoughtful, I always try to give my best in everything I do. My motto is to learn something new every day. Shall we speak? 
+
+    email: avelazqc@gmail.com 
+    phone: +34 655 422 08 
+    website:
+    linkedin: linkedin.com/in/almudenavelazquezcalzada/ 
+    github: AlmuUve
+    twitter: 
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Enslish
+        level: C1
+
+      - idiom: Mandarin
+        level: HSK3
+
+    interests:
+      - item: Arts
+
+      - item: Languages
+
+      - item: Sports
+
+      - item: Cats
+
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: jan 2021 - mar 2021
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp.
+        
+    - degree: International Scholarship in Marketing
+      university: University of Vaasa
+      university_logo: 
+      time: aug 2013 - dec 2013
+      details: International scholarship in the country with the best education of the world. Apart from learning about marketing in the Nordic countries, I had the opportunity to learn about different cultures and other ways of life.
+
+    
+experiences:
+    - role: Marketing Communications Executive
+      time: may 2019 - jan 2021
+      company: American Express Global Business Travel 
+      company_logo: https://d2osdnqd2igqfx.cloudfront.net/AcuCustom/Sitename/DAM/157/American_Express_Global_Business_Travel.jpg
+      details: As Communication Expert at American Express Global Business Travel, I develop my work in the field of external communication, by writting and translating press releases, communications to clients and content for the corporate website and social networks -as well as designing simple pieces for these communicationg in Photoshop; also, in the field of internal communication, with daily and monthly bulletins for employees, and other specific communications. 
+
+    - role: Digital Marketing Manager
+      time: feb 2018 - may 2019
+      company: The Revive Brands
+      company_logo: https://cdn.domestika.org/c_fill,dpr_auto,h_256,t_base_params.format_jpg,w_256/v1559910050/avatars/001/281/750/1281750-original.png?1559910050
+      details: As Marketing Manager at Waterrevive and Motorrevive I am in charge of developing the Digital Marketing strategy including E-commerce, Communication, Social Networks, SEO and Blogs, Ads and recently, Amazon Seller.
+
+
+    - role:
+      time:
+      company:
+      company_logo:
+      details:
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+    assignments:
+      - title: Digital Postcard
+        link: https://github.com/AlmuUve/Postcard
+        tagline: "My First HTML and CSS project"
+
+      - title: Instagram
+        link: https://github.com/AlmuUve/instagram-post-html-and-css.git
+        tagline: "Instagram-look-a-like feed using HTML and CSS."
+
+      - title: Form Bootstrap
+        link: https://github.com/AlmuUve/form-bootstrap
+        tagline: "A payment form using Bootstrap exclusively"
+
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 30%
+
+      - name: CSS
+        level: 60%
+
+      - name: bootstrap
+        level: 50%
+

@@ -154,7 +154,7 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 0%
+        level: 
 
       - name: Javascript
         level: 60%

@@ -1,0 +1,95 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    first_name: Andrea Valentina
+    last_name: Gallegos Duque
+    motto: Full-stack Developer
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U015SNAPD6K-2b129d850bc5-512
+    summary: |
+      
+
+    email: avalentinagd@gmail.com
+    phone: 692645769
+    website: 
+    linkedin: https://www.linkedin.com/in/andrea-valentina-0337101b1/
+    github: avalentinagd
+    twitter: avalentinagd
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Basic
+        
+      - idiom: 
+        level: 
+
+    interests:
+      - item: Statistics
+
+      - item: Coding
+
+      - item: Music
+
+education:
+    - degree: Statistical Sciences
+      university: Central University of Venezuela
+      time: graduated in 2010
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with JavaScript
+      
+projects:
+    intro: 
+      
+    assignments:
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+        
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+             
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Javascript
+        level: 20%
+
+      - name: Statistics
+        level: 80%

@@ -1,0 +1,84 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Virginia
+    last_name: Martínez
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQHU7TusdlH-hw/profile-displayphoto-shrink_200_200/0?e=1610582400&v=beta&t=93TM5xhXJ9DVjc31MDeI3Hfx9eE4Qg2x7BPNBeoAA8c
+    summary: |
+      En una nueva etapa para completar mi perfil UX/UI añado ahora una pieza 
+      importante para mi desarrollo como profesional, formarme como Full Stack Developer. 
+      Todo mi conocimiento previo me ayudará a diseñar y desarrollar productos digitales que 
+      hagan la vida más fácil a las personas.
+
+    email: hola@virginiak.es
+    phone: 645 402 404
+    website: https://www.virginiak.es/
+    linkedin: https://www.linkedin.com/in/virginiakmartinez/
+    github: VirginiaKMartinez
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+        
+      - idiom: Frech
+        level: Conversational
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Cinema
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Bootstrap4
+        link: https://github.com/VirginiaKMartinez/Instagram-Bootstrap
+        tagline: "My very first project with Bootstrap 4.   --"
+
+      - title: Random Card Generator
+        link: https://github.com/VirginiaKMartinez/Conditional-Profile-Card
+        tagline: "A Instagram card generator.   --"
+        
+      - title: Domain generator
+        link: https://github.com/VirginiaKMartinez/DomainNameGenerator
+        tagline: "Domain generator, playing with JavaScript.   --"
+
+      - title: Excuse Generator
+        link: https://github.com/VirginiaKMartinez/excuseGenerator
+        tagline:  "Random excuse generator.   --"
+ 
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%

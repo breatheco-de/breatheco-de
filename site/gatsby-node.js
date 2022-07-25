@@ -5,9 +5,6 @@ const path = require("path");
 const getTemplate = (templateSlug) => {
   return path.resolve(`./src/templates/${templateSlug}/index.js`);
 };
-const getTemplatePdf = (templateSlug) => {
-  return path.resolve(`./src/templates/${templateSlug}/pdf.js`);
-};
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -88,20 +85,21 @@ exports.createPages = ({ actions, graphql }) => {
           full_name: node.basic_info.first_name + ' ' + node.basic_info.last_name
         });
         createPage({
-          path: node.basic_info.github,
+          path: `${node.basic_info.github}/profile`,
           component: getTemplate(node.template || 'online-cv'),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
             github: node.basic_info.github
           },
         });
+        // Pdf template parameters
         createPage({
-          path: `/pdf/${node.basic_info.github}`,
-          component: getTemplatePdf(node.template || 'online-cv'),
-          context: node,
+          path: `${node.basic_info.github}/pdf`,
+          component: getTemplate('pdf'),
+          context: {node},
         });
       });
-
+     
       resolve();
     });
   });

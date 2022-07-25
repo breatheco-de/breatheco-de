@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet',
     `gatsby-transformer-yaml`,
+    "gatsby-plugin-use-query-params",
     {
       resolve: `gatsby-plugin-sass`,
       options: {

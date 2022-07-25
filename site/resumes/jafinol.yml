@@ -1,0 +1,70 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Jose
+    last_name: Finol
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+     I have had an interest in web development. So I decided to jump in and take on web development head on. 
+
+    
+   
+    avatar: https://pbs.twimg.com/profile_images/1167410193606565888/tuIsaPxg_400x400.jpg
+
+    
+    email: finolweb@gmail.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/
+    
+    
+    github: jafinol
+    
+    twitter: 'jafinolc' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: High
+
+    
+    interests:
+      - item: Technology
+
+      - item: NFL
+
+
+
+
+# education:
+#     - degree: Health Services Administration 
+#       university: Florida International University 
+#       # optional
+#       university_logo: https://www.vhv.rs/dpng/d/461-4617822_fiu-panther-logo-png-mascot-florida-international-university.png
+#       time: 2011 - 2015
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+
+experiences:
+    - role: IT Support 
+      time: 2018 - Present
+      company: CCLS Miami inc

@@ -1,0 +1,114 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marco Antonio
+    last_name: Zúñiga Ugalde
+    
+    # Define yourself in 4-5 words
+    motto: persona que nunca se rinde
+    
+    # focus
+    focus: Full-Stack Web Developer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Apasionado por la tecnología, arte y la investigación. Mi cerebro siempre está creando nuevas ideas y quiere aprender de todas las especialidades. Todo está en la mente y aunque las cosas no anden bien la resiliencia es mi aliado.
+       
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQH4rHJSP4ZOoA/profile-displayphoto-shrink_800_800/0/1520894972241?e=1619049600&v=beta&t=n4DH01NEk-l6aNC5_wi4AdEutby3ccuDvbZ19lWyhQs
+
+    # Contact Information
+    email: mazuga92@gmail.com #optional
+    phone: +50686971990 #optional
+    linkedin: https://www.linkedin.com/in/marco-z%C3%BA%C3%B1iga-ugalde/ #optional
+    twitter: https://twitter.com/Marco40669826
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mzunigau
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+      
+      - idiom: Korean
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Tecnología
+
+      - item: Arte
+
+      - item: Videojuegos
+
+# Your previous education
+education:
+    - degree: Licenciatura en Ingeniería del Software
+      university: Universidad Técnica Nacional
+      # optional
+      university_logo: https://www.utn.ac.cr/sites/all/themes/utn_lx/logo.png
+      time: 2010 - 2019
+      details: |
+        Mención Honorifica Magna Cum Laude
+        Tesis de licenciatura, Estudio técnico de las características y 
+        la oferta de servicios tecnológicos digitales basados en tecnología 
+        de machine learning en la gran área metropolitana de Costa Rica 
+        en el período mayo 2017 a junio 2018.
+
+          - 3.5 GPA
+          - Cum Laude
+          - Minor in Business
+
+experiences:
+    - role: Coordinator
+      time: 2016 - 2020
+      company: Yakukua
+      # optional
+      details:
+        Crear ideas innovadoras basado en la triple utilidad.
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects that I have completed. This list will be updated as the 
+      my coding journey advances.
+
+    assignments:
+      - title: Bootstrap PostCard
+        # optional
+        tagline: "A responsive Postcard template designed with Html, CSS, and Bootstrap."
+
+      - title: Form
+        # optional
+        tagline: Fotmulario creado con HTML y CSS
+
+skills:
+    toolset:
+      - name: Angular
+        level: 80%
+
+      - name: Javascript
+        level: 85%
+
+      - name: Java
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 95%
+
