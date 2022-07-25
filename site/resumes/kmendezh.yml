@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Kendall
+    last_name: Mendez
+    motto:  I am dreamer too
+    avatar: 
+    summary: I studied Electrical Engineering with emphasis on Electronics. I found very interesting and fascinating how
+      hardware and software work together to create incredible applications. Because of that, I started learning how to program
+      and that is basically why I am here. 
+      
+
+    # Sidebar links
+    email: kendallmh22@gmail.com
+    phone: (506) 88641289
+    github: kmendezh
+
+    languages:
+      - idiom: English
+        level: Advanced
+      - idiom: Spanish
+        level: Native
+
+
+    interests:
+      - item: Video Games
+
+      - item: Drawing
+
+      - item: Photography
+
+      - item: Sports
+
+      - item: Anime and movies
+
+
+education:
+    - degree: Bachelor in Electrical Engineering
+      university: Universidad de Costa Rica
+      time: 2011 - 2016
+      details: |
+        - Emphasis on Electronics
+
+experiences:
+    - role: Software Engineer
+      time: 2016 - 2021
+      company: Avionyx
+      details: |
+        Work in the avionics industry as a verification engineer. 
+
+
+projects:
+    intro: >
+      I am new in github
+
+skills:
+    toolset:
+
+      - name: C
+        level: Advanced
+
+      - name: C++
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: HTML5
+        level: Beginner
+
+      - name: CSS
+        level: Beginner
+
+      - name: Javascript
+        level: Intermediate
+

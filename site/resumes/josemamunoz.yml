@@ -13,10 +13,10 @@ basic_info:
     last_name: Muñoz Silva
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: 
     
     # focus
-    focus: Killing Bad Boys
+    focus: 
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -30,13 +30,13 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: http://sep.breatheco.de/static/profile-images/Captura.PNG
 
     # Contact Information
     email: josema.munoz@gmail.com #optional
     phone: 9 82467164 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: https://www.linkedin.com/in/josemamunoz #optional
     
     #
     # ******** IMPORTANT *******
@@ -48,30 +48,27 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Intermediate
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Weightlifting
 
-      - item: Snowboarding
+      - item: Crossfit
 
-      - item: Cooking
+      - item: Cycling
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Ingeniero Ambiental (Environmental Engineer)
+      university: Universidad Andrés Bello
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2006 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum

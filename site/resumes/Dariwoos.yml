@@ -1,0 +1,94 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Mohamad
+    last_name: Alzaim
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQH8zIbzLyvrhw/profile-displayphoto-shrink_400_400/0?e=1610582400&v=beta&t=gZTfsZM7B9WqQqkb3TmBWpm-SbfKlRws2ptm1sQG6uM
+    summary: |
+      Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
+      Soy una persona ambiciosa y responsable. En mis anteriores trabajos y experiencias de vida he aprendido a ser perseverante, innovador y a mantener siempre una alta motivación para mi trabajo. Aprendo rápido y sé trabajar en equipo o de forma independiente. Durante los últimos años también he desarrollado un gran interés en liderar grupos y me gusta mucho compartir conocimiento con la gente. 
+      Tengo muchas ganas de aprender, practicar y crecer como programador.
+
+    email: moha.alza19@gmail.com
+    phone: 632 674 174
+    website: 
+    linkedin: https://www.linkedin.com/in/mohamad-alzaim-bb0ab81a3/
+    github: Dariwoos
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Arabic
+        level: Native
+
+      - idiom: Spanish 
+        level: Professional
+        
+      - idiom: English
+        level: Professional
+
+      - idiom: France
+        level: beginner
+
+      - idiom: Turco
+        level: beginner
+
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: juggling
+
+      - item: Sells
+
+
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+        
+
+      - title: Excuse Generator
+        link: https://github.com/Tozzigh/theExcuseGenerator
+        tagline: "Random excuse generator.   --"
+             
+      - title: The-Domain-Name-Generator
+        link: https://github.com/Dariwoos/The-Domain-Name-Generator
+        tagline: "Generator of domain with JS "
+
+      - title: Instagram Bootstrap
+        link: https://github.com/Dariwoos/insta-bootstrab
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      
+
+skills:
+    toolset:
+      - name: Python
+        level: 5%
+
+      - name: Javascript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 75%

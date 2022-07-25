@@ -1,0 +1,100 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Fernando
+    last_name: Manrique
+    motto: Full Stack Developer
+    avatar: 
+    summary: |
+      Me considero una persona meticulosa, minuciosa y constante con el trabajo bien hecho, 
+      aportando siempre el mayor grado de calidad posible, me apasiona el mundo QA y estar siempre a la vanguardia.
+      Me gustan los retos y llevarlos a cabo con éxito es siempre mi objetivo.
+    # Sidebar links
+    email: fernando.manrique.villanueva@gmail.com
+    phone: 622068147
+    website:  #do not add http://
+    linkedin: Fernando Manrique villanueva
+    github: fernado1981
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Ingles
+        level: Medium
+
+      - idiom: Frances
+        level: Medium
+
+    interests:
+      - item: Technology
+
+      - item: Bicicle
+
+      - item: travelling
+
+Education:
+    - I.E.S: FPII - higher grade telematic and computer systems
+      time: 2009 - 2011
+
+Courses:
+    - course: desarrollo de aplicaciones java y DB 11G
+      university: Oracle University
+      time: 2011 - 2012
+
+    - course: Web Pages Programming Technician with PHP and Javascript
+      university: European Institute for Business Studies && university of granada
+      time: 2020 - 2020
+  
+Certifications:
+
+    - certification: Scrum Master And Product Owner - European Scrum
+    - certification: Testing B3 - University of Alcalá
+
+
+experiences:
+    - role: QEngenier && Coach of QA
+      time: 2021 - Present
+      company: CGI
+      details: |
+
+
+    - role: QA consultor && Coach of QA
+      time: 2018 - 2020
+      company: Amaris
+      details: |
+
+    - role: QA
+      time: 2015 - 2018
+      company: Nokia  
+      details: |
+
+    - role: QA
+      time: 2014 - 2015
+      company: Alcatel - lucent  
+      details: |
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: Java
+        level: 70%
+
+      - name: Javascript & jQuery
+        level: 70%
+
+      - name: Angular
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 70%

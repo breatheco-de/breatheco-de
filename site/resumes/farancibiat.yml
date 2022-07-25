@@ -1,0 +1,126 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Felipe Tomás
+    last_name: Arancibia Torre
+    motto: Full Stack Developer
+    avatar: https://drive.google.com/file/d/1DUbbQhH_-aEwlk4iBk4Q9HKF0Zf9_huO/view?usp=sharing
+    summary: |
+      I am passionate about new technologies and I am always willing to learn something new every single day.
+      Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
+    # Sidebar links
+    email: arancibiat.felipe@hotmail.com
+    phone: +56 9 5709 7420
+    linkedin: ángel-sánchez-migallón/
+    github: Farancibiat
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced (C2)
+
+    interests:
+      - item: Coding
+      - item: Reading
+      - item: Playing Futbol
+      - item: swimming
+      - item: Sailing
+
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2021 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+
+    - degree: Tourist Business Administration
+      university: Austral University from Chile 
+      time: 2012 - 2016
+      details: |
+        In this career i went deeper on my tourist planification skills, learned a lot of public administration and community work.
+
+    - degree: Comercial Ingenier
+      university: Federico Santa Maria University
+      time: 2009 - 2012
+      details: |
+        Here i had my first proper experience programing in java, learned of Administration, Logic thinking, strong maths, industrial machines programming, between others.
+
+
+experiences:
+    - role: Administrator
+      time: June 2020 - March 2021
+      company: Pesquera Wendtfish 
+      details: |
+        My main responsabilities are to design and operate a financial control and planification for the company.
+          - Reorganize and rebuild the Human Resources information control.
+          - Reorganize the information sistems in general (i configured G-suite Workspace from zero)
+          - I  had to participate and sustain Lawyers, bank and providers negocitations.
+
+    - role: Excecutive Director
+      time: September 2019 - November 2019
+      company: Chiloé Convention Bureau Corporation
+      details: |
+        My main responsability are to reorganize the public fund that mainly sustain the company, to be approved by CORFO, and give information to the Directory board how to proceed to finish the project.
+
+    - role: Develop and Financial Director
+      time: 2016 - 2018
+      company: Turismo Pehuén
+      details: |
+        - Departamental estructuration of the company
+        - Design of the administrative sistem (financial, cash flow, documentation, accountability, proyections)
+        - Public funds postulation and operation (SERNATUR certificates).
+        - Operation manual mantention and design.
+
+projects:
+    intro: >
+     Here you can find a summary of my projects dones in 4Geeks Academy in my first 3 weeks of Bootcamp.
+    assignments:
+      - title: Pichangapp (Final Project)
+        link: "#https://github.com/Farancibiat/pichangapp"
+        tagline: "Project to reserve Football Courts in Chile. [HTML5, CSS3, Javascript, ReactJS, Flux, Context, Python, SQLALchemy, Flask, Emailjs]"
+      
+      - title: Instagram Photo Feed
+        link: "#https://github.com/Farancibiat/exercise-instagram-feed-bootstrap"
+        tagline: "A responsive instagram photo feed to practice Bootstrap. [HTML5, Bootstrap]"
+
+      - title: Contact List 
+        link: "#https://github.com/Farancibiat/contac-list-excercise"
+        tagline: "Excercise based on practice Flux, Context, and formularies. [Javascript, Formik, Yup]"
+      
+      - title: Star Wars Blog Reading List
+        link: "#https://github.com/Farancibiat/exercise-starwars-blog-reading-list"
+        tagline: "Excercise based on practice fetching third-party API's, using Flux and Context. [ReactJS, Bootstrap, React Router]"
+
+      - title: To Do list Fetch
+        link: "#https://github.com/Farancibiat/todolist-fetch"
+        tagline: "Excercise based on practice Flux and Context mainly. [Javascript, ReactJS, Flux, Context, Bootstrap]"
+
+
+skills:
+    toolset:
+
+      - name: Flux/Context
+        level: 70%
+
+      - name: Git
+        level: 70%
+
+      - name: Javascript
+        level: 70%  
+
+      - name: ReactJS
+        level: 80%
+      
+      - name: Python/Flask
+        level: 50%
+
+      - HTML5: HTML5
+        level: 98%
+
+      - name: CSS3
+        level: 60%

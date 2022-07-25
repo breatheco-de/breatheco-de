@@ -1,0 +1,82 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Juan Mario
+    last_name: Cerpeda
+    motto: Full-stack Developer
+    avatar: https://avatars2.githubusercontent.com/u/71892894?s=400&
+    summary: |
+      Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5 y javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita, continuar mi desarrollo, practicar y crecer en el sector de la programación.
+      Soy una persona muy organizada, responsable, y perseverante, orientada al cumplimiento de horarios y plazos de entrega, además tengo una natural inclinación por facilitar un clima favorable de trabajo y trabajar en equipo.
+      Tengo muchas ganas de aprender, practicar y crecer como programador, sin olvidar que llevo unos 15 años desarrollando mi vida profesional como responsable de marketing a lo que mi nueva faceta como programador también me podría hacer alacanzar nuevas metas en este campo.
+
+    email: mariocepedaortega@gmail.com
+    phone: 669 274 429
+    website: 
+    linkedin: https://www.linkedin.com/in/juan-mario-cepeda-ortega/
+    github: whario
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Dogs
+
+      - item: Football
+
+education:
+    - degree: Investigación y Técnicas de Mercado
+      university: Valladolid
+      time: 5 years
+      details: Marketing and markets reseach
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Instagram Bootsrap
+        link: https://github.com/whario/instagram-bootsrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Excuse Generator
+        link: https://github.com/whario/generador-de-excusas
+        tagline: "Random excuse generator.   --"
+        
+      - title: Conditional Profile Card
+        link: https://github.com/whario/conditional-profile-card
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+      - title: Domain name generator
+        link: https://github.com/whario/domain-name-generator
+        tagline: "This is a domains name generator.    --"
+             
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%

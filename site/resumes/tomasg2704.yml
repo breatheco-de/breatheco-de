@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tomas  
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: I like to be a Game Producer
+    
+    # focus
+    focus: To learn in order to growing everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am looking to transition into the tech world. I have always been fascinated by computers and programming.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://philipposmylonas.com/assets/themes/base/images/site/avatar_400x400.png
+
+    # Contact Information
+    email: tomasg2704@gmail.com #optional
+    phone: 639584720
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: tomasg2704
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: C1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music 
+
+      - item: Futbol 
+
+      - item: Techno
+      
+      - item: Videogames
+      
+      - item: Family
+      
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: Master of Videogame Design
+      university: University of Malaga
+      # optional
+      university_logo: 
+      time: 2015 - 2017
+      details: |
+    - degree: Computer Engineering 
+      university: Universidad Rafael Urdaneta 
+      # optional
+      university_logo: 
+      time: 2010 - 2015
+      details: |
+# Your previous job experiences or voluntier
+experiences:
+    - role: .NET Junior Developer
+      time: 2014-2015
+      company: Ingesoft CA
+      # optional
+      company_logo: 
+      details: |
+       Petroleum web app.
+       
+    - role: .NET Developer
+      time: 2017-2018
+      company: Sequel Business Solutions
+      # optional
+      company_logo: 
+      details: |
+        Lloyd's market web aps.
+    - role: Game Designer
+      time: 2018-2019
+      company: Bamboo Studios
+      # optional
+      company_logo:
+      details: |
+        GDD, Game design, levels design
+# Your project portfolio
+projects:
+    intro: >
+    assignments:
+      - title: Drink search
+        # optional
+        project_logo: 
+        link: "https://tomasg2704-reactjs-buscadorbebidas.netlify.app"
+        tagline: "Find a drink with specific parameters"
+
+      - title: Artist and lyric finder
+        # optional
+        project_logo: https://tomasg2704-reactjs-buscadorartistayletra.netlify.app
+        link: "#"
+        tagline: "Find a artis and lyrics"
+
+      - title: Image finder
+        # optional
+        project_logo: https://tomasg2704-reactjs-buscadorimagenespixabay.netlify.app
+        link: "#"
+        tagline: "Find an image in pixabay"
+
+      - title: News finder API
+        # optional
+        project_logo: https://tomasg2704-ractjs-buscadornoticias.netlify.app
+        link: "#"
+        tagline: "Make calls in an news api"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 80%
+
+      - name: Angular
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Git & YAML
+        level: 80%

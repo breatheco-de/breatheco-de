@@ -1,0 +1,108 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Attilio
+    last_name: Giglio
+    motto: Agile Methodology | Project Development&Management
+    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    summary: |
+      Business Manager with 3 year of experience in entrepreneurship and enterprises. At the moment studying Fullstack Developer at 4GeeksAcademy
+    # Sidebar links
+    email: attilio.g93@gmail.com
+    phone: +56 9 95416520
+    website: www.linkedin.com/in/attilio-giglio/ #do not add http://
+    linkedin: Attilio Giglio
+    github: AttilioGiglio
+    twitter: '@attiliogiglio'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Go out with friends
+
+      - item: Reading
+
+      - item: Play Guitar
+
+      - item: Sports
+
+education:
+    - degree: Business and Administration Engineer
+      university: Adolfo Ibañez
+      time: 2012 - 2018
+      details: |
+        I specialized in marketing and project management
+
+experiences:
+    - role: Brand Manager Assistant
+      time: 2019 - 2020
+      company: DERCO | Automotive industry 
+
+      details: |
+      Responsibilities: I establish eﬀective communication with the stakeholders involved in the business plan. Gather, monitor, analyze and present, sales and marketing KPI´s to the team, each week. At the same time to collaborate to make adjustments on the business plan. Support in the planning, implementation and review of the media plan. Analyzing data and making reports from Google Analytics/Ads, Facebook Ads (clicks, leads, CPC, CPA, CTR, ROAS). Manage, organize and prioritize the team project backlog, monitor progression, make   reviews and reports, to deliver results.
+      Achievements:
+          -  Development new and improved market analysis reports. Enhacing decision making about 7P´s. Playing a part on increasing anual sales by 17% and 5% market share. 
+          -  Lead digital media strategies. Decreasing by 7% CPC FB ads and 8% CPA Google ads, likewise an increasing by 15% sesions and 10% conversions on the website.
+
+    - role: Product Owner
+      time: 2018 - 2019
+      company: ANIMAL STUDIO | Founder-Entrepreneurship
+
+      details: |
+      Responsibilities: I was on charge of the website development and full administration (www.biobrush.cl and www.becycle.cl).
+      Achievements: 
+          -  Full Ecommerce development. From the content graphic design, to the programming with HTML, CSS and JS, under Shopify CMS and Apps from the Shopify AppStore. 
+        
+projects:
+    intro: >
+      These are some projects I done or I am working on. Some I did on my own and others with the collaboration of team members.
+
+    assignments:
+      - title: ShipBack
+        link: "https://github.com/AttilioGiglio/ShipBack.git"
+        tagline: "I collaborated with 2 more members team to develop an app to manage and delivers products change and returns"
+
+      - title: Fetch-Async-Promise-API_Dragon_Ball_Z
+        link: "https://github.com/AttilioGiglio/Fetch-Async-Promise-API_Dragon_Ball_Z.git"
+        tagline: "I build a minimalist version of Dragon Ball Z Databank with React and RESTful and public API"
+
+      - title: TodoList-API_Flask
+        link: "https://github.com/AttilioGiglio/TodoList-API_Flask.git"
+        tagline: "I create an API using the Python Flask framework using Python and Pipenv."
+
+      - title: LandingReact
+        link: "https://github.com/AttilioGiglio/landingReact.git"
+        tagline: "I build a landing page using React Function Components. The idea was to split Bootstrap components into different function Components"
+
+      - title: TodoList-Fetch
+        link: "https://github.com/AttilioGiglio/TodoList-Fetch.git"
+        tagline: "I sync my todo list with a real database, using a RESTful and public API"
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 90%
+
+      - name: Javascript & jQuery
+        level: 90%
+
+      - name: React JS
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Jira
+        level: 80%
+
+      - name: Illustrator & Photoshop
+        level: 80%

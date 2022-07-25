@@ -5,6 +5,7 @@
 		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
 </p>
 
+
 <h1 align="center">Welcome to 4Geeks Academy</h1>
 
 <h3 align="center">&lt;\ Time To Code&gt;</h3>
@@ -39,7 +40,7 @@
 
 ## About
 
-4Geeks its a big company that feels like a small company, everyone is accesible, we like human contact, we belive in tailored education, without quitting your job, and 100% focused in code: We are the Teacher Jedy's of Code.
+4Geeks is a big company that feels like a small company; everyone is accessible, we like human contact, we believe in tailored education, without quitting your job, and 100% focused on code: We are the Teacher Jedy's of Code.
 
 ## Founders
 
@@ -50,5 +51,7 @@
 ## Awards
 
 ## Alumni
+
+
 
 

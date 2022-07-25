@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "berry"
 
 # Personal Information
 basic_info:
@@ -13,10 +13,10 @@ basic_info:
     last_name: Ventura
     
     # Define yourself in 4-5 words
-    motto: Drink Whiskey, Eat Plenty, Code Hard!
+    motto: “Latina Mom in Tech!”
     
     # focus
-    focus: 
+    focus: Developing hard skills in the web-programming community.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -30,20 +30,20 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/97655806_10222248072688177_3528786087201734656_o.jpg?_nc_cat=111&_nc_sid=174925&_nc_ohc=S4l1gPTGITIAX_9F8Oi&_nc_ht=scontent-mia3-1.xx&oh=912773a2808ab838e3d1799b461de516&oe=5EF1B13C
 
     # Contact Information
     email: VioletaVentura@gmail.com #optional
-    phone: 234 2342 342 #optional
+    phone: 786 318 6841 #optional
     website: asd.com #optional
-    linkedin: https://www.linkedin.com/in/violeta-ventura-46a452103/ #optional
+    linkedin: violeta-ventura-46a452103/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: violetaventura001
     
-    twitter: 'webjeda' #optional
+    twitter: 'ilovejazzy4_7_1' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -61,17 +61,17 @@ basic_info:
     interests:
       - item: Cooking
 
-      - item: Boxing
+      - item: Front-End Web Design
 
-      - item: Podcasting
+      - item: Traveling
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Associate of Arts - AA
+      university: Miami Dade Community College
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://www.mdc.edu/college_wide/template14/img/mdc-logo-inverse.png
+      time: 2010 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum

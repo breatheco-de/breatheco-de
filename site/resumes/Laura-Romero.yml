@@ -1,0 +1,67 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Laura Susana
+    last_name: Huarachi Romero
+    motto: 
+    avatar:
+    summary: I decided to take the way of programming, because I have always been a person who likes to learn and, although it is hard, I feel that it is a gratifying job
+      
+    email: laura90romero@gmail.com
+    phone: 675 84 55 11
+    website: 
+    linkedin: 
+    github: Laura-Romero
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: B1
+
+    interests:
+      - item: Cinema
+
+      - item: Boxing
+
+      - item: hiking
+
+education:
+    - degree:
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: full-stack Developer
+      
+projects:
+    intro: 
+      I have some prejects in my repository of my github, this are some I did and I'm doing in the course 
+      of 4Geeks Academy
+    
+    assignments:
+      - title: Postcard
+        link: https://github.com/Laura-Romero/postCard
+        tagline: A responsive website where can input information on a Postcard
+    
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Boostrap
+        level: 30%
