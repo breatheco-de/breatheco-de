@@ -13,19 +13,14 @@ basic_info:
     last_name: Ferrabone
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Enthusiastic, Fun and Perseverant
     
     # focus
-    focus: Killing Bad Boys
+    focus: Be Succesful
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I´m a professional always learning new skills. Me in 3 words: Enthusiastic, Fun and Perseverant. I'm Trilingual (Spanish, English and Italian) and my great passion is Technology.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -34,31 +29,31 @@ basic_info:
     # Contact Information
     email: billferrabone@gmail.com #optional
     phone: 507 62862278 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    website: https://www.linkedin.com/in/guillermo-ferrabone-8b753a25/ #optional
+    linkedin: https://www.linkedin.com/in/guillermo-ferrabone-8b753a25/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: billferrabone
     
-    twitter: 'webjeda' #optional
+    twitter: 'billferrabone' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Professional
 
       - idiom: Italian
         level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Mountain Biking
 
       - item: Skateboarding
 
@@ -66,51 +61,27 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Industrial Engineer
+    - degree: BSc in Industrial Engineering
       university: Universidad Latina de Panama
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2010 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+         Industrial engineers are the only engineering professionals trained specifically to be productivity and quality improvement specialists.
+         Industrial engineers figure out how to do things better. They engineer processes and systems that improve quality and productivity.
+         Industrial engineering is a branch of engineering which deals with the optimization of complex processes or systems. 
+    
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Support Engineer
+      time: 2021 - Present
+      company: Ultimus, Panama
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Provided Support and assistance with Ultimus BPM Software Suite and Web Applications to Corporate Clients in North America.
+        Following ITIL Incident and Problem Management on the Service Operations Lifecycle. Weekly reporting to Management for service improvement
+         
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
