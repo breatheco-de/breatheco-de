@@ -3,10 +3,10 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "green"
 
 # Personal Information
-basic_info:
+basic_info: 
 
     # Your full name
     first_name: Guillermo
@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/women/24.jpghttps://d3a7c97d5beed5ab2c49-7aac60cfdebb59ab39bebc5ac6e3d5b2.ssl.cf5.rackcdn.com/27640000/27642431/_xs959ce358e310887ed8d155f4558024e5.jpg
 
     # Contact Information
     email: billferrabone@gmail.com #optional
@@ -60,14 +60,14 @@ basic_info:
     interests:
       - item: Climbing
 
-      - item: Snowboarding
+      - item: Skateboarding
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: MSc in Industrial Engineer
+      university: Universidad Latina de Panama
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
