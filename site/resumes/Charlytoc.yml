@@ -1,0 +1,86 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Charly
+    last_name: Chacón
+    
+    # Define yourself in 4-5 words
+    motto: I like to write and talk like there's no tomorrow
+    
+    # focus
+    focus: To be completely free
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I've been learning from my first memory, I haven't stopped since. I would like to improve
+      all of my skills and become a great professional. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/yo-mismo-2.jpeg
+
+    # Contact Information
+    email: charlyjchaconc@gmail.com #optional
+    phone: +593 96 410 5554 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/charly-chac%C3%B3n-89660416a/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Charlytoc
+    
+    twitter: 'Charlytoc' #optional
+    stack-overflow: 296952/charlytoc
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Kissing
+
+      - item: Painting
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: In progress, Biologist
+      university: Universidad Central de Venezuela
+      time: 2017-2019
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Seller
+      time: 2021 - Present
+      company: Calzado La Sucursal, Guayaquil
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
