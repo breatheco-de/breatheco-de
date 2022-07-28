@@ -3,6 +3,7 @@ basic_info:
   avatar: "https://randomuser.me/api/portraits/women/24.jpg"
   email: a@a.com
   first_name: Gladys
+  cd last_name: "Sánchez Quiroz"
   focus: Programming
   github: glasaqui
   interests: 
@@ -17,7 +18,7 @@ basic_info:
     - 
       idiom: English
       level: Professional
-  last_name: "Sánchez Quiroz"
+ 
   linkedin: alandoe
   motto: "But why?"
   phone: "234 2342 342"
