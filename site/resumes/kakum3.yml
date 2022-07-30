@@ -1,55 +1,51 @@
-line-cv"
-skin: "blanca" 
+template: "online-cv"
+skin: "orange"
 
 basic_info:
-    
-    first_name: Jesus
+
+    first_name: Jesús
     last_name: Espartero 
 
-    motto: I have no special talent. 
+    motto: 
 
     focus: Programming
 
-    summary: Estoy haciendo curso de full-stack
+    summary: 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+    avatar: 
 
     email: kakum_3@hotmail.com
-    phone: 650183559
-    website:
+    phone: 
+    website: 
     linkedin: 
 
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: kakum3
 
-    twitter:
-    stack-overflow:
+    twitter: 
+    stack-overflow: 
 
     languages:
-      - idiom: Ingles
-        level: basico
+      - idiom: English
+        level: Basic
 
       - idiom: Spanish
-        level: Nativo
-
-      - idiom: 
-        level: 
+        level: Native
 
     interests:
-      - item: Tennis
+      - item: 
 
-      - item: Padel
+      - item: 
 
-      - item: balonmano
+      - item: 
 
 education:
     - degree: FullStack Web Developer
       university: 4Geeks Academy
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2022 - 2022
+      time: 2020
       details:
-          
 
 # Your previous job experiences or voluntier
 experiences:
@@ -57,20 +53,9 @@ experiences:
       time: 
       company: 
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-
+       
 # Your project portfolio
 projects:
     intro: >
@@ -78,18 +63,17 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        project_logo: 
+        link: 
+        tagline: 
 
-      - title: DevStudio
+      - title: 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
+        project_logo: 
+        link: 
+        tagline: 
 
 skills:
     toolset:
