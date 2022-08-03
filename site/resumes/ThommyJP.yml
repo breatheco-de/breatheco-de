@@ -108,20 +108,5 @@ skills:
       - name: SAP
         level: 85%
 
-      - name: Management
+      - name: Data Management
         level: 85%
-
-      - name: HTML5 & CSS
-        level: 15%
-
-      - name: Bootstrap
-        level: 5%
-
-      - name: Python
-        level: 50%
-      
-      - name: GIT
-        level: 5%
-      
-      - name: Javascript
-        level: 1%
