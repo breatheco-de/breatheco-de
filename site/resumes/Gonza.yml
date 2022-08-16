@@ -1,0 +1,119 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gonzalo
+    last_name: Esteves
+    
+    # Define yourself in 4-5 words
+    motto: Musico amateur, estudiante de programación, habitante de la patagonia Argentina.
+    
+    # focus
+    focus: Dando los primeros pasos en el desarrollo.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Aspirante a desarrollador Junior, trabajando en el sector de las energias renovables. Miembro activo de una ONG que trabaja con maestros rurales. Estudiante crónico de música.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Gonza
+
+    # Contact Information
+    email:  estevesgonzalo@hotmail.com
+    phone:  #optional
+    website: www.generazion.com.ar #optional
+    linkedin: https://www.linkedin.com/in/catherine-ortega-spitzer-0361a161/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Gonza-5150
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Conversational
+
+
+
+    # Interests or hobies
+    interests:
+      - item: Guitar playing
+
+      - item: Trekking
+
+      - item: Electronics
+
+# Your previous education
+education:
+    - degree: B.M Vocal Performance
+      university: New World School of the Arts (University of Florida)
+      # optional
+      university_logo: 
+      time: 2005-2009
+      details:
+        
+    - degree: M.M. Voice Performance
+      university: Roosevelt University Chicago College of the Performing Arts
+      # optional
+      university_logo: 
+      time: 2010-2012
+      details:
+
+    - degree: Professional Diploma in Opera
+      university: Roosevelt University Chicago College of the Performing Arts
+      # optional
+      university_logo: 
+      time: 2012-2014
+      details:
+# Your previous job experiences or voluntier
+experiences:
+    - role: Soprano, The Shepherd King
+      time: May 2020
+      company: Little Opera Theater of New York (LOTNY) - NYC
+      # optional
+      company_logo: 
+      details:
+        Perform the title role in Mozart's "The Shepherd King" with LOTNY and the New Baroque Orchestra. (This performance was postponed due to Covid-19.)
+          
+          
+    - role: Soprano
+      time: 2011-2020
+      company: Holy Name Cathedral - Chicago, IL
+      # optional
+      company_logo: 
+      details:
+        Soprano chorister, cantor, and soloist.
+          
+          
+    - role: Flaminia
+      time: April 2020
+      company: New World School of the Arts
+      # optional
+      company_logo: 
+      details: 
+        Perform the role of Flaminia in Haydn's "Il mondo della luna" as a guest artist with the New World School of the Arts Opera Ensemble and symphony orchestra. (This performance was postponed due to Covid-19.)
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Digital Photography
+        level: 98%
+
+      - name: Adobe Lightroom
+        level: 90%
