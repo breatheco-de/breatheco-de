@@ -18,7 +18,8 @@ assignees: ''
 
 ## Article Information
 
-Link to github markdown file: `<Add here>` (the article mus be publised on one of the academy repositories).
+Attach link to github markdown file with the draft lesson (even if its not done yet). 
+The article mus be publised on one of the academy repositories.
 
 ## Additional Info
 
@@ -28,6 +29,7 @@ Link to github markdown file: `<Add here>` (the article mus be publised on one o
 ## Requirements for all assets:
 
 - [ ] Use [ContentSEOChecker](http://contentseochecker.com/) and Grammarly to theck your SEO, spelling and readability.
+- [ ] Pase in the comments a link to the draft article as a markdown file.
 - [ ] Include code examples using syntax highlighter (if possible).
 - [ ] Mention the primary keyword on the article title.
 - [ ] Have at least 2 `h2` tags and mentrion the primary keyword at least on one of them.
