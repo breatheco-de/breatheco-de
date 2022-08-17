@@ -9,7 +9,7 @@ assignees: ''
 
 ## Meta Info
 
-- Number of words: 500
+- Number of words: `<Add here>` (recomendations: ~800 words for standard articles).
 - Asset Type: Lesson, Article, Quiz, Project or Exercise.
 - Primary keyword: `<Add here>` (please make sure it's a preapproved keyword).
 - Secondary keyword: `<Add here>` (preapproved).
