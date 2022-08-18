@@ -9,16 +9,17 @@
 <h1 align="center">Welcome to 4Geeks Academy</h1>
 
 <h3 align="center">&lt;\ Time To Code&gt;</h3>
+<p align="center">The place where developers grow and thrive.</p>
 
 <p align="center">
   <a href="https://4geeksacademy.co/">
-    <img src="https://img.shields.io/badge/👫-+1134_students-1d2935.svg?style=flat" alt="Students">
+    <img src="https://img.shields.io/badge/👫-+5134_students-1d2935.svg?style=flat" alt="Students">
   </a>
   <a href="https://4geeksacademy.co/">
-    <img src="https://img.shields.io/badge/👫-+353_partners-1d2935.svg?style=flat" alt="Partners">
+    <img src="https://img.shields.io/badge/👫-+453_partners-1d2935.svg?style=flat" alt="Partners">
   </a>
   <a href="https://4geeksacademy.co/">
-    <img src="https://img.shields.io/badge/💼💰-91%25_hiring_rate-1d2935.svg?style=flat" alt="Hiring Rate">
+    <img src="https://img.shields.io/badge/💼💰-86%25_hiring_rate-1d2935.svg?style=flat" alt="Hiring Rate">
   </a>
   <a href="https://4geeksacademy.co/">
     <img src="https://img.shields.io/badge/🌎-worldwide-1d2935.svg?style=flat" alt="Branches">
