@@ -36,3 +36,4 @@ The article mus be publised on one of the academy repositories.
 - [ ] Have at least 2 `h2` tags and mentrion the primary keyword at least on one of them.
 - [ ] On assets with 800+ words include images, animated gifts or videos.
 - [ ] Mention the primary keyword a couple of times during the article.
+- [ ] Make sure to read [how to write an article on the 4Geeks Website here.](https://github.com/alesanchezr/website-v2/blob/master/docs/write_an_article.md)
