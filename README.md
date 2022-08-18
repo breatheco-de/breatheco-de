@@ -40,6 +40,10 @@
 
 4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA Dep. of Education in Florida. 
 
+- Community: 4Geeks Academy has graduated 5000+ people, all of them have access to our [slack channel](https://4geeksacademy.slack.com/) and [online platform 4Geeks.com](https://4Geeks.com). 
+- Platform: [4Geeks.com](https://4Geeks.com) is the place where developers meet, network and learn together. Currently in private beta, the platform members can throw coding parties, ask for 1-1 mentorships in one click, join live workshops every week, take live classes a couple times a week, meet new developers and more.
+- Certifications and Courses: We currently offer Introduction to coding, [Full Stack Web Developer](https://4geeksacademy.com/us/coding-bootcamp), [Software Engineering](https://4geeksacademy.com/us/coding-bootcamps/software-engineer-bootcamp) (for senior software architects), [Data Science Engineer](https://4geeksacademy.com/us/coding-bootcamps/data-science-engineer) and [Machine learning and AI Engineering](https://4geeksacademy.com/us/coding-bootcamps/machine-learning-engineering). You can find the [full list of our programs here](https://4geeksacademy.com/programs).
+
 ## Team
 
 4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
