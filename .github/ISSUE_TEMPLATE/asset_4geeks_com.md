@@ -2,7 +2,7 @@
 name: Asset for 4Geeks.com
 about: Published as lesson, article, project or exercise
 title: ''
-labels: ':memo: writter'
+labels: ':memo: freelance writter'
 assignees: ''
 
 ---
