@@ -23,11 +23,13 @@ assignees: ''
 ## Other articles that must be linked and referenced from this one
 
 - [ ] Make sure to include a link to the parent topic cluster.
+- [ ] Think hard: What other articles are related and are worth mentioning?
 
 ## Requirements for all assets:
 
 - [ ] Use [ContentSEOChecker](http://contentseochecker.com/) and Grammarly to theck your SEO, spelling and readability.
 - [ ] Do not start writing this article if the parent topic cluster has not been published yet.
+- [ ] When including an internal link, make sure you use the destination landing keyword in between the anchors.
 - [ ] Create a draft markdown file, and include in the comments a link to the draft article on github.
 - [ ] Include code examples using syntax highlighter (if its a tecnical article).
 - [ ] Add links to topic cluster URL inside the article.
