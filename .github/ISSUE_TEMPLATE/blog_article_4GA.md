@@ -2,7 +2,7 @@
 name: Blog Article 4GeeksAcademy.com
 about: Suggest an article that will be published on the blog
 title: ''
-labels: ':memo: writter'
+labels: ':memo: freelance writter'
 assignees: ''
 
 ---
@@ -15,20 +15,20 @@ assignees: ''
 - Topic Cluster: `<Add here>` (preapproved cluster).
 - URL to topic cluster landing page: `<Add here>`.
 
-## Article Information
-
-Attach link to github markdown file with the draft lesson (even if its not done yet). 
-The article mus be publised on one of the academy repositories.
-
 ## Additional Info
 
 1. Any recommended approach for the article?
 2. Recommended sources or articles for inspiration?
 
+## Other articles that must be linked and referenced from this one
+
+- [ ] Make sure to include a link to the parent topic cluster.
+
 ## Requirements for all assets:
 
 - [ ] Use [ContentSEOChecker](http://contentseochecker.com/) and Grammarly to theck your SEO, spelling and readability.
-- [ ] Pase in the comments a link to the draft article as a markdown file.
+- [ ] Do not start writing this article if the parent topic cluster has not been published yet.
+- [ ] Create a draft markdown file, and include in the comments a link to the draft article on github.
 - [ ] Include code examples using syntax highlighter (if its a tecnical article).
 - [ ] Add links to topic cluster URL inside the article.
 - [ ] Add `<call-to-action>` tag, you [can read how here](https://github.com/4GeeksAcademy/website-v2/blob/master/docs/call_to_action.md).
