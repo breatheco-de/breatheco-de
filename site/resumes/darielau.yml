@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Dariel
+    last_name: Au 
+    motto: Coder and Teacher
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary: |
+        Experince worker with a background of more than 5 years of experince working in different fields. 1 year of experience
+        in web develompment in a small company with another person. Skilled in team work, problem-solving and conflict resolution
+        with knowledge of law enforcement investigations.
+
+    # Sidebar links
+    email: Dariel0514@hotmail.com
+    phone: 786 468 5486
+    website: darielau.com #do not add http://
+    linkedin: darielau
+    github: darielau 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Artificial Intelligence 
+      - item: Sports
+      - item: Video Game
+
+education:
+    - degree: 
+      university: Hialeah Miami Lakes Sr High
+      time: 2011-2015 
+
+experiences:
+    - role: Amazon Warehouse
+      time: 2022 - Present
+      company: Amazon
+      details: |
+        I resell millions of like-new, open-box, and pre-owned items that have been returned by custumers. And 
+        also store and processes orders or product.
+
+    - role: Internatinal Security
+      time: 2018 - 2021
+      company: Eulean
+      details: |
+       Guarded restricted areas to prevent unauthorazid entry. Searched inviduals and baggage for devices, weapons and
+       other prohibited items.
+
+    - role: Insulation Installer
+      time: 2017 - 2018 
+      company: Osorno Grup Corp
+      details: |
+        Installed high-quality fiberglass insulation in new constructions and worked effectively in different positions
+        and at heights to lift rolls, reach spaces and place products.
+
+        projects:
+intro: >
+        Postcard
+        link: "https://github.com/dariel0514/Postcard"
+        tagline: "A postcard using only HTML5 basics"
+
+        Instagram Post
+        link: "https://github.com/dariel0514/instagram-post"
+        tagline: "A Instagram post using HML5 and CSS"
+
+assignments:
+      - title: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 70%
