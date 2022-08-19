@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Janeshka
+    last_name: Folch
+    motto: Hairstylist transitioning to Softwear Developer
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary: I have been working as a hairstylist for the last 10 years, however I am at a point that I am ready to change careers. I am eager to continue to learn and apply everything that I have learned in an exciting new career in coding. 
+
+    # Sidebar links
+    email: Janeshkaf85@gmail.com
+    phone: 954-864-7301
+    website: 
+    linkedin: Janeshka Folch
+    github: JaneshkaF
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Bilingual
+
+    interests:
+      - item: Music
+      - item: Working out
+      - item: Outer Space
+
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      time: 2022-current 
+
+    - degree: Cosmetology 
+      university: Sheridan Technical College
+      time: 2010-2012
+
+experiences:
+    - role: Hairstylist
+      time: 2016 - Present
+      company: Tomy Mishali Salon
+      details: |
+        After the previous experience I had from assisting and working behind the chair, I was able to come in fully working behind the chair. 
+        This included all responsibilities stated in my prior job as well as new opportunities. At this point, I am able to be at more of a 
+        self employed/management role. This entails more responsibilities such as confirming appointments, making check up calls, helping replenish
+        inventory, and educate fellow stylists with new techniques.
+
+    - role: Hairstylist
+      time: 2012 - 2016
+      company: Rockspa Salon
+      details: |
+        While working at this salon, i began assisting and worked my way to working behind the chair. As an assistant, i was required
+        to assist with washing hair, prepping clients, and helping keep workflow of salon organized by communicating with coworkers.
+        Once I startred working behind the chair, although some responsibilities stayed the same, others changed.
+        I now became fully responsible for each client I came in contact with in regards to performing color services such as balayage, highlights,
+        and base colors. As well as chemical services such as Keratin. All of this required years of pratice to perfect. Their is alot of
+        communication and understanding needed between the client, the front desk, assistants, and myself to ensure services are executed in 
+        a professional and timely manner.
+
+projects:
+    intro: >
+      Below are some of my projects completed while enrolled at 4Geeks Academy.
+
+    assignments:
+      - title: Postcard
+        link: "https://github.com/JaneshkaF/postcard"
+        tagline: This is my first completed project. It is a postcard layout using basic HTML and CSS.
+
+      - title: IG Layout
+        link: "https://github.com/JaneshkaF/ig-layout"
+        tagline: Here, I replicated an Instagram feed also using HTML & CSS.
+
+      - title: IG Post
+        link: "#"
+        tagline: Above is a link for a IG feed created with HTML & CSS.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
+        
+      - name: 
+        level:
