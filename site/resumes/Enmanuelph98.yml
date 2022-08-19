@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Enmanuel
+    last_name: Pinto
+    motto: Coder a
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary: lorem
+
+    # Sidebar links
+    email: enmanuelph98@gmail.com
+    phone: 321 948 7716
+    website:  #do not add http://
+    linkedin: 
+    github: Enmanuelph98
+    twitter: '@enmanuelph98'
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: sports  
+      - item: video games 
+      - item: technologies
+
+education:
+    - degree: Full stack developer
+      university: 4Geeks Academy
+      time: 2022 - 2022
+
+experiences:
+    - role: packer picker  
+      time: 2020 - 2022
+      company: Amazon
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: steward
+      time: 2022 - present
+      company: Disney 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: InstagramFeed
+        link: "https://github.com/Enmanuelph98/Instagram-Feed"
+        tagline: "copy of instagram feed with html and css "
+
+      - title: instagram products
+        link: "https://github.com/Enmanuelph98/Instagram-Post"
+        tagline: "instagram products with html and css"
+
+      - title: postcard 
+        link: "https://github.com/Enmanuelph98/Postcardproject"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
