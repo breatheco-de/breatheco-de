@@ -1,0 +1,134 @@
+--- 
+basic_info: 
+  avatar: "https://i.postimg.cc/t41QYrNK/Mau-Luz.png"
+  email: contactwakeupmau.com@
+  first_name: Mau
+  focus: "Enjoying life with those I love."
+  github: MauLight
+  interests: 
+    - 
+      item: Filmmaking
+    - 
+      item: Writing
+    - 
+      item: Traveling
+  languages: 
+    - 
+      idiom: English
+      level: Professional
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: Russian
+      level: Beginner
+  last_name: Light
+  linkedin: "https://www.linkedin.com/in/mau-ulisse-luz-1295a9248/"
+  motto: "I'm not defined by 4-5 words."
+  phone: "+569 9827 91 37"
+  stack-overflow: ~
+  summary: |
+      My career is just starting so I don't think I can get an impression out of a summary. I want to say that learning something new is a haard experience at first, so people making the effort to do so deserve all of my respect.
+      
+      I don't know why a second paragraph is required, but okay...
+  twitter: none
+  website: wakeupmau.com
+education: 
+  - 
+    degree: Cineasta
+    details: |
+        Técnica y teoría cinematográfica. Producción de piezas audiovisuales.
+        
+          - Fotografía, video y film.
+          - Edición no lineal.
+          - Escritura creativa.
+          - Producción de piezas audiovisuales.
+          - Dirección de piezas audiovisuales.
+    time: "2007 - 2012"
+    university: "UTC INACAP"
+    university_logo: ~
+  - 
+    degree: "Licenciatura en comunicación audiovisual, mención guiones."
+    details: |
+        Especialización en escritura creativa y creación de guiones cinematográficos.
+        
+          - Escritura para cine y televisión.
+          - Escritura nuevos medios y transmedia.
+    time: "2015 - 2019"
+    university: UNIACC
+    university_logo: ~
+experiences: 
+  - 
+    company: "Imago chile"
+    company_logo: ~
+    details: "Grabación y edición de piezas audiovisuales de caracter científico e institucional.\n"
+    role: "Camarógrafo y editor senior"
+    time: "2012 - 2016"
+  - 
+    company: Independent
+    company_logo: ~
+    details: "Ganador de premios Corfo producción, CNTV y UCLA screenwriting program, con proyectos trnasmitidos en TVN y otros en medios internacionales (China).\n"
+    role: Guionista
+    time: "2016 - Present"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: "En construcción.\n"
+skills: 
+  toolset: 
+    - 
+      level: 18%
+      name: Python
+    - 
+      level: 28%
+      name: React
+    - 
+      level: 48%
+      name: Sass
+    - 
+      level: 28%
+      name: "Javascript & jQuery"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 60%
+      name: "HTML5 & CSS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 90%
+      name: "Sketch & Photoshop"
+    - 
+      level: 90%
+      name: "Adobe Premier"
+    - 
+      level: 90%
+      name: "Adobe After Effects"
+skin: orange
+template: online-cv
