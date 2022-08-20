@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Meneses
+    
+    # Define yourself in 4-5 words
+    motto: Family, Study, Values, Music and Sports
+    
+    # focus
+    focus: Improving myself everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      A Petroleum Engineer and Full Stack Developer with a Master in Administrative Sciences Mention General Management, characterized by my responsibility, commitment, good work relationships, willingness to work and learn every day. I have studied and worked always with discipline, a personal and professional dedication to excellence and willingness to go beyond to ensure success.
+      
+    
+   # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: dmenesesl08@gmail.com #optional
+    phone: 04149986357 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/daniel-jos%C3%A9-meneses-l%C3%A1rez-2a162a158/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/djmenesesl
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom:
+        level: 
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Traveling
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: MSc in Administrative Sciences Mention General Management
+      university: Universidad de Oriente
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2022
+      details: |
+        I learned about Administration, Management, Projects, Human Resources, Economy, etc.
+
+          - Thesis in collaborative environment
+    
+
+    - degree: BSc in Petroleum Engineering
+      university: Universidad de Oriente
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2008 - 2014
+      details: |
+        I learned about each part or Petroleum World
+
+          - Thesis about developing a Software for the determination of the Saturation Indexes using a PHP language.
+         
+# Your previous job experiences or voluntier
+experiences:
+    - role: Associate Technical Professional (Cementing Engineer)
+      time: 2019 - 2021
+      company: Halliburton, Venezuela
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Field Engineer (Preparation of work programs, use of software to simulate work to be performed (iCem), mix orders, preparation of resources, invoicing, calculations of volumes and pressures, operational procedures, operational reports, postjob, documentation in general, working deal with the client).
+
+    - role: M/LWD Field Engineer I
+      time: 2017 - 2018
+      company: Weatherford International, Venezuela
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Responsible for operations and behavior in real time. 
+
+    - role: Field Engineer Trainee (Drilling Fluid Engineer)
+      time: 2015 - 2016
+      company: Schlumberger, Venezuela
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details:
+           
+
+# Your project portfolio
+projects:
+    intro: >
+      Many projects to come
+
+    assignments:
+      - title: E-commerce
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: IncredibleApp
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: SQL
+        level: 90%
