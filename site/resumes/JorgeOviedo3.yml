@@ -1,0 +1,76 @@
+---
+basic_info:
+  avatar: "https://avatars.githubusercontent.com/u/107929074?v=4"
+  email: jorgeoviedo1999@gmail.com
+  first_name: Jorge
+  focus: "Git Gud"
+  github: "https://github.com/JorgeOviedo3"
+  interests:
+    - item: Gaming
+    - item: Technology
+    - item: Cooking
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: C2
+  last_name: Oviedo
+  linkedin: "https://www.linkedin.com/in/jorge-oviedo-a41795233/"
+  motto: "Any sufficiently advanced technology is indistinguishable from magic."
+  phone: "412 646 7720"
+  stack-overflow: "https://stackoverflow.com/users/19847127/jorge-oviedo"
+  summary: |
+    Developer with 1 year of experience building applications with languages ​​(HTML5, CSS3 and JAVASCRIPT).
+    Designer with 4 years of experience using Adobe Suite apps (Illustrator and Photoshop).
+  twitter: Gnizah
+  website: "https://github.com/JorgeOviedo3"
+education:
+  - degree: "High School Diploma"
+    details: "Los Salesianos de Don Bosco dirigen este colegio desde hace 60 años, fundado por Mons. Iturriza.\n"
+    time: "2011 - 2016"
+    university: "Colegio Salesiano PIO XII"
+    university_logo: "https://colegiossalesianosvenezuela.files.wordpress.com/2014/10/colegiosalesianopioxii.png"
+  - ~
+experiences:
+  - company: Freelance
+    company_logo: "https://cdn.worldvectorlogo.com/logos/freelancer-1.svg"
+    details: |
+      Develop responsive web apps using HTML5, CSS3 and JS.
+        - Using SEO for a better positioning.
+    role: "JUNIOR FULL STACK DEVELOPER"
+    time: "2021 - Present"
+projects:
+  assignments:
+    - link: "https://github.com/JorgeOviedo3/4geeks-bootstrap-feed"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Instagram Photo Feed made with bootstrap and HTML5."
+      title: "Photo Feed Bootstrap"
+    - link: "https://github.com/JorgeOviedo3/4Geeks-IGPostV2"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive IG Post made with HTML5 and CSS3."
+      title: "IG Post"
+    - link: "https://github.com/JorgeOviedo3/4Geeks-PhotoFeedV2"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Photo Feed made with HTML5 and CSS3."
+      title: "Photo Feed"
+    - link: "https://github.com/JorgeOviedo3/JS-Calculator"
+      project_logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+      tagline: "A responsive calculator made with HTML5, CSS3 and JavaScript."
+      title: Calculator
+    - link: "https://github.com/JorgeOviedo3/JS-ToDo"
+      project_logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+      tagline: "A responsive to do app made with HTML5, CSS3 and JavaScript"
+      title: "To Do App"
+  intro: "These are proyects I've worked on.\n"
+skills:
+  toolset:
+    - level: 50%
+      name: Python
+    - level: 70%
+      name: Javascript
+    - level: 95%
+      name: "HTML5 & CSS"
+    - level: 90%
+      name: "Illustrator & Photoshop"
+skin: blue
+template: online-cv
