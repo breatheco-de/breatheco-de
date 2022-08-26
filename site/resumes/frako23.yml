@@ -1,0 +1,197 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Orozco
+    
+    # Define yourself in 4-5 words
+    motto: Respectful, Hard Working, Resourceful, Modest
+    
+    # focus
+    focus: Profesional Development in Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a production engineer graduated from the Simon Bolivar University and with a postgraduate degree in marketing from the Central University of Venezuela, who has more than 14 years of experience working for transnational companies in the areas of Marketing and Sales, which is beginning to venture in the world of technology with the aim of making a living from coding
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGhVQlywuuzGw/profile-displayphoto-shrink_200_200/0/1530205871016?e=1666828800&v=beta&t=F7iA2SxftVxGpZHZT8cb9d1Ot9iW4YM1KR1gW_fZTSo
+
+    # Contact Information
+    email: frako23@gmail.com #optional
+    phone: +58 (424) 2526757 #optional
+    website: https://www.linkedin.com/in/franciscorozco/ #optional
+    linkedin: franciscorozco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: frako23
+    
+    twitter: 'frako23' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Finance
+
+      - item: Technology
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Specialization in Marketing for Companies
+      university: Central University of Venezuela
+      # optional
+      university_logo: https://media-exp1.licdn.com/dms/image/C560BAQEqH4pTb_C3Vg/company-logo_200_200/0/1519856172195?e=1669852800&v=beta&t=XMBWJMhUWRLm8L8m8IFt9fmoEKEdlnp9PujAw4WY3-M
+      time: 2012 - 2016
+      details: |
+        Train experts with the necessary skills to
+        contribute ideas in the search for solutions to problems
+        management requirements, through the analysis and design
+        of marketing plans and programs in organizations
+        business.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Production Engineer
+      university: Simon Bolivar University
+      # optional
+      university_logo: https://media-exp1.licdn.com/dms/image/C510BAQHJ3pCPfVI-AA/company-logo_200_200/0/1519889549189?e=1669852800&v=beta&t=j3Xcj74ha9iKvdIqy3Gcf1SOW7NexUo6WAc05MFg1Io
+      time: 2003 - 2009
+      details: |
+        The objective of the career is to train a highly qualified professional to perform in the production process, with adequate and balanced training for the design, improvement and installation of integrated systems of people, materials and equipment necessary in the industrial field and with knowledge of the economic factors, exchange of information and decision making to carry out this process in the best possible way. Production Engineering is the branch of engineering that deals with manufacturing processes and methods of manufacturing products and industrial goods. Pursues the integration of all relevant factors in order to have optimal solutions to complex problems related to the transformation of economic inputs into products necessary for society.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: International Financial Advisor
+      time: 2016 - Present
+      company: CICA LIFE Insurance Company of America
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQG6d1kBW80MKw/company-logo_200_200/0/1519904806736?e=1669852800&v=beta&t=RfWhdq_0mQzmuP1-XH9Pq12Kx8N8xZvnm43wTpVQ1OM
+      details: |
+        I expanded the CItizens client portfolio, generating my own client portfolio through a process of prospecting contacts, making calls to schedule appointments in which I conveyed to each prospect the importance of the product, achieving sales closings through the use of skills communicative, teamwork, and following up with each client, being tenacious in the sales process.
+
+    - role: Leader in Client Uptake
+      time: 2013 - 2016
+      company: Telefónica
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQEPSMm6WaB7JA/company-logo_200_200/0/1656921195326?e=1669852800&v=beta&t=SiP9KwVUed0O4V5AlsjyCcF1M36Q-6zPCVtQYHd0DAQ
+      details: |
+        - Managing marketing strategies to uptake clients of mobile internet service, creating pricing strategies, developing
+        communicational strategies and promotional activities to the target market.
+        - Managing marketing strategies to uptake and retain B2B and B2C clients of public telecom service, developing communicational
+        strategies and promotional activities to the target market.
+        - Monitoring and evaluating monthly mobile internet and public telecom incomes and client quantity.
+
+        Selected Contributions:
+        - Increased mobile internet uptake ARPU from Bs. 236 on January 2014 to Bs. 405 on October 2014
+        - Achieved original 2014 uptake goal for mobile internet on July 2014
+        - Increased public telecom ARPU i n 25% since July 2014
+
+    - role: Product Marketing Executive
+      time: 2010 - 2013
+      company: LG Electronics
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C560BAQF-UW6ow-Xouw/company-logo_200_200/0/1658465178810?e=1669852800&v=beta&t=JJM3lTZ4zt9hcEbO1u63sECx1Q0Fr_0-icQ1uTyYawo
+      details: |
+        - Developed and presented LG Mobile Product Road Map to carriers and distributors, using multimedia material and working with
+        advertising agency
+        - Monitored LG Mobile portfolio in carries and distributors, developing POP Material and giving training to sales representative in
+        order to increase it.
+        - Monitored competitors Product Road Map in terms of specifications, price and marketing and trade marketing activities.
+
+        Selected Contributions:
+        - Placed 7 most important LG products in all carriers nationwide since November 2010
+        - Increased rotation of LG Swift and LG Kellogg in Movistar Carrier in 12% since August 2011
+
+    - role: Nielsen
+      time: 2009 - 2010
+      company: Semi Senior Sales Executive
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQFKa_ObftR_8w/company-logo_200_200/0/1634555713815?e=1669852800&v=beta&t=NwsLnkIDElSjmpCxYbWJKvteHOBKpcxb-o73FZ4WrkM
+      details: |
+        - Developed and presented market and competition analysis to Alimentos Polar, PEPSICO and LG Mobile, through “The NielsenWay” Methodology
+        - Evaluated product launches’ impact and implementation of competitive distribution strategies, pricing and promotions
+        - Provided a complete view of current situation and opportunities in order to capitalize on the development of their strategic plans
+          for management
+
+        Selected Contributions:
+        - Increased LG Mobile market share in 2 p.p. on December 2009
+        - Implementation of monthly findings format for PEPSICO INTERNACIONAL throughout the LATAM region. (Oct 2009)
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
