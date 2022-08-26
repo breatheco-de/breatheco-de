@@ -1,0 +1,188 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Estefani
+    last_name: Garcia
+  
+    # Define yourself in 4-5 words
+    motto: I like rescuing animals
+    
+    # focus
+    focus: Gain a lot of knowledge at 4Geeks Academy
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Senior Computer Technician, I have knowledge in Photoshop, 
+      Illustrator, Canva, Java, MySQL, among other things. I currently 
+      work for Optica Caroni as a Human Resources Analyst as administrator
+      of their e-learning platform.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/rZmvHbZ/Whats-App-Image-2022-08-26-at-11-46-39-AM.jpg
+
+    # Contact Information
+    email: estefanigabri@gmail.com #optional
+    phone: +58 414 311 29 81 #optional
+    website: ----- #optional
+    linkedin: Estefani Garcia Torbello #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/estefaniggt
+    
+    twitter: 'Abustymore' #optional
+    stack-overflow: ------- # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    # Interests or hobies
+    interests:
+      - item: Reead
+
+      - item: Go to the gym
+
+      - item: Design
+
+# Your previous education
+education:
+    - degree: Computer Technician
+      university: Technological University Institute Americo Vespucio
+      # optional
+      university_logo: https://i.ibb.co/3WDFB7n/3-menu-logo-aniversario.png
+      time: 2019 - 2021
+      details: |
+        In the programming area I acquired knowledge of Java, 
+        MySQL, PostgreSQL, C, C++, HTML5, CSS3, basic JavaScript, 
+        management and networks. I also acquired the ability to 
+        quickly solve and analyze problems
+          - Development of critical thinking.
+          - Development of my creativity
+    - degree: Community Manager
+      university: Mastercowork
+      # optional
+      university_logo: https://mastercowork.com/wp-content/uploads/2020/02/LogoMasterCoworkWeb.png
+      time: 2021 - 2021
+      details: |
+        In the course I learned about the management and handling 
+        of business accounts through Facebook, Instagram and 
+        Twitter as well as the use of Grids, applications to make
+        flyers, I also learned about Wordpress, its use and its templates.
+          - Development of my creativity
+          - Resource management
+# Your previous job experiences or voluntier
+experiences:
+    - role: Human resources analyst
+      time: 2021 - Present
+      company: Optica Caroni, C.A.
+      # optional
+      company_logo: https://i.ibb.co/4Z9sgbP/descarga.png
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Systems Analyst
+      time: 2021 - 2021
+      company: Calox International, C.A.
+      # optional
+      company_logo: https://calox.com/images/calox_logo.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: Data Analyst
+      time: 2019 - 2020
+      company: PRC300
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Photofeed
+        # optional
+        project_logo: https://github.com/estefaniggt/photofeed-academy
+        link: "#hook"
+        tagline: "Photofeed that helps 4Geeks students practice HTML and CSS"
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Postcard
+        # optional
+        project_logo: https://github.com/estefaniggt/postcard-academy
+        link: "#"
+        tagline: "Responsive postcard for the practice of 4Geeks students"
+
+      - title: Glossary
+        # optional
+        project_logo: https://github.com/estefaniggt/estefani.github.io
+        link: "#"
+        tagline: "HTML5 Glossary Home Pagen"
+
+      - title: Employee evaluation
+        # optional
+        project_logo: https://github.com/estefaniggt/eg.github.io
+        link: "#"
+        tagline: "Responsive page for employee evaluation"
+
+skills:
+    toolset:
+      - name: Java
+        level: 98%
+
+      - name: C
+        level: 38%
+
+      - name: C++
+        level: 38%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Illustrator
+        level: 85%
+
+      - name: Photoshop
+        level: 85%
