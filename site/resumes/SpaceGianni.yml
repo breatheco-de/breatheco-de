@@ -1,0 +1,94 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Giannina
+    last_name: Baccelliere
+
+    # Define yourself in 4-5 words
+    motto: Checking yourself is also moving forward
+
+    # focus
+    focus: developer full stack
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+
+     I am a social and communication analyst. With more than 10 years of experience from field management to data analysis and reports. With experience in R programming and growing as a web developer.
+     Focused on finding new and better ways to communicate the work done.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.app.goo.gl/i2BFP8TjHMSHn4Y68
+
+    # Contact Information
+    email: nitlara@gmail.com
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nitlara
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B2
+      - idiom: Italian
+        level: C2
+
+    # Interests or hobbies
+    interests:
+      - item: Gardening
+      - item: Volunteering 
+      - item: Design
+
+# Your previous education
+education:
+    - degree: Political Science
+      university: Universita di Bologna
+      # optional
+      time: 2008 - 2012
+    - degree: Master in Public Policies
+      university: Universita CaFoscari
+      # optional
+      time: 2012 - 2014
+    - degree: Diploma BigData for Public Policies
+      university: Universidad Adolfo Ibañez
+      time: 2019
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Coordinator
+      time: 2016 - 2019
+      company: CAV (political association)
+      # optional
+      details:
+        Preparation of reports, data collection and database management.
+        Preparation and management of the corporate communication strategy Administrative management
+    - role: Analyst & Field Coordinator
+      time: 2008-2016
+      company: Fundació Carles Pi i Sunyer
+      # optional
+      details:
+        Management and training of the field team, data analysis and testing, reporting and derivative products.
+skills:
+    toolset:
+      - name: R
+        level: 50%
+      - name: Javascript & jQuery
+        level: En ello
+      - name: HTML5 & CSS
+        level: 25%
+      - name: Bootstrap
+        level: 25%
+      - name: Canva 
+        level: 100%
