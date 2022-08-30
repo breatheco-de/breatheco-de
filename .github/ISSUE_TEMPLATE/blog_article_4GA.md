@@ -10,8 +10,6 @@ assignees: ''
 ## Meta Info
 
 - Number of words: `<Add here>` (recomendations: ~800 words for standard articles, 1500+ for topic cluster articles).
-- Primary: `<Add here>` (please make sure it's a preapproved keyword).
-- Secondary: `<Add here>` (preapproved).
 - Topic Cluster: `<Add here>` (preapproved cluster).
 - URL to topic cluster landing page: `<Add here>`.
 
@@ -28,6 +26,7 @@ assignees: ''
 ## Requirements for all assets:
 
 - [ ] Use [ContentSEOChecker](http://contentseochecker.com/) and Grammarly to theck your SEO, spelling and readability.
+- [ ] Include keyword in the first 100 words.
 - [ ] Do not start writing this article if the parent topic cluster has not been published yet.
 - [ ] When including an internal link, make sure you use the destination landing keyword in between the anchors.
 - [ ] Create a draft markdown file, and include in the comments a link to the draft article on github.
