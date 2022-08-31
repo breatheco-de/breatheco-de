@@ -1,0 +1,73 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Raymond
+    last_name: Ferguson
+    
+    # Define yourself in 4-5 words
+    motto: Gotta be in the moment.
+    
+    # focus
+    focus: Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm an highschool graduate who attended two semesters of college. I decided to pursue the path of software engineering so went to a bootcamp for coding. I have had an camp counsuler job for two years and then worked for a clothing company. I play hockey and lacrose for fun.
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email:  #Rayferg19@gmail.com
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Rayferg
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+     
+    # Interests or hobies
+    interests:
+      - item: Hockey
+
+      - item: Lacrosse
+
+      - item: Gaming
+
+# Your project portfolio
+projects:
+    intro: >
+      Post card and Instagram feed
+    assignments:
+      - title: Post Card
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://breathecode-exercisepos-51d45rcu7ma.ws-us63.gitpod.io/"
+        tagline: "A postcard made from html and css."
+
+      - title: Instagram feed
+       
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://rayferg-instapost-bnfsy24uacw.ws-us63.gitpod.io/"
+        tagline: "An Instagram feed made from Html and Css."
+
+     
+
