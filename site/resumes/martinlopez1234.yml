@@ -1,0 +1,129 @@
+template: "online-cv"
+skin: "green"
+
+
+basic_info:
+
+    
+    first_name: Martín
+    last_name: López
+    
+   
+    motto: I am a person who is passionate about technology.
+    
+
+    focus: Manage to get a job at Google or Microsoft
+    
+  
+    summary: |
+      I just graduated from Computer Engineering,
+      where I was able to learn a lot about technology. 
+      I am a person who is always in constant learning 
+      to have a better idea to solve current problems 
+      with the help of information technology.
+    
+   
+    avatar: https://avatars.githubusercontent.com/u/57772762?v=4
+
+
+    email: martin.lr@hotmail.com 
+    phone: 979407347 
+    website:  #optional
+    linkedin:  #optional
+    
+    
+    github: https://github.com/martinlopez1234
+    
+
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    
+    interests:
+      - item: Painting
+
+      - item: Play Videogames
+
+      - item: hiking
+
+
+education:
+    - degree: Informatics Engineering
+      university: Instituto Santo Tomás
+      # optional
+      university_logo: https://yt3.ggpht.com/ytc/AMLnZu_03RHvk_WDQcDHhy3Maibuq2CpvXorgTZD_-r7gA=s900-c-k-c0x00ffffff-no-rj
+      time: 2018 - 2022
+      
+        
+   
+
+experiences:
+    - role: passant, cyber security
+      time: 2021 - 2021
+      company: Servicio Medico Legal, Santiago
+    
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details:   | 
+        Review internal software to analyze and exploit 
+        it in order to give it a good approach to security and give recommendations.
+    
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Java
+        level: 50%  
+
+      - name: Figma
+        level: 90%
+        
+        
