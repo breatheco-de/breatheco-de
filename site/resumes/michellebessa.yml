@@ -1,48 +1,26 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 template: "online-cv"
 skin: "blue"
 
-# Personal Information
 basic_info:
 
-    # Your full name
     first_name: Michelle
     last_name: Bessa dos Santos
     
-    # Define yourself in 4-5 words
     motto: Aware, funny, perfectionist, disciplined and calm.
     
-    # focus
-    focus: Fix problems.
+    focus: Become a Sofware Engineer.
     
-    # You have 1 paragraph to make a great impression, summarize your career.
-    summary: Civil Engineering and Environmental Engineering background, with a couple of years of experience and a zest for solving complex problems, which is why I am now in the coding field.
-      
+    summary: Civil Engineering and Environmental Engineering background, with a couple of years of experience and a zest for solving complex problems, which is why I am now in the software/coding field.
+    
+    avatar: https://avatars.githubusercontent.com/u/110417316?v=4
 
-      Second paragraph if required.
+    email: michellebessa12@gmail.com
+    linkedin: www.linkedin.com/in/michelle-bessa-dos-santos-9b696724a
     
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
-
-    # Contact Information
-    email: 
-    phone: 
-    website:
-    linkedin: 
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: michellebessa
     
     twitter: mika_bessa 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Portuguese
         level: Native
@@ -51,97 +29,78 @@ basic_info:
         level: Professional
 
       - idiom: Spanish
-        level: Professional (intermediate)
+        level: intermediate
 
-    # Interests or hobies
-    interests:
+    Hobbies:
       - item: Hiking
 
       - item: Snowboarding
 
-      - item: Playing guitar
+      - item: Guitar playing
 
-# Your previous education
-education:
-    - degree: Civil Engineering
-      university: FMU - Faculdades Metropolinas Unidas (Sao Paulo-Brazil)
-      # optional
+    Education:
+
+    - degree: Environmental Sciences - Associate in Arts
+      university: Miami Dade College
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Jan 2020 - May 2022
+      details: |
+        I was studying Associate of Arts with a path to Associate of Sciences in Environmental Engineering. Classes taken: College Algebra, Psychology of Personal Effectiveness, English Composition, Calculus and Analytical Geometry 1, Music Appreciation, History of the United States since 1877, General Chemistry, Chemistry in the Laboratory, among others.
+
+    - degree: Bulding Construction - Technician
+      university: FAM - Faculdade das Americas (Sao Paulo - Brazil)
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: January 2018 - March 2018
+      details: |
+        For personal reasons, I had to quit Civil Engineering. But my passion for construction was so big I looked for scholarships and got one in a Technician degree for Building construction. My classes were Physics, Algebra, Technical Drawing and Principles of Building Construction. Soon after I started, I moved to Miami and quit the course.
+
+    - degree: Civil Engineering - Bachelor
+      university: FMU - Faculdades Metropolinas Unidas (Sao Paulo - Brazil)
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: Jan 2017 - June 2017
       details: |
         I studied Civil Enginnering for 1 semester, which is equivalent to 6 months in Brazil. That was the first time I had experience with coding, because one of my classes was "computer programming", and I learned C++. I had other classes like Chemistry, Algebra and Analitic Geometry, and Introduction to Engineering.
 
-          - Bullet point
-          - Bullet point
 
-    - degree: Bulding Construction
-      university: FAM - Faculdade das Americas (Sao Paulo - Brazil)
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: January 2018 - March 2018
-      details: |
-        For personal reasons, I had to quit Civil Engineering. But my passion for construction was so big I looked for scholarships and got one in a Technician degree for Building construction. I had classes like Physics, Algebra and principles of Building Construction.
-
-          - Bullet point
-          - Bullet point
-
-# Your previous job experiences or voluntier
-
-
-# Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects listed here were completed at 4Geeks Academy.
 
     assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Instagram Post
+        project_logo: https://github.com/breatheco-de/exercise-instagram-post/blob/master/preview.png?raw=true
+        link: https://github.com/michellebessa/instagrampost
+        tagline: Use of HTML and CSS to replicate an Instagram post with its contents, such as 'like', 'comment' and 'share' buttons, description, ellipsis menu bar, photo content, etc.
 
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Instagram Photo Feed
+        project_logo: https://github.com/breatheco-de/exercise-instagram-feed/blob/master/strategy.png?raw=true
+        link: https://github.com/michellebessa/Instagram
+        tagline: Use of HTML and CSS to replicate an Instagram Photo Feed, with 3 different pictures and its contents.
 
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Instagram Photo Feed with Bootstrap
+        project_logo: https://github.com/breatheco-de/exercise-instagram-feed-bootstrap/blob/master/assets/preview.gif?raw=true
+        link: https://github.com/michellebessa/instagramphotofeed-bootstrap/blob/main/index.html
+        tagline: In this project, I was introduced to Bootstrap. I created an Instagram Photo Feed using only Bootstrap commands with CSS and JavaScript styles, such as dropdown buttons, modal window and grid views. In the Photo Feed I displayed two grid views, one with all 6 photos side by side (2 horizontal rows displaying 3 pictures each) and another grid with all 6 photos displayed vertically in a single column.
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Coding an Excuse Generator with Javascript 
+        project_logo: https://github.com/breatheco-de/tutorial-project-excuse-generator-javascript/blob/master/explanation.gif?raw=true
+        link: https://3000-michellebes-excusegener-2wikxwpj4cw.ws-us63.gitpod.io
+        tagline: For this project, I built funtions with Javascript to create an Excuse Generator, in which every time that I refresh the broswer page, a random excuse about my homework is displayed. So the excuses are generated, I applied a function that creates random numbers and connected these functions to the index linked to each part of the phrase that was being generated (such as who, what, when, etc).
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: HTML
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: CSS
+        level: 85%
+
+      - name: Javascript
+        level: 70%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: Command Line
+        level: 45%
+
