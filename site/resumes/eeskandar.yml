@@ -26,7 +26,7 @@ basic_info:
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://external-preview.redd.it/yH7DlOyN-yZaO7ac0VoaVyEYd7DR_4xBIOK-Esr5w34.png?auto=webp&s=a550a4ae1701157364eabb3e59eb37b960c46932
 
     # Contact Information
     email: seik747@gmail.com #optional
