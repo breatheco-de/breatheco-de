@@ -13,18 +13,14 @@ basic_info:
     last_name: Duque
     
     # Define yourself in 4-5 words
-    motto: Trying my hardest
+    motto: Securing the bag
     
     # focus
-    focus: Securing the bag
+    focus: 
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Bruh
 
       Second paragraph if required.
     
@@ -33,10 +29,10 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: jake.duque@gmail.com #optional
+    phone: 305 8675309 #optional
+    website: google.com #optional
+    linkedin: linkedin.com/in/jacobkduque #optional
     
     #
     # ******** IMPORTANT *******
