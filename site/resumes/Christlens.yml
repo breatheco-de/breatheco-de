@@ -1,0 +1,109 @@
+# Christlens CV from "Learn-In-Public-Project"
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christian Enrique
+    last_name: Dávila Comas
+    
+    # Define yourself in 4-5 words
+    motto: I like to help everyone.
+    
+    # focus
+    focus: Actually I have my goals for a new career. An aeronautical pilot career. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary:
+      I am currently studying at 4Geeks to become a good programmer. I'm not done yet, but I'm going step by step.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/C1.jpg
+
+    # Contact Information
+    email: chris04davila@gmail.com #optional
+    phone: (+56)9 5103 8184 #optional
+    website: Not Yet #optional
+    linkedin: Not Yet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Christlens
+    
+    twitter: Not Yet #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bassic
+
+    # Interests or hobies
+    interests:
+      - item: Working
+
+      - item: Play VideoGames
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Secondary Studies Complete
+      College: Colegio Parroquial Santa Rosa
+      time: 2017 - 2020
+      details:
+        I finished my secondary studies which included so much material to take the PAES (Secondary Education Admission Test).
+# Your previous job experiences or voluntier
+experiences:
+    - role: Advanced Crew
+      time: 2022 - Present
+      company: Arcos Dorados, Santiago, Chile.
+      details: 
+        I carry out all kinds of activities in the multifunctional operator area. Both in the kitchen and in customer service.
+projects:
+    intro:
+      All My proyects until now, you can find it on my GitHub Account "https://github.com/Christlens"
+        
+        -CodeN1-PostCard-Project
+        -CodeN2-Instagram-Post-Project
+        -CodeN3-The-Instagram-Feed-Project
+        -CodeN4-The-Bootstrap-Feed-Proyect
+        -CodeN5-The-CMD-Proyect
+        -CodeN6-The-Misspell-Challenge-Proyect
+    assignments:
+      - title: PostCard-Project
+        link: "https://github.com/Christlens/CodeN1-Postcard-Proyect"
+        tagline: "A Postcard made only with HTML5 and CSS for 4Geeks Academy"
+
+      - title: Instagram-Post-Project
+        link: "https://github.com/Christlens/CodeN2-Instagram-Post-Proyect"
+        tagline: "An Instagram Post made Only with HTML5 and CSS for 4Geeks Academy"
+
+      - title: The-Instagram-Feed-Project
+        link: "https://github.com/Christlens/CodeN3-The-Instagram-Feed-Proyect"
+        tagline: "An Instragram Feed made Only with HTML5 and Css for 4Geeks Academy"
+
+      - title: The-Bootstrap-Feed-Proyect
+        link: "https://github.com/Christlens/CodeN4-The-Bootstrap-Feed-Proyect"
+        tagline: "An Instagram Feed made with the library Bootstrap 5.2 for 4Geeks Academy"
+
+      - title: The-CMD-Proyect
+        link: "https://github.com/Christlens/CodeN5-The-CMD-Proyect"
+        tagline: "This is a list of comands for the terminal (on Bash Shell) for move an practice for 4Geeks Academy"
+      
+      - title: The-Misspell-Challenge-Proyect
+        link: "https://github.com/Christlens/CodeN6-The-Misspell-Challenge-Proyect"
+        tagline: "In this project I had to know what Git and GitHub does in order to copy the remote repository and then correct the document. This project was for 4Geeks Academy"
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 65%
