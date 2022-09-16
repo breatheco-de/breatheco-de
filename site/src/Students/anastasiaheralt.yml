@@ -1,0 +1,80 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rosimar 
+    last_name: Herrera
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy una apasionada desarrolladora web egresada del bootcamp 4 Geeks 
+      e ingeniero de sistemas independiente de Venezuela. 
+      Mi pasión por el software radica en soñar ideas y hacerlas realidad con interfaces elegantes.
+      Cuido mucho la experiencia, la arquitectura y la calidad del código de las cosas que construyo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: rosimarherrerao@gmail.com #optional
+    phone: +58 412 601 3674 #optional
+    github: anastasiaheralt #optional
+    linkedin: rosimar herrera #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: anastasiaheralt
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+
+# Your previous education
+education:
+    - degree: Ingeniería de Sistemas
+      university: Universidad Santa María
+      # optional
+      time: 2009 - 2014
+# Your previous job experiences or voluntier
+experiences:
+    - role: Consultor TI
+      time: 2015 - 2016
+      company: Deloitte Caracas
+      # optional
+      details: |
+        Experiencia en Risk Advisory IT. Responsabilidades:
+        Auditora externa en el área de IT, instituciones
+        como: BBVA provincial, Bancrecer, Seguros constitución, CANTV, Provincial de Reaseguros.
+        Auditora del área de centros de cómputos, 
+        cumplimiento de lineamientos internos de las instituciones
+        nombradas.
+
+skills:
+    toolset:
+      - name: HTML & CSS
+
+      - name: Javascript 
+
+      - name: React
+
+      - name: Bootstrap
+
+      - name: Python
+
+      - name: Sketch & Photoshop
