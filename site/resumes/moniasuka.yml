@@ -1,0 +1,112 @@
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+
+   
+    first_name: Mónica 
+    last_name: Castillo Rojas
+    
+   
+    motto: Knowledge is power! 
+
+    
+   
+    summary: Después de muchos años trabajando en el área de marketing digital, he decidido emprender un nuevo viaje de conocimiento que me permita crecer en el ámbito profesional para alcanzar un mejor y nuevo estilo de vida.
+             Gracias al inglés, he encontrado estabilidad y con esta, he encontrado oportunidades para aprender un poco sobre el mundo de la programación. En la actualidad, me encuentro estudiando HTML, CSS, Bootstrap y Javascript.
+      
+    
+ 
+    avatar: http://sep.breatheco.de/static/profile-images/moniasuka.jpg
+
+ 
+    email: moniasuka@hotmail.com
+    phone: +506 8875-5322
+    linkedin: www.linkedin.com/in/monica-castillo-rojas
+
+    github: moniasuka
+   
+   
+    languages:
+      - idiom: Inglés
+        level: Alto
+
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Japonés
+        level: Intermedio
+
+ 
+    interests:
+      - item: Canto
+
+      - item: Baile
+
+      - item: Dibujo
+
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022 - Present
+    details: |
+      Front end coding Java Script
+      back end coding Php, python, ruby
+      
+experiences:
+    - role: Email Marketing - Production Services - Account Manager
+      time: 2014 - Present
+      company: Cheetah Digital
+      details: 
+            Servir como el punto principal de interacción con el cliente y escalamiento para campañas y algunos proyectos pequeños y medianos relacionados con la implementación de campañas.
+            Reforzar y promover la adherencia a los procesos globales definidos.
+            Organizar el calendario/horario y garantizar la finalización exitosa de hitos internos para una implementación de campaña precisa y eficiente.
+            Responsable de la precisión, puntualidad y consistencia de las campañas ejecutadas en nombre del cliente y cualquier gestión de escalamiento requerida.
+            Cree y actualice constantemente la documentación y anime a otros a apoyar los esfuerzos de documentación.
+            Proporcionar actualizaciones de estado y reportes diarios o semanales basados ​​en la cadencia establecida con el cliente y asegura que todas las oportunidades y proyectos sean rastreados en ellos.
+            Calcule las previsiones de volumen de campaña para estimar la carga de trabajo del equipo.
+            Sea dueño de las reuniones de equipo diarias/semanales donde se comparte la actividad y se divide la carga de trabajo.
+            Brindar recomendaciones de asesoramiento al cliente que beneficien sus esfuerzos generales de marketing.
+            Alinear/asignar y asesorar a otros miembros del equipo de la campaña y organizar la capacitación de la campaña.
+            Realizar temporalmente otras funciones de Servicios de Campaña (con capacitación) para cobertura y/o supervisión adicionales.
+       
+   
+          
+assignments:
+- title: Postcard Digital con HTML/CSS
+  link: "https://github.com/moniasuka/Build-a-Digital-Postcard-with-HTML-CSS"
+  tagline: "Realizado login template usando CSS y HTML."
+
+- title: Instagram Post
+  link: "https://github.com/moniasuka/Simple-Instagram-Photo-Feed-with-HTML-CSS"
+  tagline: "Realizado login template usando Bootstrap, CSS y HTML."
+
+- title: Proyecto colaborativo de diseño de pagina web
+  link: "https://github.com/moniasuka/trabajo-en-grupo-1"
+  tagline: "Primer proyecto colaborativo usando Github y Gitpod. Para realizar el template se han utilizado CSS, HTML y Bootstrap"
+
+- title: Instagram Feed - Bootstrap
+  link: "https://github.com/moniasuka/Instagram-Photo-Feed-with-Bootstrap"
+  tagline: "Website template realizado usando Bootstrap"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 100%
+
+      - name: CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
+
+      - name: Javascript
+        level: 25%
