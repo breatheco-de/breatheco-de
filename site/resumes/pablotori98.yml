@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Pablo
+    last_name: Toribio Alfageme
+    motto: Full Stack Developer
+    avatar: 
+    summary: |
+      My name is Pablo Toribio Alfageme and I am looking for having a different version of myself as , given that I seek to learn every day and be a better version of myself. I have studied the degree of Marketing and a Master in Digital Marketing and Electronic Commerce. I did business internships in a company located in the Malaga technology park. I am currently studying the 4Geeks Full-Stack Software Developer program
+     
+      Me llamo Pablo Toribio Alfageme y busco que mi presentación de hoy sea diferente a la de mañana, dado que busco aprender cada día y ser una mejor versión de mi mismo. He estudiado el grado de Marketing y un Máster en Marketing Digital y Comercio Electrónico. Cursé las prácticas de empresa en una empresa situada en el parque tecnológico de Málaga. Actualmente me encuentro cursando el programa de 4Geeks de Full-Stack Software Developer
+
+    # Sidebar links
+    email: pablotori98@gmail.com
+    phone: +34 622820998
+    linkedin: www.linkedin.com/in/pablo-toribio-alfageme
+    github: pablotori98
+
+    languages:
+      - idiom: English
+        level: B2 
+
+      - idiom: French
+        level: basic
+
+    interests:
+      - item: Tecnología
+
+      - item: Fórmula 1
+
+      - item: Cine
+
+education:
+
+    - degree: Desarrollador Web Full Stack
+      university: 4GEEKS ACADEMY
+      time: 2022 - 2023
+      details: |
+        This course lasted approximately 16 weeks where I learned Front and End. We work with HTML 5 - CCS3 and Javascript and the DOM, in addition to Reac. In addition, I work with Git to be able to keep a history of the work in order to return in time if an error occurs or to be able to work in an orderly group and thus be able to merge what has been done. For the Back End, I work with Python and MySQL
+
+        Este curso tuvo una duracion de 16 semanas aproximadas donde aprendi Front y End. Trabajamos con HTML 5 - CCS3 y Javascript y el DOM, ademas de Reac. Ademas se trabajo con Git para poder llevar un historico del trabajo con la finalidad de volver en el tiempo si ocurre algun error o para poder trabajar en grupo de manera ordenada y asi poder fusionar lo realizado. Para el Back End se trabajo con Python y MySQL
+
+    - degree: Máster Marketing Digital y Comercio Electrónico 
+      university: EAE Business School
+      time: 2020 - 2022
+      details: |
+        Master degree in Digital Marketing and E-Commerce in which I specialized in SEO, SEM and the development of E-commerce.
+
+        Máster en Marketing Digital y Comercio Eléctronico en el que me especialicé en SEO, SEM y del desarrollo de comercios electrónicos.
+
+          - SEO
+          - SEM
+          - Planificación Social Media
+
+    - degree: Marketing e Investigación de Mercados
+      university: Universidad De Málaga
+      time: 2016 - 2020
+      details: |
+        Degree in Marketing in which I acquired the necessary foundation to practice as a marketing professional
+
+        Grado en Marketing en el que adquirí la base necesaria para ejercer como profesional de marketing
+
+          - SEO
+          - SEM
+          - Planificación Social Media
+
+
+experiences:
+    - role: Prácticas en Marketing Digital en Málaga
+      time: 2020 - 2020
+      company: BCS
+      details: |
+        I worked in the social media department creating copy and post design for various companies and performing SEO and social ADS tasks.        
+      
+        Trabajé en el departamento de social media creando copy y diseño de los post de diversas empresas y realizando tareas de SEO y social ADS.
+
+          - Facebook ADS
+          - Herramientas de gestión de redes sociales
+          - SEO
+
+
+skills:
+    toolset:
+      - name: SEO
+        level: 80%
+
+      - name: SEM
+        level: 70%
+
+      - name: Social Media Management
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Diseño de Copy
+        level: 80%
+
+      - name: Premiere & Photoshop
+        level: 50%
+
+      - name: Microsoft Office
+        level: 100%      
+
