@@ -28,19 +28,16 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: paulinefugit@gmail.com #optional
-    phone: +56926072026 #optional
-    website:  #optional
+    email: paulinefugit@gmail.com 
+    phone: +56926072026 
+    website:  https://github.com/PauFugit
     
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+   
     github: PauFugit
     
     stack-overflow: 19550528/paufugit
 
-    # languages you speak, levels inculde: Native, Professional
+   
     languages:
       - idiom: English
         level: Intermedio
@@ -51,19 +48,18 @@ basic_info:
       - idiom: Spanish
         level: Native
 
-    # Interests or hobies
+  
     interests:
       - item: Reading
 
-      - item: Running
+      - item: Study
 
       - item: Cooking
 
-# Your previous education
+
 education:
     - degree: Master's degree in education with mention in curriculum and competency-based evaluation.
       university: University of Miguel de Cervantes
-      # optional
       university_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcambio21.cl%2Fimage%2F5e6ed35ccd49b0062b6efc65.jpg&f=1&nofb=1
       time: 2019 - 2021
       details: |
@@ -72,103 +68,44 @@ education:
           - Bullet point
     - degree: Pedagogy in Philosophy and Bachelor of Education
       university: Pontificie Universidad Católica de Valparaíso
-      # optional
       university_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.univerzities.com%2FImages%2FUni%2Flogo6623.jpg&f=1&nofb=1
       time: 2010 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# Your previous job experiences or voluntier
+        532 / 5.000
+        Advanced knowledge of Western and Latin American philosophical theory. 
+        Intermediate studies of Latin and ancient Greek, plus tools for discussion, argumentation, and rhetoric. 
+        On the other hand, I have teacher training which includes everything from theoretical management to the 
+        implementation of methodologies and tools focused on learning from others. I also have the ability to generate 
+        didactic and educational material in various areas, following models already created by various educational theorists.
+
+
 experiences:
     - role: Teacher
       time: 2020 - 2021
       company: Colegio Santa María de Quilicura, Santiago.
-      # optional
+
       company_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F_3IlYYvzdvBE%2FR-SNVOOqwII%2FAAAAAAAAAAM%2FZaazP9lNH7g%2Fs200%2Fimage001.png&f=1&nofb=1
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+
+
     - role: Teacher
       time: 2017 - 2020
       company: Manquecura (COGNITA), Santiago
-      # optional
-      company_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.manquecura.cl%2Fwp-content%2Fuploads%2F2018%2F02%2Fadvisory-board-COGNITA-700x438.jpg&f=1&nofb=1
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
    
-# Your project portfolio
-projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      company_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.manquecura.cl%2Fwp-content%2Fuploads%2F2018%2F02%2Fadvisory-board-COGNITA-700x438.jpg&f=1&nofb=1
+     
 
 skills:
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 50%
 
-      - name: Javascript & jQuery
+      - name: Javascript 
         level: 70%
-
-      - name: Angular
-        level: 0%
 
       - name: HTML5 & CSS
         level: 98%
 
-      - name: Ruby on Rails
-        level: 0%
-
       - name: Sketch & Photoshop
-        level: 60%
+        level: 80%
+
+      
