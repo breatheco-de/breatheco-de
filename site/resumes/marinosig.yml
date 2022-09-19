@@ -1,0 +1,55 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+
+    first_name: Marino
+    last_name: Signorini
+    
+        
+    summary: working on...
+
+    
+    avatar: 
+
+    
+    email: marinosignorini.it@gmail.com
+    linkedin: https://www.linkedin.com/marinosignorini
+    
+    
+    github: marinosig
+    
+    twitter: .
+    
+
+    
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Learning
+
+
+    
+    interests:
+      - item: Soccer
+
+      - item: Code
+
+      - item: finance
+
+
+
+education:
+    - degree: Business Administration
+      university: Rio de Janeiro Federal University 
+      time: 2003 - 2008
+
+    - degree: Strategic Management of Information Technology
+      university: Rio de Janeiro Estácio University
+      time: 2018-2021
