@@ -1,0 +1,70 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Jonathan
+    last_name: Acra
+    motto: Break that code!
+    avatar:
+    summary:
+    
+
+    # Sidebar links
+    email: jonathanacra@gmail.com
+    phone: 402-660-2204
+    website: 
+    linkedin: acra-jonathan
+    github: J-Acra
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Bilingual
+
+    interests:
+      - item: Custom Computer and Keyboard Building
+      - item: IoT Development
+      - item: Snowboarding
+
+education:
+
+experiences:
+    - role: Team Lead
+      time: 2016 - 2022
+      company: United States Air Force
+      details:
+        - Awarded Distinguished Graduate from Air-Force Leadership School.
+        - Led Maintenance/Inspection team of 5 for multi-million dollar aerospace equipment accounts.
+        - Taught Electrical, Mechanical, and Hydraulic troubleshooting and repair of Aerospace Equipment.
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Guardian-Connect
+        link: "https://guardian-rides.herokuapp.com/"
+        tagline: "A modern ride-share app for setting car-pools for your childrens based off the school."
+
+skills:
+    toolset:
+      - name: Python & Flask
+
+      - name: Javascript & React
+
+      - name: HTML5 & CSS
+
+      - name: SQLAlchemy
+
+      - name: POSTMAN
+
+      - name: GIMP
