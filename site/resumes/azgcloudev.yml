@@ -1,0 +1,63 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  first_name: Aldair
+  last_name: Zamora
+
+  motto: I would like to change the world!
+
+  tagline: Support Engineer
+  avatar: profile.png
+
+  email: aldair@azgcloudev.xyz
+  phone: 50662231337
+  website: https://azgcloudev.xyz
+  linkedin: azgcloudev
+  github: azgcloudev
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Advance
+
+  interests:
+    - item: Motorcycles
+    - item: Airplanes
+    - item: Off road cars
+
+  education:
+    - degree: High School Diploma
+      time: 2012
+
+  experiences:
+    - role: Azure Network Support Engineer
+      time: 2022 - present
+      company: Microsaoft
+
+    - role: VMware Cloud Specialist
+      time: 2021 - 2022
+      company: Tier 4 services
+
+    - role: vSAN Technical Support Engineer
+      time: 2020 - 2021
+      company: VMware
+
+  skills:
+    toolset:
+      - name: VMware
+        level: 70%
+
+      - name: Azure
+        level: 60%
+
+      - name: HTML and CSS
+        level: 50%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: networking
+        level: 80%
