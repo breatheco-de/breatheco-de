@@ -14,30 +14,30 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-	 prueba de texto parra
+	 Me encanta aprender  y llevar a la practica todo lo que aprendo.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: juanjoserusa@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: Juan José Ruiz Sanchez #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: juanjoserusa
     
-    twitter: 'webjeda' #optional
+    twitter: ' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Professional
 
       - idiom: French
         level: Professional
