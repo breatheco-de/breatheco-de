@@ -1,5 +1,5 @@
 template: "online-cv"
-skin: "blue"
+skin: "white"
 
 # Personal Information
 basic_info:
@@ -23,7 +23,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar:
+    avatar: https://avatars.githubusercontent.com/u/110059715?v=4
 
     # Contact Information
     email: foforito2001gg@gmail.com #optional
