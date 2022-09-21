@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: Venezuela
+skin: blue 
 
 # Personal Information
 basic_info:
