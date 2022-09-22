@@ -1,0 +1,177 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Galisteo Pujol
+    
+    # Define yourself in 4-5 words
+    motto: En constante evolución
+    
+    # focus
+    focus: Mundo digital
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Graduado en ADE pero enfocado en el mundo digital.
+      Tengo experiencia en la creación de contenido, tanto visual como escrita, gestión de redes sociales y redacción web.
+      Desde siempre me ha atraído la programación y la creación de páginas webs. Es por ello que actualmente estoy centrándome en formarme como Full Stack Developer, aprendiendo cada día sobre las distintas herramientas y lenguajes. 
+      Considero que tengo una mente inquieta, siempre tratando de mejorar y enfrentarme a retos nuevos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQH7TbVoNmiGmA/profile-displayphoto-shrink_800_800/0/1660904160922?e=1669248000&v=beta&t=0LTufuOglTucD02aZVd1ctvIoi_rmpIOR4gE6o5cnPA
+
+    # Contact Information
+    email: dagalisteo@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/davidgalisteopujol/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/david9833
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: B2
+
+      - idiom: Portugués
+        level: B1
+
+    # Interests or hobies
+    interests:
+      - item: Música
+
+      - item: Videojuegos
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: Licenciatura en Administración y Dirección de Empresas
+      university: Universidad de Granada
+      # optional
+      university_logo: https://www.pngfind.com/pngs/m/28-282511_universidad-de-granada-logo-hd-png-download.png
+      time: 2009 - 2014
+      
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Técnico de Marketing Digital 
+      time: 2021 - Present
+      company: JN Retail
+      # optional
+      company_logo: https://jnretail.com/wp-content/uploads/2021/11/logotipo-TTE.png
+      details:
+      - Creación y gestión de la página web de la empresa
+      - SEO
+      - Creación de contenido 
+      - Gestión de redes sociales
+      - Copywriting 
+      - Email marketing
+      - Wordpress
+      - Elaboración de base de datos
+      - Realización de presentaciones
+      - Edición de fotografía
+    - role: Oficial administrativo
+      time: 2017 - 2021
+      company: Tiendaclero.es
+      # optional
+      company_logo: https://tiendaclero.es/img/tiendaclero-logo-1546001949.jpg
+      details:
+      - Gestión de las Redes sociales
+      - Elaboración del catalogo físico y digital de la empresa para su distribución
+      - Fotografía de productos
+      - Gestión de la página web 
+      - Administrativo
+      - Atención al cliente
+      - Utilización de ERP SQL Pyme
+      - Contacto con proveedores para compras
+      - Dependiente 
+      - Etiquetado y clasificación de artículos
+      - Elaboración y gestión de pedidos
+      - Recepción de mercancías
+      - Preparación y empaquetado de productos para envío
+    - role: Digital Marketing
+      time: 2016 - 2016
+      company: Genial.ly
+      # optional
+      company_logo: https://remoters.net/wp-content/uploads/2020/08/genially.png
+      details:
+      - Gestión y actualización de base de datos
+      - Promoción de producto
+      - Investigación
+      - Soporte en implementación de campañas globales
+      - Creación de informes y análisis
+      - Estudio de la competencia
+      - Revisión de traducciones y adaptación al mercado
+      - Soporte de usuario online
+      - Creación de contenidos
+      - Análisis de datos con Google Analytics
+      - Creación de campañas con Google Adwords
+      - Facebook Ads
+     
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML y CSS 
+
+      - name: Javascript & jQuery
+        
+      - name: Photoshop
+
+      - name: SEO
+
+      - name: Redacción Web
