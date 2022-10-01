@@ -29,13 +29,12 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQHdDYjHej1vrA/profile-displayphoto-shrink_800_800/0/1656907418065?e=1669852800&v=beta&t=MbFHE5TQ7LaEdDd_pwLSbVoHwi7x9KzFzr-bGTy-3KE
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: zekyotumlu@hotmail.com #optional
+    phone: 203-916-3410 #optional
+    linkedin: Zekeriya Otumlu #optional
     
     #
     # ******** IMPORTANT *******
@@ -50,27 +49,26 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      # - idiom: French
+      #   level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      # - idiom: Spanish
+      #   level: Professional
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Reading
+      - item: Play Tennis
 
-      - item: Snowboarding
-
-      - item: Cooking
+      - item: Swimming
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Master in Finance
+      university: Goldey Beacom College
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2016 - 2017
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -79,11 +77,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: MBA - Master in International Business
+      university: Goldey Beacom College
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 2015 - 2016
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -94,9 +92,9 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Sr. Software Automation Engineer
+      time: 2021 - Present
+      company: UKG
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
