@@ -1,0 +1,75 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Alegre Juan
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Esperando a que cargue el Dragon Ninja al MSX de mi hermano desde 1983.
+
+      Tengo un proyecto de libroaventura en BASIC ya bastante avanzado. 
+      
+      Si lees esto trae pan.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-19/61820063_1471136396361715_3795551556837834752_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=GHXxSrJT9_YAX-H2qin&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8mRrVCDq4ncQ8cYpbB7KvlQ3f8plXZFWW2Lwb15OxoBA&oe=633EAB96&_nc_sid=8fd12b
+
+    # Contact Information
+    email: donpabloeldefelicitas@gmail.com #optional
+    phone: +34 669 81 09 78 #optional
+    website:  #optional
+    linkedin: pablo-alegre-juan-9b444533 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: donpablohdf
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Low
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: Electromechanical industrial maintenance 
+      university: Don Bosco
+   
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Developer and servers maintenance
+      time: 1999 - 2009
+      company: Indi estudio creativo, Spain
+    
+    - role: Industrial maintenance manage
+      time: 2009 - 2021
+      company: Aquaservice, Spain
