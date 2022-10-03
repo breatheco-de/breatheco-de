@@ -1,0 +1,72 @@
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mireya
+    last_name: De la Corte Ríos
+    
+    # Define yourself in 4-5 words
+    motto:You won't go to bed without knowing something else
+   
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email:  #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Travel
+
+      - item: DIY
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: : University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here 
+        pretium quis, sem.
+          - Bullet point
+          - Bulet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrative Assistance
+      time: 2000 - Present
+      company: Dantia Technology, Cádiz, Spain
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here .
+          - Bullet point
+          - Bullet point
+ 
