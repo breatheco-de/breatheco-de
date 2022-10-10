@@ -1,0 +1,16 @@
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+  name: Daniel Juarrero
+  email: danieljuhe@gmail.com
+  github: danielo8417
+
+educacion: 
+  studies: Grado en Biotecnologia y Bioquimica
+  languages: Spanish, Vasque, English, Italian.
+Experiencias: Trabajos anteriores.
+proyectos: Describe los proyectos que has creado como desarrollador.
+publicaciones: Cualquier artículo que hayas publicado.
+Habilidades: Enumera tus habilidades con un porcentaje de experiencia.
