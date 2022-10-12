@@ -33,7 +33,7 @@ basic_info:
 
     # Contact Information
     email: nesmartinez2@gmail.com #optional
-    phone: 9 8827 7777 #optional
+    phone: 9 8273 0300 #optional
     website:  #optional
     linkedin: Nestor Martinez #optional
     
@@ -63,11 +63,11 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Civil Engineer
+      university: University Catolica Andres Bello
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2008 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
