@@ -1,0 +1,91 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Claudia
+    last_name: Reyes
+    
+    motto: I have no special talent. I am only passionately curious.
+    
+    focus: Programming
+    
+    summary: Experienced General Manager with a demonstrated history of working in the executive office industry. Skilled in Negotiation, Business Planning, Operations Management, Microsoft Word, and Sales. Strong operations and analytical professional.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.linkedin.com/in/claudia-reyes-jofré-93812a200/
+
+    email: claudia.reyes.joffre@gmail.com 
+    phone: 948515954
+    website: 
+    linkedin: https://www.linkedin.com/in/claudia-reyes-jofré-93812a200/
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: claudiareyesjofre
+    
+    twitter: https://twitter.com/ClaudiaJoffre
+    stack-overflow: none
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: basic
+      
+
+    interests:
+      - item: art
+
+      - item: culture
+
+      - item: Cooking
+
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 -2022
+      details:
+          desarrollo profesional en 4geek en un intensivo part time para cosolidar con mis horas de trabajo.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: ninguna
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      por mi githug cuento con distintos proyectos que pueden visualizar realizado por 4 4Geeks
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/claudiareyesjofre"
+        tagline: 
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: "0"
