@@ -32,8 +32,8 @@ basic_info:
     # Contact Information
     email: jeremy.aparicio.g@gmail.com #optional
     phone: 123456789 #optional
-    website: asd.com #optional
-    linkedin: Jeremy Aparicio #optional
+    website: -- #optional
+    linkedin: -- #optional
     
     #
     # ******** IMPORTANT *******
