@@ -5,7 +5,7 @@ skin: "blue"
 basic_info:
 
     first_name: Pedro 
-    last_name: Rivas
+    last_name: Zagal
     motto: Full-stack Developer
     avatar: https://media-exp1.licdn.com/dms/image/C4D03AQHmXjA319ce_w/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=xOF0Yy51RfYjl2G09dz_bI6jl1FSDs_5ySxiXUc_Q8I
     summary: |
@@ -13,11 +13,11 @@ basic_info:
       Currently studying the 4geeks Academy Full Stack Developer Bootcamp to complete my education.
       I have a very high attention to detail, brilliant organizational skills, such as time management, and am a really quick learner.
 
-    email: pedrorivdom@gmail.com
-    phone: 
+    email: pedro.zagalm@gmail.com
+    phone: 976484732
     website: 
-    linkedin: https://www.linkedin.com/in/pedrorivasdominguez/
-    github: Ped31
+    linkedin: 
+    github: pzagmel
     twitter: 
     stack-overflow: 
 
@@ -27,33 +27,22 @@ basic_info:
         level: Native
         
       - idiom: English
-        level: Professional
+        level: Basic
 
     interests:
 
-      - item: Coding
-
-      - item: Travelling
-
       - item: Sports
 
+      - item: Travel
+
+      - item: Coding
+
 education:
-    - degree: Environmental Science
-      university: University of Extremadura
+    - degree: Kinesiologia
+      university: Universidad San Sebastian
       time: 2012
       details: 
-
-    - degree: Master Degree in Quality, Environment and Health and Safety
-      university: San Pablo CEU University
-      time: 2014
-      details: 
-
-    - degree: Master Degree in Health and Safety
-      university: San Pablo CEU University
-      time: 2016
-      details: 
-
-      
+     
 experiences:
     - role: Student
       time: Currently
@@ -65,25 +54,21 @@ projects:
      
     
     assignments:
-      - title: Excuse-Generator
-        link: https://github.com/Ped31/Excuse-Generator
-        tagline: Created a excuse generator usin HTML, CSS and a little bit of JavaScript
 
       - title: Instagram Photo-Feed
-        link: https://github.com/Ped31/new-instagram-photo-feed-responsive-version
-        tagline: Copy of Instagram Photo Feed
+        link: https://github.com/pzagmel/instagrampost
+        tagline: Copy of Instagram Photo 
         
       - title: Digital Postcard
-        link: https://github.com/Ped31/Digital-Postcard
-        tagline: Copy of Instagram Postcard
+        link: https://github.com/pzagmel/test
+        tagline: Copy of Postcard
 
 
 
 skills:
     toolset:
 
-      - name: Javascript
-        level: 65%
+      - name: HTML5,CSS.
+       
 
-      - name: HTML5 & CSS3
-        level: 85%
+      
