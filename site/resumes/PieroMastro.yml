@@ -12,15 +12,15 @@ basic_info:
   last_name: Mastrogiacomo
 
   # Define yourself in 4-5 words
-  motto: Always strive to do your best, regarless of the outcome.
+  motto: Always strive to do your best, regardless of the outcome.
 
   # focus
-  focus: Becomming a Full Stack developer and start building a long-term carrer as a developer.
+  focus: Becoming a Full Stack developer and building a long-term career as a developer.
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary: |
-    From Medical Sciences to the digital ever-expanding world, I started this journey with something in mind.
-    Giving my professional life a complete overhaul and becoming a Full Stack Developer.
+    From Medical Sciences to the ever-expanding digital world, I started this journey with something in mind.
+    I am giving my professional life a complete overhaul and becoming a Full Stack Developer.
     Since I was a teenager back in the 90s, always had a thing about tech and computers in general,
     I went to Medical School and then moved to Chile to pursue a major in Biomedical Sciences.
     The pandemic struck, and I had a massive change in the way I lived my life, became a dad and I noticed something was missing, I wanted to spend more time with my kids.
@@ -40,7 +40,7 @@ basic_info:
   #
   # ******** IMPORTANT *******
   # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-  github: https://github.com/PieroMastro
+  github: PieroMastro
 
   twitter: "webjeda" #optional
   stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -72,11 +72,11 @@ education:
     university_logo: https://upload.wikimedia.org/wikipedia/commons/c/c3/UC_logo.png
     time: 2000 - 2008
     details: |
-       Molecular biology, histology, embryology, biochemistry, anatomy.
-       Pharmacology, pathology, physical examination and Clinical Cycle.
+      Molecular biology, histology, embryology, biochemistry, anatomy.
+      Pharmacology, pathology, physical examination and Clinical Cycle.
 
-        - Bullet point
-        - Bullet point
+       - Bullet point
+       - Bullet point
 
   - degree: BSc in Applied Mathematics
     university: Bristol University
