@@ -64,54 +64,46 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Tecnico en Refrigiración y Climatización 
+      university: Liceo Sergio Silva Bascuñan
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2010 - 2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Graduated from the technical career in refrigeration 
+        and air conditioning of the Sergio Silva Bascuñan high school,
+         career completed in my high school. 
+         Internship Performed at Clima Seguro S.A.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University 
+    - degree: Analista Programador
+      university: Instituto Santo Tomas
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 2017 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Graduated from the programmer analyst career, 
+        tudied in evening modality. Despite having already completed 
+        a career in the computer world, I know that I must polish my 
+        foundations and enter the 4Geeks Academy.
           - Bullet point
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Desarrollador Junior
+      time: 2021 - Present
+      company: PRECISION SpA
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Despite being hired as a Developer, I work in the company
+         making configurations and ensuring the proper functioning of 
+         the products in our Magento 2 E-commerce platform.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: --
+      time: ---
+      company: --
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -122,9 +114,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: --
+      time: --
+      company: --
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
