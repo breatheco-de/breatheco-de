@@ -1,0 +1,140 @@
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miriam
+    last_name: Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: Web design & development
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://miriamvalades.com/wp-content/uploads/2021/04/AG_IMG_0738-scaled.jpg
+
+    # Contact Information
+    email: hola@miriamvalades.com #optional
+    # phone: 234 2342 342 #optional
+    website: www.miriamvalades.com #optional
+    linkedin: miriam-munoz-valades/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: miriamvalades
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Advanced
+        
+      - idiom: Italian
+        level: Intermediate
+        
+      - idiom: French
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Creative writing
+
+      - item: Digital drawing
+
+      - item: Yoga
+
+# Your previous education
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      # optional
+      # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2023
+    - degree: Master's in Graphic and UX Web Design
+      university: ESDIMA Madrid School of Design
+      # optional
+      # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2020
+      # details: |
+      #  Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit.
+      #     - Bullet point
+      #    - Bullet point
+    - degree: Bachelor's Degree in Tourism
+      university: Complutense University of Madrid
+      # optional
+     #  university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+     #  details: |
+       #  Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Designer
+      time: 2021 - Present
+      company: Francisco de Vitoria University
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      # details: |
+      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+    - role: Graphic Designer
+      time: 2021
+      company: PcComponentes
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      # details: |
+      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit.
+# Your project portfolio
+# projects:
+    # intro: >
+      # You can list your side projects or open source libraries in this
+      # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # assignments:
+      # - title: Velocity
+        # optional
+        # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        # link: "#hook"
+        # tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Wordpress
+        level: 90%
+
+      - name: Adobe Photoshop
+        level: 85%
+
+      - name: Adobe Illustrator
+        level: 70%
+        
+      - name: Javascript & jQuery
+        level: 60%
