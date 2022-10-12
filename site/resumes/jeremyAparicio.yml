@@ -20,12 +20,10 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a new adept in the world of programming, 
+      every day I find something new to do, I like to learn 
+      and I always find something new that interests me.
+
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -183,13 +181,13 @@ skills:
         level: 20%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
       - name: Ruby on Rails
-        level: 20%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 30%
+        level: 0%
