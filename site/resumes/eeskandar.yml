@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Escalante
+    
+    # Define yourself in 4-5 words
+    motto: Be water, my friend
+    
+    # focus
+    focus: Learning about how everything works
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Learning is always best when the one teaching is passionate about it.
+      I'm a bit of a plumber, a bit of an electrician, a lot of a gamer and a bit of everything that I come across my life and had a good teacher willing to share a bit of his knoledge.
+      A Jack of all trades, master of none yet
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://external-preview.redd.it/yH7DlOyN-yZaO7ac0VoaVyEYd7DR_4xBIOK-Esr5w34.png?auto=webp&s=a550a4ae1701157364eabb3e59eb37b960c46932
+
+    # Contact Information
+    email: seik747@gmail.com #optional
+    phone: +58 424 733 6015 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: eeskandar
+    
+    stack-overflow: 19935408/eeskandar
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+      
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Learning
+
+      - item: Fixing stuff (or at least see how it works)
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Freelancer
+      time: 2014 - Present
+      company: ActusKom software
+    
+    - role: Customer Support
+      time: 2019 - Present
+      company: Datinvoz C.A.
+# Your project portfolio
+projects:
+    intro: >
+      Small things. I did a game with some friends for a competition.
+      It was a hell of a ride, but I loved it.
+      Social media management and content creator for various companies. 
+      
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Sketch & Photoshop
+        level: 55%

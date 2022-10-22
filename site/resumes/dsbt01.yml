@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Suarez
+    
+    # Define yourself in 4-5 words
+    motto: I will never say no to challenges
+    
+    # focus
+    focus: Family and learning 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      A career Systems Analyst with over 15 years of experince in multiple technologies.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: david@dsbtsoftware.com #optional
+    phone: 305-775-7396 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dsbt01
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Cooking
+
+      - item: Music
+
+      - item: Family
+
+# Your previous education
+education:
+    - degree: Management of Information System
+      university: Florida International University
+      # optional
+      university_logo: https://www.fiu.edu/_assets/images/fiu-white-logo.png
+      time: 1991 - 1996
+      details: |
+        I was first interested in study medicine but it was too much for me to do at the time.  So after 
+        my cousin sugested that I take a look at the MIS program at FIU, I changed my major and I simply 
+        loved it. This is not work for me.  This is fun.
+        
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Principal System Analyst
+      time: 2021 - Present
+      company: NextEra Energy
+      # optional
+      company_logo: https://www.nexteraenergy.com/content/dam/nee/us/en/neecommon/images/logo.png
+      details: |
+       I usually get the  most complex challenges that nobody else likes to tackle. Since I am versed
+       in multiple technologies and have been in the company for a while, I can easily navigate the complexities
+       of the job requests.
+       
+
+    - role: Senior Systems Analyst
+      time: 1996 - 2021
+      company: NextEra Energy
+      # optional
+      company_logo: https://www.nexteraenergy.com/content/dam/nee/us/en/neecommon/images/logo.png
+      details: |
+        Senior systems developer.
+        
+
+skills:
+    toolset:
+      - name: WPF
+        level: 98%
+
+      - name: C#
+        level: 98%
+
+      - name: SQL
+        level: 98%
+
+      - name: Salesforce
+        level: 55%
+
+      - name: .Net Core
+        level: 85%
+
+      - name: Web Api
+        level: 80%

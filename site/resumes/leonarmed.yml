@@ -1,0 +1,112 @@
+--- 
+basic_info: 
+  avatar: "https://avatars.githubusercontent.com/u/51424926?v=4"
+  email: leonarmed@gmail.com
+  first_name: Joel Leonardo
+  focus: "Full Stack Developer"
+  github: leonarmed
+  interests: 
+    - 
+      item: Desarrollo y nuevas tecnologías
+    - 
+      item: IoT
+    - 
+      item: Electrónica
+  languages: 
+    - 
+      idiom: Español
+      level: Nativo
+    - 
+      idiom: Ingles
+      level: Intermedio
+  last_name: Medina El Masri
+  linkedin: https://www.linkedin.com/in/joel-leonardo-medina-el-masri-559900178/
+  motto: "Siempre hay algo por aprender"
+  phone: "+595991851676"
+  stack-overflow: ~
+  summary: Desarrollo de landing page, Apps y Dashboards con React JS (TypeScript). Algunas Landing Page fueron con Vue JS
+  twitter: leonarmed
+  website: sispycom.com
+education: 
+  - 
+    degree: "Full Stack Developer"
+    details: |
+          Desarrollo de Dashboard para la administración de equipos criptomineros.
+    time: "2022 - 2022"
+    university: "4Geeks Academy"
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+  - 
+    degree: "Ingeniería en Sistemas"
+    details: |
+        Desarrolle un Sistema ERP para la gestión de recursos de la empresa Casa Oliveira C.A. como tesis y proyecto de grado.
+    time: "2016 - 2019"
+    university: "Universidad Santa María"
+    university_logo: "https://media-exp1.licdn.com/dms/image/C560BAQHWjcgsVC-krw/company-logo_200_200/0/1519901711514?e=2159024400&v=beta&t=D8PMXuL_YTEJhXzhLAEbLWvA9ewoFh656zLxwN5BMAA"
+experiences: 
+  - 
+    company: "Global Bridge Connections - Paraguay"
+    company_logo: "https://www.globalbridgeconnections.com.py/wp-content/uploads/2021/08/logo-b.png"
+    details: |
+        Desarrollo de sistemas de identificación biométrica con enfoque en el area comercial publica y privada. También desarrolle un sistema de gestión de vales a través de tarjetas electrónicas.
+    role: "Frontend Developer"
+    time: "2019 - Presente"
+  - 
+    company: "Casa Oliveira - Venezuela"
+    company_logo: "http://portal.casaoliveira.com/site/wp-content/uploads/2018/10/casaoliveiraLogo.png"
+    details: |
+        Desarrollo de Intranet, sistema para la gestion de ventas y cobranzas, sistema ERP para el manejo de recursos de la empresa.
+    role: "IT Manager"
+    time: "2010 - 2019"
+# projects: 
+#   assignments: 
+#     - 
+#       link: "#hook"
+#       project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       title: Velocity
+#     - 
+#       link: "#"
+#       project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+#       tagline: "A responsive website template designed to help web developers/designers market their services."
+#       title: DevStudio
+#     - 
+#       link: "#"
+#       project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+#       title: Tempo
+#     - 
+#       link: "#"
+#       project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       title: Atom
+#     - 
+#       link: "#"
+#       project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       title: Delta
+  # intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 95%
+      name: "React JS"
+    - 
+      level: 70%
+      name: "Node JS"
+    - 
+      level: 100%
+      name: SASS
+    - 
+      level: 100%
+      name: "HTML5 & CSS"
+    - 
+      level: 100%
+      name: "VITE"
+    - 
+      level: 70%
+      name: "Photoshop"
+    - 
+      level: 95%
+      name: "Github"
+skin: orange
+template: online-cv
