@@ -25,8 +25,6 @@ basic_info:
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -84,6 +82,17 @@ experiences:
       time: 2015 - Present
       company: Startup Hubs, San Francisco
       # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
 
           - Bullet point
           - Bullet point
