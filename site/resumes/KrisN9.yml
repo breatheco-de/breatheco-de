@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kristina
+    last_name: Nikitina
+    
+    # Define yourself in 4-5 words
+    motto: I like sweets and gaming
+    
+    # focus
+    focus: Learning something new everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      After studying a law degree and master's programmes, I worked as an Administrative Assistant in a shipping agency for more than 5 years.
+      I tried some free programming courses just for entertainment. I had so much fun, and this fact made me decide to give Full-Stack development a try, 
+      as well as choosing 4Geeks Academy bootcamp.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: kristinank992@gmail.com #optional
+    phone: +34 651 12 07 23 #optional
+    linkedin: https://www.linkedin.com/in/kristina-nikitina/ #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Watching TV series
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Law degree
+      university: University of Las Palmas de Gran Canaria
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2016
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
