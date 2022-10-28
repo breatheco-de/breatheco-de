@@ -9,38 +9,33 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andrés
-    last_name: Sotomayor
+    first_name: Matias
+    last_name: Uribe
 
     # Define yourself in 4-5 words
-    motto: Me gusta la vida
+    motto: Me gusta disfrutar lo que hago
 
     # focus
-    focus: Killing Bad Boys
+    focus: Programming 
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Soy parte de un bootcamp de full stack developer, con el cual espero aprender mucho y poder añadir algo a mi experiencia de gran valor.
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 966358252l
+    email: strider420@gmail.com #optional
+    phone: 89457888
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: matiuribec #optional
 
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: asotomayorx
+    github: Matiuribec
 
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -50,8 +45,8 @@ basic_info:
       - idiom: español
         level: Nativo
 
-      - idiom: español
-        level: Nativo
+      - idiom: Ingles
+        level: Avanzado
 
       - idiom: español
         level: Nativo
