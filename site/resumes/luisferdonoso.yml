@@ -1,0 +1,133 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Fernando
+    last_name: Donoso Rosero
+    
+    # Define yourself in 4-5 words
+    motto: I like to create things
+    
+    # focus
+    focus: Achieve my goals
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a recently graduated lawyer but I found love in coding 
+      I decided I wanted to start studying code because it doen't feel 
+      like I am working when I'm coding, I have a lot of fun doing it, even when 
+      I'm stuck into some issue.  
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: /workspace/About-4Geeks-Academy/site/static/Diseño sin título (3).png
+
+    # Contact Information
+    email: luisfer.donoso@gmail.com #optional
+    phone: +593 99 264 7971 #optional
+    website:  #optional
+    linkedin:  https://www.linkedin.com/in/luis-fernando-donoso-rosero-872531220/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luisferdonoso
+    
+    Instagram: '@luisfdonoso' #optional
+    stack-overflow: 
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Padel
+
+      - item: Gaming
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Law
+      university: Pontificia Universidad Católica del Ecuador
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_PUCESD.png
+      time: 2018 - 2022
+      details: |  
+# Your previous job experiences or voluntier
+experiences:
+    - role: IT Intern
+      time: 2021 - 2022
+      company: Credmoney S.A, Ecuador
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+       I was in charge of the google Gsuite account, helping in the develop of a banking core 
+       to give credits to pleaople who wanted to buy vehicles. I also gave tech support to all computers.
+    - 
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
