@@ -1,0 +1,66 @@
+
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+
+    
+    first_name: Alvaro Javier  
+    last_name: Chagas Capurro
+
+   
+    motto: Web developer student
+
+    
+    summary: |
+     Student with knowledge in html, css, bootstrap, js and python
+
+    github: alvarojavier22
+    linkedIN: https://www.linkedin.com/in/alvaro-javier-chagas-capurro/
+    twitter: https://twitter.com/Alvarojavier706
+    
+   
+    languages:
+      - language: english
+        level: b2
+
+      - language: spanish
+        level: native
+      
+      - language: Portuguese
+        level: Basic
+    
+    interests:
+      - item: music
+
+      - item: Sports
+
+      - item: Technologie
+
+
+education:
+    - degree: bachelor's degree in information technology
+      university: UTEC Uruguay
+      time: 2022-2025
+
+    - degree: Full Stack developer
+      university: 4Geeks Academy 
+      time: 2022
+  
+experiences:
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 70%
+    
