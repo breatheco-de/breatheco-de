@@ -15,38 +15,33 @@ basic_info:
     
     
     summary: |
-      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer. 
-      I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
+      I spend my time on the computer. 
       For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
 
     
    
-    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+    avatar: https://avatars.githubusercontent.com/u/113611848?v=4
 
     
-    email: 321mulville@gmail.com
-    # phone: 954 297 3940 
-    # website: asd.com 
-    linkedin: https://www.linkedin.com/in/mark-mulville-5a1b2a85/
+    email: pedrompena07@gmail.com
+    phone: +54 689 729 280
+    linkedin: https://www.linkedin.com/in/pedrompena/
     
     
-    github: s3rtr3s
+    github: https://github.com/s3rtr3s
     
-    twitter: 'MarkMulville' 
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
-
     
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Español
+        level: Nativo
 
     
     interests:
-      - item: Riding bmx
+      - item: Montar Bicicleta
 
-      - item: Health & wellness
+      - item: Videojuegos
 
-      - item: Suring
+      - item: Música
 
 
 
@@ -67,10 +62,10 @@ basic_info:
 #           - Bullet point
 
 
-experiences:
-    - role: Professional bike rider 
-      time: 2002 - Present
-      company: Profile Racing
+# experiences:
+#     - role: Professional bike rider 
+#       time: 2002 - Present
+#       company: Profile Racing
     
       # details: |
       #     - Confirms insurance coverage. Determines necessity for pre-authorization and obtains authorization for scheduled procedures.
