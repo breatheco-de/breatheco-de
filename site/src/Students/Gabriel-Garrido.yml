@@ -1,0 +1,139 @@
+--- 
+basic_info: 
+  avatar: "https://avatars.githubusercontent.com/u/114268183?v=4"
+  email: gabrielgarrido89@gmail.com
+  first_name: Gabriel
+  focus: "Learn every day"
+  github: Gabriel-Garrido
+  interests: 
+    - 
+      item: Nursery
+    - 
+      item: "Play the drums"
+    - 
+      item: "Learn code"
+  languages: 
+    - 
+      idiom: English
+      level: medium
+    - 
+      idiom: Spanish
+      level: native
+  last_name: Garrido
+  linkedin: "https://www.linkedin.com/in/gabriel-garrido-marchant/"
+  motto: "I like saving the world"
+  phone: "951187764"
+  stack-overflow: ~
+  summary: |
+      I am nurse since 2016, in 2022 i start study fullstack developer 
+      in 4GeeksAcademy Chile becouse i want to improve the health 
+      system using tecnology
+  twitter: false
+  website: false
+education: 
+  - 
+    degree: "Licentiate degree, Nursing"
+    details: |
+        I am nurse since 2016, i worked at hospital and currently i work on 
+        primary health attention specifically in elderly care.
+          - Bullet point
+          - Bullet point
+    time: "2011 - 2016"
+    university: "Universidad Andrés Bello"
+    university_logo: "https://tethys.pnnl.gov/sites/default/files/styles/captioned_400xauto/public/taxonomy-images/Unab-logo.jpg?itok=DTmThAEw"
+  - 
+    degree: "Fullstack developer"
+    details: |
+        I start to study Fullstack developer at 4GeeksAcademy on october 2022
+          - Bullet point
+          - Bullet point
+    time: "2022 - 2023"
+    university: "4GeeksAcademy"
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+experiences: 
+  - 
+    company: "CESFAM Padre Orellana"
+    company_logo: ""
+    details: |
+        I currently work on CESFAM Padre Orellana, my job is about care people from children
+        to eldery on prevention of sickness an promotion of hel
+          - Bullet point
+          - Bullet point
+    role: "Lead Developer"
+    time: "2015 - Present"
+  - 
+    company: "Google, London"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    role: "Senior Software Engineer"
+    time: "2014 - 2015"
+  - 
+    company: "Amazon, London"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    role: "UI Developer"
+    time: "2012 - 2014"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 98%
+      name: "Python & Django"
+    - 
+      level: 98%
+      name: "Javascript & jQuery"
+    - 
+      level: 98%
+      name: Angular
+    - 
+      level: 95%
+      name: "HTML5 & CSS"
+    - 
+      level: 85%
+      name: "Ruby on Rails"
+    - 
+      level: 60%
+      name: "Sketch & Photoshop"
+skin: blue
+template: online-cv
