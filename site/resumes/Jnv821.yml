@@ -29,10 +29,10 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: jrf210801@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: #optional
     
     #
     # ******** IMPORTANT *******
@@ -45,7 +45,7 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Professional
 
       - idiom: Spanish
         level: Native
