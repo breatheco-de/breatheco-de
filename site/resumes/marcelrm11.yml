@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcel
+    last_name: Roig
+    
+    # Define yourself in 4-5 words
+    motto: I like having fun
+    
+    # focus
+    focus: Learning and Living
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Marcel has a background in aerospace engineering and now he became a developer and designer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/lego/2.jpg
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: marcelrm #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marcelrm11
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Italian
+        level: Conversational
+
+      - idiom: Portuguese
+        level: Conversational
+
+    # Interests or hobies
+    interests:
+      - item: Football
+
+      - item: Gastronomy
+
+      - item: Cultures
+
+# Your previous education
+education:
+    - degree: MSc in Aerospace Engineering
+      university: University of Cranfield
+      # optional
+      university_logo: 
+      time: 2013 - 2014
+      details: |
+        Master of Science focused in gas turbine engines for aerospace, industrial and naval applications.
+
+    - degree: Engineering in Aeronautics
+      university: Universitat Politecnica de Catalunya
+      # optional
+      university_logo: 
+      time: 2009 - 2014
+      details: |
+        5 years degree equivalent to BSc and MSc.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Frontend developer and UX designer
+      time: 2021 - 2022
+      company: Stronde, Cyprus
+      # optional
+      company_logo: 
+      details: |
+        Working both for the frontend team and the UX research and design team.
+
+# Your project portfolio
+projects:
+    intro: >
+      I will be updating this section soon with my new projects.
+
+    assignments:
+      - title: Wannabee
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 68%
+
+      - name: Javascript
+        level: 48%
+
+      - name: Vue
+        level: 38%
