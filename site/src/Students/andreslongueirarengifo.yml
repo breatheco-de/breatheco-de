@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andres
+    last_name: Longueira 
+    
+    # Define yourself in 4-5 words
+    motto: I like code 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Mi nombre es Andres, soy un desarrollador junior, con ganas de aprender y
+      crecer como programador. Me gradué de una formación profesional de desarrollo 
+      multiplataforma, llevo mas de 3 años metido en este mundo que tanto me gusta, 
+      pero aun no he despegado en el ambito laboral, por eso me gustaría poder hacerlo 
+      en cuanto pueda. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: andreslongueirarengifo@gmail.com #optional
+    phone: 645 37 18 19 #optional
+    linkedin: andres longueira rengifo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andreslongueirarengifo
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: B2
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Editar
+
+      - item: Gimnasio
+
+      - item: Videojuegos
+
+# Your previous education
+education:
+    - degree: Formación Professional en Desarrollo de Aplicaciones multiplataforma
+      university: U-tad
+      # optional
+      university_logo: https://st1.u-tad.com/media/2020/11/Ij8G0b_x_400x400.png
+      time: 2020 - 2012
+      details: |
+        Desarollo en web como en dispositivos moviles, manejo de base de datos y servidores.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Software Assistant (Becario)
+      time: Marzo 2022 - Mayo 2022
+      company: NTTData
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/NTT-Data-Logo.svg/2560px-NTT-Data-Logo.svg.png
+      details: |
+        Desarrollo de aplicación web, usando Java JDBC como back y Angular como front. 
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: MySQL
+        level: 98%
+
+      - name: MongoDB
+        level: 85%
+
+      - name: Angular
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Kotlin
+        level: 70%
+
+      - name: Java (Java JDBC, Spring Boot)
+        level: 90%
+
+      - name: NodeJS
+        level: 65%
+
+      - name: JavaScript
+        level: 85%
+
+      - name: Photoshop
+        level: 95%
