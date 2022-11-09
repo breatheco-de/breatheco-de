@@ -4,7 +4,7 @@ template: "online-cv"
 skin: "blue"
 
 basic_info: 
-  avatar: 
+  avatar: "/workspace/About-4Geeks-Academy/site/static/yml.png"
   email: a@a.com
   first_name: Nicole
   last_name: Struggia
