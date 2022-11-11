@@ -2,6 +2,9 @@
   "name": "minimal",
   "description": "Minimal router and client",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
+  },
   "scripts": {
     "test": "node site/test-yaml.js"
   },
