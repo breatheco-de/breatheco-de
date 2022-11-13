@@ -20,7 +20,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    # avatar: https://avatars2.githubusercontent.com/u/73470664?s=460&u=e3e8302070d5baaa27a97b031d57d49c45bae80f&v=4
+    avatar: https://github.com/Gregori-Rivera
 
     # Contact Information
     email: gregori.rivera@gmail.com #optional
@@ -44,8 +44,8 @@ basic_info:
       - idiom: English
         level: Professional
 
-      - idiom: 
-        level: 
+      - idiom: None
+        level: None
 
     # Interests or hobies
     interests:
@@ -57,14 +57,13 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: Tourism Diploma
-      university: University of Cadiz
+    - degree: Informatics Engineer
+      university: University Alejandro de Humboldt
       # optional
-      university_logo: https://gabcomunicacion.uca.es/wp-content/uploads/2017/05/Logo-V2-Color-Impresi%C3%B3n-210x279-mm-jpg.jpg
-      time: 2002 - 2006
+      university_logo: https://es.wikipedia.org/wiki/Universidad_Alejandro_de_Humboldt#/media/Archivo:Universidad_Alejandro_de_Humboldt_VEN.jpg
+      time: 2010
       details: |
-        Tourism diploma including economics, sociology, history, history of arts, 
-        geography, english, german, many different languages
+        Informatics Engineer
     
 # Your previous job experiences or voluntier
 experiences:
@@ -72,7 +71,7 @@ experiences:
       time: 2022 - Present
       company: Corporacion Suiche 7B
       # optional
-      company_logo: https://i.pinimg.com/originals/50/37/f6/5037f66ab847410c6d817b83facfd098.png
+      company_logo: https://suiche7b.com.ve/wp-content/uploads/2022/02/Logo-Suiche-7B-vertical.jpg
       details: |
         Head of technology
           
