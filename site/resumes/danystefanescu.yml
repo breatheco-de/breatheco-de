@@ -1,0 +1,79 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Dany
+    last_name: Stefanescu
+    motto: Full-stack Developer
+    avatar: https://fotografias.antena3.com/clipping/cmsimages02/2022/08/25/B661900F-DEE7-4105-A96E-719BA1780FE2/programador_98.jpg?crop=1920,1080,x0,y170&width=1900&height=1069&optimize=low&format=webply
+    summary: |
+      Debido a mi pasión por la programación me he formado de forma autodidacta en HTML5, CSS y Javascript. Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git, entre otras tecnologías. Mientras termino estos estudios, estoy en búsqueda de un trabajo que me permita continuar mi desarrollo, practicar y crecer en el sector de la programación.
+      Soy una persona muy organizada, responsable, y perseverante, orientada al cumplimiento de horarios y plazos de entrega, además tengo una inclinación natural por facilitar un clima favorable de trabajo y trabajar en equipo.
+      Tengo muchas ganas de aprender, practicar y crecer como programador.
+
+    email: stefanescuddf@gmail.com
+    phone: 662 270 796
+    website: 
+    linkedin: 
+    github: DanyStefanescu
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Romanian
+        level: Native
+
+      - idiom: Spanish 
+        level: Professional
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Cinema
+
+education:
+    - degree: SEO Consultor, Digital Marketing Expert
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with Javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+      - title: Instagram Bootstrap
+        link: https://github.com/danystefanescu/instafeedbootstrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Instagram without Bootstrap (CSS)
+        link: https://github.com/danystefanescu/feedinstagram
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/danystefanescu/mypostal
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 0%
+
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 80%
