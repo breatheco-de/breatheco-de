@@ -1,0 +1,158 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexander
+    last_name: Pyslarash
+    
+    # Define yourself in 4-5 words
+    motto: Coding, business, music, and coffee.
+    
+    # focus
+    focus: Making things beautiful
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      An IT and multi-focused business professional with background in full-stack development, enterpreneurship, and markeitng.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pyslarash.com/wp-content/uploads/2022/04/cropped-DSC04271.jpg
+
+    # Contact Information
+    email: alex.pyslarash@gmail.com #optional
+    phone: 949-390-0534 #optional
+    website: pyslarash.com #optional
+    linkedin: pyslarash #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: pyslarash
+    
+    twitter: 'pyslarash' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Fluent
+
+      - idiom: Russian
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Traveling
+
+      - item: Marketing
+
+# Your previous education
+education:
+    - degree: BS in Business Management
+      university: California State University, Long Beach
+      # optional
+      university_logo: https://pyslarash.com/wp-content/uploads/2022/11/csulb-logo.jpg
+      time: 2011 - 2014
+      details: |
+        Received a Bachelor's in Science in Business Management. Studied a wide array of subjects from Marketing, Finance, Accounting with a primary focus on Management.
+        Besides, Minored in Music.
+
+          - 3.15 GPA
+    - degree: AA in Business Administration
+      college: Saddleback College
+      # optional
+      university_logo: https://pyslarash.com/wp-content/uploads/2022/11/saddleback.jpg
+      time: 2009 - 2011
+      details: |
+        Received an Associate's in Arts in Business Administration. Studied a wide array of subjects from Business Law and Accounting to Economics and Business Writing.
+
+          - 3.6 GPA
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Uber Driver
+      time: 2014 - Present
+      company: Uber
+      # optional
+      company_logo: https://pyslarash.com/wp-content/uploads/2022/11/uber-logo.jpg
+      details: |
+        Driving for Uber part time and full time in different regions: Orange County, CA, Portland, OR, and Miami, FL.
+        Learned the city, main points of interest as well as various events in the area. Have a clean driving record.
+
+          - Driving proficiency
+          - Knowledge of the local area
+
+    - role: Owner-Operator
+      time: 2021 - 2012
+      company: Not Your Average Logistics
+      # optional
+      company_logo: https://pyslarash.com/wp-content/uploads/2022/11/nyal.jpg
+      details: |
+        Launched and ran an expedite delivery company as an owner-operator.
+        Was responsible for on-time pick ups and deliveries of shipments and tracking of location.
+        Besides, responsibilities also included bookkeeping, business management, and occasional self-dispatching of loads.
+
+          - Business management
+          - Ability to drive for up to 16 hours at a time
+
+    - role: Co-Founder
+      time: 2020 - 2022
+      company: Lemouniq
+      # optional
+      company_logo: https://pyslarash.com/wp-content/uploads/2022/11/lemouniq.jpg
+      details: |
+        Launched an E-commerce store based on Wordpress and WooCommerce engines. Installed necessary plugins and themes.
+        Used HTML/CSS to customize the look of the website. Managed Facebook Ads and Google Ads campaigns. Utilized social media such as Instagram to promote products.
+
+          - HTML/CSS
+          - Wordpress and WooCommerce
+          - Marketing and Advertising
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see a list of projects that I have completed:
+
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/pyslarash/postcard2-4geeks"
+        tagline: "A postcard built after following the instructions from 4Geeks Academy."
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/pyslarash/instagram-post"
+        tagline: "An Instagram post analog based purely on HTML and CSS."
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/pyslarash/instagram-feed-2"
+        tagline: "An analog of the Instagram photo feed based on HTML and CSS."
+
+      - title: Instragram Feed (with Bootstrap)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/pyslarash/instagram-bootstrap"
+        tagline: "A responsive analog of the Instagram feed using HTML, CSS, and, mainly, Bootstrap."
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 75%
