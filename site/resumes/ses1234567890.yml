@@ -1,0 +1,102 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Mattia
+    last_name: Tozzi
+    motto: Full-stack Developer
+    avatar: https://nextcloud.gferreiro.com/apps/files_sharing/publicpreview/Rw28b8tGS6p9K44?x=2560&y=941&a=true&file=IMG_2590.JPG&scalingup=0
+    summary: |
+      Me gusta mucho la programacion y tambien un fanatico de la administracion de sistemas Linux y windows.
+
+    email: gabrielferreirosedlovskij@gmail.com
+    phone: 666 666 666
+    website: https://gferreiro.com
+    linkedin: https://www.linkedin.com/in/gabriel-ferreiro-202a83142/
+    github: ses1234567890
+    twitter: ses1234567890
+    stack-overflow: 
+
+    languages:
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: Professional
+      
+      - idiom: Russian
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Devops
+
+      - item: Fitness
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course! (No changes)
+    
+    assignments:
+      - title: Selection sort algorithm
+        link: https://github.com/Tozzigh/sortingCardsSelectionAlgorithm
+        tagline: "Create a deck of random poker card by input a number than sort those cards with a selection sort algoritm and display the full log.   --"
+
+      - title: Random Card Generator
+        link: https://github.com/Tozzigh/cardGenerator
+        tagline: "Random display a single poker card.   --"
+        
+      - title: Landing Page
+        link: https://github.com/Tozzigh/flexBoxPage
+        tagline: "Thsi is a full responsive web page I created using FlexBox withoud Bootstrap4.   --"
+
+      - title: Excuse Generator
+        link: https://github.com/Tozzigh/theExcuseGenerator
+        tagline: "Random excuse generator.   --"
+             
+      - title: Ballons Challenge
+        link: https://github.com/Tozzigh/baloonsChallenge
+        tagline: "This is a little challenge I created; pop all the ball that spawn before those hit the roof.   --"
+
+      - title: Baloons Poppin
+        link: https://github.com/Tozzigh/baloonsPoppin
+        tagline: "A little game where we need to pop all the baloos to win.   --"
+
+      - title: Instagram Bootstrap
+        link: https://github.com/Tozzigh/bootstrap4Ex1
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/Tozzigh/postcard0.1
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
