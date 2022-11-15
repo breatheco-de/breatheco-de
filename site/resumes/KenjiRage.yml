@@ -1,0 +1,82 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Manuel Jesus
+    last_name: Cebador Sandez
+    motto: Waiter & Barman, Full-stack Developer student and System Network Administrator. Fundador de Pc-nexus
+    avatar: https://yt3.ggpht.com/yti/AJo0G0l9a3sVfWrPzrEC3a1JRZYoxyh6Yja9a5vG1NB-=s108-c-k-c0x00ffffff-no-rj
+    summary: |
+      Durante muchos años he estado trabajando en el sector hostelería/hotelería y al fin he podido dar el salto y cambiar de sector laboral.
+      Actualmente estoy terminando el ciclo Administrador de Sistemas en Red y estoy empezando a formarme como Desarrollador Full Stack y Desarrollador de Aplicaciones Multiplataforma.
+
+    email: kenjijevidelmetal@gmail.com
+    phone: 628 69 04 95
+    website: https://www.pc-nexus.net
+    linkedin: https://www.linkedin.com/in/manuel-jesus-cebador-sandez-45583a80/
+    github: KenjiRage
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés 
+        level: Avanzado
+        
+      - idiom: Ruso
+        level: Elemental
+
+      - idiom: Japonés 
+        level: Elemental (curso de Noken 5)
+
+    interests:
+      - item: Informática en general
+
+      - item: Gaming
+
+      - item: Anime/Manga
+
+education:
+    - degree: Bachillerato y Cou
+      university: San Francisco de Paula y IES San Isidoro
+      time: 
+      details: Titulo de Bachiller y pruebas de la Selectividad Superadas
+      
+experiences:
+    - role: Estudiante
+      time: Actualmente
+      company: 4Geeks Academy y Linkia
+      details: Full Stack Developer y Linkia FP 
+      
+projects:
+    intro: >
+      Algunos de mis proyectos en 4Geeks
+    
+    assignments:
+      - title: Ejercicio PostCard
+        link: https://github.com/KenjiRage/ejercicio1postal
+        tagline: "Crear un postcard con HTML/CSS"
+
+      - title: Instagram Feed
+        link: https://github.com/KenjiRage/ejercicio2instagram
+        tagline: "Crear un Feed de Instagram con HTML/CSS"
+        
+      - title: Instagram Post
+        link: https://github.com/KenjiRage/instagrampost
+        tagline: "Crear un Instagram Post con HTML/CSS"
+
+      
+
+skills:
+    toolset:
+      - name: HTML
+        level: 80%
+
+      - name: CSS
+        level: 50%
+
+      - name: JavaScript
+        level: 45%
