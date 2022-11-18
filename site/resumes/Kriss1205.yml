@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christopher
+    last_name: Morejon
+    
+    # Define yourself in 4-5 words
+    motto: If ya ain't 1st, you're last.
+    
+    # focus
+    focus: Learning new things.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I've been working in retail and customer service since 2016 and decided to have a change in career when I got into cars and mechanic work, I started to pursue that career path by getting into car parts sales and trying to start school learning more about mechanics but I was told by the school where I was apoplying that I had to wait until the age of 24 unless I wanted to pay the tuition all upfront. After that I decidede to learn on my own instead of going to school but that prooved too be harder than I thought and I quickly realized i had to change my career path plans so I talked with my wife and a few friends and thats when I decided to pursue coding and thanks to my friend Christian Luperon and with his help and the friendly staff at 4Geeks I was able to start the Bootcamp.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/113545216?v=4
+
+    # Contact Information
+    email: ChristopherMorejon17@gmail.com #optional
+    phone: (786)554-0449 #optional
+    website: N/A #optional
+    linkedin: https://www.linkedin.com/in/christopher-morejon-067ab7254/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Kriss1205
+    
+    twitter: 'N/A' #optional
+ 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Working on cars
+
+      - item: Arts and Crafts
+
+# Your previous education
+education:
+    - degree: GED
+      university: Miami Dade College
+      # optional
+      university_logo: https://andrewgoodman.org/wp-content/uploads/2020/02/Miami-Dade-College-Logo.jpg
+      time: 2016 - 2017
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales Associate/ Supervisor
+      time: March 2016- January 2018 
+      company: South Florida Nutrition
+      # optional
+      details: |
+        - Suggesting accessories and complementary purchases.
+        - Responsible for finding out a customer's needs and matching them to the proper supplement.
+        - Assisting in developing store marketing displays and finding appropriate places for the displays.
+        - Often called on to discuss supplements with the customers.
+        - Responsible for maintaining an inventory of popular supplements and supplements that promise to be in demand.
+
+    - role: Freight Associate
+      time: January 2018 - May 2018
+      company: The Home Depot
+      # optional
+      company_logo: https://i0.wp.com/logotaglines.com/wp-content/uploads/2020/02/Home-Depot-Logo.jpg?fit=900%2C900&ssl=1
+      details: |
+        - Assisting in loading and unloading merchandise from delivery trucks in a safe and efficient manner.
+        - Creating appropriate storage space within assigned areas and ensuring that received items are transported and organized in a proper manner.
+        - Scanning all incoming merchandise to identify damaged or inconsistent products.
+        - Maximizing space within storage areas by ensuring the appropriate organization of products.
+
+    - role: Store Manager
+      time: May 2018 -  March 2021
+      company: Vapor Shark
+      # optional
+      company_logo: https://www.allusafranchises.com/pictures/items/19/3/205.20171218064807890.1.large.jpg
+      details: |
+       - Assisting customers find their ideal devices and juices for a suitable vaping experience.
+       - Responsible for keeping the store organized and clean.
+       - Responsible for inventory of all devices and juices that need to be ordered.
+       - Responsible for opening and closing procedures at the store.
+
+    - role: Supervisor
+      time: September 2019 - January 2021
+      company: Allied Universal
+      # optional
+      company_logo: https://www.allusafranchises.com/pictures/items/19/3/205.20171218064807890.1.large.jpg
+      details: |
+       - Making sure all doors on the property are secure.
+       - Supervising that all guards are in proper work attire, have proper licensing, and are on task.
+       - Patrol property for any suspicious behavior.
+       - Patrolling property for unauthorized parking.
+       - Keeping management updated at all times. 
+
+    - role: Commercial Manager
+      time: March 2021 -  Current
+      company: O'Reilly Auto Parts
+      # optional
+      company_logo: https://download.logo.wine/logo/O'Reilly_Auto_Parts/O'Reilly_Auto_Parts-Logo.wine.png
+      details: |
+        - Take care of both retail and commercial customers.
+        - Handling payments on commercial accounts that pay weekly and/or monthly.
+        - Keeping an inventory of parts and equipment for commercial accounts that have a stocking program.
+        - Visiting commercial customers weekly and calling them daily to make sure they are satisfied.
+        - Managing the delivery drivers and dispatching their routes accordingly.
+        - Managing the store when the store manager or assistant manager isn't present.
+
+skills:
+    toolset:
+      - name: Javascript & React
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 60%
