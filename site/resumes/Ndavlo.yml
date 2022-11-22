@@ -1,0 +1,35 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Nicolas
+    last_name: David
+    summary: |
+        Recently becoming a developer
+
+    # Sidebar links
+    email: nicolasdl@gmail.com
+    phone:
+    linkedin: nicolasdavidlopez
+    github: Ndavlo
+
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Gaming
+      - item: Music
+      - item: Tech
+      - item: Business
+
+education:
+    - degree: LL.B. Law
+      university: Universidad Marista de Merida
+      time: 2013 - 2018
