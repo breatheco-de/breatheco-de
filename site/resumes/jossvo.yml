@@ -24,7 +24,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: site/static/jossvo.jpeg
+    avatar: site/static/background_art.jpg
 
     # Contact Information
     email: jossvo26@outlook.com #optional
@@ -63,7 +63,7 @@ education:
     - degree: MSc in Industrial Engineering for administration
       university: Anahuac University of Queretaro
       # optional
-      university_logo: site/static/Logo_Universidad_Anáhuac.svg.png
+      university_logo: site/static/background_art.jpg
       time: 2015 - 2019
       details: |
         Studied Industrial Engineering 
