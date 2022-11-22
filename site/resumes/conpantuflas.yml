@@ -18,6 +18,13 @@ basic_info:
     Donec quam felis, ultricies nec, pellentesque eu.
 
     Second paragraph if required.
+  theme: You can choose a theme and skin colors.
+  basic_info: Personal info.
+  education: Previous studies.
+  experiences: Previous jobs.
+  projects: Describe the projects you've built as a developer.
+  publications: Any articles you have published.
+  skills: List your skills with a percentage of expertise.
 
   # Sidebar links
   email: 3280kg@gmail.com
