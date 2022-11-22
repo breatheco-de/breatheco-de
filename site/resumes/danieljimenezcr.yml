@@ -16,7 +16,7 @@ basic_info:
     motto: 
     
     # focus
-    focus: Be the best fullstack software develoioper
+    focus: E
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -76,11 +76,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Fullstack Software Developer
+      university: 4Geeks Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 2022 - In Progress
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
