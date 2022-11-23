@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Victor Guillermo
+    last_name: Barquero Gamboa
+    
+    # Define yourself in 4-5 words
+    motto: Data Analyst Geek Gamer Tech-Fan
+    
+    # focus
+    focus: Data Analyst
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Más de 9 años laborando en el sector comercial de las telecomunicaciones, 
+      logrando desarrollarme tanto a nivel profesional como personal. Teniendo 
+      interacción con diferentes departamentos para lograr el avance de múltiples 
+      proyectos en pro del cumplimiento de los KPI del área comercial. Una persona 
+      dispuesta a dar la milla extra por lograr cumplir los objetivos, determinado, 
+      disciplinado y positivo, dispuesto a colaborar y estar siempre anuente a escuchar 
+      en pro del mejoramiento personal.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQHZW75h9kSxig/profile-displayphoto-shrink_800_800/0/1611509483750?e=1619049600&v=beta&t=ISu-OeWcp-LyjbgILJIzAENAFggh3wggHNqPIxGSeH0
+
+    # Contact Information
+    email: v_hbk@hotmail.com #optional
+    phone: 6055-9812 #optional
+    #website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/victor-guillermo-barquero-gamboa-50a881128/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Hittokirizero
+    
+    #twitter: 'webjeda' #optional
+    stack-overflow: 15072081 # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: Intermedio
+
+    # Interests or hobies
+    interests:
+      - item: E-Sports
+
+      - item: Entrenamiento fisico
+
+      - item: Adquilir conocimientos
+
+# Your previous education
+education:
+    - degree: Bachiller en Informatica
+      university: Universidad de Costa Rica
+      # optional
+      university_logo: https://medios.ucr.ac.cr/medios/imagenes/2012/escudo_p.jpg
+      time: 2003 - 2007
+      details: |
+          - BACHILLERATO INFORMATICA EMPRESARIAL - Universidad de Costa Rica
+          - SCRUM MASTER CERTIFICADO - CENFOTEC
+          - TÉCNICO DE ANÁLISIS DE DATOS - Instituto Tecnológico de Costa Rica
+          - MACHINE LEARNING FOR BUSINESS PROFESSIONALS - COUSERA
+          - DATA SCIENCE MATH SKILLS - COUSERA
+          - MÁSTER EN BIG DATA Y BUSINESS ANALYTICS - Universidad Isabel I / Structuralia (En Progreso)
+          - Desarrollo de Software Full Stack - 4Geeks Academy Costa Rica (En Progreso)
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: DTS Channel Partner
+      time: 2012 - a la Fecha
+      company: Telefonica Movistar
+      # optional
+      company_logo: http://atlanticacomunicacion.com/wp-content/uploads/2016/07/LOGO-TELEFONICA.jpg
+      details: |
+          - Soporte y enlace entre el área comercial, distribuidores y el departamento técnico de la compañía.
+          - Control y manejo de incidencias.
+          - Elaboración de reportes y control de KPI’s para el cumplimiento de las metas comerciales.
+          - Participación en proyectos regionales y locales.
+          - Gestión de personal.
+          - Gestión de las recargas físicas y electrónicas. 
+          - Elaboración de controles y análisis para cumplimiento de los objetivos comerciales
+
+    - role: Asistente administrativo
+      time: 2009 - 2012
+      company: ISIVEN S.A 
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          - Manejo de Planilla. 
+          - Implementación de sistema de registro de pagos 
+          - Control de planilla.
+          - Asistencia directa a Obra y Operativa Administrativa. 
+          - Agilizar procesos administrativos.
+          - Labores de recursos humanos, manejo de personal y registro de este.
+
+
+# Your project portfolio
+#projects:
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."#
+#
+#      - title: DevStudio
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."####
+#
+#      - title: Tempo
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"#
+#
+#      - title: Atom
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."#
+
+#      - title: Delta
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 50%
+
+      - name: SQL
+        level: 60%
+
+      - name: R
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 80%

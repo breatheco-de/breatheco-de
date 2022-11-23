@@ -1,0 +1,199 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fabián
+    last_name: Skármeta
+    
+    # Define yourself in 4-5 words
+    motto: Not a muggle.
+    
+    # focus
+    focus: Learning and creating innovative products and services.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      After a long period of flirting with the humanities and the arts, I've
+      discovered a pasion that integrates very well with my personality:
+      web developmente.
+
+      Currently absorbing the entire spectrum, from design to arquitecture
+      and implementation of systems. Willing to work in a company or project
+      that gives me meaning and allows me to continue learning.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/WkMB5Dm/linkedinyo.jpg
+
+    # Contact Information
+    email: f.skarmeta@gmail.com
+    phone: 569 991 994 79
+    website: bafian.com
+    linkedin: fabianskarmeta
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fskarmeta
+    
+    twitter: 'FSkarmeta' #optional
+    stack-overflow: bafian # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Coding, learning to code, teaching code
+
+      - item: Playing jazz piano
+
+      - item: Running, Bicycle riding, Fishing and Camping
+
+# Your previous education
+education:
+    - degree: Full-Stack Development Certificate
+      university: 4Geeks Academy Bootcamp
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2020
+      details: |
+        Intesive work and vey joyfull experience.
+
+          - CSS3, HTML5, JavaScript
+          - React, Bootstrap
+          - Python, Flask, MySQL
+          - Scrum
+
+    - degree: Various Certifications
+      university: FreeCodeCamp
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2020
+      details: |
+        My first encounter with my love: coding and programming.
+
+          - Responsive Web Design Certification
+          - JavaScript Alogorithms and Data Structures Certification
+          - Front End Libraries Certification
+
+    - degree: Sociology Studies
+      university: Universidad Diego Portales & Universidad Catolica de Chile
+      # optional
+      university_logo:
+      time: 2011 - 2016
+      details: |
+
+          - Sociological Theory
+          - Statistics
+          - Philosophy
+          - Contemporary Thought Diploma
+
+    - degree: Musical Composition With Mention In Piano
+      university: IP Pro Jazz
+      # optional
+      university_logo: 
+      time: 2008 - 2010
+      details: |
+          - Theory, Harmony, Composition, Rythmic
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Entrepreneur
+      time: 2020 - Present
+      company: ICASTU, Chile
+      # optional
+      company_logo: 
+      details: |
+        Lead investor and supervisor of icastu, a platform that connects publicity,
+        entretainment and television production companies with workers of the field
+        with the goal of facilitating the casting process through specialized filters
+        for finding the right actors, models and workers for your productions.
+
+
+    - role: Exectuvie producer
+      time: 2016 - 2019
+      company: Inda Goycoolea & Aosciados, Chile
+      # optional
+      company_logo: 
+      details: |
+        Worked as executive producer in several musicals, plays and concerts for the 
+        show production company Inda Goycoolea & Asociados (indaproducciones.com) where
+        I most recently served as exectuive producer for the musicals "TAR" (2018), 
+        "Piratas del Caribe" (2019) -bot for the MallPlazza holding-, the concert
+        "Siempre tango" (2017) in the Municipal Theater of Santiago and the musical" 
+        "Peter Pan" (2019) for Nestle's Leche Nido company. I Was also in charge of the
+        hit comedy "Me Cargan Los Optimistas" (2018-2019) as general producer and composer.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%

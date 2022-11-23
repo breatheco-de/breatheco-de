@@ -1,0 +1,111 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Juan L.
+    last_name: Gonzalez C.
+    motto: Traveling is living 
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQHBbJ2nu-1pLQ/profile-displayphoto-shrink_400_400/0?e=1600905600&v=beta&t=pG35iOZgUIaz3fDBIUAMI8WHIxfhdcDlhLpCCCLmgok
+    summary: |
+      Computer sciences lover, This passion has led me to self-educate in subjects related to web development,
+      IT, object oriented programming, etc. I considere myself a responsible, persistent person, who makes everything on its hand
+      to be the best teammate possible, but specially, I am always hungry for knowledge; All these qualities will help me to grow
+      as a developer and as a person.
+
+    email: juangcardinale@gmail.com 
+    phone: +33 769482501 
+    website:
+    linkedin: www.linkedin.com/in/Juan-GonzalezC-25108a1b2 
+    github: JuanLGC
+    twitter: JuanGCardinale
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Sports
+
+      - item: Traveling
+
+education:
+    - degree: 
+      university:
+      university_logo: 
+      time:
+      details: 
+
+    - degree: 
+      university: 
+      university_logo: 
+      time: 
+      details: 
+        
+experiences:
+    - role: Student
+      time: 2020 - Present
+      company: 4Geeks Academy 
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp
+ 
+    - role: 
+      time: 
+      company: 
+      company_logo:
+      details:
+
+    - role:
+      time:
+      company:
+      company_logo:
+      details:
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+    assignments:
+      - title: Digital Postcard
+        link: https://github.com/JuanLGC/4Geeks
+        tagline: "A Digital postcard using only HTML and CSS "
+
+      - title: Instagram
+        link: https://github.com/JuanLGC/Instagram-feed-HTML5-BS4
+        tagline: "Fully responsive Instagram-look-a-like feed using HTML and Bootstrap exclusively. "
+
+      - title: Excuses Generator
+        link: https://github.com/JuanLGC/Excuses_Generator_JS
+        tagline: "A fully functional excuses generator using only HTML and JavaScript "
+
+      - title: Landing Page
+        link: https://github.com/JuanLGC/exercise-collaborative-html-website
+        tagline: "website landing page in group "
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 30%
+
+      - name: CSS
+        level: 60%
+
+      - name: bootstrap
+        level: 50%
+

@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eudes
+    last_name: Guzmán Guerrero
+    
+    # Define yourself in 4-5 words
+    motto: Web Design - Student Front End
+    
+    # focus
+    focus: JavaScript
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Web designer UX/UI, working in the world of web design since 2011. I have participated in the web design and online marketing of large companies such as Bioparc Fuengirola after completing my studies in Commercial Management and Marketing in Barcelona and I am currently training as a Front End .
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQFEFGIHdv27fA/profile-displayphoto-shrink_100_100/0?e=1599696000&v=beta&t=mKrJxRwr1eC4iLu79oqfEe4trIv0OZQKU9LJw0kvM7Q
+
+    # Contact Information
+    email: eudesgg19@gmail.com #optional
+    phone: 684070152 #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/eudesguzman/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: EudesGuzman
+    
+    #optional twitter: 'webjeda' 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+    #  - idiom: English
+    #    level: Native
+
+    #  - idiom: French
+    #    level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Dog training
+
+      - item: Voleyball
+
+      - item: Surf
+
+# Your previous education
+education:
+    - degree: Full Stack
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020
+     # details: |
+        
+    - degree: UX / UI DESIGN BOOTCAMP
+      university: UXER SCHOOL
+      # optional
+      university_logo: https://www.uxerschool.com/wp-content/uploads/uxer-school.jpg
+      time: 2019
+      details: |
+        In-depth work on UX design through the development of a core project, using agile methodologiesç
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Designer
+      time: 2018-2019
+      company: STAMINA Marketing
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Web designer UX/UI, working in the world of web design since 2011.
+          - Carry out the briefing with the clients.
+          - Design and layout of the web/ecommerce
+
+    - role: Web Designer
+      time: 2015 -2016
+      company: Roali
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Encargado del diseño y la gestión de las tiendas online del grupo empresarial. 
+
+   
+# Your project portfolio
+#projects:
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#      - title: DevStudio
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#     - title: Tempo
+#      # optional
+#      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#      link: "#"
+#      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#     - title: Atom
+#      # optional
+#      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#      link: "#"
+#      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#     - title: Delta
+#      # optional
+#      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#      link: "#"
+#      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Figma & Photoshop
+        level: 80%

@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Harold
+    last_name: Ruiz
+    motto: Studying Full Stack Developer 4 earning tons of money
+    avatar:
+    summary: |
+      I am learning a lot!
+
+    # Sidebar links
+    email: haroldand.ruiz@gmail.com
+    phone: 318 574 31 44
+    website: #do not add http://
+    linkedin:
+    github: h4r0ldru1z
+    twitter: '@yaroldo'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Coding
+
+      - item: Traveling
+
+      - item: Technology
+
+education:
+    - degree: BSc in Computer Engineering
+      university: Urbe
+      time: 1996 - 2001
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: IT
+      time: 2019 - Present
+      company: Convierte Más, Miami
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: IT
+      time: 2017 - 2019
+      company: The Montiel Organization, Miami
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Lorem.
+        link: "#hook"
+        tagline: "Lorem ipsum."
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 98%
+
+      - name: CSS3
+        level: 98%
+
+      - name: JavaScript
+        level: 98%

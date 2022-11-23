@@ -1,0 +1,9 @@
+ports:
+    - port: 8000
+      onOpen: open-preview
+tasks:
+    - init: >
+        npm install &&
+        cd site && npm install;
+      command: >
+        cd site && npm run start;

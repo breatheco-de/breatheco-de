@@ -1,0 +1,32 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+    first_name: Ricardo
+    last_name: Cubillo
+    motto: Trying to get the boat afloat
+    summary: 
+      I am a simple guy trying to get a bachelor's degree in electronic engineering. 
+# Sidebar links
+    email: cubilloricardo@gmail.com
+    github: ricubi199
+    twitter: ricubi199
+
+languages:
+  - idiom: Spanish
+    level: Native
+  
+  - idiom: English
+    level: A1
+
+interests:
+  - item: Free Software
+  - item: Soccer
+
+skills:
+  toolset:
+  - name: Python
+    level: 5%
+    
+  - name: Javascript
+    level: 5%

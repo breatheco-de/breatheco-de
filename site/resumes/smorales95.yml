@@ -1,0 +1,76 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Steven
+    last_name: Morales
+    motto: Full-stack Developer
+    avatar: 
+    summary: |
+      Actualmente en formación 4Geeks Academa como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git.
+
+    
+
+    email: steven_pibe95@hotmail.com
+    phone: 
+    website: 
+    linkedin: 
+    github: smorales95
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Coding
+
+      - item: 
+
+
+education:
+    - degree: Ing. Tecnologia de Informacion
+      university: UTN
+      time: 3 años
+      details: Puntarenas - Costa Rica
+      
+experiences:
+    - role: Support
+      time: 3 años
+      company: Fundacion UCR
+      details: Brindar soporte a aulas virtuales
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+      - title: Excuse Generator
+        link: https://github.com/smorales95/ExcuseGenerator
+        tagline: "Random excuse generator.   --"
+             
+
+      - title: Instagram Bootstrap
+        link: https://github.com/smorales95/Instagram-bootstrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/smorales95/Poscard
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%

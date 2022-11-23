@@ -1,0 +1,57 @@
+--- 
+basic_info: 
+  avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQHmgcSHOqKPNQ/profile-displayphoto-shrink_200_200/0/1537288287585?e=1622073600&v=beta&t=z7SfJEDuRfXw1ST7Iy9gaC0X6hA2_cGuzcQxrg5WUjE"
+  company: "Cargill Business Services"
+  degree: "Specialization in Compliance"
+  details: 
+    - "E-learning Design"
+    - "Power Apps Development"
+    - "Dashboard Management and Data projects"
+  education: College
+  email: luigui52@gmail.com
+  first_name: "Luis Guillermo"
+  focus: "Develop my programming skills and apply them on Data Science"
+  github: luigui52
+  interests: 
+    - 
+      item: "Reading Japanese Manga"
+    - 
+      item: "Data Science"
+    - 
+      item: "Teach and help young people"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Advanced
+  last_name: "Hidalgo Acevedo"
+  linkedin: "https://www.linkedin.com/in/luigihidalgoacevedo"
+  motto: "Full Stack Developer"
+  phone: "+(506)6010 6869"
+  role: "Compliance Analyst"
+  stack-overflow: "https://stackexchange.com/users/20537251/luigi-hidalgo"
+  summary: |-
+      An analyst with 10+ years of experience in multinational companies in areas of Data analytics(Power Bi and Alteryx), customer service, fraud detection , Claims, Anti-Money Laundering (AML), and Anti bribery with knowledge in employee Engagement and Talent Development.
+      Focused in execution applying analytical skill to mitigate risk based on company guidelines, policies and procedures.
+  time: "2019 - Current"
+  twitter: n/a
+  university: "Aden Business School"
+  website: "https://github.com/luigui52"
+skills: 
+  toolset: 
+    - 
+      level: 50%
+      name: Python
+    - 
+      level: 50%
+      name: Javascript
+    - 
+      level: 50%
+      name: React.js
+    - 
+      level: 70%
+      name: "HTML5 & CSS"
+skin: orange
+template: online-cv

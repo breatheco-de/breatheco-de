@@ -1,0 +1,102 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Rafaela
+    last_name: Gonçalves Alves
+    motto: Full-stack Developer
+    avatar: https://avatars1.githubusercontent.com/u/75177742?s=460&u=5eb4276ad384de1ea63ebe64c08f0a710172cdb4&v=4
+    summary: |
+    I am a lover of Computer Science. This passion has led me to self-educate in subjects such as web development, IT and object oriented programming, amongst others. I consider myself a responsible and driven person, who always strives to be the best teammate possible. But above all, I am always hungry for knowledge. All these qualities will help me to grow as a developer and as a person. Due to my passion for programming, I have trained myself in HTML5 and Javascript. I am currently training as a Full-Stack Developer and will gain advanced knowledge in: HTML5, CSS, Javascript, React, Python, SQL, Git, along with other technologies. Whilst I finish these studies, I am looking for a job that allows me to continue my development and grow in the programming sector.
+      
+    email: rafaelagcalves@gmail.com
+    phone: +34 682419316
+    website: 
+    linkedin: rafaelagcalves/
+    github: rafaelagcalves
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: Professional working proficiency
+
+    interests:
+      - item: Reading
+
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Hiking
+
+
+education:
+    - degree: General Certificate of Education (GCE)
+      university: College Estevão Correia
+      time: 2015-2017
+      details: Cuiabá-Brazil
+      
+experiences:
+    - role: Student
+      time: 2020 - Present
+      company: 4Geeks Academy
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp. 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Conditional Profile Card Generator
+        link: https://github.com/rafaelagcalves/Conditional-Profile-Card-Generator
+        tagline: "A Conditional Profile Card Generator"
+
+      - title: The Excuse Generator
+        link: https://github.com/rafaelagcalves/Excuse-Generator
+        tagline: "This project is ideal for avoiding someone annoying, it takes no more than 20 lines of code and it can save you for the rest of your life!"
+
+      - title: Instagram Photo Feed with Bootstrap
+        link: https://github.com/rafaelagcalves/Instagram-Photo-Feed-with-Bootstrap
+        tagline: "This is an improved version of the first Instagram exercise, now using bootstrap."
+
+      - title: Exercise Collaborative Html Website
+        link: https://github.com/rafaelagcalves/exercise-collaborative-html-website
+        tagline: "A Exercise Collaborative Html Website"
+        
+      - title: Startup
+        link: https://github.com/rafaelagcalves/Startup
+        tagline: "My first Startup"
+
+      - title: CSS Grid
+        link: https://github.com/rafaelagcalves/CSS-Grid
+        tagline: "CSS Grid"
+             
+      - title: CSS Flexbox
+        link: https://github.com/rafaelagcalves/CSS-Flexbox
+        tagline: "CSS Flexbox"
+      
+      - title: Digital Postcard
+        link: https://github.com/rafaelagcalves/Digital-Postcard
+        tagline: "A postcard to send to our loved ones! Who does not like postcards? This is one of my first exercises (if not the first) and it's fun and relatively easy. I created this postcard with HTML5 and CSS."
+
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%

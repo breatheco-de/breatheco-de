@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: José
+    last_name: Velásquez
+    
+    # Define yourself in 4-5 words
+    motto: Creating bugs, be aware
+    
+    # focus
+    focus: Learn and improve myself
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a Full-Stack web developer who wants to improve myself everyday
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/97990022?s=400&u=198211576ca589ce60e75a85d07ce4454bba5e52&v=4
+
+    # Contact Information
+    email: velasquezdenorajose@gmail.com #optional
+    phone: +58 412 1942352 #optional
+    linkedin: Jdvd01 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jdvd01
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Reading
+
+      - item: Playing
+
+# Your previous education
+education:
+    - degree: Full-Stack Web Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      time: 2022 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Teacher Assistant
+      time: 2022 - Present
+      company: 4Geeks Academy
+      # optional
+      company_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      details: |
+        - Correction of students' projects.
+        - Helping students to adapt and learn.
+        - Support students in the learning process.
+
+    - role: Salesfloor Assistant
+      time: 2018 - 2021
+      company: Farmatodo C.A.
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGoZcwpN-dZ4Q/company-logo_100_100/0/1622063377523?e=1669852800&v=beta&t=LDAkwYIZo4zFHfuT04Htw1zrwvURcVOHPKVOS_S4XrU
+      details: |
+        - Keeping the store fully stocked.
+        - Keeping me up to date with product information.
+        - Customer service.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: BootStrap
+        level: 85%
+
+      - name: Flask
+        level: 60%

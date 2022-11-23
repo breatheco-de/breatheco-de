@@ -1,0 +1,74 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Dilana
+    last_name: Avendaño
+    motto: Full-stack Developer
+    avatar: 
+    summary: |
+      Estudiante de forgeeks 
+    
+
+    email: dylana7792@hotmail.com
+    phone: 
+    website: 
+    linkedin: 
+    github: Dilana777
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Coding
+
+      - item: ver series
+
+
+education:
+    - degree: Ing. en Sistemas Incompleto
+      university: UNA
+      time: 4 años
+      details: Heredia - Costa Rica
+      
+experiences:
+    - role: Confidencial
+      time: Año diez meses
+      company: Accenture
+      details: Confidencial
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      
+      - title: Excuse Generator
+       
+        tagline: "Random excuse generator.   --"
+             
+
+      - title: Instagram Bootstrap
+       
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+     
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS

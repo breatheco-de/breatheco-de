@@ -1,0 +1,57 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: David
+    last_name: Carrillo
+    motto: Student
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary:
+    
+        I started studying engineering but I want to specialize in the world of programming right now.
+        I keep learning every day.
+
+        After finishing the 4Geeks course, I continue with a Python course.
+        
+
+    # Sidebar links
+    email: ca1david23@gmail.com
+    phone: +34 722 88 32 21
+    website: alesanchezr.com #do not add http://
+    linkedin: https://www.linkedin.com/in/david-felipe-carrillo-sosa-69b74015a/
+    github: davidca12
+    twitter: https://twitter.com/DavidCa36852859
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: Play guitar
+      - item: Videogame
+
+education:
+    - degree: Telocomunicaciones
+      university: UVA
+      time: 2018 - 2020
+
+skills:
+    toolset:
+      - name: Python 
+        level: 48%
+
+      - name: Javascript, React
+        level: 68%
+
+
+      - name: HTML5 & CSS
+        level: 75%
