@@ -53,11 +53,11 @@ experiences:
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: 
     To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
-      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+    Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
 
     Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
-      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+    Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
 
     Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
-      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+    Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
  
