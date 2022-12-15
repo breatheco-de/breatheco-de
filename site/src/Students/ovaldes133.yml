@@ -1,0 +1,133 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Omar
+    last_name: Valdes
+    
+    # Define yourself in 4-5 words
+    motto: programming
+    
+    # focus
+    focus: My Family
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am from chimbarongo, chile. Like to code, write, read, play videogames and listen to music.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: omar.valdesreyes@hotmail.com #optional
+    phone: 234 2342 342 #optional
+    website: ovaldes133.com #optional
+    linkedin: OVALDE #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ovaldes133
+    
+    twitter: 'ovaldes' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: spanish
+        level: Native
+
+      - idiom: 
+        level: 
+
+      - idiom: 
+        level: 
+
+    # Interests or hobies
+    interests:
+      - item: programming, animation 3d, Web development
+
+      - item: Video games
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: systems programming and analysis
+      university: professional institute AIEP
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2022
+      details:   
+        programming and analysis
+        
+
+        
+    - degree: FULL STACK WEB DEVELOPER
+      university: 4Geeks Academy Chile
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022-2023
+      details: |
+        FULL STACK WEB DEVELOPER
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: FULL STACK WEB DEVELOPER
+      time: 2023
+      company: GOOGLE
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        FULL STACK WEB DEVELOPER
+
+    
+# Your project portfolio
+projects:
+    intro: >
+     
+
+    assignments:
+      - title: CALCULADORA.COM
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, w."
+
+      - title: INTAGRAM.COM
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, w."
+
+      - title: BLOCKDENOTAS.COM
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, w"
+
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
