@@ -44,7 +44,6 @@ basic_info:
     github: dotfortun
     
     twitter: 'dotfortun' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
