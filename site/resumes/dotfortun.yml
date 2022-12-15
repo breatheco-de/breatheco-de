@@ -16,7 +16,7 @@ basic_info:
     motto: I like saving the world, but this is| <-- the text wraps here.
     
     # focus
-    focus: Killing Bad Boys
+    focus: This text doesn't show up on the page.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
