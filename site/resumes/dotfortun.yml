@@ -49,6 +49,8 @@ basic_info:
     languages:
       - idiom: English
         level: Native
+      - idiom: German
+        level: Pidgin
 
     # Interests or hobies
     interests:
