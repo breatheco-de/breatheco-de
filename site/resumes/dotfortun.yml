@@ -30,7 +30,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars.githubusercontent.com/u/11822957?s=400&u=3b87eaa0f73aacc6cef45866040b62bc4cff2966&v=4
+    avatar: https://avatars.githubusercontent.com/u/11822957?v=4
 
     # Contact Information
     email: a@a.com #optional
