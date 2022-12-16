@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Gabriel
+  last_name: Rodríguez
+  motto: Estudiante
+  avatar: https://i.pinimg.com/originals/9d/22/ef/9d22ef05cc050e744cc2e360619f7430.jpg
+  summary: |
+    Actualmente me encuentro cursando la Licenciatura en Comunicación en Facultad de Información y Comunicación, Universidad de la República.
+
+    Durante el verano 2022-2023, estaré realizando a su vez el Bootcamp de 4Geeks Academy para convertirme en Desarrollador Full-Stack.
+
+  # Sidebar links
+  email: gabrielrg901@gmail.com
+  phone: 000 000 000
+  website: https://www.notarealwebsite.com/
+  linkedin: https://www.linkedin.com/in/gab-roma/
+  github: https://github.com/GabRoma
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Español
+      level: Nativo
+
+    - idiom: Inglés
+      level: Alto
+
+  interests:
+    - item: Tecnologías
+
+    - item: Área Digital
+
+    - item: Actualidad
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022 - 2023
+    details: |
+      Front End and Back End
+
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Postcard
+      link: https://github.com/GabRoma/Postcard
+      tagline: "Just a postcard"
+
+    - title: Instagram Feed
+      link: https://github.com/GabRoma/InstagramFeedBootstrap
+      tagline: "Using Bootstrap"
+
+    - title: Instagram Post
+      link: https://github.com/GabRoma/Instagram-Post
+      tagline: "Post example"
+
+    - title: Photo Feed
+      link: https://github.com/GabRoma/Photo-Feed
+      tagline: "Another project"
+
+skills:
+  toolset:
+    - name: HTML
+      level: learning
+
+    - name: CSS
+      level: learning
+
+    - name: Bootstrap
+      level: learning
+
+    - name: GIT
+      level: learning
