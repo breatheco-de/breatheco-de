@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Natalia
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: Everything is weird until is not
+    
+    # focus
+    focus: Looking forward to continue my profesional development in the IT world.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I define myself with a positive acttitude, curiosity and innovation.
+      In these years i discovered the great importance of doing things with passion and enthusiasm.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: nataliagonzalezdenis@gmail.com #optional
+    phone: 099 671 989 #optional
+    website:  #optional
+    linkedin: nataliagonzalezd #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nataliagonzalezd
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Skating
+
+      - item: Reading
+
+      - item: Singing
+
+# Your previous education
+education:
+    - degree: Web Developer Junior
+      university: Jovenes a Programar
+      # optional
+      university_logo: https://jovenesaprogramar.edu.uy/storage/app/media/logo-jap-2022.svg
+      time: 2020 - 2022
+      details: 
+
+    - degree: First Certificate in English
+      university: Anglo
+      # optional
+      university_logo: http://www.smarttalent.uy/innovaportal/file/14659/1/anglo-logo.png
+      time: 2010 - 2017
+      details: 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Promoter
+      time: 2022 - 2022
+      company: Human Business
+      # optional
+      company_logo: https://marketerslatam.com/human-business/
+      details: 
+
+# Your project portfolio
+projects:
+    intro: >
+
+skills:
+    toolset:
+      - name: Python
+        level: 20%
+
+      - name: Javascript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 50%
