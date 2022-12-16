@@ -1,0 +1,43 @@
+basic_info:
+  # Your full name
+  first_name: Jhonatan
+  last_name: Calderon
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: Estoy en el Bootcamp 4geeks Academy, el cual me permite aprender tecnologias como JavaScript,React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como el trabajo grupal con gi
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: jhonatancalderon2104@gmail.com #optional
+  phone: 569 86828699 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: jhntnc
+
+
+
+
+  # Interests or hobies
+  interests:
+    - item: Musica
+
+    - item: web
+
+    - item: Deportes
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: nov-2022 - actualidad
+    details: |
+      Estoy en el Bootcamp 4geeks Academy, el cual me permite aprender tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
