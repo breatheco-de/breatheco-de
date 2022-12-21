@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gustavo Enrique
+    last_name: Márquez Malave
+    
+    # Define yourself in 4-5 words
+    motto: A musician and Engineer
+    
+    # focus
+    focus: Become a highly skilled programer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Systems Engineer from the Universidad Metropolitana. I have worked as a full-stack developer in different enterprises such as 3Vam and Aether Solutions.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/47191295?v=4
+
+    # Contact Information
+    email: gustavomm199@gmail.com #optional
+    phone: +58 416 613 8206 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/gustavo-marquez-ing #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gustavomm19
+    
+    twitter: '' #optional
+    stack-overflow: ''
+    # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Guitar
+
+      - item: Music
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: Systems Engineering
+      university: Universidad Metropolitana
+      # optional
+      university_logo: https://www.unimet.edu.ve/unimetsite/wp-content/uploads/2014/06/Logo-UNIMET-color-300-dpi.jpg
+      time: 2017 - 2022
+      details: |
+        During 4 and a half years I learned programming, mathematics, physics, software engineering, machine learning, networking, and many other important skills. 
+        But I also had a wonderful time sharing with many people who became very beloved friends.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Full Stack Developer
+      time: 2020 - 2021
+      company: Aether Solutions
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C560BAQHi7RJMQR4JVw/company-logo_200_200/0/1534434621340?e=2147483647&v=beta&t=W2QL-Xv59oHJd06KN6aXDPH8WfzaiWBxdriAx43gWFY
+      details: |
+        I worked in many web development projects in NodeJs, using frameworks like React, Next, Angular and Firebase.
+    - role: Full Stack Developer
+      time: 2020 - 2021
+      company: 3Vam
+      # optional
+      company_logo: https://www.3vam.com/wp-content/uploads/2019/09/3VAM-LOGO-768x193.png
+      details: |
+        I worked in a project of a web page to manage industrial data, developed with React, Redux and Java Spring Boot.
+# Your project portfolio
+projects:
+    intro: >
+      This are some projects that were assigned to me by the academy
+    assignments:
+      - title: Building a website collaborative
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/gustavomm19/Excercise-Collaboration"
+        tagline: "An example of a design for a portfolio page"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 55%
+
+      - name: Javascript & jQuery
+        level: 80%
+
+      - name: Angular
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 40%
