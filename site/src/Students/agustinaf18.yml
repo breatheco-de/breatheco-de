@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Agustina
+    last_name: Ferreira
+
+    # Define yourself in 4-5 words
+    motto: I try to learn everyday
+
+    # focus
+    focus: focus and learn
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Currently I am studying in University, also I am into everything that is related to computers and technology, last but not least I am a big fan of Adobe's programs, especially edition programs like Adobe After Effects, after years of studying I am hopefully looking to transition into programming world and learn everything I can through this course. 
+    
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/18.jpg 
+  
+    # Contact Information
+    email: agussslp1529@gmail.com #optional
+    phone: |                      #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: agustinaf18
+
+    #optional
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: fluent    
+  
+
+    # Interests or hobies
+    interests:
+      - item: Baking and Edition on Adobe's programs
+
+      - item: Go out with friends
+
+      - item: Reading
+
+      - item: Gamming
+
+      - item: Learning
+
+
+# Your previous education
+education:
+      high-school: Colegio Nuestra Senora del Verdun
+      time: 2016 - 2018
+
+      high-school2: Liceo N1 Fabini
+      time2: 2019-2021 
+      
+      university: Udelar
+      degree: Software Engineering
+      time3: 2022 - Present
+      details: |
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: A Website Manager
+      time: 2021 - Present
+      company: The page its related to propertys
+      # optional
+      company_logo: |
+      details: |
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
+    assignments:
+      - title: Postcard
+        link: "https://github.com/agustinaf18/Postcard.git"
+        tagline: "Postcard using HTML and CSS only."
+
+      - title: Instagram Photofeed
+        link: "https://github.com/agustinaf18/FeedInteractivo.git"
+        tagline: "Photofeed using Bootstrap."
+
+      - title: Form
+        link: "https://github.com/agustinaf18/Formulario.git"
+        tagline: "Form using Bootstrap."
+
+      - title: Excuse generator
+        link: "https://github.com/agustinaf18/EXCUSA.git"
+        tagline: "Excuse generator."
+
+      - title: Unit test practice
+        link: "https://github.com/agustinaf18/UNIT-TEST-"
+        tagline: "Unit test practice."
+
+      - title: Learn in public
+        link: "https://github.com/agustinaf18/LEARNINPUBLIC.git"
+        tagline: "Get to know the academy, teachers, students, locations around the world and why everyone talking about us, one of the top places to learn to code end evolve your coding skills."
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Bootstrap
+        level: 60%
+
+      - name: Photoshop 
+        level: 80%
+    
