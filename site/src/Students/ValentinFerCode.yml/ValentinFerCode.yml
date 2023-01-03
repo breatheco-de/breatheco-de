@@ -9,8 +9,8 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Valentin
-    last_name: Fernandez
+    first_name: Valentín
+    last_name: Fernández
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -59,7 +59,7 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Code
 
       - item: Snowboarding
 
