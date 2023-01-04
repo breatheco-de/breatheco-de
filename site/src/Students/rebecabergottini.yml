@@ -1,0 +1,79 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Rebeca
+  last_name: Bergottini
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+    Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+    que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+    React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y habilidades como
+    el trabajo grupal con Git.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: rebeca._bergo@hotmail.com #optional
+  phone: #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: rebecabergottini
+
+  twitter: #optional
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Ingles
+      level: Medio
+      
+    - idiom: Español
+      level: Nativo
+
+  # Interests or hobies
+  interests:
+    - item: Padel
+
+    - item: Programar
+
+    - item: Pintar
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: nov-2022 - mar-2023
+    details: |
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+      To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
