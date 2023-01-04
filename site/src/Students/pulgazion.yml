@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Reimar
+    last_name: Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: Learning never exhausts the mind
+    
+    # focus
+    focus: Keep growing 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      For a long time I have been interested in the world of programming but I never got into it. 
+      Now is the time to learn and develop new skills, I have a bachelor's degree in languages 
+      and I want to become a full stack developer too.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: reimarrodri@gmail.com #optional
+    phone: +58 414 435 2824 #optional
+    website:  #optional
+    linkedin: reimarrodriguez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: pulgazion
+    
+    twitter: 'pulgazion' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Golf
+
+      - item: Tennis
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Languages and Business
+      university: Arturo Michelena University 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2008 - 2013
+      details: |
+        I have a Bachelor's degree in Modern Languages with more than 8 years of experience.
+          - Bullet point
+          - Bullet point
+          
+# Your previous job experiences or voluntier
+experiences:
+    - role: Freelancer
+      time: 2015 - Present
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Since 2015 I work as a freelancer, working in different fields, 
+        including clients who publish my work on Amazon.com.
+          - Bullet point
+          - Bullet point
+    - role: Human Resource Management
+      time: 2013 - 2015
+      company: Mega Cauchos Popular, C.A
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        At Mega Cauchos Popular, C.A., I worked as part of the human resources team.
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      https://github.com/pulgazion
+    assignments:
+      - title: Projects
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Practicing some coding"
+
+     
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: Basic
+
+      - name: HTML5 & CSS
+        level: Basic
