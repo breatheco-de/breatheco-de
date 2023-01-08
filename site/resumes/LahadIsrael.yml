@@ -1,0 +1,80 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lahad
+    last_name: Israel
+    
+    # Define yourself in 4-5 words
+    motto: Father, husband, GoW, anime, and coding
+    
+    # focus
+    focus: To become a freelance developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Hello all! My name is Lahad. I am a father, husband, and soon to be freelance developer. I
+      joined 4GeeksAcademy to enhance my skills and coding, to network, and to collaborate with other
+      human beings. My main goal is to become a software developer because of the self employment opportunites,
+      and to help build things that can be impactful and useful to the world! Happy coding!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lahad.israel@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/lahad-israel-486898197/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LahadIsrael
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Boxing
+
+      - item: Traveling
+
+      - item: Eating
+
+# Your previous education
+education:
+    - degree: HS diploma
+      university: none
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2009 - 2013
+      details: |
+        Graduated from Riviera Beach Preparatory.
+# Your previous job experiences or voluntier
+experiences:
+    - role: N/A
+      time: N/A
+      company:
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        
+
+# Your project portfolio
+skills: HTML5, CSS3, JavaScript
+  
