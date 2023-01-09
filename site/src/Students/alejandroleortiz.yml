@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: León
+    # Define yourself in 4-5 words
+    motto: Passionate, curious, creative, and motivating.
+    
+    # focus
+    focus: Learning software development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am an instructional de designer with more than three years of experience. My work has led me to become interested in technology, programming, and its application within learning management systems.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: alejandroleortiz57@gmail.com #optional
+    phone: +584242817925 #optional
+    linkedin: https://www.linkedin.com/in/alejandro-leon-ortiz/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Alejandroleortiz
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Gamming
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Librarianship Bachelor Degree
+      university: Universidad Central de Venezuela
+      # optional
+      time: 2013 - 2019
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Instructional Designer 
+      time: Feb 2020 - Jan 2023
+      company: LATAM Global School
+      company_logo: https://media.licdn.com/dms/image/C4E0BAQHoVSXCCaCxNw/company-logo_200_200/0/1586962355340?e=1681344000&v=beta&t=Wvc-gzHjnbAF4lOLpRqi7cy8k_Yq6o_JNBqZJdTOfyw
+      details: |
+        Coordinate the virtual course development area of the school, establishing design formats, standardization, and content structuring for virtual courses within the LMS.
+          - e-learning
+          - Bullet point
+
+# Your project portfolio
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: Git
+        level: 50%
+
