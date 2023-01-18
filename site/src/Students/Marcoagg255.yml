@@ -1,0 +1,9 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marco
+    last_name: Guevara
