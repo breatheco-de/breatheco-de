@@ -1,0 +1,95 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nacho
+    last_name: Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: I am a fun guy, sports, animals and music lover, who is coursing a Full Stack Developer Bootcamp with 4 Geeks Acedemy.
+    
+    # focus
+    focus: Improving day by day my coding skills.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+       When I finished school I tried studying an Aliment Science degree, but it was not for me. Then I realised how much I like cooking, so I became a chef and made it my job for four years. Now, I am really interesting in coding, so I'm trying my best to become a full stack developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nacho131994
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+  
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Nature
+
+      - item: Cooking
+
+      - item: Travelling
+
+# Your previous education
+education:
+    - degree: Restaurant Business
+      university: ESHT Simone Ortega
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015-2018
+      details: |
+       Three year degree where I formed myself as a chef, and as a restaurant manager.
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Chef
+      time: 2018-2021
+      company: Hotel Urban (Glass Mar)
+      # optional
+      company_logo: https://comercongusto.es/wp-content/uploads/2018/06/IMG_20171105_132051_642_resized-680x680.jpg
+      details: |
+        I worked as a chef in a restaurant located in the Urban HOtel (Madrid) called Glass Mar, by Angel Leon, where, alongside my jobmates, we offered haute cuissin based on marine ingredients.
+    - role: Chef
+      time: 2021 - 2023
+      company: Restaurante Asador San Huberto
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtkHSD1lF6HlkfKdEJr1IrlgxInRBBHO3s4w&usqp=CAU
+      details: |
+        I worked as a chef in this clasic restaurant, where the main dishes where typical spanish food.
+    
+# Your project portfolio
+projects:
+    intro: >
+      As I am a new student, I don't have any project yet, appart from the ones that I have to do for practice for my Academy.
+   
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
