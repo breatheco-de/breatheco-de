@@ -1,0 +1,57 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Ronald
+  last_name: Peña
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Estoy en el Bootcamp 4geeks Academy, el cual me permite reforzar los conocimientos
+  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+  Bootstrap, Python, y Habilidades como el trabajo grupal con git.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar:   http://sep.breatheco.de/static/Ronald.jpg
+
+  # Contact Information
+  email: ronald.micros@gmail.com #optional
+  phone: +56 964216817 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: RDPA-GitHub
+
+  twitter: #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Programacion
+
+    - item: Diseño
+
+    - item: Electronica
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: Dec-2022 - Actualmente
+    details: |
+      Estoy en el Bootcamp 4geeks Academy, el cual me ha enseñado html, Css, Bootstrap y javascript hasta ahora con un buen dominio
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    
+      Tecnologias: Html, Css, Bootstrap  y JavaScript.
+ 
+      Tecnologias: Git.
+
+    
+ 
