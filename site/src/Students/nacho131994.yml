@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nacho
+    last_name: Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: Fun guy who likes sports, nature, travelling and cooking!
+    
+    # focus
+    focus: Improve day by day my coding skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     I started a degree in Foodstuff Science and Technologies. After 2 years, I realised it was not for me, so due to the fact that I love cooking, I studied to become a Chef. I workd as it for 5 years, and now I'm studing to become a Full Stack Developer with $ Geeks Academy.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nacho131994
+    
+    twitter: 'naach_32' #optional
+   
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Travelling
+
+      - item: Cooking
+
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: Restaurant Business
+      university: ESHT Simone Ortega
+      # optional
+      
+      time: 2015 - 2018
+      details: |
+       I studied for 3 years to become a chef, and to learn how to manage a restaurant business.
+   
+# Your previous job experiences or voluntier
+experiences:
+    - role: Chef
+      time: 2018 - 2021
+      company: Hotel Urban (Glass Mar)
+    
+      details: |
+        I wordked as a chef in this restaurant, cooking the dishes of the famous chef Angel Leon, where I, along my co-workers, cooked haute cuisine dishes based on marine products.
+    - role: Chef
+      time: 2021 - 2023
+      company: Restaurante Asador San Huberto
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       I worked as a chef in this traditional spanish food restaurant, where roast meat was the main product.
+  
+# Your project portfolio
+projects:
+    intro: >
+      I am a new Coding student, so I don't have not started any project yet, appart from the ones that I need to do in the Bootcamp that im taking. 
+    
