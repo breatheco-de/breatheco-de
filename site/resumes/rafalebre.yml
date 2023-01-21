@@ -1,0 +1,26 @@
+template: "online-cv"
+skin: "black"
+
+basic_info:
+
+    first_name: Rafael
+    last_name: da Silva Lebre
+    motto: Progressing every single day
+    focus: Become an expert in programming
+    summary: Marketing graduated with a post graduation in Digital Marketing, now studying Full-Stack Web Development. Cultural, artistic and musical curation; solutions and necessities analysis; development of strategies to achieve marketing and business goals; analysis of the market and creation of tools to achieve the company's targets.
+
+    email: rslcorporation@hotmail.com
+    phone: 644664157
+    linkedin: /rafael-s-lebre/
+    github: rafalebre
+    twitter: '@rafalebre'
+
+    languages:
+      idiom: English
+      level: proficiency
+
+
+
+   
+    
+    
