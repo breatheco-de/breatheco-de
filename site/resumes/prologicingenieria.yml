@@ -1,0 +1,26 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: pedro
+  last_name: Lopez
+  motto: Checking yourself is also moving forward
+  focus: developer full stack
+  summary: aprendiendo a programar
+  avatar: https://photos.app.goo.gl/i2BFP8TjHMSHn4Y68
+  email: pedro.lopez@prologic.cl
+  github: prologicingenieria
+  languages:
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Eat
+education:
+  - degree: Ingenieria Informatica
+    university: UVM (Chile )
+    time: 2015-2020
+skills:
+  toolset:
+    - name: HTML5 & CSS
+      level: 25%
+    - name: Bootstrap
+      level: 25%
