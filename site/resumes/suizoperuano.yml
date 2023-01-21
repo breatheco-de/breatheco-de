@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: André
+    last_name: Chédel Guevara
+    # Define yourself in 4-5 words
+    motto: Use creativity and ideas as code
+    
+    # focus
+    focus: become a full stack developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Havent been able to start my career as programmer yet. For now i'm studying.
+      I'm working as a design technician.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: #https://media.licdn.com/dms/image/C4D03AQFIj_3mpq9lUw/profile-displayphoto-shrink_800_800/0/1573581159241?e=1679529600&v=beta&t=wsh2wYlNqOWvzT-jOHbWTBUYwMN8ciIQ0KjwGaAODqI
+
+    # Contact Information
+    email: andrechedel@hotmail.com #optional
+    phone: +41 79 834 00 00 #optional
+    linkedin: #https://download.logo.wine/logo/SpaceX/SpaceX-Logo.wine.png
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: suizoperuano
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: German
+        level: native
+
+      - idiom: Spanish
+        level: native
+
+      - idiom: English
+        level: professional
+
+      - idiom: French
+        level: intermediate
+    
+      - idiom: Russian
+        level: intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Cycling
+
+      - item: 3d Design
+
+# Your previous education
+education:
+    - degree: Hotel Management
+      university: Florida International University
+      # optional
+      university_logo: #https://www.shl.ch/build/images/logo.188c32ef.svg
+      time: 2015 - 2020
+      details: |
+        The time the the hotel management school was intense but extremely good for my professional development. 
+        It's also a way to connect with various people.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Rocket engineer
+      time: Feb 2020 - now
+      company: SpaceX
+      company_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        An amazing position in an amazing company. Since our longterm goal is making Mars
+        habitlable, it's even more exiting to be working for SpaceX.
+        There are only few things that would make me turn my back to this position.
+
+    - role: Lead Technician
+      time: 2014 - 2020
+      company: Schindler Elevators Company
+      # optional
+      company_logo: #https://w7.pngwing.com/pngs/752/402/png-transparent-schindler-hd-logo.png
+      details: |
+        One of the few big companies that manufacture elevators! It was an awesome experience.
+        The nices thing about Schindler Elevators is that they are a huge company but still very familiar.
+
+# Your project portfolio
+projects:
+    intro: >
+      The following project is one that I'm particularly proud of.
+      It makes me thing how many possibilites there are to programming.
+    assignments:
+      - title: Poker Hand
+        # optional
+        link: #https://www.sololearn.com/compiler-playground/cgYom6NV3e2G/#py
+        tagline: An easy and fun Python Poker- Hand evaluator
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Javascript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Bootstrap
+        level: 25%
+
+      - name: Git
+        level: 25%
