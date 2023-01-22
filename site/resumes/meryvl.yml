@@ -7,20 +7,18 @@ skin: "blue"
 
 # Personal Information
 basic_info:
-
     # Your full name
     first_name: Maria Isabel
     last_name: Valero Laguna
 
     # Define yourself in 4-5 words
     motto: Work hard then push harder
-    
     # focus
     focus: full-stack software developer 
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      This needs to be updated
+      This needs to be updated.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
