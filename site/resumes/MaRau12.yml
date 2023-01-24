@@ -28,7 +28,7 @@ basic_info:
     
   
 
-    http: //sep.breatheco.de/static/profile-images/photo_2022-07-30_13-54-45.jpg
+    
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
