@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luisa
+    last_name: Taylor
+    
+    # Define yourself in 4-5 words
+    motto: Motivated, Hard Working, Kind, Creative, and Organized
+    
+    # focus
+    focus: Learning the basics of Web Development in hopes of gaining an internship for Summer 2023
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am currently a high school school counselor that is looking to transition to a web development position.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/S7y8ZvL
+
+    # Contact Information
+    email: luisa.taylor22@gmail.com #optional
+    phone: 860-897-8581 #optional
+    website: In Progress #optional
+    linkedin: Luisa Taylor #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ltaylor22
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: MS in School Counseling
+      university: Central Connecticut State University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Central_Connecticut_State_University_Seal.svg/1200px-Central_Connecticut_State_University_Seal.svg.png
+      time: 2017-2020
+
+    - degree: BA in English and Spanish
+      university: Central Connecticut State University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Central_Connecticut_State_University_Seal.svg/1200px-Central_Connecticut_State_University_Seal.svg.png
+      time: 2007 - 2011
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: School Counselor
+      time: 2019-Present
+      company: Meriden Public School in Meriden, CT & Miami Dade County Public Schools in Miami, FL
+      # optional
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: In Progress
