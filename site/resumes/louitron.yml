@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Garcia
+    
+    # Define yourself in 4-5 words
+    motto: I like figuring out how stuff works
+    
+    # focus
+    focus: Learning Web Developmentand Branching out into Data Algorithms and Mahcine Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have been in the live event production industry for the last 7 years. Currently I am an Operations Manager for one of the largest production companies in the world. I've always loved
+      technology and figuring out how things work. I am passionate about learning about A.I. and machine learning models and am working on transitioning to a career that would allow me to explore
+      those interests in a working capacity and make my contribution. In my spare time, I love to make music, which is what I originally studied. I also love spending time with my 12 year old puppy,
+      and designing/3D printing cool gadgets. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: luisgarcia1437@gmail.com #optional
+    phone: 305 572 5231 #optional
+    website:  #optional
+    linkedin: linked.in/luisgarcia1437 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: louitron
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Guitar/Music Production
+
+      - item: Coding
+
+      - item: 3D Printing
+
+      - item: Video Editing/Motion Graphics
+
+      - item: Kayaking/Hiking
+
+# Your previous education
+education:
+    - degree: BS in Recording Arts
+      university: Full Sail University
+      # optional
+      university_logo: https://d2jyir0m79gs60.cloudfront.net/college/logos/Full_Sail_University.jpg
+      time: 2010 - 2013
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Operations Manager
+      time: 2020-Present
+      company: Encore Global
+      
+      details: |
+        I lead a team of 5 direct reports in planning and executing large scale events in the downtown Miami region. This includes everything from pre-production planning,
+        to equipment sourcing, to labor booking, and managing the show components on-site. My primary areas of focus are audio, lighting, video, projection, and rigging. I also deal 
+        with billing, procurement, financial forecasting and other administrative parts of the business.
+    - 
+      role: Technical Coordinator
+      time: 2019-2020
+      company: AVMedia
+     
+    - role: Technical Supervisor
+      time: 2017 - 2020
+      company: Encore Global
+      
+# Your project portfolio
+projects:
+    intro: >
+      My projects primarily consist of beginner Python scripts and programs, I've built several simple games using Pygame, and worked
+      on data parsing programs using the Pandas module. I've also done a couple of projects using Flask and the Django framework
+    
+skills:
+    toolset:
+      - name: Python & Django
+        level: 40%
+
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Adobe Premier
+        level: 90%
+      
+      - name: Adobe After Effects
+        level: 80%
+
+      - name: Adobe Photoshop
+        level: 90%
+      
+      - name: Logic Pro
+        level: 99%
+      
+      - name: Pro Tools
+        level: 80%
+      
