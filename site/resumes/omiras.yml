@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Óscar
+    last_name: Miras
+    
+    # Define yourself in 4-5 words
+    motto: Think first, code later
+    
+    # focus
+    focus: Share
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I starting coding BASIC in my first MSX computer when I was 8. Since then, I never finished learning and I feel that I would never do. And that's amazing!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C5603AQF5Hg-s2MSfRQ/profile-displayphoto-shrink_400_400/0/1582706545258?e=1680134400&v=beta&t=j3Xgqw8_ix343Xkoyb_bjC2LYP8ON27vSE-8bRdzU8I
+
+    # Contact Information
+    email: oscar.miras@gmail.com #optional
+    website: https://github.com/omiras #optional
+    linkedin: https://www.linkedin.com/in/mirasortiz/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: omiras
+    
+    stack-overflow: 400120/Oskytar # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan Sign language
+        level: intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Board games
+
+      - item: Travelling
+
+      - item: Computers
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: Polytechnic University of Catalonia
+      # optional
+      university_logo: https://imgs.search.brave.com/HtG4gFidWT3qx0zBDfriFLiAfAGfhCxOG0cee3fI20Q/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk3L0xv/Z29fVVBDLnN2Zy81/MTJweC1Mb2dvX1VQ/Qy5zdmcucG5n
+      time: 2005 - 2010
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Teacher
+      time: 2020 - Present
+      company: Netmind
+      # optional
+      company_logo: https://imgs.search.brave.com/5mgOA8AmKiAO1A4qzDtntj8g4ssDmIB72BcgU6CuXI4/rs:fit:524:128:1/g:ce/aHR0cHM6Ly9iaXou/cHJsb2cub3JnL25l/dG1pbmQvbG9nby5w/bmc
+      details: |
+        Teaching several full stack developer courses
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 98%
+
+      - name: HTML5/CSS
+        level: 80%
+
+      - name: Vue
+        level: 70%
+
+      - name: React
+        level: 60%
+
+      - name: PHP
+        level: 60%
+
+      - name: Python
+        level: 50%
