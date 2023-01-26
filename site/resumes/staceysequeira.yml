@@ -30,10 +30,12 @@ basic_info:
 education:
     - degree: Bachelor of Science, Media Production
       university: Florida State University
+      time: 2004
       
 
     - degree: Associates of Arts      
       university: MIami Dade College
+      time: 2002 
 
 # Your previous job experiences or voluntier
 experiences:
