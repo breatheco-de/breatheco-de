@@ -1,0 +1,64 @@
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Marcelo
+  second_name: Maximiliano
+  last_name: Sica
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Estoy en el Bootcamp 4geeks Academy, donde me encuentro teniendo mis primeros conocimientos sobre programación. En las dos semanas que llevo aquí vi módulos como los de HTML, CSS, Bootstrap, formularios de HTML, líneas de comando, actualmente estoy viendo Git. Luego me enseñaran tecnologías como JavaScript,
+  React, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y reforzaré habilidades como
+  el trabajo grupal con git.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/100654531?s=400&u=a763a09886576900a6ef0f6787f6709058bd36be&v=4
+
+  # Contact Information
+  email: marcelosica10@gmail.com #optional
+  phone: +54 1156986626 #optional
+  linkedin: https://www.linkedin.com/in/marcelo-sica-706457185/
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: https://github.com/Marce-Sica
+
+
+  # Interests or hobies
+  interests:
+    - item: Teatro
+
+    - item: Taekwon-do
+
+# Your previous education
+education:
+  - degree: Técnico electrónico con orientación en robótica
+    institute: Instituto Cardenal Stepinac
+    # optional
+    university_logo: https://pbs.twimg.com/profile_images/438711094807244801/54l9dsj5_400x400.jpeg
+    time: mar-2013 dic-2019
+    details: Tuve mis estudios secundarios en el Instituto Cardenal Stepinac, donde adquirí las habilidades para ser técnico en electrónica con orientación en robótica. 
+
+experiences:
+ 
+    details: 
+    Torneo de robótica: Aplicación de los conocimientos electrónicos, informáticos, de herrería y carpintería sobre los robots pedidos en el último año.
+      Elementos o tecnologías utilizadas: Herrería (chapa, planchuela), carpintería (madera), electrónica (sensores, resistores, capacitores, plaquetas, etc.) y Arduino.
+
+projects:
+    proyectos como desarrolador: Mighty Ducks (HTML-CSS), Instagram Publication (HTML-CSS), The Postcard (HTML-CSS), Instagram Feed (HTML-BOOTSTRAP), HTML5 Form (HTML-CSS), Command Line Challenge, Fix the Misspell Challenge (HTML-GITHUB), Learn in public (HTML-GITHUB).
+
+publications:
+    articulos: Mighty Ducks (HTML-CSS), Instagram Publication (HTML-CSS), Command Line Challenge, Fix the Misspell Challenge (HTML-GITHUB), Learn in public (HTML-GITHUB).
+
+skills:
+    details: HTML (experiencia 50%)
+             CSS (experiencia 50%)
+             Bootstrap (experiencia 50%)
+             Command Line (experiencia 20%)
+             Git (experiencia 20%)
