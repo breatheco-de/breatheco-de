@@ -1,0 +1,161 @@
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Patricia
+    last_name: Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: It's hard to beat a person who never gives up
+    
+    # focus
+    focus: Improving my tech career
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Physiotherapist who recently discovered the world of programming and loved it. Currently studying at 4Geeks Academy technologies such as HTML, CSS, JavaScript, React, Bootstrap, Python, Sql, and skills such as group work with git.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: patricia.fsdeveloper@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/patricia-mu%C3%B1oz-gonz%C3%A1lez-7032b4197/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: PatriciaMG92
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Read
+
+      - item: Music
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023
+      details: |
+        I have learned technologies such as HTML, CSS, JavaScript, React, Bootstrap, Python, Sql, and skills such as group work with git.
+    - degree: Physical Therapy
+      university: Universidad Complutense de Madrid
+      # optional
+      university_logo: https://th.bing.com/th/id/R.3d67fc10c269e9ef839ba4be789cc66b?rik=a%2fqJY%2bhS0YLiCw&riu=http%3a%2f%2fwww.ucm.es%2fext%2fapps%2fdirecto%2fimg%2fcarta.jpg&ehk=GQ2TlEJzIcQ1cAukWKLECMS7wRRfsobOzQTvQLWgk5o%3d&risl=&pid=ImgRaw&r=0
+      time: 2010 - 2014
+      details: |
+        My role as physical therapist includes:
+          Design and implement a personalized treatment plan for each patient in order to relieve their pain and restore their physical mobility:
+            Read and analyze medical reports to determine the best treatment to follow
+            Conduct an initial assessment of patient mobility and design a treatment plan aimed at rehabilitating the patient.
+            Instruct patients and their families in performing exercises and routines designed to help them regain mobility and be practiced in their homes to improve their results.
+            Consult with medical professionals to monitor the progress of therapy and redesign the rehabilitation program if necessary.
+            Discharge patients once they have achieved their established goals.
+          Be aware of the latest techniques, achievements and treatments in the field of Physiotherapy:
+            Attend and participate in seminars, conferences and congresses together with other professionals in their field to share new methods and treatments.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Physiotherapist
+      time: 2019 - Present
+      company: Centro Médico Carpetana
+      # optional
+      company_logo: 
+      details: |
+        Design and implement specific treatment plans for each patient according to their pathology.
+        Organize large numbers of patients in a short space of time and with limited resources.
+        
+    - role: Physiotherapist
+      time: 2018 - 2019
+      company: Hospital HM de Madrid
+      # optional
+      company_logo: 
+      details: |
+        Design and implement specific treatment plans for each patient according to their pathology.
+
+    - role: Physiotherapist
+      time: 2014 - 2018
+      company: DomusVi Spain
+      # optional
+      company_logo: 
+      details: |
+        Design and implement specific treatment plans for each patient according to their pathology.
+        Organize large numbers of patients in a short space of time and with limited resources.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 1%
+
+      - name: Javascript
+        level: 30%
+
+      - name: Angular
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 40%
