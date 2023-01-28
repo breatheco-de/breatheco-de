@@ -6,14 +6,14 @@ basic_info:
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
-  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
-  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-  el trabajo grupal con gi
+    Me de
+    Estoy cursando el Bootcamp de Full Stack Developer de 4geeks Academy, para avence profesional 
+   y reforzar los conocimientos. Se dictan tecnologias como JavaScript, React, Bootstrap, Flux , Python, 
+   Sql, SqlAlchemy, Flask.
 
   # Your profile picture URL
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  linkedin: https://www.linkedin.com/in/jonathan-arturo-montero-calderon-945b9664/
 
   # Contact Information
   email: jonmoncal@gmail.com #optional
@@ -29,35 +29,39 @@ basic_info:
 
   # Interests or hobies
   interests:
-    - item: Web Development
+    - item: Electronica
 
-    - item: 
+    - item: Desarrollo Web
 
     - item: 
 
 # Your previous education
 education:
-  - degree: desarrolladora full-stack
-    academy: 4Geeks Academy
+  - degree: Bachiller Ingenieria Informatica
+    academy: Universidad Central
     # optional
-    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    time: mar-2022 - ago-2022
+    university_logo: 
+    time: ene-2007 - actualidad
     details: |
-      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
-      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-      el trabajo grupal con git
+      Conclucion de todas las materias teorias, pendiente Proyecto de Final.
 
 experiences:
- 
-    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    Dyatronic CR: Profesional Independiente
     details: 
-    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
-      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+      Servicio de Administracion de Servidores Virtualizados para Apliciaciones Financieras y Administrativas en sistemas operativos Linux y Windows.
+     Administracion de equipos de redes. 
+     Asistencia de software y hardware a usuarios final en sistemas operativos Windows y macOS X.
+      Tecnologias: Linux, Windows, Mac, SAP Business One, Proxmox.
 
-    Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
-      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+    Macintegra: Tecnico de Soporte MAC.
+      Encargado en la administración de servidores en sistemas operativos OS x, Linux (Unix) y Windows para aplicaciones Web y Financieras, 
+     programación de scripts para la automatización de procesos en servidores. Servicio al cliente en solución de averías de usuarios en Mac; mantenimientos preventivos y correctivos a equipos Apple. 
+     Diagnóstico y reparación de dispositivos Apple a nivel de hardware (iPhones, iPods e iPads). 
+      Tecnologias: Linux, Windows, Mac.
 
-    Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
-      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+    Smart Supplies S.R.L: 
+     Tecnico de Soporte Junior. Administración de servidores en sistemas operativos Linux (Unix) y Windows para servicios web, correo, compartir archivos dentro de la red LAN,
+     programación de scripts para la automatización de procesos. Mantenimiento preventivo y correctivo, administrador de los equipos de cómputo, impresoras y cableado. Instalación de sistemas operativos,
+     aplicaciones para windows, office y aplicaciones cliente-servidor.
+      Tecnologias: Linux, Windows.
  
