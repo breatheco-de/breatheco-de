@@ -51,6 +51,9 @@ basic_info:
       - idiom: English
         level: Professional
 
+      - idiom: Hebrew
+        level: Basic
+
     
 
     # Interests or hobies
@@ -65,11 +68,11 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: BS in Computer Science
-      university: Florida International University
+    - degree: Graphic Designer
+      university: Universidad Iberoamericana de la Laguna
       # optional
-      university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2017 - 2020
+      university_logo: #hhttps://imgs.search.brave.com/cWQGtgdJXjYgw0GBlC5em437ptOxlGNI6mxl8SUcqbY/rs:fit:300:301:1/g:ce/aHR0cHM6Ly9jY2ls/YWd1bmEub3JnLm14/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9pYmVy/by10b3JyZW9uLWxv/Z28tMS5qcGc
+      time: 2005 - 2009
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,11 +81,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: AA in Computer Science
-      university: Broward College
+    - degree: FullStack Developer Bootcamp
+      university: 4 Geeks Academy
       # optional
       university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2013 - 2017
+      time: 2023 - 2023
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
