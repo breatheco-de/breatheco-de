@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Miguel
+  last_name: Torres
+
+  # Define yourself in 4-5 words
+  motto: I'm getting used to the world.
+
+  # focus
+  focus: I'm trying to be better than I was.
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    I am a Nuclear Physicist who graduated from the University of Havana and obtained a Master of Science from the National Autonomous University of Mexico. Now, I'm always coding and trying to figure out what's missing from my code.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: http://sep.breatheco.de/static/profile-images/miguel.png
+
+  # Contact Information
+  email: mtorres@gmail.com #optional
+  phone: 5616771944 #optional
+  website: asd.com #optional
+  linkedin: mtacosta #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: spacemc2
+
+  stack-overflow: 20145689/miguel-torres # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: Professional
+
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobies
+  interests:
+    - item: Eating
+
+    - item: Sleeping
+
+    - item: Coding
+
+# Your previous education
+education:
+  - degree: MSc in Physics
+    university: National Autonomous University of Mexico
+    # optional
+    university_logo: https://cdn.worldvectorlogo.com/logos/unam.svg
+    time: 2018 - 2021
+    details: |
+      The curriculum of the Master of Science (Physics) covers at least 78 credits. The program lasts four semesters, including graduation, for full-time students. One can cite the contribution of the Master of Science (Physics) in the automotive or aerospace industry, in carrying out physical tests and analysis of results for the development of new products; or in banking, in the analysis of large amounts of data to obtain relevant information from them.
+        - Solid conceptual and operational knowledge of Physics, in general, as well as the selected field of knowledge: Quantum physics and condensed matter.
+        - High capacity in handling theoretical or experimental methodologies and techniques, particularly those related to their research work.
+  - degree: BSc in Nuclear Physics
+    university: Higher Institute of Technologies and Applied Sciences
+    # optional
+    university_logo: https://www.ecured.cu/images/3/3c/Logo_instec.png
+    time: 2013 - 2018
+    details: The professional graduated from this career has advanced knowledge of general physics and selected topics. He is trained with proficient skills in numerical programming, analog and digital electronics, and nuclear instrumentation. He is a very versatile professional trained to work with data and quality standards coming from both a laboratory and a medical laboratory.
+# Your previous job experiences or voluntier
+experiences:
+  - role:  Data Analyst and Web Developer
+    time: 2021 - Present
+    company: Self-employed
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Developing JavaScript-based web applications, managing data in the ETL data warehouse process, creating pipelines in python, and connecting to API or developing backend app python based in Django. Also creating bots and API services providing Machine Learning predictions.
+
+  - role: Research Student
+    time: 2018 - 2021
+    company: Institute of Physics, Mexico City.
+    # optional
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Instituto_de_F%C3%ADsica%2C_UNAM.jpg
+    details: |
+     Ultracold Systems and Quantum Simulation Department’s Research Student at the Institute of Physics. Collab with National Quantum Matter Laboratory (LANMAC), Dr. Santiago F Caballero Benitez, National Autonomous University of Mexico.
+  
+  - role: Research Student
+    time: 2016 - 2018
+    company: Center for Technological Applications and Nuclear Development (CEADEN), Havana.
+    # optional
+    company_logo: https://www.radioreloj.cu/wp-content/uploads/2022/10/RDWDW.png
+    details: |
+        Radiology department’s Research Student in Center for Technological Applications and Nuclear Development (CEADEN) measuring radiation effects in ABO3 materials and simulations using Monte Carlo-based codes, Dr. Carlos Cruz Inclán.
+
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: React
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: C++ & C
+      level: 85%
+
