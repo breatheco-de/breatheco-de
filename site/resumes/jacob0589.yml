@@ -1,0 +1,44 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Alonso
+  last_name: Corrales
+  motto: never give up.
+  summary: |
+    Been working in P^G for almost a year, trying to get new skill to grow personal and professionaly.
+
+  # Sidebar links
+  email: alonsocb8995@gmail.com
+  phone: +506 70127512
+  linkedin: https://www.linkedin.com/in/alonso-corrales-bonilla-40966791/
+  github: jacob0589
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2023 - 
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+
+
