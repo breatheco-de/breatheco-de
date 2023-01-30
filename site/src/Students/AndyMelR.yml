@@ -1,0 +1,62 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Andrea
+  last_name: Melero
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Trabajo durante más de 25 años en varios sectores hasta que decido reinventarme en el sector Tech. Tras una introducción al sector con un Bootcamp de iniciación a la programación en Python, 
+  y completar mi formación en DAW, decido completar mi formación con el Full Stack Developer Bootcamp de 4geeks Academy. En el aprendí tecnologias como JavaScript, React, Bootstrap, Flux ,
+  Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como el trabajo grupal con git.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: ameleror@gmail.com #optional
+  phone: +34 679016206 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: AndyMelR
+
+  linkedin: https://www.linkedin.com/in/andrea-melero-ribot-20828117/ #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Reading
+
+    - item: Learning
+
+    - item: Family time
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: jan-2023 - May-2023
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme en DAW. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
+      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+
+    Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
+      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+ 
