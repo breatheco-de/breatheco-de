@@ -1,0 +1,68 @@
+template: "online-cv"
+ skin: "orange"
+
+ basic_info:
+
+     # Profile information
+     first_name: jairo
+     last_name: gonzales
+     motto: no pain, no gain
+     avatar: https://media.licdn.com/dms/image/C4D03AQHkEjCZ_BPnXQ/profile-displayphoto-shrink_800_800/0/1642621182731?e=1680739200&v=beta&t=mKGMEND9HS11W9Oyjw5nAygFD0BsmcrvMq5iZiLZvw4
+     summary: professional with over 8 years of experience in quality control/quality assurance, compliance, materials management with extensive knowledge of standards and regulations for hct/ps.
+         
+          
+
+     # Sidebar links
+     email: jairogonzales@hotmail.com
+     phone: 786 566 2239
+     linkedin: https://www.linkedin.com/in/jairogonzales-ctbs-aatb/
+     
+
+     languages:
+       - idiom: spanish
+         level: native
+
+       - idiom: english
+         level: native
+
+     interests:
+       - item: soccer
+       - item: travel
+       - item: coding
+
+ education:
+     - degree: bachelor of business administration
+       university: florida international university
+       time: 2021 - 2022
+
+ experiences:
+     - Role: student
+       time: currently
+       company: 4geeks academy
+ projects:
+ 
+     -title: build a digital postcard with html/css
+      link: https://gitpod.io#snapshot/97d6baf9-1503-463a-8209-f16efba699d6
+      tagline: 'postcard'
+
+     -title: instagram post
+      link: https://gitpod.io#snapshot/47179d3c-ad6d-457e-ba35-702021b64d38
+      tagline: 'ig post'
+     
+     -title: simple instagram photo feed with html/css
+      link: https://gitpod.io#snapshot/6d73e648-6ae3-41a5-a324-9065e0477b8e
+      tagline: 'ig photo feed'
+ 
+ skills:
+     toolset:
+       - name: python 
+         level: beginner
+         
+       - name: javascript
+         level: beginner
+
+       - name: html5 & css
+         level: beginner
+         
+       - name: bootstrap
+         level: beginner
