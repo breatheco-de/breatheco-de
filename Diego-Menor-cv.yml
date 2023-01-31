@@ -67,71 +67,78 @@ education:
       university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2023
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: AA in Computer Science
-      university: Broward College
+        Javascript
+        CSS
+        HTML5
+        React
+        Python
+    - degree: Environmental science
+      university: UCLM
       # optional
       university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2013 - 2017
+      time: 2004 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        
 # Your previous job experiences or voluntier
 experiences:
-    - role: Full Stack Developer Intern 
+    - role: Ultrasonic inspector level II
       time: Feb 2020 - May 2020
-      company: Startup Queentessence Inc.
+      company: Aernnova composites Illescas
       company_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+         Inspección de piezas aeronáuticas de fibra de carbono (fabricadas con respecto a instrucciones predefinidas) mediante equipos de ultrasonidos manuales (MUPE), automáticos (AUPE) y semiautomáticos (SAUPE). 
+ Detección y evaluación de posibles defectos de piezas, de modo que puedan ser reparadas o desechadas. Garantizar que cumplen con los requisitos descritos en planos y especificaciones.
+ Elaboración de informes de no conformidad (HNCs, QNs, INCs, ENCs, INCs y ANCs) acorde con el sistema informático dispuesto para ello (SAP o intranet).
+ Inspección visual de piezas, detección de defectos y reporte de estos.
+ Dimensionamiento de piezas. Uso de herramientas como micrómetros, dinolites, liras, pie de rey y galgas.
+ Elaboración de ICAS (instrucciones de calidad) de acuerdo a los requisitos y la norma del cliente.
+ Interpretación de planos de piezas fabricadas.
+ Colaboración activa en desarrollo de piezas para los modelos de avión Airbus A-350 y A-220, Boeing 787, Drone Amazon prime air y Embraer KC-390.
+    - role: Tecnico de Calidad laboratorio y medio ambiente
+      time: 2011 - 2012
+      company: Cerámicas la Paloma
       # optional
       company_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# Your project portfolio
+        Técnico de laboratorio
+
+ Análisis físico-químicos de de suelos. (Determinación de humedad, granulometría, ph, materia orgánica, sulfatos, carbonatos, sales solubles, etc.).
+ Análisis químicos de aguas (determinación de carbonatos, determinación de sulfatos etc.).
+ I+D: Desarrollo de nuevos productos cerámicos eco-eficientes, desarrollo de nuevos productos con distintas mezclas de áridos.
+ Análisis físico-químicos de materias primas (no áridos).
+ Manejo en distintos ensayos de multitud de productos
+químicos (realización de diluciones, valoraciones ácidobase…).
+  Manejo de técnicas analíticas y HPLC (a nivel básico).
+  Ensayos Cromatografía de gases (a nivel básico).
+
+Técnico de calidad
+
+ Máximo responsable de verificación del producto acabado.
+ Control dimensional y de masas de productos acabados. Registro informático de estos.
+ Realización de no conformidades del proceso de fabricación.
+ Verificación del cumplimiento de las normas ISO 9001 de calidad en productos acabados.
+ Realización de auditorias internas.
+ Labores administrativas derivadas del proceso de implantación de marcado AENOR de productos acabados.
+ Verificación y calibración interna de balanzas, básculas y pies de rey.
+ Realización de test de resistencia, elasticidad, succión etc. al producto acabado.
+
+Adjunto al Jefe de Fábrica
+
+ Segundo al mando en fábrica.
+ Colaboración directa diaria con encargado.
+ Responsable directo de órdenes de fabricación.
+ Responsable directo de recepción y control de materias primas.
+ Toma de decisiones en ausencia del encargado.
+ Control diario de parámetros en molienda de áridos.
+ Responsable de los cambios en maquinaria para la la fabricación de productos distintos.
+
+Medio Ambiente
+
+ Gestión de residuos Peligrosos
+ Gestión de residuos no peligrosos
+ Asesoramiento en materia de medio ambiente a la dirección facultativa
+    
+    # Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
