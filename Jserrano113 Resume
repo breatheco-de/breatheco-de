@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Jonathan
+    last_name: Serrano
+    motto: Everybody love everybody
+    avatar: https://media.licdn.com/dms/image/D4D03AQFY6QXvTzjvew/profile-displayphoto-shrink_800_800/0/1675122576917?e=1680739200&v=beta&t=67ImeSQYJ-zd0ed0nmngOLilWOsuHPmkisq4sffZLI4
+    summary:
+      I have a love for learning new things that I believe can help me be successful in life. I've been in the logistics industry for 7 years and would like a new challenge.
+      I believe that coding is a challenge that I'm ready for and can succeed in. I love to grow and improve myself every year. I see this as an opportunity to do just that.
+      There's a lot of upside in this field and I would love to be a part of it.
+    email: Jserrano113@gmail.com
+    phone: 305-778-4230
+    website:
+    linkedin: https://www.linkedin.com/in/jonathan-serrano-a86a0487/
+   
+    languages:
+   
+      - idiom: Spanish
+        level: Native
+       
+      - idiom: English
+        level: Native
+
+     
+    interests:
+      - item: Reading
+
+      - item: Comedy
+
+      - item: Coding
+
+education:
+    - degree: High School Diploma
+      School: Miami Coral Park Senior High
+      time: 2003-2007
+     
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+     
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+   
+    assignments:
+     
+       
+
+      - title: Simple Instagram Photo Feed with HTML/CSS
+        link: https://gitpod.io#snapshot/bc8d8b30-fc20-4292-9e3a-024e44158dc4
+        tagline: "IG PHOTO FEED --"
+             
+      - title: Instagram Post
+        link: https://gitpod.io#snapshot/c1b4f098-91e0-4d5c-ac58-e44b6f5c266b
+        tagline: "IG POST --"
+
+      - title: Build a Digital Postcard with HTML/CSS
+        link: https://gitpod.io#snapshot/ab8edc60-f668-429e-a47b-a5b0e7a8a45b
+        tagline: "POST CARD --"
+
+     
+
+skills:
+    toolset:
+      - name: Python
+        level: Beginner
+
+      - name: Javascript
+        level: Beginner
+
+      - name: HTML5 & CSS
+        level: Beginner 
+        
+        
