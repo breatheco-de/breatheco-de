@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "Orange"
 
 # Personal Information
 basic_info:
@@ -33,8 +33,8 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: matiastapiacrovetto@gmail.com #optional
+    phone: +56956583516 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
