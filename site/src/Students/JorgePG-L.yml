@@ -27,8 +27,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
-
+    avatar: https://media.licdn.com/dms/image/C4D03AQFwfSPjJRV1gg/profile-displayphoto-shrink_100_100/0/1555914211952?e=1680739200&v=beta&t=8ZxfeEhADJ3Y3BDfIm2M0Ep8y81d10LGNM3L9eHBunQ
     # Contact Information
     email: jorgepiqueras92.com #optional
     phone: 600350414 #optional
