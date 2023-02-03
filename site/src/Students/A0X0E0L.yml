@@ -1,0 +1,64 @@
+template: "online-cv"
+
+
+basic_info:
+  # Profile information
+  first_name: Axel
+  last_name: Olivera
+  summary: I studied accounting at Udelar, but I am currently studying a programming course since I want to work in this field.
+
+  # Sidebar links
+  email: ax13xxi@gmail.com
+  phone: 092421990
+  #website: alesanchezr.com
+  linkedin: linkedin.com/in/axel-emanuel-olivera-egaña-a87033204
+  github: https://github.com/A0X0E0L
+  
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: beginner
+
+  interests:
+    - item: Gaming,  
+    - item: TV
+    - item: Films
+    - item: running
+    - item: eat
+    - item: Learning
+
+education:
+  - degree: Full Stack Developer
+    university: 4 Geeks Academy
+    time: 2022 - 2023
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+        
+
+-degree: Technologist in business administration 
+university: Udelar 
+time: 2017 - 2020
+    
+
+
+
+skills:
+  toolset:
+    - name: Javascript
+      
+
+    - name: React.js
+    
+    - name: HTML5 & CSS
+     
+    - name: Python
+      
+    - name: FlaskSQL
+      
