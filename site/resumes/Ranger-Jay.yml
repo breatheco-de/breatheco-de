@@ -13,7 +13,7 @@ basic_info:
     last_name: Rietzke
     
     # Define yourself in 4-5 words
-    motto: Set goals, then smash them
+    motto: Set goals, then smash them.
     
     # focus
     focus: Setting Goals
@@ -22,11 +22,8 @@ basic_info:
     summary: |
       U.S. Army combat Veteran that participated in global operations. 
       Transitioned into to the cilivian workforce. Spent last decade working
-      in technical support. Now learning to become a web developer.
-      
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      in technical support. Now learning to become a web developer.    
+     
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -103,18 +100,13 @@ experiences:
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Conduct daily operations utilizing complext information system in support
+        of Veterans in the Greater Miami  area.  Support operations includes seeking
+        supportive services for housing, financial aid, dependency rehabilitation,
+        and job readiness preparation.
 
-          - Bullet point
-          - Bullet point
+          - Named First in class support specialist for 2018 and 2019
+          - Conducted quarterly training to support all other VOC reps
 
     - role: Recruitment systems manager
       time: 2010 - 2016
@@ -122,14 +114,12 @@ experiences:
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Utilized complext information system to update the University's public web portal
+        in support of student body recruitment and retention.  Provided seasonal workshops
+        and open house gatherings to meet with students and parents in support of recruitment.
 
-          - Bullet point
-          - Bullet point
+          - Awarded University award for highest recruiment for 2014
+          - Reconfigured all university recruitment portals and standards UI for all systems.
 
     - role: Implemtations Technician
       time: 2008 - 2010
@@ -137,21 +127,17 @@ experiences:
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Traveled to various client locatons to install proprietary software. Trained all staff
+        on use of new systems, and provided on-cal support for 6 months after installation
+        process was complete.
 
-          - Bullet point
-          - Bullet point
+          - Voted as 'best Fame trainer' for 2009
+          - Promoted to lead technician in 1st year of employment
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I am currently working on side projects to add to this section.
 
     assignments:
       - title: Velocity
@@ -186,20 +172,20 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 0%
+      - name: Python
+        level: 90%
 
       - name: Javascript & jQuery
-        level: 10%
+        level: 90%
 
       - name: Angular
-        level: 10%
+        level: 90%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 100%
 
       - name: Ruby on Rails
-        level: 0%
+        level: 50%
 
       - name: Sketch & Photoshop
-        level: 25%
+        level: 90%
