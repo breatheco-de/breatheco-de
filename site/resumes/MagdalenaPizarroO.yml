@@ -30,7 +30,7 @@ basic_info:
   website: ~
 education: 
   - 
-    degree: ~
+    degree: Biologist
     details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -40,11 +40,11 @@ education:
         
           - Bullet point
           - Bullet point
-    time: ~
-    university: ~
+    time: 2013-2018
+    university: Pontificia Universidad Católica
     university_logo: ~
   - 
-    degree: ~
+    degree: PhD(c) Biological Sciences major Molecular Genetics and Microbiology
     details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -54,8 +54,8 @@ education:
         
           - Bullet point
           - Bullet point
-    time: ~
-    university: ~
+    time: 2019-2023
+    university: Pontificia Universidad Católica de Chile
     university_logo: ~
 experiences: 
   - 
