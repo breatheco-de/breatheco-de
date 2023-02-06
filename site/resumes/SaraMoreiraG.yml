@@ -1,0 +1,74 @@
+--- 
+basic_info: 
+  avatar: "https://randomuser.me/api/"
+  email: "sara_moreira@hotmail.es"
+  first_name: Sara
+  focus: "Learning to become a Full Stack Develope. Expaning my knowledge as much as possible to change my career and knowledge."
+  github: SaraMoreiraG
+  interests: 
+    - 
+      item: "Music, Climbing, Books"
+    - 
+      item: "Design/Programming"
+    - 
+      item: "Traveling, Van, Know world"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: B2
+  last_name: Moreira
+  linkedin: "https://www.linkedin.com/in/sara-moreira-garc%C3%ADa-88035611a/"
+  motto: "I love when things work"
+  phone: "+34 699 3754 12"
+  summary: "I have been working as a light technician for more than 5 years, always interested in the programming side. Now I am looking for a growth opportunity as a Web Developer."
+education: 
+  - 
+    degree: "Audiovisual Comunication"
+    details: "Content creator"
+    time: "2012 - 2016"
+    university: "Universidad Rey Juan Carlos"
+experiences: 
+  - 
+    company: "Theater Companies"
+    details: "My primary repsonsibilities are to set up the stage and programming the light desk"
+    role: "Light Operator"
+    time: "2015 - Present"
+projects: 
+  assignments: 
+    - 
+      link: "https://github.com/SaraMoreiraG/Photo-Feed"
+      tagline: "A responsive website template like Instagram Photo Feed with HTML/CSS"
+      title: Photo Feed
+    - 
+      link: "https://github.com/SaraMoreiraG/Card-Form"
+      tagline: "HTML/Boostrap/JavaScript form"
+      title: Payment Method
+  intro: "As a Web Developer student, I don't have a lot of proyects. In time, this list will grow."
+skills: 
+  toolset: 
+    - 
+      level: 0%
+      name: "Python & Django"
+    - 
+      level: 50%
+      name: "Javascript & jQuery"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 80%
+      name: "HTML5 & CSS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 50%
+      name: "Sketch & Photoshop"
+    - 
+      level: 0%
+      name: "Networking & Security"
+skin: blue
+template: online-cv
