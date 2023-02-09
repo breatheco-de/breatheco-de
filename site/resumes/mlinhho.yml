@@ -13,10 +13,10 @@ basic_info:
     last_name: Ho
     
     # Define yourself in 4-5 words
-    motto: Learning is my passion
+    motto: Mission driven
     
     # focus
-    focus: Becoming a better programmer
+    focus: Learning how to code
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -29,13 +29,13 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/IMG_0005.jpg
+    avatar: http://sep.breatheco.de/static/profile-images/MaiLinh2022Pic.jpg 
 
     # Contact Information
-    email: mimarchtt@gmail.com #optional
-    phone: 56 9 34332449 #optional
-    website: asd.com #optional
-    linkedin: Miguel Marchant #optional
+    email: mailinhtranho8@gmail.com #optional
+    phone: 1 202 531 8858 #optional
+    website: mailinhho.com #optional
+    linkedin: MaiLinh Ho #optional
     
     #
     # ******** IMPORTANT *******
@@ -50,7 +50,7 @@ basic_info:
       - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Vietnamese
         level: Native
 
       
@@ -64,11 +64,11 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: Teacher of English
-      university: Universidad de Concepcion
+    - degree: Bachelor's of Science
+      university: Babson College
       # optional
       university_logo: 
-      time: 2011 - 2017
+      time: 2017 - 2021
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -80,9 +80,9 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Co-Founder & CPO
+      time: 2022 - Present
+      company: Gateway
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -97,9 +97,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Product Manager
+      time: 2021 - 2022
+      company: Publicis Media
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -110,19 +110,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 # Your project portfolio
 projects:
     intro: >
