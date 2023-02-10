@@ -59,6 +59,14 @@ basic_info:
 
 # Your previous job experiences or volunteer
 # Your previous education
+Previus education:
+    - degree: Technician in operation of information systems
+      university: 4Geeks Academy
+      time: 2018-2020
+      details: |
+        Learned to create responsive websites using HTML, CSS, Javascript, 
+        Python and React.js. 
+   
 education:
     - degree: Full-Stack software Developer
       university: 4Geeks Academy
@@ -94,15 +102,15 @@ projects:
     assignments:
       - title: Ready2help
         # optional
-        link: https://github.com/mers85/4geeks_ready2help
+        link: https://github.com/meryvl/4geeks_ready2help
         tagline: "A platform designed to help small organizations to promote, look for donations and volunteers for their projects."
 
-      - title: Random Card Generator
-        link: https://github.com/mers85/4geeks-random-card-dealer-in-javascript-html-and-css
+      - title: Card Profile
+        link: https://github.com/meryvl/conditional-profireCard.git
         tagline: "Random display a single poker card."
 
       - title: Instagram (Grid and Feed)
-        link: https://github.com/mers85/4geeks-the-instagram-photo-feed
+        link: https://github.com/meryvl/MariaIsabelInstagram.git
         tagline: "A simple, responsive website designed with HTML, CSS and Bootstrap."
 
 
