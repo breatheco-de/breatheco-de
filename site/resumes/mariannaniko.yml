@@ -1,4 +1,5 @@
 template: "online-cv"
+skin: "berry"
 
 basic_info:
   first_name: Marianna
@@ -15,7 +16,7 @@ basic_info:
     Second paragraph if required.
   email: windsoffreedom@hotmail.com
   phone: 754 9923 6784
-  github: nikky1092
+  github: mariannaniko 
   stack-overflow: null
   languages:
     - idiom: Spanish
