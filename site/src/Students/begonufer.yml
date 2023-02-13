@@ -4,7 +4,7 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "orange"
 
 # Personal Information
 basic_info:
@@ -14,10 +14,10 @@ basic_info:
     last_name: Núñez Fernández
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I don't like saving the world
     
     # focus
-    focus: Killing Bad Boys
+    focus: Learning
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
