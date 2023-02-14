@@ -1,0 +1,108 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcos
+    last_name: Saez
+    
+    # Define yourself in 4-5 words
+    motto: Defined in 4-5 words
+    
+    # focus
+    focus: Survive
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summary here!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: marcos.asp989@gmail.com #optional
+    phone: 643 816 978 #optional
+    website: scatech.es #optional
+    linkedin: marcos-asp #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: UnassignedByte2504
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Japanese
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Music, guitar, piano...
+
+      - item: Gym
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Computational systems engineering
+      university: UVM
+      # optional
+      university_logo: https://1000marcas.net/wp-content/uploads/2020/03/Logo.-Universidad-Del-Valle-de-Mexicopng.png
+      time: 2007 - 2010
+      details: |
+        The degree was split into tetramesters instead of semesters, which made the whole experience
+        a lot more intensive, it was mainly focused on network infrastructures.
+# Your previous job experiences or voluntier
+experiences:
+    - role: System Manager/BI Analyst
+      time: 2020 - Present
+      company: Nacex & others
+      details: |
+        Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+skills:
+    toolset:
+      - name: Python, Pandas, Numpy, Scikit-learn
+        level: 75%
+
+      - name: Javascript & jQuery
+        level: 75%
+
+      - name: React
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: NodeJS
+        level: 70%
+
+      - name: Sketch & Photoshop
+        level: 80%
+
+      - name: PowerBI
+        level: 95%
