@@ -1,0 +1,64 @@
+template: "online-cv"
+skin: "rose"
+
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Josefa
+    last_name: Miller
+
+ # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+     Estoy actualmente en el Bootcamp 4geeks Academy, esto me ha permitido adentrarme en conocimientos como HTML/CSS / JAVASCRIPT / REACT.JS / PYTHON / FLASK y habilidades como el trabajo grupal con git.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/121449537?v=4
+
+    # Contact Information
+    email: josefamillerb@gmail.com #optional
+    phone: #optional
+    linkedin: Josefa Miller #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/JosefaMiller
+    
+    twitter: #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Básico
+
+    # Interests or hobies
+    interests:
+      - item: Pintar
+
+      - item: Escribir
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer FT
+      academy: 4Geeks Academy
+
+      details: Estoy actualmente en el Bootcamp 4geeks Academy, esto me ha permitido adentrarme en conocimientos como HTML/CSS / JAVASCRIPT / REACT.JS / PYTHON / FLASK y habilidades como el trabajo grupal con git.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: 
+
+    - role: 
+      time: 
+      company: 
