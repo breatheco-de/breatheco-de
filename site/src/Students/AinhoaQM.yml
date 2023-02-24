@@ -1,0 +1,92 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ainhoa
+    last_name: Quesada
+
+    # focus
+    focus: Learning and job
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      This is just a sample, I will make future updates
+    
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: ainhoaqm99@hotmail.com 
+    website: Work in progress
+    linkedin: Work in progress
+  
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AinhoaQM
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+      
+      - idiom: English
+        level: B1
+
+
+    # Interests or hobies
+    interests:
+      - item: videogames
+
+      - item: codeing
+
+      - item: working
+
+ # Your previous education
+education:
+    - degree: full stack developer
+      academy: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: febrero-2023 - IDK-2023
+      details: This is just a sample, I will make future updates
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: WIP
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+      - title: WIP
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 1%
+
+      - name: Javascript & jQuery
+        level: 1%
+
+      - name: HTML5 & CSS
+        level: 75%
