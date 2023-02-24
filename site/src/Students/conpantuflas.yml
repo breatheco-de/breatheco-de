@@ -5,11 +5,10 @@ basic_info:
   last_name: Carreño
 
   # You have 1 paragraph to make a great impression, summarize your career.
-  summary:
-  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
-  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-  el trabajo grupal con gi
+  summary: Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+  
+
+  
 
   # Your profile picture URL
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -56,8 +55,8 @@ experiences:
       Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
 
     Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
-      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+    Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
 
     Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
-      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+    
  
