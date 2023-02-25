@@ -164,7 +164,7 @@ projects:
 
 skills:
     toolset:
-      - name: Python, Scikit-learn, Pandar, Matplotlib
+      - name: Python, Scikit-learn, Pandas, Matplotlib
         level: 60%
 
       - name: SQL/SPARQL
