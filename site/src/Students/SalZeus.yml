@@ -1,0 +1,50 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Juan Felipe
+  last_name: Gutiérrez Torres
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  I am a Fullstack developer, from 4Geeks where I was able to learn, grow and understand many of the industry standars and implementation methods on several working environments.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+
+  # Contact Information
+  email: juanfeguto2@gmail.com #optional
+  phone: 3013182183 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: SalZeus
+
+  twitter: "SalZeus_TTV" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Coding
+
+    - item: Gaming
+
+    - item: Music
+
+# Your previous education
+education:
+  - degree: Fullstack Developer
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: mar-2022 - ago-2022
+    details: |
+      Estuve en 4Geeks aprendiendo de la mano de profesores con años de experiencia en el ámbito en el que reforce cursos de academias latinas, por las cuales aprendi y creci de multiples manera muy positivas para mi carrera
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aprender a usar pytohon y aprender mas sobre IA
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
