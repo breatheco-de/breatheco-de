@@ -57,7 +57,7 @@ basic_info:
 
 
 education:
-    - degree: Grado en Enfermero profesional
+    - degree: Grado en Enfermero profesional()
       university: Universidad del Norte
       time: 2005 - 2009
       
