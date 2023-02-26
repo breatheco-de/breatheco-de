@@ -1,0 +1,115 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  #PF information
+  first_name: Miguel
+  last_name: Ramirez
+
+  motto: Innovating 
+  focus: Learning everyday
+  
+  avatar:
+  
+  summary: 
+      Since I was in school I learned something basic about html. Now, at the age of 18, I decided to start and take programming further. 
+      
+      I am very grateful to 4Geeks because thanks to them I have the motivation and dedication to learn more every day.
+
+      Opening my computer every day and starting to practice and try new things is something that has led me to learn more about this whole world.
+
+      I think I have found something that I really like and that I want to develop a lot so that tomorrow I can be a great professional in Full Stack and much more!
+
+  #Sidebar links
+  email: miguelramirez2210@gmail.com
+  phone: 300 514 7043
+  github: mramirez092
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Proffesional
+
+    - idiom: German
+      level: Proffesional
+
+  interests:
+    - item: Sports
+    - item: Technology
+    - item: Music
+
+education:
+    - school: Deutsche Schule Medellin
+    - time: 2009 - 2022
+
+experiences:
+    - role: Photography assitant
+    - time: School vacations
+    - company: Quarto Studio SAS
+    - details: 
+       During my vacations during school I used to work in my parents advertising photography company. 
+      
+       My father is a photographer and my mother a producer, I helped with whatever had to be done in the studio and saved money for my future.
+
+    - role: Social work
+    - time: 2021 - 2022
+    - company: School
+    - details: 
+        At my school we used to have an IB subject called CAS, where we went to other institutions to help low-income children.
+
+        We helped them with study materials, improving their school facilities and Christmas gifts.
+
+    - role: Student
+    - time: 2018 - 2019
+    - company: School
+    - details: 
+        In my school I had a time in which in computer science classes I learned the basics of HTML and how to create a structure for a simple web page.
+
+    - role: Student
+    - time: 2022 - 2023
+    - company: Udemy
+    - details:
+        I did several online courses through the Udemy platform. I did a photography course, Binance (cryptocurrencies) and digital Marketing.
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Javascript 
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: Github
+        level: 75%
