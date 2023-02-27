@@ -24,7 +24,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: http://sep.breatheco.de/static/profile-images/<your file name>
 
     # Contact Information
     email: nicosis@gmail.com #optional
