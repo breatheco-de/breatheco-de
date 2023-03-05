@@ -47,3 +47,11 @@ basic_info:
       - item: Read about leadership.
 
       - item: Web development, WEB 3.0 and AI.
+
+education:
+    - degree: Electric Engineering
+      university: National university of Colombia
+      # optional
+      university_logo: https://unal.edu.co/typo3conf/ext/unal_skin_default/Resources/Public/images/escudoUnal_black.png
+      time: 2011 - 2015
+      details: Contribute to national unity, as a center of intellectual and cultural life open to all currents of thought and to all social, ethnic, regional and local sectors.
