@@ -30,7 +30,7 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: #optional
+    email: julio.esver@gmail.com
     phone:  #optional
     website:  #optional
     linkedin: https://www.linkedin.com/in/julio-espinoza-163835162/ #optional
@@ -38,7 +38,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/Juliuuss
+    github: Juliuuss
     
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
