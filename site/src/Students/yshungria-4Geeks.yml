@@ -55,3 +55,10 @@ education:
       university_logo: https://unal.edu.co/typo3conf/ext/unal_skin_default/Resources/Public/images/escudoUnal_black.png
       time: 2011 - 2015
       details: Contribute to national unity, as a center of intellectual and cultural life open to all currents of thought and to all social, ethnic, regional and local sectors.
+
+    - degree: desarrolladora full-stack
+      academy: 4Geeks Academy
+    # optional
+      academy_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: mar-2022 - ago-2022
+      details: At the moment I´m learning conding in 4geeks Academy. It´s a wonderfull academy.
