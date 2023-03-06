@@ -1,0 +1,54 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Félix Antonio
+  last_name: Pacheco Lobos
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Llevo fascinado por la tecnología toda una vida desde que me regalaron un Atari 800XE a los 10 años, 
+  en el mismo manual incluido venian lineas de código que si lo tecleabas correctamente podias ver y oir
+  en tu televisor como caía una bomba (en 8 bits), ahora decidí que hora de convertir una pasión en una profesión.
+
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://www.canva.com/design/DAFcYV78TPY/2l2F8bg-1hzJNXwwCB0mjQ/view?utm_content=DAFcYV78TPY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+  # Contact Information
+  email: pachecolobos.felix@gmail.com #optional
+  phone: 569 63546825 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Thoraker
+
+  twitter: "thoraker2" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Peliculas
+
+    - item: Videojuegos
+
+    - item: Bonsai
+
+# Your previous education
+education:
+  - degree: Estudiante en desarrollo full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: ene-2023 - jul-2023
+    details: |
+      Estoy actualmente en el Bootcamp 4geeks Academy, en le cual redescubrí la sensacion de no estar tranquilo hasta
+      ver tu código corriendo como lo habias imaginado.
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Generador de excusas con nested array y 1% de probabilidad de que falle al crear una excusa.
+      Tecnologias: Html, Css, Javascript.
