@@ -6,7 +6,7 @@ basic_info:
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
-    Estoy en el Bootcamp 4geeks Academy, el cual me permitio convertirme en programador. En el aprendí tecnologias como JavaScript,
+    Estoy en el Bootcamp 4geeks Academy, el cual me permite convertirme en programador. En el aprendo tecnologias como JavaScript,
     React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
     el trabajo grupal con github.
 
@@ -44,7 +44,7 @@ education:
       Conocimientos: carpintería, electricidad, electrónica, robótica.
 
     education:
-  - degree: desarrolladora full-stack
+  - degree: desarrollador full-stack
     academy: 4Geeks Academy
     # optional
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
