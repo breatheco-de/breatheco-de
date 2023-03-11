@@ -23,7 +23,7 @@ basic_info:
 
      # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: 
+    avatar: https://avatars.githubusercontent.com/u/121583492?v=4
 
 
     # Contact Information
@@ -120,34 +120,55 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      This is the list of the projects I did while frequenting the Full Stack developer course at 4geeks Academy
+      This is the list of the projects I did while frequenting the Full Stack developer course at 4geeks Academy.
+      At the bottom are the websites I created using WordPress.
 
     assignments:
 
+      - title: Bootstrap & HTML5 forms
+        project_url: https://github.com/Carolina-hora/HTML_forms_Bootstrap
+        tagline: "Making and styling a form using HTML5 and Bootstrap"
+
       - title: Bootstrap & Instagram Project
         project_url: https://github.com/Carolina-hora/Bootstrap_Project
-        link: "#hook" #Don't know what to write here # optional
-        tagline: "Emulating Instagram, with two types of visualizations (3x3 grid and feed) wwith HTML5 and Bootstrap"
+        tagline: "Emulating Instagram, with two types of visualizations (3x3 grid and feed) with HTML5 and Bootstrap"
 
       - title: Instagram Post
         project_url: https://github.com/Carolina-hora/Instragram_Post
-        link: "#hook" #Don't know what to write here # optional
         tagline: "Emulating Instagram post with HTML5 and CSS, using mainly display: flex to position objects"
       
       - title: Excuse generator
         project_url: https://github.com/Carolina-hora/Excuse_generator_project
-        link: "#hook" #Don't know what to write here # optional
         tagline: "Excuse Generator project using Javascript"
 
       - title: Instagram Feed
         project_url: https://github.com/Carolina-hora/Insta-Project
-        link: "#hook" #Don't know what to write here # optional
         tagline: "Emulating Instagram feed with HTML5 and CSS"
 
       - title: Postcard
         project_url: https://github.com/Carolina-hora/Postcard-Project
-        link: "#hook" #Don't know what to write here # optional
         tagline: "A simple postcard with HTML5 and CSS"
+
+      - title: Website for EU Project
+        project_url: https://diamond-horizon.eu/
+        link: https://diamond-horizon.eu/
+        tagline: "Creation of a fully working WP website"    
+
+      - title: Website for my company
+        project_url: https://pixelvoltaic.com/
+        link: https://pixelvoltaic.com/
+        tagline: "Creation of a fully working WP website" 
+
+      - title: Website for an international conference
+        project_url: https://solar-power-tech.com/
+        link: https://solar-power-tech.com/
+        tagline: "Web designing and some web developing in collaboration with main developer" 
+        
+      - title: Website for a research group
+        project_url: https://www.biomark.isep.ipp.pt/pt/home/
+        link: https://www.biomark.isep.ipp.pt/pt/home/
+        tagline: "Creation of a fully working WP website during my stay at Biomark (left in 2017)" 
+
 
 skills:
     toolset:
@@ -165,6 +186,9 @@ skills:
 
       - name: HTML5 & CSS
         level: 70%
+
+      - name: WordPress
+        level: 95%
 
 
 
