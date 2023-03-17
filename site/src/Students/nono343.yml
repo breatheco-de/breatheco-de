@@ -1,0 +1,11 @@
+template: "online-cv"
+skin: "orange"
+
+tema: Puedes elegir un tema y colores de piel.
+basic_info: información personal.
+educacion: Estudios previos.
+Experiencias: Trabajos anteriores.
+proyectos: Describe los proyectos que has creado como desarrollador.
+publicaciones: Cualquier artículo que hayas publicado.
+Habilidades: Enumera tus habilidades con un porcentaje de experiencia.
+
