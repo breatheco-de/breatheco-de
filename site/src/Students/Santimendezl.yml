@@ -1,0 +1,89 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santi
+    last_name: Méndez
+    
+    # Define yourself in 4-5 words
+    motto: Apasionado de la tecnología
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: santimlacosta@gmail.com #optional
+    phone: 636 644 347 #optional
+    linkedin: santi-méndez-freelance #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Santimendezl
+    
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Nature
+
+      - item: Snowboarding
+
+      - item: Bike
+
+# Your previous education
+education:
+    - degree: Ingeniero Técnico Electrónico
+      university: UPC
+      # optional
+      university_logo: https://www.upc.edu/++theme++homeupc/assets/images/logomark.png
+      time: 1996 - 2000
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Developer
+      time: 2016 - Present
+      company: Mimook
+      # optional
+      company_logo: https://mimook.com/wp-content/uploads/logo-header.png
+      details: |
+        Diseño y desarrollo de Ecommerce con Wordpress/Woocommerce.
+        Personalización con PHP.
+          - Bullet point
+          - Bullet point
+    
+# Your project portfolio
