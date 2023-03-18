@@ -9,24 +9,18 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Levan
-    last_name: Mamuladze
+    first_name: 
+    last_name: 
     
     # Define yourself in 4-5 words
-    motto: catching all of my goals!
+    motto:
     
     # focus
-    focus: Learning and improving myself everyday!
+    focus: 
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      As a highly motivated and ambitious individual, 
-      I am deeply passionate about the field of technology. At only 20 years old, 
-      I have already made significant strides in my career by studying at both 4GeeksAcademy and the University of Macedonia to expand my knowledge and skills. 
-      My love for martial arts has instilled in me a strong sense of discipline and determination, which I carry with me in all aspects of my life.
-      I am driven to succeed in everything I do and always strive to be the best version of myself. With a strong work ethic and a thirst for knowledge,
-      I am confident that I have what it takes to make a valuable contribution to any organization.
-
+      
       Second paragraph if required.
     
     # Your profile picture URL
