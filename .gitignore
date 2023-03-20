@@ -1,0 +1,8 @@
+#ignore the git local files and the c9 project files
+.git
+.c9
+
+# ignore the repositories where webpack puts the bundles
+dist/
+public/
+node_modules/

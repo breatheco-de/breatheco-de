@@ -1,0 +1,13 @@
+# Command to start on workspace startup (optional)
+tasks:
+  - init: npm install;
+    command: npm run start;
+# Ports to expose on workspace startup (optional)
+ports:
+  - port: 3000
+    onOpen: open-preview
+    visibility: public
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode

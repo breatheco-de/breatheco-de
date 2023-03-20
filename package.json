@@ -1,0 +1,66 @@
+{
+  "name": "vanillajs-hello",
+  "version": "1.0.0",
+  "description": "Professional Boilerplate for Vanilla.js Web Apps",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --port 3000",
+    "build": "webpack --mode development --verbose --colors --display-error-details",
+    "deploy": "node deploy-to-github.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/vanillajs-hello.git"
+  },
+  "keywords": [
+    "Vanilla.js",
+    "Boilerplate",
+    "WebPack",
+    "Boilerplate",
+    "BreatheCode"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "Alejandro Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/vanillajs-hello/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/vanillajs-hello#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "bc-console": "0.0.2",
+    "bc-webpack-error-reporting-plugin": "0.0.2",
+    "clean-stack": "^3.0.1",
+    "css-loader": "^3.5.1",
+    "error-overlay-webpack-plugin": "^0.2.0",
+    "escape-string-regexp": "^1.0.5",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "file-loader": "^6.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "gh-pages": "^1.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "parse-github-url": "^1.0.2",
+    "prettier": "^1.19.1",
+    "prettier-webpack-plugin": "^1.1.0",
+    "remote-origin-url": "^1.0.0",
+    "stack-utils": "^2.0.3",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
