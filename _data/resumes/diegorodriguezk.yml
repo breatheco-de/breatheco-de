@@ -1,0 +1,113 @@
+template: "online-cv"
+skin: "orange"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name 
+
+    first_name: Diego
+    last_name: Rodriguez
+
+    # Define yourself in 4-5 words
+    motto: Full Stack Developer
+
+    # focus
+    focus: Becoming the best developer that I can be. 
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+   
+    avatar: 
+
+    # Contact Information
+    email: diegorodriguezkk@gmail.com #optional
+    phone: 786 622 4587 #optional
+    website:  #optional
+    linkedin: diegorodriguezk #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: diegorodriguezk
+    twitter: Diegorodk #optional
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Beginner 
+
+    # Interests or hobies 
+    interests:
+      - item: Reading
+
+      - item: Neuroscience
+
+      - item: MTB 
+
+      # Your previous education
+    education: High School
+    degree: High School 
+      #university: 
+      # optional
+      #university_logo: 
+     # time: 
+     # details: |
+        
+
+       #   - Bullet point
+       #   - Bullet point
+
+# Your previous job experiences or voluntier
+
+    role: Business manager
+    time: 2018 - Current
+    company: Harps Club
+    # optional
+    #company_logo: 
+    details: 
+        - Market research
+        - Product development
+        - Set up of marketplaces such as ebay, amazon, shopify and walmart
+
+        # Your project portfolio
+#projects:
+    #intro: >
+      #You can list your side projects or open source libraries in this
+      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+

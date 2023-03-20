@@ -1,0 +1,148 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alvaro
+    last_name: Garzon
+    
+    # Define yourself in 4-5 words
+    motto: Enthusiast of whatever
+    
+    # focus
+    focus: Family, foodies & codecodecodecodecodecode
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Tourism diploma in 2003, Erasmus student in Lüneburg (north-Germany). 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars2.githubusercontent.com/u/73470664?s=460&u=e3e8302070d5baaa27a97b031d57d49c45bae80f&v=4
+
+    # Contact Information
+    email: alvaro.develops@gmail.com #optional
+    phone: nophoneadded #optional
+    website: nowebadded #optional
+    linkedin: https://www.linkedin.com/in/alvaro-garz%C3%B3n-delgado-591009a9/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Alvarodevs
+    
+    twitter: '@MrSalicornio' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Mid-high
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Cooking
+
+      - item: Beach sports
+
+# Your previous education
+education:
+    - degree: Tourism Diploma
+      university: University of Cadiz
+      # optional
+      university_logo: https://gabcomunicacion.uca.es/wp-content/uploads/2017/05/Logo-V2-Color-Impresi%C3%B3n-210x279-mm-jpg.jpg
+      time: 2002 - 2006
+      details: |
+        Tourism diploma including economics, sociology, history, history of arts, 
+        geography, english, german, many different languages
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Wine tourism
+      time: 2015 - Present
+      company: Osborne winery group, El puerto de santa maria.
+      # optional
+      company_logo: https://i.pinimg.com/originals/50/37/f6/5037f66ab847410c6d817b83facfd098.png
+      details: |
+        Tour guide, events programmer, winery shop.
+          
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%

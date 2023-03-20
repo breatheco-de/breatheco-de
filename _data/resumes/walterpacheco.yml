@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Walter E.
+    last_name: Pacheco Ch.
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world,learn programming and ride my bike
+    
+    # focus
+    focus: help peoples
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      developer / Fullstack Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.google.com/photo/AF1QipPkoCA1T-uUPv0qBmBZIfwcY4icl8zQWM4OPnU-
+
+    # Contact Information
+    email: walter.pachecoch@gmail.com #optional
+    phone: +56 9 30389797 #optional
+    linkedin: walter-pacheco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: walterpacheco
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+      - item: bike 
+
+# Your previous education
+education:
+    - degree: Programmer analyst
+      university: Santo Tomas
+      # optional
+      university_logo: https://www.santotomas.cl/wp-content/themes/institucional/images/logos/logo-st.svg
+      time: 2017 - 2018
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Desarrollador Full stack
+      time: 2020 -Enero 2020 - Marzo
+      company: Sodimac
+      # optional
+      company_logo: https://images.contentstack.io/v3/assets/blta0a3b70f2f9b36ba/blt353a6f3bf8e86c8a/5ee0ff26b522543a8d5266f0/logo-header-normal.png?auto=webp&disable=upscale&quality=70&width=1280
+      details: |
+        Parte del equipo de desarrollo a cargo del desarrollo Front end del sitio web de Sodimac.cl, Homy.cl y app. Revisión de mejoras para el sitio web,una de estas era mejorar el rendimiento del sitio web de Sodimac. Por lo que trabaje en la medición del tiempo de carga, ver posibles soluciones y cómo llevarlas a la práctica, coordinando soluciones con uno o más equipos. También, revisión de problemas relacionados al front end del sitio, detectando errores, ofreciendo soluciones y coordinando estas con las personas correspondientes.  
+        Toma de decisiones para el desarrollo y mejoras visuales. 
+        Conexión front end con base de datos, consumo de Api’s.
+        Apoyar la toma de decisiones técnicas para proyectos futuros y actuales
+        Desarrollo de proyectos para el área de Venta a Distancia.
+
+    - role: DESARROLLADOR
+      time: 2019-Enero
+      company: Everis
+      # optional
+      company_logo: https://www.everis.com/sites/all/themes/everis/logo.png
+      details:
+        Parte del equipo de desarrollo a cargo de LATAM Canales para el desarrollo de Allegro. A cargo de realizar Soporte para la base de datos de producción LATAM y solución de buck tracker Solucionando los errores e insertando datos.
+        También formé  parte de Opera Hemiciclo. También orientado a los ejecutivos de CCO, esta es un sitio web con información relacionada a la operación, permite el ingreso de información relevante, o incluso realizar llamadas
+
+
+    - role: TEAM LEADER
+      time: Agosto 2013 | Agosto 2016
+      company: Jazzplat
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details:
+
+        Parte del equipo de supervisores a cargo de un grupo de personas estable de 15 personas, los cuales deben otorgar una atención de calidad y una solución efectiva a los clientes españoles del servicio telefónico y de adsl de Jazzplat España.
+        En este sentido, dentro de las funciones estables que tiene un Tl está la capacitación constante de sus ejecutivos así también el crear reportes relacionados con la gestión y efectividad de su equipo
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level:
+
+      - name: React
+        level:   
+
+      - name: Javascript & jQuery
+        level: 
+
+      - name: Angular
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
+
+      - name: Ruby on Rails
+        level: 
+

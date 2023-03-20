@@ -1,0 +1,190 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Albany
+    last_name: Padron
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Learning a lot 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: padronalbany@gmail.com #optional
+    phone: +58 412 3812426 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AnanyAbellop
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Reading 
+
+      - item: Fitness
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Electrical Engineering 
+      university: Metrpolitan University
+      # optional
+      university_logo: data:image/png;base64,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  
+      time: 2015 - 2020
+      details: |
+        Waiting for the diploma. With a thesis based on the construction of a wearable electronic device that measures 
+        Biofeedback signals with Arduino and NodeJs.
+         -Scholarship holder for Academic Excellence at Universidad Metropolitana de Caracas 
+          under the specialty Electrical Engineering.
+        -Academic advisor of the School of Electrical Engineering during the period 1819
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%

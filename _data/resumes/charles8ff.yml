@@ -1,0 +1,102 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Carlos
+    last_name: Fisac Ferrández
+    motto:  Caff & Code
+    avatar: https://avatars3.githubusercontent.com/u/54982406?s=460&u=06f655ce5be3ee6b1b6db6c396c449196fca2404&v=4
+    summary: |
+      Currently full-time bootcamp at @4GeeksAcademyES
+       • He/Him • Amateur coder, 
+      hardware enthusiastic, videogame enjoyer 
+      and caffeine-blooded • Both ENG/ESP •
+
+    email: charles8ff@gmail.com 
+    phone: +34 622 497 567
+    website: 
+    linkedin: www.linkedin.com/in/carlos-fisac-ferrandez 
+    github: charles8ff
+    twitter: charles8ff
+
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Medium
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Coffee
+
+      - item: Hardware
+
+education:
+    - degree: Computer Engineering & Society Of Information Tecnologies.
+      university: ETSISI-UPM
+      university_logo: https://www.etsisi.upm.es/futuros_alumnos/ffff/las_imgs/LogoEtsisi.png
+      time: 2017-2019
+      details: 
+
+    - degree: Computer Science
+      university: Universidad Antonio de Nebrija
+      university_logo: https://www.nebrija.com/images/logos/logotipo-universidad-nebrija.jpg
+      time: 2019-2020
+      details: 
+        
+experiences:
+    - role: Student
+      time: 2021 - Present
+      company: 4Geeks Academy 
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the turbo-intensive bootcamp.
+ 
+    - role: Teacher Assistant 
+      time: 4 months
+      company: IDRA Socioeducativo 
+      company_logo: https://acciontrabajo.es/logos/101001001/24787
+      details: |
+        With 11 to 14 years old students, as an assistant teacher with Spanish, English and Maths.
+
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+    assignments:
+      - title: Instagram Post
+        link: https://github.com/charles8ff/instagram-post-html-and-css
+        tagline: "Fully responsive Instagram-look-a-like feed using HTML and CSS exclusively."
+
+      - title: Form Bootstrap
+        link: https://github.com/charles8ff/form-bootstrap.git
+        tagline: "Very styled form in HTML and Bootstrap"
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 60%
+
+      - name: CSS
+        level: 30%
+
+      - name: Bootstrap
+        level: 20%
+
+      - name: C++
+        level: 50%
+
+      - name: Sleeping correctly
+        level: 0%
