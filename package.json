@@ -33,6 +33,7 @@
   "dependencies": {
     "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.1.1",
+    "fs": "^0.0.1-security",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {

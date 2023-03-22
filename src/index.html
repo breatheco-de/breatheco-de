@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
   <link rel="shortcut icon" href="./4geeks.ico" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
 </head>
 
 <body>
@@ -283,7 +285,7 @@
               </path>
             </svg>
           </a>
-          <a target="_blank" href=`linkedin.com`class="btn btn-light ms-2 bd-highlight">
+          <a target="_blank" href='linkedin.com' class="btn btn-light ms-2 bd-highlight">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
               class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512">
@@ -328,27 +330,54 @@
 
   </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
 <script>
   window.onload = () => {
-    const ymlDir = "./_data/resumes"; // replace with the path to your YAML files folder
-    const data = [];
 
-    fetch(ymlDir)
-      .then(response => response.text())
-      .then(fileList => {
-        const files = fileList.split("\n").filter(file => file.endsWith(".yml"));
+
+    const ymlDir = '../_data/resumes';
+
+    const jsonFile = 'output.json';
+
+    let data = [];
+
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', ymlDir);
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        const files = xhr.response;
         console.log(files, "files")
-        const promises = files.map(file => fetch(file).then(response => response.text()));
-        Promise.all(promises).then(yamlDataArray => {
-          yamlDataArray.forEach(yamlData => {
-            const resumeData = yaml.load(yamlData);
-            data.push(resumeData);
-          });
-          console.log(data, "data"); // array of YAML data objects
+
+        files.forEach(file => {
+          if (file.endsWith('.yml') || file.endsWith('.yaml')) {
+            const xhr2 = new XMLHttpRequest();
+            xhr2.open('GET', ymlDir + '/' + file);
+            xhr2.onreadystatechange = () => {
+              if (xhr2.readyState === 4 && xhr2.status === 200) {
+                const ymlData = xhr2.response;
+                const parsedData = jsyaml.safeLoad(ymlData);
+                data.push(parsedData);
+              }
+            };
+            xhr2.send();
+          }
         });
-      })
-      .catch(error => console.error(`Failed to get file list: ${error}`));
+
+        const jsonData = JSON.stringify(data);
+        const blob = new Blob([jsonData], {
+          type: 'application/json'
+        });
+        const url = URL.createObjectURL(blob);
+
+        const link = document.createElement('a');
+        link.download = jsonFile;
+        link.href = url;
+        link.click();
+      }
+    };
+    xhr.responseType = 'json';
+    xhr.send();
+
 
   }
   let instructionClose = document.querySelector("#close-instructions");
