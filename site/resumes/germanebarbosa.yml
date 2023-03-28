@@ -61,42 +61,26 @@ education:
     - degree: Full Stack Developer 
       university: 4Geeks Academy
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
       time: 2023 - 2023
 
     - degree: Bussiness Management 
       university: Pontificia Universidad Javeriana
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
       time: 2017 - 2021
 # Your previous job experiences or voluntier
 experiences:
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# Your project portfolio
-projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: Planing New Bussinnesses Analyst
+      time: 2021 - 2021
+      company: Productos Ramo, Bogota
 
+    - role: General Manager Assistant
+      time: 2021 - 2022
+      company: Intercomercail Andina SAS, Bogota
+      
+# Your project portfolio
+#
 skills:
     toolset:
       - name: Javascript
