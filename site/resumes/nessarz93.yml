@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Vanessa
+    last_name: Ramirez
+    
+    # Define yourself in 4-5 words
+    motto: Artist and gamer
+    
+    # focus
+    focus: Learning new things
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Architect with 5 years of expereance, actually studing as a Full Stack developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: arq.vanessaramirezz@hotmail.com #optional
+    phone: 3329 56 07 55 #optional
+    website: asd.com #optional
+    linkedin: vanessa-ramirez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nessarz93
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Dungeons & Dragons
+
+      - item: Arts and Crafts
+
+      - item: Reading
+
+# Your previous education
+education:
+   
+
+    - degree: BSc in Architecture
+      university: Universidad Autonoma de Sinaloa
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/b/b2/UAS_logo.png
+      time: 2011 - 2016
+      details: |
+        Studies of desing and construction as an architect, meaning a more artistic point of view of a building. 
+        knowlegde of the process of an a architectural project.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Architect
+      time: 2023 - Present
+      company: Moteon Arquitectos Asociados
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+   
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 15%
+
+      - name: AutoCAD & Sketch Up
+        level: 90%
+
+      - name: Photoshop, Illustrator & Clip Studio Paint
+        level: 70%
