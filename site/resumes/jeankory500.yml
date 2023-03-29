@@ -1,0 +1,109 @@
+---
+template: online-cv
+skin: berry
+basic_info:
+  first_name: Jeankory
+  last_name: Valdes
+  summary: >
+    Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It
+    was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software
+    like Aldus PageMaker including versions of Lorem Ipsum.
+  email: Jeankory123@gmail.com
+  phone: 786 393 8155
+  github: jeankory500
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Native
+  interests:
+    - item: Djing
+    - item: Beaches
+    - item: Learning
+education:
+  - degree: GED
+    university: Miami Dade Virtual School
+    time: 2017 - 2018
+    details: ""
+experiences:
+  - role: SALES & CUSTOMER SUPPORT
+    time: 11/2020 - Current
+    company: Whirlpool
+    details: >
+      - Managing a network of vendors and suppliers.
+
+      -	Keeping up to date with advancements in marketing. 
+
+      -	Handling high call volumes day to day
+
+      -	Navigate multiple computer programs throughout the workday
+
+      -	Collect customer feedback and provide sales/marketing channel insight and recommendations
+  - role: Territory Manager
+    time: 06/2018 - 02/2020
+    company: Fritz and Franz Bierhaus
+    details: >
+      - Drive sales productivity through high quality, end-to-end direct
+      sales
+
+      - Schedule and participate in direct sales events and corporate demos
+
+      - Create consumer awareness and product brand preference community/corporate events while distribution marketing material
+
+      - Build and maintain industry vertical affiliate distribution relationships
+
+      - Educate customers and department heads while making product recommendations
+projects:
+  intro: |
+    More to come soon ...
+  assignments: >
+    More to come soon ...
+
+    #- title: Game Finder
+      # link: "#hook"
+      #tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+
+    #   link: "#"
+
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+
+    # - title: Tempo
+
+    #   link: "#"
+
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+
+    # - title: Atom
+
+    #   link: "#"
+
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+
+    # - title: Delta
+
+    #   link: "#"
+
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+    - name: React.js
+      level: 95%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Python
+      level: 75%
+    - name: FlaskSQL
+      level: 75%
