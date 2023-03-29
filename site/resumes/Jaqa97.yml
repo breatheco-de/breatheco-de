@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joaquin
+    last_name: Quinones
+    
+    # Define yourself in 4-5 words
+    motto: 1% better every day
+    
+    # focus
+    focus: Product development and management
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Working as a Business Analyst for a mayor retail company and currently studying a Full Stack Developer BootCamp
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: joaquinonesa@gmail.com #optional
+    phone: 56 9 5740 4481 #optional
+    website:  #optional
+    linkedin: /jquinonesa #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jaqa97
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: novice
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+
+      - item: reading
+
+      - item: movies
+      
+      - item: technology (computers & coding)
+
+      - item: Music
+
+      - item: Boxing
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Innovation & Business Analyst
+      time: 1 year
+      company: Entel
+      details: |
+        App & Web Innovation Business Analyst
+
+    - role: Business Analyst/ Product Owner
+      time: 2023 - present
+      company: Cencosud S.A.
+      details: |
+        Responsible for App development and management
+
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects as I continue to learn how to code.
+
+    assignments:
+      - title: StarWars blog reading list
+        link: "https://github.com/Jaqa97/starwars-blog-reading-list"
+        tagline: "A simple blog with a reading list"
+
+      - title: Instagram data Modelling
+        link: "https://github.com/Jaqa97/instagram-data-modelling"
+        tagline: "A representation of Instagram Data Modelling"
+      
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+    
+      - name: JavaScript
+        level:  95%
+
+      - name: Python
+        level: 70%
+        
