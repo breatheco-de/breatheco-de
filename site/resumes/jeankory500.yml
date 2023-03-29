@@ -1,9 +1,8 @@
-template: online-cv
-skin: berry
-basic_info: null
-first_name: Jeankory
-last_name: Valdes
-summary: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-phone: 786 393 8155
-github: jeankory500
-stack-overflow: null
+template:online-cv
+skin:berry
+basic_info:null
+first_name:Jeankory
+last_name:Valdes
+summary:Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+phone:786 393 8155
+github:jeankory500
