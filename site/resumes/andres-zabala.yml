@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrés
+    last_name: Zabala
+    
+    # Define yourself in 4-5 words
+    motto: active, learning, constancy, dedication
+    
+    # focus
+    focus: learn, improve
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I studied in Universidad Santa María, years before i worked in a advertising company
+      and learned alot of things.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: null
+
+    # Contact Information
+    linkedin: https://www.linkedin.com/in/andres-zabala-a3a53717b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: 'andlicon'
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Working out
+
+      - item: Programming
+
+# Your previous education
+education:
+    - degree: Ing. de sistemas
+      university: Universidad Santa María
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AUniversidad_Santa_Mar%25C3%25ADa_logo.gif&psig=AOvVaw1fvnyQkdJM0ZYJao4SOZ3N&ust=1680287461785000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOCc09ukhP4CFQAAAAAdAAAAABAE
+      time: 2018 - 2023
+      details: null
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Generation Finder
+      time: Oct. 2021 - feb. 2022
+      
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Java
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: PHP
+        level: 50%
