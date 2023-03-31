@@ -1,0 +1,78 @@
+template: online-cv
+skin: blue
+
+basic_info:
+  first_name: Stalin
+  last_name: Narvaez
+
+  motto: National Police with over 11 years of experience in the control of public
+    order and public safety, within my profession I have learned to work in a
+    team and under pressure, which has made me a disciplined, perseverant and
+    self-taught professional, who loves to enjoy the challenges. I seek to grow
+    professionally in the area of software development, contributing with my
+    skills in HTML, CSS, Boostrap, with the goal of achieving final designs that
+    meet the needs and preferences of customers.
+
+  summary: Member of the National Police of Ecuador, where I have more than 11
+    years of experience in the area of public order control, citizen security,
+    investigation, information analysis and citizen service. Throughout my
+    career I have obtained public and private congratulations from my superiors
+    in response to my dedication, perseverance, responsibility and teamwork in
+    the assigned tasks.
+
+  avatar: https://1drv.ms/i/s!AigHONoBfmBYnSCsun5lpT4NuP3u?e=TPcfY7
+  email: stalingsm@hotmail.com
+  phone: +593 98 498 5730
+  website: asd.com
+  linkedin: linkedin.com/in/stalin-narváez-633bb925a
+  github: StalinNarvaez
+ 
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: Englis
+      level: Basic
+  
+  interests:
+    - item: Endurance sports
+    - item: Calisthenics
+    - item: Cooking
+    - item: video and photography editing
+
+education:
+  - degree: Advanced Mobile Service Analyst Specialization
+    university: Higher Technological Institute of the National Police
+    time: 2022
+  - degree: Police intelligence and strategic planning
+    university: CEAD International
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2021
+
+experiences:
+  - role: Analysis of telephone information for investigative processes
+    time: 2017 - Present
+    company: Police, Ecuador
+
+projects:
+  intro: |
+    You can list your side projects or open source libraries in this section. 
+  assignments:
+    - title: Instagram Feed Bootstrap
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: Post Instagram
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Payment form
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+skills:
+      toolset:
+        - name: HTML5 & CSS
+          level: 60%
