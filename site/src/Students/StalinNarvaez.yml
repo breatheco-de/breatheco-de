@@ -72,6 +72,7 @@ projects:
       link: "#"
       tagline: A responsive website template designed to help startups promote their
         products or services and to attract users &amp; investors
+        
 skills:
       toolset:
         - name: HTML5 & CSS
