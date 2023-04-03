@@ -1,0 +1,101 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Juan Alfonso
+    last_name: Ramos Silva
+    
+   
+    motto: Full Stack Developer
+    
+    
+
+    
+    
+   
+    summary: |
+      Después de varios años trabajando en el sector Retail decidí reinventarme profesionalmente y apuntarme a un Bootcamp en modalidad Fulltime de Desarrollador Web Full-Stak en 4Geeks Academy España ya que la programación siempre ha sido un campo que me ha llamado la atención y en donde siempre he querido trabajar.
+
+      En cuanto a mi vida laboral, puedo decir que gracias a mi carrera profesional en El Corte Inglés he adquirido en los últimos años conocimientos en la gestión de pedidos, stock y SAP Retail a nivel de tienda. 
+
+      Actualmente me encuentro estudiando HTML, CSS, Bootstrap y Javascript.
+      
+    
+ 
+    avatar: https://avatars.githubusercontent.com/u/127767142?v=4
+
+ 
+    email: jars4u2@gmail.com
+    phone: +584149630979
+    linkedin: 
+    
+  
+  
+    github: jars4u
+    
+   
+    languages:
+      - idiom: Inglés
+        level: Medio-Alto
+
+      - idiom: Español
+        level: Nativo
+
+ 
+    interests:
+      - item: Tecnología
+
+      - item: Fotografía callejera
+
+      - item: Música
+
+
+education:
+    - degree: Grado en Químicas
+      university: Universidad Complutense de Madrid
+      time: 2011 - 2017
+      
+experiences:
+    - role: Vendedor
+      time: 2016 - 2020
+      company: El Corte Inglés
+      details: |
+        Ventas, gestión de pedidos, stock y SAP Retail. 
+    - role: Mozo de Almacen
+      time: 2015 - 2019
+      company: Vocento
+      details: |
+        Realizado funciones de soporte y coordinación logística en eventos.
+          
+assignments:
+- title: Instagram Post
+  link: "https://github.com/alexcastillla/SecurityCompany-LoginAccessTemplate-Bootstrap"
+  tagline: "Realizado login template usando Bootstrap, CSS y HTML."
+
+- title: Proyecto colaborativo de diseño de pagina web
+  link: "https://github.com/alexcastillla/execise-collaborativehtml"
+  tagline: "Primer proyecto colaborativo usando Github y Gitpod. Para realizar el template se han utilizado CSS, HTML y Bootstrap"
+
+- title: Instagram Feed - Bootstrap
+  link: "https://github.com/alexcastillla/BoostrapInstaFeed"
+  tagline: "Website template realizado usando Bootstrap"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
