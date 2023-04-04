@@ -5,14 +5,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Fabricio
+    last_name: Bermudez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like lo make new frined and learn new programs
     
     # focus
-    focus: Killing Bad Boys
+    focus: Enjoy the Process
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -28,15 +28,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: Fabribega@outlook.com #optional
+    phone: 83117074 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: Fabricio Bermúdez #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: Fabribega
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -158,18 +158,6 @@ projects:
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 skills:
     toolset:
       - name: Python & Django
@@ -186,6 +174,3 @@ skills:
 
       - name: Ruby on Rails
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
