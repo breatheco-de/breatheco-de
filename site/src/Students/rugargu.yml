@@ -1,0 +1,123 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ruben
+    last_name: Garcia
+    
+    # Define yourself in 4-5 words
+    motto: Persona curiosa y apasionada
+    
+    # focus
+    focus: Desarrollar mis habilidades
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me apasiona aprender cada día algo nuevo y ver mis progresos, poniendo foco total en ello. Además, intento fomentar el buen ambiente entre compañeros ya que se me ha demostrado que, cuando un equipo rinde, es cuando tienen mejores relaciones entre ellos. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/profile.jpg
+
+    # Contact Information
+    email: rubengarciagut@gmail.com #optional
+    phone: 638151368 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/rubengarciagutierrez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: rugargu
+    
+    twitter: 'Aeneras' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+        - idiom: Catalan
+        level: Native
+
+      - idiom: English
+        level: Good
+
+      - idiom: Italian
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Boardgame
+
+      - item: Bycicle
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Front End Developer Bootcamp
+      university: Ironhack
+      # optional
+      university_logo: https://media.licdn.com/dms/image/C4D0BAQG2NHDv2YWLyA/company-logo_200_200/0/1669206756299?e=2147483647&v=beta&t=KrLR5CeM6FnVPUYU5M_9kSrhWas74sDwnIDVVzwm3oE
+      time: January 2023 - February 2023
+      details: |
+       Curso realizado en Ironhack Barcelona centrado en el desarrollo Front End, en el que me formé como desarrollador web, empezando por lo más básico(HTML y CSS), para después pasar a Javascript y uno de sus frameworks más conocidos, Vue.
+    - degree: Fonaments de la programacó en Javascript
+      university: IT academy Barcelona
+      # optional
+      university_logo: data:image/png;base64,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
+      time: November 2022 - December 2022
+      details: |
+        Curso especializado en Javascript, en el que empezamos desde lo más básico como declarar una variable y acabamos en conceptos más avanzados como la manipulación del DOM
+# Your previous job experiences or voluntier
+experiences:
+    - role: Director Comercial
+      time: July 2022 - November 2022
+      company: Adecco
+      # optional
+      company_logo: 
+      details: |
+       Como director comercial en Adecco Barcelona me encargaba de la prospección de la zona en búsqueda de potenciales clientes, concertación de visitas y cierre de venta de servicios
+    - role: Auxiliar Administrativo
+      time: Juny 2020 - Juny 2022
+      company: ICS
+      
+      details: |
+       Desarrollándome inicialmente como gestor covid, más adelanrte me encargué de otras tareas, nunca saliendo de la parte administrativa y siempre con el mismo objetivo: Conseguir que el paciente tuviera la mejor experiencia posible
+    -
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Todo app
+        # optional
+       
+        link: "https://github.com/rubengargu/final-project"
+        tagline: A todo app make with React"
+
+      - title: Circle Landing Page
+       
+        link: "https://github.com/rubengargu/midterm-ironhack"
+        tagline: "A landing page with HTML, CSS and JS responsive"
+
+    
+
+skills:
+    toolset:
+     
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+      
+      - name: Bootstrap
+        level: 60%
