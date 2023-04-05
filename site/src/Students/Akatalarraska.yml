@@ -1,0 +1,30 @@
+---
+basic_info: Your full name
+first_name: Robert
+last_name: Martinez
+summary: Acabo de empezar el Bootcamp 4Geeks Academy, aprendiendo los
+  conocimientos básicos por ahora. Esperando a utilizar todas las tecnólogias
+  como JavaScript,  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask...
+avatar: https://media.gettyimages.com/id/813949232/es/foto/perro-de-raza-weimaraner-negro.jpg?s=612x612&w=gi&k=20&c=8hF2cFY2C8nTMGnmYA_Hpq5YMLoKWdI0hJ1RmRNZIpA=
+email: akatalarraskas@gmail.com
+phone: 0034 625713588
+github: akatalarraska
+twitter: akatalarraska
+interests:
+  - item: Dogs
+  - item: Investing
+  - item: Beer
+education:
+  - degree: Administración y dirección de empresas // Contabilidad Avanzada
+    academy: UPF
+    university_logo: https://www.upf.edu/documents/7283915/7376028/marca.png/906677bd-c708-255e-92a3-99524273d872?t=1484925837278
+    time: mar-2012 - ago-2014
+    details: >
+      Estuve en la universidad cursando las diferentes asignaturas del grado
+      tras haber realizado dos CFGS sobre administración y finanzas y ampliar
+      conocimientos.
+experiences: null
+company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHM5-KtT0s5Lq00woSFcPAgZZX58eBT1Ql3yWsKHHS&s
+details: Controler financiero departamento eventos e incentivos
+To-Do List: Facturación nacional e internacional y revisión de beneficios por ci
+Tecnologias: Wintour, Sigrid, Office
