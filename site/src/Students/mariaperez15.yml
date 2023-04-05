@@ -1,0 +1,36 @@
+---
+basic_info:
+  first_name: María
+  last_name: Pérez Pascual
+  summary: He cursado el Bootcamp 4geeks Academy, el cual me ha permitido adquirir
+    conocimientos en JavaScript,React, Bootstrap, Flux , Python, Sql,
+    SqlAlchemy, Flask, Jwt, Jest.
+  avatar: https://imgs.search.brave.com/HOlhO4vFvHzqiubG3OVxdfJ3I_fCtgCQTCdIhGCa_68/rs:fit:336:450:1/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vaW1hZ2Vu/ZXNwYXJhcGVxdWVz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNC8xMS9CZWxs/ZS1CZWF1dHktYW5k/LVRoZS1iZWFzdC5w/bmc_Zml0PTMzNiUy/QzQ1MCZzc2w9MQ
+  email: mariaperez@gmail.com
+  phone: 622156543
+  github: mariaperez15
+  twitter: mariaperez15
+  interests:
+    - item: Idiomas
+    - item: Tecnología
+    - item: Viajar
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    university_logo: https://imgs.search.brave.com/obl5bPrEpbTZWAsk11PD4oBtezRiFhgKFW3xFVHwTTA/rs:fit:768:576:1/g:ce/aHR0cHM6Ly9jZG4u/c2xpZGVzaGFyZWNk/bi5jb20vc3NfdGh1/bWJuYWlscy9wcmVz/ZW50YXRpb24tMTIw/NTI3MDc1ODM5LXBo/cGFwcDAyLXRodW1i/bmFpbC00LmpwZz9j/Yj0xMzM4MTY3NDU5
+    time: mar-2023 - ago-2023
+    details: >
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los
+      conocimientos
+
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest
+experiences:
+  company_logo: https://imgs.search.brave.com/AMqjAajG245BK3H2Yog6dLCLfO2iRV_QcsnMvEb0TVk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/ZG9tZXN0aWthLm9y/Zy9jX2ZpbGwsZHBy/XzEuMCxmX2F1dG8s/aF8xMjAwLHBnXzEs/dF9iYXNlX3BhcmFt/cyx3XzEyMDAvdjE1/Nzc5ODg5ODMvcHJv/amVjdC1jb3ZlcnMv/MDAwLzU5My8yNTkv/NTkzMjU5LW9yaWdp/bmFsLmpwZz8xNTc3/OTg4OTgz
+  details: null
+  Geeks: desarrollo de videojuegos.
+  Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+  Marketing shop: Agencia donde se imparten conocimientos de marketing e
+    informaticos para posteriormente poner en práctica en tu jornada laboral.
+  Line: colaboración en un proyecto para el desarrollo de una aplicación móvil.
