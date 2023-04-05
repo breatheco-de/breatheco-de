@@ -1,0 +1,86 @@
+
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info: 
+
+    # Your full name
+    first_name: Marco
+    last_name: Cortavitarte
+    
+    # Define yourself in 4-5 words
+    motto: Dicipline beats motivation everytime..
+  
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Learning programing since 2020, finally stopped making excuses and took the time to enroll in 4Geeks Academy, 
+      to begin my journey to becomming a developer. It has been a few times when I thought it was too hard but I kept gping.
+      I have some previous knowledge in JavaScript, Devops and SQL.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQGtgZCh7HTwtQ/profile-displayphoto-shrink_800_800/0/1676630602347?e=2147483647&v=beta&t=btco8u-y36xkGyuD9RpDsL42qXhxYV1nUN8PNKPD1Wg
+
+
+    # Contact Information
+    email: marko12cm@gmail.com 
+    phone: 673 569793 
+    linkedin: https://www.linkedin.com/in/marco-cortavitarte/ 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/markoacm
+    
+   
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Working out
+
+      - item: Comics
+
+
+
+# Your previous education
+education:
+    - degree: Industrial Engineering
+      university: FIU 
+      
+      time: 2003 - 2007
+      
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Office Manager
+      time: 2015 - 2020
+      company: CoromotoAD Architecture & Design, China
+   
+      details: |
+        Ran day to day office operations such as,
+        payroll, accounting, invoicing, project presentations, project management,
+        budget managing, elaboration of contracts, supplier and pricing negotiations.
+
+    - role: Logistics Opertions Coordinator
+      time: 2011-2015
+      company: Ariss Medical, USA
+      
+      details: |
+        Coordinating along with Operations manager and Warehouse staff tasks and duties such as,
+        supply chain management, stock and inventory managememnt, purchasing and supplier pricing,
+        elaborating import/export documentation, staff managememnt
+
+   
+
+
