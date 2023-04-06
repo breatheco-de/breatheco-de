@@ -100,3 +100,25 @@ experiences:
       time: 2003 - 2004
       company: Hotel Sol Pinet Playa
 
+# Your project portfolio
+projects:
+    intro: >
+      I have not worked in any project yet. As soon as I make any it will be updated here!
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
