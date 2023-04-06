@@ -1,0 +1,102 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Manuel
+    last_name: Real Morillo
+    
+    # Define yourself in 4-5 words
+    motto: I am an infinite learner
+    
+    # focus
+    focus: Learning to code
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: After almost 20 years working in the Hospitality Industry I decided to start a new path and learn to code. So here I am, on my way to become a Full Stack Developer in 4Geeks Academy.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  
+
+    # Contact Information
+    email: jrealmorillo@hotmail.com
+    phone: 626315898
+    linkedin: www.linkedin.com/in/jose-real-morillo
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Jrealmorillo
+    
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Conversation
+
+      - idiom: Portuguese
+        level: Conversation
+
+      - idiom: Italian
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Cooking
+
+      - item: Travelling
+
+      - item: Videogames
+
+# Your previous education
+education:
+  - degree: Full Stack Developer
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: mar-2023 - jul-2023
+    details: |
+      I stam currently studying 4geeks Academy's Full Stack Developer Bootcamp, where I am learning technologies like JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt & Jest.
+      
+  - degree: Degree in Tourism
+    university: University of Seville
+      # optional
+    time: 1999 - 2002
+    details: 
+        
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Receptionist, Reservations & Front Office Manager
+      time: 2013 - 2022
+      company: Hotel Sevilla Center
+
+    - role: Front Office Manager
+      time: 2010 - 2012
+      company: Hotel Senator Barcelona
+
+    - role: Receptionist & Front Office Manager Assistant
+      time: 2006 - 2010
+      company: Hotel Senator Gran Vía
+
+    - role: Receptionist
+      time: 2005 - 2006
+      company: Novotel Manchester Centre
+
+    - role: Night Manager
+      time: 2003 - 2004
+      company: Hotel Sol Pinet Playa
+
