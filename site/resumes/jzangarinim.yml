@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: José
+  last_name: Zangarini
+
+  # Define yourself in 4-5 words
+  motto: I like practical solutions
+
+  # focus
+  focus: Developing new skills
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Chemical Engineer with an interest in the world of coding, with previous experience coding macros in Excel's Visual Basic for Applications.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://i.imgur.com/j8qhRf5_d.webp?maxwidth=760&fidelity=grand
+
+  # Contact Information
+  email: jzangarinim@gmail.com #optional
+  phone: +58 424 688 3876 #optional
+  website: github.com/jzangarinim #optional
+  linkedin: https://www.linkedin.com/in/jose-zangarini/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: jzangarinim
+
+  twitter: "" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+  # Interests or hobies
+  interests:
+    - item: Gaming
+
+    - item: Working out
+
+# Your previous education
+education:
+  - degree: Bachelor's Degree in Chemical Engineering
+    university: Rafael Urdaneta University
+    # optional
+    university_logo: https://www.uru.edu/static/media/icon.d135d709.png
+    time: 2013 - 2018
+    details: |
+# Your previous job experiences or voluntier
+experiences:
+  - role: Motor Carrier Compliance & Administration
+    time: 2021 - Present
+    company: The Lucky Charles Corporation
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      - Weekly invoicing for different trucking companies across the US.
+      - Updating of weekly loads hauled by each individual truck driver.
+      - Ensuring proper and quick completion of contracts with different broker companies.
+      - Contact with brokers via email & phone calls.
+  - role: Project Leader - Research Assistant I
+    time: 2019 - 2020
+    company: Investigación y Desarrollo, C.A. (INDESCA)
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      - Chemical process simulation & mathematical system modelling.
+      - Programming of macros in Excel's Visual Basic for Applications (VBA).
+      - Extensive research related to the assigned projects.
+  - role: English Instructor
+    time: 2018 - 2019
+    company: Lead Academy, C.A.
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      - Planning and delivery of English lessons for diverse learning styles, aimed at kids, teenagers, and adults.
+      - Development of slideshows and material to better help students understand the topic and improve their experience.
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Excel's Visual Basic for Applications (VBA)
+      level: 45%
+
+    - name: Javascript
+      level: 40%
+
+    - name: HTML5 & CSS
+      level: 30%
