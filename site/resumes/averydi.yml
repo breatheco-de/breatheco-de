@@ -1,0 +1,140 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Avery
+    
+    # Define yourself in 4-5 words
+    motto: Willing to try new things
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I received my Bacherlor's degree in Engineering Management from the
+      University of Tennessee at Chattanooga in 2021. For the past 6 years
+      I have been deeply involved in building and flying FPV drones for
+      professional videography and I still do professional videography
+      and video editing.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/51679971_10216825203558063_1966148427955830784_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeFp5ZB0z_XpyazXB9brEEHnHsgUhVgMOsIeyBSFWAw6wiQ_OLYzPCO2ekhi_FUxkZI&_nc_ohc=gIOtsuI289cAX_0RUPN&_nc_ht=scontent-atl3-1.xx&oh=00_AfCo-UyezanmpaeNq9EdZYn5ScfLV5nsqhl05DmgfY1vhA&oe=644AE642
+
+    # Contact Information
+    email: avery.di@gmail.com #optional
+    phone: 423 599 1403 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/david-avery-0a18b4153/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: averydi
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Finnish
+        level: Beginner-Medium
+
+      - idiom: Spanish
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bacherlor's Engineering Management
+      university: University of Tennessee at Chattanooga
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2021
+      
+
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+          - 
+          - 
+    - role: 
+      time: 
+      company: 
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+    assignments:
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level:
