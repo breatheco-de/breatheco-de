@@ -23,7 +23,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/IMG_0281.jpg
+    avatar: https://media.licdn.com/dms/image/C4D03AQFR9k6Uzk1eEQ/profile-displayphoto-shrink_800_800/0/1659440856274?e=2147483647&v=beta&t=bEL8BBzA6Q5OqTusUtt4YaFrih5dw-6sRrSQVvsPxrA
 
     # Contact Information
     email: estebanpinelli@hotmail.com #optional
