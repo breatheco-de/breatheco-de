@@ -1,25 +1,30 @@
 let studentData = localStorage.getItem("student-data");
+console.log(window.location.search, "locaion");
+
+const params = new URLSearchParams(window.location.search);
+let studentIndex = params.get("id");
+
 let studentDataObject = JSON.parse(studentData);
 window.onload = function() {
-  const experiences = () => {
-    studentDataObject.experiences[2].map((item, i) => {
-      return (
-        <div key={i} class="item">
-          <div class="mb-5">
-            <div class="meta">
-              <div class="upper-row">
-                <h3 class="job-title">{item.role}</h3>
-                <div class="time">{item.time}</div>
-              </div>
-              <div class="company">{item.company}</div>
-            </div>
-            <div class="details">{item.details}</div>
-          </div>
-        </div>
-      );
-    });
-  };
-  console.log(studentDataObject, "student data");
+  //   const experiences = () => {
+  //     studentDataObject.experiences[2].map((item, i) => {
+  //       return (
+  //         <div key={i} class="item">
+  //           <div class="mb-5">
+  //             <div class="meta">
+  //               <div class="upper-row">
+  //                 <h3 class="job-title">{item.role}</h3>
+  //                 <div class="time">{item.time}</div>
+  //               </div>
+  //               <div class="company">{item.company}</div>
+  //             </div>
+  //             <div class="details">{item.details}</div>
+  //           </div>
+  //         </div>
+  //       );
+  //     });
+  //   };
+
   document.getElementById("student-details").innerHTML = `<div class="wrapper">
     <div class="main-wrapper">
         <section class="section summary-section">
@@ -29,7 +34,7 @@ window.onload = function() {
                     <i class="fas fa-user fa-stack-1x fa-inverse "></i> </span>Career Profile</h2>
             <div class="summary">
   
-                ${studentDataObject[2].basic_info.summary}</div>
+                ${studentDataObject[studentIndex].basic_info.summary}</div>
         </section>
         <section class="section experiences-section">
   
@@ -105,7 +110,7 @@ window.onload = function() {
     alt="profile"
   /> -->
             <h1 class="name p-0" id="student-profile-name">
-            ${studentDataObject[2].basic_info.first_name} ${studentDataObject[2].basic_info.last_name}
+            ${studentDataObject[studentIndex].basic_info.first_name} ${studentDataObject[studentIndex].basic_info.last_name}
             </h1>
             <h3 class="tagline">You only live once</h3>
         </div>
