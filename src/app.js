@@ -2,10 +2,13 @@
 import "bootstrap";
 import "./style.css";
 import data from "../_data/json/student_info.json";
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
 
+const handleClick = index => {
+  localStorage.setItem("student-index", index);
+};
 window.onload = function() {
+  let dataString = JSON.stringify(data);
+  localStorage.setItem("student-data", dataString);
   console.log(data, "data");
   let student_list = "";
   data.forEach((student, i) => {
@@ -13,22 +16,15 @@ window.onload = function() {
     <div class="col-6">
       <p>
         ${student.basic_info.first_name} ${student.basic_info.last_name}
-  
+
       </p>
-  
-      <small class="motto">this is my motto</small>
+
+      <small class="motto">${student.basic_info.motto}</small>
     </div>
     <div class="col-6 text-right">
-      <a href="google.com" rel="noopener noreferrer" target="_blank"
-        class=" text-decoration-none  btn btn-light ms-2 bd-highlight"><svg aria-hidden="true" focusable="false"
-          data-prefix="fas" data-icon="palette" class=" svg-inline--fa fa-palette fa-w-16 " role="img"
-          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path fill="currentColor"
-            d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
-          </path>
-        </svg> <span class="d-none d-sm-inline-block">Portfolio</span></a>
-      <!-- _website && <a href="https://" rel="noopener noreferrer" target="_blank" class=" text-decoration-none  btn btn-light ms-2 bd-highlight"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class=" svg-inline--fa fa-palette fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg> <span class="d-none d-sm-inline-block">Portfolio</span></a>} -->
-      <a target="_blank" href='https://twitter.com/{{members.basic_info.twitter}}'
+     
+       <a href=${student.basic_info.website} rel="noopener noreferrer" target="_blank" class=" text-decoration-none  btn btn-light ms-2 bd-highlight"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class=" svg-inline--fa fa-palette fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg> <span class="d-none d-sm-inline-block">Portfolio</span></a>
+      <a target="_blank" href="https://www.twitter.com/${student.basic_info.twitter}"
         class="btn btn-light ms-2 bd-highlight">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
           class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +34,7 @@ window.onload = function() {
           </path>
         </svg>
       </a>
-      <a target="_blank" href='linkedin.com' class="btn btn-light ms-2 bd-highlight">
+      <a target="_blank" href=${student.basic_info.linkedin} class="btn btn-light ms-2 bd-highlight">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
           class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">
@@ -47,7 +43,7 @@ window.onload = function() {
           </path>
         </svg>
       </a>
-      <a target="_blank" href="https://github.com" class="btn btn-light ms-2 bd-highlight">
+      <a target="_blank" href="https://www.github.com/${student.basic_info.github}" class="btn btn-light ms-2 bd-highlight">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
           class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 496 512">
@@ -56,27 +52,28 @@ window.onload = function() {
           </path>
         </svg>
       </a>
-      <a href="/github.com">
-  
-      </a>
-  
+      
+
       <a target="_blank" href="../details.html"
-        class="btn btn-light ms-2 bd-highlight text-decoration-none see_more_button">
-  
+        class="btn btn-light ms-2 bd-highlight text-decoration-none see_more_button"
+        onclick="handleClick(${i})"
+        >
+
         <span class=" me-2 d-sm-inline-block">
           See more
         </span>
-  
+
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-file-pdf fa-w-14">
           <path
             d="M0 256a56 56 0 1 1 112 0A56 56 0 1 1 0 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z" />
         </svg>
       </a>
       </a>
-  
+
     </div>
   </div>`;
   });
+
   //write your code here
   document.getElementById("student-home").innerHTML = student_list;
 };
