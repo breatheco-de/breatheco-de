@@ -6,24 +6,7 @@ let studentIndex = params.get("id");
 
 let studentDataObject = JSON.parse(studentData);
 window.onload = function() {
-  //   const experiences = () => {
-  //     studentDataObject.experiences[2].map((item, i) => {
-  //       return (
-  //         <div key={i} class="item">
-  //           <div class="mb-5">
-  //             <div class="meta">
-  //               <div class="upper-row">
-  //                 <h3 class="job-title">{item.role}</h3>
-  //                 <div class="time">{item.time}</div>
-  //               </div>
-  //               <div class="company">{item.company}</div>
-  //             </div>
-  //             <div class="details">{item.details}</div>
-  //           </div>
-  //         </div>
-  //       );
-  //     });
-  //   };
+  
 
   document.getElementById("student-details").innerHTML = `<div class="wrapper">
     <div class="main-wrapper">

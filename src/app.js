@@ -8,13 +8,12 @@ window.onload = function() {
   localStorage.setItem("student-data", dataString);
   console.log(data, "data");
   let student_list = "";
-  // data.forEach((student, i) => {
-  //   student_list += student.basic_info.website
-  //     ? "<div>" + student.basic_info.website + "</div>"
-  //     : "<div>" + student.basic_info.first_name + "has no projectss </div>";
-  // });
+  let input = document.querySelector(".form-control");
+  input.addEventListener("input", e => {
+    let value = e.target.value;
+  });
   data.forEach((student, i) => {
-    student_list += `<div class="row mb-2">
+    student_list += `<div id="student_${i}"class="row mb-2">
   <div class="col-6">
     <p>
       ${student.basic_info.first_name} ${student.basic_info.last_name}
