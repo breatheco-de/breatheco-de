@@ -41,21 +41,27 @@ window.onload = function() {
             <h2 class="section-title"> <span class="fa-stack fa-xs"> <i
                         class="fas fa-circle fa-stack-2x "></i> <i
                         class="fas fa-briefcase fa-stack-1x fa-inverse "></i> </span> Experiences</h2>
-            <div class="item">
-  
-                <div class="mb-5">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Front End</h3>
-                            <div class="time">Aug 2022-2023</div>
-                        </div>
-                        <div class="company">BreathCode</div>
-                    </div>
-                    <div class="details">developed websites</div>
-                </div>
-  
-  
-            </div>
+                        ${
+                          studentDataObject[studentIndex].experiences
+                            ? studentDataObject[studentIndex].experiences
+                                .map((exp) => {
+                                  return `<div class="item">
+                                              <div class="mb-5">
+                                                  <div class="meta">
+                                                      <div class="upper-row">
+                                                          <h3 class="job-title">${exp.role}</h3>
+                                                          <div class="time">${exp.time}</div>
+                                                      </div>
+                                                      <div class="company">${exp.company}</div>
+                                                  </div>
+                                                  <div class="details">${exp.details}</div>
+                                              </div>
+                                          </div>`;
+                                })
+                                .join("")
+                            : ""
+                        } 
+               
         </section>
         <section class="section projects-section">
   
@@ -110,7 +116,9 @@ window.onload = function() {
     alt="profile"
   /> -->
             <h1 class="name p-0" id="student-profile-name">
-            ${studentDataObject[studentIndex].basic_info.first_name} ${studentDataObject[studentIndex].basic_info.last_name}
+            ${studentDataObject[studentIndex].basic_info.first_name} ${
+    studentDataObject[studentIndex].basic_info.last_name
+  }
             </h1>
             <h3 class="tagline">You only live once</h3>
         </div>
