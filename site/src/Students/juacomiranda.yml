@@ -1,0 +1,22 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info: 
+
+  name: Joaquin Miranda
+  tagline: Full Stack Developer
+  
+
+  email: jmiranda@live.cl
+  phone: 992348300
+  website: www.juacomiranda.cl
+  linkedin: joaquin-miranda-grandon
+  github: juacomiranda
+  twitter: @juacomiranda
+
+  Languages:
+   - idiom: Español
+     level: Nativo
+
+   - idiom: English
+     level: Basic
