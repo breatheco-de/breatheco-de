@@ -101,7 +101,7 @@ window.onload = function() {
       });
 
       let filteredStudentListHtml = "";
-      filteredStudentList.forEach((student, i) => {
+      filteredStudentList.forEach((student, index) => {
         filteredStudentListHtml += `<div class="row mb-2">
         <div class="col-6">
           <p>
@@ -154,7 +154,7 @@ window.onload = function() {
           </a>
           
       
-          <a target="_blank" href="/src/details.html?id=${i}"
+          <a target="_blank" href="/src/details.html?id=${index}"
             class="btn btn-light ms-2 bd-highlight text-decoration-none see_more_button"
             
             >
@@ -174,8 +174,8 @@ window.onload = function() {
       </div>`;
       });
 
-      document.getElementById(
-        "student-home"
-      ).innerHTML = filteredStudentListHtml;
+      document.querySelectorAll("#student-home").forEach((studentDiv, i) => {
+        studentDiv.innerHTML = filteredStudentListHtml;
+      });
     });
 };
