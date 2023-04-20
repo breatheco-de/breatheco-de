@@ -8,8 +8,27 @@ window.onload = function() {
   localStorage.setItem("student-data", dataString);
   console.log(data, "data");
   let student_list = "";
+  const clean = url => {
+    if (!url) return null;
+    url = url.trim();
+    if (typeof url !== "string") return null;
+    if (url.indexOf("alesanchezr") > -1) return null;
+    if (url.indexOf("asd") > -1) return null;
+    if (url.indexOf(".") === -1) return null;
+    if (url.indexOf(" ") > -1) return null;
+    return url.replace(/https?:\/\//, "");
+  };
 
+  const cleanLn = url => {
+    if (!url) return null;
+    url = url.trim();
+    if (url.indexOf("http") === -1) return null;
+    if (url.indexOf("alesanchezr") > -1) return null;
+    return url.replace(/https?:\/\//, "");
+  };
   data.forEach((student, i) => {
+    let _website = clean(student.basic_info.website);
+    let _linkedin = clean(student.basic_info.linkedin);
     student_list += `<div id="student_${i}"class="row mb-2">
   <div class="col-6">
     <p>
@@ -22,8 +41,8 @@ window.onload = function() {
   <div class="col-6 text-right">
    
     ${
-      student.basic_info.website
-        ? `<a href=${student.basic_info.website} rel="noopener noreferrer" target="_blank" class=" text-decoration-none  btn btn-light ms-2 bd-highlight"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class=" svg-inline--fa fa-palette fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg> <span class="d-none d-sm-inline-block">Portfolio</span></a>`
+      _website
+        ? `<a href=${_website} rel="noopener noreferrer" target="_blank" class=" text-decoration-none  btn btn-light ms-2 bd-highlight"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class=" svg-inline--fa fa-palette fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg> <span class="d-none d-sm-inline-block">Portfolio</span></a>`
         : ""
     } 
     ${
@@ -42,8 +61,8 @@ window.onload = function() {
     }
     
     ${
-      student.basic_info.linkedin
-        ? `<a target="_blank" href=${student.basic_info.linkedin} class=" btn btn-light ms-2 bd-highlight">
+      _linkedin
+        ? `<a target="_blank" href=${_linkedin} class=" btn btn-light ms-2 bd-highlight">
       <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
         class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512">
