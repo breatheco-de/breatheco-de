@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hayden
+    last_name: Mapel
+    
+    # Define yourself in 4-5 words
+    motto: Always hunting for mysteries
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a creative and driven programmer with a background in music. 
+      I am looking to learn and grow in the coding profession and leverage my background as a professional musician to provide unique insight for clients and my team.
+      I enjoy working in teams and solving complex problems with elegant solutions. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/WX0rvrt.jpg
+
+    # Contact Information
+    email: haydenmapel@gmail.com
+    phone: 602 698 7483
+    website: https://www.haydenmapelmusic.com/
+    linkedin: https://www.linkedin.com/in/hayden-mapel-647994184/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: HaydenMapel
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Video Games
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Master of Music in Studio Music and Jazz Trombone Performance
+      university: University of Miami
+      # optional
+      university_logo: https://ucomm.miami.edu/_assets/images/tools-and-resources/signatures/jpg-72/umiami_prime_72.jpg
+      time: 2017 - 2019
+      details: |
+        Coursework included extensive study of contemporary and jazz styles, composition, musicology, recording techniques, pedagogy, and history. 
+        Performed across South Florida as part of the Concert Jazz Band and recorded mulitple professional albums. Worked with world famous professors including Dante Luciani, Brian Lynch, Dafnis Prieto, Martin Bejerano, and John Daversa.
+
+    - degree: Bachelor of Music in Jazz Trombone Performance
+      university: University of North Texas
+      # optional
+      university_logo: https://identityguide.unt.edu/sites/default/files/lettermark_one-line_diving_eagle_green_0.png
+      time: 2008 - 2013
+      details: |
+        Coursework included study of jazz and classical music theory, ear training, piano, music history, music business, and improvisation.
+        Performed across North Texas in many Universtiy ensembles including lead trombone in the 3 O'Clock Lab Band. Studied under world-renowned faculty including Steve Wiest, Tony Baker, and Brad Leali.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Entertainment Specialist
+      time: 2020 - Present
+      company: Suman Entertainment Group
+      # optional
+      company_logo: http://sumanent.com/images/logo.png
+      details: |
+        Recruit and manage musicians for major international cruise lines including Norwegian Cruise Lines, Carnival Cruise Lines, and Royal Caribbean Cruise Lines.
+        Auditioned musicians from all over the world and evaluated suitability for cruise work. Personally responsible for scheduling over 50 positions on cruise ships.
+        Worked closely with corporate teams from multiple cruise lines and built relations at universities and performing arts centers for recruitment.
+
+    - role: 2nd Trombonist
+      time: 2018-2019
+      company: World Famous Glenn Miller Orchestra
+      details: |
+        Performed and toured full time as part of an 18 piece jazz orchestra across the United States, Canada, and Japan. Performed at many of the famous concert halls across the world including Cleveland's Severance Hall, the Adrienne Arsht Center for the Performing Arts in Miami, Orchard Hall in Osaka, Japan and Roy Thomson Hall in Toronto, Canada.
+        Also assisted in setup, tear down, and maintenance of stage equipment and directed stage hands on stage setup requirements.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Under Construction
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: Under Construction
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: Javascript 
+        level: 25%
+
+      - name: HTML5, CSS, & Bootstrap 4
+        level: 95%

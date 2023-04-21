@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco Javier
+    last_name: Mera Diaz
+    
+    # Define yourself in 4-5 words
+    motto: Curiosity as a way of life
+    
+    # focus
+    focus: Be better, my friend
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Both my academic preparation and my professional career have revolved around the tourism sector, being able to develop my knowledge in the most important business hotel company in Spain.
+      Taking into account professional trends, I decided to embark on the adventure of the universal language of the future, programming, and thus be able to combine the knowledge of both and adapt to the professional needs of the market.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: fcojmera@gmail.com
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: javi-mera
+    
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Travelling
+
+      - item: Sports
+
+      - item: Videogames, films and TV Series
+
+      - item: Social activities
+
+# Your previous education
+education:
+    - degree: Tourism career
+      university: University of Huelva
+      time: 2006 - 2009
+      # optional
+      
+    - degree: Master in direction and management of tourism companies.
+      university: University of Alcala de Henares
+      time: 2009 - 2011
+      # optional
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: Senior Booking Agent
+      time: 2011 - 2015
+      company: NH Hotel Group, Central Services Office, Madrid
+      # optional
+      company_logo: https://www.marcasrenombradas.com/wp-content/uploads/2011/07/NH-1024x575.jpg
+      details: |
+        - Processing of reservations for all the hotels in the chain through the attention telephone or via mail, dealing with private clients, agencies and companies.
+        - Support salesperson in the "International Group Sales" department. Sales and management of groups of rooms and events in all hotels of the chain with agencies and foreign companies.
+    - role: Sales Executive - Commercial 
+      time: 2015 - 2016
+      company: NH Nacional hotel, Madrid
+      # optional
+      details: |
+        Sale of premises, quotation of budgets, inspection visits, follow-up of groups, internal management of the same, interdepartmental coordination, implementation advance of events, resolution of unforeseen events and billing.
+    - role: Hunter sales GSO España, Andorra y Portugal. Groups Department NH Hotel Group.
+      time: 2016 - till now
+      company: NH Hotel Group, Central Services Office, Madrid
+      # optional
+      details: |
+        Management of groups and events in the business unit such as clarification of requests received by e-mail or telephone, negotiation of the offers, price monitoring, contract management, intermediation with internal sales of the hotels, telephone service and distribution of e-mails.
+      # Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+    assignments:
+      - title: Typeat
+        # optional
+        project_logo: 
+        link: 
+        tagline: Final course project
+
+skills:
+    toolset:
+      - name: Python 
+        level: 
+
+      - name: Javascript 
+        level: 
+
+      - name: Bootstrap
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
+
+      - name: React
+        level: 
+
+      - name: Sketch & Photoshop
+        level: 

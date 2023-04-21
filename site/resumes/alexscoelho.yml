@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexson
+    last_name: Coelho
+    
+    # Define yourself in 4-5 words
+    motto: I enjoy creating.
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Coding is what i am passionate about, i also have a degree in business administration.
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: alexsoncoelho21@gmail.com
+    phone: 305-8784699 #optional
+    linkedin: linkedin.com/in/alexsoncoelho/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alexscoelho
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Playing Guitar
+
+      - item: Exercicing
+
+# Your previous education
+education:
+    - degree: Associate Bussiness Administration
+      university: Millenia Atlantic University
+      time: 2018 - 2020
+    - degree: Systems Engeneering (5 semesters)
+      university: Universidad Santa Maria
+      time: 2009 - 2011
+# Your previous job experiences or voluntier
+experiences:
+    - role: Full stack developer assistant
+      time: 2019 - Present
+      company: Stable Factory, Miami
+      # optional
+      details: |
+        Soclubtv.com Platform Design and Platform Development: Helped develop a social media platform with hundreds of concurrent users to engage with regular influencer-made shows. It had a realtime chat, e-commerce integration and more | Angular, NodeJS, MongoDB
+        RewardsWeb Platform Development Front end  Javascript/HTML/CSS 
+        Authentic Construction full website Front end  Javascript/HTML/CSS
+        
+
+# Your project portfolio
+
+assignments:
+      - title: Instagram photo feed (bootstrap)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Excuse generator (javascript)
+        tagline: Randomly generate excuses using plain javascript and html
+
+skills:
+    toolset:
+      - name: HTML, CSS, Bootstrap
+        level: Intermediate
+
+      - name: Javascript 
+        level: Intermediate
+
+      - name: React
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: Flask
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: MySql
+        level: Intermediate
+
+      

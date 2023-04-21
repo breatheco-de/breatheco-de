@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristina
+    last_name: Rodríguez Duque
+    
+    # Define yourself in 4-5 words
+    motto: Codding padawan
+    
+    # focus
+    focus: Learning full-stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: crduque@hotmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  https://www.linkedin.com/in/cristina-rodr%C3%ADguez-duque-8ab1111b5/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: crduque
+    
+    twitter: '@crisrduque' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Gaming
+
+      - item: Movies and series
+
+# Your previous education
+education:
+    - degree: Full Stack developer
+      university: 4Geeks Academy Madrid
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - 
+          - 
+    - degree: Economics
+      university: Universidad Complutense de Madrid
+      # optional
+      university_logo: https://www.ucm.es/data/cont/docs/3-2016-07-21-Marca%20UCM%20logo%20negro.png
+      time: 2012 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Seller
+      time: 2018 - Present
+      company: Kérastase (El Corte Inglés)
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Promoter
+      time: 2015 - 2018
+      company: Smartbox (Fnac, El Corte Inglés)
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      At the start of my travel into codding, here are my firsts projects
+    assignments:
+      - title: Instagram Post
+        # optional
+        project_logo: 
+        link: "https://github.com/crduque/instagramPost"
+        tagline: "A responsive post made designed HTML and CSS. It was my first project in 4Geeks Academy."
+
+      - title: Instagram (Grid and Feed)
+        # optional
+        project_logo: 
+        link: "https://github.com/crduque/igPhotoFeedWithBootstrap"
+        tagline: "A simple, responsive website designed with HTML and Bootstrap."
+
+      - title: Excuse Generator
+        # optional
+        project_logo: 
+        link: "https://github.com/crduque/excuseGenerator"
+        tagline: "A simple web application that offers random excuses for everything. It's designed with HTML, CSS and Javascript."
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: Bootstrap4
+        level: 85%

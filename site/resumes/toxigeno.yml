@@ -1,0 +1,121 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Melissa
+    last_name: Araya
+    
+    # Define yourself in 4-5 words
+    motto: Carpe diem
+
+    
+    # focus
+    focus: moving
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      "Fui a los bosques porque quería vivir deliberadamente; enfrentar solo los hechos esenciales de la vida y ver si podía aprender lo que ella tenía que enseñar. Quise vivir profundamente y desechar todo aquello que no fuera vida...para no darme cuenta, en el momento de morir, de que no había vivido" Thoreau, 1817-1862.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/77760972?v=4
+
+    # Contact Information
+    email: melissaaraya@yahoo.com #optional
+    phone: +506 8371-5871 #optional
+    website: https://gastrocr.com/melissaaraya/ #optional
+    linkedin: https://www.linkedin.com/in/melissaaraya/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: toxigeno
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: intermediate- advanced
+
+    # Interests or hobies
+    interests:
+      - item: Dogs
+
+      - item: Books & Coffee
+
+      - item: Training
+
+      - item: art
+
+      - item: INXS NIN
+
+      - item: Pizza
+
+# Your previous education
+education:
+    - degree: Full stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Instagram feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Maria-7514/exercise-instagram-feed-bootstrap"
+        tagline: "A responsive website to replicate how is instagram platform."
+
+      - title: Landing Page
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Maria-7514/exercise-landing-page-with-react"
+        tagline: "A responsive website to learn how to use React"
+
+      
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: DOM
+        level: 10%
+
+      - name: JAVASCRIPT
+        level: 10%
+
+      - name: REACT
+        level: 10%
+
+      - name: SQL
+        level: 10%
+      
+      - name: Photoshop & Illustrator
+        level: 90%

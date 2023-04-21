@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ariel   
+    last_name: Acurana
+    
+    # Define yourself in 4-5 words
+    motto: like the robotic, games and dancing 
+    
+    # focus
+    focus: Engineer electromechanic and Web development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I like the robotic and programming since i was a child,  in my carrer win awards from national level my carrer take me from my country to Europe, i like learn more about programming like games 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://vui.unsplash.com/resize?height=256&quality=60&type=auto&url=https%3A%2F%2Fsearched-images.s3.us-west-2.amazonaws.com%2F8d3f4125-7b4a-485c-abe1-cefd85ecba67%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAJ4ATIV7TEVKIW3RQ%252F20210331%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20210331T182611Z%26X-Amz-Expires%3D900%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3De05486531c79635492fe789de79360758f296c01be8fea7fe7678c7a68a87564&sign=NEz9irE8Gd-7Rn6AlBvwyTYw8qCksVSpaJ4Wub2cMQ4
+    # Contact Information
+    email: arielmarvin@gmail.com  
+    phone: +591 77414821 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/ariel-marvin-acurana-flores-2b7743104/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: arielstark1
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Chinese
+        level: Medium
+
+      - idiom: Japanese
+        level: Basic
+
+
+    # Interests or hobies
+    interests:
+      - item: Programming
+
+      - item: Robotic
+
+      - item: Dancing
+
+      - item: Games
+
+# Your previous education
+education:
+    - degree: Bachelor in University of San Simon
+      university: Universidad Mayor de San Simon, Bolivia
+      time: 2012-2018
+      details: 
+        I allways like the engineering , all time in contest and have awards from my country , i have practice in Europe and all time practice with electronics in laboratory from my university 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Researcher development
+      time: 2017-2020
+      company: Univeristy West Pomeranian , Poland
+      details: |
+        I like the programming since i was in my first job in other country like practice i have to make systems in non-destructive testing for the university and programming a use a lot of programming 
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects I have been creating during my 4Geeks Web Development Bootcamp
+
+    assignments:
+      - title: Instagram 
+        link: https://github.com/arielstark1/instagram
+        tagline: "This is a good example to i learning"
+
+      - title: Excuse Generator
+        link: "https://github.com/arielstark1/the-excuse-generator.git"
+        tagline: "my first example in js."
+
+      
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: Javascript
+        level: 50%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Ruby on Rails
+        level: 50%
+
+  

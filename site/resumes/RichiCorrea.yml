@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo A.
+    last_name: Correa F.
+    
+    # Define yourself in 4-5 words
+    motto: Me encantan los procesos crativos
+    
+    # focus
+    focus: Aprender y Crear
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Productor Musical / Estudiante Fullstack Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: richi.correa.f@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: Ricardo Correa #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: RichiCorrea
+    
+    twitter: '@cfrichi' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: A2
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Series/Movies
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingeniero de Sonido
+      university: Universidad Tecnologica de Chile
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1010283314555572226/gfTXjpA-_400x400.jpg
+      time: (2014-2018)
+      details: |
+        Complete exiitosamente el curriculum y practica profesional de todo eeste programa de estudios
+        combinando capacidades tecnologicas, matematicas artisticas para poder integrar equipos de 
+        trabajos multidiciplinarios.
+
+
+    - degree: Composición y Arreglos Musicales
+      university: Escuela Moderna de Musica(Chile)
+      # optional
+      university_logo: data:image/jpeg;base64,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
+      time: 2011 - 2013
+      details: |
+        Esyudios formales de teoria musical, 
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Productor Musical
+      time: 2019 - Presente
+      company: <independiente
+      # optional
+      company_logo: 
+      details: |
+       Productor musical independiente y asesorias en grabació,
+       prosucción y publicación en diversas plataformas.
+
+    - role: Profesor Particular de Guitarra-Teoria y Producción Musical-
+      time: 2015 - Presente
+      company: <independiente
+      # optional
+      company_logo: 
+      details: |
+        Clases de Guitarra-Teoria y Producción Musical personalizadas con material creador
+        para estas instancias, sesiones individuales y grupales
+        de diversos niiveles.
+
+    - role: Practicante
+      time: 2018-2019
+      company: CHT Estudios
+      # optionaldata:image/png;base64,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
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+
+    - role: Arreglos Musicales 
+      time: 2012 - 2014
+      company: Iglesia Vina Agape
+      # optional
+      company_logo: https://agape.cl/wp-content/uploads/2018/08/Logo-agape-2-01-1.png
+      details: |
+        Fui partedel equipo de arreglos y composición musical de tres proyectos audiovisuales
+         "Lluvia Temprana, Removidos e Inagotable" los cuales estan disponibles en plataformas
+         como YouTube, Spotify.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+
+
+    assignments:
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+     
+skills:
+    toolset:
+      - name: Studio One / Protools / Ableton Live
+
+      - name: Ilustrator
+
+      - name: Html/CSS/Boostrap
+

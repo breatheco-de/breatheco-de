@@ -1,0 +1,45 @@
+name: Testing for Errors
+
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm run test
+    - run: npm run build --if-present
+      env:
+        CI: true
+  comment: 
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Add PR Comment
+      uses: mshick/add-pr-comment@v1
+      if: github.event.check_suite.conclusion
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        # The contents of the comment.
+        message: |
+          ## 🇺🇸 Congratulations! 🔥👏
+          
+          - ✅ Your YML was successsfully validated and its being merged into the master branch of the repository.
+          - ⏰ Wait a few minutes and you will probably see your name on this list: https://sep.4geeksacademy.co
+
+          ## 🇪🇸 Enhorabuena! 🔥👏
+          
+          - ✅ Tu fichero YML fue validado exitosamente y esta siendo mezclado con el codigo que esta en la rama master del repositorio.
+          - ⏰ Espera unos minutos y seguramente encontraras tu nombre en esta lista: https://sep.4geeksacademy.co

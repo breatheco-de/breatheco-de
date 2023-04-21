@@ -1,0 +1,103 @@
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+  # Full name
+  first_name: Nicolas
+  last_name: Araya
+  motto: Full-stack Developer
+  avatar: https://avatars.githubusercontent.com/u/63371423?s=400&u=12d8dd7eec4f6800580ce7ce13fe8621f2791829&v=4
+  summary: |
+    Everyday I love a little bit more coding. I discover this passion with Harvard's "CS50's Introduction to Computer Science", 
+    that led me to self-educate in subjects such as web development and object oriented programming. I am a responsible and passionate person, 
+    who always try to do better and learn something every day. But above all, I am a team player, used to work with all kind of people with different cultures everyday.
+    I think those qualities will help me to grow in the developer world and even more a person. Since I started with the web development studies,
+    I've been using HTML, CSS, Javascript, SQLite, Python and Ruby, starting to use React and Flask and looking forward to learn more frameworks.
+      
+  email: nicolasaraya@gmail.com
+  phone: +56 981896822
+  linkedin: nicolas-araya-b751b632/
+  github: NicolasArayaB
+
+  languages:
+    - idiom: Spanish
+      level: Native
+      
+    - idiom: English
+      level: Intermediate/Advance
+
+  interests:
+    - item: Coding
+
+    - item: Music
+
+    - item: Flying (I am an airplane pilot)
+
+    - item: Climbing
+
+education:
+    - degree: Commertial Pilot
+      university: Golden Eagle Fligth Academy
+      time: 2009-2013
+      details: Santiago, Chile
+      
+experiences:
+    - role: Student
+      time: 2021 - Present
+      company: 4Geeks Academy
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp. 
+
+    - role: Student
+      time: 2020 - Present
+      company: The Odin Project
+      details: Learning HTML, CSS, JS, SQL, Ruby, Ruby on Rails
+
+    - role: Student
+      time: 2020 - 2021
+      company: HarvardX
+      details: CS50's Introduction to Computer Science, learning C, Python, SQL, HTML, CSS, JS, Flask
+
+    - role: Flight Attendant
+      time: 2014 - Present
+      company: LATAM Airlines
+      details: Working as part of the cabin crew on international flights from Chile to USA, Spain, Italy, Australia, New Zeland among others
+
+projects:
+    intro: >
+      You can review some of my projects on github from The Odin Project and 4GeeksAcademy courses!
+    
+    assignments:
+      - title: Mastermind
+        link: https://github.com/NicolasArayaB/mastermind
+        tagline: "A terminal Mastermind game using Ruby"
+    
+      - title: Binary Search Trees
+        link: https://github.com/NicolasArayaB/binary-search-trees
+        tagline: "A Ruby BST with it's #methods"
+      
+      - title: Calculator
+        link: https://github.com/NicolasArayaB/Calculator
+        tagline: "A calculator using HTML CSS and JS"
+        
+      - title: Landing Page
+        link: https://github.com/NicolasArayaB/exercise-landing-page-with-react
+        tagline: "A basic landing page using with React"
+
+skills:
+    toolset:
+      - name: Ruby
+        level: 60%
+
+      - name: Python
+        level: 40%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS3
+        level: 70%
+
+      - name: React
+        level: 20%

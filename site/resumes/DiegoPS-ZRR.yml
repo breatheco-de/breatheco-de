@@ -1,0 +1,138 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Diego
+    last_name: Pacheco
+    
+    # Define yourself in 4-5 words
+    motto: Be Original, Be Happy
+    
+    # focus
+    focus: <Time to Code/>
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Fusce quis dolor nec purus porta vestibulum a ut mi. Mauris pharetra justo 
+      sed purus varius condimentum vel ac mi. Fusce molestie ipsum a neque imperdiet, 
+      vitae feugiat purus ornare. Fusce varius odio eu arcu pellentesque, id consequat 
+      ex porttitor.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.istockphoto.com/photos/red-fox-vulpes-vulpes-picture-id516318760?k=6&m=516318760&s=612x612&w=0&h=GoVuK4TTDxCOEAMzykKCljsbSeZ9u139x7-Q77YrVMw=
+
+    # Contact Information
+    email: pacheco.luisdiego@gmail.com #optional
+    phone: +506 8654-1739 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/diegopachecos #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DiegoPS-ZRR
+    
+    twitter: #optional
+    stack-overflow:  # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Martial Arts
+
+      - item: Geek things
+
+      - item: Food
+
+# Your previous education
+education:
+    - degree: Lic. Derecho
+      university: Universidad de Costa Rica
+      # optional
+      university_logo: https://medios.ucr.ac.cr/medios/imagenes/2012/escudo_p.jpg
+      time: 2007 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lawyer
+      time: 2020 - Present
+      company: Walmart
+      # optional
+      company_logo:
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Lawyer
+      time: 2010 - 2020
+      company: Contractor
+      # optional
+      company_logo: 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: IG Feed
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Sketch Up
+        level: 80%
+
+      - name: HTML & CSS
+        level: 70%
+
+      - name: Javascript & jQuer
+        level: 10%
+
+      - name: React
+        level: 5%
+
+      - name: Javascript & jQuery
+        level: 5%
+
+      - name: Photoshop
+        level: 40%
