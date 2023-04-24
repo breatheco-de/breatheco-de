@@ -1,0 +1,208 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alvaro
+    last_name: Martin
+    
+    # Define yourself in 4-5 words
+    motto: Constancia y esfuerzo.
+    
+    # focus
+    focus: Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me considero una persona con liderazgo, innovadora, con visión de futuro. Dedicación y esfuerzo para ser el mejor en mi trabajo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: alvaro27993@gmail.com   #optional
+    phone: +34 611717457 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/alvaro-martin-fernandez-esp/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/AlvaroMartinFernandez
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Natacion
+
+      - item: Futbol
+
+      - item: Cocinar
+
+      - item: Peliculas
+
+# Your previous education
+education:
+    - degree: Grado en tecnologias de telecomunicaciones
+      university: Universidad de Alcala
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Universidad_de_Alcal%C3%A1_%282021%29_logotipo_azul.svg/534px-Universidad_de_Alcal%C3%A1_%282021%29_logotipo_azul.svg.png
+      time: 2011 - 2016; 2021-2022
+
+
+    - degree: Bootcamp FullStack developer
+      university: 4Geek Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - Actualidad
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Chief Technology Officer & Chief Operating Officer
+      time: 2019 - 2021
+      company: TeamWork Logistics & Services, Madrid
+      # optional
+      details: |
+        Encargado de la implementación y la optimización del método de trabajo del personal de almacén, tráfico y seguros. Encargado del desarrollo y la implementación de la metodología de trabajo.
+
+        Encargado de la preparación de las rutas de los mensajeros y de su supervisión, tanto del reparto como de las recogidas de mercancía de los clientes.
+
+        Encargado del visado de facturas de los clientes y de las reclamaciones de los clientes.
+
+        Encargado del diseño, desarrollo web y la implementación con el ERP.
+
+    - role: Chief Technology Officer & Chief Commercial Officer
+      time: 2018 - 2019
+      company: TeamWork Logistics & Services, Madrid
+
+      details: |
+        Encargado del departamento de ventas, incrementando la emisión de envíos de 20 diarios a 1300 envíos diarios. 
+       
+        Encargado de deﬁnir la metodología de trabajo con los diversos clientes, buscado siempre un sistema optimo en función de las necesidades de nuestros clientes, supervisando la calidad de los servicios.
+       
+        Encargado de la contratación y las negociaciones con los clientes
+
+
+    - role: Fundador y COO
+      time: 2016 - 2019
+      company: DreamVio, Madrid
+      # optional
+     details: |
+       Socio Fundador, encargado del departamento de operaciones y ventas. 
+       
+    - role: Chief Technology Officer & Chief Commercial Officer 
+      time: 2017 - 2018
+      company: Lynx Logistics, Madrid
+      # optional
+     details: |
+        Desarrollo e implementación de las herramientas necesarias para optimizar los procesos y la operativa de trabajo junto con el COO buscando la reducción de costes y la eficiencia en los procesos de trabajo de todas las áreas de la empresa.
+
+        Formación de los instaladores para la instalación de dispositivos en los puntos de venta de los clientes.
+
+        Diseño y desarrollo de la web corporativa e integración con el ERP.
+
+        Encargado del departamento de ventas, la negociación y contratación con los clientes y la definición de la metodología de trabajo.. 
+
+   - role: It Manager 
+      time: 2016 - 2017
+      company: Lynx Logistics, Madrid
+      # optional
+     details: |
+        Encargado del mantenimiento de los sistemas informáticos.
+
+        Instalación de software y testeo de los dispositivos de los clientes para su exposición en los puntos de ventas 
+
+    - role: Becario de diseño FTTH
+      time: 2015 - 2015
+      company: ELECNOR S.A, Madrid
+      # optional
+     details: |
+        Desarrollo Apoyo a gestión de obra en despliegue de ﬁbra óptica (FTTH-Fiber To The Home).
+
+		    Seguimiento y reporting de las distintas fases de un proyecto de FTTH para Orange.
+
+	      Mantenimiento y actualización de herramientas de gestión.
+
+
+# Your project portfolio
+projects:
+    intro: Listado de proyectos finalizados
+
+    assignments:
+      - title: Robot con traccion diferencial
+        # optional
+        link: "https://github.com/AlvaroMartinFernandez/Robot-Sistemas-electronicos-digitales-avanzados-.git"
+        tagline: "diseñar un sistema empotrado basado en el microcontrolador LPC1768 (Cortex-M3) con objeto de implementar un robot con tracción diferencial capaz de evitar obstáculos mientras sigue una fuente de luz, grabar y ser telecontrolado con el mando de la Wii."
+
+      - title: Uso de plantillas, flujos y punteros inteligentes en C++
+        # optional
+        link: "https://github.com/AlvaroMartinFernandez/Plantillas-excepciones-y-flujos.git"
+        tagline: "Uso de plantillas, flujos y punteros inteligentes en C++."
+
+      - title: Diseño de una interfaz Cerebro computador
+        # optional
+         link: "https://github.com/AlvaroMartinFernandez/Desing_BCI.git"
+        tagline: "Diseño de una interfaz cerebro computador realizado mediante Matlab & Simulink para mover un coche a traccion mediante los pensamientos de mover pies y mover manos"
+
+      - title: Formulario
+        # optional
+       link: "https://github.com/AlvaroMartinFernandez/formulario.git"
+        tagline: "Formulario realizado mediante Bootstrap"
+
+      - title: Delta
+        # optional
+        link: "https://github.com/AlvaroMartinFernandez/Generador-de-Excusas.git"
+        tagline: "Generador de escusas mediante JavaScript"
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 70%
+
+      - name: Javascript & jQuery
+        level: 80%
+
+      - name: Angular & React
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: C++
+        level: 95%
+
+      - name: NodeJS
+        level: 60%
+
+      - name: C# & ASP.NET
+        level: 60%
+
+      - name: MongoDB
+        level: 50%
+        
+      - name: MYSQL
+        level: 60%
+        
+      - name: Matlab
+        level: 80%
+
+      - name: Paquete Office
+        level: 90%

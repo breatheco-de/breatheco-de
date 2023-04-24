@@ -13,20 +13,14 @@ basic_info:
     last_name: Martin
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Constancia y esfuerzo.
     
     # focus
-    focus: Killing Bad Boys
+    focus: Developer
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Me considero una persona con liderazgo, innovadora, con visión de futuro. Dedicación y esfuerzo para ser el mejor en mi trabajo.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -71,30 +65,14 @@ education:
       # optional
       university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Universidad_de_Alcal%C3%A1_%282021%29_logotipo_azul.svg/534px-Universidad_de_Alcal%C3%A1_%282021%29_logotipo_azul.svg.png
       time: 2011 - 2016; 2021-2022
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
     - degree: Bootcamp FullStack developer
       university: 4Geek Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2023 - Actualidad
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or voluntier
 experiences:
@@ -179,40 +157,52 @@ projects:
         link: "https://github.com/AlvaroMartinFernandez/Plantillas-excepciones-y-flujos.git"
         tagline: "Uso de plantillas, flujos y punteros inteligentes en C++."
 
-      - title: Tempo
+      - title: Diseño de una interfaz Cerebro computador
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+         link: "https://github.com/AlvaroMartinFernandez/Desing_BCI.git"
+        tagline: "Diseño de una interfaz cerebro computador realizado mediante Matlab & Simulink para mover un coche a traccion mediante los pensamientos de mover pies y mover manos"
 
-      - title: Atom
+      - title: Formulario
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+       link: "https://github.com/AlvaroMartinFernandez/formulario.git"
+        tagline: "Formulario realizado mediante Bootstrap"
 
       - title: Delta
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        link: "https://github.com/AlvaroMartinFernandez/Generador-de-Excusas.git"
+        tagline: "Generador de escusas mediante JavaScript"
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Flask
+        level: 70%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Angular & React
+        level: 70%
 
       - name: HTML5 & CSS
+        level: 80%
+
+      - name: C++
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: NodeJS
         level: 60%
+
+      - name: C# & ASP.NET
+        level: 60%
+
+      - name: MongoDB
+        level: 50%
+        
+      - name: MYSQL
+        level: 60%
+        
+      - name: Matlab
+        level: 80%
+
+      - name: Paquete Office
+        level: 90%
