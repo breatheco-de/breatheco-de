@@ -38,8 +38,8 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: rui775
     
-    twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    vercel: vercel.com/rui775
+    stack-overflow: 21304362/rui775
 
     # languages you speak, levels inculde: Native, Professional
     languages:
