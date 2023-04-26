@@ -8,7 +8,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.full{
+  min-height: 100%;
+}
 *,
 *::before,
 *::after {
