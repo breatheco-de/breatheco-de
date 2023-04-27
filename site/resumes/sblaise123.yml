@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "Blue"
+skin: "blue"
 
 # Personal Information
 basic_info:
