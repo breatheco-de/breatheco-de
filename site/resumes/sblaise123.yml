@@ -54,7 +54,7 @@ basic_info:
 
       - item: reading and researching
 
-      - item: Lifestyle / wellness / animals and plants 
+      - item: Lifestyle / wellness / animals 
 
       - item: video games
 
@@ -80,7 +80,7 @@ education:
       university: University Tecnologica Metropolitana (UTEM)
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2005 - 2012
+      time: 2012 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -113,7 +113,7 @@ experiences:
           - Bullet point
 
     - role: Architect BIM developer
-      time: 2012 - 2021
+      time: 2022 - 2023
       company: Freelancer
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
