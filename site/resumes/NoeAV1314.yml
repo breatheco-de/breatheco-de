@@ -9,33 +9,28 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Noelia
+    last_name: Cornejo Mata
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: My parents didnt raise a quitter.
     
     # focus
-    focus: Killing Bad Boys
+    focus: Improving myself every single day
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Current student of 4Geeks trainning for success with a team of awesome teachers. Lots of experience in the customer service area and technical support.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://pbs.twimg.com/media/D9Hj9D7XoAIvkHi.png
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: Noeliia1314@hotmail.com #I like being extra so I'm filling it with my actual info
+    phone: 234 2342 342 #not all of it of course
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: NoeliaCornejoMata #optional
     
     #
     # ******** IMPORTANT *******
@@ -48,23 +43,23 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
+        level: Advance
 
       - idiom: Spanish
-        level: Professional
+        level: Native
+
+      - idiom: Portuguese
+        level: Beginner
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Playing videogames
 
-      - item: Snowboarding
+      - item: Reading
 
-      - item: Cooking
+      - item: Going outside
 
-# Your previous education
+# This coming section is all fake
 education:
     - degree: MSc in Computer Science
       university: University of London
@@ -177,19 +172,16 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 20%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 5%
 
       - name: Angular
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
+        level: 15%
 
       - name: Sketch & Photoshop
         level: 60%
