@@ -9,54 +9,61 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Luis
+    first_name: Luid
     last_name: Vela
     
     # Define yourself in 4-5 words
-    motto: Interés por la programación
+    motto: I like programming
     
     # focus
-    focus: Convertirme en desarrollador web
+    focus: Become a web developer
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Experiencia como técnido de redes informática y estudiante autodidacta
-      de desarrollo web
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
 
+      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: luismvl@mail.com #optional
+    email: a@a.com #optional
     phone: 234 2342 342 #optional
-    website: luismvl.com #optional
-    linkedin: luismvl #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: luismvl
     
-    twitter: 'luismvl' #optional
+    twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: Español
-        level: Nativo
+      - idiom: English
+        level: Native
 
-      - idiom: Inglés
-        level: Intermedio
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
 
     # Interests or hobies
     interests:
-      - item: Fútbol
+      - item: Climbing
 
-      - item: Videojuegos
+      - item: Snowboarding
 
-      - item: Programación
+      - item: Cooking
 
 # Your previous education
 education:
