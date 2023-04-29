@@ -9,144 +9,131 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Luid
+    first_name: Luis
     last_name: Vela
     
     # Define yourself in 4-5 words
-    motto: I like programming
+    motto: I like practice sports
     
     # focus
-    focus: Become a web developer
+    focus: Personal development
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I started working when I was young. I worked hard in construction, 
+      I knew the world of telecommunications installing lines for Telefonica, 
+      later I studied a CFGS in Telecommunications and Computer Systems, 
+      during two summers I alternated the work of lifeguard with the work at night during the weekends traveling all over Spain. 
+      I worked in a gymnasium and finally I entered the company where I have been working for 7 years 
+      and where I have gone through an electronic technical department, 
+      purchasing department and finally the department I work for today, 
+      information systems in which i am a DBA and maintain web applications.
 
-      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://avatars3.githubusercontent.com/u/48392946?s=460&u=f82adf6aa2fe9562f527f453646bb1e23d3fa37c&v=4
 
     # Contact Information
-    email: a@a.com #optional
+    email: luis.sanchezarevalorionegro@gmail.com #optional
     phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/luis-s%C3%A1nchez-ar%C3%A9valo-rionegro-77939579/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: luismvl
+    github: luisSanchezArevalo
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      # - idiom: Spanish
+      #   level: Professional
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Basketball
 
-      - item: Snowboarding
+      - item: Footbal
 
-      - item: Cooking
+      - item: Boxing
+
+      - item: Encode
+
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Computer Engineering
+      university: Universidad Rey Juan Carlos 
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGwb3cs9Ub2ng/company-logo_200_200/0?e=1596067200&v=beta&t=oQkTjkHvgnh53mstteS_dMiQxmtWoE45muU3LxArO9Y
+      time: 2016 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        First year in computer engineering.
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: CFGS Telecommunications systems in computer science
+      university: IES BEnjamín Rua
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: http://petales.es/wp-content/uploads/2018/04/comunidad-madrid-consejeria-educacion-investigacion.jpg
+      time: 2009 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Higher level training in telecommunications and computer systems.
 
-          - Bullet point
-          - Bullet point
+        - Introduction to programming.
+        - Electronics.
+        - Hardware.
+        - Radio.
+        - Television.
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Developer
+      time: 2017 - Present
+      company: Bq, Madrid
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo-BQ-CasoDeExito.png
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Developments, modifications and corrections in internal systems created in the company 
+        (inventory management, internal and external logistics, orders, productions, BoMs, layouts... ) 
+        and integrated with external applications (logistics operators, repairers, SAP...).
+        All these developments are made with Grails technologies (Groovy and Rails), GSP, JavaScript, .Net (VB.Net, C # and .NET Core).
 
-          - Bullet point
-          - Bullet point
+          - Groovy and Rails
+          - GSP
+          - JavaScript
+          - .Net
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Software Analyst
+      time: 2017 - Present
+      company: Bq, Madrid
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo-BQ-CasoDeExito.png
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Analysis of client needs and elaboration of programmed tasks for software development.
 
-          - Bullet point
-          - Bullet point
+          - Jira
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: DBA SQL Server and MySQL
+      time: 2017 - Present
+      company: Bq, Madrid
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo-BQ-CasoDeExito.png
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Database administration in SQL Server and MySQL
 
-          - Bullet point
-          - Bullet point
+          - Install, configure and manage databases.
+          - Development team support.
+          - Design data distribution and storage solutions.
+          - Development of ad hoc stored procedures, both in SQL queries and server configuration.
 
 # Your project portfolio
 projects:
@@ -156,52 +143,45 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
+      - title: ExcuseGenerator
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: "https://github.com/LuisSanchezArevaloRionegro/TheExcuseGenerator"
+        tagline: "Project in JavaScript that generates a random excuse based on several lists of strings."
 
-      - title: DevStudio
+      - title: InstragramFeed
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        link: "https://github.com/LuisSanchezArevaloRionegro/InstagramFeed"
+        tagline: "I work with HTML and CSS replicating the Instagram format."
 
-      - title: Tempo
+      - title: ConditionalProfileCard
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        link: "https://github.com/LuisSanchezArevaloRionegro/exercise-conditional-profile-card"
+        tagline: "Dynamic card that builds your data into text fields and html selectors."
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
+      - name: SQL Server & MySQL
+        level: 80%
 
       - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
         level: 60%
+      
+      - name: .NET
+        level: 60%
+
+      - name: Python
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: GoLang
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      
