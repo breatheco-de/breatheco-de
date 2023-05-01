@@ -61,7 +61,7 @@ window.onload = function() {
         </path>
       </svg>
     </a>`
-        : ""
+        : " "
     }
     
     ${
