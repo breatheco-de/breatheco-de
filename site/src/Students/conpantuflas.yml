@@ -11,7 +11,7 @@ basic_info:
   React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
   el trabajo grupal con gi
 
-  # Your profile picture URL
+  
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
   avatar: 
 
@@ -54,7 +54,7 @@ experiences:
  
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: 
-    To-Do List: .
+    To-Do List: Instagram Post, 
       Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
 
     Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
