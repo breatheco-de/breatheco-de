@@ -1,7 +1,7 @@
 /* eslint-disable */
 import "bootstrap";
 import "./style.css";
-import data from "../_data/json/student_info.json";
+import data from "../site/json/student_info.json";
 
 window.onload = function() {
   let dataString = JSON.stringify(data);
