@@ -36,7 +36,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: VictorMagaCBT
+    github: victormagalhaescbt
     
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -79,19 +79,4 @@ experiences:
       time: Aug 2017 - May 2023
       company: Fisiosaude.
       details: |
-        Ouner and physiotherapist in the clinic.
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+        Owner and physiotherapist in the clinic.
