@@ -1,51 +1,69 @@
-# Hello World with Vanilla JS
-
-Start coding a JS/HTML/CSS website in 30 seconds by opening this template in codespaces (coming soon) or [gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git).
-
-## Before you being
-
-Install the packages by typing: `npm install`.
-
-
-### How do I run my website to see live changes?  
+<p align="center">
+	<img
+		width="300"
+		alt="4Geeks Academy"
+		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
+</p>
 
 
-Type on the command line `$ npm run start` and type localhost on the browser.
+<h1 align="center">Welcome to 4Geeks Academy</h1>
 
-### Where do I write my code?  
+<h3 align="center">&lt;\ Time To Code&gt;</h3>
+<p align="center">The place where developers grow and thrive.</p>
 
-It depends on the language, but you have `./src/js/app.js`, `./src/style/index.css` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
+<p align="center">
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/👫-+5134_students-1d2935.svg?style=flat" alt="Students">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/👫-+453_partners-1d2935.svg?style=flat" alt="Partners">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/💼💰-86%25_hiring_rate-1d2935.svg?style=flat" alt="Hiring Rate">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/🌎-worldwide-1d2935.svg?style=flat" alt="Branches">
+  </a>
+  <a href="https://4geeksacademy.co/">
+    <img src="https://img.shields.io/badge/⭐️-5_star_reviews-1d2935.svg?style=flat" alt="Reviews">
+  </a>
+</p>
 
-> Note: remember that the JS workflow starts inside `window.onload`.
+  
+## Contents
 
+- [About](#about).
+- [Team](#team).
+- [Awards](#awards).
+- [Alumni](#alumni).
 
-## Troubleshooting
+## About
 
-### I don't see my changes...
+4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA Dep. of Education in Florida. 
 
-Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
+- 👨‍👩‍👧‍👦 **Community**: 4Geeks Academy has graduated 3000+ people, all of them have access to our [slack channel](https://4geeksacademy.slack.com/) and [online platform 4Geeks.com](https://4Geeks.com). 
+- 💻 **Platform**: [4Geeks.com](https://4Geeks.com) is where developers meet, network, and learn. Currently, in private beta, the platform members can throw coding parties, ask for 1-1 mentorships in one click, join live workshops every week, take live classes a couple of times a week, meet new developers, and more.
+- 🎖 **Certifications and Courses**: We currently offer Introduction to coding, [Full Stack Web Developer](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), [Software Engineering](https://4geeksacademy.com/us/coding-bootcamps/software-engineer-bootcamp) (for senior software architects), [Data Science Engineer](https://4geeksacademy.com/us/coding-bootcamps/data-science-engineer) and [Machine learning and AI Engineering](https://4geeksacademy.com/us/coding-bootcamps/machine-learning-engineering). You can find the [full list of our programs here](https://4geeksacademy.com/programs).
+- 💼 **Find or improve your current job**: Our primary focus is to make developers succeed: A great network of hiring partners, resume building, interview preparation, and many other essential workforce-oriented features are what make us rank among the best coding institutions in the world.
 
-### How do I include more images on my project?
+## Team
 
-Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
+4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
+You will fall in love with our teachers that work in top companies and have many years of experience.  
+Every location has a full hands on team with -almost- full independence:
 
-### How do I include more JS files?
+- [Victor](https://www.linkedin.com/in/victormgomezp/) and [Marco](https://www.linkedin.com/in/marcogonzalo/) lead [🇪🇺 Europe](https://4geeksacademy.com/us/coding-campus/europe-online-coding-bootcamp).
+- [Jonathan](https://www.linkedin.com/in/jonathan-toledo/) and [Jennifer](https://www.linkedin.com/in/jennifer-toledo-vargas/) lead [🇨🇱 Chile](https://4geeksacademy.com/us/coding-campus/coding-bootcamp-santiago).
 
-Just add the files into the JS folder and import the file/variables into your index.js. E.g: `import myVar from "./file2.js"`
+## Awards
 
-### How do I publish the website?
+- Chosen as one of the top 35 bootcamps of the world and top coding bootcamp in Miami according to SwitchUp and Course Report. 
+- Recognized as the top 10 coding bootcamps in the United States according to Newsweek.
+- And [many other awards](https://4geeksacademy.com/us/awards).
 
-This boilerplate is 100% compatible with the free github pages hosting. Publish your website by running:
+## Alumni
 
-```sh
-$ npm run deploy
-```
-
-Very easy and in just one step!  Push to your __main__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your master branch.
-
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/vanillajs-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+- As of 2022 we have graduated ~3100 students, 84% of them get a job or pay increase after the bootcamp.
+- We have graduates that have been hired by Microsoft, Github, Ebay, Facebook and many other Forbes 500 companies.
+- You can read more about our graduates in our [outcomes](https://4geeksacademy.com/us/outcomes) and [testimonials](https://4geeksacademy.com/us/testimonials).
+- You can [see the projects they have built during the program here](https://4geeksacademy.com/us/students-and-projects).

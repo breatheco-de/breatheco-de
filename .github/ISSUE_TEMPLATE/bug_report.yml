@@ -1,0 +1,32 @@
+
+name: Bug Report
+description: File a bug report
+labels: "type: bug"
+body:
+- type: markdown
+  attributes:
+    value: Before raising an issue, please search for existing issues to avoid creating duplicates. For questions, please use [Slack](https://4geeksacademy.slack.com).
+- type: textarea
+  id: bug-description
+  attributes:
+    label: Bug description
+    description: Summarize the bug encountered concisely. Uploading screenshots its strongly recommended!
+  validations:
+    required: true
+- type: textarea
+  id: steps-to-reproduce
+  attributes:
+    label: Steps to reproduce
+    description: Describe the steps to reproduce the issue
+  validations:
+    required: true
+- type: textarea
+  id: expected-behavior
+  attributes:
+    label: Expected behavior
+    description: Describe what you should see instead
+- type: textarea
+  id: anything-else
+  attributes:
+    label: Anything else?
+    description: Let us know if you have any additional feedback!

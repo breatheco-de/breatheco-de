@@ -6,3 +6,4 @@
 dist/
 public/
 node_modules/
+./site/json

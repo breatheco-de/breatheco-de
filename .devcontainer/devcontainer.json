@@ -12,7 +12,7 @@
   "forwardPorts": [3000],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install && node ./_utils/build_json.js",
+  "postCreateCommand": "npm install && node ./_utils/build_json.js && npm run start",
 
   // Configure tool-specific properties.
   "customizations": {
