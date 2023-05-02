@@ -2,10 +2,10 @@ const fs = require("fs");
 const yaml = require("js-yaml");
 
 // Directory where YAML files are located
-const ymlDir = "../site/resumes";
+const ymlDir = "./site/resumes";
 
 // Output JSON file path
-const jsonFile = "../site/json/student_info.json";
+const jsonFile = "./site/json/student_info.json";
 
 // Initialize empty array to hold data from YAML files
 let data = [];
