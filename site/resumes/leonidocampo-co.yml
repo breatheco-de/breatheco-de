@@ -1,0 +1,97 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Leonid 
+    last_name: Ocampo Tapias
+    
+   
+    motto: Full Stack Developer -4geeks academy---
+    
+    
+
+    
+    
+   
+    summary: |
+      Despues de terminar mi carrera en el area de la salud profesional y compartir muchas experiencias y crecer ha llegado el momento de 
+
+      incursionar en una nueva area profesional, que es desafiante pero gratificante al mismo tiempo. Con muchos animos para aprender
+
+      y llegar a laborar en este campo tan apasionante y divertido...
+
+      Actualmente me encuentro estudiando HTML, CSS, Bootstrap y Javascript.
+      
+    
+ 
+    avatar: 
+
+ 
+    email: lnckocampo@yahoo.com
+    phone: +51 3007880233
+    linkedin: https://www.linkedin.com/in/leonid_ocampo
+    
+  
+  
+    github: leonidocampo-co
+    
+   
+    languages:
+      - idiom: Inglés
+        level: Medio-Alto
+
+
+      - idiom: Español
+        level: Nativo
+
+ 
+    interests:
+      - item: Tecnología
+
+      - item: videoujegos y desarrollo de inteligencia artificial
+
+      - item: Cine de terror
+
+
+education:
+    - degree: Grado en Enfermero profesional()
+      university: Universidad del Norte
+      time: 2005 - 2009
+      
+experiences:
+    - role: Auditor cuentas medicas
+      time: 2016 - 2020
+      company: IQ outsourcing
+      details: |
+        Auditor de cuentas medicas y conciliaciones. 
+    - role: Auditor de cuentas medicas y conciliaciones.
+      time: 2016 - 2020
+      company: Seguros mundial
+      details: 
+        Auditor de cuentas medicas y conciliaciones.
+          
+assignments:
+- title: HTML-CSS POSTCARD
+  link: "https://github.com/leonidocampo-co/HTMLPOSTCARD"
+  tagline: "Realizado login template CSS y HTML."
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
