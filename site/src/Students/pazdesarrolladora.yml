@@ -1,0 +1,91 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "pink"
+
+
+basic_info:
+
+    
+    first_name: Paz
+    last_name: Valenzuela
+    
+   
+    motto: Trabajadora-amigable-esforzada-disciplinada
+    
+   
+    focus: Ser la mejor full stack
+    
+    
+    summary: |
+      Como aspirante a trabajar en el área de Full Stack, soy una persona apasionada por el desarrollo web y dispuesta a aprender nuevas tecnologías. Tengo experiencia en el diseño y desarrollo de sitios web utilizando HTML, CSS, JavaScript y algunas bibliotecas y frameworks populares, y estoy comprometida a crear soluciones innovadoras y eficientes para los desafíos del mundo digital. Soy una persona trabajadora, proactiva y con una actitud positiva hacia el trabajo en equipo, lo que me permite colaborar de manera efectiva con colegas y clientes para alcanzar los objetivos del proyecto. Estoy emocionada por seguir creciendo como desarrolladora Full Stack y estoy lista para enfrentar nuevos desafíos en este campo en constante evolución.
+    
+   
+    email: pazvalenzua@gmail.com 
+    phone: +56920625530
+    linkedin: https://www.linkedin.com/in/paz-valenzuela 
+    github: https://github.com/Pazdesarrolladora
+    
+    
+
+    
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: B1-B2
+
+
+    interests:
+      - item: Ciclismo
+
+      - item: Danza
+
+      - item: Futbol
+
+
+education:
+    - degree: Derecho
+      university: Universidad San Sebastian
+
+
+experiences:
+    - role: Secretaria Juridica 
+      time: 2021 - 2022
+      company: Casa Maiten, Concepcion
+     
+
+projects:
+    intro: >
+     
+    assignments:
+      - title: formulario
+        link: "https://github.com/Pazdesarrolladora/formulario"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: feed instragram
+        link: "https://github.com/Pazdesarrolladora/Instagramfeed2"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Post-instagram
+             
+        link: "https://github.com/Pazdesarrolladora/post-instagram"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+     
+skills:
+    toolset:
+      - name: Javascript
+        level: 48%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Git
+        level: 60%
