@@ -1,8 +1,8 @@
 # Personal Information
 basic_info:
   # Your full name
-  first_name: Judith
-  last_name: Carreño
+  first_name: Juan 
+  last_name: Solar
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
@@ -13,27 +13,29 @@ basic_info:
 
   # Your profile picture URL
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  avatar: https://avatars.githubusercontent.com/u/120593445?s=40&v=4
 
   # Contact Information
-  email: devconpantuflas@gmail.com #optional
-  phone: 569 22138662 #optional
+  email: jlsolarsolar@gmail.com #optional
+  phone: 569 22136592 #optional
 
   #
   # ******** IMPORTANT *******
   # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-  github: conpantuflas
+  github: jssolar
 
-  twitter: "conpantuflass" #optional
+  twitter: 
 
 
   # Interests or hobies
   interests:
-    - item: Palantas
+    - item: Libros
 
     - item: 3D web
 
-    - item: Arte
+    - item: Arte, pintura
+    
+    - item: Música
 
 # Your previous education
 education:
@@ -41,7 +43,7 @@ education:
     academy: 4Geeks Academy
     # optional
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    time: mar-2022 - ago-2022
+    time: abr-2023 - ago-2023
     details: |
       Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
       que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
