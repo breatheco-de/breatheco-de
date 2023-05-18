@@ -1,8 +1,6 @@
-This is a new file
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 template: "online-cv"
 skin: "blue"
 
@@ -40,6 +38,7 @@ basic_info:
 education:
     - degree: AAS Nanotechnology
       university: Athens Techincal College
+      time: 2016 - 2018
       # optional
       details: |
         Science and engineering at at the subatomic level
@@ -53,11 +52,13 @@ projects:
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/Yvv1214/HTML-form"
+        tagline: "A responsive Bootstrap one page theme with JS"
 
       - title: InstagramFeed
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/Yvv1214/Instagram-Feed-project"
+        tagline: "A responsive Bootstrap one page theme with JS"
 
       - title: Excuse Generator
         # optional
@@ -74,4 +75,4 @@ skills:
         level: intermediate 
 
       - name: Git 
-      -level: novice
+        level: novice
