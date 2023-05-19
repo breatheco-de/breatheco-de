@@ -1,0 +1,70 @@
+
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Miguel
+  last_name: Martin Ramos
+  motto: Fullstack requires fullcommitment
+  focus: learning and mastering
+  summary: >
+    I have an English teacher background and I'm now getting into the world
+    of web developing to give a spin to my career after many years of feeling
+    stale in my previous occupation.
+  avatar: https://tinyurl.com/2fa828rc
+  email: miguelmr94@gmail.com
+  phone: +34 649 665 105
+  website: null
+  linkedin: miguelmr94
+  github: Miguel Martin
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Proficient
+  interests:
+    - item: Videogames
+    - item: Music
+    - item: Kung Fu
+education:
+  - degree: Fullstack developer bootcamp
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2023 - 2023
+    details: >
+      Learning common fullstack languages such as HTML5, CSS and Javascript
+      for front-end, and Python and PHP for back-end, and their respective
+      frameworks like Bootstrap, React and Flask.
+experiences:
+  - role: English teacher
+    time: 2018 - Present
+    company: ISE Language School
+    details: >
+      English teacher in an academy, dealing with the creation and
+      application of lesson plans for groups or students ranging from A2 level
+      to C2.
+projects:
+  intro: >
+    I'm practicing the skills i'm learning by creating a website for a
+    construction company owned by my family-in-law.
+  assignments:
+    - title: CyC Dansel
+      project_logo: https://tinyurl.com/2ppc7g4p
+      link: "#hook"
+      tagline: A responsive website template designed to help the company showcase
+        their work and attract customers.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: Javascript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
