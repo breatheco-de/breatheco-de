@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: García de Gregorio
+    
+    # Define yourself in 4-5 words
+    motto: Drums. Sports. DJ. Design.
+    
+    # focus
+    focus: Always learning something new.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Want a highly motivated fast-learning person on board? Search is over. I like to keep things creative.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pbs.twimg.com/profile_images/1254222733/gato_bzflag_400x400.jpg
+
+    # Contact Information
+    email: bleraspa@gmail.com #optional
+    phone: +34 660753655 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: pablogarciadegregorio
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Gym&Sports
+
+      - item: Music
+
+      - item: Graphic Design
+
+# Your previous education
+education:
+    - degree: Graphic Design
+      university: Profesiones Artisticas
+      # optional
+      university_logo: 
+      time: 2007 - 2008
+      details: |
+       Course about graphic design using Adobe's Illustrator, Photoshop and Indesign.
+
+
+    - degree: Personal Trainer
+      university: Apta Vital Sport
+      # optional
+      university_logo: https://yt3.googleusercontent.com/ytc/AGIKgqOThT3c79Uz-vSHiaeQ-o4rgBJKPFA2xOjPuaU-Ng=s900-c-k-c0x00ffffff-no-rj
+      time: 2011 - 2012
+      details: |
+        Personal trainer course.
+       
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Coordinator
+      time: 2016 - Present
+      company: FUNDAR
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Swimming coach for intellectual disabled people. 
+        Water Therapy for  disabled people. 
+
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: LOREM
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: ""
+
+      - title: IPSUM
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: ""
+
+      - title: DOLOR
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: ""
+
+      - title: SIT
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: ""
+
+      - title: AMET
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: ""
+
+skills:
+    toolset:
+      - name: Photoshop & Illustrator
+        level: 80%
+
+      - name: Premiere
+        level: 70%
+
+      - name: FlStudio
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Drumming
+        level: 70%
+
+      - name: Djing
+        level: 50%
