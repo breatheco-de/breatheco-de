@@ -20,9 +20,7 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: I came up as a film student taking my time figuring out how I want
-            my products to come to life.  I apply a similar philosophy to coding
-            where I don't give up until I crush the malleable coal...from there, 
-            I pick up the specks of diamond and keep piling them up towards my glistening kingdom.
+            my products to come to life.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
