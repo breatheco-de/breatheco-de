@@ -1,0 +1,68 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+   
+    first_name: Jose G
+    last_name: Gomez P
+    
+   
+    motto: Full Stack Developer
+
+    summary: |
+      Yo he tenido experiencia en el sector de turismo y hoteleria, pero en el sector de tecnologia tengo poca experiencia pero la verdad 
+      la experiencia que he adquirido en 4Geeks es sumamente genial y he tenido un gran cambio del conocimiento que tenia y ha sido una gran
+      experiancia.
+
+    email: jose.gomezpereira002@mymdc.net
+    phone: (786) 602-6068
+    linkedin: jose gabriel gomez p
+    Twitter: n/a
+    stack-overflow: n/a
+    github: josegabrielgomezp
+
+    languages:
+      - idiom: Inglés
+        level: b1
+
+      - idiom: Español
+        level: Nativo
+
+    interests:
+      - item: Tecnología
+
+      - item: Read
+
+      - item: music
+
+      - item: play video games
+
+education:
+    - degree: Full stack Development
+      university: 4Geeks Academy
+      time: 2021
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: React.js
+        level: 35%
