@@ -18,10 +18,7 @@ basic_info:
 
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: 
-      Accomplished manager with 10+ years experience in all aspects of restaurant operations. Exceptional interpersonal skills and multi-tasking, combined with proven ability to drive profitability, manage and nurture talent. Outstanding leader with distinguished team-building skills and excellent conflict resolution abilities as well as a strong work ethic.
-
-    # Your profile picture URL
-      Second paragraph if required.
+      Accomplished manager with 10+ years experience in all aspects of restaurant operations. Exceptional interpersonal skills and multi-tasking, combined with proven ability to drive profitability, manage and nurture talent. Outstanding leader with distinguished team-building skills and excellent conflict resolution abilities as well as a strong work ethic.g
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -42,7 +39,7 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
-      idiom: English
+      - gidiom: English
         level: Professional
 
       - idiom: Spanish
@@ -77,13 +74,17 @@ basic_info:
 
     role: restaurant manager
     time: 2018 - 2021
-    company:Jade Garden
-    # optional
-    #company_logo: 
-    details: 
-        - Market research
-        - Product development
-        - 
+    company: Jade Garden
+details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
 
         # Your project portfolio
 #projects:
@@ -94,21 +95,16 @@ basic_info:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 40%
 
-      - name: Javascript & jQuery
-        level: 40%
+      - name: Javascript
+        level: 60%
 
-      - name: Angular
-        level: 20%
+      - name: React
+        level: 60%
+      
+      - name: Python/Flask
+        level: 50%
 
       - name: HTML5 & CSS
         level: 95%
-
-      - name: Ruby on Rails
-        level: 35%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
