@@ -1,0 +1,63 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: shemaiah williams
+    last_name: Novellino
+    motto: University Student
+    avatar: ~
+    summary: |
+        Studying at UCV Computer Science. Interested in Software Development, using Java, Python, Javascript and other tools. 
+         
+
+    # Sidebar links
+    email: alnovellino07@gmail.com
+    phone: 414 100 52 42
+    website: ~
+    linkedin: linkedin.com/in/shemaiahwilliams22
+    github: shemaiahwilliams22
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: Bachelor of Science
+      university: La Salle La Colina
+      time: 2012 - 2017
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
