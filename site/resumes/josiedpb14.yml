@@ -1,0 +1,81 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose David
+    last_name: Parra Barretp
+    
+    # Define yourself in 4-5 words
+    motto: Continuously learning
+    
+    # focus
+    focus: Become a freelancer!
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I started studying Computer Science due to my much interest in videogames, I had hoped to become
+      a videogame developer. But with time and the litle bit of time that I've been in the developing
+      world I now find myself much more attracted to web and app developing. I've had courses in University about
+      different programming lenguages such as Java, C, Python, CSS, JavaScript and some more. I have experience
+      working with databases as well primarly with SQL.
+
+      I'm also taking a course on python,and should hopefully finish it soon, as it is one of the most growing
+      developing lenguages in the present.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: josedavid97pb@gmail.com #optional
+    phone: +34 627130140 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: josedpb14
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Mountain Biking
+
+      - item: VideoGames
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: BSc in Computer Science (In process)
+      university: UNIR
+      time: 2021 - ...
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: Javascript
+        level: 50%
+
+      - name: Java
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 60%
