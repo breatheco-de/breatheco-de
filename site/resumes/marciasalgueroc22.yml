@@ -1,0 +1,63 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Marcia
+    last_name: Salguero
+    motto: College Student
+    avatar: ~
+    summary: |
+        Studying at MDC Interamerican campus. Interested in Python and Javascript 
+         
+
+    # Sidebar links
+    email: ~
+    phone: ~
+    website: ~
+    linkedin: ~
+    github: marciasalgueroc22
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Medium
+
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: Associates in Arts 
+      university: Miami Dade College 
+      time: 2013-2017
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
