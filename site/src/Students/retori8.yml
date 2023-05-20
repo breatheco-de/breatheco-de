@@ -1,0 +1,37 @@
+basic_info:
+  first_name: Carolina
+  last_name: Rojas
+
+  summary:
+  Soy diseñadora de la Universidad de Valparaíso y me adentré en el mundo de la programación, en el Bootcamp 4geeks Academy, con el propósito de complementar mis estudias y abrir nuevos caminos laborales.
+  
+
+  avatar: https://es.pngtree.com/freepng/cartoon-long-hair-girl_4280770.html
+
+  email: reciclee@gmail.com
+
+  github: retori8
+
+  interests:
+    - item: Pintura
+
+    - item: Textiles
+
+    - item: Palantas
+
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: diciembre-2022 - mayo-2023
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicación para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    Tak (Colaborativo): Aplicación de mindfulness
+      Tecnologias: React, Javascript, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Cloudinary Git.
+
