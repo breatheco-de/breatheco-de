@@ -1,9 +1,8 @@
 template: "online-cv"
-skin: "white"
+skin: "orange"
 basic_info:
   name: Khrise Franchesca Zegarra Muñoz
   tagline: Full Stack Developer
-  avatar:
 
   email: info@franchescazegarra.com
   phone: +51 993 140 837
@@ -15,5 +14,5 @@ basic_info:
     - idiom: Spanish
       level: Native
     
-    - idiom: Engrlish
+    - idiom: English
       level: Advance 
