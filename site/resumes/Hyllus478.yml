@@ -30,14 +30,14 @@ basic_info:
     email:  #optional
     phone:  #optional
     website: https://vimeo.com/ggabe #optional
-    linkedin: Gabriel Herndon #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
     github: Hyllus478
     
-    twitter: 'GoodGameGabe' #optional
+    twitter: '' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
