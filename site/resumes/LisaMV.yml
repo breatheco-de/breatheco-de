@@ -37,6 +37,11 @@ basic_info:
     phone: 786 251 4956 #optional
     linkedin:  #optional
 
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LisaMV
+
       # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
