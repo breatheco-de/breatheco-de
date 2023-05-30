@@ -1,0 +1,99 @@
+--- 
+basic_info: 
+  avatar: "https://randomuser.me/api/"
+  email: "aleguemad94@yahoo.es,"
+  first_name: Alex
+  focus: "Learning to become a Full Stack Develope. Expaning my knowledge as much as possible to change my career and knowledge."
+  github: aayalapalacin
+  interests: 
+    - 
+      item: "Music, Sooccer, Track"
+    - 
+      item: Metal/Networking/Programming
+    - 
+      item: "Traveling/Food/playing with Videogames"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: B1
+  last_name: Guerrero
+  linkedin: "https://www.linkedin.com/"
+  motto: "I'm ambitious, intelligent and fun."
+  phone: "+506 8474 5584"
+  stack-overflow: ~
+  summary: "I began an Accounting career while still in High School thanks to our \"May Project\" progam. This allowed all seniors to skip school for the month of May and get an internshhip instead. At the completion of my internship, I was offered a position as the Ar/Ap clerk. I contnued for 2 years while going to college, before moving into a Budget Analyst role for the NYS Department of Health. Following a brief stint there, for about a year, I was lucky enough to accept an offer as an Accoutning Manager for a privately owend company in NY. I completed my degree in Finance, while working as an Accounting Manager over the next 2+ years; and eventually saved enough money to quit and move to Miami. Upon arriving in Miami almost 2 years ago, I accepted another accounting Job for a public company. A year later, I decided I'd had enough of Accounting and took a job with Robert Half as the Client Service Director for the Southeast region. While working at Robert Half is when I decided to dive into coding/programming and really diversify my skillset."
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "Telecom Technician"
+    details: "Network, telecom knowledge"
+    time: "2014 - 2016"
+    university: "Instituto Nacional de Aprendizaje"
+experiences: 
+  - 
+    company: "Convergenets IT Solutions"
+    details: "My primary repsonsibilities are Sales and Tshoot"
+    role: "Technical Sales Engiener"
+    time: "2020 - Present"
+  - 
+    company: "Componenetes el ORBE"
+    details: "Telecom Technician"
+    role: "Telecom Technician"
+    time: "2016 - 2019"
+  - 
+    company: "Quicknet Solutions"
+    details: "Telecom Technician"
+    role: "Telecom Technician"
+    time: "2014 - 2016"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: N/A
+skills: 
+  toolset: 
+    - 
+      level: 0%
+      name: "Python & Django"
+    - 
+      level: 10%
+      name: "Javascript & jQuery"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 50%
+      name: "HTML5 & CSS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 15%
+      name: "Sketch & Photoshop"
+    - 
+      level: 90%
+      name: "Networking & Security"
+skin: blue
+template: online-cv
