@@ -1,0 +1,37 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Tyler
+  last_name: Milligan
+  motto: It is what it is.
+  focus: Learning
+  summary: >
+    Beginner and mostly self taught dev. Recently, joined 4Geeks to
+    progress my knowledge into this field. 
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: tylercmilligan68@gmail.com
+  github: Tcm68
+  languages:
+    - idiom: English
+      level: Native
+  interests:
+    - item: Gaming
+    - item: Anime/Manga
+    - item: Development
+  education:
+    - school: High school grad
+      time: 2012
+  experiences:
+    - role: Data entry
+      time: 2017-2020
+      company: Basket
+      details: >
+        Read through online catalogues and plug in price points of items into
+        an app for store price comparisons
+  skills:
+    toolset:
+      - name: Python
+        level: 25%
+      - name: HTML5 & CSS
+        level: 50%
