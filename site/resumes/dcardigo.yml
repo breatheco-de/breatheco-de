@@ -7,7 +7,7 @@ basic_info:
 
     # Your full name
     first_name: Daniel
-    last_name: Carrión
+    last_name: Carrión Martínez
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -27,7 +27,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: 
 
     # Contact Information
     email: a@a.com #optional
