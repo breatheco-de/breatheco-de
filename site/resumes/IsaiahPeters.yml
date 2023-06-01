@@ -1,3 +1,4 @@
+---
 template: online-cv
 skin: white
 basic_info:
@@ -33,6 +34,7 @@ basic_info:
 education:
   - degree: Associates in Marketing
     university: University of Southern Maine
+    time: 2019 - 2020
 experiences:
   - role: Website Manager
     time: 2020 - 2022
