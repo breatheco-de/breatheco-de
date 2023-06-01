@@ -1,0 +1,54 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Catalina
+  last_name: Sanchez
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Me encanta diseñar, hacer que todo encaje a la perfeccion y sea esteticamente hermoso, la programacion vino a enseñarme que no necesitas ser un gran experto para ser un gran artista.
+  Esta es mi ruta para convertirme en una frontend genial (full stack de hecho).
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: http://sep.breatheco.de/static/profile-images/perfil.png
+
+  # Contact Information
+  email: catalinatsc@gmail.com #optional
+  phone: 569 56571592 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Minusuke
+
+  twitter:  #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Videogames
+
+    - item: Copywriting y ventas
+
+    - item: Dibujo y escritura
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: mar-2022 - ago-2022
+    details: |
+   cursando actualmente el bootcamp fulltime
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+   
+ 
