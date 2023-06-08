@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gloriana 
+    last_name: Zelaya
+    
+    # Define yourself in 4-5 words
+    motto: La fan 1 de Chayanne
+    
+    # focus
+    focus: Full Stack Web Dev
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Full Stack  Web Developer with knowledge of Html, CSS, Bootstrap and JS. Also knowledge of Java, CSS and Python.
+      Design: Adobe Illustrator.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: glozq19@gmail.com #optional
+    phone: 555 555 555 555 #optional
+    linkedin: Gloriana Zelaya Quirós #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GlorianaZelaya
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English.
+        level: Adavnced.
+
+      - idiom: Spanish.
+        level: Native.
+
+    # Interests or hobies
+    interests:
+      - item: Food.
+
+      - item: Mangas.
+
+      - item: Games.
+
+# Your previous education
+education:
+    - degree: Intermediate-level technician in software development.
+      university: CTP Mercedes Norte
+      # optional
+      university_logo: https://ctpmercedesnorte.com/Imagenes/Logo/logoCTPMN.png
+      time: 2019 - 2021
+      details: |
+        Introduction to Software Development.
+
+    - degree: Full Stack Development Bootcamp
+      university: 4 Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      details: |
+        Full Stack Software Developer.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: IT Desk Helper.
+      time: 2021 - 2021
+      company: Neustar, Costa Rica.
+      # optional
+      company_logo: https://mms.businesswire.com/media/20180504005221/es/655010/23/Neustar_logo.jpg
+      details: |
+          - Making SO updates to the employees.
+          - Contacting employees and communicating via videocall, email, and chat. 
+          - Adhering to users requirements and quality standards 
+
+    - role: Operations associate
+      time: 2023 - 2023
+      company: Amazon
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png
+      details: |
+          - Checking videos and answering to help a machine learning.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Team Website
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A simple postcard."
+
+      - title: Instagram Photofeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A mock version of a photofeed on Instagram"
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A replica of an instagram post."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 80%
+
+      - name: Javascript & jQuery
+        level: 85%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 90%
