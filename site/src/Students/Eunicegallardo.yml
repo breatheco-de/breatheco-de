@@ -1,0 +1,62 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Loida Eunice
+    last_name: Gallardo
+    motto: I don't think of all the misery but of the beauty that still remains.
+    avatar: 
+    summary: |
+        This is one of my first steps to become someone dedicated and hardworking, who gives 100 percent to learn and improve at each stage of this new adventure in programming.
+
+    # Sidebar links
+    email: gallardoeunice25@gmail.com
+    phone: 8975-4390
+    linkedin: Eunice Gallardo
+    github: Eunicegallardo
+    twitter:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Photography
+      - item: Music
+      - item: Learn new things
+
+education:
+    -degree: Bachelor
+      School: Liceo la guacima
+      time: 2019
+
+experiences:
+ 
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Photo Feed
+        link: "#"
+        tagline: "A responsive photo feed."
+
+      - title: HTML FORM
+        link: "#"
+        tagline: "A responsive html form."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 67%
