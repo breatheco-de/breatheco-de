@@ -1,0 +1,91 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    # Profile information
+    first_name: Josseth
+    last_name: Sánchez
+    motto: Be the change you wish to see in the world.
+    avatar: https://stickerswiki.ams3.cdn.digitaloceanspaces.com/stickerly_0PKC19_by_stickerly_official_bot/1963411.512.webp
+    summary: |
+        UX/UI Designer | Web Developer
+        I'm studying to become a Unicorn 🦄 (designer 🎨 + developer 💻)
+        I love to design and create and I like to learn new things.
+        I am a proactive person, always looking for the best way to do things. Also, I'm friendly, hardworking and dedicated to what I do. 
+
+    # Sidebar links
+    email: josssanchez25@gmail.com
+    phone: +506 8314-6985
+    linkedin: joss-sg
+    github: aine20
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2+
+
+    interests:
+      - item: Space
+      - item: Video Games
+      - item: Learning new things
+
+education:
+    - degree: Web Design and Development Technician
+      university: CENFOTEC
+      time: 2023
+
+    - degree: FullStack Software Development
+      university: 4Geeks Academy
+      time: 2023
+
+experiences:
+    - role: Graphic Designer
+      time: Jul 2018 - Sep 2021
+      company: Jemp Sublimacion
+      details: |
+        -	Created illustrations, logos, and different designs.
+        -	Ensured high-quality and defined images through vectorization for scalability.
+        -	Designed graphic overlays for social media posts.
+        -	Produced drafts, incorporated client feedback, and made revisions accordingly.
+
+    - role: Application Support Analyst
+      time: Oct 2021 - Oct 2022
+      company: AppTrace
+      details: |
+        -	Prioritized and categorized bugs and issues for global support teams.
+        -	Implemented configuration changes across multiple software environments.
+        -	Debugged production-related bugs and issues.
+        -	Utilized SQL scripting for business reporting and decision making.
+        -	Created technical documentation for support teams.
+
+projects:
+    intro: >
+      Here you can see some of my projects:
+
+    assignments:
+      - title: UX/UI Prototype for Android Application
+        link: https://www.behance.net/gallery/156132765/Proyecto-Final-UXUI-Amai
+        tagline: "This is a project about a prototype of an Android application about pet adoption."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 90%
+
+      - name: CSS
+        level: 85%
+
+      - name: JavaScript
+        level: 75%
+
+      - name: Bootstrap
+        level: 75%
+
+      - name: Git
+        level: 75%
+
+      - name: SQL
+        level: 75%
