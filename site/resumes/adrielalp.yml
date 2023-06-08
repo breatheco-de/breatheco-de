@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Adriela
+    last_name: Lopez
+    motto: Coder
+    avatar: 
+    summary: |
+        I am currently a college student who is aiming to shape a career in technology. 
+        Excited to implement my capabilities and collaborate with my future colleagues
+        in projects that create a positive impact amongst and around us. I am self-driven
+        by a curious mind, which always leads me to find new interests and learn about better 
+        ways to solve problems in diverse scenarios.
+
+        I code in Java, HTML, CSS, and frameworks like Spring Boot with Hibernate for 
+        Web Development projects. I also have good comprehension of different tools like NetBeans,
+        IntelliJ, Visual Studio Code, and Github. I have worked with Figma Software for graphic interface design,
+         Adobe Photoshop, and Illustrator.
+
+    # Sidebar links
+    email: adrielopezp@gmail.com
+    phone: 506 8576 8412
+    website:  #do not add http://
+    linkedin: Adriela Lopez Paniagua
+    github: Adriela23
+    twitter: ''
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Neural Network
+      - item: Artificial Intelligence
+      - item: Programming
+
+education:
+    - degree: Bachelor's Degree, Systems Engineering
+      university: Universidad Fidelitas
+      time: May 2021
+
+
+experiences:
+    - role: Accounting Assistant 
+      time: 2020 (June) - 2022 (October)
+      company: Matsuri Restaurante Japonés
+      details:
+
+          - Provide global figures about feedstock purchases by manipulating big amount of data to build weekly and monthly reports, that were employed to make financial company projections.
+          - Assist the team by authorizing incoming documents for their correct deployment. This process I was able to save at least 8 hrs. per week to this company to ensure the success of operations in four big business sections.
+
+projects:
+    intro: >
+      Graphic Designer at Asociación de Voluntarios para el Servicio en las Áreas Protegidas
+
+    assignments:
+      - title: Designer
+        link: " "
+        tagline: • Managed their social media accounts. As a consequence, its audience increased and currently they have 2,600 followers on Instagram and approximately 8,700 on Facebook.
+                 •	Achieved all the planned goals for a three-month period by organizing well-timed tasks and keeping close attention to customer needs.
+                 •	Supported and advised partners with their projects through innovative design solutions tailored for their requirements and needs.
+
+skills:
+    toolset:
+      - name: Logical reasoning
+        level: 
+
+      - name: Self-driven
+        level:
+
+      - name: HTML
+        level: 95%
+
+      - name: Bootstrap
+        level: 80%
