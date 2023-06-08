@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Amanda
+  last_name: Bogantes
+  motto: Goals don't get closer if you dont chase them.
+  avatar: https://www.linkedin.com/in/amanda-bogantes-barrelier-a827b7221/
+  summary: I am a passionate geographer with a strong interest in the application of informatics in the geospatial domain. Throughout my career, I have combined my love for geography with skills in information technology, allowing me to explore and fully leverage the potential of geographic information systems (GIS) and computer tools.
+    My focus revolves around utilizing technology to analyze and gain a better understanding of spatial patterns and interactions in the world around us. I have gained experience in managing geographic databases, creating maps, and visualizing geospatial data, as well as analyzing and interpreting geographic information to make informed decisions.
+    Furthermore, I have collaborated on projects related to the weekly and monthly monitoring of activities in the natural environment, conducting surveys, data analysis, and the development of Environmental Management Plans (EMPs). I have also worked with environmental remote sensing technologies and land use to extract valuable information and contribute to decision-making in the environmental field.
+    My primary objective is to apply my skills and knowledge to create innovative solutions that contribute to sustainable development.
+
+  # Sidebar links
+  email: abarrelier.bg@gmail.com
+  phone: 506 70907644
+  #website: 
+  linkedin: https://www.linkedin.com/in/amanda-bogantes-barrelier-a827b7221/
+  github: abarrelier
+  stack-overflow: # Number/Username, e.g. 123456/abarrelier
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Medium
+
+  interests:
+    - item: Science
+
+    - item: Gis 
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2023 - 2023
+    details: Front end coding Java Script, back end coding python.
+
+  - degree: Lic Geography in Territorial Planning
+    university: Universidad Nacional de Costa Rica
+    time: 2016 - 2023
+    details: Land use planning, Gis, Environmental management.
+
+
+experiences:
+  - role: Geographer&Gis
+    time: Actually
+    company: National University
+    details: Cocoa production project. This project aims to analyze the physical characteristics of the territory where cocoa is grown in Central America
+    Skills: Remote Sensing · Cartography · Research · Geographic Information Systems (GIS) Applications · R Studio · ArcGIS
+
+  - role: Assistance in the National Tsunami Monitoring System.
+    time: 4 months
+    company: National University
+    details: Bases de datos  Mapas  Infografías  Geografía  Arcgis Online  ArcGIs
+    Skills: Remote Sensing · Cartography · Research · Geographic Information Systems (GIS) Applications · R Studio · ArcGIS
+     
+  - role: Research assistant
+    time: 11 months
+    company: National University
+    details: Work was done with the proposal of the Interurban Biological Corridors Project, specifically in the Rio Segundo micro-watershed.
+    Skills: Remote Sensing · Cartography · Research · Geographic Information Systems (GIS) Applications · R Studio · ArcGIS
+
+  - role: Professional services in Geography
+    time: 1 year 3 months
+    company: UNSAT
+    details: As an environmental management assistant, field trips were conducted, actions were verified, topics were monitored, talks were prepared for training and environmental education purposes, weekly and monthly reports were created, databases were maintained, inventories were conducted, and cartographic work was done using Google Maps, ArcMap, and QGIS. Inter-American Highway Project, North Section Barranca/Limonal. 2021-2022. National Route 17, La Angostura Sector. 2021-2022
+    Skills: Fieldwork · Training · ArcGIS · Teamwork · Sciences
+
+    assignments:
+   
+
+     - title: DevStudio
+       link: "#"
+       tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: FlaskSQL
+      level: 75%
