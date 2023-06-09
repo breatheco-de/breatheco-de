@@ -1,0 +1,65 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+
+    first_name: Kate Naomi
+    last_name: Deras Rosales
+    
+    motto: Enthusiast in trying new things.
+    focus: Learning new innovative skills.
+    
+    summary: |
+      Tech enthusiast, current web development student with knowledge in html, css, javascript, bootstrap.
+
+    avatar: https://avatars.githubusercontent.com/u/65469487?v=4
+
+    email: kate.deras@gmail.com
+    github: quackate
+  
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: Intermidiate
+
+    interests:
+      - item: Reading
+      - item: Playing Instruments
+      - item: Learning new things
+
+education:
+    - degree: High School Degree
+      university: Fundación MHOTIVO
+      place: San Pedro Sula, Honduras
+      time: 2015 - 2019
+    
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      time: 2023
+
+experiences:
+    - role: Volunteer
+      time: 2022 - 2023
+      company: Cruz Roja Aranjuez
+      details: |
+        Volunteer in the infancy and elderly program. Elderly program: teaching about the new technologies to the elderly. Infancy: helping with school homework and extracurricular activities.
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Bootstrap
+        level: 45%
+
+      - name: Javascript
+        level: 45%
+
+
+      
