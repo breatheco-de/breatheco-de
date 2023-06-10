@@ -1,0 +1,89 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mariana
+    last_name: Plácito
+    
+    # Define yourself in 4-5 words
+    motto: I'm wonder woman
+    
+    # focus
+    focus: Be happy
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm passionated by programming. I started my journey with biology and transited for this area combining the two. 😀
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/101410421?s=400&u=a2d87eeacb5498b4ad52fc16a4bd9cf84ba6844f&v=4
+
+    # Contact Information
+    email: mariana.placito@gmail.com #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Placito
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Human Biology
+      university: University of Évora
+      # optional
+      university_logo: https://www.lifebioas.eu/sites/default/files/styles/extra_large/public/partner/logo_uevora_.png?itok=F6wkVUy-
+      time: 2009 - 2013
+      details: |
+        providing an interdisciplinary and integrated view of the human species from a biological point of view, which includes development, growth, anatomy and physiology.
+
+    - degree: Multimedia product development
+      university: Novotecana - Leiria
+      # optional
+      time: 2019 - 2020
+      details: |
+        Capable of conceiving, planning and developing solutions using the principles and practices of design and multimedia technologies, as well as techniques for capturing, recording, processing and disseminating cinema and the video.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Graphic designer
+      time: 2022 - 2023
+      company: Hilário Alves, Leiria
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf4mYHcarT7mjv9MbruxCCQFXVLwKZBUYwgOkTDrYB8wMrl0kHSONtU2nZOVMzoBXkkRs&usqp=CAU
+      details: |
+        When the problem requires creativity, technique, good aesthetic taste and a pinch of talent, possibly this problem will be solved by a graphic designer.
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 4%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 80%
