@@ -1,0 +1,57 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Jose
+  last_name: Ventura
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  prueba
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: crisisseldon@gmail.com #optional
+  phone:  #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: joseVent
+
+  twitter: #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: 
+
+    - item: 
+
+    - item: 
+
+# Your previous education
+education:
+  - degree: 
+    academy: 
+    # optional
+    university_logo: 
+    time: 
+    details: |
+      
+
+experiences:
+ 
+    company_logo: 
+    details: 
+    To-Do List: 
+      Tecnologias:
+
+    Dulce Sabor:  
+      Tecnologias: 
+
+    Fooder(Colaborativo): 
+      Tecnologias: 
+ 
