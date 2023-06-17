@@ -69,8 +69,14 @@ education:
     - degree: Engineer in Connectivity and Network
       university: duocUC
       # optional
-      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_DuocUC.svg/120px-Logo_DuocUC.svg.png
+      university_logo: https://www.dialogosdiseno.com/wp-content/uploads/2021/11/Duoc.svg
       time: 2008 - 2012
+
+    - degree: Student in Fullsack Developer
+      university: 4Geeks Academy
+
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
 
 # Your previous job experiences or voluntier
 experiences:
