@@ -1,0 +1,147 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carmen
+    last_name: Navarro
+    
+    # Define yourself in 4-5 words
+    motto: Everything has a funny side.
+    
+    # focus
+    focus: Boxing
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Trabajar en un proyecto solido y
+      con un buen equipo, me llena de
+      energía y motivación.
+      El diseño gráfico es una de mis
+      pasiones, y he descubierto una
+      nueva como programadora.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: carmen.mk.167@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/carmen-navarro-martinez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/carmelariadas
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Dancing
+
+      - item: Boxing
+
+      - item: Boardgames
+
+# Your previous education
+education:
+    - degree: Marketing e investigación de mercados
+      university: Universidad de Sevilla
+      # optional
+      university_logo: 
+      time: 2011 - 2016
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Marketing digital, diseño gráfico y publicidad
+      university: Nett Digital School
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019-2020
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Técnico de disñeo gráfico y marketing digital
+      time: 2017 - Present
+      company: Trama Gestión (Gráficas la Paz)
+      # optional
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: Javascript & React
+        level: 60%
+
+      - name: Angular
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Illustrator, Indesign & Photoshop
+        level: 90%
