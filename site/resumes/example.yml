@@ -9,31 +9,27 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Patricio Alfonso
+    last_name: Espinoza Rojas
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like to be kind
     
     # focus
     focus: Killing Bad Boys
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+    I am a chemical analyst, working for many years in chemical laboratories, and as an environmental inspector for several years. 
+    I have always liked computer science and programming as such, at this time I wanted to change my field of work to this world. start being 
+    self-taught watching videos and reading online, at this time of day I am in classes at the academy 4geeks and night study in inacap programming.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: palfonsoespinoza@gmail.com
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
@@ -49,26 +45,26 @@ basic_info:
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Basic
 
       - idiom: French
-        level: Professional
+        level: None
 
       - idiom: Spanish
         level: Professional
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: make astronomical observations with my telescope
 
-      - item: Snowboarding
+      - item: Play video games 
 
-      - item: Cooking
+      - item: wach movies and series
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Chemical analystch
+      university: Inacap sede renca
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
@@ -99,9 +95,9 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Chemical analystch
+      time: 2017 - 2021
+      company: environmental analysis s.a
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -205,3 +201,4 @@ skills:
 
       - name: Sketch & Photoshop
         level: 60%
+
