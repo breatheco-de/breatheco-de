@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Levan
+    last_name: Mamuladze
+    
+    # Define yourself in 4-5 words
+    motto: catching all of my goals!
+    
+    # focus
+    focus: Learning and improving myself everyday!
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      As a highly motivated and ambitious individual, 
+      I am deeply passionate about the field of technology. At only 20 years old, 
+      I have already made significant strides in my career by studying at both 4GeeksAcademy and the University of Macedonia to expand my knowledge and skills. 
+      My love for martial arts has instilled in me a strong sense of discipline and determination, which I carry with me in all aspects of my life.
+      I am driven to succeed in everything I do and always strive to be the best version of myself. With a strong work ethic and a thirst for knowledge,
+      I am confident that I have what it takes to make a valuable contribution to any organization.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: levanmamoulatze@gmail.com #optional
+    phone: +30 6983678188 #optional
+    linkedin: https://www.linkedin.com/in/levan-mamuladze-412304224 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: levanmamuladze
+    
+    
+    stack-overflow: LevanMamuladze
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Greek
+        level: Native
+
+      - idiom: Georgia
+        level: Good
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Gaming
+
+      - item: MMA
+
+# Your previous education
+education:
+    - degree: Undergratuate in Applied Informatics 
+      university: University of Macedonia
+      # optional
+      university_logo: https://www.uom.gr/site/images/logos/UOMLOGOGR-thumb.jpg
+      time: 2020 - present
+      details: |
+        The University of Macedonia's Applied Informatics subject focuses on the practical application of computer science in various fields such as business, finance,
+        and management. It includes topics such as database management, programming, software engineering, and information systems analysis and design. 
+        Students learn how to develop and implement technology solutions to solve real-world problems.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Undergratuate in Full Stack Software Developer
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - present
+      details: |
+        4Geeks Academy's Full Stack Developer program is a comprehensive training course designed to teach students how to build web applications from start to finish.
+         The program covers both front-end and back-end development, including HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more. 
+         Students work on real-world projects throughout the program, giving them hands-on experience and building their portfolio.
+          With a focus on practical skills and job readiness, graduates of the program are prepared to enter the workforce as full-stack developers.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Waitor
+      time: 2018 - 2021
+      company: Castello bar
+      # optional
+      company_logo: 
+      details: |
+        The job involves taking customer orders, serving food and drinks, answering questions about the menu, and ensuring customer satisfaction. 
+        They may also be responsible for setting and clearing tables, handling payments, 
+        and maintaining cleanliness in the dining area. Waiters must have good communication skills, be able to work efficiently under pressure,
+         and have a positive attitude towards customers. They may work in various dining establishments, such as restaurants, cafes, bars, and hotels.
+
+          - Bullet point
+          - Bullet point
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python 
+        level: 75%
+
+      - name: Javascript
+        level: 50%
+
+      
+
+      - name: HTML5 & CSS
+        level: 95%
+
+     
+      - name: Sketch & Photoshop
+        level: 70%
