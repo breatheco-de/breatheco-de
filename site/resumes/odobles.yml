@@ -1,0 +1,162 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Oscar
+    last_name: Dobles
+    
+    # Define yourself in 4-5 words
+    motto: Divide and conquer, that's it!
+    
+    # focus
+    focus: Want to learn as much as I want to breath!
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am an IT professional with over 4 years of experience. I started my
+      IT career since I was very young because I have been interested on
+      it since I was a kid. I face challenges as new opportunities to grow
+      and use my experience to help others grow as well.
+
+      I feel very passionate about learning new things and like to
+      understand things from their very foundations. When I don't
+      understand or don't know how to do something I like to investigate
+      and study whatever is needed to succeed on implementing that
+      task.
+
+      I take projects and tasks with care as if they were my own and I am
+      always looking for the opportunity of taking a weakness and
+      convert it into a strength without loosing the focus, dedication and
+      most importantly keeping the joy of doing what I do every day.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: johel_dobles.16@hotmail.com #optional
+    phone: +506 87372254 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/oscar-dobles-44a047198 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: odobles
+    
+    twitter: 'none' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2+
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Studying
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: High School Diploma and Vocational Training
+      university: Vocational High School of Puriscal
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Got my HS diploma and bilingual vocational emphasis on computer networking
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Technical Support Engineer
+      time: 2018 - 2020
+      company: Sykes (Sitel Group) / Cisco TAC.
+      # optional
+      company_logo: https://revistasumma.com/wp-content/uploads/2015/06/SYKES-LOGO.jpg
+      details: |
+        Played this role supporting Cisco UC solutions for the Cisco TAC.
+        Provided bilingual tech support for wide variety if customers around the globe, while meeting strict SLAs and focusing on team work.
+
+    - role: Managed Services Engineer II
+      time: 2020 - 2022
+      company: CRG, Costa Rica
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4E1BAQFnkik-QE0SzA/company-background_10000/0/1636484389624?e=2147483647&v=beta&t=b6EM8ugfCAfnhy0frhrtU98vcc9U9Ino9tpeQU1RWo0
+      details: |
+        Provided UC network support for variety of sensitive clients, mostly international law firms and hospitals. Involved in troubleshooting of incidents as well as the execution of changes during maintenance windows.
+    - role: Azure Cloud Networking Engineer
+      time: 2022 - Present
+      company: Microsoft, Costa Rica
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Currently playing the role of Support Engineer at Microsoft which involves troubleshooting complex cloud networking problems and dealing with variety of cloud designs and infraestructure inside Azure Cloud.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
