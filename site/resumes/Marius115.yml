@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "criollo"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mariano
+    last_name: Cascarano
+    
+    # Define yourself in 4-5 words
+    motto: I live to seek the Great Perhaps
+    
+    # focus
+    focus: Living and Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      3 years working as a chemical developer of recepies for the e-liquids industry under the VapearVenezuela company
+      2 years working in the psychological profile department has lead to a great understanding of the focal groups for products approval, either in the pharmaceutical sector or outside of it.
+      
+      
+
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: null
+
+    # Contact Information
+    email: fakename@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+ 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Programming
+
+      - item: Videogames
+
+      - item: Cooking
+
+
+
+# Your project portfolio
+projects: Completar con exito el curso de 4geeks
+    intro: 
+    -Maximo esfuerzo y desempeño para lograrlo.
+     
+
+   
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: BootStrap
+        level: 90%
+
+      - name: JavaScript
+        level: 60%
+
+      
+
+      
