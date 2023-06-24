@@ -1,0 +1,128 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+
+    first_name: Rachel
+    last_name: Pereira
+    
+    
+    motto: impossible is always possible
+    
+    
+    focus: Learn everything about web development. 
+    
+    
+    summary: |
+      I am a very dedicated person, responsible with my duties, in addition to being a sports-active and healthy person, and I enjoy learning new things. Since I was a child, I know that I like the area of technology, so I took the challenge of studying Computer Engineering and learning everything related to web development. In the same way I have a hobby with music. 
+
+
+    
+    email: rachelpereiragonzalez@outlook.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/rachel-pereira-0ba994254/
+    
+    
+    github: rey1027
+    
+    #twitter: '' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B1
+
+    
+    interests:
+      - item: Music
+
+      - item: Sport
+
+      - item: Tecnology
+
+
+
+education:
+    - degree: Computer Engineering
+      university: Costa Rica Institute of Technology
+       # optional
+       #university_logo: https://www.vhv.rs/dpng/d/461-4617822_fiu-panther-logo-png-mascot-florida-international-university.png
+      time: 2020 - Present
+             # details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+
+experiences:
+    - role: Laboratory administration assistant
+      time: 2021 - Present
+      company: Academic Area of Computer Engineering (Costa Rica Institute of Technology)
+      details: |
+          -Supervision of the tasks of the operators.
+          -Creation of operator schedules.
+          -Document review.
+          -Creation of new tools for laboratory logistics.For example: Telegram Bots, Web Application for recording hours.
+          -Communicate with operators to solve problems 
+
+
+# # Your project portfolio
+projects:
+     intro: >
+       Below I show some of the projects that I have carried out in my process of training in engineering and web development
+
+     assignments:
+       - title: 3C-Company-System
+         # optional
+         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: "#hook"
+         tagline: "It corresponds to a billing system made with Python, where a database with sqlite 3 is used to store the data, it also has a login that uses facial recognition to ensure that it is a registered person who is entering the system"
+
+       - title:   MonsterTEC
+         # optional
+         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: "#"
+         tagline: "It is an online card game made in Java, which is based on a theme similar to Magic"
+
+       - title: BreakoutTec
+         # optional
+         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: "#"
+         tagline: "It is a block game like Brick Breaker, where its client was made in Java and its server in C++. Both parties connect through Sockets"
+
+       - title: Stardeck
+         # optional
+         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: "#"
+         tagline: "Online card game based on magic, but with a space theme, which has a postgres database, its Back-End is in C# and its Front-End is in Angular.
+          This project contains a planning, is worked in Scrum and presents unit tests of both parties."
+
+skills:
+     toolset:
+       - name: Python 
+         level: 98%
+
+       - name: Javascript 
+         level: 70%
+
+       - name: Angular
+         level: 90%
+
+       - name: HTML5 & CSS & Bootstrap
+         level: 95%
+
+       - name: C++ & Java
+         level: 90%
+
+       - name: C#
+         level: 70%
