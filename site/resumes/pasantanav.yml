@@ -106,9 +106,6 @@ experiences:
 
 skills:
     toolset:
-      - name: Python
-        level: 40%
-
       - name: Javascript & Java
         level: 70%
 
@@ -123,3 +120,6 @@ skills:
 
       - name: C# & C
         level: 60%
+
+      - name: Python
+        level: 50%
