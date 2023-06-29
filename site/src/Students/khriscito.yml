@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Khristhopher
+    last_name: Leon
+    
+    # Define yourself in 4-5 words
+    motto: I love so much developing
+    
+    # focus
+    focus: Create new things
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm Programmer i've been salesman like 10 years and now I'm Looking for new challenges
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdn-icons-png.flaticon.com/512/1995/1995515.png
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: khriscito
+    
+    twitter: 'khriscito' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Watch anime
+
+      - item: Play Soccer
+
+      - item: Play VideoGames
+
+# Your previous education
+education:
+    - degree: Systems Engineer
+      university: Universidad Nacional Experimental de las Fuerzas Armadas (UNEFA)
+      # optional
+      university_logo: https://es.wikipedia.org/wiki/Universidad_Nacional_Experimental_Polit%C3%A9cnica_de_la_Fuerza_Armada_Nacional_Bolivariana
+      time: ended in 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales development representative
+      time: 2010 - Present
+      company: Linio, CANTV, Genwords, Glambu
+      
+# Your project portfolio
+projects:
+    intro: >
+      Since I'm junior I have not much projects you can see there on my Github
+
+    assignments:
+      - title: CRM for an hotel
+       
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: Javascript 
+        level: 80%
+
+      - name: Angular
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: React and React native
+        level: 85%
+
