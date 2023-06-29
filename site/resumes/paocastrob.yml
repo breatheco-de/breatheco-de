@@ -96,7 +96,6 @@ projects:
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-
 skills:
     toolset:
       - name: Python & Django
