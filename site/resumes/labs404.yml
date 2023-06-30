@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jay
+    last_name: Labs
+    
+    # Define yourself in 4-5 words
+    motto: Full-stack Student
+    
+    # focus
+    focus: Learning the skills necessary for a career in tech.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+       I am a hungry and driven student looking to acquire the skillset needed for a career in tech. I bring a unique skillset from my prior work history that I hope will give me a unique skillset that I hope can be leveraged as a distinct and defining characteristic that sets me apart from my peers. I am dedicated and excited to be humbled by the world of tech! 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F14%2FJ-Letter-PNG-Image.png&f=1&nofb=1&ipt=fd4da18f2d4252ac376ecba716cd428627313cdf8f8284a2be56233beb07bea2&ipo=images
+
+    # Contact Information
+    email: jays_fake_email@fake_host.gov #optional
+    phone: 555 867 5309 #optional
+    website: https://this-person-does-not-exist.com/en #optional
+    linkedin: jay #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: labs404
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Kitchen/Broken
+
+
+    # Interests or hobies
+    interests:
+      - item: Mechanical Keyboards
+
+      - item: Pitbulls
+
+      - item: Cooking
+
+      - item: DIY Projects
+
+# Your previous education
+education:
+    - degree: AAS Hospitality Management
+      university: Secchia Institute
+      # optional
+      university_logo: https://i0.wp.com/www.culinarycareer.net/wp-content/uploads/2018/07/Secchia-Institute-for-Culinary-Education.jpg?w=397&ssl=1
+      time: 2004 - 2007
+      details: |
+        Learned all aspects of hospitality management including, but not limited to, inventory management, cost controls, financial analysis, market research, multi-unit management, dietary science, beverage management, procurement, effective coaching and management.
+
+          - Phi Theta Kappa International Honor Society
+          - National Dean's List
+
+    - degree: AAS Culinary Arts
+      university: Secchia Institute
+      # optional
+      university_logo: https://i0.wp.com/www.culinarycareer.net/wp-content/uploads/2018/07/Secchia-Institute-for-Culinary-Education.jpg?w=397&ssl=1
+      time: 2004 - 2007
+      details: |
+        Experience a diverse offering of learning opportunities surrounding the procurement, storage, preparation, recipe development, menu creation, and execution of food in varied cultural and regional disciplines focusing on fundamentals and core techniques.
+
+          - Phi Theta Kappa International Honor Society
+          - National Dean's List
+          - ACF Competitor
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Student
+      time: 2023 - Present
+      company: 4Geeks Academy
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Focused on learning, growing, and assimilating information that can assist me with breaking into a tech career in the future.
+
+          - HTML
+          - CSS
+          - JavaScript
+          - Bootstrap
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: HTML5 Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/jay-labs-html5-form"
+        tagline: "Create the structure of an HTML5 form, allowing user input and adhering to a predetermined layout and appearance."
+
+      - title: Bootsctrap Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/jay-labs-bootstrap-instagram-feed"
+        tagline: "Use bootstrap to build a responsive website that mimics instagram."
+
+      - title: Excuse Generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/labs404/excuse-generator-project"
+        tagline: "Create a silly excuse generator that concatenates a sentence in a pseudo-random manner."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: BASIC
+        level: 90%
+
+      - name: Photoshop
+        level: 20%
