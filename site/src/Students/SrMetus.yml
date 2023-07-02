@@ -43,7 +43,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: https://github.com/SrMetus
     
-    twitter: 'webjeda' #optional
+    twitter: 'RotoDeCiudad' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -80,54 +80,54 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: ENCARGADO INFORMÁTICA
+      time: ABRIL 2013 - FEBRERO 2014
+      company: POSCO E&C INGENIERÍA Y CONSTRUCCIÓN
+
+      # optional
+      company_logo: https://www.poscoenc.com:446/en/common/images/contents/ci-en.png
+      details: |
+        Reparación y cambio de equipos informáticos.
+        Supervisión y comprobación informática y de normativas
+        vigentes.
+        Asistencia informática total a trabajadores de la oficina y
+        en remoto.
+        Gestión de los equipos informáticos disponibles.
+        Actualización periódica de los sistemas informáticos.
+
+    - role: ANALISTA DE DATOS
+      time: ABRIL 2015 - ABRIL 2018
+      company: ENTEL CONTACT CENTER S.A
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Procesamiento de datos e introducción de datos en bases
+        de datos.
+        Generación de bases de datos en Access.
+        Atención al cliente tanto telefónicamente como por
+        correo electrónico y presencial.
+        Presentación de ideas para mejorar el desempeño y la
+        eficiencia.
+        Creación de informes diarios en excel con niveles de
+        servicios telefónicos para clientes y supervisores.
 
-          - Bullet point
-          - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: ENCARGADO INFORMÁTICA
+      time: ABRIL 2018 - FEBRERO 2023
+      company: COLEGIO UMBRAL DE CURAUMA
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://colegioumbral.com/assets/img/logo.png
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Cumplimiento de mis objetivos a corto y largo plazo.
+        Gestión empática de las quejas de los usuarios.
+        Participación proactiva en reuniones destinadas a crear
+        nuevas prácticas.
+        Atención al cliente tanto telefónicamente, como por
+        correo electrónico.
+        Formación y supervisión de las nuevas incorporaciones a
+        la plantilla.
+        Colaboración con el cuadro directivo para identificar
+        problemas en el flujo y proponer soluciones.
 
 # Your project portfolio
 projects:
@@ -169,20 +169,11 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 5%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: Javascript
+        level: 20%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 50%
