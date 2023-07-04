@@ -15,8 +15,8 @@ basic_info:
     focus: developer full stack
     
     # You have 1 paragraph to make a great impression, summarize your career.
-    summary: |
-      I´m a Junior front end developer. My passion is technology. I like much to learn new things about the world of technology.
+    summary: 
+      I am Junior front end developer. My passion is technology. I like much to learn new things about the world of technology.
 
       Second paragraph if required.
     
@@ -53,17 +53,9 @@ education:
     - degree: Master's
       university: UCM
       # optional
-      university_logo: 
+      #university_logo: 
       time: 2015 - 2016
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+      
 
 # Your previous job experiences or voluntier
 experiences:
@@ -71,32 +63,19 @@ experiences:
       time: 2022 - 2023
       company: Prime Business Technologies
       # optional
-      company_logo: 
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
+      # company_logo: 
+      
 
 
 # Your project portfolio
-projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+# projects:
+    # intro: >
+      # You can list your side projects or open source libraries in this
+      # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
 skills:
     toolset:
-
       - name: Javascript
         level: 60%
 
