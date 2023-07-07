@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Wood J.
+    last_name: Saint-Germain
+    
+    # Define yourself in 4-5 words
+    motto: If I was a superhero, I'd be Tony Stark!
+    
+    # focus
+    focus: creating useful products that make people's lives easier.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+    Entrepreneurially spirited professional with PMP certification and a proven track record in project management, coupled with a passion for creativity and innovation. Currently, I am expanding my expertise as a software engineer through an intensive Software Development Bootcamp at the prestigious 4Geeks Academy. Here, I am gaining proficiency in multiple programming languages, software development methodologies, and problem-solving strategies. With a fusion of robust project management skills, an inherent drive for creation, and an emerging software engineering acumen, I am excited to contribute significantly to the tech industry. My approach is characterized by a growth mindset, a knack for taking on challenges, and an unwavering commitment to stay at the forefront of technological advancements.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: woodjerry02@gmail.com
+    phone: 786 237 9741
+    website: asd.com #optional
+    Linkedin: https://www.linkedin.com/in/woodsaintgermain/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Jetskiing 
+
+      - item: kayaking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BA in Psychology 
+      university: Florida International University
+      # optional
+      university_logo: https://brand.fiu.edu/_assets/images/fiu-logo-vertical.png
+      time: 2014 - 2019
+      details: |
+        Obtaining my Bachelor's degree in Psychology was an enlightening journey that involved a comprehensive exploration of human behavior and mental processes. From rigorous study in areas such as developmental, cognitive, and social psychology to specialized topics like neuropsychology, I engaged in meticulous analysis of case studies, theoretical concepts, and statistical data. Beyond academics, this journey was a voyage of personal growth and self-discovery, enhancing my understanding of my own behavior and emotions as well as those of others. It also equipped me with invaluable skills - data analysis, project management, understanding human behavior, and superior communication skills - forming a well-rounded skillset that can be applied to diverse professions. Ultimately, my Bachelor's in Psychology was a transformative experience, combining rigorous academics with significant personal insights, setting a strong foundation for my future endeavors.
+
+          - Meticulous engagement in the analysis of case studies, theoretical concepts, and statistical data, fostering critical thinking and research skills.
+          - Acquisition of invaluable transferable skills, including data analysis, project management, understanding human behavior, and superior communication skills, preparing for diverse professional paths
+
+    - degree: Certification of completion 
+      university: 4 Geek Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: June 2023 - October 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales Development Representative
+      time: 2022 - 2023
+      company: Accenture/ Google
+      company_logo: https://1000logos.net/wp-content/uploads/2021/04/Accenture-logo.png
+      details: |
+        Utilized tools such as GitHub, JIRA, Slack, and AWS to collaborate with team members, manage projects, and deploy software solutions, effectively streamlining workflow and increasing productivity.
+        Consistently exceeded project completion targets by 120%, successfully deploying an average of 6 key features or bug fixes per month, thereby improving application performance and user experience.
+        Initiated new software solutions based on thorough research and analysis of user needs, leading to the development of tailored applications that effectively met client specifications.
+        Frequently liaised with key stakeholders, ensuring the accurate translation of client requirements into functional software features, ultimately leading to the acquisition of more accounts and enhanced customer satisfaction.
+    
+    - role: Sales Development Representative
+      time: 2021- 2022
+      company: Insight Global
+      company_logo: https://www.komen.org/wp-content/uploads/InsightGlobal_Horizontal_Color.png
+      details: |
+        Collaborated closely with a team of 6 other engineers, promoting an environment of shared learning and continuous improvement, optimizing task scheduling, and contributing to overall project efficiency.
+        Addressed and resolved hundreds of user-generated tickets and inquiries regarding software functionality or issues, achieving a resolution rate of 60%, exceeding targeted benchmarks by 10%.
+        
+
+    - role: Sales Development Representative 
+      time: 2021 - 2022
+      company: K-Force
+      company_logo: https://kforcewebeast.azureedge.net/media/407209/microsoftteams-image-7.png
+      details: |
+        Took proactive steps to address software issues or bugs hindering end-user satisfaction or product usage, ultimately enhancing user experience and software reliability.
+        Followed a systematic schedule to manage inbound/outbound code and merge requests, contributing to the efficient and continuous development of the software.
+        Managed and maintained a queue of development tasks and bugs, working closely with the development team to ensure timely resolution and promote the release of new software features.
+        
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
