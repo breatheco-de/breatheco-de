@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Karin del Valle
+    last_name: Romero García
+    # Define yourself in 4-5 words
+    motto: Me gusta luchar por mis metas 
+    
+    # focus
+    focus: Desarroll web Full Stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career: Un ingeniero de ciberseguridad es un profesional que diseña e implementa sistemas digitales 
+      seguros para proteger redes, sitios web y otros activos en línea de ataques cibernéticos maliciosos. La ciberseguridad 
+      es la práctica de defender las computadoras, los servidores, los dispositivos móviles, los sistemas electrónicos, las redes y los datos de ataques maliciosos. También se conoce como seguridad de tecnología de la información o seguridad de la información electrónica.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: karinromero2000@gmail.com #optional
+    phone: 946982162 #optional
+    website: KarinRG.com #optional
+    linkedin: www.linkedin.com/in/karin-romero-229a941a6
+
+ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DarioQuintanilla2109
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Español
+        level: Profesional
+
+    
+
+    # Interests or hobies
+    interests:
+      - item: Codificar
+
+      - item: Cocina
+
+      - item: Tecnología
+
+# Your previous education
+education:
+    - degree:En proceso de Ing. Ciberseguridad
+      university: IACC Instituto Profesional
+      # optional
+      university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2020
+      details: |
+       
+    - degree: 2 en Seguridad de la Información
+      university:IACC
+      # optional
+# Your previous job experiences or voluntier
+experiences:
+    - role: Soporte Tecnico Nivel 1
+      time: Feb 2022 - Marzo 2023
+      company: Mampro S.A
+      details: |
+        El soporte técnico de primer nivel es el encargado de prestar ayuda y asesoramiento a clientes
+        sobre los productos y servicios de la empresa. Proporcionan apoyo por teléfono, correo electrónico
+        o a través de un sistema de tickets interno.
+
+# Your project portfolio
+projects:
+    intro: >
+      Esta asignatura muestra cómo analizar, conceptualizar, diseñar, desarrollar
+      e implementar proyectos gráficos por pantalla, sean webs, apps o propuestas digitales multi-plataforma
+    assignments:
+      - title: Velocity
+        # optional
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: Javascript
+        level: 70%
+
+      - name: React
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: Git
+        level: 70%
+
+      - name: PostgreSQL
+        level: 80%
