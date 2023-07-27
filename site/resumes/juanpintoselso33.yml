@@ -1,0 +1,56 @@
+template: "online-cv"
+skin: "dark-blue  "
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Ignacio   
+    last_name: Pintos Elso
+    
+    motto: IT Student
+    
+    focus: Grow as a professional 
+    
+    
+    summary: Aspiring Junior Developer with years of experience in proactive teamwork, leadership, and communication in political and legislative roles. Passionate about technology and a lifelong learner with an ever-growing knowledge of programming languages and software development. Applying for a position as a Junior Developer or Tester to jumpstart a career in the IT field and enhance and develop innovative solutions.  | 
+    
+          
+    avatar: https://media.licdn.com/dms/image/C4D03AQFax9rWUJ-qRw/profile-displayphoto-shrink_200_200/0/1655069470735?e=1695859200&v=beta&t=vOArRiKOTn5zs0o5syMRElGPSFitb1Ao54zd07n7prQ
+
+    # Contact Information
+    email: juanpintoselso33@gmail.com 
+    phone: +598 091 515 521 
+    linkedin: https://www.linkedin.com/in/juan-ignacio-pintos-elso-257990129/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Juanpintoselso33
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Eglish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: History
+
+      - item: Economics
+
+# Your previous education
+education:
+    - degree: B.A. in Political Science
+      university: Universidad de la Republica, Uruguay
+      # optional
+      university_logo: https://logotipoz.com/wp-content/uploads/2021/09/Logotipo-UDELAR.png
+      time: 2016 - 2022
+      details: I pursued my degree part-time, during which I honed my skills in data management and analysis, and gained a deep understanding of governmental operations and public policies. I'm currently working on my thesis, which focuses on analyzing the process of Decentralization in Uruguay, particularly the role that the Congress of Intendants has played in this process. |
+      
+   
