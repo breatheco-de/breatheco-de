@@ -1,0 +1,67 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bryan
+    last_name: Aleman
+    
+    # Define yourself in 4-5 words
+    motto: Fanatico de la informatica 
+    
+    # focus
+    focus: Aprendizaje constante
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: balemansteve@gmail.com #optional
+    phone: 098 691 347 #optional
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/balemansteve
+    
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+
+    # Interests or hobies
+    interests:
+      - item: Football
+
+      - item: Running
+
+
+# Your previous education
+education:
+    - degree: Software engineering
+      university: University of Valencia
+      time: 2018 - 2020
+
+        
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Technical Support 
+      time: 2015 - 2023
+      company: freelancer
