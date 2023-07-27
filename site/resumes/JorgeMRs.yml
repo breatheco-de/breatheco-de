@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name : Martinez
+    
+    # Define yourself in 4-5 words
+    motto: La siguiente generación siempre sobrepasa a la primera, es uno de los ciclos interminables de la vida
+    
+    # focus
+    focus: Ser Programador
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Estoy certificado como  Jr Tester QA y Analista Genexus. Cuento con sólidas habilidades
+      para resolver problemas y tengo experiencia laboral profecional
+      comprobada en la construcción y diseño de aplicaciones Web con Genexus 8 y 16.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/JMartínez.jpeg
+
+    # Contact Information
+    email: jocady25@gmail.com #optional
+    phone: 098 287 051 #optional
+    website: #none #optional
+    linkedin: www.linkedin.com/in/jorge-martinez-1b13b9210 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/JorgeMRs
+    
+    twitter: 'https://twitter.com/milanga_ok101?t=dO2TMY_A8zpaYDjN29ATOw&s=09' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Medio
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Ciclismo de ruta
+
+      - item: hacking etico
+
+      - item: Cocinar
+
+      - item: GYM
+
+      - item: Correr
+
+# Your previous education
+educación:
+    - grado: Bachillerato en Informática
+      Instituto: UTU Maria Espinola Espinola
+      # opcional
+      logotipo_universitario: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      tiempo: 2017 - 2019
+      detalles: |
+        Programación, desarrollo web, Bases de datos, Testing, Física, Química, Biología,       Gestión Empresarial, Matemática, Inglés.
+
+      
+    - grado: Testing
+      Institucion: Jóvenes a Programar     
+      tiempo: 2021 - 2022
+      detalles: |
+        Certificación de Tester QA:
+
+    - grado: Analista Genexus
+      Institucion: Jóvenes a Programar     
+      tiempo: 2022 - 2022
+      detalles: |
+        Certificación de Analista Genexus 17 y Desarrollador Genexus 17
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Desarrollador Genexus
+      time: Enero 2022 - Junio 2022
+      company: Bantotal, Montevideo
+      # optional
+      company_logo: https://www.bing.com/images/search?view=detailV2&ccid=17bqt9Cw&id=F434A2C7AA4799980F59EB4FC3BF718E4F19DFD3&thid=OIP.17bqt9Cw8S1uqYr7PiBytwHaD4&mediaurl=https%3a%2f%2fwww.bantotal.com%2fwp-content%2fuploads%2f2020%2f06%2fbtplace.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d7b6eab7d0b0f12d6ea98afb3e2072b7%3frik%3d098ZT45xv8NP6w%26pid%3dImgRaw%26r%3d0&exph=630&expw=1200&q=bantotal&simid=608027065968296334&FORM=IRPRST&ck=585692D996E7B7DA30FE51EDD4AF2B4B&selectedIndex=0&ajaxhist=0&ajaxserp=0
+      details: 
+
+        Aprendis Tecnico / Implementador de mejoras/ correcciones / analisis de requerimientos / Analista /
+        
+
+
+    - role: Cajero / Ayudante de cocina
+      time: 2020 - 2021
+      company: Local "El Tatin" / San Jose de mayo
+      # optional
+      company_logo: #none
+      details: |
+        cajero / ayudante de cocinero
+    
+
+# Your project portfolio
+#none
+
+
+#Habilidades
+
+skills:
+
+    toolset:
+      - name: Python 
+        level: 50%
+
+      - name: Javascript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Robot Framework
+        level: 70%
+
+      - name: Genexus 8, 9, 16 , 17
+        level: 90%
+
+      - name: IMB Cloud
+        level: 50%
+
+      - name: SQL, Oracle
+        level: 50%
+
+      - name: SoapUI
+        level: 50%
+
+      - name: Trabajo en equipo
+        level: 80%
+
+
