@@ -1,0 +1,68 @@
+template: "online-cv"
+skin: "orange"
+
+
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Bianca
+  last_name: Salcedo
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Estoy en el Bootcamp 4geeks Academy, el cual me esta permitiendo tener los conocimientos
+  de developer. En el estare aprendiendo tecnologias como JavaScript,
+  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+  el trabajo grupal.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://lh3.googleusercontent.com/w2egINpp8oggOxj8DtCoWd5_t43bHpGz5fD035J-xcnrYCppKk6wU5_BuOKDzT54CBeSfyiJMuWxqRkezW0ofn03IefPkpnxaOR0X8gB
+
+  # Contact Information
+  email: bdmsa12@gmail.com #optional
+  phone: 569 83116845 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Biancadmsa
+
+  twitter: Biancadmsa #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Video juegos
+
+    - item: Viajes
+
+    - item: Cocinar
+
+# Your previous education
+education:
+  - degree: Desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: mar-2022 - ago-2022
+    details: |
+      Estoy en el Bootcamp 4geeks Academy, el cual me esta permitiendo tener los conocimientos
+  de developer. En el estare aprendiendo tecnologias como JavaScript,
+  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+  el trabajo grupal.
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
+    Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+
+    Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
+      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+ 
