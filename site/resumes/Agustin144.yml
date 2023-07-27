@@ -1,0 +1,94 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Agustin       
+    last_name: Rolando
+    
+    # Define yourself in 4-5 words
+    motto: Be stronger than yesterday
+    
+    # focus
+    focus: Develop myself as a programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      I am a person with the ability to work in a team.
+      I have problem solving ability.
+      I adapt well to any work environment.
+    avatar: https://www.facebook.com/photo.php?fbid=1598696190167085&set=t.100000532429257&type=3
+
+    # Contact Information
+    email: agustinrolando092@gmail.com
+    phone: +59899301412
+    website: https://instagram.com/agustinrrolando?igshid=MmIzYWVlNDQ5Yg==
+    linkedin: Creating
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Agustin144
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: Portuguese
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Motorcycle
+
+      - item: Paddle
+
+      - item: Football
+
+# Your previous education
+education:
+    - degree: Imaging student
+      university: EUTM
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2Fpeople%2FEscuela-Universitaria-de-Tecnolog%25C3%25ADa-M%25C3%25A9dica-oficial%2F100069892266942%2F%3Flocale%3Des_LA&psig=AOvVaw1mHeBLxY-RAh0klZULy_1T&ust=1690569186567000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDX4pDDr4ADFQAAAAAdAAAAABAE
+      time: 2019 - 2023
+      details: |
+        Third grade imaging student.
+
+        Full stack student 4geeks academy
+          
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrative
+      time: 2021 - 2023
+      company: Transporte Profesional Rolando
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
