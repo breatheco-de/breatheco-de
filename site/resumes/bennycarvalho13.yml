@@ -1,0 +1,114 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Benny
+    last_name: Oliveira
+    
+    # Define yourself in 4-5 words
+    motto: the search for knowledge is endless
+    
+    # focus
+    focus: focus
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis disa parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricie nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/33961839?v=4
+
+    # Contact Information
+    email: bennycarvalho13@gmail.com #optional
+    phone: +531 912 965 022 #optional
+    linkedin: https://www.linkedin.com/in/benny-oliveira-70863a1b7 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: bennycarvalho13
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: Video Game Programming with Unity 3D Professional Course
+      university: Master.D
+      # optional
+      university_logo: https://imgcom.masterd.es/31/wp-content/uploads/2018/05/masterd-laranja.png
+      time: 2020 - 2021
+      details: |
+        In this course, I learned among other things:
+          - Organizing Components in Unity
+          - Physics programming in objects
+          - Scene creation and lighting
+          - 2D and 3D art import
+          - Unity's animation and particle system
+          - AI and UI Programming and Implementation
+
+    - degree: Video Game Programming Technical Course
+      university: Senac
+      # optional
+      university_logo: https://transparencia.senac.br/assets/img/marca-vertical-85.png
+      time: 2018 - 2020
+      details: |
+        In this course, I mastered:
+          - Programming in C#
+          - Programming in Scratch and Construct 2
+          - Construction of GDD
+          - Programming with Unity 3D
+# Your previous job experiences or voluntier
+experiences:
+
+# Your project portfolio
+projects:
+    intro: >
+      I've made many game prototypes throughout my career and here is one of them successfully published on Google Play.
+    assignments:
+      - title: Bald's Dungeon
+        # optional
+        project_logo: https://play-lh.googleusercontent.com/Xi_e67kIXX6tZd-PaeG4HVEoReS08l7BH3swySLDLy5tLkdOgcNydSPzxQydds-zPp0=w240-h480-rw
+        link: https://play.google.com/store/apps/details?id=com.PixelilyGames.BaldsDungeon&hl
+        tagline: "A Role Playing game that uses procedurally generated levels"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
