@@ -1,0 +1,62 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    name: Cristian Díaz
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: /static/rigo.png
+
+    # Contact Information
+    email: cristiandíaz@gmail.com
+    phone: 234 2342 342
+    website: cristiandiaz.com
+    linkedin: cristiandiaz
+    twitter: '@cristiandiaz'  
+    github: cristiandiazperdomo
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+      
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Reading
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: Bachiller
+      university: Liceo 1
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: RacionMelo
+        # optional
+        project_logo: https://racionmelo-5f0b5.web.app/src/assets/banners/dog.png
+        link: "https://racionmelo-5f0b5.web.app/#/"
+        tagline: "Buy animal feed."
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 100%
+
+      - name: React
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
