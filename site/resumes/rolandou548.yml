@@ -53,11 +53,11 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Chess
 
-      - item: Snowboarding
+      - item: Piano
 
-      - item: Cooking
+      - item: Speedcubing
 
 # Your previous education
 education:
