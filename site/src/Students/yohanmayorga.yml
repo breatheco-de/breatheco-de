@@ -1,0 +1,40 @@
+---
+template: online-cv
+basic_info:
+  first_name: Yohan
+  last_name: Mayorga
+  summary: Estudiante del Bootcamp de programación de 4Geeks Academy. Interesado
+    en el desarrollo de aplicaciones web, front end y back end. Entusiasta de la
+    programación y el aprendizaje constante.
+  email: yohanucv@gmail.com
+  phone: 584242091608
+  github: yohanmayorga
+  twitter: yohanmayorga
+  interests:
+    - item: Programación
+    - item: Diseño 2D/3D
+    - item: Piano
+education:
+  - degree: Licenciado en Estudios Internacionales / Economista
+    academy: Universidad Central de Venezuela
+    time: sep-2011 - dic-2015
+    details: 
+      Estudios Internacionales y Economía. Universidad Central de Venezuela.
+      Modalidad de estudios simultáneos. Aprendizaje integral del sistema
+      internacional, protocolos diplomáticos, organizaciones internacionales,
+
+      política y economía internacional, entre otros. Interés particular en mercado de valores y finanzas internacionales.
+experiences: Casa de Bolsa. Análisis y toma de decisiones de inversión en los
+  mercados de valores nacional e internacional.
+skills:
+  toolset:
+    - name: HTML
+      level: 98%
+    - name: CSS
+      level: 98%
+    - name: JavaScript
+      level: 90%
+    - name: Python
+      level: 85%
+    - name: Web Design
+      level: 85%
