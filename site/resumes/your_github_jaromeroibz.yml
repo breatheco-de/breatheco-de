@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Romero
+    
+    # Define yourself in 4-5 words
+    motto: I like new challenges
+    
+    # focus
+    focus: Learning to code
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have worked in sales for the last 4 years. I've got a Industrial engineering background and I'm confident with improving a customer portfolio.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_5-512.png
+
+    # Contact Information
+    email: jaromeroibz@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/javier-romero-ba6a96230/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jaromeroibz
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: 123456/jaromeroibz # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Surfing
+
+      - item: Snowboarding
+
+      - item: Playing Music
+
+# Your previous education
+education:
+    - degree: Industrial Civil Engineering
+      university: Adolfo Ibanez University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Logo_Universidad_Adolfo_Ib%C3%A1%C3%B1ez.JPG/1200px-Logo_Universidad_Adolfo_Ib%C3%A1%C3%B1ez.JPG
+      time: 2011 - 2016
+      details: |
+        I studied 6 years a degree in Industrial Civil Engineering with a specialization in Mining
+
+          - Industrial Engineering
+          - Mining
+
+    
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales Engineer
+      time: 2020 - 2022
+      company: COPEC, Antofagasta
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/a/a1/Logo_copec_2023_Cielo.jpg
+      details: |
+        Managing a 120+ customers portfolio. Prospecting, connecting, finalize and leading sales of MOBIL lubricants to the mining and transport industries. Giving technical advice to customers to deliver the best products and services according to their needs. Leading the pre-sale, sale and post-sale processes from selling to the distribution of the product and the customer reception.
+
+          - Manager
+          - Sales
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: React
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
