@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francesca
+    last_name: Ameche
+    
+    # Define yourself in 4-5 words
+    motto: Life is too short to not choose the path that makes you happy
+    
+    # focus
+    focus: Programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I graduated from University of Costa Rica with a degree in Nutrition, and realized that even though I am passionate about food and nutrition, it was not the career path I wanted. I spent 2 years working in a travel agency and became supervisor of a team until I had a baby and decided to stay home with him. 7 years and 2 more babies later I was certain I wanted to make a move towards programming which is something that I had been feeling drawn to for a few years and had been studying off and on from different free online resources. I finally enrolled in 4Geeks Academy and discovered I love programming even more than I imagined and am excited to move forward on this path.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: francesca.ameche@gmail.com
+    phone: 8463 4240
+    website: #optional
+    linkedin: Francesca Ameche
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: FrancescaAmeche
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Spending time with my family
+
+      - item: Reading fiction
+
+      - item: Being in nature
+
+# Your previous education
+education:
+    - degree: Bachelors in Nutrition
+      university: University of Costa Rica
+      # optional
+      university_logo: https://insigniang.com/wp-content/uploads/2019/05/Escudo-UCR-2.jpg
+      time: 2007 - 2011
+      
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Supervisor
+      time: 2015 - 2016
+      company: Carlson Wagonlit Travel
+      # optional
+      company_logo: https://www.logotypes101.com/logos/806/E699C64D5435CA1B57B1B6ED1B89F015/Carlson_Wagonlit_Travel.png
+      details: |
+        I was in charge of a team of 10 travel counselors for the MasterCard account where we would book flights, cars and hotels for our clients.
+
+
+    - role: Travel Counselor
+      time: 2014 - 2015
+      company: Carlson Wagonlit Travel
+      # optional
+      company_logo: https://www.logotypes101.com/logos/806/E699C64D5435CA1B57B1B6ED1B89F015/Carlson_Wagonlit_Travel.png
+      details: |
+        I would use the Sabre Global Distribution System to book flights and make car and hotel reservations for corporate travel. I would provide customer support whenever needed, to book new reservations or make changes to existing ones through phone and email.
+
+
+    - role: Freelance translator
+      time: 2010 - Present
+      company: Freelance
+      # optional
+      details: |
+        Translate documents from Spanish to English and English to Spanish.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Excited to work on new projects.
+
+    assignments:
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Instagram-Feed-FrancescaAmeche"
+        tagline: "An Instagram Feed made with Bootstrap"
+
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+
+      - name: Bootstrap
