@@ -60,23 +60,16 @@ education:
       # optional
       university_logo: 
       time: 2013 -2016
-      details: |
+      details: Evaluación, diagnóstico, tratamiento y prevención que afecten a la salud mental y a la conducta adaptativa.
         
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Lic Psicologia
+      university: Universidad de la Habana
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: 
       time: 2007 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        
 
 # Your previous job experiences or voluntier
 experiences:
