@@ -1,0 +1,49 @@
+template: "online-cv"
+skin: "lightgreen"
+
+# Informacion personal
+basic_info:
+
+    # Your full name
+    first_name: Franco 
+    last_name: Reggiardo
+    # Define yourself in 4-5 words
+    motto: I like create new things. 
+    
+    # focus
+    focus: Learning software development.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    # Informacion de contacto 
+    email: francoreggiardo97@gmail.com #optional
+    phone: 631-747-024 #optional
+    linkedin: https://www.linkedin.com/in/franco-reggiardo-591425167/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: francoregg
+    
+    twitter:  #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    Lenguaje:
+      - idioma: Español
+        Nivel: Nativo
+
+      - idioma: Ingles
+        Nivel: Intermediate
+
+    # Interests or hobies
+    intereses:
+      - item: Lectura
+
+      - item: Gimnasio
+
+      - item: learn
+
+# Your previous education
+educacion:
+    - degree: Bachillerato
+      # optional
+      tiempo: 2010 - 2014
