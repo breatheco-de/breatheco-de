@@ -13,14 +13,14 @@ basic_info:
     last_name: Martin Ordoñez
     
     # Define yourself in 4-5 words
-    motto: I'm a good solver problem
+    motto: Me gusta resolver problemas
     
     # focus
-    focus: Learning programming lenguages
+    focus: Aprender cosas nuevas
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     I am a good team player, fascinated by good challenges.
+     Me gusta trabajar en equipo y ponerme retos.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -47,28 +47,21 @@ basic_info:
 
       # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Aprender cosas nuevas
 
-      - item: Snowboarding
+      - item: Pasar tiempo con mi familia
 
-      - item: Cooking
+      - item: Crear
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: MSc Psicologia Clinica
+      university: Universidad de la Habana
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: 
+      time: 2013 -2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        
 
     - degree: BSc in Applied Mathematics
       university: Bristol University
