@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Roberto
+  last_name: Maiquez
+
+  # Define yourself in 4-5 words
+  motto: Full Stack Developer
+
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Full Stack Developer with system and network administration cycle. Currently working on the front end with React framework, and on the back end with Python / Flask.
+    I have also worked with PHP in different projects
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: http://sep.breatheco.de/static/profile-images/background_art.jpg
+
+  # Contact Information
+  email: rob_mb@outlook.es #optional
+  phone: 659 974 555 #optional
+  linkedin: https://www.linkedin.com/in/rob-mb/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: robmab
+
+  stack-overflow: 21914200/robmb # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: Professional
+
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobies
+  interests:
+    - item: Sports 
+
+    - item: Bike 
+
+    - item: Technology
+
+# Your previous education
+education:
+  - degree: Full Stack Developer
+    university: 4geeks Academy
+    time: 2023
+
+  - degree: Digitization of Companies
+    university: ADECA
+    time: 2020
+
+  - degree: Computer Network Systems and Web Development
+    university: Leonardo da Vinci
+    time: 2016 - 2019
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: Systems technician
+    time: 2022
+    company: In situ Servicios Informáticos
+
+  - role: Systems administrator
+    time: 2019
+    company: Vector ITC Group
+
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section.
+  assignments:
+
+    - title: BTXF
+      link: "https://github.com/robmab/BTFX"
+      tagline: Website for registration and classification of riders for cycling events, as well as management of registered riders.
+
+    - title: AutoCon.io
+      link: "https://github.com/robmab/AutoCon.io"
+      tagline: Web dealership where you can buy BMW vehicles and their components, in addition to the administrative management of the same for ADMIN users
+
+    - title: RallyWorld
+      link: "https://github.com/robmab/RallyWorld"
+      tagline: Motor world news blog
+
+
+skills:
+  toolset:
+    - name: HTML & CSS
+      level: 100%
+
+    - name: React
+      level: 90%
+
+    - name: Wordpress
+      level: 90%
+
+    - name: Python & Flask
+      level: 85%
+
+    - name: Linux & Windows
+      level: 85%
+
+    - name: Vanilla Javascript
+      level: 75%
+
+    - name: PHP & SQL
+      level: 70%
+
+    - name: Photoshop
+      level: 60%
