@@ -1,0 +1,19 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  name: Johan Lopez
+  tagline: Full stack developer
+  avatar: profile.png
+
+  emial: johanandrey0210@gmail.com
+  phone: +57-301-785-2686
+  github: Atompopez
+
+  lenguages:
+    idiom: spanish
+    level: natiive
+
+    idiom: english
+    level: medium
+  
