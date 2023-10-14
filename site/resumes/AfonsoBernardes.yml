@@ -1,0 +1,162 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Afonso
+    last_name: Bernardes
+    
+    # Define yourself in 4-5 words
+    motto: Programming is my passion!
+    
+    # focus
+    focus: Growing as a programmer by learning as much as possible so that in the future I can contribute to something useful.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      As a recent graduate mechanical engineer, I have been programming for six years in an educational context, employing several languages, some of which are self-taught. 
+      Given my passion for programming, I am seeking a job or an entry-level position as a backend frontend to full-stack developer in a company where my attention to detail and eagerness to learn are valued.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/84087794?v=4
+
+    # Contact Information
+    email: afonso.duarte.bernardes@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: https://www.goodreads.com/afonso_bernardes #optional
+    linkedin: www.linkedin.com/in/afonso-bernardes #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AfonsoBernardes
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Traveling
+
+      - item: Programming
+
+      - item: Chess
+
+# Your previous education
+education:
+    - degree: MSc in Mechanical Engineering
+      university: Instituto Superior Técnico - University of Lisbon
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2022
+      details: |
+        - Overall Grade: 15/20
+        - Dissertation Title: Deep-FlowNet - A Deep Learning Model for Few-Shot DeepFakes Detection
+            - Grade: 18/20
+
+    - degree: MSc in Mechanical Engineering
+      university: University of Coimbra
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        - Overall Grade: 16/20
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Group Coordinator
+      time: Jun 2023 - Present
+      company: Erasmus Mondego, Coimbra
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Manage and coordinate groups of Erasmus students (accommodation, tranportation, etc.), facilitating their internship experiences.
+          
+          - Skills: Communication, problem-solving, time management.
+    
+    - role: AI Intern
+      time: Jan 2022 - Nov 2022
+      company: YooniK, Lisbon
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I finished my master's dissertation in Mechanical Engineering with a nine-month internship at YooniK, where I built, trained and fine-tuned a neural network with Python, researchin AI-based video analysis solution to improve anti-spoofing solutions.
+        Resorting to libraries such as PyTorch, NumPy, and Matplotlib, I developed a deep fake detection system, which allowed the company to prevent fraud attempts during user authentication.
+          
+          - Skills: AI/Ml, Pyhton, PyTorch, Git.
+
+# Your project portfolio
+projects:
+    intro: >
+      These are the project I built both during my time in university and as a hobbie:
+
+    assignments:
+      - title: Bin Packing Problem
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Solving an instance of the famous Bin Packing Problem with Ant Colony Optimization. Developed using Matlab. Grade: 18/20"
+
+      - title: Premier League Predictor
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Predicting the outcome of Premier League matches based on game statistics, implementing fundamental Machine Learning concepts. Algorithms: Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, Support Vector Machines (SVM). Developed using Python and PostgreSQL. Grade: 18/20"
+
+      - title: Automatic Detection of Fire Events
+        # optional
+        link: "#"
+        tagline: "Analysing and processing images from the 'Corsican Fire' database using computer vision techniques and fuzzy logic. Developed using Matlab. Grade: 17/20"
+
+      - title: Blackjack Simulator
+        # optional
+        link: "#"
+        tagline: "Create a Blackjack simulator implementing OOP concepts. Developed using Java. Grade: 18/20"
+
+      - title: UR5 Robot
+        # optional
+        link: "#"
+        tagline: "Kinematic and Dynamic analysis of the UR5 robot from Universal Robots. Developed using Matlab/Simulink. Grade:17/20"
+
+skills:
+    toolset:
+      - name: Python
+        level: 85%
+
+      - name: Git
+        level: 80%
+
+      - name: Matlab
+        level: 75%
+
+      - name: Java
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: PostgreSQL
+        level: 50%
