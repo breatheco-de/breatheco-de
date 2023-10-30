@@ -1,0 +1,26 @@
+--- 
+basic_info: 
+  avatar: img.png
+  email: j.caro0207@gmail.com
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Professional
+    - 
+      idiom: Portuguese
+      level: Basic
+  linkedin: 
+  first_name: Jose
+  last_name: Caro
+  phone: 8566-0802
+  stack-overflow: 
+  github: josecaro02
+  tagline: "Full Stack Developer"
+  twiter: "@j_Caro02"
+  website: mypage.com
+  motto: An investment in knowledge always pays the highest return.
+skin: green
+template: online-cv
