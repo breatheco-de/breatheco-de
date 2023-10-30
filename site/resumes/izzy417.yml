@@ -1,0 +1,48 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Israel
+    last_name: Dail
+    
+    motto: sometimes I wonder if I should do something... and then I ask, why not?
+    
+    focus: creating a lucrative career for myself and my family.
+    
+    summary: Hello, my name is Israel Dail and I am learning to program. I have always been interested in computers and finally decided that I NEED to pick up on a technical skill. So I am going with programming, I am starting off with the full-stack program but I don't plan on stopping there in terms of learning. I want to learn all facets of programming little by little.
+    
+
+
+    email: israeldail2@gmail.com
+    phone: 786 431 7401
+    website: 
+    
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: izzy417
+    
+    twitter: DailIsrael
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      
+
+    interests:
+      - item: Running
+
+      - item: Weight Lifting
+
+      - item: Reading
+
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2019
