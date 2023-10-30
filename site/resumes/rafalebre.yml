@@ -1,0 +1,119 @@
+template: "online-cv"
+skin: "turquoise"
+
+basic_info:
+
+    first_name: Rafael
+    last_name: da Silva Lebre
+    avatar: https://avatars.githubusercontent.com/u/119666892?v=4
+
+    email: rslcorporation@hotmail.com
+    phone: 644664157
+    linkedin: /rafael-s-lebre/
+    github: rafalebre
+    twitter: '@rafalebre'
+
+    motto: Trying my best to progress every day
+    focus: Become an expert in programming
+    summary: Marketing graduated with post graduation in Digital Marketing, now studying and growing a passion for Full-Stack Web Development. Cultural, artistic and musical curation; solutions and necessities analysis; development of strategies to achieve marketing and business goals; analysis of the market and creation of tools to achieve the company's targets.
+
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English 
+        level: Proficiency
+        
+      - idiom: Spanish
+        level: Advanced
+
+        interests:
+      - item: Science and technologies
+
+      - item: Culture and Society
+
+      - item: Politics
+
+      - item: Sports and cars
+
+education:
+    - degree: Marketing Bachelors
+      university: Senac / Unigran
+      time: 2018-2021
+      details: Marketing touches many areas of study, such as advertising, communications, consumer behavior, public relations, marketing strategy, research, amongst many others
+    - degree: Master digital marketing
+      university: Projeção
+      time: 2021-2022
+      details: Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.
+
+experiences:
+    - role: Content Moderator
+      time: 2020 - Present
+      company: Telus International (Barcelona)
+      details: |
+        • Understand and Perform content reviews under the client supervision
+        • Select and tag specific policies depending on the content
+        • Ability to operate in areas that are not clearly defined within a policy
+        • Responsible for the activities assigned by the team leads and subject matter experts
+        
+    - role: Customer Service Agent
+      time: 2018-2019
+      company: Enterprise (Amsterdam)
+      details: |
+        • Gives support to the customer from the time selling the contract to receiving the car back
+        • Provides information and support through personal contact, e-mail, or by phone
+        • Deals with office daily tasks including financial and admin procedures
+        • Offer deals and upgrade itens according to the customers needs
+    
+    - role: Digital Marketing Specialist
+      time: 2015 - 2018
+      company: Social Media Freelancing
+      details: 
+        • Provides marketing consultancy for specific campaigns and liaises with related companies
+        • Conducts advanced market and competitive analyses, highlighting opportunities and threats
+        • Conducts analysis and monitoring of online KPIs, and campaign funding optimization
+        • Full responsibility for social media presence, adapted a new campaign online resulting in significant increase in engagement and traffic
+        • Liaised with the journalists regarding targets, identifying trends and gaps to be explored
+        • Proactively drives, prepares and shares the campaign updates and changes to be applied by the team
+
+
+assignments:
+      - title: Excuse Generator
+        link: https://github.com/rafalebre/Excuse-Generator 
+        tagline: A short excuse generator as my first ever project involving Javascript
+
+      - title: Instagram Post
+        link: https://github.com/rafalebre/FirstBootstrap 
+        tagline: On my first project using Bootstrap, I've created two different sections of posts recreating an Instagram page
+        
+      - title: IG-PhotoFeed
+        link: https://github.com/rafalebre/IG-PhotoFeed
+        tagline: My second project consists on recreating a scroll down Instagram page only with HTML and CSS
+
+      - title: Postcard
+        link: https://github.com/rafalebre/Postcard
+        tagline: My first project ever; a simple postcard using basic HTML and CSS elements together
+                 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
+   
+    
+    
