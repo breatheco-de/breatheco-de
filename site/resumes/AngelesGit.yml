@@ -1,0 +1,48 @@
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+    first_name: Anggie
+    last_name: Alava
+    motto: Web developer student
+    summary: 
+     Student with knowledge in html, css, bootstrap, js and python
+    github: AngelesGit
+    languages:
+      - idiom: english
+        level: b2
+
+      - idiom: spanish
+        level: native
+
+    interests:
+      - item: music
+      - item: videoGames
+
+
+education:
+    - degree: Student
+      university: 4geeks
+      time: 2023
+
+experiences:
+
+projects:
+    assignments:
+      - title: In progress
+        tagline: Im trying
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
+      - name: Javascript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 45%
