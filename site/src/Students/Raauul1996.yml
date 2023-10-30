@@ -1,0 +1,73 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Raúl
+  last_name: Giménez Murga
+  motto: I am a decisive person.
+  focus: Learning software development and trying to grow and be better.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: raulgimenez96@gmail.com
+  phone: 654 32 32 32
+  github: example
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Medium
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Motorsport
+    - item: Bodybuilding
+    - item: Cooking
+education:
+  - degree: GS Mecatrónica Industrial
+    IES: Gonzalo Anaya
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Store Manager
+    time: 2018 - 2023
+    company: Royme
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Instagram post
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/4GeeksAcademy/Raul-Gimenez-Instagram-Post
+      tagline: Instagram post made in HTML/CSS
+    - title: Bootstrap Instagram post
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/4GeeksAcademy/Raul-Gimenez-Instagram-Bootstrap
+      tagline: Instagram post made in HTML/Bootstrap
+    - title: HTML5 Form
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/4GeeksAcademy/Raul-Gimenez-Form
+      tagline: Create a responsive form
+skills:
+  toolset:
+    - name: HTML5 & CSS
