@@ -1,0 +1,18 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info: 
+
+  #Información del perfil
+  name: Daniel Ruiz González
+  tagline: FullStack Developer
+  avatar: profile.png
+
+  #sidebar links
+  email: druiz264@gmail.com 
+  phone: 685 
+  website: druiz912.github.io
+  linkedin: druiz
+  github: druiz912
+  twitter: raphidden
+  stack-overflow: druiz912
