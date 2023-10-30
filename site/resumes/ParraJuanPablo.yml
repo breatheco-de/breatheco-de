@@ -1,0 +1,49 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Juan Pablo
+  last_name: Parra Freitas
+  motto: Code, eat, sleep, repeat...
+  summary: |
+    
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+  email: parrfjp@gmail.com
+  phone: +58 (424)-20-80-590
+  linkedin: https://www.linkedin.com/in/juan-pablo-parra-freitas-7285b7256/
+  github: ParraJuanPablo
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: Portuguese
+      level: intermediate
+  interests:
+    - item: Soccer
+    - item: Padel
+    - item: Videogames
+education:
+  - degree: Systems Engineer
+    university: Universidad Metropolitana de Caracas
+    university_logo: https://www.unimet.edu.ve/wp-content/uploads/2017/03/Logo-unimet-1.png
+    time: 2021 - present.
+    details: |
+      I am currently studying the 5th quarter of systems engineering and I plan to graduate in 2025.
+  - degree: Fullstack Developer
+    university: 4Geeks Academy.
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2022 - 2023
+projects:
+  intro: >
+    I am currently working on my personal portfolio to be able to add projects soon...
+skills:
+  toolset:
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Python
+      level: 98%
+    - name: Javascript & jQuery
+      level: 98%
+    - name: React
+      level: 98%
