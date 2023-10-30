@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Brunna Rayssa
+    last_name: da Silva carvalho
+    
+    # Define yourself in 4-5 words
+    motto: continue a nadar...
+    
+    # focus
+    focus: hakuna matata 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U044A6ZFMQT-5cda6460683b-512
+
+    # Contact Information
+    email: brunnarayssa@hotmail.es #optional
+    phone: 640226386 #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portugues
+        level: Native
+
+      - idiom: Español
+        level: Professional
+
+      
+
+    # Interests or hobies
+    interests:
+      - item: ir al gym
+
+      - item: correr
+
+      - item: cocinar
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer
+      university: 4geks academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2023
+     
+
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+ 
+
+     
+
+# Your project portfolio
+projects:
+    intro: >
+     Aquí puedes ver una breve lista de mi trabajo como estudiante en 4GeeksAcademy
+
+    assignments:
+      - title: Html5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/brunnarayssa/my-postcard.git"
+        tagline: "mi primera postcard"
+
+      - title: html, css y Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/brunnarayssa/-InstagramFeedconBootstrap.git"
+        tagline: "el feed de instagram echo con bootstrap"
+
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
