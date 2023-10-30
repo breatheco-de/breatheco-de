@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mariia
+    last_name: Bratukhina
+    
+    # Define yourself in 4-5 words
+    motto: Hard-working. Motivated. Persistent. Reliable. Flexible.
+    
+    # focus
+    focus: Make the World better :)
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      There are several reasons I chose this career path. First of all, it is challenging. I love challenges, and i love the fact that coding is a constatnt learning process, and there will always be some new challenge for me to tackle.Second, coding allows you to take all the ideas you have in your head and make them come to life. Third, you can work remotely. You can broaden your job search to openings around the world. You can live anywhere you want!
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: 7542600354g@gmail.com #optional
+    phone: 754 260 0354 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Marii2806
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Russian
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Travel
+
+      - item: American Pool
+
+# Your previous education
+education:
+    - degree: Manager
+      university: Moscow State Open University
+      # optional
+      university_logo: http://msou.ru/fls/5_msou.jpg
+      time: 2005 - 2010
+ 
+# Your previous job experiences or voluntier
+experiences:
+    - role: General Manager
+      time: 2016 - 2020
+      company: Fashion 305, Inc
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      
+    - role: Flight Attendant
+      time: 2012-2014
+      company: ORENAIR
+      # optional
+      company_logo: http://www.orenair.ru/images/logo.png
+      details: |
+        Flight Attendants are primarily responsible for keeping all passengers safe and ensuring that the cabin crew is capable of performing their duties properly. They must also try to make flights as comfortable and stress-free as possible for passengers in order to promote a positive image of the airline.
+ 
+
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 60%
