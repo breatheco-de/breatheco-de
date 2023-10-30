@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana
+    last_name: Pacheco
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack Padawan 
+    
+    # focus
+    focus: Learn and get a good job
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Aprendiendo a programar para mejorar mi carrera y tener un empleo que me guste.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQGveLU48cDIuQ/profile-displayphoto-shrink_800_800/0/1675337062633?e=1680739200&v=beta&t=tQ_nV_-4l4S0aTv6NoXLLJJp4Q3uHUT4cBnwTiSPXKs
+
+    # Contact Information
+    email: anaipach82@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website:  #optional
+    linkedin: linkedin.com/in/ana-pacheco-garcía-01750b264 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Apacheco82
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Photography
+
+      - item: Movies, metal music and roleplay games 
+
+      - item: Cats
+
+# Your previous education
+education:
+    - degree: Full Stack developer
+      university: 4geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+      Full Stack Coding Bootcamp
+      Become a Full Stack software developer using Python, React and Javascript. The most in-demand skills. Find a job as a developer.
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Operador central de alarmas
+      time: 2018 - Present
+      company: Alert Systems
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Labores de gestión de alarmas con aviso a FFCCSE y de mantenimiento en remoto de las mismas
+    - 
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: No proyects to show yet
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: 
+        tagline: "Still learning, no proyects yet. But just wait."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Photoshop
+        level: 90%
