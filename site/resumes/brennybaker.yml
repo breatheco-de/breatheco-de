@@ -1,0 +1,24 @@
+template: "online-cv"
+skin: "blue"
+basic_info: 
+  #Profile Information
+  name: Bre Baker
+  tagline: Fullstack Developer
+  avatar: https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/103487028_10217519380802681_6136192104130118428_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=98BwOkhAtUkAX_XmAVk&_nc_ht=scontent-dfw5-2.xx&oh=00_AfCvMaXLe-56IlddvvWS3WkulCsHgSqanJjFR8HUC3bn3g&oe=643078F0
+  education: Bachelor of Science in Education
+
+  #Sidebar Links
+  email: baker95@nsuok.edu
+  phone: 918-978-6775
+  linkedin: www.linkedin.com/in/breanna-baker-1143a622b
+  github: brennybaker
+  languages:
+      idiom: English
+      level: Native
+experiences: 
+projects: None (yet)!
+publications: None (yet)!
+skills: 
+  HTML 50%
+  CSS 50% 
+  Bootstrap 30%
