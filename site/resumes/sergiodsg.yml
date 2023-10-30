@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "green"
+
+basic_info:
+  # Profile information
+  first_name: Sergio
+  last_name: Da Silva
+  motto: If everything seems to be under control, you’re not going fast enough.
+  avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/146208674_5312318962126639_6244084036489217581_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=yYgSvGPQuMEAX9v0XDc&_nc_ht=scontent-mia3-1.xx&oh=f43baf832867826f68841138ca6fefba&oe=60926C7B
+  summary: |
+    I'm a Front-end developer with a lot of creativity.
+
+  # Sidebar links
+  email: sergiodasilva.dev@gmail.com
+  phone: +58 414 874 0546
+  #website: alesanchezr.com
+  linkedin: 
+  github: sergiodsg
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+    - idiom: Portuguese
+      level: Native
+
+  interests:
+    - item: Running
+
+    - item: Gaming
+
+    - item: Learning
+
+education:
+  - degree: Front-end Developer
+    university: 4 Geeks Academy
+    time: 07/2022 - 10/2022
+    details: |
+      Front-end coding with JS and React
+      
+
+experiences:
+  - role: Portuguese Teacher
+    time: 09/2019 - 11/2019
+    company: On my own.
+    details: |
+      Teaching the basics of the language to people moving to Portugal and Brazil.
+
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: FlaskSQL
+      level: 75%
