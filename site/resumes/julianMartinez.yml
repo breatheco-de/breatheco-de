@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+    # Profile information
+    first_name: Julian
+    last_name: Martinez
+    motto: There is always a way!
+    avatar:
+    summary: |
+        Determined to change my familys future whilst having fan with code
+
+    # Sidebar links
+    email: julian.martinez.cs@gmail.com
+    phone: +44 7578855599
+    website:  in process... #do not add http://
+    linkedin: 
+    github: Julian0816
+    twitter: 
+    stack-overflow:  
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: Health and Fitness
+      - item: German Shepher Dog training
+      - item: Self Development
+
+education:
+    - degree: Mechanical Engineering Technician 
+      university: IES Barajas - Madrid/Spain
+      time: 2008 - 2010
+
+experiences:
+    - role: Restaurant Deputy Manager
+      time: 2013 - 2022
+      company: Nandos Ltd
+      details: Delivering KPIs, Team building, Customer Service
+        
+
+    - role: Sofware Engineer Apprentice
+      time: 2022 - Present
+      company: Nandos Ltd
+      details: To be a sponge! Learn as much as I can as fast as I possibly can so I can stay in this beautiful Industry
+
+projects:
+    intro: Passed project include training during restaurant openings, Currently all my projects are assignments from work and school
+
+
+skills:
+    toolset:
+      - name: JS
+        level: 60%
+
+      - name: MYSQL, MONGODB
+        level: 50%
+
+      - name: C#
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: SO LINUX, ADMIN
+        level: 60%
+
+      - name: SO WINDOWS, ADMIN
+        level: 60%
+      
+      - name: BASH
+        level: 60%
+
+      - name: GCP
+        level: 20%
+
+      - name: python
+        level: 50%
