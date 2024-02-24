@@ -1,0 +1,64 @@
+personal_information:
+  name: Maria Jose Hurtado Sandia
+  email: mhurtadosandia@gmail.com
+  phone: "+491795418052"
+  linkedin: https://www.linkedin.com/in/maria-jose-hurtado-sandia-0b3901231/
+  github: https://github.com/mjhs1999
+  address:
+    street: Degenfeldstrasse
+    city: Karlsruhe
+    state: BW
+    zip_code: "76131"
+    country: Germany
+  objective: "Aspiring full-stack developer passionate about learning and applying new technologies. Completed a full-stack development bootcamp and looking to leverage skills in a dynamic development environment."
+
+education:
+  - degree: Bachelor of Science in Mechanical Engineering (Student)
+    institution: Karlsruhe Institute of Technology (KIT)
+    year: 2018-Present
+    location: Karlsruhe, Germany
+
+work_experience:
+  - company: Amazon Pforzheim
+    position: Intern in Operations
+    start_date: 01.2022
+    end_date: 06.2022
+    responsibilities:
+      - "Project Management"
+  - company: Amazon Pforzheim
+    position: Working Student in Operations
+    start_date: 07.2022
+    end_date: 06.2023
+    responsibilities:
+      - "Project Management"
+  - company: Albtal-Verkehrs-Gesellschaft mbH
+    position: Working Student in Logistic
+    start_date: 07.2023
+    end_date: 11.2023
+    responsibilities:
+      - "Digitalisation from spare parts"
+ - company: Bosch Bühl
+    position: Intern in manufacturing
+    start_date: 12.2023
+    end_date: 05.2024
+    responsibilities:
+      - "Project management"
+
+# Add your skills, certifications, and languages below following the given structure
+skills:
+  programming_languages:
+    - "Java.Basic Python"
+
+  soft_skills:
+    - Communication
+    - Teamwork
+    - Problem-solving
+
+
+languages:
+  - name: "Spanish"
+    proficiency: "Native"
+  - name: "German"
+    proficiency: "Advance" 
+- name: "English"
+    proficiency: "Advance"
