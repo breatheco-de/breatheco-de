@@ -1,46 +1,37 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output
-#
+
 
 template: "online-cv"
 skin: "blue"
 
-# Personal Information
 basic_info:
 
-    # Your full name
+   
     first_name: Victor Hugo 
     last_name: Pereira da Conceição
     
-    # Define yourself in 4-5 words
+   
     motto: I Love to Challenge Myself
     
-    # Focus
+   
     focus: Be a Good Coder and always do my best to achieve my Goals 
     
-    # You have 1 paragraph to make a great impression, summarize your career
+
     summary: |
      "My career aspirations are centered around constant growth and skill enhancement. I am committed to staying updated with the latest trends and technologies in the industry. I´m always looking to pursue specialized certifications and attend industry conferences to learn from experts
     
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+ 
+    
     avatar: https://cdn0.iconfinder.com/data/icons/occupation-002/64/programmer-programming-occupation-avatar-512.png
 
-    # Contact Information
-    email: vhp04@hotmail.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+ 
+    email: vhp04@hotmail.com
     
-    #
-    # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+   
     github: victorconceicao88
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+  
 
-    # Languages you speak, levels include: Native, Professional
+  
     languages:
       - idiom: English
         level: Advanced
@@ -51,7 +42,7 @@ basic_info:
       - idiom: Spanish
         level: Professional
 
-    # Interests or hobbies
+    
     interests:
       - item: Gym
 
@@ -61,7 +52,7 @@ basic_info:
 
       - item: Playing Guitar
 
-# Your previous education
+
 education:
     - degree: Full Stack Web Developer at 4geeks Academy
       university: University of London
@@ -74,51 +65,51 @@ education:
         
 
     
-# Your project portfolio
+
 projects:
     intro: >
       Follow below Some of the Projects i have already finished at School!
 
     assignments:
       - title: Instagram Feed
-        # optional
+        
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/My-Instagram-Feed-"
         tagline: " An example of Instagram Feed"
 
       - title: Instagram Feed With Bootstrap
-        # optional
+        
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/instagram-bootstrap"
         tagline: "An example of Instagram Feed Using Bootstrap"
 
       - title: Payment Form Designed with Bootstrap,HTML and CSS
-        # optional
+        
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/My-Form-HTML5"
         tagline: " A payment Form template which Can be used at any Website"
 
       - title: An excuse Generator done with Javascript,html and CSS
-        # optional
+        
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/My-Excuse-Generator-"
         tagline: " An Excuse Generator to Play Around."
 
       - title: A post Card built with HTML and CSS.
-        # optional
+        
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/exercise-postcard"
         tagline: "Post card Built the can be sent to friends and Family"
 
       - title: Landing page for a Interior Design Office
-        # optional
+       
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/Desafio-1-Landing-page"
         tagline: "Landing page Built to upsell at any type of bussiness"
 
         
       - title: Landing page for a Tech School
-        # optional
+        
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/Project-landing-Page-"
         tagline: "Landing page Built to upsell at any type of bussiness"
