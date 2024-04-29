@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failures in output
 #
 
 template: "online-cv"
@@ -15,14 +15,13 @@ basic_info:
     # Define yourself in 4-5 words
     motto: I like saving the world
     
-    # focus
+    # Focus
     focus: Killing Bad Boys
     
-    # You have 1 paragraph to make a great impression, summarize your career.
+    # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
 
@@ -40,13 +39,13 @@ basic_info:
     
     #
     # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # languages you speak, levels inculde: Native, Professional
+    # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
         level: Native
@@ -57,7 +56,7 @@ basic_info:
       - idiom: Spanish
         level: Professional
 
-    # Interests or hobies
+    # Interests or hobbies
     interests:
       - item: Climbing
 
@@ -97,7 +96,7 @@ education:
           - Bullet point
           - Bullet point
 
-# Your previous job experiences or voluntier
+# Your previous job experiences or volunteer
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -191,7 +190,7 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: JavaScript & jQuery
         level: 98%
 
       - name: Angular
