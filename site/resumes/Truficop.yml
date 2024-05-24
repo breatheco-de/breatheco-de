@@ -1,0 +1,67 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Nikita
+  last_name: Malykhin
+  motto: I like animals
+  focus: Learn something new everyday
+  summary: >
+    Estudie por mi propia cuenta creacion de paginas web. Tengo buen
+    conocimiento en edicion de videos y la utilizacion de photoshop. Actualmente
+    estoy estudiando curso de Full Stuck Developer en 4GeeksAcademy
+  avatar: https://avatars.githubusercontent.com/u/43642381?s=400&u=e7b3907fd8aaca3179b5cdd542d0924250c3e433&v=4
+  email: truficop@gmail.com
+  phone: 622 830 431
+  website: ""
+  linkedin: https://www.linkedin.com/in/nikita-malykhin-737617172/
+  github: Truficop
+  twitter: ""
+  stack-overflow: 24189708/n-i-k-i
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Russian
+      level: Native
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Animales
+    - item: Tenis
+    - item: Deporte
+education:
+  - degree: ESO
+    university: IES Mar de Alboran
+    time: 2011 - 2015
+  - degree: Curso de Grado Medio de Gestion Administrativa
+    university: IES Mar de Alboran
+    time: 2017 - 2019
+experiences:
+  - role: Asistente administrativo
+    time: 2019 - 2019
+    company: Compresores Ortiz
+  - role: Cocinero
+    time: 2023 - Present
+    company: B&M Gastro Grill Divot S.L.
+projects:
+  intro: |
+    There are some of my github projects for the 4GeeksAcademy course!
+  assignments:
+    - title: Postcard
+      link: https://github.com/Truficop/exercise-postcard
+      tagline: A responsive website template designed to input information on a
+        postcard.
+    - title: site-that-replicates-gif
+      link: https://github.com/Truficop/site-that-replicates-gif
+      tagline: ""
+    - title: Excuse Generator
+      link: https://github.com/Truficop/Randomizer
+      tagline: Generate a random excuse when refreshing the page
+skills:
+  toolset:
+    - name: JavaScript & jQuery
+      level: 10%
+    - name: HTML5 & CSS
+      level: 50%
+    - name: Photoshop
+      level: 50%
