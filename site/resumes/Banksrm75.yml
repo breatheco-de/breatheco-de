@@ -1,0 +1,206 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rebekah
+    last_name: Banks
+    
+    # Define yourself in 4-5 words
+    motto: I love learning new things!
+    
+    # Focus
+    focus: Becoming a Software Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have a wide variety of experiences to bring to any task. Most of my career has been spent as an Elementary Education Teacher. I have just embarked on a journey to become a Software Developer like my Dad was!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.onedrive.com/share/9464C74DD051638B!3718?cid=9464C74DD051638B&resId=9464C74DD051638B!3718&authkey=!AASVM-CkFPFC2eQ&ithint=photo&e=kLarr6
+    # Contact Information
+    email: banksreb75@gmail.com #optional
+    phone: 612 282 1789 #optional
+    # website: asd.com #optional
+    linkedin: rebekah-banks-850122148 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Banksrm75
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Dirtbike Riding
+
+      - item: Mountain Bike Riding
+
+      - item: Computer Games
+
+# Your previous education
+education:
+    #   ??? Software Engineering Prep - Python (Hackbright Academy)   ???
+    #
+    #   ??? Foundational C# with Microsoft (FreeCodeCamp)   ???
+    #
+
+    - degree: BA in Elementary Education
+      university: Augsburg University
+      # optional
+      university_logo: https://www.augsburg.edu/alumni/wp-content/themes/augsburg-2016/logo.png
+      time: 1996 - 1999
+      details: |
+        My Elementary Education degree taught me about collaboration and persistance. I learned how to evaluate and adapt quickly to meet the needs
+        and challenges surrounding me. I graduated with a Minor in Special Education. This started my love of tailoring solutions to unique challenges.
+
+          - Minor in Special Education
+        
+    #   ??? Include Undergraduate AA Degree   ???
+
+
+    # - degree: BSc in Applied Mathematics
+    #   university: Bristol University
+    #   # optional
+    #   university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   time: 2007 - 2011
+    #   details: |
+    #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #     pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Construction Laborer
+      time: 2022 - 2024
+      company: Aptim (Flint Hills Resources), Rosemount, MN
+      # optional
+      company_logo: https://www.aptim.com/nitropack_static/wCeAHFVOddSafCXRKGAdfuBuxkcTLeax/assets/images/optimized/rev-b47d2f8/www.aptim.com/wp-content/uploads/2021/12/APTIM_logo.svg
+      details: |
+        Based on the needs of the other trades at the refinery, my team would build a scaffolding to allow them to access an area of the refinery. My team 
+        needed to coordinate with all the trades so that we were not hindering another trade's work while assisting one trade in theirs. Often there were 
+        structures and sensitive equipment in the path of an ideal scaffold structure, so there was a lot of creative-thinking and problem-solving required.
+
+          - Using customer requirements to build scaffolding
+          - Modifying scaffolding based on changing customer needs
+
+    - role: Administrative Assistant
+      time: 2019 - 2022
+      company: Laborers Training Center, Lino Lakes, MN
+      # optional
+      company_logo: https://www.ltcmn.org/Images/home.png
+      details: |
+        I was in charge of monitoring the hours worked and the hours of training completed by each apprentice and create reports and corresponding letters to 
+        the apprentices, their places of employment, the State Department, and the training center's board. I would maintain a physical file and a digital 
+        database to track each apprentice's progress and the resulting reports and letters generated.
+
+          - Ensure compliance with the state and federal requirements for the Construction Laborers' Apprenticeship programs
+          - Evaluate and revise procedures to improve office efficiency
+
+    - role: Support Specialist
+      time: 2017 - 2019
+      company: Rasmussen College, Blaine, MN
+      # optional
+      company_logo: https://headquarterlocation.com/wp-content/uploads/2021/10/Rasmussen-College.png
+      details: |
+        I was in the Nursing Division of the College. I proctored the suite of assessments each student needed to take and analyzed the data on student 
+        performance. I maintained the database of students to reflect their compliance with the immunization requirements and minimum level of performance on 
+        the required assessments. 
+
+          - Monitor digital document database and update Excel spreadsheet to reflect the students' level of compliance with the immunization requirements
+          - Evaluate and revise procedures to improve office efficiency
+
+    - role: Elementary Education Teacher
+      time: 2000 - 2017
+      company: Minneapolis Public Schools (14 yrs), North Branch Area Public Schools (1 yr), Forest Lake Public Schools (1 yr), Cambridge-Isanti Schools (1 yr)
+      # optional
+      # company_logo: https://headquarterlocation.com/wp-content/uploads/2021/10/Rasmussen-College.png
+      details: |
+        I spent years honing my project management skills. Predicting all the things that students would struggle with and putting scaffolding in place to 
+        support their problem-solving skills. I became skilled at assessing each student's areas of strenghts and areas for growth. I facilitated 
+        small-group learning activities to meet all of their unique needs. I collaborated with the other adults around them and coordinated support-services 
+        so each student could succeed. As plans did not go according to design, I would quickly evaluate and adapt.
+
+          - Project-Management
+          - Creative Problem-Solving
+          - Collaboration 
+      
+# Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 20%
+
+      - name: C#
+        level: 20%
+
+      - name: Javascript
+        level: 20%
+
+      - name: Python
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Google Applications
+        level: 95%
+
+      - name: Microsoft Office Suite
+        level: 98%
