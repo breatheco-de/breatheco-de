@@ -1,0 +1,96 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Tomas
+  last_name: Ramirez
+  motto: Full stack developer
+  focus: Web development
+  summary: >
+    Full Stack Developer with a proven track record in designing and
+    developing scalable web applications. Proficient in a wide range of
+    technologies, including JavaScript, Python, SQL, and JWT, enabling me to
+    tackle projects from the frontend to the backend. Passionate about finding
+    innovative and efficient solutions to complex web development challenges.
+  avatar: https://lh3.googleusercontent.com/a/ACg8ocLnLi7NWVUKnYEGLz0bOUi_5uz227ANJ2fhuZJL3aveDP4ZEWY5=s288-c-no
+  email: tomasandre62@gmail.com
+  phone: +56 941133920
+  website: coming soon
+  linkedin: https://www.linkedin.com/in/tomas-andrescv/
+  github: https://github.com/tomasandre62
+  twitter: None
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Cycling
+    - item: Tenis
+    - item: Cooking
+education:
+  - degree: Full stack developer
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2024
+    details: >
+      I have gained significant experience in full-stack development using
+      Python and the Django framework. I've successfully built a comprehensive
+      project management application, including a user-friendly frontend and a
+      robust backend that handles user authentication, task tracking, and report
+      generation. I am proficient in using databases such as PostgreSQL and have
+      experience in implementing RESTful APIs
+experiences:
+  - role: IT Analyst
+    time: 2022 - Present
+    company: Coface Chile
+    company_logo: https://cofaservices.com/images/nuevologo.png
+    details: >
+      Responsible for ensuring the optimal operation of the technological
+      infrastructure. My responsibilities include: incident resolution,
+      preventive maintenance, hardware and software installation and
+      configuration, user and access management, and enterprise application
+      support.
+projects:
+  intro: |
+    In construction
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
