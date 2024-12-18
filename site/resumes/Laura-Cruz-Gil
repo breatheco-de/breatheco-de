@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Laura
+    last_name: Cruz
+    
+    # Define yourself in 4-5 words
+    motto:  Do one thing at a time and you’ll actually get things done.
+    
+    # Focus
+    focus: Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+    Industrial Engineer with eight years of experience working in various sectors. 
+    I am eager to enter the world of Business Analytics and Data Science, with experience in data processing, 
+    statistical analysis, and data visualization, enabling me to translate information into valuable insights.
+    My short-term goal is to work at a company that offers opportunities for professional growth, 
+    where I can contribute fully to data analysis projects.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  
+    # Contact Information
+    email: laurac.89@gmail.com #optional
+    phone: 643 38 71 84 #optional
+    linkedin: www.linkedin.com/in/laura-cruz-gil #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Laura-Cruz-Gil
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate 
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Snowboarding
+
+      - item: Trekking
+
+# Your previous education
+education:
+    - degree: Master in Business Intelligence and Technological Innovation
+      university: EAE BUSINESS SCHOOL           
+
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/a/ac/EAE-Business-School.png
+      time: 2017 - 2018
+      details: |
+        Full Time Program designed to train professionals in the area of new Information Technologies and Business Intelligence, 
+        always with the vision of meeting the demands of companies and institutions at all times. To this end, it offers a clear synergy between technology and management, 
+        allowing participants to develop the necessary skills and techniques in the area of Business Intelligence and Technological Innovation 
+        to lead information technology projects in various sectors of the economy.
+
+    - degree: Industrial Engineering 
+      university: University Francisco José de Caldas
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZlDsDZWzcfRK3kjWG7H1Y_ys-eHxv1Xuusw&s
+      time: 2008 - 2015
+      details: |
+        The Industrial Organization Engineer's training allows to contribute special value in the improvement of productivity 
+        and the use of resources of companies and institutions of the most varied sectors through the integration of innovation and technologies.
+       
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Process Support
+      time: 2019 - Present
+      company: Tata Consultancy Services 
+      # optional
+      company_logo: https://www.mmaglobal.com/files/logos/tcs.ns-7401f1bd.png
+      details: |
+       Global infrastructure support for Integration and Web technologies and application servers (Tibco, JBoss DV, Webmethods, Apache, Tomcat, JBoss and  IIS
+
+    - role: Process Engineer
+      time: 2019
+      company: ING España & Portugal 
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ING_Group_N.V._Logo.svg/390px-ING_Group_N.V._Logo.svg.png
+      details: |
+        *Drive and guide development processes within the company using project management methodologies such as Kaizen,
+        and application of agile Scrum and Kanban methodologies for collaborative teams.
+        *Mapping of ING's local GDPR processing inventory according to the European Union's General Data Protection Regulation (GDPR). 
+
+    - role: Statistical Analyst
+      time: 2018 - 2019
+      company: Correos y Telégrafos S.A. 
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Correos_2019.svg
+      details: |
+        *Design, analysis and monitoring of package traceability through reports in SAP Web Intelligence.
+        *Execution and publication of dashboards with Power View to facilitate decision making
+
+
+# Your project portfolio
+
+#projects:
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#
+#    assignments:
+#      - title: Velocity
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Agile Metodologies
+        level: 70%
+
+      - name: R Studio
+        level: 50%
+
+      - name: Tableau
+        level: 40%
+
+      - name: Power BI
+        level: 40%
+
+      - name: SQL
+        level: 20%
