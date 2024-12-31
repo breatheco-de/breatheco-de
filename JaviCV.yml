@@ -1,0 +1,41 @@
+---
+template: online-cv
+skin: green
+basic_info: null
+first_name: Javier
+last_name: Garzon
+avatar: https://avatars.githubusercontent.com/u/188450334?v=4
+e-Mail: javier.garzon.garcia@gmail.com
+Fecha de nacimiento: 15/1/81
+phone: 679 909 656
+motto: I love my family.
+focus: My children
+summary: Voluntariado cuatro veces en India en diferentes periodos por espacio
+  de un año. Disponibilidad para viajar.Capacidad de liderazgo y gestión de
+  equipos.Comprometido con el trabajo y el cumplimiento de objetivos.Gran
+  versatilidad y facilidad para adaptarse a nuevos entornos y a trabajar en
+  equipo.
+github: https://github.com/javigarzon1
+languages:
+  - idiom: Spanish
+level: Native
+interests:
+  - item: Football
+  - item: reading
+details: |
+  HABILIDADES
+experiences: null
+EXPERIENCIA LABORAL: null
+Sept 2007 – Sept 2010: Director Gerente Empresa Residencia de Ancianos Virgen de
+  los Remedios, Belmez, Córdoba. Funciones Coordinación y supervisión de una
+  plantilla de 30 trabajadores y 60 residentes. Durante el periodo hubo una
+  optimización de los recursos y obtención de beneficios.
+re 2020-Febrero 2024: Director de Oficina. Empresa N.A.I.B.C.
+projects:
+  assignments:
+    - title: Velocity
+      project_logo: https://github.com/4GeeksAcademy/JaviGarzonBootstrap
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+skills: null
