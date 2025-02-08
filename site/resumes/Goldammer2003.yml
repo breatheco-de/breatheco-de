@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Manuel
+    last_name: Goldammer
+    motto: better ask questions, than stay unknowing 
+    birthdate: 10/07/2003
+
+    summary: |
+        My coding experience only started, when i signed up for the Full-Stack Software Developer course at 4 Geeks starting at August 2022. 
+        For the first month i thus moved to Miami to get as much in person mentorship as possible, before i will do the rest of the work from Germany remotely. 
+        I guess learning to code is like entering a new world, but access to these different worldviews is what gives you the creativity to pursue any dreams you have in life. 
+    # Sidebar links
+    email: mangobo@freenet.de
+    phone: +49 172 7778409
+    instagram: manuel_goldammer
+    github: Goldammer2003 
+    
+    
+
+    languages:
+      - idiom: German
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Politics
+      - item: The Stock Market 
+      - item: Gym Fitness
+
+education:
+    - degree: High school diploma 
+      High school: Carl-von Ossietzky Gymnasium Bonn
+      time: 2010-2022
+      university: Planning on going after the graduation at 4Geeks to the International University of Applied Science back in Germany, with a starting date scheduled in 2023 
+     
+
+volunteer work/limited work experience due to young age: 
+- Work as the student representative at my Highschool in Germany 
+- Establishment and Implementation of digital learning projects suggested by myself
+ and intense effort with the agreement process between teachers, students and parents resulting in successefully new implemented school policies/projects and school lesson design 
+- Internship in the managment of the family-owned food compony 
+
+projects:
+  - "Digital Postcard with HTMl and CSS"
+  - "Instagram Post with HTML and CSS"
+  - "Simple-Instagram-Photo-Feed with HTML-CSS"
+  - "Instagram-Photo-Feed with Bootstrap"
+
+      
+
+   
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap 
+        level: 50%
