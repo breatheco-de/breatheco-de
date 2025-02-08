@@ -1,0 +1,64 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando 
+    last_name: Monnot
+    
+    # Define yourself in 4-5 words
+    motto: I am passionate about learn new things 
+    
+    # focus
+    focus: improve all aspects that I can in my lfe
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Industrial Engineer and now I want to learn coding to improve my carrer and make a
+      big change in my life
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1oOeL9SxclGM3UeccXTJjnsRPiZN297_w/view?usp=sharing
+
+    # Contact Information
+    email: fermonnot@gmail.com #optional
+    phone: "+58124244134" #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/fernando-monnot-875a44230 #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fermonnot
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Series and movies
+
+      - item: travel
+
+      - item: spend time with family and friends
+
+# Your previous education
+education:
+    - degree: Industrial engineering
+      university: Rafael Belloso Chacin
+      time: 2014 - 2018
+      details:
+    
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 60%
