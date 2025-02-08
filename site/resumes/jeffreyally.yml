@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jeffrey
+    last_name: Ally
+    
+    # Define yourself in 4-5 words
+    motto: Work hard then push harder
+    
+    # focus
+    focus: development and growth
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      This needs to be updated
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/26.jpg
+
+    # Contact Information
+    email: jeffreyally@gmail.com.com #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jeffreyally
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: basketball
+
+      - item: cooking
+
+      
+      - item: technology (computers & coding)
+
+# Your previous job experiences or volunteer
+experiences:
+    
+
+    - role: Assistant Manager
+      time: 2013-2014
+      company: Little Caesars
+      details: |
+        Responsible for making pizza.
+        
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects as I continue to learn how to code.
+
+    assignments:
+      - title: Postcard
+        
+        tagline: "A simple postcard created using html5 and css."
+
+      - title: Simple Instagram Feed
+        
+        tagline: "A static representation of an Instagram feed uisng HTML and CSS."
+      
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
