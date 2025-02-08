@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Victor
+    last_name: Magalhaes
+    # Define yourself in 4-5 words
+    motto: Someone allways open to a new things. 
+    
+    # focus
+    focus: Learning Full Stack Developer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      After 21 years as a Physioterapist, I'm moving now into a new challenge for me. 
+      I start a big adventure in
+      the course of Full Stack Developer in 4Geeks Academy.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: victor_miguel@msn.com #optional
+    phone: 351-969564324 #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: victormagalhaescbt
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+      
+      - idiom: English
+        level: Intermediate
+
+      - idiom: French
+        level: Intermediate
+
+    
+
+    # Interests or hobies
+    interests:
+      - item: Sport
+
+      - item: Series
+
+      - item: Go out
+
+# Your previous education
+education:
+    - degree: BS in Physiotherapy
+      university: ESTeSL Lisbon
+      # optional
+      university_logo: 
+      time: 1998 - 2002
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Physiotherapist 
+      time: Aug 2017 - May 2023
+      company: Fisiosaude.
+      details: |
+        Owner and physiotherapist in the clinic.
