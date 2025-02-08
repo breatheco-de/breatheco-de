@@ -1,0 +1,91 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniela
+    last_name: Marfil
+    
+    # Define yourself in 4-5 words
+    motto: ...
+    
+    # focus
+    focus: ...
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      ...
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    #email: a@a.com #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    linkedin: DanielaMarfil #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: danielacmg
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+     # - idiom: French
+      #  level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Crafting
+
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: Bachelor's Degree in Computer Science
+      university: Universidad Central de Venezuela
+      # optional
+      university_logo: https://seeklogo.com/images/U/Universidad_Central_de_Venezuela-logo-44AE876CE8-seeklogo.com.png
+      time: 2011
+      #details: |
+        
+
+    
+
+# Your previous job experiences or voluntier
+experiences:
+
+
+
+
+
+
+
+
+# Your project portfolio
+projects:
+    intro: ...
+      
+skills:
+    toolset:
+      - name: Just learning
+        level: 100% dedication
