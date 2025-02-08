@@ -1,0 +1,103 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Ely
+    last_name: Cruz
+    
+    motto: I have no special talent. I am only passionately curious.
+    
+    focus: Programming
+    
+    summary: 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    email: egcg1986@gmail.com 
+    phone: 685 810 709 
+    website: 
+    linkedin: https://www.linkedin.com/in/ely-cruz-97a774141/
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: holyfs
+    
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    interests:
+      - item: Music
+
+      - item: Coding
+
+      - item: Cooking
+
+education:
+    - degree: assistant sound engineer
+      university: AudioPlace
+      university_logo: 
+      time: 2008
+      details: assistant sound engineer specialized in recording and production
+          
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Gestion logistica
+      time: 2018 - 2022
+      company: Crystal Media Shops S.L.
+      # optional
+      company_logo: 
+      details: |
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
