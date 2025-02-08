@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco Javier
+    last_name: Lopez Lara
+    
+    # Define yourself in 4-5 words
+    motto: 
+    
+    # focus
+    focus: Ser un 1% mejor que yo mismo cada día
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: lopezlarafranciscojavier@gmail.com #optional
+    phone: 646581895 #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JaviLomark
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Read
+
+      - item: Code
+
+      - item: Sports
+
+      - item: Travelling
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer
+      university: 4Geeks Academy
+      # optional 
+      time: 16 weeks
+      details: 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time:
+      company: 
+      # optional
+      company_logo:
+      details:
+
+# Your project portfolio
+projects:
+    intro: >
+       
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 70%
