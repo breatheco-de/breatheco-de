@@ -1,0 +1,91 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  # Profile information
+  first_name: Catalina
+  last_name: Sehrt
+  motto: 
+  avatar: 
+  summary: He estado trabajando como Asistente de entrenamiento y capacitacion en Hotel Sheraton Santiago, y tambien como peluquera canina, quiero probar algo nuevo como Full stack.
+    
+  # Sidebar links
+  email: Catalina.dali94@gmail.com
+  phone: 962963679
+  #website: alesanchezr.com
+  linkedin: https://cl.linkedin.com/in/catalina-sehrt-b7b09514a
+  github: catalinasehrt
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Español
+      level: Nativo
+
+    - idiom: Ingles
+      level: intermedio
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: books
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022 - 2023
+    details: |
+     
+
+
+experiences:
+  - role: Asistente de entrenamiento y capacitacion
+    time: 2018
+    company: Hotel Sheraton
+    details: |
+     Capacitacion de empleados, reclutadora, organizacion de reuniones eventos internos etc.
+projects:
+  intro: >
+   
+    
+  assignments:
+    - title: 
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 15%
+
+    - name: React.js
+      level: 10%
+
+    - name: HTML5 & CSS
+      level: 70%
+
+    - name: 
+      level: 
+
+    - name: 
+      level: 
