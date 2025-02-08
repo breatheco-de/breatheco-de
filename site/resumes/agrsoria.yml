@@ -1,0 +1,85 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Agustina
+    last_name: Soria
+    motto: Code
+    avatar: https://avatars.githubusercontent.com/u/101881810?v=4
+    summary: |
+        I started coding since 2022 and I'm still learning and developing skills.
+
+    # Sidebar links
+    email: agustnasoria@hotmail.com
+    phone: 9 6347 6633
+    linkedin: agrsoria
+    github: agrsoria
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+    interests:
+      - item: Code
+      - item: Books
+      - item: TV Shows
+
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      time: 2023 - 2023
+
+    - degree: High school
+      university: Liceo técnico José Maria Narbona Cortés
+      time: 2014 - 2017
+
+experiences:
+    - role: Janitor
+      time: 2021 - 2022
+      company: Linkes S.A
+      details: 
+          - Cleaning of common areas
+          - Camera monitoring
+
+projects:
+    intro: >
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Post
+        link: "#"
+        tagline: "Instagram post version made with HTML and CSS."
+
+      - title: Instagram Photo Feed
+        link: "#"
+        tagline: "Instagram photo feed made with Bootstrap framework"
+
+      - title: HTML Form
+        link: "#"
+        tagline: "Payment form made with Bootstrap framework."
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 60%
+
+      - name: Javascript 
+        level: 50%
+
+      - name: React
+        level: 50%
+
+      - name: Git
+        level: 60%
+
+      - name: Python
+        level: 40%
+
+      - name: mySQL
+        level: 40%
