@@ -1,0 +1,84 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge 
+    last_name: Baca
+    
+    # Define yourself in 4-5 words
+    motto: Amo la tecnología y el futbol !!!
+    
+    # focus
+    focus: Nunca dejar de aprender.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     **** Soy Ingeniero en telecomunicaciones,he trabajado como especialista en soporte de redes de datos por mas de 10 años e incursionando en el mundo de la seguridad informatica.***
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1K1l3USobNFx-LYYRNEHuq9dw4E9pS7ex/view?usp=sharing
+
+    # Contact Information
+   
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jorge06br
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+       - idiom: Español
+       - level: Nativo
+       - idiom: Ingles 
+       - level: Intermedio
+       - idiom: Aleman
+       - level: Basico
+
+
+    # Interests or hobies
+    interests:
+      - item: Futbol
+
+      - item: Cocinar
+
+      - item: Paintball
+
+# Your previous education
+education:
+    - degree: Ingenieria en telecomunicaciones
+      university: UNI
+      time: 2011 - 2016
+      details:
+    - degree: CCNA
+      university: Colegio don Bosco
+      # optional
+      university_logo:
+      time: 2015 - 2016
+      details:
+    - degree: Cyber Security Specialist
+      university: Arcitura
+      time: 2021 - 2021
+      details: 
+    - degree: MCSA 
+      university: Microsoft-Tecnasa learning center
+      time: 2019 - 2020
+      details: 
+   
+    
+         
+skills:
+    toolset:
+      - name: Cisco-IOS
+        level: 80%
+      - name: Fortinet
+        level: 50%
+      - name: Watchguard-OS
+        level: 80%
+      - name: Javascript
+        level: 5%
+      - name: HTML5 & CSS
+        level: 10%
