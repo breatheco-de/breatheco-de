@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yaira
+    last_name: Velez
+    
+    # focus
+    focus: Full stack development
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: 94neongreen@gmail.com
+    phone: 706-296-6454
+    linkedin: www.linkedin.com/in/yaira-velez-6b216719b
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Yvv1214
+  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+# Your previous education
+education:
+    - degree: AAS Nanotechnology
+      university: Athens Techincal College
+      time: 2016 - 2018
+      # optional
+      details: |
+        Science and engineering at at the subatomic level
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    assignments:
+
+      - title: FormHTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yvv1214/HTML-form"
+        tagline: "A responsive Bootstrap one page theme with JS"
+
+      - title: InstagramFeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yvv1214/Instagram-Feed-project"
+        tagline: "A responsive Bootstrap one page theme with JS"
+
+      - title: Excuse Generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yvv1214/Excuse-generator"
+        tagline: "A responsive Bootstrap one page theme with JS"
+
+skills:
+    toolset:
+      - name: Javascript 
+        level: Intermediate
+
+      - name: HTML5 & CSS
+        level: intermediate 
+
+      - name: Git 
+        level: novice
