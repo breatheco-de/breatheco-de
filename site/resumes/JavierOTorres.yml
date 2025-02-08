@@ -1,0 +1,77 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Torres
+    
+    # Define yourself in 4-5 words
+    motto: I like solving problems.
+    
+    # focus
+    focus: Building a better future.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have been in the marketing world for almost 5 years now and have realized that coding and software development plays a huge roll
+      in a large majority of the services my clients need. I took it upon myself to dive into this space and hopefully become proficient 
+      in coding to grow my tool belt to help more people. Eventually my plan is to have a good understanding of coding in order to create and manage
+      a department in my company for coding services.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://3d-mon.com/wp-content/uploads/2020/08/Bad_Batch_Wrecker-helmet-main.jpg
+
+    # Contact Information
+    email: thejavierotorres@gmail.com #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JavierOTorres
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Jiu Jitsu
+
+      - item: Powerlifting
+
+      - item: Basketball
+
+# Your previous education
+education:
+    - degree: AS in Arts
+      university: Pasco Hernando State College
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019-2020
+      details: |
+        Associates in Arts
+      
+
+
+# Your project portfolio
+projects:
+    intro: >
+      I've been messing around with a few small games on Unity and focusing on this course with 4Geeks.
+
+
+
