@@ -1,0 +1,69 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Pineda
+    
+    # Define yourself in 4-5 words
+    motto: Reach your goals
+    
+    # focus
+    focus: Learn from mistakes and errors and improve.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Always willing to learn new things and correct any mistakes. Refining my coding skills every day.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://4geeks.com/static/images/4geeks.png
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Joeyy485
+
+# Your previous education
+education:
+    - degree: Full-Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.com/static/images/4geeks.png
+      time: 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Python
+        level: 0%
+
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: BootStrap
+        level: 65%
+
+      - name: Flask
+        level: 0%
