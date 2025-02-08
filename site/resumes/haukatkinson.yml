@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hauk
+    last_name: Atkinson
+    
+    # Define yourself in 4-5 words
+    motto: Im cool and like video games
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+            Im a video game streamer looking to branch into software development. I will be beging the journey at 4GeeksAcadmey. Here i am learning coding as a beginer and loving every minute of it. Hopefuly by the end i know what im doing.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: haukatkinson
+    
+    twitter: 'webjeda' #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Video Games
+
+      - item: Gym
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: High School Diploma
+      university: N/A
+      time: 2010
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Table Games Dealer
+      time: 2013 - 2019
+      company: Seminole Casino Coconut creek
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+
+
