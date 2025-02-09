@@ -1,0 +1,170 @@
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Whittaker
+    
+    # Define yourself in 4-5 words
+    motto: An upcoming Junior Developer!
+    
+    # focus
+    focus: Frontend Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      An upcoming frontend web developer at the start of his career who is hungry to enter the professional world, work on his craft, and start building awesome and beautiful websites for you and your company 💼🤓. I am skilled at HTML, CSS, Bootstrap, JavaScript, and Version Control but I am always looking to expand my skillset!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQGNATIRSGgFww/profile-displayphoto-shrink_800_800/0/1683794679090?e=1696464000&v=beta&t=zDLcOOfwb6ymVv2yxnlhioKQzUGEzDgvBFs_d3KG1tQ
+
+    # Contact Information
+    email: gdwhittaker94@gmail.com #optional
+    phone: 698 499 142 #optional
+    website: www.guydavidwhittaker.com #optional
+    linkedin: https://www.linkedin.com/in/gdwhittaker/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/gdwhittaker94
+    
+    twitter:  #optional
+    stack-overflow: https://stackoverflow.com/users/19152745/gdwhittaker94 # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Latin Dancing
+
+      - item: Guitar playing
+
+      - item: Exercise
+
+# Your previous education
+education:
+    - degree: MSocSc in Social Anthropology
+      university: University of Manchester
+      # optional
+      university_logo: https://tukuz.com/wp-content/uploads/2021/04/the-university-of-manchester-logo-vector.png
+      time: 2013 - 2016
+      details: |
+       During this degree I studied, analysed and reflected upon humanity in a broad and philosophical way: how do humans give meaning to their lives? How do humans organise themselves? What value and belief systems do humans have? Why do people do what they do? 
+
+        - Attained critical reading, writing and thinking skills. 
+
+        - Learned to appreciate multicultural differences and human diversity in many forms. 
+
+        - Acquired the ability to communicate multi-layered, complex arguments and insights into human social and cultural life. 
+
+        - Departmental essay competition winner (2nd year).
+
+    - degree: Master in Filmmaking
+      university: Bradford University
+      # optional
+      university_logo: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAf8AAABjCAMAAACi/PkAAAAAnFBMVEX///8AAABqanVkZHBnZ3J6enphYW35+fnw8PLV1disrKxtbXft7e9fX2xlZXCLi4vAwMAlJSXBwcF3d4FKSkqDg43X19etrbPd3d1nZ2dVVVVERES6urqhoaFycnK7u7+UlJQXFxfLy8s5OTkQEBDl5eUvLy+lpaWYmJ/Nzc2NjZUrKyuGhoZXV1dubm6lpayxsbZVVWIeHh6Hh4/5hJxZAAAdzElEQVR4nO2d62KquhKAQZCLgLYgitUWi6aC1WLr+7/byYVLEhKIXd3bdc7p/GhV7vmSmUkyGTRNVUDiuloeO/hLEsU3SK58kV/BUqx0fbe491004ruaX3rTT9cNRoS/G5jqYsR3vv8/kaQoCudfvuZWR/J38Lfd0vP8IjBGZqQdDa/ib43Uxbz2XqEYj9lHXYzHSf35NB4/83e0HW+bL7PxQ3NQp8Ds8XhDPm3GnDRImy3bzSbhT7AYv2IUuy1gbs8nnyb8WZGcyEkfuFM53QeRyUTXZ2AxUdz7nxQbLCPrM/IzC0pw8SMv6uNvmt/hDx+XLayNrof1Z1T6XFHab/paa7dvyQfwpY8FZ87Ip5POScOT3vJ4Lpjjn6lNLQ54e1VF+eDPigVuSL70V05pjKmH6hd7r5/U9vzHxU/DLAuBliEJfQ2AqtyE/K1jZIhqw5/yf2OL0t7p8+bLq76tPn3oO589sb3S36uPM/1L0v5n+n47QXL4+ILX2lDH46px2mThBprj5joU/6b9w4owp9s/2oetjfAHVagbqnbeVQCEXhSZ74TwX5EVtgt/sPEmEX/zkiV5qwHM+Gr+BP+9rq+YzRL+BQsPykLXa5U703e2+OqQf6327cWOtrrwNvRZVU+yR33ltL/zhiJpr1TJE9vcHWhDVL2IA1Yh9xcQBUjtT/0c/7c8x4PfevS/bx6p3y2/sH6C/2rOgZXwt9/1M3tiCm0v/xZ58trWNeeJbrLhqTleiT88Ew183KmccjnoX6q7/mNiZ447ws3XSDOi1M2jA//2+H/THGjH5ncz08If4T8Ge1YhSvgja802sddWByvyh/fSfIP6ZC08Qok/eqoT/eVFfHmB/AX8wREAgt+M/Yio8WmZmL38R5+JC44W2duCff6lUVuC3osN8H9BCnFF0ZPxX3AQHqg2p8ofNB4jugsxMzX+2rq1Jc6r/q5u0u/PPw1cp6aepRVqK8ymQv7mlOxqLC+fR+BeLdzkbc0+/oj9f8F+9qzdLOOvzfUnGvKYsqOq/P320gfehaNuT4U/tADrSh+tlH1/cuH78rfL4KLFhJ0ZOdWnUZBcRPzNKF9GyNU3I6gfDK8EqTc1I+iKA2/0Q/zBI13kUv7wRFT/zacV8A3tv740vIuz8AhF/mgUZ9t/JrEc9Mcb9v5xca7BUbvUjT51p7U/55QC/mYM3MIPPWsUZEu0q+GloAzipdOc48/5I1W+bmy7lD94pVvsgfblVfmf9Nf6GzQnj8JjVPnbc7Ij6NH+2WZyOEyy5jo2AP5W/ypgx0tyv/+0gNiK/KTuxnmgVuKjyDkK7L+X5IYRa/bFOyakvZvB1XfspLTr5v8D/LUXShlL+aMOe/tlTTc6Rf6bfXuQfab6/NztKfFHHuTZxtpfMpb3sKtHl8bV3WVfX49kyPEGh+EnxY+mQapFteXO/aCB6Mdd/maOegdWCn2GLP+0LMMKghiXzuU6+kH+/q51zOT8aY+v2OuHdgvkL7k63f+fMaPuUAGIqKrzR/XxGT3ek+zSsII8T7ZrnVQUKGEzivh2F/4JNOVX7VIP41luWn+EVQE1aI6/5SKlYEBn3y/ReFEaJnVNDn6SP9bGVYnI+Wv71mWHhUu1+Jn+uqKloLboT+S3Myp1egB4gjhsO5MC6vwdSPbhXf/qnAIL1Asf5BYB3G/e3O3sfvYfef1m4Xi1zg/sZkDPKH2jy98ASFWYkL/DTPK6Nj0S+AP8UVuqLEAPf9iY62azZ7z3GTdGvxFvGbOkwnf04+rA/HgDfy3DZxXP+zxTZsH+oGzN/fiDKDCso5YHxtSAMrWOvmfhT4YRpOATfjI5/Y/5G0vI/0idyL4eqZmAH+FvP+mVQu/hn9T7oHNk1IaZ/nWatXKiPUP9Bf0CLT83fYAke8EEVxtqZOkG/qgPKtH+Pjsh8N6Occ3u1v8Ll8tlCezLspaF33xcJn6J/rHj/5abQ9CBC+tO2/5DB0T0TOCP8EdlTBp3D397VY/ZwQ+0wzds/6HnL9wODms0LzRvDcMt/MFO3xfCLRvWw5u0CuBu/B0bSvWPiGZ3PpNdW/8PjCyrhL+UsLlB258kmhsndOv/Kf5IYeLxnR7+zRDA4ov9fdj/d+Szrv7zO+0Y3sIfdlzexBs+2Fkt+FB1z+Ne/F0viiKv8NE/Ikctbj5H4IL/8f3/EKSoNFzY/F1YD3LHgcdMRzfw3wj4N+qWHoStOmR9/O2qGR24OVSF/t+kJ+IGOWhPN83/1SLlfyY32siTPnfqO7oLf+j7QbG0pdXEbeVaG+Y1AqWB/nXG/45l6vpZaWtO7GjLMoyZtq/AP+TnxjaU607zh6WMSr6PP2xWbzb+ecXwVuBvz6nT8oLmoOra8TP859ygwErfgfqO7sIfGfLRtLTjxnRbGTXM7znYo++O/5tTwxxNj2UZxWU8HU27MUAD/AE/PnLQX4X8UcnDRtLLP8QGoBMLoDL+U+j6QbyPhqcgasI/w/+Ju9iqCV+5D38X99enidvq7sC5tF88+yrm39YCU8Begb/GzO5oqMzWYv7IApz6+cMu9wdy5vYsbqXxv7P+Lo3R2LYDkD+l/2fc93oE4C78SbM3Y6rfbkbMFzIl1Bv/+b34P6gKmYF2m554Y/k7b9A17OUPS+8dgHd+6k6JP3iUz9I//zT/Ezsn5L+helvd0R34h9hqT0uttd5m7lxp/tEQfzO6MhVAMf4PtS26r76hlTc3Cf+gQzPZyx9ak03YceXUxv+3zASiRnuQLz+t/wu2Y3hojc9d+BNYluu2w7ZG6nsU20H+5jWxl9SoX1R7EkP8F3tqdk9zdrQa5oMwxrp+Xvfxh4oU7nDmaCvO/zxSZ7ZX7ZAsngv4Wf8PGnzK3QTUZOM9+FdBHpZWUu2/AJSXF9tD/I3MywH1FWRq8V94bPejKesnpix5/v4cRYT28Z+Ihlx7x3+YkM/GFYUavwn5XHzpbZX6If7Jl/5Ra5hizcQq/ev8qyAP82hTGtwDIcX/6ESjofaf+pdGfRgXTZk/mgo5kyGfhznrDXaCsFBL7OUP0HAd39hn+uP2mZZJu4We/39q593QlONuAr+BDQ4E/+HxH1xRHzfoRpNnOrz8HvyrSF3jAmiN79DKIPeH+I+Ci+tcqrkjNCW4nKryx6H27+v1+lHXv5h+kd64RbWgxVGC9R+trPiAcU2w/mNObaH4J1R9c2BV1PePj3u0/1cbwHUT/49mCUJXNtCb/Xrbve9RRWh/nklGov9BqVr91KX79ZF2pKw5mf4Vxv8ZdaxYGhyBfwxwMJijHP+HZfFUgTmz895P8y23p/0xn7fe/ce5E1tRrOedIffD/ImReTPWO5kzV9zO21Uk9uS1ri4ninhxfuLn5sF8LQnvns07dZE6rK6WzLzjYd1zyD8iSUUy8nOqxR81ahbHKIGYv+nl5ZV8y8yRaeW+GxtmfEP8XyV2eNhOsuH9/lVZbNGKHn4t3w8KCDfh3Vf7VPEeZkwTh33B1hiMjGUi5G9GieuC1DNG0xyfxoguTmpEaeNTqvL/lXtJ7fSZOdX7h86AQ/GfXoiS6LT/pAyCCMX/eUUd/xc5ju+WdqTa//+V+4pfB/MsAcXfCqnOHKwNQv5mjhYFoPi/S1mOUJzI1LviELBCOf7vV+4sYTXLF2SF1WZtCNyEyuFgpS6ZBuTi/4om/u9qg3BZXrLKfSqU4/9+5c5SVmlaIhBSaV0i4FIpXKKMfLsK478gfzui+9w+M5D0y/9/TTj+JeQ/ovmXKWU7fvn/1QKiWuM7F7rFOyFtDbLUEul/N4f2P0CjZEZzQsex4+kv//8WcRtQdm5QxJ2UGuQJCvzN7Ph/TfwfsgE2njTLwWU0+uX/3yLNMn2ywqsWz1lSjbheCdLp/2cOjv8rTPj3CLSi1AovYkeHf/n/1dIO0zsxxT/C6z0b/omY/2iUZ75t+9EFx3/6R3fp8VEgv/z/aqmDfNAUDz1971CDwaNAyt+wgmk0jQo39bIsMq1O+Ocv/79b6kZvlFS8x8iMHWoJF3TxZPzxzij2C3UEhAFgA/k/fuW+Ujf6aekzjfYG/v3y2/7/aqkxGUvfpKGx/P1f/v+jQrK7WVaw9AOjkeDqHOstUD5BSrLBVfw/LXUJfvX/3yxuLcBOKSk04FJi+9V/fIzj3iLi9e//9+IXm9lq/rb/2p3Hh/D/tZAWL2xm1tl2kjmSYN0Tn2v5WT1NjoMP6N+duxV4L4cMDFyh4A9iblAa22FvPtZMRNrjedYXCMIX02n7IFusMuNvYgtrl61cUP+yPPCheVieDqLCeBXsuduGSo92wHv3ZuG0hbei78aTnlzsE/FBlUgO9LfiK00EOQiIbAS7f403qqUE69fHXxddhUXMH+VE6j7bowTQVqEGkFxLq749JfyhvM6fZa2tl/9eyN/GC8qF8jaR3KCIPyqlD+VSgneznknr191Exh/ebqe+Sp9sPfiyhLr8+sysnD+UL0klu739L+btSefj7eR59nLeNT+txFZAwh+WUmfRqrSUkAha1X0F89+1qZnO813TOvismejJ3ijL9vL0Ve86pNvO1X59eXgx/22RNfLwPF49vdaXeBQaD8x/vpKIoLQP1el2L3RWGXuzqi8kTBiC+X9Qz35+q+9rxu2KSmlHPUU2mX1QFeyZq8f+TVLdLf7saA696XseBuZPR887ICkq8/jIFR96MmY9gL0IX6qW1O8/g/rp33o0oC2qc/Zi07RXvqSRTFRqHyVVwql919Qnq2qT6GyYP3MIyLb7iii7KyqlTupqkI3rp+Bs4Gdwgxikyl7wQZ6fU5s+3SyiJHWu9Ue3rzww/y3/q70StdbH7t1Xaft06QI/IuhVHWfh0jD6TCL+WA6Vr/7U9QIm0oOEshIiqySZSzUA5t/RJptHwf5C/kgW1QtL3pm2Mh0ewWulGv/Dod5m5NNDhEaSUgEjVuo3cSXf4K/ZpF2zTyzkX5vgPtcevOMyx/VEvpecv+ZU74JZd65+G3+i2NbinFDo3UYyZSbmry2wXmfXSEn5w87qW1evdifsvsv/woQPN7NJVq9qlvBHaQE6GlfCn5yji6YVXKw2+SfX1T38YRUiLXfOa4Cb+JOa2re+p8B78G8PkvLX/H1nQw//2vt4pJD8CX86YMRMljT/ol3/0+tySvmH4pot7MHhutLzghW0+UTW8faUfi//um3y6xFv4e+L7C8nmfAqUv6C9c69/LVix2nBn+I/Ahz/Jol0b6dTyh9DZZublH/WbwBQGeF0C6gNi/vkSPr5S4aQbuBPnJp+R6WuAPzDSPmjdcpsne7nryU7VrH+AX+HTvjhATpgxHSTOq4s7n3zkZw/Kq23jmYT8k/eZSdBglJ5k3QrWaUIJPsNocQV4IulcAN/vOvr4FAFdjX410VJ+aPUJGyO0QH+KCklbQa/zz+m+XPegJc0MaLH3gov5z/ueEJS/v66jyu2qWQRJx5akO03yB/fEpdb6Ab+2FmX5xhrbgOPVXDrmuX8T7zvM8SftIJmD46/aQV1DNfUsviIHpa/TQeMxTZbG+rwYbQ6oEfk/E+d1iLlj4tM/LoWjRiSSutO+hAM83dwP5C5J3X+eE8+M41IcI4LLgmEnD/q/q5pbTHIn2iYuoLVb2nCKR8N7xgmydLD2dzKzL0c4W9k5RfDP5hOpxbk3wYMWEctMqa1GJFTBuRjkPbei5w/UmyPau0f52qQtX9AeUjoVTJSBsP8CQamU6LMn1h/pZoyZxR0e2Fp+5/f1P7RK0bbgqwWf1+P1zgu64tmcZTWuX7L4/V6rHR7xd9GSYI7s7ROmzoYbrOd5mOfyPmjlBBrxneU2//HHvt/oo32S7doG1Hgr2EFQLc2Zf64GvaMPlCCFTTbBZDz/7jV/mtVoVdnI/yNzHYc6rnApf0Mt9hOQPMHJZKlk5atXDT227L+qHArW8EGzJQdAJTyf24tfEfw2E9TmFi3SrqAKvwfeNuszB/fo9pbIG1ssRjaUv6LV/6BFPhjf6lSiYT/tGoTflguUUYKP0VRPmhBbxXxw/B3caQY7P9Zrf6/arFFWwPyEgHDivpvRcr/pctUxt/R+VZJyYEx2UQLi0ckVPhj55lO3ajMH6cTUozymXW0lJT/quMsKvAn754hHxv+UFW7+XHpZsurqwHIPz+mRVpelz7S4ix/vBiMWTBk5ky+mGXd/Tf6zb+UP35gLnmWhL+Nx7VlM3tv7EETqb1R4o+7AHSvVJW//6bo/SFJOjcp449r974zSjLEv2ifwkA+vxVkKPF7WQ3V25h/1fLTYxzVL4Ji+Mf0gqFpqVFBwVbm1v2KgSov4U9yL3EqXczfIVMFkn71hmsf2Pd5E+oKJf7PXNNU5d8/9CC6EyYduYT/875bfCr8tfauDdhDz7IL9wg+12xF7f9K9/+Mi9amfGjixfGbQHulM/+roclKMl3Pz5KJ+DtVZIRoblareoZ7+peZ1A4r8U+4w1X58/WwX3A6tM7hPP+CTEvO2SJR4r9rnsKAjbXlDaATl/rVd7fMl1VVdwLcB2T4H+2IbvE+1f49uxoMtC6Ci9OC+a82k0YOs1UV2tCZJO3M/2vJtpoylWnWribFvwhfyqPEX+PuTHX+H+8nm/fryFjIn+kMOZNqLpnXfEr8P5qngJyiPL8i+28nebzMsmXsYv7E/kcpQPbfy3PY2ln+Wgt8FAA6eWDevEB4yOLJ4r9eBbGzeABtL9r7SXYZVEbciK20C6jOn6qEffFf9Lmw2lEOkcFWhjZS0viv7nyGEn80mUV6DXgoz7QyJ4qvR+Lt2zbx//F2ZxnFcennsOVw/HPa4gd22o4kGmmlDIxccv1GxPzXwshWaWTbTDbFIOhEkolFkSVW44/qH2WaVfl3WnSv4LPSRSDlf+74PUr8D81T1Pw1NyHv18JVgNgDG5ernSTAzx07Y/U/ej8MpfE1evrPrZL/mr2xH0gk7f+diY6jnkwgY7laxXO2fAnhgwQ1Ro0/Dq9rv6ryf7mdP33fEv5PAo9Cif+meQpIzbteI6IQnTQ/Xo+pg/m7eXy95mTJj2NFkcfyhx4/neSLe3WEQX4dfFLMf797a+S9juncHXh12eX/tTs/94QXYKKdMTfcZ9pK9h7k/67On+6+fIM/Xa27/F/f5qeFyKAo8X+g+KMuOuTtLoo8uiSO716I/b+EwAGwEqTuAjiBYXD+3/RiU28LKKnOYDMW0B/61dyIvqICScEirMPtVlwjRU823xB5wAp11m9RcTF2mgg2CoJwIXX9TxUvGU942IiE9te+of/pnjPm/1xfBj1AJwtxLUr8J81OBkruC7LQOeZ5i4vq/yGdsPRHUEew9h8aeYp/SK0et9xFXQ8GhfDnf00+sJv3Koj/q7/YqAvT/5pk9NJQfdcNP8Esul1Adf+Pul9V/392O/+O/W8qxEH8AERu9/+MIAi4R+j0/3Pbdln+Vggo++8m7RfPIb6gMdz8Jfw1bYE7gX3xP7hIpJO+SArJHngSoNsFVOdPeY+q/X+MTHn5zZavLfhh21FspCBlrwlW7v+Rp8DvfTMswt9fxnEUX2r7P/Kio4sRYP5s/q+AThcf+a37b+TkdVLWwNQPFhn/aqSeGdbhxn8GJ1TXsjKf882LXFEF5YJrejeN/yivE1j18yc1WzKaqMT/rTGMqP9flnmoJQm09Rfg+OCyIPY/A9Aa59AFTIAzuh45/R8kVBr4mHpbgOECMj+gUt2l/MnEHVMIHH88kjOXewBAeuqJsPiU+PO8Vfnj5xwO/qnuBD0p8+YIjj+pIOKhdeXxX+KeVuN/Q/af9f/QaGDgtxkijVLzmth/T8OJBBWcP62Pf3fIlB//xTZVvqDjJG1y2Hd45xWA8vzP+zfmf3DkSa+1osTvGC6eP37NjfiFparzP9UyEDT+n6Zl/Qg22/+vS5vr/+F3Bdtp865gL/PbpT8XB783WMH503r52+9cKfD8cezro2yCCeuPr9N21pXtjq9a+HoKKPH8L+06KM//ImO0VnQAJm3zrITnTzwE4XyC6vxvVXvQ/J9hBbX9v17jY+pj/kXpRXFOeqEOGv9p9L9WvQucej1453Nv1G8rPfyxkqND2zrzP2RVpOTM1ZIdufAOlAp/fMUt9YMyf9zpUJwAQA/Ohj52+GuvumidiKYW/4FqceVaNeN/APb1rxeUzfGSVP1/NCVQxrkLfDT+2/r/YAml1MJlLaF9aT4XGv6nONbdxx8RpAfvu/N/Tz2l/6UPCXegCn/cK6FbsTL/vsgjftfuOpUufzyMLTIoCvzp7iUa/0PzP05cj/Uhoey/nx6vpc/O/3wasMug4fAfFOYTLEEwJQE/00/f/ZwaA1GfrfTx5yc9u/yxH7wWqhr5jEkj3MSAavwno3CU+TudqiOVLa9kRPyli1kU+H9RBQn9v1DD8R5I/KIsUc4bxN8GYeomdfyXyb3/kQ74NpMmWTD0BOHPlir+Xv7ZIH/iAorm/kkU/flJIiTAgHUdhvmTLgmjxNXjv7E9UokAIcvE2OcU8Me7CV4vOMx/TN+zgTI/ggJ/tdPIPB49o5r/HcV57B2xG9+N/2jneNHkTzP46wHXGIr5p2Wo/e/7+Tt7SavC6naNglqFIhhdUOCPD2IHjtT5A0GVE4pglYmIP6n7XRdwkD8+VzOFAfX/FI3/2WWZx0tc2sDH+oA0fTc38zLtxn9Rb4ucLutXyKF4D880hoI+KOnjjzpwdMIGUfwPfhhBUODQ4BCuH4+M5RjkPxYQvGH9D+6PivtsnTPyS8BF/J2dYMdh/vjJ295FHf9ph5nbFgegFLifwS0d/lZRr/AbGc3ST2gUUusW/L38dxxaYfwfdgE7Y+EJ7h/39EEEq6yG+JMFwFv2xxv4gzfB8R1JBCF9Yv5V3edPMLT+85FtMWz8N5rtRzoA+39+kjT9/278X1K0K/yatd4J8Exl24+kh/+EV9FC/rg6v/K/YlY9uT7qxD30cQP8SZgpP5t8y/rvUFSBOEnehFpCyJ9kNeJHuPr5b0j8VKtVWf5gGXlenNpoPvjoeV5UEvtrd/hHft3orax+1bOx1GLvtkyWPeO/e/7pxPG/IheQpPLqv7LOF2kv/+oNtZ3RppvyPxADIglVxUJWZ792ylDMnzg5gllyGX+nyqxEjS1Vcbp5GoZhmuNRXjO4XvLcQi4dWgYIN4QV65Y/1PTNiH/9aZprZXxjirmB+R9mGaQk/ltmlQd8bWyO6S5gD39QpW3qIriJv02iVV+kdqlK6NN16sT8SYXasr/18N9UacDo89eWm3Tfaz3erPiEjRp360c8/2P9flgjdKuXfkPjf5PuRyLjX7zyFVW6/mPT0Zi4nIdW2i+QfqHdJxl/Z1G/qPm9e8rb8v84VW478dw9qBI0CeyWhD9eVcKtKpLxB5s6foq5+nfW/0P+09JuXhtMOn9G7IPbswuK+YdVSSjlfyGuHP1QmdSo0LLiylrIH0xO9bvJ9Z3AtN2Y/yupRiVXgsq5reLeRXpLwp+EFSjkfwq3H5K0it/i/2l9hi7JDx+ADGeDD4ZWeogF85+HD61sZk3CPS5GQ7b+D08E04MAeOJ/cKydZFppv5P8j82tTLbjFZ2jeb8VneRG/lX2DfTMTIhz0ubnE07qyPiTvLZMg8ZZMpun2DyfXs50zPyYK8Dv8HeyInP8rICSFZoLP2RZpjjhw4k8/2v3VqXrf7kRE1wfFJZaf7Fl15v/VT+L/dpb+Wt+nYpU351Pz7DcNofZR5vNcyeOEZHyJ8k8+PwPUume/jv8/TDLbBflFg19rQizMMy+m19czv8szP8rzv+Ci6/ZH1cHhbVWeES2NRM9/L9OMmfiZv5NF0wosoBWKX/ysHwvWSIvghv9nv4Pjn6ElH5up9anGaffTiwt4f/4JKhR9LQFK5hC3eKxje1L9FoLjslo7YSE//t83KPbvsFfA9u1sAq8y7Mzy/l3uj/iec/H9cdGWCTf8/+mWQL7ANZSCz/jy5+8uyLs3urb6nkjPOV5Pl9LXuGwms/ntW7b7OB+W5WLz9ZwzyYoy4bH0fK0eplNNlm/T/uADlJe19dIMes89kq45qmSDF5G5H5qKDktKpb2+4p9ivn55XTYyN8v8r32H2nHwIoTzXG/Z/Z/xS5Oq/nuCyqC1/f5x2wwLdw/Jd+y/7DJp+kv+j8VByQLKOBuBfkfwfiIMJTCslMAAAAASUVORK5CYII=
+      time: 2016 - 2017
+      details: |
+        A 1 year intense Masters degree focused on teaching students to be independent filmmakers. During this degree I learned about all the different stages of film production, how to use professional film and sound equipment, editing software, and film theory. 
+
+        - Produced a 30 minute, award-winning documentary as my final project. 
+
+        - Produced several shorter videos that won University competitions and were shortlisted in various film festivals internationally. 
+
+        - Furthered my technical and team-working skills as a member of the University's film production crew.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: English Second Language Teacher
+      time: 2019 - 2022
+      company: Schools, Companies, Academies, Privately, Online
+      # optional
+      company_logo: 
+      details: |
+        I taught English as a second language to children, teenagers and adults of all levels and abilities for nearly 4 years in the Burgos area in schools, companies, academies, privately and online for a wide range of purposes and outcomes. 
+
+        - Rated a 5* star teacher by my students (link below) 
+
+        - Developed strong time management and organisational skills through the independent planning and preparation of 20+ hours of classes per week, every week. 
+
+        - Showed dedication and commitment by creating countless resources and presentations to enhance my students’ learning experience. 
+
+        - Enhanced my people skills through the management of big groups, and learned how to establish strong relationships with students of all ages and language abilities. 
+
+        - Successfully led many students pass to exams and achieve their goals.
+
+    - role: Film Production Assistant
+      time: 2018 - 2018
+      company: Film Production Companies
+      # optional
+      company_logo:
+      details: |
+        Joined various professional film and video production companies in my local region while trying to break into the industry after my Masters in Digital Filmmaking.
+
+        - Gained valuable insider experience and knowledge about the film and video production industries. 
+
+        - Expanded my skills with technical equipment such as cameras, microphones, and lights. 
+
+        - Learned to be a team player and to pull my weight within a team environment, often doing the tedious, unwanted jobs.
+
+    - role: Learning Support Assistant
+      time: 2018 - 2018
+      company: Leicestershire County Council, U.K.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I assisted ESOL teachers (English for Speakers of Other Languages) at my local council with their English classes for adult migrants. 
+
+        - Improved my organisation and time management skills by helping teachers to plan and deliver their classes each week. 
+
+        - Enhanced soft-skills of patience and empathy due to students speaking very little English and struggling to learn. 
+
+        - Trained as an official exam invigilator and was put in charge of exams for various subjects.I assisted ESOL teachers (English for Speakers of Other Languages) at my local council with their English classes for adult migrants. ✅ Improved my organisation and time management skills by helping teachers to plan and deliver their classes each week. ✅ Enhanced soft-skills of patience and empathy due to students speaking very little English and struggling to learn. ✅ Trained as an official exam invigilator and was put in charge of exams for various subjects.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: My portfolio website
+        # optional
+        project_logo: 
+        link: "https://guydavidwhittaker.com/"
+        tagline: "My personal website show casing my skills and projects done to date"
+
+      - title: Bootstrap Instragram Feed
+        # optional
+        project_logo: 
+        link: "https://github.com/gdwhittaker94/Bootstrap_instagram_feed"
+        tagline: "A responsive Instagram mockup website built entirely with HTML and Bootstrap."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 90%
+
+      - name: CSS
+        level: 80%
+
+      - name: Javascript
+        level: 30%
+
+      - name: Git & Github
+        level: 70%
+
+      - name: Bootstrap
+        level: 50%
