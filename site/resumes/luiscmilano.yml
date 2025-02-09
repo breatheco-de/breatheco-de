@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Milano
+    
+    # Define yourself in 4-5 words
+    motto: Data Science.
+      Now is better than never, be yourself
+    
+    # Focus
+    focus: Carpe Diem
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Electrical engineer with experience in electrical, telecommunications and renewable energy project management.
+      Responsible for the supervision of subcontractors and technical review as Project Engineer.
+      Committed to the organization's goals and eager to acquire and apply continuously evolving technical 
+      knowledge to add significant value to the organization.
+      
+      I also have programming experience with Python as a Data Engineer, specializing in the implementation of
+      Data Extraction, Transformation and Loading (ETL) processes. I also use web scraping for data collection and
+      analysis, which allows me to apply advanced Data Science and Machine Learning concepts and models.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/a/ACg8ocJs2cBN88dame-Fb4khQYu2FxO_Bl3VU4JlXdG0kramuWs=s324-c-no
+
+    # Contact Information
+    email: luisk55@gmail.com #optional
+    phone: #optional
+    website:  #optional
+    linkedin: luiscmilano #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luiscmilano
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Mountaineering and climbing
+
+      - item: Science and Technology
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: BSc in Electrical Engineering
+      university: Universidad de Los Andes
+      # optional
+      university_logo: https://media.licdn.com/dms/image/C560BAQEdGF0uuqMGgQ/company-logo_200_200/0/1642003458336/university_of_the_andes_venezuela_logo?e=1713398400&v=beta&t=4QSFQbN9Z5LYv95oLAnE7l6Vpf7-FjMpoCeAZfmTg-0
+      time: 2007 - 2014
+      details: |
+       Study of all aspects related to the generation, transmission and distribution of electric power. Study
+       of electrical, electronic and telecommunications systems and installations.
+       
+       Final Degree Project: "Development of a Computational Tool for the Planning and Sizing of PLC
+       (Power Line Communications) Systems, using free software".
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Project Engineer
+      time: Apr 2017 - Feb 2023
+      company: Grupo Corpdata C.A.
+      # optional
+      details: |
+        Responsible for the management of communication with customers, requirements gathering,
+        design, preparation of technical proposals and budget, data analysis, management and supervision
+        of work during the execution of projects related to solutions and specialized services in Information
+        Technology, Networking, Telecommunications and Electronic Security, adapting multidisciplinary
+        solutions to cover, in an integral way, turnkey projects based on the highest standards of service,
+        including the implementation of structured cabling and electrical installations for Data Centers,
+        videoconference rooms, monitoring rooms with VideoWall, security systems, CCTV and access control.
+        Design, implementation and management of multiple wireless networks, using radio links systems
+        and fiber optic integrations.
+
+    - role: Project Engineer
+      time: Jun 2015 - Feb 2017
+      company: Conexsol
+      # optional
+      company_logo:
+      details: |
+        Design and development of projects related to photovoltaic solar energy installations.
+        Planning and sizing of photovoltaic solar energy systems.
+        Site characterization, plant block design, photovoltaic resource evaluation, estimated energy
+        calculation, design and optimization of photovoltaic plants. Analysis of solar irradiation data sets.
+        Field work and technical visit for inspection and monitoring of project progress.
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 90%
+
+      - name: Angular
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Github
+        level: 90%
+
+      - name: Sketch & Photoshop
+        level: 95%
+
+      - name: Microsoft Office
+        level: 90%
+      
+      - name: Excel
+        level: 90%
