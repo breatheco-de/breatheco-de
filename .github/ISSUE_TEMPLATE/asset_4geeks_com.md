@@ -9,7 +9,7 @@ assignees: ''
 
 ## Meta Info
 
-- Number of words: `<Add here>` (recomendations: ~800 words for standard articles).
+- Number of words: `<Add here>` (recommendations: ~800 words for standard articles).
 - Asset Type: Lesson, Article, Quiz, Project or Exercise.
 - Technologies: `<Add here>` (only one or more preapproved technologies, check admin.4geeks.com).
 - Topic Cluster: `<Add here>`(only from pre-approved clusters, check admin.4geeks.com)
