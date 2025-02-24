@@ -1,0 +1,78 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Santiago
+    last_name: de Aguirre
+    motto: Full-stack Developer
+    avatar: https://avatars.githubusercontent.com/u/62676824?s=400&u=73a4a74b05ac7c8fcd0da93e092b431e046072a8&v=4
+    summary: |
+      Changing my career to enter into technology and development. Always interested in learning and changing the world!
+
+    email: santiago.deaguirre@gmail.com
+    phone: 
+    website: 
+    linkedin: https://www.linkedin.com/in/santiago-de-aguirre-penna-802953160/
+    github: xetnal
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Advanced
+        
+      
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Music
+
+education:
+    - degree: Music Composition
+      university: UNIACC
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      Here are some of my projects!
+    
+    assignments:
+      - title: Musician Landing Page
+        link: https://github.com/xetnal/FU-Landing-Page
+        tagline: "My very first paid landing page"
+
+      - title: Group Landing Page
+        link: https://github.com/xetnal/althing
+        tagline: "Personal project landing page"
+        
+      - title: Tic Tac Toe
+        link: https://github.com/xetnal/tic-tac-toe
+        tagline: "A simple Tic Tac Toe"
+
+      - title: Excuse Generator
+        link: https://github.com/xetnal/4Geeks-excuse-generator
+        tagline:  "Random excuse generator.   --"
+
+      - title: Library App
+        link: https://github.com/xetnal/library
+        tagline:  "Simple Library App"
+
+      - title: Calculator
+        link: https://github.com/xetnal/calculator
+        tagline:  "Simple Calculator"
+ 
