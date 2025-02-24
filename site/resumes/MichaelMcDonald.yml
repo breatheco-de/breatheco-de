@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Michael
+    last_name: McDonald
+
+    # Define yourself in 4-5 words
+    motto: I like to have fun
+
+    # focus
+    focus: gaining knowledge
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: | 
+      I love to get along with people and spend quality time and form strong bonds. I graduated highschool in 2020 and i have around 5 years of work experince in retail
+      I am learning to code to start my professional career
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mikydees
+
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+      # Interests or hobies
+    interests:
+      - item: Sneakers 
+
+      - item: Cars
+
+      - item: Concerts
+
+# Your previous education
+education:
+    - degree: HighSchool Diploma
+      university: Florida Christian School
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016-2020
+      details: | 
+        Private Christian School dedicated to success through faith.
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Fufuillment expert 
+      time: 2021 - 2022
+      company: Target, Miami
+      # optional
+      company_logo: https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w
+      details: collecting and handling package and shipment
+
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 15%
