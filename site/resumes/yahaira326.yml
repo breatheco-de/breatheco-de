@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Yahaira 
+  last_name: Calvo 
+  
+  summary: |
+    Committed professional with years of experience in data analysis and technologies.
+     Dedicated to solving problems, creative, capable and a quick learner.
+      I like challenges and I seek to grow every day
+  # Sidebar links
+  email: ycm23@gmail.com
+  phone: 63 10 59 59
+  #website: yahaira.com
+  linkedin: https://www.linkedin.com/in/yahairacm/?locale=en_cr
+  github: yahaira326
+  stack-overflow: # Number/Username, e.g. 1666/armouy
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2023 - 2023
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+
+experiences:
+  - role: Data Analist
+    time: 01/2019 - 05/2021
+    company: Linda Vista SRL.
+    details: |
+        - Development of database design and segmentation techniques
+        - Data preparation for analysis (sampling, cleaning, classification) 
+        - Report writing and presentation of conclusions, data visualization, 
+        - Statistical forecasts 
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 15%
+
+    - name: React.js
+      level: 5%
+
+    - name: HTML5 & CSS
+      level: 85%
+
+    - name: Python
+      level: 5%
+
+    - name: FlaskSQL
+      level: 5%
