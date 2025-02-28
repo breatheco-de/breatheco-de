@@ -1,0 +1,55 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Valerie
+    last_name: Dubach
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am currently a student at 4Geeks academy and I am looking forward to starting my carrer as a front end developer
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: valerieclaire96@gmail.com
+    phone: 404 610 3337 #optional
+    website: asd.com #optional
+    linkedin: tba #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Valerieclaire96
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Crochet
+
+      - item: Playing Video Games
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: tba
+      university: tba
+      # optional
+# Your previous job experiences or voluntier
+experiences:
+    - role: Housekeeper
+      time: 2015 - Present
+      company: Dubach's Deep clean
+      # optional
