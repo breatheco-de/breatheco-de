@@ -1,0 +1,18 @@
+template: "online-cv"
+skin: "orange"
+
+#Profile information.
+name: Javier Murillo Romero.
+
+#links.
+email: javim552@jmail.com
+phone: 617929377
+linkedin: Javromer
+
+Languajes:
+  Idiom: Español
+  Level: Nativo.
+
+  Idiom: Inglés.
+  Level: Medio. 
+
