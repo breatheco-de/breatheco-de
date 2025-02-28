@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Karin
+    last_name: Ohana
+    motto: The Best Coding Student 
+    avatar: https://ibb.co/kJP93sM
+    summary: |
+        Highly motivated sales and marketing professional with 1 year as a licensed Real Estate Agent in South Florida, and 4 years of experience across the Property Management industry utilizing B2C and B2B management, operations management, sales strategy, and lease renewal analysis. 
+        A collaborative leader skilled in the sales process in the Real Estate industries and analyzing the market through reporting. Currently studying at 4Geeks Academy to become a full stack devloper to futher expand my knowledge within the tech industry. 
+
+    # Sidebar links
+    email: Karinohana95@gmail.com
+    phone: 954 494 1412
+    website: N/A #do not add http://
+    linkedin: Karinohana
+    github: Karinohana
+    twitter: '@kiki_ohana'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Hebrew
+        level: Bilingual
+
+    interests:
+      - item: Kickboxing
+      - item: Sales
+      - item: Technology
+
+education:
+    - degree: BA in Business Administration
+      university: FAU
+      time: 2019 - 2021
+
+
+experiences:
+    - role: Licensed Real Estate Consultant
+      time: 2021 - Present
+      company: Laurie Reader Real Estate
+      details: |
+        Full time Real Estate Consultant focused on building client relationships and conducting Real Estate transactions. Provide sellers and buyers with an excellent customer experience. 
+        Consult with buyers about home searching needs, perform a comparative market analysis for potential sellers, and negotiate contracts on a clients behalf
+
+          - Well-versed in several databases and software to provide valuable information to clients.
+          - Strongly utilized Multiple Listing Service database to find available opportunities for leads.
+          -Scheduled showings to properties using ShowingTime and proper communication with other Agents related to a property.
+          -Trendgraphix to determine market statistics in certain areas to provide statistical value to clients.
+          -Utilized Dotloop to create and maintain buyer, seller, and rental contracts.
+
+    - role: Assistant Property Manager
+      time: 2017-2021
+      company: Windsor Communities
+      details: |
+        Responsible for managing a multi-family apartment community in Boca Raton, FL with 282 units.▪ Performed
+        management tasks- statement of deposits, rental adjustments, lease negotiations, resident communications, prospect communications, and market analysis.
+
+
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: N/A
+        link: N/A
+        tagline: N/A
+
+
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 60$
+
