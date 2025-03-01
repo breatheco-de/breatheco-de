@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yarien
+    last_name: Mendez
+    
+    # Define yourself in 4-5 words
+    motto: In a world full of problems, be the solution.
+    
+    # focus
+    focus: Web Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+        Full Stack Developer with 3+ years of hands-on experience designing,
+        developing, and implementing web applications and solutions
+        using a range of technologies and programming languages. Seeking to
+        leverage broad development experience and hands-on technical expertise
+        in a challenging role as a Full-stack Developer.
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/D4E03AQFlVjUlRX261w/profile-displayphoto-shrink_200_200/0/1663428592454?e=1668643200&v=beta&t=r1WkTDbrQoHQiUHIwPd07lGT2cxG6utSzfX7XSC7x8c
+
+    # Contact Information
+    website: mrmendez.dev #optional
+    linkedin: justmrmendez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JustMrMendez
+    
+    twitter: 'justmrmendez' #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Ice skating
+
+      - item: Photography
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Web Developmer
+      university: 4Aeeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2022
+      details: |
+        4Geeks Academy is a 4-months intensive coding bootcamp that teaches 
+        you how to become a full-stack web developer. The program is designed
+        to teach you the most in-demand skills in the tech industry, including
+        HTML5, CSS3, JavaScript, React, Python, and more.
+
+          - item: HTML5
+          - item: CSS3
+          - item: JavaScript
+          - item: React
+          - item: Python
+          - item: Git
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2019 - Present
+      company: With us Marketing Inc.
+      # optional
+      company_logo: https://storage.builderall.com//franquias/2/6037936/editor-html/4436577.png
+      details: |
+        Lead Developer at With us Marketing Inc. I am responsible for developing
+        and maintaining client websites and web applications.
+
+          - Web Design and Development
+          - DNS and Domain Management
+          - Web Hosting Management
+          - Web Application Development
+          - Automation and Scripting
+          - Database Management
+          - API Development
+
+# Your project portfolio
+projects:
+    intro: >
+        Here are some of my projects. I have worked on a wide range of projects
+        using a variety of technologies and programming languages. I am always
+        looking for new opportunities to learn and grow as a developer.
+
+    assignments:
+      - title: Real Estate Website
+        # optional
+        project_logo: https://tuus.com.co/wp-content/uploads/2022/04/tuus-logo.png
+        link: "https://tuus.com.co"
+        tagline: "A responsive and animated real estate website"
+
+skills:
+    toolset:
+      - name: Python & FastAPI
+        # level: 98%
+
+      - name: Javascript, Typescript & jQuery
+        # level: 98%
+
+      - name: Svelte & SvelteKit
+        # level: 98%
+
+      - name: HTML5 & CSS
+        # level: 95%
+
+      - name: flask & Django
+        # level: 95%
+      
+      - name: tailwindcss & bootstrap
+        # level: 95%
