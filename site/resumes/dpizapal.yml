@@ -1,0 +1,96 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: David
+    last_name: Pizarro Palancar
+    motto: Aprendiendo  para Full-stack 
+    avatar:
+    summary: Como resusltado de este aprendizaje, formandome y creciendo en diversos lenguajes, como HTML5, CSS, JAVASCRIPT, GIT, PHYTON (en full-stsak). El placer, 
+      vocacion y el interes por ejercer como desarrollador, esforzandome de manera consistente y dedicada, soy persona responsable, organizada, puntual y comprometida tambien se trabajar de forma individual como en equipo,
+      Espero poder colaborar y trabajar como developer seguir aprendiendo y creciendo como desarrollador.
+    
+    email: dpizapal@gmail.com
+    phone: 687934109
+    website: 
+    linkedin: 
+    github: dpizapal
+    twitter: 
+    stack-overflow: 
+
+    languages:
+
+      - idiom: Spanish 
+        level: Professional
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Sports
+
+      - item: Cinema
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy cours!
+    
+    assignments:
+      - title: 
+        +link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+        
+      - title: 
+        link: 
+        tagline: 
+
+      - title: Excuse Generator
+        link: 
+        tagline: "Random excuse generator.   --"
+             
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: Instagram Bootstrap
+        link: 
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: 
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
