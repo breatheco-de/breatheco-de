@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jon
+    last_name: Edens
+    
+    # Define yourself in 4-5 words
+    motto: Everything works if you let it
+    
+    # focus
+    focus: Mastering web & software development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Fulfillment/Ecommerce expert with over 20 years of experience, currently studying programming. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://raw.githubusercontent.com/4GeeksAcademy/About-4Geeks-Academy/master/site/static/background_art.jpg
+
+    # Contact Information
+    email: mrjonedens@gmail.com #optional
+    phone: #optional
+    website: https://www.jonedens.com #optional
+    linkedin: https://www.linkedin.com/in/jonedens/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jedens5000
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Minimal
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Scuba
+
+      - item: Kayaking
+
+# Your previous education
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some projects I've completed.
+    assignments:
+      - title: Florida Punk webite
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://www.floridapunk.com/
+        tagline: "Created and designed website focused on the Florida punk rock music scene and live music."
+
+      - title: Atomic Fly 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: http://jede.cc/atomicfly/
+        tagline: "Created by request to replace existing Link Tree"
+
+      - title: Tindog
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: http://jede.cc/projects/tindog/
+        tagline: "A responsive website for a dating site for dogs"
+
+      - title: Hotel Blue mockup website
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://www.canva.com/design/DAEsFxUcDjE/vSkSIZcuU9o3FLZ7LSgmeQ/view?website#4:hotel-blue
+        tagline: "Hotel website wireframe created with Canva"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Excel & Google Sheets
+        level: 85%
