@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Josue
+    last_name: Vilchis
+    
+    # Define yourself in 4-5 words
+    motto: Pushing myself to the limit
+    
+    # focus
+    focus: Keep learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am and infustrial engineer. Graduated on December 2019 and started working as an engineer for Tetra Pak. Had the opportunity to enter a Talent Program and develop as an Industrial Engineer through a leadership track. Worked on different areas such as Autonomous and Preventive maintenance, Focused Improvement, Early Management, World Class Manufacturing, Quality and others. Although I had a lot of experiences in the process development, had the most pasion developing internal systems on VBA and PowerApps, to improve processes and leverage work capacity.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: site/static/background_art.jpg
+
+    # Contact Information
+    email: jossvo26@outlook.com #optional
+    phone: +52 442 598 5669 #optional
+    linkedin: https://www.linkedin.com/in/josu%C3%A9-salvador-vilchis-olalde/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jossvo
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Bodybuilding
+
+      - item: Fashion
+
+# Your previous education
+education:
+    - degree: MSc in Industrial Engineering for administration
+      university: Anahuac University of Queretaro
+      # optional
+      university_logo: site/static/background_art.jpg
+      time: 2015 - 2019
+      details: |
+        Studied Industrial Engineering 
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Process Engineer
+      time: 2020 - 2022
+      company: Tetrapak Mexico
+      # optional
+      details: |
+        Had the opportunity to enter a Talent Program and develop as an Industrial Engineer through a leadership track. Worked on different areas such as Autonomous and Preventive maintenance, Focused Improvement, Early Management, World Class Manufacturing, Quality and others.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
