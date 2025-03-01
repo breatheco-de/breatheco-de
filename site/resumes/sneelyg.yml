@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santaigo
+    last_name: Neely
+    
+    # Define yourself in 4-5 words
+    motto: Engineer, developer and problem solver.
+    
+    # focus
+    focus: Digital world
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Mechanical Engineer, 5 years experience in construction industry. Ran my own building company for 3 years and then ived in Australia for another 3 years. Currently learning new tools,wanting to inmerse myself in the digital world.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://www.soniachaves.eu/img/Sonia.jpg
+
+    # Contact Information
+    email: santiagoneely@gmail.com #optional
+    phone: 9 3222 3294 #optional
+    website:  #optional
+    linkedin: santiago-neely-44303566 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sneelyg
+    
+    twitter: sneelyg #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+
+    # Interests or hobies
+    interests:
+      - item: Surfing
+      - item: Hiking
+      - item: Yoga
+
+
+# Your previous education
+education:
+    - degree: Mechanical Engineering
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo:
+      time: 2010 - 2016
+      details: |
+        Degree in Mechanical Engineering, with Diploma in Industrial Engineering
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Founder & CEO
+      time: 2017-2019
+      company: FNA, Santiago
+      # optional
+      company_logo:
+      details: |
+        Founded and managed a building company. Worked with an architect and we designed and built / renewed houses ,cafes and outdoor areas.  
+        My main tasks included
+        - Hiring and managing teams.
+        - Project Management and planning. 
+        - Costing and client negotiation.
+        - Supply Chain.
+        - Administrative tasks.
+        - Accounting and finances.
+
+    - role: On Site Engineer
+      time: 2016 - 2017
+      company: Inarco, Santiago
+      # optional
+      company_logo: 
+      details: |
+        I worked as an on site engineer in a 9 storey housing building project. It all involved 8 contractors and more than 200 persons on site.
+        My main tasks included
+          - Concrete pouring scheduling.
+          - Formworks planning.
+          - Resources management.
+          - Present advances to site manager.
+      
+    
+# Your project portfolio
+projects:
+    intro: >
+     Some of the projects I have been working on in the academy:
+    assignments:
+      - title: Photo Feed - Instagram
+        # optional
+        project_logo: h
+        link: 
+        tagline: "Responsive Instagram Photo Feed, using HTML and Bootstrap."
+      
+     
+    
+     
+skills:
+    toolset:
+      - name: Javascript
+        level: 25%
+
+      - name: Bootstrap
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name:  Photoshop
+        level: 50%
+
+      - name:  Excel
+        level: 50%
