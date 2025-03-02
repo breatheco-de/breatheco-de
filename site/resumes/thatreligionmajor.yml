@@ -1,0 +1,180 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Theresa
+    last_name: Barkasy
+    
+    # Define yourself in 4-5 words
+    motto: Good tools for good people.
+    
+    # focus
+    focus: Software Engineer | Polyglot
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Polyglot, historian, and lover of efficiencies, I am integrating 
+      my unique skillset into the world of software development where 
+      I can support ecological, as well as diversity, equity, and inclusion 
+      initiatives, as well as digital humanities projects. 
+      Making good tools for good people.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    # avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: theresa.barkasy@gmail.com #optional
+    phone: 941 219 9805 #optional
+    website: #link #optional
+    linkedin: theresa-barkasy #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: thatreligionmajor
+    
+    twitter: 'TheresaBarkasy' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Italian
+        level: Conversational
+
+      - idiom: French
+        level: Reading
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MA in Divinity
+      university: University of Chicago
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019-2021
+      #details: |
+        #Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #pretium quis, sem.
+
+          #- Bullet point
+          #- Bullet point
+
+    - degree: MA in Religious Studies
+      university: University of South Florida
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017-2019
+      #details: |
+        #Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #pretium quis, sem.
+
+          #- Bullet point
+          #- Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Key Holder
+      time: 2023 - Present
+      company: Psycho Bunny - Sarasota, FL
+      # optional
+      #company_logo: https://www.psychobunny-outlet.com/images/hoverimg/20221014725017663.png
+      details: |
+        Managed and facilitated all aspects of staffing and turnover, 
+        including HR processes: posted open jobs; wrote job descriptions; 
+        conducted interviews; oversaw new hire onboarding, including new 
+        hire paperwork, training, and development; organized and maintained 
+        employee files; kept active employee list up to date. Maintained 
+        customer relations, maintaining regular and professional correspondence 
+        via text and e-mail (via Endear) in order to facilitate clientele 
+        relationships, as well as ran relevant reports, driving several thousands 
+        of sales to our site on a monthly basis.
+
+    - role: Graduate Assistant
+      time: 2021-2022
+      company: Fordham University - Bronx, NY
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Compiled and organized research data for qualitative projects and 
+        their use in qualitative and quantitative analysis, as well as 
+        publication. Assessed data for relevance on the basis of academic
+        trends. Designed and implemented graphics and posters for departmental
+        events.
+
+
+# Your project portfolio
+#projects:
+    #intro: >
+      #You can list your side projects or open source libraries in this
+      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    #assignments:
+     # - title: X 
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#hook"
+        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+     # - title: #DevStudio
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help web developers/designers market their services."
+
+     # - title: Tempo
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+     # - title: Atom
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    #  - title: Delta
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# skills
+skills:
+    toolset:
+      - name: Python 
+        level: Intermediate
+
+      - name: JavaScript
+        level: Intermediate
+
+      - name: HTML5 & CSS
+        level: Advanced
+
+      - name: Photoshop
+        level: Intermediate
