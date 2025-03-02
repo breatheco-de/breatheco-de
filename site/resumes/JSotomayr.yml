@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jaime
+    last_name: Sotomayor
+
+    # Define yourself in 4-5 words
+    motto: Constantly evolving
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      From video to programming, all my professional life have been constant changes, new technologies and new techniques to learn and master. 
+      Used to work with different teams and diverse people from all around the world.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/25.jpg
+
+    # Contact Information
+    email: jaime.sotomayor.rodriguez@gmail.com
+    linkedin: https://www.linkedin.com/in/jaime-sotomayor-web-developer/
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JSotomayr
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: advanced
+
+      - idiom: Portuguesse
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Videogames
+
+      - item: Photography/Videography
+
+# Your previous education
+education:
+    - degree: Full Stack Developer Boothcamp
+      university: 4Geeks Academy
+      time: 2021 - 2022
+
+    - degree: MA in Filmmaking
+      university: Kingston University
+      time: 2015-2016
+
+    - degree: Grado en Comunicación Audiovisual
+      university: Universidad Pontificia de Salamanca(UPSA)
+      time: 2011-2015
+     
+
+experiences:
+    - role: Video Technician in Live Events
+      time: 2016-2021
+      company: GAM Eventos
+      details: |
+        
+    
+# Your project portfolio
+projects:
+    assignments:
+      - title: TheBeermmunity
+        link: https://thebeermmunity.herokuapp.com/
+        tagline: "A new social media where beer lovers and beer companies get together."
+
+skills:
+    toolset:
+      - name: Python 
+
+      - name: Javascript
+
+      - name: React/React Flux
+
+      - name: HTML5 & CSS
+
+      - name: Bootstrap
+
+      - name: git
+
+      - name: Node
+
+      - name: Flask
+
+      - name: API Rest
+
+      - name: SQL/PostgreSQL
