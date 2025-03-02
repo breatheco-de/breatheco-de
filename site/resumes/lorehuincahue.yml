@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lorena
+    last_name: Huincahue
+
+    # Define yourself in 4-5 words
+    motto: I like mimir
+
+    # focus
+    focus: Learning
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Profesional de la Ingenieria Civil, interesada en nuevos desafios, por lo que actualmente me encuentro estudiando para ser Full Stack Developer
+
+      # Contact Information
+    email: lorehuincahue@gmail.com #optional
+    phone: +56912345678
+    linkedin: google.com #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lorehuincahue
+
+  
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Espanol
+        level: Native
+
+      - idiom: Ingles
+        level: a little bit
+
+
+    # Interests or hobies
+    interests:
+      - item: Live concerts
+
+      - item: Plants (crazy lady plant)
+
+      - item: My nephews <3
+
+# Your previous education
+education:
+    - degree: Ingenieria Civil en Obras Civiles
+      university: Universidad Diego Portales
+      # optional
+      university_logo: https://www.espacioriesco.cl/wp-content/uploads/2015/12/udp-logo-universidad-diego-portales.jpg
+      time: 2012-2018
+      details: |
+
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022-2022
+      details: |
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Bootstrap
+        level: 65%
