@@ -1,0 +1,58 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Valeria
+  last_name: Salas
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+  el trabajo grupal con git
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+
+  # Contact Information
+  email: valesa185@gmail.com #optional
+  phone: 569 22138662 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: valesa185
+
+  twitter: "" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Escalar
+
+    - item: Desarrollo Web
+
+    - item: Programacion
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: may-2023 - sep-2023
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+
+    Fooder(Colaborativo): Simulador Instagram
+      Tecnologias: HTML, CSS, BOOTSTRAP
+ 
