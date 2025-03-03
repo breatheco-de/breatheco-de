@@ -1,0 +1,45 @@
+basic_info:
+  
+  first_name: Carolina
+  last_name: Rojas
+
+  
+  summary: Soy diseñadora de la Universidad de Valparaíso y me adentré en el mundo de la programación, en el Bootcamp 4geeks Academy, con el propósito de complementar mis estudias y abrir nuevos caminos laborales.
+
+  avatar: https://es.pngtree.com/freepng/cartoon-long-hair-girl_4280770.html
+
+
+  email: reciclee@gmail.com
+
+
+  github: retori8
+
+  interests:
+    - item: Pintura
+
+    - item: Textiles
+
+    - item: Palantas
+
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: dic-2022 - mayo-2023   
+
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+    Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    Dulce Sabor: |
+      Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
+      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+
+    Tak(Colaborativo): |
+      Aplicación de mindfulness.
+      Tecnologias: React, Javascript, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Cloudinary, Git.
+
