@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Sánchez 
+    
+    # Define yourself in 4-5 words
+    motto: I'm a copy cat of the beauty I percieve in life
+    
+    # focus
+    focus: Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a visual content creator with a fierce passion for learnig and adquiring new perspectives.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.google.com/search/_tra_/photo/AF1QipO9-dS0IgLBKEbmnyhaSCn9JVKwJySB56y2Hhqb
+
+    # Contact Information
+    email: santiagossfilms@gmail.com
+    phone: +34 640533405 #optional
+    website:  https://vimeo.com/santiagoss #optional
+    linkedin: https://www.linkedin.com/in/santiago-sanchez-sanchez-53828790/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: santiagoss01
+    
+    twitter: #optional
+    stack-overflow: 20313655/Santiago # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Swimming
+
+      - item: Films
+
+      - item: Literature
+
+# Your previous education
+education:
+    - degree: Bachelor of advertisement
+      university: Universidad Jorge Tadeo Lozano, Colombia
+      time: 2008 - 2012
+      details: 
+        I also did a secondary film and TV program as a complementary option.
+   
+    - degree: M.A filmmaking
+      university: Leeds Beckett university, UK
+      time: 2013 - 2015
+      details: 
+        Master with emphasis in directing.
+
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Audiovisual content creator
+      time: 2016 - Present
+      company: Acollectivefilm
+      details: |
+        I create and produce audiovisual with marketing and artistic ends.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects I have been creating during my 4Geeks Web Development Bootcamp
+
+    assignments:
+      - title: Instagram Feed
+        link: "https://github.com/santiagoss01/IG-DOUBLE-FEED"
+        tagline: "This was my first responsive Bootstrap project."
+
+      - title: Excuse Generator
+        link: "https://github.com/santiagoss01/ExcuseGenerator"
+        tagline: "My first excercise using events and js."
+
+      
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript
+        level: 20%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 33%
+
+      - name: Ruby on Rails
+        level: 0%
