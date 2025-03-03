@@ -29,6 +29,7 @@ basic_info:
       Second paragraph if required.
     
     # Your profile picture URL
+      
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/97655806_10222248072688177_3528786087201734656_o.jpg?_nc_cat=111&_nc_sid=174925&_nc_ohc=S4l1gPTGITIAX_9F8Oi&_nc_ht=scontent-mia3-1.xx&oh=912773a2808ab838e3d1799b461de516&oe=5EF1B13C
 
