@@ -5,14 +5,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Steven
+    last_name: Ade
     
     # Define yourself in 4-5 words
     motto: I like saving the world
     
     # focus
-    focus: Killing Bad Boys
+    focus: Becoming the master of all things Defi.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -38,7 +38,7 @@ basic_info:
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: Th3c0d3d1
     
-    twitter: 'webjeda' #optional
+    twitter: 'ICrypto21' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # languages you speak, levels inculde: Native, Professional
@@ -47,18 +47,25 @@ basic_info:
         level: Native
 
       - idiom: French
-        level: Professional
+        level: Intermediate
 
       - idiom: Spanish
-        level: Professional
+        level: Conversational
+        
+      - idiom: Creole
+      - level: Fluent
 
     # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Cryptocurrency
 
-      - item: Snowboarding
+      - item: MMA
 
-      - item: Cooking
+      - item: Option Trading
+      
+      - item: NFTs
+      
+      - item: 
 
 # Your previous education
 education:
@@ -140,22 +147,22 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Conditional Profile
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
+        link: "https://github.com/Th3c0d3d1/conditional-profile"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Landing Page
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+        link: "https://github.com/Th3c0d3d1/Landing-Page"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: Traffic Light
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+        link: "https://github.com/Th3c0d3d1/traffic-light"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
       - title: Atom
@@ -173,19 +180,13 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 60%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 60%
 
       - name: Angular
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 80%
