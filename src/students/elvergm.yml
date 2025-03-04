@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Elver
+    last_name: GM
+    motto: El descanso es para debiles
+    avatar: 
+    summary: |
+      .Designer{
+        Web
+        Graphic
+        Sound
+      }
+
+    # Sidebar links
+    email: unidroit.lex@gmail.com
+    phone: +34666316622
+    linkedin:
+    github: ElverGM
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Music
+      - item: Photography
+      - item: Skate
+
+education:
+    - degree: Digital Marketing
+      university: Mediterranean Bussines School
+      time: 2021
+      details: |
+        Business Administration with a Marketing & Sales Specialty
+    
+    - degree: Wordpress 
+      university: Platzi
+      time: 2021
+      details: |
+
+    - degree: Digital Marketing
+      university: Mediterranean Bussines School
+      time: 2021
+      details: |
+        Business Administration with a Marketing & Sales Specialty
+experiences:
+    - role: Customer Support Agent
+      time: 2020 - Present
+      company: Amazon
+      details: |
+        Customer Support Services
+
+    - role: Operations Manager
+      time: 2016 - 2020
+      company: KRAIN Costa Rica
+      details: |
+        Operations Manager for the Property Management & Vacation Rentals Department
+
+    - role: Store Manager
+      time: 2010 - 2012
+      company: Cafe Britt
+      details: |
+       Retail Manager for Several Britt Shop Locations within the Guanacaste Region
+
+projects:
+    intro: >
+      Software development projects as part of the 4GeeksAcademy.
+
+    assignments:
+      - title: Excuse Generator
+        link: "https://github.com/edges696/Excuse-Generator"
+        tagline: "A tool to generate an appropiate excuse for every ocation "
+
+      - title: The Instagram Post
+        link: "https://github.com/edges696/The-Instagram-Post"
+        tagline: "An instagram feed using HTML & CSS "
+
+      - title: Domain Generator
+        link: "https://github.com/edges696/The-Domain-Name-Generator"
+        tagline: "A javascript tool to automatically generate domain names from a list o names "
+
+      - title: Postcard
+        link: "https://github.com/edges696/The-Postcard"
+        tagline: "A nice postcard to send to family and friends for any ocation "
+
+skills:
+    toolset:
+      - name: React
+        level: 65%
+
+      - name: Javascript
+        level: 70%
+
+      - name: GIT
+        level: 85%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Excel
+        level: 85%
+
+      - name: Illustrator & Photoshop
+        level: 70%
+
