@@ -1,0 +1,29 @@
+template: "online-cv"
+skin: "purple"
+
+basic_info:
+
+  #información del perfil
+  name: Paulina Acuna
+  tagline: Full Stack Developer 
+  avatar: perfil.png
+
+  #Links barras laterales
+
+  email: paulinefugit@gmail.com
+  phone: 56 9 26072026
+  web.site: instagram.com/pauaauuaaau
+  linkedin: PAULINAFUGIT
+  github: PauFugit 
+  twitter: none
+
+  #educacion
+  Nivel educacional: Máster/postgrado. 
+  Area de trabajo: Educación y filosofía. 
+  Titulo profesional: 2021 - Máster en educación con mención en currículum y evaluación basado en competencias.
+                      2017 - Pedagogía en filosofía y licenciatura en educación. 
+
+  #Experiencia
+  Docente asignatura filosofía: 2017-2021
+
+  #falta complementar
