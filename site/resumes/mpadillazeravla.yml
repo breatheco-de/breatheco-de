@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel Angel
+    last_name: Padilla Alvarez
+    
+    # Define yourself in 4-5 words
+    motto: Siempre fijandome en los pequeños detalles
+    
+    # focus
+    focus: Full-Stack Web Developer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Working for almost 15 years in retail, like salesman , sales manager and area manager in a big telecommunications company. Due to a big change in my life, I decided to learn programation and change of working area.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/ZWJ9m9P.jpg
+
+    # Contact Information
+    email: mikepadilla82@gmail.com #optional
+    phone:  #optional
+    linkedin: https://www.linkedin.com/in/padilla-alvarez/ #optional
+    twitter: https://twitter.com/mikelator
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mpadillazeravla
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+      
+
+    # Interests or hobies
+    interests:
+      - item: Tecnología
+
+      - item: Cycling
+
+      - item: cinema and scifi series
+
+# Your previous education
+education:
+    - degree: Licenciatura en Economicas
+      university: Universidad de Granada
+      # optional
+      time: 2003 - 2006
+      details: |
+        Estudios no finalizados
+
+experiences:
+    - role: Area manager
+      time: 2019 - 2020
+      company: Phone House
+      # optional
+      details:
+        1 año como sales area manager en Phone House España.
+# Your project portfolio
+
+
+skills:
+    toolset:
+      - name: bootstrap
+        level: 1%
+
+     
