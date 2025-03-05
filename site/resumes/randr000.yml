@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Raul
+    last_name: Andrial
+    motto: Full-Stack Developer
+    avatar: https://avatars.githubusercontent.com/randr000
+    summary: I am looking to learn web development.
+      
+    email: rauljandrial@gmail.com
+    phone:
+    website: 
+    linkedin: https://www.linkedin.com/in/raul-j-andrial
+    github: randr000
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish 
+        level: Professional working proficiency
+
+    interests:
+
+      - item: Coding
+
+
+education:
+    - degree: Accounting & Finance
+      university: FIU
+      time: 2007-2011
+      details: Bachelors
+
+    - degree: Accounting
+      university: FIU
+      time: 2013-2013
+      details: Masters
+
+    - degree: Information Systems
+      university: FIU
+      time: 2020-2021
+      details: Masters
+      
+experiences:
+    - role: Accountant
+      time: 2012 - Present
+      company:
+      details:
+      
+projects:
+    intro: >
+      Some of my projects
+    
+    assignments:
+      - title: Postcard
+        link: https://github.com/randr000/4geeks_postcard
+        tagline: "Postcard"
+
+      - title: Photo Feed
+        link: https://github.com/randr000/4g_photo_feed
+        tagline: "Photo Feed"
+
+      - title: Instagram Post
+        link: https://github.com/randr000/4g_insta_post
+        tagline: "Instagram Post"
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
