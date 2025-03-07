@@ -1,0 +1,206 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniella
+    last_name: Louis
+    
+    # Define yourself in 4-5 words
+    motto: "Keep up the Momentum"
+     I like changing the world by setting new trends, constantly learning and
+     putting my new skills into action. 
+    
+    # focus
+    focus: Becoming the top female developer in my new company.
+    
+    # You have 1 paragraph to make a great impression and summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/goddess/24.jpg
+
+    # Contact Information
+    Email: GoddessD@gmail.com #optional
+    Phone: upon request #optional
+    Website: GoddessD.com#optional
+    LinkedIn: GoddessD #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    GitHub: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Visual and Performing Arts
+
+      - item: Cooking & Baking
+
+      - item: Spending time with loved ones
+
+
+
+# Your previous education
+education:
+    - degree: BA in Computer Science
+      university: Florida International University
+      # optional
+      university_logo: data:image/png;base64,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
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Diploma in Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2008
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2013 - Present
+      company: Startup Hubs, SouthWaast Region
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2011 - 2013
+      company: Amazon, Eastern Regional
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
