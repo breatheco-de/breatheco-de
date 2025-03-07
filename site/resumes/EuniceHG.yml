@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+  # Profile information
+  first_name: Eunice
+  last_name: HG
+  motto: Unleashing my potential one line at a time!
+  summary: |
+    I am embarking on my programming journey with excitement and a drive to improve the quality of life for myself and my family. 
+    Coming from a background in health promotion, I am eager to explore this new world of programming and find my true passion.
+
+  # Sidebar links
+  email: eunicehg42@gmail.com
+  phone: (+506)88528900
+  linkedin: eunice-sin-h
+  github: EuniceHG
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Bilingual
+
+  interests:
+    - item: Travel with my Partner
+    - item: Foodie
+    - item: Discover New Things
+
+education:
+  - degree: Bachelor's Degree in Health Promotion 
+    university: UCR
+    time: 2016 - 2022
+
+experiences:
+  - role: Project Manager 
+    time: January 2022 - December 2022
+    company: Asociación de Vecinos de Barrio Pinto
+    details: |
+      Perform as a project manager to develop programs looking to increase community engagement.
+
+        - Plan and develop community projects.
+        - Complete process improvement with the highest standards and ensuring frugality.
+        - Perform as a point of contact for multiple stakeholders' inquiries.
+        - Manage social media accounts and create content to build community online. 
+
+  - role: Communal Service Group Coordinator
+    time: 2020 - 2023
+    company: Pharmacy School, Universidad de Costa Rica
+    details: |
+      Assume the role of coordinator for groups of students and handle administrative tasks.
+
+        - Act as a contact channel between students and collaborators.
+        - Organize and manage activities following workflow procedures.
+        - Monitor projects and generate reports about achievements and points of improvement.
+
+  - role: Selling Partner Support Associate
+    time: April-August 2020 
+    company: Amazon
+    details: |
+      Serve as first contact between Amazon, Sellers and Vendors, providing world class support, technical services and account management assistance to North American Market.
+
+        - Provide support to global sellers on the Amazon platforms, applying analytic knowledge and predetermined guidelines.
+        - Handle technology applications and features to resolve Seller's issues and improve their business accounts.
+
+projects:
+  intro: >
+    Explore my exciting collection of projects and open-source libraries in this section. 
+
+  assignments:
+    - title: Eunice-Instagram-Photo-Feed-with-Bootstrap
+      link: "#https://github.com/EuniceHG/Eunice-Instagram-Photo-Feed-with-Bootstrapk"
+      tagline: "Enhance your Instagram experience with a stunning photo feed powered by Bootstrap."
+
+    - title: Eunice-HTML5-form
+      link: "#https://github.com/EuniceHG/Eunice-HTML5-form"
+      tagline: "Simplify form creation: Powerful, intuitive, and customizable forms made easy."
+
+    - title: Eunice-InstagramPost
+      link: "#https://github.com/EuniceHG/Eunice-InstagramPost"
+      tagline: "Level up your Instagram game: Effortlessly create stunning and engaging posts."
+
+skills:
+  toolset:
+    - name: WordPress
+      level: 80%
+
+    - name: HTML5 & CSS
+      level: 50%
+
+    - name: Javascript
+      level: 40%
+
+    - name: SQL
+      level: 35%
+
+    - name: Python
+      level: 25%
+
+
