@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Giussepe
+    last_name: Marreros
+    
+    # Define yourself in 4-5 words
+    motto: Dream Big, Work Hard
+    
+    # Focus
+    focus: Learn from everything
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      About 15th years ago I stared in the tourism industry, in the lowest level of the customer service departament from a luxury hotel
+      since that i began to ascend possitions while i was studing the university at distance, when i graduate i get an excecutive position in the company,
+      and stared my master degree. When the pandemic arrived there was no tourism so i learned everything about digital marketing so can develope
+      my job in that area. at the begining was great, and get important projects and positions in my city, but wasn´t happy for that. I was always
+      searching for something else that really like me. Thats how i found Data Science.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1ygr0SkQk7MYcoSXvscjNMd_CbvjF-gbt/view?usp=sharing
+
+    # Contact Information
+    email: giusepe_m@hotmail.com #optional
+    phone: +51 947 377 683 #optional
+    linkedin: https://www.linkedin.com/in/giussepe-marreros-789584bb/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: giussepe marreros
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: :418125/Giuseppe Marreros # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Mountain bike, futbol soccer
+
+      - item: reading
+
+# Your previous education
+education:
+    - degree: Commercial Engenieering
+      university: Tarapacá University
+      # optional
+      time: 2010 - 2014
+      
+    - degree: Master in Business Administration in International Management
+      university: Pontificia Universidad Catolica del Perú
+      # optional
+      time: 2008 - 2022
+     
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Chief Marketing  Officer
+      time: 2023 - 2024
+      company: Salkantay trekking Travel Agency, Cusco-Perú
+      
+
+    - role: Founder and Chief Operations Officer
+      time: 2020 - 2023
+      company: Nonprofit Asociation Proyecto 30M
+      # optional
+      
+      details: |
+        The mission is to help women in difficult economic situation in Perú to develope business skills and leader their own 
+        professional growth.
+
+
+    - role: Operations Supervisor
+      time: 2024 - 2025
+      company: Tierra de los andes Travel Agency
+     
+
+# Your project portfolio
+projects:
+    intro: >
+      staring recently so i am developing personal project with help of class parthners
+
+    
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Sql
+        level: 65%
+
+      
