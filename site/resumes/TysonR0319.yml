@@ -1,0 +1,86 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tyson
+    last_name: Roussel
+    
+    # Define yourself in 4-5 words
+    motto: Learn somthing new everyday
+    
+    # focus
+    focus: Learning Web-dev
+    
+    # You have 1 paragraph to make a great impression, and summarize your career.
+    summary: I dont have a career because im just starting my carrer out. I have come and learned a lot along the way, I'm always finding ways to improve myself; Learning something new everyday. I strive to find ways to improve my quality of life! 
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: Tysonr0319@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Tysonr0319
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Djing 
+
+      - item: Making coffee
+
+      - item: Coding 
+
+# Your previous education
+education:
+   
+# Your previous job experiences or voluntier
+experiences:
+    - role: Starbucks 
+      time: 2019 - Present
+      company: Miami beach, Fl 
+      # optional
+      company_logo: 
+      details: Shift suppervisor, 
+              -Customer experience
+              -Handling money
+              -Working with and running a team
+              -Learning in a fast paste environment
+    
+# Your project portfolio
+projects:
+    
+
+skills:
+    toolset:
+
+      - name: HTML5
+        level: 80%
+
+      - name: CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 60%
