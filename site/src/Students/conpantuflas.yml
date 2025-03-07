@@ -6,10 +6,11 @@ basic_info:
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
-  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
-  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-  el trabajo grupal con gi
+    Kinesiólogo de profesion, amante del deporte y las nuevas tecnologias, entré al Bootcamp
+    de 4Geeks para aprender lo que siempre me llamó la atención, la programación, todo lo que 
+    es creación de páginas web, diseño y base de datos. Me gustan los nuevos desafios y por lo que
+    me han contado esto se viene complejo, pero me motiva pensar que esto es el futuro y este
+    el mejor momento para aprenderlo.
 
   # Your profile picture URL
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
