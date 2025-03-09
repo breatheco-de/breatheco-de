@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Sandra
+  last_name: Madarnas Rodriguez
+
+  # Define yourself in 4-5 words
+  motto: Perfectionist, Intense, Organized, Proactive, Disciplined
+
+  # focus
+  focus: Full Stack Developer Student
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    I am a Systems Engineer, I did a Diploma in Web Programming. I am passionate about learning new techniques to improve and develop myself as a WebMaster.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/116319632?s=400&u=da077ae0cbe51940d36bf2f9cbfd58543e729cb3&v=4
+
+  # Contact Information
+  email: sandra.madarnas.1@gmail.com #optional
+  phone: +34 692 60 99 86 #optional
+  website: https://sandra-madarnas.com/ #optional
+  linkedin: sandra-madarnas #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: SandraMadarnas
+
+  twitter: "sandra_mr84" #optional
+  stack-overflow: Sandra Madarnas # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Basic
+
+  # Interests or hobies
+  interests:
+    - Music: I love listening to music, dancing...
+
+    - Sports: I love combat sports, cardio...
+
+    - Learning new things: Web development, Programming...
+
+# Your previous education
+education:
+  - degree: Systems Engineer
+    university: Santa Maria University
+    # optional
+    university_logo: https://usm.edu.ve/wp-content/uploads/2020/07/logousmblanconew.png
+    time: 2010 - 2016
+
+  - degree: Web Programming
+    university: UneWeb
+    # optional
+    university_logo: https://uneweb.edu.ve/images/logo-uneweb.webp
+    time: 2017 - 2017
+
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    # optional
+    university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+    time: January 2023 - May 2023
+
+  
+# Your previous job experiences or voluntier
+experiences:
+  - role: WebMaster
+    time: 2017 - Present
+    company: Startup Hubs, San Francisco
+    # optional
+    company_logo: 
+    details: 
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
