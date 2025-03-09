@@ -1,0 +1,165 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Hurtado
+    
+    # Define yourself in 4-5 words
+    motto: Astronaut and Designer, looking to become Full-Stack Developer
+    
+    # focus
+    focus: Helping companies to build & sell products and services from ideation to launch 🚀
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Hello, I’m a Full-stack Visual Designer with over 19 years crafting design solutions
+     for a wide variety of brands and People in the US, Europe, and LATAM, like Nestle,
+     Viacom, MasterCard, PayPal, and many more.
+     Having a good structure process is the key to a successful project, we can make it happen
+     together.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQGc5l7DDCDI_g/profile-displayphoto-shrink_400_400/0/1570904875716?e=1660780800&v=beta&t=U8sT3CQAI05VWqo0sqfYGZau0BYRlJbdb0tK7QVF23o
+
+    # Contact Information
+    email: hello@hurtadojose.com #optional
+    phone: 310 946 1101 #optional
+    website: hurtadojose.com #optional
+    linkedin: joselhurtado #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: joselhurtado
+    medium: https://joselhurtado.medium.com/
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Mountain Biking
+
+      - item: New Technologies
+
+      - item: Learning
+
+# Your previous education
+education, licenses and certifications:
+    - degree: UX/UI Design Specialization
+      university: California Institute of the Arts (CalArts)
+      university_logo: https://calarts.edu/portals/0/CalArtsLogostack_260x260.png
+    
+    - degree: Human-Computer Interaction (HCI) Certification
+      university: Interaction Design Foundation (IxDF)
+      university_logo: https://assets.interaction-design.org/img/app/website-thumbnail-image.jpg?id=f765e0695d22ec022bc56bdf0e909364
+
+    - degree: Enterprise Design Thinking Co-Creator Certification
+      university: IBM
+      university_logo: https://devinfo.in/wp-content/uploads/job-manager-uploads/company_logo/2021/08/IBM-logo.jpg
+
+    - degree: Adobe Dreanweaver, Photoshop, Illustrator & After Effects Certifications
+      university: Adobe
+      university_logo: https://w7.pngwing.com/pngs/566/766/png-transparent-adobe-creative-cloud-adobe-systems-adobe-indesign-logo-others-miscellaneous-text-rectangle.png
+
+    - degree: BSc Graphic Design Degree
+      university: CIDIG
+      university_logo: https://cidigorg.files.wordpress.com/2018/11/cropped-logo512x512.png?w=200
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: UX/UI Senior Design Director
+      time: 2019 - Present
+      company: DXagency, New Jersey, NJ
+      company_logo: https://dxagency.com/wp-content/uploads/2019/06/dx_logo.png
+      details: |
+          - Combine UX methodologies with UI design best practices, to produce usable and intuitive products
+          - Identify and troubleshoot UX/UI problems (e.g. usability and devices responsiveness)
+          - A/B testing to evaluate and validate visuals and user requirements
+          - Utilize research to generate insights that will drive creative concepts
+          - Gather and evaluate user requirements in collaboration with design and research team.
+          - Determine information architecture, hierarchy and user flows to inprove products
+          - Prepare and present decks or prototypes to internal teams and key stakeholders
+
+    - role: Multicultural Sr. Visual Designer
+      time: 2015 - 2019
+      company: Nestlé, Glendale, CA
+      company_logo: https://pbs.twimg.com/profile_images/987322345554694145/NLFEi-m9_400x400.jpg
+      details: |
+          - Develop digital pieces like Wireframes, Prototypes, and Storyboards.
+          - Produce a varied range of audiovisual materials for Corporate Divisions, Beverages, Emerging Markets Division, Hispanic Brands at Nestlé
+          - Packaging design for award-winning global brands like LaLechera, Nescafe, Boost, Butterfinger, Nerds, Crunch, Nespresso, PixyStix, LaffyTafy, Media Crema, FunDip, SweetTarts, Raisinets, Gobstopper, Spree, Goobers and others.
+          - Utilize knowledge of design and multicultural trends to guide solutions. 
+          - Consistently meet project deadlines and maintain a high level of work while managing multiple projects.
+
+    - role: Founder | Creative Director
+      time: 2009 - Present
+      company: Visual Brands Agency, Miami, FL
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          - Creative head for digital and printing initiatives. 
+          - Overseeing entertainment and corporate campaigns that consist of digital and printing.
+          - Reviews project production factors by studying budget, background, objectives, presentation approaches, styles, and techniques.
+          - Develop Multi-channel marketing projects.
+          - Designed and conceptualizing for different companies and planning their corporative identity.
+          - Keeps customers informed by reviewing illustrative material for presentations.
+          - Established, trained, and mentored an all-star digital design team.
+          - Obtains client approval by presenting final layouts, storyboards, and illustrations
+          - Work directly with vendors
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Bellavida Aesthetics Re-brand + Website Design and Dev (WordPress).
+        project_logo: https://scontent-mia3-1.cdninstagram.com/v/t51.2885-15/274324638_3112375799005895_5304032033081633986_n.jpg?stp=dst-jpg_e35_p1080x1080&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=111&_nc_ohc=AzQKeS11i38AX8c8L7q&edm=AABBvjUBAAAA&ccb=7-5&oh=00_AT8S44DhfawQmtrzVUvhqsdsis9j-VLW_ef8V2yZxNPoTw&oe=62B301EC&_nc_sid=83d603
+        tagline: "Re-Brand and web development for wellness company located in Miami, FL."
+
+      - title: 104 Remodeling Branding + Website Design and Dev (WordPress).
+        project_logo: https://scontent-mia3-2.cdninstagram.com/v/t51.2885-15/239414057_635602914083458_7687321083338038619_n.jpg?stp=dst-jpg_e35_p1080x1080&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=110&_nc_ohc=oY4eT9eTyXkAX8c_weS&edm=AABBvjUBAAAA&ccb=7-5&oh=00_AT-PaTjmafUS7-Mz-2_ZU3eLoyL2hW2eaOfS1Cq7P4O6EA&oe=62B399CB&_nc_sid=83d603
+        tagline: "Branding and Web design and development for construction company located  in Alpharetta, GA•⁣"
+
+      - title: Koral Designs Re-brand + Website Design and Dev (Shopify).
+        project_logo: https://scontent-mia3-1.cdninstagram.com/v/t51.2885-15/191418100_797941740833168_5848530636113224535_n.jpg?stp=dst-jpg_e0&cb=9ad74b5e-b94cae63&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=HAK-6N-ucJkAX99E_fc&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MjU4MTM1Nzg1NTk5OTI2NDgzNg%3D%3D.2-ccb7-5&oh=00_AT8yBEXIR-aedY5mj2FbOfppmoZpBusP1kpWRTqH5DM9NA&oe=62B2C5D9&_nc_sid=30a2ef
+        tagline: "Re-Brand and Website design for jewelry Company located in Miami, FL"
+
+      - title: Aditt App Branding + App UI (iOS/Android)
+        project_logo: https://scontent-mia3-1.cdninstagram.com/v/t51.2885-15/151383897_445143903203952_3179241815418649124_n.jpg?stp=dst-jpg_e0&cb=9ad74b5e-b94cae63&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=DXU1cAo676sAX8BJMMl&tn=TQppTs6GbTYuR7YV&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MjUxMjU3ODk4OTU4ODA0NTgxMw%3D%3D.2-ccb7-5&oh=00_AT9aI55J4X9CJ5DK6Nnm866-7YrsUosvkVZWHeCB8VthSQ&oe=62B2FE1D&_nc_sid=30a2ef
+        tagline: "Branding and UI screens for Ride-share podcast App located in Los Angeles, CA"
+
+      - title: Doggie Doggie Taxi Branding + Website Design and Dev (HTML, CSS & JS).
+        project_logo: https://scontent-mia3-1.cdninstagram.com/v/t51.2885-15/204414689_1329984897399167_2732412314770815869_n.jpg?stp=dst-jpg_e0&cb=9ad74b5e-b94cae63&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=111&_nc_ohc=EXGt0UmWszsAX9J3OPs&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MjYwMTMzNzA5NzMxNTEzNzY2Mw%3D%3D.2-ccb7-5&oh=00_AT-Nlm_DrA-lYHqzbTGJBG-4qMmWT2yNR7gdLUukGST2PA&oe=62B4602F&_nc_sid=30a2ef
+        tagline: "Branding and Website development for Pets Company located in Las Vegas, NV"
+
+skills:
+    toolset:
+      - name: (UX) User Experience
+        level: 98%
+
+      - name: (UI) User Interface
+        level: 96%
+
+      - name: (VD) Visual Design
+        level: 95%
+
+      - name: Adobe Creative Suite
+        level: 94%
+
+      - name: Wirefames and Prototypes
+        level: 92%
+
+      - name: HTML5 & CSS
+        level: 90%
