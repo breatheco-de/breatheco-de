@@ -1,0 +1,41 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Francisco
+  last_name: Vilares
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Lorem ipsum dolor sit amet
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: fvilares84@gmail.com #optional
+  phone:  #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: franvilares
+
+  twitter:  #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: viajes
+
+    - item: UX/UI
+
+    - item: cine
+
+# Your previous education
+education:
+  
+
+experiences:
+ 
+    
