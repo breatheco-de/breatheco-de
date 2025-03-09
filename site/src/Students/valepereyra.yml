@@ -1,0 +1,50 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Valentina
+  last_name: Pereyra
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: valepereyracastillo@gmail.com #optional
+  phone:  #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: valepereyra
+
+  twitter:  #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Tecnologia
+
+    - item: Libros
+
+    - item: Gym
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: dic-2022 - feb-2023
+    details: |
+      Estoy en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. Estoy aprendiendo tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+
+
