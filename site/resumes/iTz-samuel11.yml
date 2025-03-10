@@ -1,0 +1,73 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+  first_name: Samuel
+  last_name: Faraco
+  motto: live the life you want to remember
+
+  email: samuelandresfaraco@gmail.com
+  phone: +58 4243144684
+  github: iTz-samuel11
+  twitter: FaracoSamuel11
+  instagram: samuel11_faraco
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: litle good 
+
+    - idiom: italian 
+      level: good  
+
+  interests:
+    - item: Videogames and comics
+    - item: Everyday Physics
+    - item: Blockchain
+
+# education:
+#   - degree: bachelor
+#     university: I.E San Miguel
+#     time: 2014 - 2019
+
+#   - degree: height rescue
+#     university: USAR Aragua Group
+#     time: 2018 - 2020
+
+#   - degree: Full-Stack developer Bootcamp
+#     Academy: 4Geeks Academy
+#     time: 2022 - 2022
+
+         
+projects:
+   
+  assignments examples:
+    - title: Instagram Feed Boostrap
+      link: "https://github.com/iTz-samuel11/feed-instagram-bootstap"
+              
+    - title: Excuse Generator
+      link: "https://github.com/iTz-samuel11/excuse-generator"
+
+    - title: Conditional Profile Card
+      link: "https://github.com/iTz-samuel11/conditional-profile.card"
+
+
+skills:
+  toolset:
+    - name: Python
+      level: 0%
+
+    - name: Javascript 
+      level: 55%
+
+    - name: bootstrap"
+      level: 75%
+
+    - name: HTML5 & CSS
+      level: 75%
+
+    - name: Git an gitHub
+      level: 70%
+
