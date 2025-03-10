@@ -1,0 +1,51 @@
+
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+    first_name: Arnaldo
+    last_name: Perez
+    motto: Web developer mentor
+    summary: |
+     Student with knowledge in html, css, bootstrap, js and python
+    github: arnaldoperez
+    languages:
+      - idiom: english
+        level: b2
+
+      - idiom: spanish
+        level: native
+
+    interests:
+      - item: music
+      - item: art
+      - item: videoGames
+
+
+education:
+    - degree: System Engineer
+      university: Santa María
+      time: 2012
+  
+experiences:
+
+projects:
+    assignments:
+      - title: Instagram con Bootstrap
+        tagline: "Clon de instagram a medio hacer utilizando bootstrap"
+
+skills:
+    toolset:
+      - name: Python 
+        level: 40%
+
+      - name: Javascript
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 70%
+    
