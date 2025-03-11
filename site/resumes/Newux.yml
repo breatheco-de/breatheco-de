@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Robert
+    last_name: Bartlett
+    
+    # Define yourself in 4-5 words
+    motto: I don't chase I attract
+    
+    # focus
+    focus: creating and innovating
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I had a sweet start to my professional career as a marketing manager for Dairy Queen in The Bahamas. After a couple of years, I transitioned into the freight and logistics industry. I have been in freight for 10 + years. During that time I have become a licensed customs broker and developed an appreciation for software that help my businesses scale and be more efficient.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://github.com/Newux/About-4Geeks-Academy/blob/master/site/static/profile-picture.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Newux
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Learning
+
+      - item: Creating
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: Bachelor of Accounting
+      university: Saint Mary's University - Halifax, Nova Scotia
+      # optional
+      university_logo: 
+      time: 2004 - 2008
+      details: https://www.smu.ca/webfiles/Logo-svg.svg
+        I enjoyed my time in Halifax studying at Saint Mary's. It was at this univesity where I was introduced to technological side of business. My perspective was changed to technology as a core investment rather than a support function.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Marketing Manager
+      time: 2008 - 2010
+      company: Dairy Queen, Bahamas
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/800px-Dairy_Queen_logo.svg.png
+      details: 
+
+    - role: Operations Manager
+      time: 2011-2017
+      company: X-Press It Ltd, Bahamas
+      # optional
+      company_logo: https://lh3.googleusercontent.com/fRAcYmV0tg-Mi40EAh_z-QFlAwKIU5eMqDMMICwafhi_r2136eyBTqWug3YyDGrt9c2H4bR_oKpVX9XlxvagpZ-OTHtYsf0W8Oe2ydcT
+      details: |
+      
+
+    - role: Director
+      time: 2018-Current
+      company: Blue Postal LLC, Miami Lakes
+      # optional
+      company_logo: https://www.bluepostal.com/content/images/logo.svg
+
+
+# Your project portfolio
+projects:
+    intro: 
+
+skills:
+    toolset:
+      
+      - name: Sketch 
+        level: 85%
+
+      - name: Instapage - low-code landing page creation
+        level: 85%   
