@@ -1,0 +1,86 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Esteban 
+    last_name: Pinelli
+    
+    # Define yourself in 4-5 words
+    motto: I like new challenges
+    
+    # focus
+    focus: always moving
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I have worked as a travel agent for several years in the tourism industry, helping clients plan and organize their trips efficiently and effectively. During this time, I have developed skills in managing reservations, selling tour packages, customer service, and knowledge of popular tourist destinations.
+            However, I have recently realized that my true passion is programming. For some time now, I have been interested in the world of technology and software development, and I have come to the decision that I want to change careers in order to explore this area more deeply.
+            I have started studying programming on my own, taking online courses and reading books on the subject. I am excited about the idea of learning new programming languages and creating programs that can have a real impact on people's lives.
+            While changing careers can be challenging, I am determined to move forward and do whatever it takes to learn programming and find work in this field. I am excited about the idea of working in a creative and collaborative environment, and I hope that my previous experience in tourism can be useful in my new career in technology.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQFR9k6Uzk1eEQ/profile-displayphoto-shrink_800_800/0/1659440856274?e=2147483647&v=beta&t=bEL8BBzA6Q5OqTusUtt4YaFrih5dw-6sRrSQVvsPxrA
+
+    # Contact Information
+    email: estebanpinelli@hotmail.com #optional
+
+    linkedin: https://www.linkedin.com/in/esteban-alejandro-pinelli-a2034021/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: estebanpinelli
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Semi-Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Licenciado en Turismo
+      university: Universidad Nacional de Lanus
+      # optional
+      time: 2006 - 2012
+
+
+# Your previous job experiences or voluntier
+
+projects:
+
+      - title: Building-a-website-collaborative
+        # optional
+        project_logo: https://github.com/estebanpinelli/Building-a-website-collaborative
+        link: "#hook"
+        tagline: 
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 40%
+
