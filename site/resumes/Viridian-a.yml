@@ -1,0 +1,69 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+
+
+    # Profile information
+    first_name: Diana
+    last_name: Chacón
+    motto: Coding student
+    avatar: https://avatars.githubusercontent.com/u/128646689?v=4
+    summary: |
+            Student in 4Geeks Academy and Alura.
+    # Sidebar links
+    email: diana.chacon.montero@gmail.com
+    linkedin: diana-chacón-montero-ab5529202
+    github: Viridian-a
+   
+    languages:
+      - idiom: Spanish
+        level: Native
+
+
+      - idiom: English
+        level: Bilingual
+
+
+    interests:
+      - item: Space exploration
+      - item: Gardening
+      - item: AI
+
+
+education:
+    - degree: FullStack specialization
+      university: 4Geeks Academy
+      time: 2023 - In progress
+
+
+    - degree: FrontEnd specialization
+      university: Alura Latam
+      time: 2023 - In progress
+
+
+
+
+projects:
+
+
+    assignments:
+      - title: Text Encryptor
+        link: https://github.com/Viridian-a/Encriptador-de-texto
+        tagline: "Text Encryptor with JavaScript"
+
+
+
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 10%
+
+
+      - name: HTML5 & CSS
+        level: 50%
