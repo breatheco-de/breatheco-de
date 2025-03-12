@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Jimenez Clemente
+    
+    # Define yourself in 4-5 words
+    motto: Geeky Video Editor Turned Developer
+    
+    # focus
+    focus: Learn to Code in order to live as a Digital Nomad.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Started as Sales Assistant, turned into Videographer, and now starting a career in coding. I love learning new things and starting over!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pbs.twimg.com/profile_images/1376189696959782917/nRwcFhD8_400x400.jpg
+
+    # Contact Information
+    email: javijimenezclemente@gmail.com #optional
+    phone: +34 675 056 554 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/javierjimenezclemente/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jaygosling
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Playing guitar
+
+      - item: Cycling
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Full-Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022
+      details: |
+        - HTML + CSS + Bootstrap
+        - Javascript
+        - React
+        - Python
+
+    - degree: Video Production
+      university: Juan Comenius Learning Center
+      # optional
+      university_logo: https://www.comenius.es/wp-content/uploads/2021/04/horitzontal-primari_250x67.png
+      time: 2015 - 2017
+      details: |
+        - Video Editing
+        - Camera Basics
+        - Lighting
+        - Color Grading
+        - Motion Graphics Design
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Field IT Tech Support
+      time: 2021 - 2022
+      company: Virtuimagen, Spain
+      # optional
+      company_logo: 
+      details: |
+        - On-site Tech Support for bank branches.
+
+    - role: Cataloguer
+      time: 2017 - 2018
+      company: Freepik, Malaga
+      # optional
+      company_logo: https://www.freepikcompany.com/img/logo.svg
+      details: |
+        - Tagging icons for flaticon.com
+
+    - role: Translator / Voice Over Actor
+      time: 2017
+      company: Freepik, Malaga
+      # optional
+      company_logo: https://www.freepikcompany.com/img/logo.svg
+      details: |
+        - Translating text strings for their website.
+        - Translating and voicing Grapchic Design tutorials.
+
+# Your project portfolio
+projects:
+    intro: >
+        Here are some of my latest projects:
+
+    assignments:
+      - title: Bootstrap Instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/jaygosling/insta-bootstrap"
+        tagline: "An Instagram clone made using Bootstrap."
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 50%
+
+      - name: Bootstrap
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Photoshop & Illustrator
+        level: 90git add%
