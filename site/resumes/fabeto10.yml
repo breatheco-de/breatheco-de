@@ -1,0 +1,100 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Vidal
+
+    # Define yourself in 4-5 words
+    motto: No pain, no gain
+
+    # focus
+    focus: Programming
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: More challenges, more happiness.
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: f0414475@gmail.com #optional
+    phone: +58 424 408 59 74 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fabeto10
+
+    #optional
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: native
+
+      - idiom: English
+        level: intermediate
+
+    # Interests or hobies
+    interests:
+      - item: athletics
+
+# Your previous education
+education:
+    - degree: N/A
+      university: UCAB
+      university_logo: 
+      time: 2017 - 2018
+      details:
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Temporary family farm manager or Cowboy
+      time: Sometimes
+      company: Penas Blancas
+      # optional
+      company_logo: null
+      details: |
+          - Take charge of clearing the land.
+          - keep cattle vaccinated.
+          - keep inventory up to date.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Star-Wars-API-With-Fetch-&-Routes
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/fabeto10/Star-Wars-API-con-Fetch-y-Routes
+        tagline: Landing page utilizing API, React and Flux
+      - title: ToDo List
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/fabeto10/ToDo-List-Con-Fetch-API
+        tagline: A dinamic list of task with data base.
+      - title: Bootstrap Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/fabeto10/bootstrap-instagram-feed-francisco
+        tagline: A sample Instagram feed utilizing HTML, CSS and Bootstrap.
+skills:
+    toolset:
+      - name: JS & React
+        level: 70%
+      - name: Python & flask & PosgreSql
+        level: 50%
+      - name: HTML & CSS
+        level: 80%
