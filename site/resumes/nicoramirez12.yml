@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolás
+    last_name: Ramírez
+    
+    # Define yourself in 4-5 words
+    motto: I love learning stuff
+    
+    # focus
+    focus: Full-stack developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Durante mi trayectoria académica, tuve la oportunidad de estudiar en un colegio privado de gran calidad. Actualmente, estoy cursando la carrera de administración de negocios en la Universidad EAFIT. Además, estoy llevando a cabo un bootcamp para convertirme en un desarrollador full stack con 4geeks, lo cual me apasiona. Paralelamente, trabajo como freelancer en marketing digital para varias empresas, y he tenido la oportunidad de complementar mi formación con diversos cursos en línea de marketing y programación, lo cual me ha permitido seguir creciendo en mi carrera.
+
+
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+
+    # Contact Information
+    email: nicoramirez1212@gmail.com #optional
+    phone: 312-88-25-582 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nicoramirez12
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional (B2)
+
+      - idiom: Italian
+        level: A2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: reading
+
+      - item: learning
+
+      - item: writting
+
+# Your previous education
+
+      # optional
+      
+# Your previous job experiences or voluntier
+
+      # optional
+      
+      # optional
+      
+      # optional
+      
+# Your project portfolio
+
