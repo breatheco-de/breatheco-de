@@ -1,0 +1,90 @@
+--- 
+basic_info: 
+  avatar: anitta
+  email: camargoana851@gmail.com
+  first_name: Ana Karina
+  last_name: Camargo
+  focus: "Full Stack Developer"
+  github: https://github.com/camargoana
+  interests: Study of programming
+ 
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: C2
+
+  linkedin: linkedin.com/in/ana-camargo-08838240
+  motto: I like sushi
+  phone: +58-4241502194
+  
+  summary: |
+      Grow professionally and continue developing in the world of programming
+      
+education:
+    degree: Telecommunication Engineering
+    details: Universidad Nacional Experimental Politécnica de las Fuerzas Armadas
+    
+education:
+    degree: Specialization in Project Management
+    details: Universidad Católica Andrés Bello
+
+education:
+    degree: Diploma in Data Communication and Networks
+    details: Universidad Central de Venezuela
+
+experiences: 
+  
+    company: "Controlca, S.A"
+    details: |
+        Execution, analysis and evaluation of national and international projects, 
+        in the area of detaile Engineering, Telecomunications and Electronics,
+        management of the AutoCad 2D tool, for the exceution and review of Engineering plans.
+        
+          - Bullet point
+          - Bullet point
+    role: "Project leader"
+    time: "2020 to 2022"
+  - 
+    company: "IVC, Network"
+    details: |
+        Server management, Cisco, Dell, Grass Valley, user support in Venezuela and Colombia, 
+        with the MassStore web application
+        
+          - Bullet point
+          - Bullet point
+    role: "Support Engineering"
+    time: 2019 to 2019
+
+projects: 
+  assignments: 
+    - 
+      link: "Random-card"
+      project_logo: ""
+      tagline: ""
+      title: 
+    - 
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills:
+    toolset:
+      - name: Python & Django
+        level: 25%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Bootstrap
+        level: 30%
+
+      - name: Git & YAML
+        level: 30%
+
+template: online-cv
