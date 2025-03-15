@@ -1,0 +1,49 @@
+
+
+template: "online-cv"
+
+#Personal Information
+
+basic_info:
+
+     #Full Name
+     firs_name: Christopher
+     last_name: Alvarez Enriquez
+     
+      # Define yourself in 4-5 words
+      motto: jugar al COD todo el dia 24/7.
+      
+      # You have 1 paragraph to make a great impression, summarize your career.
+      summary:
+      Estoy en el Bootcamp 4geeks Academy, en el cual espero poder exprimir 
+      mis habilidades y conocimientos,que no son muchos, y poder aprender cada 
+      vez mas y asi poder convertirme en Full-Stack Developer. 
+      
+      #Contact Information
+      email: christopherjavier1998@gmail.com  
+      phone: 600872155
+      instagram: christopher_glr
+      
+      # ******** IMPORTANT *******
+      # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+      github: Christo150298
+      
+       # languages you speak, levels include: Native, Professional
+      languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      # Interests or hobies
+      interests:
+      - item: sports
+
+      - item: videogames
+
+      - item: Cooking
+      
+      - item: Movies
+      
+      
