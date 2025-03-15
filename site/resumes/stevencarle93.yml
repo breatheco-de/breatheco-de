@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Steven
+    last_name: Carvajal Lenis
+    
+    # Define yourself in 4-5 words
+    motto: I like Software Development and Music
+    
+    # focus
+    focus: Improving myself
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      An experienced Electronics Engineer and Industrial Engineer with background in research & design seeks an engineering position with a reputable organization whose structure allows for professional growth and development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/102554263?v=4
+
+    # Contact Information
+    email: stevencarle@hotmail.com #optional
+    phone: (786)-438-9708 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/steven-carvajal-lenis-11530173 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: stevencarle93
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Hiking
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: BSc in Electronics and Industrial Engineering
+      university: Pontifical Xavierian University - Cali, Colombia
+      # optional
+      university_logo: https://www.javerianacali.edu.co/themes/custom/javeriana/logo.svg
+      time: 2009 - 2015
+      details: |
+        Electronic Engineering is one of the branches of engineering that has revolutionized our civilization the most, as it focuses mainly on technology by applying mathematical and physical knowledge to solve engineering problems such as the control of industrial processes and the transformation of electricity for the operation of various devices.
+        A Xaverian electronic engineer analyzes, designs, develops and operates electronic devices, circuits and systems used in a wide range of applications that include, among others, digital, telecommunications, transportation, automation and control systems, and numerous devices that make our life easier and more enjoyable.
+          
+          - It is an internationally accredited program by ABET and more than 15 years ago it received High Quality Accreditation by the CNA in Colombia.
+          - Its study plan is designed according to international references, therefore it offers a solid professional training that allows deepening in: Mechatronics or Networks and Telecommunications.
+
+        When you decide to study Industrial Engineering at Javeriana Cali, you prepare to contribute to the design of solutions that companies and society need to function better. A Xaverian industrial engineer applies his knowledge to understand how companies that manufacture products or provide some type of service should work, and understand how people should interact with technology, materials and other resources.
+
+          - The Industrial Engineering program is internationally accredited with ABET (Engineering Accreditation Commission).
+          - The program has three emphases: Logistics, Quality and productivity, and Manufacturing and services.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Project Engineer, Research & Product Development
+      time: October 2018 - Present
+      company: LightningMaster Corporation & Tazman Turbinz, Inc. - Clearwater, FL, USA
+      # optional
+      company_logo: https://lightningmaster.com/wp-content/uploads/2019/05/cropped-LightingMaster-logo.png
+      details: |
+        - Application engineering for static and structural lightning protection projects and for surge protection.
+        - Perform engineering changes to the existing product portfolio in response to quality deficiencies, cost reductions, regulatory compliance requirements, supplier or material changes, or other factors.
+        - Spearhead R&D Engineering project for the lightning protection market or for related applications and / or using similar technologies. Provide project management for LMC’s surge protection department and assist in the development of the In-Pipe Turbine Generator (especially in regards to electronics and remote communications).
+        - Software development in monitoring system for the In-Pipe Turbine Generator project applying JavaScript, Node-RED, SQL databases, ModBUS communication protocols and PLC programming such as Schneider Electric SCADAPack 334
+        - Software development in Salesforce for vendors and customers information management, products and parts inventories management for the In-Pipe Turbine Generator project.
+    - role: OSP Associated Engineer
+      time: March 2018 - September 2018
+      company: TESINC, LLC - Tampa, FL, USA
+      # optional
+      company_logo: https://www.tesinc-llc.com/wp-content/uploads/2019/09/TESINC_LOGO-200wide.png
+      details: |
+        - Research and evaluate various route options associated with the project. Research shall include aerial and underground options, existing customer conduit and other third party conduit.
+        - Recommend final route based on most economical solution and permitting agency's recommendation.
+        - Develop base mapping and provide field engineering services required to prepare permit drawings, OSP construction drawings, and final as-built drawings in electronic GIS format
+        - Creation of base maps shall utilize source material such as tax maps, County/DOT roadway plans, building site plans, recorded plat maps, railroad survey maps, and other data.
+        - Research and incorporate permitting requirement from jurisdictional authorities (i.e., state, county, city railroads, and
+          others) into the OSP design
+        - Research includes existing customer records and records of other third party conduit that may be available through the Telecommunications Act of 1996 or purchase.
+
+# Your project portfolio
+projects:
+    intro: >
+      Graduate Research Studies
+    assignments:
+      - title: Control and monitoring system of movements of the robotic arm Mitsubishi RV M1 (July to November 2013).
+        # optional
+        project_logo:
+        link:
+        tagline: "A graphical interface, through the National Instruments LabView software, allowing the user to program, control and monitor the movements made by the robot arm RV-M1 of the Mitsubishi brand, employing the default by the command processor was designed robot in order to draw these three geometric shapes (circle, square and triangle) with a marker on a paper surface."
+
+      - title: Project control of industrial processes (January to June 2013). Level control.
+        # optional
+        project_logo:
+        link: 
+        tagline: "A control system level two tanks, involving sensors presence and level using the RSLogix 5000 software to implement the ladder was designed. Also, an interface was implemented in Factory TalkView Rockwell Automation to monitor and modify the process, according to parameters specified by the user."
+
+      - title: System for diagnosis of three vital signs in three patients (January to June 2012).
+        # optional
+        project_logo:
+        link:
+        tagline: "A system for diagnosis of three vital signs (heart rate, respiratory rate and temperature) in three different patients using for this area concepts instrumentation and sensors for measuring and signal transduction natural, vital signs associated designed , to electrical signals; concepts also the area of computer architecture for designing, programming and implementation in the Spartan-3E FPGA from Xilinx, a processor that would store the measured data and make historical statistical calculations with the purpose of generating emergency alerts to get out of normal ranges for the values of monitored vital signs; and finally, area concepts transmission means for designing a wireless communication system to transmit the measured values and emergency alerts, for each of their respective patients vital signs monitored, a medical station located up to 10 m away where they could be visualized graphically measured historical values, statistical calculations and emergency alerts presented."
+
+      - title: System for the detection and color reproduction (July to November 2011).
+        # optional
+        project_logo:
+        link:
+        tagline: "A system for the detection and color reproduction, using the detection diodes and infrared emitters and receivers designed for reproduction theory RGB (Red/Green/Blue) and LEDs interconnected and controlled by the Altera Cyclone II FPGA scheduled by the Quartus II language."
+
+      - title: System for the diagnosis of body weight (January to June 2011).
+        # optional
+        project_logo:
+        link:
+        tagline: "An electromechanical scale is designed to make the diagnosis of body weight of a user whose worth their weight was located within the range of 40-100 kg. For this design concepts area in direct current circuits connecting employed strain gauges were used for the transduction of the weight force into an electrical signal which may be compared with that recorded for the weight signal measured for the first user and evaluated over a range of ± 3kg."
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: Javascript
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
