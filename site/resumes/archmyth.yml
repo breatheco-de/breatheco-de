@@ -1,0 +1,110 @@
+template: "online-cv"
+skin: "orange"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name 
+
+    first_name: Xiang
+    last_name: Zheng
+
+    # Define yourself in 4-5 words
+    motto: Full Stack Developer
+
+    # focus
+    focus: Becoming the best developer that I can be. 
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      Accomplished manager with 10+ years experience in all aspects of restaurant operations. Exceptional interpersonal skills and multi-tasking, combined with proven ability to drive profitability, manage and nurture talent. Outstanding leader with distinguished team-building skills and excellent conflict resolution abilities as well as a strong work ethic.g
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+   
+    avatar: 
+
+    # Contact Information
+    email: archmyth@gmail.com #optional
+    phone: 917-353-0506 #optional
+    website:  #optional
+    linkedin: xiang-zheng-1801341b9 #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: archmyth
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - gidiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: basic
+
+      - idiom: Chinese
+        level: Professional
+ 
+
+    # Interests or hobies 
+    interests:
+      - item: reading
+
+      - item: Traveling
+
+      - item:  play video games
+
+      # Your previous education
+    education: High School
+    degree: accounting 
+      #university: UW-Madison
+      # optional
+      #university_logo: 
+     # time: 
+     # details: |
+        
+
+       #   - Bullet point
+       #   - Bullet point
+
+# Your previous job experiences or voluntier
+
+    role: restaurant manager
+    time: 2018 - 2021
+    company: Jade Garden
+details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+        # Your project portfolio
+#projects:
+    #intro: >
+      #You can list your side projects or open source libraries in this
+      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: 60%
+      
+      - name: Python/Flask
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
