@@ -1,0 +1,40 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Jesus
+    last_name: Sosa
+    motto: Student
+    
+        I started studying an engineering but right now I want to specialize in the world of programming, as it is a world that I love.
+   
+
+        After finishing the 4Geeks course, I would like to do a master in javascript and python, and my next serial course will be in native and hybrid mobile applications. 
+        
+
+    # Sidebar links
+    email: jesus.asm26@gmail.com
+    phone: +56 412 080 94 65
+    github: jsosa26
+    Instagram: https://instagram.com/jesussosa2001
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: deports (soccer and basketball)
+      - item: Videogame
+
+education:
+    - degree: informatics engeneer
+      university: UCAB and IUTOMS
+      time: 2019 - 2021
