@@ -1,0 +1,186 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Zekeriya
+    last_name: Otumlu
+    
+    # Define yourself in 4-5 words
+    motto: I like to read, study, explore and improving myself.
+    
+    # focus
+    focus: To Improve myself and share my knowledge with friends and coworkers.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Over 8+ years of experience in the IT field as Sr. QA Analyst and Sr.Software Automation Engineer with strong working experience in both Manual and Automation testing. 
+      Comprehensive understanding of Software Development Life Cycle including Agile, Waterfall and Iterative,
+      Agile Test Methodology and Agile Development process.
+      Expertise in QA Methodologies, User Acceptance testing, System Testing, Functional Testing, Integration Testing, 
+      Regression Testing and End-to-End Testing. Highly experienced in Automation Testing with tools such as 
+      Selenium Web Driver and test frameworks such as JUnit/TestNG. Good Knowledge of Object-Oriented programming Concepts (OOPS) 
+      and Java Skills. Experienced in Web Services Testing: Postman, Rest API Manual & Automation testing.
+      Experienced in using GitHub/SVN, Bit Buckets as a source repository system. 
+      Experienced in using Jenkins as Continuous Integration server to configure with GitHub and Maven.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQHdDYjHej1vrA/profile-displayphoto-shrink_800_800/0/1656907418065?e=1669852800&v=beta&t=MbFHE5TQ7LaEdDd_pwLSbVoHwi7x9KzFzr-bGTy-3KE
+
+    # Contact Information
+    email: zekyotumlu@hotmail.com #optional
+    phone: 203-916-3410 #optional
+    linkedin: https://www.linkedin.com/in/zekeriya-otumlu-3723381a2/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: zekeriyaotumlu
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Turkish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+      - item: Play Tennis
+      - item: Swimming
+
+# Your previous education
+education:
+    - degree: Master in Finance
+      university: Goldey Beacom College
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/0/05/Goldey-Beacom_College_seal.jpg
+      time: 2016 - 2017
+      details: |
+       Studied in Master of Finance at Goldey Beacom College.
+    - degree: MBA - Master in International Business
+      university: Goldey Beacom College
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/0/05/Goldey-Beacom_College_seal.jpg
+      time: 2015 - 2016
+      details: |
+        Studied in Master of MBA- International Business Management at Goldey Beacom College.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sr. Software Automation Engineer
+      time: 2022 - Present
+      company: UKG Inc.
+      # optional
+      company_logo: https://www.underconsideration.com/brandnew/wp/wp-content/uploads/2020/12/ukg_logo_before_after.png
+      details: |
+        Working as Sr. Software Automation Engineer. Doing Manual and Automation testing.
+          - Developing, modifying and enhance automation framework for Selenium WebDriver in Nightwatch Framework with JavaScript.
+          - Attended review meetings with Business Analysts, Developers and end users to understand and test according to their requirements.
+          - Used SQL Queries to validate the data in the Oracle databases.
+          - Using of bug tracking tools like JIRA and for reporting modification requests.
+          - Involve in using Postman and REST API's to automate tests.
+          - Involve in providing the efficient locators strategy like XPath and CSS.
+          - Interact with developers for status of the bugs and re-tested the fixed Bugs.
+          - Running Automation Test scripts using Selenium WebDriver in Nightwatch framework with Javascript.
+          - Creating Test Objectives on TestRail and executing Test Cases.
+          - Using JIRA for Bugs reporting and communicating to developers, product support and test team.
+  
+    - role: Sr. Software Test Automation Engineer
+      time: 2020 - 2022
+      company: Bank Of America
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYnZFGidIsujZb8yRCOSesqLIv-oof8mWqsxs53y6DBP438Q6t30HajYZM_nIprDgp4gM&usqp=CAU
+      details: |
+         Worked as Sr. Software Automation Engineer. Worked in Manual and Automation testing.
+          - Runned Automation Test scripts using Selenium WebDriver with Cucumber.
+          - Used Core JAVA as a Programming Language.
+          - Used SQL Queries to validate the data in the Oracle databases.
+          - Created Test Objectives on JIRA and executing Test Cases.
+          - Developed Test Scripts using Test Cases that were written based on Use Cases and Functional Requirement Documents.
+          - Involved in using Swagger, SOATest, PULSE and REST API's to automate tests.
+          - Developed, modifying and enhance automation framework for Selenium WebDriver in DDT Framework with Cucumber.
+          - Attended review meetings with Business Analysts, Developers and end users to understand and test according to their requirements.
+          - Involved in providing the efficient locators strategy like XPath and CSS.
+          - Interacted with developers for status of the bugs and re-tested the fixed Bugs.
+          - Documented Test cases corresponding to business rules and other operating conditions.
+          - Developed, planning and implementing Test strategies, plans, methodologies and frameworks in support of agile development.
+          - Used JIRA for Bugs reporting and communicating to developers, product support and test team.
+          - Analyzed Software and System Requirements Specifications for the purpose of testability and translation of requirements into Test cases/ procedures. 
+           
+    - role: Sr. Software Test Engineer
+      time: 2019 - 2020
+      company: ADP
+      # optional
+      company_logo:  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS2pBmJJcs3pUdCHP_bG-FO0BnC3DEUKQ2YZfD_FIZ3-uE9ispRsoP4JFgXGJ9uRvZe2A&usqp=CAU
+      details: |
+        Worked as Sr. Software Automation Engineer. Worked in Manual and Automation testing.
+          - Interacted with developers for status of the bugs and re-tested the fixed Bugs.
+          - Involved in provided the efficient locators strategy like XPath and CSS.
+          - Created Test Objectives on Rally and executing Test Cases.
+          - Developed Test Scripts using Test Cases that were written based on Use Cases and Functional Requirement Documents.
+          - Developed, modified and enhance automation framework for Selenium WebDriver in DDT Framework with Cucumber.
+          - Attended review meetings with Business Analysts, Developers and end users to understand and test according to their requirements.
+          - Used SQL Queries to validate the data in the Oracle databases.
+          - Involved in using Postman and REST API's to automate tests.
+          - Runned Automation Test scripts using Selenium WebDriver with Cucumber.
+          - Documented Test cases corresponding to business rules and other operating conditions.
+          - Analyzed Software and System Requirements Specifications for the purpose of testability and translation of requirements into Test cases/ procedures.
+          - Developed, planning and implementing Test strategies, plans, methodologies and frameworks in support of agile development.
+          - Used Rally and JIRA for Bugs reporting and communicating to developers, product supp
+# Your project portfolio
+projects:
+    intro: >
+     Learning and improving myself to be a Software Engineer. Make practoce to sharpen my coding Skills.
+
+    assignments:
+      - title: Instagram-Photo-Feed-with-HTML-CSS_4GA
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/ZekeriyaOtumlu/Instagram-Photo-Feed-with-HTML-CSS_4GA"
+        tagline: "Improving myself as Software Engineer in Development side"
+
+      - title: Photo Feed with HTMl, CSS and Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/ZekeriyaOtumlu/Photo-Feed-with-Bootstrap_4GA"
+        tagline: "Improving myself as Software Engineer in Development side"
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: Java
+        level: 70%
+
+      - name: HTML5 & CSS & Bootstrap
+        level: 80%
+
+      - name: JIRA, Rally, TestRail (Management Tools)
+        level: 90%
+      
+      - name: SQL Database
+        level: 85%
+
+      - name: Git / GitHub, Bit Buckets
+        level: 90%
+
+      - name: Postman / Web Services
+        level: 90%
+ 
