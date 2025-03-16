@@ -1,0 +1,152 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kyle
+    last_name: Kronemeyer
+    
+    # Define yourself in 4-5 words
+    motto: Dedicated, hard-working, punctual, and dependable.
+    
+    # focus
+    focus: Back-End
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      After 10 years in the hospitality industry I am ready for my next venture in life. Throughout my career I have continually grown in roles through dedication to learning my craft. Starting out as a food-runner at a WaterPark I worked through every possible front of house role until I was the manager of multiple restaurants. My goal is to take this same dedication and apply it to a career that better suits my skill sets and creates better opportunities for my family.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/C:\Users\KyleS\OneDrive\Desktop\IMG_3235.JPG
+
+    # Contact Information
+    email: kylesk22@gmail.com #optional
+    phone: 407-731-3347 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/kyle-kronemeyer-154aa117b #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Kylesk22
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Football
+
+      - item: Weightlifting
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: N/A
+      university: UCF
+      # optional
+      time: 2010 - 2013
+     
+    - degree: 
+      university: 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Bartender
+      time: 2021-present
+      company: Margaritaville Resort, Orlando
+      # optional
+      company_logo: https://www.margaritavilleresorts.com/margaritaville-resort-orlando
+      details: |
+        Create a positive, fun environment while giving excellent customer service through serving food and beverages at the Salty Rim Bar and Grille.
+        
+    - role: Insurance Agent
+      time: 2020-2021
+      company: USHA, USA
+      # optional
+      details: |
+        Provide quotes and health insurance options to individuals requesting information. 
+        
+    - role: Outlet Manager/Department Head
+      time: 2015 - 2020
+      company: Reunion Resort, Reunion FL
+      # optional
+     
+        Responsible for assisting food and beverage director with restaurants at Reunion Resort. Managed directly over three food and beverage operations while developing new leaders on financial statements, payroll, cost reporting, event planning, inventory, and other general managerial tasks.
+          
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
