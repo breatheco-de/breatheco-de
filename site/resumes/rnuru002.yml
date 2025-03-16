@@ -1,0 +1,99 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Nuruzzaman
+    last_name: Robin
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer. 
+      I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
+      For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
+
+    
+   
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+
+    
+    email: rnuru002@gmail.com
+    # phone: 920570248
+    # website:  
+    linkedin: https://www.linkedin.com/in/nuruzzaman-robin-94374b55
+    
+    
+    github: rnuru002
+    
+    twitter: 
+    # 
+
+    
+    languages:
+      - idiom: English , Bangla 
+        level: Native
+      - idiom: Portugese , Hindi
+        level: Medium
+    
+    interests:
+      - item: Travelling
+
+      - item: Health & wellness , playing football 
+
+      - item: Trying out different cusine.
+
+
+
+# education:
+#     - 010-2011:MBA in General Management (Coventry University)
+
+
+
+#       2006-2009: B.Sc. in Business Administration (Ibais University )
+#       2004-2006: A-levels- Math’s, Accounting, Physics.
+#       2003-2004: GCSE’s- Math’s, English, Accounting, Physics, Bengali
+
+#           
+
+
+experiences:
+    - role: Customer Support Specialist
+      time: from May2019 - ongoing
+      company: Intuit , QuickBooks online , Portugal
+
+    
+      # details: |
+      #    Proving client support by phone, email and live chat support for UK based clients .
+      #    Supporting accounting based software called QuickBooks online to do the bookkeeping task and accountancy based calculation in online platform.
+      #    Doing bank reconciliation , reports , payrolls , taxes and online submission etc .
+      #    Doing basic operation and reports in excel for financial report and also team performance and project overall performance analysis and report making using excel pivot table , chart and histograms , also using the mean, median and mode for various report and analysis.
+      #    Dealing with customer enquiries and investigation for first tier escalations and case logging and follow up with customers .
+      #    Logging in customer queries on Sales Force , forwarding and dealing with specific sales task and account activation using sales force and escalation to different teams for investigations and resolution and Amazon AWS platform for internal tools .
+      #    Communicating using slack , google tools and zoom meetings .
+      #    have been working in customer support for last 10 years with 3 years in online, email , chat and phone support
+      #    Just over a year of experience in managing and training new teams for the QuickBooks online product For team of (5 -10)
+      #    have Experience in leading on a team and performance based project.
+      #    have been best performing employee consistently and did Exceptionally well to maintain and understanding of customer service, technical issue resolution and support best practices.
+          
+
+
+
+# skills:
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
