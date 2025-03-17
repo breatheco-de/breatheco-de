@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Juan
+  last_name: Delfin
+
+  # Define yourself in 4-5 words
+  motto: Siempre con humildad y responsabilidad
+
+  # focus
+  focus: Aprender cada dia mas y dar mi aporte tanto en lo laboral como en lo personal
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Estudiante en proceso de formacion profesional dando lo mejor de mi dia a dia !!
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: juandelfin656@gmail.com #optional
+  phone: +58 424 149 5205 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Delfin656
+
+  stack-overflow: 20362478/juan-carlos-delfin
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Basic
+
+  # Interests or hobies
+  interests:
+    - item: Baseball player
+
+    - item: In my spare time I exercise
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: community manager
+    time: 2016 - Present
+# Your project portfolio
+projects: 
+  title: D&H
+  intro: >
+    Web app de artes culinarias dedicada a enseñar a las personas de mano de los mejores chefs del area de la gastronomia gourmet
+
+skills:
+  toolset:
+    - name: Javascript & jQuery
+      level: 30%
+
+    - name: HTML5 & CSS
+      level: 70%
+
+    - name: React js
+      level: 50%
+
+    - name: Python
+      level: 45%
+
+    - name: Sketch & Photoshop
+      level: 25%
