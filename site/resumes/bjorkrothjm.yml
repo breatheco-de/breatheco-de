@@ -1,0 +1,133 @@
+#theme: You can choose a theme and skin colors.
+#basic_info: Personal info.
+#education: Previous studies.
+#experiences: Previous jobs.
+#projects: Describe the projects you've built as a developer.
+#publications: Any articles you have published.
+#skills: List your skills with a percentage of expertise.
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Johan
+    last_name: Bjorkroth 
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Learning everything I can about web development and becoming a better SEO
+     
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/64375352?s=400&u=c5ba3c6fdb5c2055433cd19c0d9675bc97013dfc&v=4
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    github: https://github.com/bjorkrothjm
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Swedish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Friends
+
+      - item: Football
+
+      - item: Cooking
+
+# Your previous education
+education:
+  - degree: MSc in Data Science; Business & Governance
+    university: Tilburg University
+    # optional
+    #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2017 - 2018
+    #details: | 
+
+  - degree: MSc in International Marketing & Brand Management
+    university: Lund University
+    # optional
+    #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2016 - 2017
+    #details: | 
+ 
+  - degree: BSc in Business / Managerial Economics
+    university: Lund University
+    # optional
+    #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2013 - 2016
+    #details: | 
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: Tech SEO
+    time: 2021 - Present
+    company: Cas, Barcelona
+    # optional
+    #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here
+
+  - role: BI Analyst
+    time: 2020 - 2021
+    company: The Keenfolks, Barcelona
+    # optional
+    #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here
+
+  - role: SEO & Content Manager
+    time: 2018 - 2020
+    company: Camaloon, Barcelona
+    # optional
+    #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here
+
+#projects:
+
+#publications:
+
+#skills
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Javascript
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 50%
