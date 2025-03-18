@@ -1,0 +1,148 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: José Raimundo
+    last_name: del Rio Domeyko
+    
+    # Define yourself in 4-5 words
+    motto: creativo, curioso, introvertido, artista
+    
+    # focus
+    focus: Leer, inventar y programar.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me gusta el desarrollo de paginas web, optimizando el CEO y creando una buena UX. 
+      Tambien me gusta trabajar con otras personas intercambiando ideas. He hecho muchos cursos online de diferentes
+      lenguajes y ahora con 4Geeks y la práctica pretendo convertirme en un desarrollador web senior
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/104604398?v=4
+
+    # Contact Information
+    email: jrdelriodom@gmail.com#optional
+    phone:  #optional
+    website: #optional
+    linkedin: jose-raimundo-del-rio-domeyko/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jrdelrio
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Avanzado
+
+      - idiom: Portugués
+        level: Intermedio
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Cantar
+      - item: Tocar la guitarra
+      - item: Programar
+      - item: Ajedrez
+
+# Your previous education
+education:
+    - degree: Constructor Civil
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo: https://logos-download.com/wp-content/uploads/2017/11/Universidad_Catolica_de_Chile_logo.svg
+      time: 2011 - 2020
+      details: |
+        Estudié 2 años de arquitectura en la Universidad del Desarrollo, luego 4 años ingeniería y terminé
+        la carrera de construcción civil.
+        No fue la carrera ideal para mi, por eso estoy bsucando nuevos horizontes tomando
+        este curso online.
+
+    - degree: Professional Certificate in Automation with Python
+      university: Coursera, Google
+      university_logo: data:image/png;base64,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
+      time: 2022
+      details: |
+        I have been making many different certificates and getting different tech tools to
+        look for a new future
+# Your previous job experiences or voluntier
+experiences:
+    - role: Profesional de terreno
+      time: 2020 - 2021
+      company: Constructora Altius SPA
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+        Lideré un equipo de cantidad de personas variable (aprox 8 personas) para la correcta
+        ejecución de 2000m2 de UTI y UCI en Clínica INDISA en Maipú, ciudad de Santiago.
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: Javascript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Autodesk
+        level: 60%
+
+      - name: Sketch & Photoshop
+        level: 30%
+
+      - name: Web Scrapping
+        level: 40%
