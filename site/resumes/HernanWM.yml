@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hernan G.
+    last_name: Naguibin
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world,learn programming and watch films
+    
+    # focus
+    focus: study and learn new abillities
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      developer / Fullstack Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.google.com/photo/AF1QipPkoCA1T-uUPv0qBmBZIfwcY4icl8zQWM4OPnU-
+
+    # Contact Information
+    email: waza.mango@gmail.com #optional
+    phone: +56 9 33241472 #optional
+    linkedin: hernan-gonzalez-naguibin #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: HernanWM
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Movies
+
+      - item: Piano
+
+      - item: Cooking
+
+      - item: Festivals
+
+      - item: SkyDiving
+
+# Your previous education
+education:
+    - degree: Game Dev
+      university: Desafio Latam
+      # optional
+      university_logo:
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Desarrollador Full stack
+      time: 2020 -Enero 2020 - Marzo
+      company: Sodimac
+      # optional
+      company_logo: https://images.contentstack.io/v3/assets/blta0a3b70f2f9b36ba/blt353a6f3bf8e86c8a/5ee0ff26b522543a8d5266f0/logo-header-normal.png?auto=webp&disable=upscale&quality=70&width=1280
+      details: |
+        I used to work as a Web Developer. My main tasks are layout, development of dynamic pages, maintenance and solutions to new and existing problems.
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Geobiota, post-produccion
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "First interactions with Vue Js + Nuxt + Vutify. Getting started with Axios"
+
+      - title: Novaberries
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "PHP for the structure with Wordpress for the admin. Using Bootstrap 5 for the mockup"
+
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level:
+
+      - name: React
+        level:   
+
+      - name: Javascript & jQuery
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
+
+      - name: Sass & Bootstrap
+        level: 
+
+
