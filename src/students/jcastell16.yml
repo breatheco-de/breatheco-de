@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Carlos
+    last_name: Castellanos Figueira
+    
+    # Define yourself in 4-5 words
+    motto: Me Gusta Aprender cosas nuevas
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Soy un Ingeniero en Sistemas con mas de 5 años de experiencia en el área de tecnología. Mi trabajo se centra en Redes, Infraestructura y Servidores y ahora iniciando en el area de la programacion.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQE2om6Q7D_0Rw/profile-displayphoto-shrink_800_800/0/1567918220263?e=1651708800&v=beta&t=dAH2eyyXfoBygAVibq75XLGi8vfhawSo77BCpMcwU9g
+
+    # Contact Information
+    email: jcastell_16@hotmail.com #optional
+    phone: +58 412 540 1354 / +58 412 599 3298
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Jcastell16
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: VideoGames
+
+      - item: Code
+
+      - item: Futbol
+
+# Your previous education
+education:
+    - degree: Ingeniero en Sistemas
+      university: Universidad Santa Maria (USM)
+      # optional
+      university_logo: https://usm.edu.ve/florencia/wp-content/uploads/2018/02/usm123.png
+      time: 2008 - 2016
+      details:
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram-Bootstrap
+        # optional
+        project_logo: https://github.com/Jcastell16/instagram-photo-feed-boostrap
+        link: 
+        tagline: "Its a  imitation of instagram"
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 15%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
