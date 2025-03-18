@@ -1,0 +1,172 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Carolina
+    last_name: Cano
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      I enjoy spending time on the computer. 
+      I like helping people, I am a learner person and so dedicated
+
+    
+   
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+
+    
+    email: ruizcaro72@gmail.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: __________
+    
+    
+    github: ruiz72
+    
+    twitter: 'carolina72' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: medium
+
+    
+    interests:
+      - item: Music
+
+      - item: Health & wellness
+
+      - item: Cooking
+
+
+
+# education:
+#     - degree: Health Services Administration 
+#       university: Florida International University 
+#       # optional
+#       university_logo: https://www.vhv.rs/dpng/d/461-4617822_fiu-panther-logo-png-mascot-florida-international-university.png
+#       time: 2011 - 2015
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+
+experiences:
+    - role: Secretary
+      time: 2002 - 2018
+      company: av co
+    
+      details: |
+          - Files and categorized documents
+          -In charge of the central phone
+
+
+
+#     - role: Manager
+#       time: 2011- 2017
+#       company: Kumon, Miramar/Sunrise
+#       # optional
+#       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
+#       details: |
+       
+#           - Worked with students to develop fundamental math/reading skills using Kumon proprietary learning methods. 
+#           -  Ensured necessary billing and payments were obtained on time. 
+#           - Developed marketing strategy and worked with small businesses to promote the Kumon brand.
+#           - Provide feedback to parents on the progress of students.
+#           - Manage employees and create a successful team environment through effective communication. 
+#           - Answering phone calls and setting up student orientations for enrollment. 
+#           - Proctor exams and grade classwork and homework.
+#           - Data entry of student progress into Content Management System. 
+#           - Managed day to day operations. 
+#           - Communication and coordination skills developed through handling and adapting to unexpected situations that affected the business. 
+#           - Scheduling and coordinating meetings, interviews, events, and other activities. 
+#           - Assists with the hiring and training of new employees including interviews and documentation. 
+
+
+#     - role: UI Developer
+#       time: 2012 - 2014
+#       company: Amazon, London
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Visual Code
+        level: 15%
+
+      - name: Javascript
+        level: 25%
+
+      - name: Word
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 45%
+
+      - name: Excell
+        level: 85%
+
+      - name: Github
+        level: 60%
