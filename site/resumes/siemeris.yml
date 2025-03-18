@@ -1,0 +1,103 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Isabel
+    last_name: Sierra    
+    motto: Enthusiastic of new challenges, traveler, creative, curious. 
+    summary: |
+      Enthusiastic of new challenges, traveler, creative, curious. 
+      During this trip across the oceans, I have grown professionally solving complex problems in a multicultural environment. 
+      My eagerness to never stop learning has allowed me to be part of an interesting digital transformation. 
+    avatar: 
+    # email: 
+    # phone:  
+    # website: 
+    # linkedin: 
+    github: siemeris
+    # twitter:  
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Coding
+
+      - item: Travelling
+
+      - item: Always learning
+
+education:
+    - degree: Full-stack Development Bootcamp 
+      university: 4Geeks Academy 
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      time:  may 2022 - sep  2022
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python
+
+experiences:
+    - role: Enabling Communication
+      time: 2010 - 2021
+      company:
+      details: 
+
+# # Your project portfolio
+projects:
+     intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+     assignments:
+       - title: Digital Postcard
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: https://github.com/siemeris/4GeeksAcademy-Postcard
+         tagline: "My First HTML and CSS project "
+
+       - title: Instagram Post
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: https://github.com/siemeris/InstagramPost
+         tagline: "Instagram-look-a-like feed using HTML and CSS. "
+
+       - title: Instagram PhotoFeed with Bootstrap
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: https://github.com/siemeris/InstagramPhotoFeedBootstrap
+         tagline: "A responsive website template designed to input information on a postcard "
+
+       - title: Excuse Generator
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: https://github.com/siemeris/ExcuseGenerator
+         tagline: "Random excuse generator. "
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+     toolset:
+       - name: HTML5
+         level: 65%
+
+       - name: Javascript
+         level: 50%
+
+       - name: CSS
+         level: 65%
+
+       - name: Bootstrap
+         level: 55%
+
+       - name: Python
+         level: 35%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
