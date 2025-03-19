@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+  # Profile information
+  first_name: Judith
+  last_name: Carreño
+  motto: Full Stack Developer
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+    Second paragraph if required.
+  theme: You can choose a theme and skin colors.
+  basic_info: Personal info.
+  education: Previous studies.
+  experiences: Previous jobs.
+  projects: Describe the projects you've built as a developer.
+  publications: Any articles you have published.
+  skills: List your skills with a percentage of expertise.
+
+  # Sidebar links
+  email: 3280kg@gmail.com
+  phone: +56 922138662
+  website: sin
+  linkedin: judith carreño
+  github: conpantuflas
+  twitter: conpantuflass
+  stack-overflow: sin
+
+  languages:
+    - idiom: English
+      level: Basic
+
+    - idiom: Spanish
+      level: Professional
+
+  interests:
+    - item: Art
+
+    - item: Plants
+
+    - item: softwares
+
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    time: 2022
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+experiences:
+  - role: Lead Developer
+    time: 00
+    company: Startup Hubs, Caracas
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+
+skills:
+  toolset:
+    - name: Python
+      level: 30%
+
+    - name: Javascript & React
+      level: 80%
+
+    - name: HTML5 & CSS
+      level: 80%
+
+    - name: Illustrator  & Photoshop
+      level: 50%
