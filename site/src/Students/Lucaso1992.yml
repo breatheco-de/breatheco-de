@@ -1,0 +1,60 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Lucas
+  last_name: Solari
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+ Estoy cursando actualmente el bootstrap de 4Geeks Academy Europe. Muy contento y entusiasmado. Mi unica experiencia previa fue en un curso de 
+ Desarrollo Web (HTML, CSS, SASS, Bootstrap). Mi objetivo es formarme como Full Stack Developer e insertarme lo antes posible en el mercado 
+ laboral, para poderseguir aprendiendo y desarrollandome como profesional.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/128732015?v=4
+
+  # Contact Information
+  email:  solarilucas92@gmail.com #optional
+  phone: +34 617 2728 72 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Lucaso1992
+
+  twitter:  #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: front end
+
+    - item: working
+
+    - item: tennis
+
+# Your previous education
+education:
+  - degree: desarrollador full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/14d92/4geeks-logo.webp
+    time: april 2023 - august 2023
+    details:  Estoy cursando actualmente el bootstrap de 4Geeks Academy Europe. Muy contento y entusiasmado. Mi unica experiencia previa fue en un curso de 
+ Desarrollo Web (HTML, CSS, SASS, Bootstrap). Mi objetivo es formarme como Full Stack Developer e insertarme lo antes posible en el mercado 
+ laboral, para poderseguir aprendiendo y desarrollandome como profesional..
+       
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aprender y trabajar.
+      Tecnologias: Html, Css, Sass, Bootstrap
+
+    Alquimia Tech: Sitio web de empresa ficticia desarrolladora de paginas web 
+      Tecnologias: HTML, CSS, SASS, BOOTSTRAP.
+
+
+ 
