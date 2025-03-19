@@ -1,0 +1,165 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana
+    last_name: Plata
+    
+    # Define yourself in 4-5 words
+    motto: Keep it Simple Stupid
+    
+    # focus
+    focus: Career
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: anacplata@gmail.com
+    phone: +18577535021
+    website: acp.com #optional
+    linkedin: acplata #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: acplata
+    
+    twitter: 'acplata' #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Working Out/Snowboarding
+
+      - item: Trying new restaurants
+
+      - item: Going out with Friends
+
+# Your previous education
+education:
+    - degree: MSc in Finance
+      university: Bentley University
+      # optional
+      university_logo: https://d2f5upgbvkx8pz.cloudfront.net/sites/default/files/inline-files/Bentley_Logo_Shield_Only_Blue.png
+      time: 2014 - 2016
+      details: |
+        Masters of Science in Finance - Corporate and Investment Finance, including International Finance
+
+    - degree: BA in International Studies. Minor in Public Relations and Journalism
+      university: University of Miami
+      # optional
+      university_logo: https://1000logos.net/wp-content/uploads/2017/07/University-of-Miami-Logo.png
+      time: 2011 - 2014
+      details: |
+        An international studies degree draws from subjects like history, politics, religion, geography, economics, as well as foreign languages. This gives you a comprehensive understanding of diverse nations, cultures, and the challenges they face.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Senior Financial Analyst
+      time: 2021 - Present
+      company: K and Soda
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        assisting with financial planning and budgeting processes, analyzing financial statements and reports, developing financial models, preparing projections, and performing research and analysis as may be required by leadership.
+
+    - role: Senior Revenue Analyst
+      time: 2019 - 2021
+      company: Royal Caribbean
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        A revenue analyst is a special type of accountant who keeps track of a company's revenue and looks for ways to improve it. This analysis is multifaceted. The revenue analyst tracks revenue over time and determines the direction of the trend. He determines how a company's revenue compares to competitors in the industry.
+
+    - role: Pricing Analyst
+      time: 2014 - 2019
+      company: CMA CGM
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        A pricing analyst works with complex data examining industry standards and pricing strategies of competitors to help businesses determine and set competitive prices. They study consumer habits to determine how much people are willing to pay for various products and look for patterns in consumer spending.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: SQL
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Excel
+        level: 85%
+
+      - name: Canvas
+        level: 60%
