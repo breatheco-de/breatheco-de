@@ -1,0 +1,201 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo
+    last_name: Foulquié
+    
+    # Define yourself in 4-5 words
+    motto: Persona meticulosa y ordenada
+    
+    # focus
+    focus: Ingeniero Químico
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Trabajador responsable y profesional que está acostumbrado a trabajar bajo presión. Autodidacta, proactivo, analítico, muy organizado, perfeccionista y eficiente.
+      Me gusta trabajar en equipo y/o solo, y soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto.
+      Persona que se motiva a sí mismo y con pasión por los detalles, quiero seguir desarrollando mi carrera profesional en entornos exigentes, siempre orientado hacia
+       la mejora continua.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/guillermo.jpg
+
+    # Contact Information
+    email: guilleranza@gmail.com #optional
+    phone: +34 639 92 24 07 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/guillermojfg #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Giousned
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Francés
+        level: Avanzado
+
+      - idiom: Inglés
+        level: Medio
+
+    # Interests or hobies
+    interests:
+      - item: Pádel
+
+      - item: Running
+
+      - item: Senderismo, Naturaleza, Rutas
+
+# Your previous education
+education:
+    - Postgraduate Degree: Ingeniería Ambiental y Procesos Sostenibles
+      University: Universidad Politécnica de Cartagena, (UPCT)
+      # optional
+      university_logo: https://www.upct.es/img/estructura/logo_upct.svg
+      time: 2016 - 2017
+      details: |
+        Nota Media: 9,13
+          - TFM: Eliminación de contaminantes de aguas mediante adsorción con biomasa vegetal químicamente activada
+
+    - Degree: Ingeniería Química
+      university: Universidad de Murcia, (UMU)
+      # optional
+      university_logo: https://www.um.es/o/um-lr-principal-um-home-theme/images/logo-um-peq.png
+      time: 2011 - 2016
+      details: |
+        Nota Media: 7,80
+          - TFG: Síntesis de espermaceti con lipasa lipozyme®CALB-L inmovilizada sobre purolite®ECR1090M
+    
+    - School & High School & College: Bachiller Científico y Francés
+      Colegio e Instituto: Liceo Francés André Malraux, Altorreal (Murcia)
+      university_logo: https://www.lfmurcie.org/wp-content/uploads/2020/04/lycee_blanco_web-murcia.png
+      time: 1995 - 2010
+      details: |
+        Selectividad Francesa: 8,17 & Selectividad Española: 10,551
+          - Baccalauréat: Mention Bien
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Químico a turno en el laboratorio
+      time: 2018 - Presente
+      company: Azor Ambiental S.A., Molina de Segura
+      # optional
+      company_logo: https://azorambiental.com/imagenes/logotipo.png
+      details: |
+        Análisis físico-químico del perdigón producido. Cotejado de las listas de contenidos con el perdigón producido.
+        Realización de certificados y albaranes previa toma de información del dpto. de Ventas, de Báscula y de Logística.
+        Toma de muestra y análisis de materiales internos. Control de la recepción y estudio de material y suministros de entrada
+         a proceso con la toma de muestra y análisis de materiales externos y diversos para su caracterización.
+        Análisis y control de: proceso y de las aleaciones hasta su lingotado; producción y el producto final.
+        Comprobación de las impurezas de los aleantes que se van a adicionar. Control del material y suministros del laboratorio.
+        Elaboración de las aleaciones según las instrucciones marcadas.
+        Elaboración de los informes de los análisis y de las aleaciones para posterior revisión por los superiores. Fichas de producción
+         de los productos. Revisión y analítica de muestras de nuevos materiales para su validación. Realizar la asignación de carga de
+         camiones según demanda (incluidoSAP).Emitir certificados de calidad de las cargas de producto terminado (lingote). Introducción en
+         el soporte informático y control estadístico de todos los resultados emitidos por el laboratorio. Transmisión de la información
+         necesaria para la elaboración de las aleaciones.
+        Control de la estabilidad de todos los equipos y de la correcta mediación de los mismos. Archivo e identificación de las muestras
+        analizadas y de su documentación. Preparación y calibración de los equipos de laboratorio. Correcta gestión de los residuos producidos
+         por el laboratorio.
+        Determinación de elementos químicos mediante Espectrometría de Emisión (OES) y también mediante Espectrómetro de Absorción Atómica de llama.
+        Determinación de aniones y cationes mediante Fotómetro Ultravioleta Visible. Diferentes ensayos y caracterización físico/química de diversos materiales.
+        Cualquier otra actividad asignada por mis superiores inmediatos, que requiera de mi apoyo.
+
+    - role: Chemical Assistant
+      time: 3 meses 2015
+      company: Repsol S.A., Cartagena
+      # optional
+      company_logo: https://www.repsol.com/content/dam/repsol-catalog/icons/logo.png.transform/rp-rendition-xs/image.png
+      details: |
+        Actualizar registros de discos ciegos (DDCC) de parada. Realizar hoja de seguimiento de: planes API de bombas;
+         alarmas de equipos dinámicos; drenajes producidos; permisos de trabajo. Actualizar registros de las ST abiertas o a abrir.
+        Gestionar mantenimiento de la planta. Realizar cuadrante de turnos de los operarios de combustibles y HDT. Buscar estaciones
+         de servicio para seguimiento. Controlar y mejorar sistemas de llenado de los botellones de lubricación.
+        Implantar sistema de control y seguimiento de las inspecciones a realizar. Revisar consumos eléctricos en matrices formato web.
+        Ayudar con implementación sistema LOTO (Lock Out Tag Out). Utilizar e interpretar los planos de las unidades de la refinería (P&IDS).
+
+    - role: Beca de Formación y Colaboración
+      time: 3 meses 2017
+      company: Servicios Universitarios UPCT, Cartagena
+      # optional
+      company_logo: https://www.upct.es/img/estructura/logo_upct.svg
+      details: |
+        Investigación y realización del trabajo fin de máster (TFM).
+        Eliminación de contaminantes de aguas mediante adsorción con biomasa vegetal químicamente activada.
+        Estudio de las posibilidades que presentan los cladodios de opuntia y los subproductos de alcachofa como bioadsorbentes de cadmio (II)
+         y aniones nitratos cuando estos se encuentran en bajas concentraciones en disolución acuosa.
+        Acondicionamiento de la biomasa vegetal. Activación química de la biomasa.
+        Realización de ensayos de bioadsorción en distintas condiciones, estudio de: influencia del pH; bioadsorción; naturaleza de los bioadsorbentes;
+         dosis de bioadsorbente; estudio cinético; isotermas de adsorción.
+        Modelización de los datos obtenidos y resultados. Establecimiento de conclusiones. Revisión bibliográfica.
+
+# Your project portfolio
+projects:
+    intro: >
+      Mi lista de proyectos y otras formaciones complementarias.
+    assignments:
+      - title: Instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Giousned/Instagram-Definitiva
+        tagline: "Instagram"
+
+      - title: Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Giousned/Proyect-Instagram-Post
+        tagline: "Proyecto Instagram Post"
+
+      - title: Formulario
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Giousned/Formulario-HTML-BootStrap
+        tagline: "Formulario en HTML con BootStrap"
+
+      - title: Formaciones Complementarias
+        tagline: 
+          - Trabajos de fabricación, producción y transformación del hierro, del acero y de los metales no férreos y primera transformación.
+          - Prevención de riesgos asociados a la exposición a agentes químicos corrosivos.
+          - Trabajos de control de calidad, verificación e inspección de materias en curso de fabricación y en productos terminados del sector.
+          - Normas básicas de seguridad, higiene y comportamiento en planta de refino.Salud y medio ambiente en una refinería.
+          - Riesgos de seguridad. Herramientas, cargas, EPIS y circulación.
+          - Curso Computer and Information Literacy (30 Horas, UPCT)
+          - Curso Certificación Energética de Edificios (60 Horas, UMU)
+          - JAVA, Python, HTML5, Técnico Contaminación, Instalaciones, Fotovoltaicas, Conducción Carretillas Elevadoras, COVID-19.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: M. Office 2016 & C++ & CE3X & Maxima
+        level: 98%
+
+      - name: Hysys & Chemcad & Microsoft VBA & COCO
+        level: 95%
+
+      - name: MiniTab & Dmelect & GNU Octave & CadeSimu & SuperPro-Designer®
+        level: 90%
