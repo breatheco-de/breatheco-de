@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    # Profile information
+    first_name: Julian
+    last_name: Prada
+    motto: Where there's cake, there better be cookies
+    avatar: https://avatars.githubusercontent.com/u/131833040?v=4
+    summary: |
+      Systems Engineer with 10 years of experience in Technology and Systems Audit, 
+      extensive knowledge in computer-assisted audit techniques and data analysis. 
+      Entrepreneur in the gastronomic sector for 3 years, with experience in management and 
+      administration of gastronomic establishments with knowledge of barista concepts and techniques.
+    
+    # Sidebar links
+    email: p8prada@gmail.com
+    phone: 786 612-2978
+    website: 
+    linkedin: p8prada
+    github: p8prada
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: intermediate
+
+    interests:
+      - item: Riding bike
+
+      - item: Cooking
+
+      - item: Play videogames
+
+education:
+
+    - degree: CULINARY ARTS CERTIFICATE
+      university: Mariano Moreno Culinary Institute, MIA, US
+      time: 2021 - 2023
+      details: |
+
+    - degree: BUSINESS CONTINUITY MANAGEMENT SYSTEM CERTIFICATE - LEAD AUDITOR - ISO:22301
+      university: Escuela Superior de Ciberseguridad, BOG, COL
+      time: 2018
+      details: |
+
+    - degree: INFORMATION SECURITY MANAGEMENT SYSTEM CERTIFICATE - INTERNAL AUDITOR - ISO:27001
+      university: SGS Colombia
+      time: 2014
+      details: |
+
+    - degree: ITIL FOUNDATIONS CERTIFICATE
+      university: APMG-International, BOG, COL
+      time: 2012
+      details: |
+
+    - degree: COBIT FOUNDATIONS CERTIFICATE
+      university: ISACA, BOG, COL
+      time: 2009
+      details: |
+
+    - degree: SYSTEMS ENGINEER
+      university: Pontificia Universidad Javeriana, BOG, COL
+      time: 2001 - 2008
+      details: |
+
+
+
+experiences:
+    - role: TIC AUDIT COORDINATOR
+      time: 2015 - 2018
+      company: Corbeta S.A. / Alkosto S.A., BOG, COL
+      details: |
+          Plan and execute security audits, interfaces, computer centers, 
+          risk assessment and technological controls of information systems, 
+          plans continuity and DRP, project methodology, information security 
+          and segregation of functions. Implementation and execution of audit 
+          tests assisted by computer (TAAC), by means of automatic scripts 
+          developed in “ACLs”.
+
+    - role: SENIOR ANALYST
+      time: 2014
+      company: Deceval S.A., BOG, COL
+      details: |
+          Planning and perform fraud risk identification procedures, aimed at 
+          evaluating fraud prevention controls in processes and technological tools, 
+          supporting policies and procedures for the mitigation of operational 
+          risk focused on electronic, documentary, human fraud, and asset embezzlement.
+
+    - role: OPERATIONAL AND SYSTEMS AUDIT PROFESSIONAL
+      time: 2010 - 2014
+      company: GNB Sudameris Bank, BOG, COL
+      details: |
+          Planning and perform audit procedures aimed at evaluating process and 
+          technological controls. Evaluation methodologies based on the Cobit and 
+          ITIL models. Assessment of compliance with the Internal Control System.
+          
+    - role: AUDIT ASSINSTANT
+      time: 2010 - 2014
+      company: KPMG Ltda. / KPMG Advisory Services Ltda., BOG, COL
+      details: |
+          Evaluation of general information controls, internal control of information technology
+          information and automatic controls that mitigate risks related to the issuance of
+          financial statements.
+
+skills:
+      - name: Adaptability
+        level: 70%
+
+      - name: Accuracy
+        level: 100%
+      
+      - name: Innovation
+        level: 100%
+
+      - name: Honesty
+        level: 100%
+
+      - name: Analytical
+        level: 100%
+
+      - name: Quality
+        level: 100%
+  
