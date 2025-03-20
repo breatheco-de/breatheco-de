@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joaquín
+    last_name: Díaz
+    
+    # Define yourself in 4-5 words
+    motto:  Music, Retro-Games, Electronics and Software
+    
+    # focus
+    focus: Perpetual Change
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a professional Technician in electronics. I worked like 4 months in the area and i realized that i
+      wasn't good at manual works, so i changed my area to web development. I'm now coursing that carreer in 4Geeks.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQFOzB4o-beMPQ/profile-displayphoto-shrink_200_200/0/1588988809254?e=1645056000&v=beta&t=SvlxXbaNlNjINS6ZIR3XWS1kGC0mxD-qTVQGqNA8Dng
+
+    # Contact Information
+    email: joaquin.diaz17@inacap.cl #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    linkedin: joaquin-diaz-alvarez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: joaquindiazalvarez
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      #- idiom: Spanish
+      #  level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music-Production
+
+      - item: Synth DIY
+      
+      - item: Literature
+
+      - item: Retro-Games
+
+      - item: Electronics
+
+      - item: Informatics
+
+# Your previous education
+education:
+    - degree: Professional Technician in Electronics
+      university: Inacap
+      # optional
+      university_logo: https://www.learnchile.cl/wp-content/uploads/2019/05/logo-inacap.jpg
+      time: 2019 - 2021
+      details: 
+        Analogic and digital electronics knoledge. Microcontroller programming in multiple plataforms 
+        like Arduino, PIC and Raspberry PI. 
+        2-months practice in an musical electronic store(Kowka). There i focused on analogic guitar pedals
+        building, and also i researched about digital potentiometers.      
+    - degree: Sound engineering(Incomplete)
+      university: Arcos
+      # optional
+      #university_logo: 
+      time: 2017 - 2018
+      details: |
+        I learned sound physics and softwares Pro Tools and Ableton Live. I published music that can be 
+        found in Spitify by: Proyecto Géminis. And in youtube channel: Joaquín Díaz or by the of Sheynge
+# Your previous job experiences or voluntier
+experiences:
+    - role: Practicing
+      time: 2021 - 2021
+      company: Kowka
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       
+    - role: Technical service
+      time: 2021 - 2021
+      company: Microkits.cl
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Arduino drum machine
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#hook"
+        tagline: "Designed an arduino drum machine by myself, before university knoledges"
+
+      - title: Modular Synthesizer
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        tagline: "Builded a 9-volt Artesanal modular synthesizer, featuring oscillator and filter"
+
+      - title: Animal-scare
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        tagline: "An Arduino project for the university carreer"
+
+    skills:
+    toolset:
+      - name: Arduino
+        level: 80%
+
+      - name: Python
+        level: 80%
+
+      - name: C
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: Bootstrap
+        level: 30%
+
