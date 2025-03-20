@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bryan
+    last_name: Alburquenque
+    
+    # Define yourself in 4-5 words
+    motto: Athlete body mind and soul
+    
+    # focus
+    focus: Be better than yesterday
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Industrial civil engineer oriented to the IT
+      area graduated from Adolfo Ibáñez
+      University in 2020. Experience in the area
+      of research for the pharmaceutical and
+      FSN sector, and in the sales area for the
+      telecommunications and automotive
+      market. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/foto_formal_sonrisa.jpg
+
+    # Contact Information
+    email: alburquenque.letelier@gmail.com  
+    phone: 979577547
+    linkedin: https://www.linkedin.com/in/alburquenque-letelier/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alburquenqueletelier
+    
+    stack-overflow: 17378700/Baal
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Calistenics
+
+      - item: Football
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: Industrial civil engineer
+      university: University Adolfo Ibáñez
+      # optional
+      university_logo: https://www.uai.cl/assets/uploads/2018/09/logo-uai.png
+      time: 2014 - 2020
+      details: |
+        Industrial civil engineer with information technology mention. Strong development of soft skills and software engineering concepts. Business intelligence applying data mining for decision making. In my thesis I developed a desktop program using Python and R that allowed to automate the processes of transformation and standardization of data, automation of calculations and reporting of the values together with the errors obtained for future improvements.
+# Your previous job experiences or voluntier
+experiences:
+    - role: After Sales Executive
+      time: 2022 - Present
+      company: Didi Food, Chile
+      # optional
+      company_logo: https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/c2/e9/21/c2e9217b-92a9-4cef-3c40-24c1bcbacaa4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png
+      details: |
+        Executive of small food chains, in charge of providing support to customers and commercial advice to increase sales.
+    - role: Sales Executive
+      time: 2021 - 2021
+      company: VTR, Chile
+      # optional
+      company_logo: 
+      details: |
+        Telecommunications services sales executive (Internet, telephony, TV) in charge of creating and managing own client portfolio, monitoring product status and providing personalized attention.
+# Your project portfolio
+projects:
+    intro: >
+      Some works from degree project, through cs50w course to 4GeeksAcademy bootcamp
+    assignments:
+      - title: Tesis para obtar al grado de ingeniero civil industrial - Automatización de optimización
+        link: "https://github.com/alburquenqueletelier/tesis-automatizacion-optimizacion"
+        tagline: "Aplicación de escritorio en Python que se comunica con R, que cumple con las tareas de estandarizar la data, procesar los calculos de optimización de forma automática para el set de datos y generar un informe con los valores junto con errores obtenidos"
+
+      - title: Final Project CS50W FitApp - CaliRoad
+        link: "https://github.com/alburquenqueletelier/FitApp-Final-Project-CS50W"
+        tagline: "Aplicación web para almacenar datos de entrenamientos, generar rutinas y comparar resultados"
+
+      - title: Generador de dominios
+        link: "https://github.com/alburquenqueletelier/Generador_Dominios_4Geeks"
+        tagline: "Pagina web que imprime en consola toda las combinaciones posibles según el conjunto de data definido"
+
+skills:
+    toolset:
+      - name: Python & Django
+
+      - name: Javascript
+
+      - name: React
+
+      - name: HTML5 & CSS
+
+      - name: Data Science Python & R & rpy2
+
+      - name: Docker
+
+      - name: CI/CD
+
+      - name: Unitest & Selenium
