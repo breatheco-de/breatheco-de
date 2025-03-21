@@ -1,0 +1,74 @@
+
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+
+    
+    first_name: Antonio 
+    last_name: Aninat
+
+   
+    motto: Full Stack Developer
+
+    
+    summary: |
+     Apasionado por el trabajado en equipo en entornos desafiantes y enamorado de los cambios y beneficios que se pueden obtener a través de la tecnología.
+
+    github: Aaninat
+
+    
+   
+    languages:
+      - idiom: Ingles
+        level: c2
+
+      - idiom: Español
+        level: nativo
+
+
+    
+    interests:
+      - item: tecnologia
+
+      - item: deportes
+
+      - item: fotografía
+
+
+education:
+    - degree: Full stack developer
+      university: 4Geeks Academy 
+      time: 2023-2023
+
+    - degree: Marketing
+      university: EAE Business School
+      time: 2020-2021
+      
+    - degree: Ingeniero Comercial
+      university: Universidad del Desarrollo
+      time: 2010-2016
+  
+experiences:
+
+projects:
+    assignments:
+      - title: 
+        tagline: "Final JAP project. A responsive ecommerce"
+      - title: 
+        tagline: "Weather App with js."
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 70%
