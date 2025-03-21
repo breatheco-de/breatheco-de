@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bruno  
+    last_name: Morais
+    
+    # Define yourself in 4-5 words
+    motto: To dare is to do
+    
+    # focus
+    focus: Efficiency in Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Born and raised in Lisbon, Portugal. Sport is a big part of my life. Helped to get the confidance and have a purpose. 
+      I persued the carrer as a coach and a teacher... it was quite a good one, and it is still going. 
+      But there was always something in the back of my mind, the future and the love for the digital world.
+      Now it is time to learn and make it happen.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://postimg.cc/nCKcrhtL
+
+    # Contact Information
+    email: brunomafonsomorais@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/brunomorais17/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Bruno-Morais7
+    
+    twitter: '@bmscpm17' #optional
+    stack-overflow: 24171663/bruno-morais # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Padel
+
+      - item: Voleyball
+
+      - item: Gamming
+
+# Your previous education
+education:
+    - degree: Master's in Physical Education in Basic and Secondary Cycles
+      university: Faculty of Human Kinetics - University of Lisbon
+      # optional
+      university_logo: http://www.fmh.ulisboa.pt/templates/fmh2015/images/fmh-short.png
+      time: 2013 - 2016
+      details: |
+        Development of knowledge and skills within the scope of planning, conducting and evaluating the teaching-learning process in Physical Education.
+          - Problem-solving
+          - Processes evaluation
+    - degree: Degree in Sports Science - Major in Physical Education Minor in Training sporty
+      university: Faculty of Human Kinetics - University of Lisbon
+      # optional
+      university_logo: http://www.fmh.ulisboa.pt/templates/fmh2015/images/fmh-short.png
+      time: 2007 - 2011
+      details: |
+        Development of knowledge and skills within the scope of planning, conducting and evaluating the teaching-learning process and sports training processes. 
+          - Training periodization
+          - Resilience
+# Your previous job experiences or voluntier
+experiences:
+    - role: Club assistant
+      time: 2017 - Present
+      company: Padel Campo Grande, Lisbon
+      # optional
+      company_logo: https://tiesports.s3.amazonaws.com/clubs/45034/logos/1850a793-0353-4914-8233-796543d90083.png
+      details: |
+        Development of tasks in all aspects related to the daily life of the club: Customer service; orders; stock management; invoicing; complaints management. 
+        School pedagogical coordinator. Athlete training program Development.
+          - Dynamism
+          - Versatility
+    - role: Coach
+      time: 2012 - Present
+      company: Padel Campo Grande, Lisbon, Portugal
+      # optional
+      company_logo: https://tiesports.s3.amazonaws.com/clubs/45034/logos/1850a793-0353-4914-8233-796543d90083.png
+      details: |
+        Planning and direction of training and game processes.
+          - Experience in leading sport teams
+          - Ability to transmit information/ideas
+    - role: Physical education teacher
+      time: 2014 - 2017
+      company: EBS Gama Barros, Sintra, Portugal
+      # optional
+      company_logo: http://esgamabarros.pt/gbarros/wp-content/uploads/2018/09/Logotipo-I.jpg
+      details: |
+        Planning and management of teaching-learning processes.
+          - Assessment of learning evolution
+          - Adjustment of learning processes
+# Your project portfolio
+projects:
+    intro: >
+      Projects developed with the aim of promoting learning and creativity.
+    assignments:
+      - title: Instagram photo feed
+        # optional
+        tagline: Responsive website used to promote the learning process of Bootstap.
+
+      - title: Excuse Generator
+        # optional
+        tagline: Randomly generate excuses using plain javascript and html.
+
+skills:
+    toolset:
+      - name: HTML, CSS & Bootstrap
+        level: 75%
+
+      - name: Javascript 
+        level: 50%
