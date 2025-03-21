@@ -1,0 +1,184 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Román Alcaide
+    
+    # Define yourself in 4-5 words
+    motto: Do less, but better
+    
+    # focus
+    focus: Learning full-stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+        I'm a translator turned cook turned copywriter turned fullstack developer in development. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: cromanalcaide@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  https://www.linkedin.com/in/cromanalcaide/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cromanalcaide
+    
+    twitter: '@gonzotheweird' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - language: Spanish
+        level: Native
+
+      - language: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Gaming
+
+      - item: Movies and series
+
+      - item: Photography
+
+# Your previous education
+education:
+    - degree: Full Stack developer
+      university: 4Geeks Academy Madrid
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - 
+          - 
+    - degree: Master's in Brand communication
+      university: EsDesign Barcelona
+      # optional
+      university_logo: https://www.esdesignbarcelona.com/themes/custom/esdesign/logo.png
+      time: 2017 - 2018
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+    - degree: Degree in Translation & Interpreting
+      university: Pablo de Olavide
+      # optional
+      university_logo: https://www.upo.es/cms1/export/sites/upo/comunicacion/imagenes/mic-upo-descargas/Marca-UPO-Horizontal.jpg
+      time: 2017 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Influencer Manager
+      time: 2020 - Present
+      company: LetyShops
+      # optional
+      company_logo: https://1000marcas.net/wp-content/uploads/2021/06/LetyShops-logo.png
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+
+    - role: Copywriter
+      time: 2019 - 2020
+      company: This is Odd
+      # optional
+      company_logo: https://instagram.fmad6-1.fna.fbcdn.net/v/t51.2885-19/275472730_1133798184046998_2602583125405684307_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fmad6-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=SV_V_w8aNJUAX8jtNWP&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT9-MgfRUWzLKXTlbTncPfE8r0HBolWtDMa55CDkdv_okQ&oe=62E687BE&_nc_sid=8fd12b
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+    - role: Copywriter
+      time: 2017 - 2019
+      company: Bold Brand Builders
+      # optional
+      company_logo: https://bold.bz/wp-content/uploads/2020/10/logo_bold.png
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+          
+# Your project portfolio
+projects:
+    intro: >
+      At the start of my travel into codding, here are my firsts projects
+    assignments:
+      - title: Instagram Post
+        # optional
+        project_logo: 
+        link: "work in progress"
+        tagline: "work in progress"
+
+      - title: Instagram (Grid and Feed)
+        # optional
+        project_logo: 
+        link: "work in progress"
+        tagline: "work in progress"
+
+      - title: Excuse Generator
+        # optional
+        project_logo: 
+        link: "work in progress"
+        tagline: "work in progress"
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: Bootstrap5
+        level: 75%
