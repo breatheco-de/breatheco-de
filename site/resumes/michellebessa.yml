@@ -1,0 +1,106 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Michelle
+    last_name: Bessa dos Santos
+    
+    motto: Aware, funny, perfectionist, disciplined and calm.
+    
+    focus: Become a Sofware Engineer.
+    
+    summary: Civil Engineering and Environmental Engineering background, with a couple of years of experience and a zest for solving complex problems, which is why I am now in the software/coding field.
+    
+    avatar: https://avatars.githubusercontent.com/u/110417316?v=4
+
+    email: michellebessa12@gmail.com
+    linkedin: www.linkedin.com/in/michelle-bessa-dos-santos-9b696724a
+    
+    github: michellebessa
+    
+    twitter: mika_bessa 
+
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: intermediate
+
+    Hobbies:
+      - item: Hiking
+
+      - item: Snowboarding
+
+      - item: Guitar playing
+
+    Education:
+
+    - degree: Environmental Sciences - Associate in Arts
+      university: Miami Dade College
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Jan 2020 - May 2022
+      details: |
+        I was studying Associate of Arts with a path to Associate of Sciences in Environmental Engineering. Classes taken: College Algebra, Psychology of Personal Effectiveness, English Composition, Calculus and Analytical Geometry 1, Music Appreciation, History of the United States since 1877, General Chemistry, Chemistry in the Laboratory, among others.
+
+    - degree: Bulding Construction - Technician
+      university: FAM - Faculdade das Americas (Sao Paulo - Brazil)
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: January 2018 - March 2018
+      details: |
+        For personal reasons, I had to quit Civil Engineering. But my passion for construction was so big I looked for scholarships and got one in a Technician degree for Building construction. My classes were Physics, Algebra, Technical Drawing and Principles of Building Construction. Soon after I started, I moved to Miami and quit the course.
+
+    - degree: Civil Engineering - Bachelor
+      university: FMU - Faculdades Metropolinas Unidas (Sao Paulo - Brazil)
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Jan 2017 - June 2017
+      details: |
+        I studied Civil Enginnering for 1 semester, which is equivalent to 6 months in Brazil. That was the first time I had experience with coding, because one of my classes was "computer programming", and I learned C++. I had other classes like Chemistry, Algebra and Analitic Geometry, and Introduction to Engineering.
+
+
+projects:
+    intro: >
+      Projects listed here were completed at 4Geeks Academy.
+
+    assignments:
+      - title: Instagram Post
+        project_logo: https://github.com/breatheco-de/exercise-instagram-post/blob/master/preview.png?raw=true
+        link: https://github.com/michellebessa/instagrampost
+        tagline: Use of HTML and CSS to replicate an Instagram post with its contents, such as 'like', 'comment' and 'share' buttons, description, ellipsis menu bar, photo content, etc.
+
+      - title: Instagram Photo Feed
+        project_logo: https://github.com/breatheco-de/exercise-instagram-feed/blob/master/strategy.png?raw=true
+        link: https://github.com/michellebessa/Instagram
+        tagline: Use of HTML and CSS to replicate an Instagram Photo Feed, with 3 different pictures and its contents.
+
+      - title: Instagram Photo Feed with Bootstrap
+        project_logo: https://github.com/breatheco-de/exercise-instagram-feed-bootstrap/blob/master/assets/preview.gif?raw=true
+        link: https://github.com/michellebessa/instagramphotofeed-bootstrap/blob/main/index.html
+        tagline: In this project, I was introduced to Bootstrap. I created an Instagram Photo Feed using only Bootstrap commands with CSS and JavaScript styles, such as dropdown buttons, modal window and grid views. In the Photo Feed I displayed two grid views, one with all 6 photos side by side (2 horizontal rows displaying 3 pictures each) and another grid with all 6 photos displayed vertically in a single column.
+
+      - title: Coding an Excuse Generator with Javascript 
+        project_logo: https://github.com/breatheco-de/tutorial-project-excuse-generator-javascript/blob/master/explanation.gif?raw=true
+        link: https://3000-michellebes-excusegener-2wikxwpj4cw.ws-us63.gitpod.io
+        tagline: For this project, I built funtions with Javascript to create an Excuse Generator, in which every time that I refresh the broswer page, a random excuse about my homework is displayed. So the excuses are generated, I applied a function that creates random numbers and connected these functions to the index linked to each part of the phrase that was being generated (such as who, what, when, etc).
+
+skills:
+    toolset:
+      - name: HTML
+        level: 85%
+
+      - name: CSS
+        level: 85%
+
+      - name: Javascript
+        level: 70%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: Command Line
+        level: 45%
+
