@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Elias
+    last_name: Bermudez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender tranquilamente.
+    
+    # focus
+    focus: Trabajar en el area IT
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Estudiante de programación y testing. Flexibilidad, capacidad de análisis, planificación y
+      disposición a la hora de resolver conflictos.
+      Atento y con ganas de desarrollar aún más mis habilidades en campo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/111017751?s=400&u=e3fc0bce3074f1f7c6b2b0a4e9e992dcaee78829&v=4
+
+    # Contact Information
+    email: eliasbermudez13@hotmail.com #optional
+    linkedin: https://www.linkedin.com/in/elias-bermudez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: EliasBermudez13
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: High intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Futbol
+
+      - item: Gaming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Tester JR
+      university: Jóvenes a Programar “Álvaro Lamé” (JaP). Ceibal
+      # optional
+      university_logo: https://jovenesaprogramar.edu.uy/storage/app/media/logo-jap-2022.svg
+      time: 2022 - 2023
+      details: |
+        Principales componentes: Testing, competencias transversales e inglés.
+# Your previous job experiences or voluntier
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+    assignments:
+      - title: TrackGenix Jr.
+        # optional
+        link: "https://github.com/EliasBermudez13/BaSP-A2022-Etapa-1"
+        tagline: "This is a web app made to facilitate work organization in a I.T. company."
+
+      - title: Wdio automated tests
+        # optional
+        link: "https://github.com/EliasBermudez13/Week-14"
+        tagline: "Automated tests for all users Login e2e in https://www.saucedemo.com/ maded with Webdriver.IO and using Jazmine as Framework."
+
+      - title: HTML5-Boostrap-Form
+        # optional
+        link: "https://github.com/EliasBermudez13/HTML5-Boostrap-Form"
+        tagline: "This is a project maded in study group in 4Geeks academy"
+
+      - title: Instagram-Photo-Feed-with-Bootstrap
+        link: "https://github.com/EliasBermudez13/Instagram-Photo-Feed-with-Bootstrap"
+        tagline: "This is a project maded in study group in 4Geeks academy"
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
+      - name: Javascript & node.js & express.js
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: JMeter & Wdio
+        level: 40%
