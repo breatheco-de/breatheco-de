@@ -1,0 +1,93 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Adriano
+  last_name: Maximiano
+  motto: I like make the life easier
+  focus: Nerd stuff
+  summary: I have a broad range of experience in technical support, customer
+    service, and IT, working in different fields like Helpdesk and graphic
+    design. I am skilled at adapting to new environments and learning new skills
+    quickly. I am Portuguese speaker and fluent English, and I have great
+    communication skills. Currently, I am focusing on learning programming and
+    various programming languages to push my career and follow my dream job.
+  avatar: https://media.licdn.com/dms/image/D4D03AQFOvBWy3pzlEg/profile-displayphoto-shrink_800_800/0/1683404915837?e=1690416000&v=beta&t=tyssQ5xBE8PaiPpOla_6phMeFpuw0f9OomhzrpKFVj4
+  email: adriano-sm@hotmail.com
+  phone: +351 937 455 123
+  linkedin: https://www.linkedin.com/in/adriano-maximiano-60ab59271/
+  github: https://github.com/Xomano
+  languages:
+    - idiom: Portuguese
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Travel
+    - item: Gaming
+    - item: Music
+education:
+  - degree: Analysis and systems development
+    university: Descomplica
+    university_logo: https://play-lh.googleusercontent.com/OINvlzwM86Wv7zUEbNr9b2ki6M0-qDvnpCTwRqsCP68sFUJ5oe0-7mVvyM32OFHymz4
+    time: 2023 - Loading
+    details: |
+      - BI and Big Data Architecture
+      - Creation of Applications and Systems
+      - Software Development Methodologies
+      - Development of Artificial Intelligence Algorithms
+      - Development of Database Applications
+experiences:
+  - role: Tecnical support
+    time: 2022 - 2023
+    company: Randstad, Portugal
+    company_logo: https://www.randstad.pt/themes/custom/bluex/src/assets/img/logo-bluex.png
+    details: |
+      •	Provided technical support for mobile devices using company procedures
+      •	Assisted clients with software and user account issues
+      •	Trained to handle payment and refund inquiries
+  - role: Housekeeper
+    time: 2018 - 2021
+    company: Viva Ireland, Ireland
+    company_logo: https://www.vivaireland.com/wp-content/uploads/2021/02/logo-vivaireland-526X265.png
+    details: >
+      •	Maintained the quality of accommodations to meet company standards
+
+      •	Created and managed service tickets from the beginning till their resolution
+
+      •	Handled customer inquiries related to housing and accommodation issues
+
+      •	Helping customer with their firt days in ireland, how to locate, shopping, transport, etc
+projects:
+  intro: >
+    In programming I have developed some projects in solo also colaboration
+    on github. Here some of then that I believe shows my skills on programming
+    and knowledge. I recommend you to check them out on my github if you are
+    interested.
+  assignments:
+    - title: Excuse Generator
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/4GeeksAcademy/Xomano-ExcuseGenerator-JS
+      tagline:
+        Simple project to generate a excuse phrase, the project i used HTML,
+        CSS and JS
+    - title: Simple landing page
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/4GeeksAcademy/exercise-collaborative-bjorkrothjm
+      tagline:
+        A responsive website template designed in colaboration. It was created
+        using HTML, CSS (Bootstrap).
+skills:
+  toolset:
+    - name: HTML
+      level: 80%
+    - name: CSS
+      level: 60%
+    - name: Java Script
+      level: 40%
+    - name: C
+      level: 35%
+    - name: Problem-solving
+      level: 85%
+    - name: HelpDesk
+      level: 70%
