@@ -1,0 +1,194 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Carolina
+    last_name: Hora
+    
+    motto: Never Stop Trying
+    
+    focus: To become a better version of myself
+    
+    summary: |
+      I am 33 years old, I have a MSc in Chemical Engineering and I've recently 
+      finished my PhD degree in Chemical and Biological Engineering, at the UPorto.
+      In 2015, I started my research career at Biomark Sensor Research, then I joined LEPABE-FEUP, 
+      in 2017,  after receiving a doctoral scholarship.
+      Since 2022, I've been employed at Pixel Voltaic, a spin-off company from UPorto, 
+      where I'm involved in the R&D, but also as Work Package Leader in Pixel's participation 
+      in European projects. Lately, I've been doing websites using WordPress and I've 
+      discovered my real love with web developing.
+
+     # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/121583492?v=4
+
+
+    # Contact Information
+    email: carolina22hora@gmail.com 
+    phone: +351 933 584 130 
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/carolina-pereira-253765269/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Carolina-hora
+    
+    stack-overflow: 21373883/carolina-hora
+     
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Tennis
+
+      - item: Books
+
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: PhD in Chemical and Biological Engineering
+      university: Faculty of Engineering of the University of Porto
+     
+      university_logo: http://www.sighabitat.pt/files/entidades/101_1.png
+      time: 2017-2023
+      details: |
+        PhD Thesis: “Development of dye sensitized solar cells for synergistically hosting cancer biosensors”. 
+        Knowledge acquired: 
+        - solar cells characterization
+        - material characterization
+        - UV-Vis spectrophotometry 
+        - raman spectroscopy 
+        - critical thinking
+
+    - degree: MSc in Chemical Engineering
+      university: Faculty of Engineering of the University of Porto
+      
+      university_logo: http://www.sighabitat.pt/files/entidades/101_1.png
+      time: 2008-2013
+      details: |
+        Ms Thesis: “Development of multi-vesiculated particles for the production of low density panels”, in collaboration with 
+        EuroResinas from Sonae Industry. Modules included: 
+        - Separation Processes
+        - Reaction Engineering
+        - Elements of Industrial Management 
+        - Gaseous Emissions Control and Management
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: R&D Engineer
+      time: 2022 - Present
+      company: Pixel Voltaic
+      company_logo: https://pixelvoltaic.com/wp-content/uploads/2022/01/cropped-logo2-1.png
+      details: |
+        Supports the development of a new laser machine to aid the hermetic encapsulation of solar cells. 
+        Involved in the 112CO2 project and the upcoming EU Diamond Project as Pixel Voltaic representative.
+        Other functions: 
+        - Web developer (WordPress) 
+        - Supplier manager
+        - Social media manager
+
+    - role: Research Fellow
+      time: 2017 - 2022
+      company: LEPABE-FEUP
+      company_logo: https://www.lepabe.fe.up.pt/images/lepabe2013-logo-branco.png?crc=172116605
+      details: |
+        Research activities concerning the development and optimization of dye-sensitized solar cells 
+        to integrate in buildings (Project Building Integrated Dye Sensitized Solar Cells)
+        Other functions: 
+        - Supplier manager, including stock inventory and privy to purchasing
+
+    - role: Research Fellow
+      time: 2017 - 2022
+      company: Biomark Sensor Research
+      company_logo: https://www.biomark.isep.ipp.pt/wp-content/uploads/2016/07/logo-biomark-novo-e1467380057780.png
+      details: |
+        Research activities concerning the development of dye-sensitized solar cells to synergistically power biosensors
+        Other functions: 
+        - web developer (WordPress)
+
+# Your project portfolio
+projects:
+    intro: >
+      This is the list of the projects I did while frequenting the Full Stack developer course at 4geeks Academy.
+      At the bottom are the websites I created using WordPress.
+
+    assignments:
+
+      - title: Bootstrap & HTML5 forms
+        project_url: https://github.com/Carolina-hora/HTML_forms_Bootstrap
+        tagline: "Making and styling a form using HTML5 and Bootstrap"
+
+      - title: Bootstrap & Instagram Project
+        project_url: https://github.com/Carolina-hora/Bootstrap_Project
+        tagline: "Emulating Instagram, with two types of visualizations (3x3 grid and feed) with HTML5 and Bootstrap"
+
+      - title: Instagram Post
+        project_url: https://github.com/Carolina-hora/Instragram_Post
+        tagline: "Emulating Instagram post with HTML5 and CSS, using mainly display: flex to position objects"
+      
+      - title: Excuse generator
+        project_url: https://github.com/Carolina-hora/Excuse_generator_project
+        tagline: "Excuse Generator project using Javascript"
+
+      - title: Instagram Feed
+        project_url: https://github.com/Carolina-hora/Insta-Project
+        tagline: "Emulating Instagram feed with HTML5 and CSS"
+
+      - title: Postcard
+        project_url: https://github.com/Carolina-hora/Postcard-Project
+        tagline: "A simple postcard with HTML5 and CSS"
+
+      - title: Website for EU Project
+        project_url: https://diamond-horizon.eu/
+        link: https://diamond-horizon.eu/
+        tagline: "Creation of a fully working WP website"    
+
+      - title: Website for my company
+        project_url: https://pixelvoltaic.com/
+        link: https://pixelvoltaic.com/
+        tagline: "Creation of a fully working WP website" 
+
+      - title: Website for an international conference
+        project_url: https://solar-power-tech.com/
+        link: https://solar-power-tech.com/
+        tagline: "Web designing and some web developing in collaboration with main developer" 
+        
+      - title: Website for a research group
+        project_url: https://www.biomark.isep.ipp.pt/pt/home/
+        link: https://www.biomark.isep.ipp.pt/pt/home/
+        tagline: "Creation of a fully working WP website during my stay at Biomark (left in 2017)" 
+
+
+skills:
+    toolset:
+      - name: ReactJS 
+        level:
+    
+      - name: Python 
+        level:
+
+      - name: Javascript & jQuery
+        level: 
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: WordPress
+        level: 95%
+
+
+
