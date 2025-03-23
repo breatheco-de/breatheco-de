@@ -1,0 +1,193 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cathryn 
+    last_name: Roberts
+    
+    # Define yourself in 4-5 words
+    motto: monokerōs 
+    
+    # focus
+    focus: boss-notch inventions
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      thing-maker of internet stuff & hopeful taker of the world by storm
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/229614376_10219393759210100_84388862942336468_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AqL_G82yV4IAX-nnDyk&_nc_ht=scontent-mia3-2.xx&oh=00_AfCST9n77wLMFg0YAaCyYy_gP1qkFFUNoGTSVnOQ42DkTA&oe=643F3B94
+
+    # Contact Information
+    email: cathryn.roberts001@gmail.com #optional
+    phone: (781)484-8522 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/cathryn-roberts/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CRob001
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Badly
+
+      - idiom:
+        level:
+
+    # Interests or hobbies
+    interests:
+      - item: Building web tools
+
+      - item: Traveling
+
+      - item: Thinking about the universe
+
+# Your previous education
+education:
+    - degree: Bachelor's English & Theater Arts, with a Spanish minor
+      university: University of Massachusetts Boston
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/University_of_Massachusetts_Boston_logo.svg/1200px-University_of_Massachusetts_Boston_logo.svg.png
+      time: 2010 - 2014
+      details: |
+        Graduated Summa cum Laude on a full academic scholarship (Chancellor's Scholarship)
+        Awarded the Louise E. Roberts Prize for excellence in performing arts, and Francis Russel Hart Grant for mentoring
+        Studied abroad in Ireland, the UK, South Africa, and learned about sustainable agriculture in Puerto Rico
+        2015 winner of New Voices New Stories Playwriting Contest
+
+    - degree: Full Stack Development Bootcamp
+      university: 4 Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      details: |
+        Full Stack Software Developer
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Web Content Writer
+      time: 2015 - 2016
+      company: TripAdvisor
+      # optional
+      company_logo: https://www.motherdesign.com/wp-content/uploads/TripadvisorxMotherDesign_07.jpg
+      details: |
+          - Designed and implemented content templates to boost website SEO value
+          - Collaborated with IT department to integrate content migration to updated web hosting platform
+
+    - role: Content Creator
+      time: 2016 - 2016
+      company: Citizens Bank
+      # optional
+      company_logo: https://logodownload.org/wp-content/uploads/2021/03/citizens-logo.png
+      details: |
+          - Utilized marketing analytics services to develop data-driven multimedia digital content strategy
+          - Devised and applied dedicated research strategy to ideate and create relevant content to inform and guide customer decisions
+
+    - role: Fulbright ETA Fellow
+      time: 2016 - 2017
+      company: Fulbright
+      # optional
+      company_logo: https://cfa.fsu.edu/wp-content/uploads/2019/06/fulbright-logo_0.png
+      details: |
+          - Conducted international research on education while acting as a spoken English teacher for 200+ ESL stuents
+          - Acted as an unofficial American ambassador while completing Fulbright Grant responsibilities
+          - Guided incoming Fulbright Scholars by speaking on training panels in Washington D.C. upon return to the USA  
+
+    - role: Owner/Product Manager
+      time: 2017 - 2021
+      company: TourToh
+      # optional
+      company_logo: https://i.pinimg.com/280x280_RS/61/86/00/61860011d100cd8d24cc8e765cc9cf02.jpg
+      details: |
+          - Managed company operations, strategy, and direction
+          - Defined and communicated product vision, scope, and roadmap across interdisciplinary teams 
+          - Conducted product research to guide and implement UI/UX design, and stayed informed about the framework activities, APIs, and other backend operations  
+          - Crafted unique user interface and miscellaneous company design elements to establish the visual identity of the overall brand and product
+
+    - role: Business Analyst 
+      time: 2021 - 2022
+      company: Waste Management
+      # optional
+      company_logo: https://sunny.fm/wp-content/uploads/2017/07/logo-waste-management-color.png
+      details: |
+          - Utilized agile scrum methodology to maintain precise deliverables within large-scale, cross-functional collaborative efforts 
+          - Analyzed data sets to forecast improvements for organizational efficiencies and implement strategies to improve performance 
+          - Implemented data analysis to guide IT functions for business-critical applications through designated user stories  
+
+    - role: Content Director
+      time: 2022 - 2023
+      company: LiFT Digital Media
+      # optional
+      company_logo: https://res.cloudinary.com/zenbusiness/q_auto/v1/logaster/logaster-2019-02-h-digital-media-logo-14.png
+      details: |
+          - Devised and implemented campaigns and strategies of original and relevant multimedia content to pursue engagement and conversions in target audience segments 
+          - Managed the creation and timely distribution of all media content across multiple platforms within the company's digital ecosystem  
+          - Leveraged marketing data to define and track strategic goals through target KPIs 
+
+
+# Your project portfolio
+projects:
+    intro: >
+     Here you can find a summary of my projects done in 4Geeks Academy in my first 3 weeks of Bootcamp.
+    assignments:
+      - title: Postcard
+        link: "#https://github.com/CRob001/Postcard.git"
+        tagline: "A Simple Postcard"
+
+      - title: Basic Instagram Feed
+        link: "#https://github.com/CRob001/Instagram-Feed-Practice-Project.git"
+        tagline: "A Basic Instagram Feed"
+
+      - title: Bootstrap Instagram Feed
+        link: "#https://github.com/CRob001/Bootsrap-Instagram-Feed-Practice-Project.git"
+        tagline: "Instagram Feed Built with Bootstrap"
+
+      - title: Excuse Generator
+        link: "#https://github.com/CRob001/tutorial-project-excuse-generator-javascript.git"
+        tagline: "Generate Excuses Randomly"
+
+      - title: Domain Name Generator
+        link: "#https://github.com/CRob001/Domain-Name-Generator-Practice-Assignment.git"
+        tagline: "Generate Domain Names"
+
+      - title: Conditional Card
+        link: "#https://github.com/CRob001/Conditional-Card-Project-.git"
+        tagline: "Card with Conditions"
+
+      - title: Random Card Generator
+        link: "#https://github.com/CRob001/Random-Card-Generator.git"
+        tagline: "Randomly Generate Playing Cards"
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: NA
+      
+      - name: Python/Flask
+        level: NA
+
+      - name: HTML5 & CSS
+        level: 95%
