@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+Información Personal:
+
+    # Your full name
+    Nombre: Keilyn
+    Apellido: Mora
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    Resumen: |
+      Técnico Superior en Infraestructura y Telecomunicaciones con experiencia en administración
+      de redes y servidores. Conocimiento en Cisco sobre instalación, operación y mantenimiento de
+      equipos. Manejo de un segundo idioma y herramientas ofimáticas. Con atención al detalle,
+      servicio al cliente y pensamiento crítico. Además de conocimientos básicos en programación.
+    
+
+    # Contact Information
+    Correo: keilynpaolamora@gmail.com #optional
+    Celular: 506 8385 3271 #optional
+    
+    #
+    # * IMPORTANT **
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kei3108
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    Idiomas:
+      - idioma: Spanish
+        nivel: Nativo
+
+      - idioma: English
+        nivel: B1
+
+    # Interests or hobies
+    Intereses:
+      - Ver Series y Peliculas
+
+      - Cocinar
+
+      - Aprender nuevas cosas
+
+# Your previous education
+Educación:
+    - Grado: Tecnico En Infraestructura y Telecomunicaciones
+      Universidad: Universidad Cenfotec
+      # optional
+      Tiempo: 2018 - 2019
+    - Grado: Bachiller en Educación Media
+      Colergio: Colegio Rincon Grande de Pavas
+      # optional
+      Tiempo: 2013 - 2017
+      
+# Your previous job experiences or voluntier
+Experiences:
+    - Diciembre 2017 - Enero 2020. Dependiente, Tiendas El Parque
+        • Atención y asesoramiento a los clientes.
+        • Venta y cobro de productos.
+        • Organización de inventarios.
+        • Dar un buen servicio y resolver dudas.
+
+# Your Certifications
+Formación complementaria:
+    - Título: Habilidades Socioemocionales para el trabajo e Inglés
+    Empresa: Skill For Life
+    Año: 2022
+  - Título: Especialista bilingüe en Soporte de Tecnologías
+    Empresa: Coursera
+    Año: 2022
+  - Título: Especialista bilingüe en Soporte de Tecnologías
+    Empresa: Coursera
+    Año: 2022
+  - Título: Especialista bilingüe en Soporte de Tecnologías
+    Empresa: Coursera
+    Año: 2021
+  - Título: Habilidades para la Vida y los Trabajos del Siglo XXI
+    Empresa: Micitt-Fundación Monge-Intel
+    Año: 2021
+  - Título: Mujeres en STEAM
+    Empresa: Micitt-Fundación Monge-Intel
+    Año: 2021
+  - Título: Infraestructura TI
+    Empresa: Real Alta Academia
+    Año: 2021
+  - Título: Inglés
+    Empresa: Idioma Internacional
+    Año: 2021
+  - Título: Cisco (CCNA1, CCNA2, CCNA3, CCNA4)
+    Empresa: Universidad Cenfotec
+    Año: 2019
+  - Título: Servicio al Cliente
+    Empresa: Instituto Nacional de Aprendizaje
+    Año: 2016
+
+# Your Skills
+      Skills:
+          Manejo de herramientas ofimáticas
+          Conocimiento en protocolos de enrutamiento
+          Gestión de equipo
+          Trabajo en equipos
+          Orientación al cliente
