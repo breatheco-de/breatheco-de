@@ -1,0 +1,87 @@
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cornelio Nsue
+    last_name: Engonga Oyana
+    avatar: https://avatars.githubusercontent.com/u/10530951?v=4
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta la tecnología.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy un amante 😍 de la informática, me apasionan las nuevas tecnologías. Soy administrador de sistemas 👨💻 y tengo un gran interés por el desarrollo web y móvil, el código abierto, la seguridad de la información 🔐.
+
+    # Contact Information
+    email: mastarichy8@gmail.com #optional
+    website: https://www.scorpionfreelancers.net #optional
+    linkedin: cornensue #optional
+    github: cornensue
+    twitter: 'cornensue' #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Tech.
+
+      - item: TV series and Movies
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy España
+      # optional
+      time: 06/2022 - 10/2022
+      details: |
+        - Front-End: HTML5, CSS3, Bootstrap, JavaScript, React JS.
+        - Back-End: Python, Flask, API Rest, SQL, Postman API.
+        - Version Control: Command Line, Git, GitHub.
+
+    - degree: Técnico Superior en Administración de Sistemas Informáticos en Red
+      university: IES Arcipreste de Hita
+      # optional
+      time: 2014 - 2016
+      details: |
+        - Administrar sistemas operativos de servidor, instalando y configurando el software, en condiciones de calidad para asegurar el funcionamiento del sistema.
+        - Administrar servicios de red (web, mensajería electrónica y transferencia de archivos, entre otros) instalando y configurando el software, en condiciones de calidad.
+        - Implantar y gestionar bases de datos instalando y administrando el software de gestión en condiciones de calidad, según las características de la explotación.
+        - Evaluar el rendimiento de los dispositivos hardware identificando posibilidades de mejoras según las necesidades de funcionamiento.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrador de Sistemas (Linux, IBM AIX)
+      time: 2019 - Present
+      company: BANGE
+      # optional
+      details: |
+        - Implementar y poner en marcha nuevos servidores. 
+        - Realizar copias de seguridad de las configuraciones de los sistemas, para posibles desastres, siguiendo la política de Backup del Banco. 
+        - Instalar patch, corregir vulnerabilidades e implementar recomendaciones proporcionadas por Seguridad Informática y Auditorías. 
+        - Colaborar con el administrador principal de Base de datos en ciertas tareas. 
+        - Velar para que todas las plataformas de trabajo del Banco cuenten con los suficientes recursos de CPU, RAM y Disco Duro. 
+        - Monitorear el rendimiento del sistema, aplicando técnicas de prevención de fallos.
+        - Generar informes detallados sobre la actividad del usuario y acceso a datos.
+    - role: Operador de Sistemas - IBM
+      time: 2018 - 2019
+      company: IBM Spain
+      details: |
+        BM Madrid
+        Operador de Sistemas y Batch en IBM
+        Clientes Finales: Liberbank, Bankinter y Seguros Altamira.
