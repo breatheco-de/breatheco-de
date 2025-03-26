@@ -1,0 +1,69 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Nicolas
+  last_name: Yanez
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Me considero una persona altamente creativa y fiable con habilidades innatas de respuesta rápida y concisa, aprendiendo muy rapido en cualquier ambito donde me encuentre. 
+  Destaco por mi minuciosidad y esfuerzo constante y he recibido reconocimientos de destacados ejecutivos 
+  en tan solo mi primer trabajo como asistente administrativo en una gran empresa. Me gusta enseñar y a la vez aprender del equipo que tenga asignado, siendo altamente dedicado, 
+  honesto y responsable.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://drive.google.com/file/d/1xORRhCMZwsut31U04DxSG7ZJ8Kgop8S0/view?usp=sharing
+
+  # Contact Information
+  email: yanezn4@gmail.com #optional
+  phone: +584166045984 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Alexander-sys18
+
+  twitter: 
+
+
+  # Interests or hobies
+  interests:
+    - item: Deporte
+
+    - item: Educación
+
+    - item: Música (Trombon)
+
+# Your previous education
+education:
+  - degree: desarrollador full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: abril-2023 - Actualmente
+    details: |
+
+    degree: Estadística
+    academy: Universidad Central de Venezuela
+    # optional
+    university_logo: https://seeklogo.com/images/U/Universidad_Central_de_Venezuela-logo-44AE876CE8-seeklogo.com.png
+    time: enero-2022 - Actualmente
+    details: |
+      3er Semestre
+
+    degree: Música (Trombón)
+    academy: Conservatorio de música Simón Bolívar
+    # optional
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_del_Conservatorio_de_M%C3%BAsica_Sim%C3%B3n_Bol%C3%ADvar.png
+    time: enero-2019 - Actualmente
+    details: |
+      3er año de música profesional
+
+experiences:
+ 
+    - role: Asistente Administrativo
+    time: 08/2022 - Actualmente
+    company: Instituto Autónomo de Transporte Caracas
+    details: |
+ 
