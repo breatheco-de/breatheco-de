@@ -1,0 +1,142 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luciano
+    last_name: Cabrales Ferrer.
+    
+    # Define yourself in 4-5 words
+    motto: I like programming and videogames.
+    
+    # focus
+    focus: Improving
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Developer / Full Stack Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/91077377?v=4
+    # Contact Information
+    email: luciano.cabrales@gmail.com #optional
+    phone: +56 9 88017996 #optional
+    linkedin: https://www.linkedin.com/in/luciano-cabrales-ferrer-5945774a/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Luciano-C
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - language: Spanish
+        level: Native
+
+      - languague: English
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Animals
+
+      - item: Videogames
+
+      - item: Music
+
+      - item: TV Shows/Movies
+
+# Your previous education
+education:
+    - degree: Diploma Python and Data Mining
+      university: Pontificia Universidad Católica de Chile
+    
+    - degree: Chemical Engineer
+      university: Pontificia Universidad Católica de Valparaíso
+      # optional
+      # university_logo: https://www.santotomas.cl/wp-content/themes/institucional/images/logos/logo-st.svg
+      # time: 2017 - 2018
+      # details: |
+      #  Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #  sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #  ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #  pretium quis, sem.
+
+      #    - Bullet point
+      #    - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Chief Production Engineer
+      time: 2017-Actualidad
+      company: Agroindustrial CK2
+      # optional
+      #company_logo:
+      #details: 
+    
+
+    - role: Project Engineer
+      time: enero 2017-julio 2017
+      company: Universidad de Tarapacá
+      # optional
+      #company_logo:
+      #details:
+       
+
+
+    - role: Process Engineer
+      time: 2012-2015
+      company: De Re Metallica Ingeniería
+      # optional
+      #company_logo:
+      #details:
+
+    - role: Process Engineer
+      time: 2009-2010
+      company: Secados Industriales S.A.
+      # optional
+      #company_logo:
+      #details:
+
+# Your project portfolio
+projects:
+    intro: >
+      List of projects developed before joining 4Geeks. 
+
+    assignments:
+      - title: Blanket
+        # optional
+        #project_logo:
+        link: https://github.com/Luciano-C/Blanket
+        tagline: "Discord bot for the game South Park Phone Destroyer"
+
+      - title: Planta Deshidratadora
+        # optional
+        #project_logo:
+        link: https://github.com/Luciano-C/Planta-Deshidratadora
+        tagline: "HTML y CSS interface with a Javascript code which allows the user to calculate relevant parameters of a dehydration process."
+
+      
+
+skills:
+    toolset:
+      - name: Python 
+        level: 50%
+
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+
