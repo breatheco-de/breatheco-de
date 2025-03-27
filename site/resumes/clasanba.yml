@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Claudia
+  last_name: Sandubete
+
+  # Define yourself in 4-5 words
+  motto: Curiosa e imaginativa
+
+  # focus
+  focus: Aprender a programar
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: clasanba@gmail.com #optional
+  
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Clasanba
+
+  
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Nativo
+
+    - idiom: English
+      level: Intermedio
+
+  # Interests or hobies
+  interests:
+    - item: Viajar
+
+    - item: Hacer ejercicio
+
+    - item: Naturaleza
+    
+    - item: Crear cosas
+
+    - item: Pasar tiempo en familia y con amigos
+
+# Your previous education
+education:
+  - degree: Licenciada Biología
+    university: Universidad de Granada
+    # optional
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  
+# Your previous job experiences or voluntier
+experiences:
+  - role: Profesora  de Ciencias de Enseñanza Secundaria Obligatoria y Bachiller
+    time: 2021
+    company: 
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - 
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: 
+      # optional
+      project_logo: 
+      link: 
+      tagline: 
+
+
+skills:
+  toolset:
+    - name: HTML5
+      level: 50%
+
+    - name: CSS3
+      level: 50%
+
+    - name: Bootstrap
+      level: 50%
+
+    - name: Javascript
+      level: 20%
