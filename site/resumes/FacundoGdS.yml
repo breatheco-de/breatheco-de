@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "turquoise"
+
+basic_info:
+
+    # Profile information
+    first_name: Facundo
+    last_name: Gul
+    motto: Resilient, adaptive, strong and flexible.
+    avatar: https://avatars.githubusercontent.com/u/92039939?v=4
+    summary: |
+        I have just finished a Bachelor's degree in Communication, in the course of which I have leaned towards the world of programming and technology. 
+        
+        The main topic of my thesis focused on the application of Artificial Intelligence in journalism and automated news generation. 
+        
+        For this and other reasons I have decided to make a pivotal change in my education to catch up with the technological-industrial revolution and become more literate. 
+
+    # Sidebar links
+    email: facundogds@gmail.com
+    phone: (+598) 92 233 995
+    linkedin: Facundo Gul (https://www.linkedin.com/in/facundoguldossantos/)
+    github: FacundoGdS
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate-advanced (B2-First)
+
+    interests:
+      - item: Artificial Intelligence applications
+      - item: Sports (Swimming, Football, Running)
+      - item: Economy and geopolitics
+
+education:
+    - degree: Bachelor's Degree in Communication
+      university: University of Montevideo (Uruguay)
+      university_logo: https://www.um.edu.uy/sites/default/files/LogoUniversidadMontevideo.png
+      time: 2018-2022
+
+    - degree: Full-Stack Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      time: 2021-2022
+
+experiences:
+    - role: Outreach assistant
+      time: 2021 - 2021
+      company: Forensic Sciences Group
+      details: |
+        I participated in the investigation of the use of fingerprints as evidence in Uruguay,
+        conducted interviews with experts in the field and produced an audiovisual dissemination
+        product within the framework of the 4th International Seminar on Forensic Sciences.
+
+    - role: Advisor and researcher in the first edition of the program “Communication to save the planet”,
+            articulated by INJU (MIDES), the Ministry of Environment of Uruguay and UNICEF.
+      time: 2021 - 2021
+      company: INJU (MIDES) - Ministry of Environment of Uruguay
+      details: |
+        I advised the NGO, Rotaract Tacuarembó Sur. I made a diagnosis of the organization,
+        through content analysis techniques in networks and metrics such as the engagement rate.
+        Conducted formative research on habits and practices related to recycling.
+        I designed strategic plans of social marketing, relationship with the press and
+        incidence in public policies.
+
+    - role: Voluntary in the landscapes of 'El Chileno', 'La Alegría', 'Cuchilla Ramírez'
+            and 'Mazamorra', Department of Durazno (Uruguay).
+      time: 2014 - 2015
+      company: Don Bosco Workshops
+      details: |
+        Service and assistance to the community, activities of construction and development,
+        supply to the population vulnerable.
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: XMiLE
+        link: https://github.com/FacundoGdS/Proyecto-XMiLe
+        tagline: 'A customizable website template designed to help accounting firms and users to
+                  streamline electronic invoicing reporting (by automating and processing such invoices)'
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 50%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Sketch & Photoshop
+        level: 65%
