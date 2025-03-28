@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Katheren
+    last_name: Salom
+    
+    # Define yourself in 4-5 words
+    #motto: I like saving the world
+    
+    # focus
+    #focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Licenciada en Administración mención en Informática con más de 6 años de experiencia como programadora con buen dominio 
+      en Lenguaje de Programación: Php, Javascript, Html, Ajax, Jquery, Bootstrap y conocimientos en los SGBD Postgresql, 
+      Sybase (ASE), MySQl Central, Oracle, entre otras. 
+
+      Mis objetivos es continuar incrementando mis conocimientos profesionalmente, para así desempeñarme con excelencia en mis 
+      actividades desempeñadas. 
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: katherensalom@gmail.com #optional
+    phone: +58 414 218 49 87 #optional
+    linkedin:  www.linkedin.com/in/katherens #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/kelenin
+    
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    #interests:
+      #- item: Climbing
+
+      #- item: Snowboarding
+
+      #- item: Cooking
+
+# Your previous education
+education:
+    - degree: Licenciada en Administración Mención en Informática
+      university: Universidad Experimental Nacional Simón Rodriguez
+      time: 2010 - 2013
+    - degree: Técnico Superior en Informática
+      university: Instituto Universitario Tecnología de Venezuela
+      time: 2006 - 2008
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Freelance
+      time: 2020 Mayo. - Presente
+      company: Organización Italcambio, Caracas, Venezuela
+      details: |
+        Desarrollo del sistema Pensionado para las distintas áreas de la institución, uso del lenguaje PHP, con Javascripts, 
+        Ajax, Jquery, Postgresql y así como implantación y seguimiento.
+    - role: Analista Programador
+      time: 2020 Octubre - 2022 Mayo
+      company: Organización Italcambio, Caracas, Venezuela
+      details: |
+        Migración de Sql Server a Postgresql y Desarrollo del sistema Pensionado para las distintas áreas de la institución, 
+        uso del lenguaje PHP, con Javascripts, Ajax, Jquery, Postgresql y así como implantación y seguimiento.
+    - role: Analista de Sistema Junior
+      time: Nov. 2018 - Nov. 2020
+      company: Car Dealer System
+      details: |
+        Desarrollo y mantenimiento a los sistemas para las distintas areas de la institución uso del lenguaje PHP, 
+        con Javascripts, Ajax, Jquery, Bootstrap, Oracle, Form y Report en Oracle (Básico), así como implantación y seguimiento.
+
+skills:
+    toolset:
+      - name: HTML
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: CSS
+        level: 50%
+
+      - name: PHP
+        level: 85%
+
+      - name: Postgresql
+        level: 80%
