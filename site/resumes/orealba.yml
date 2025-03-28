@@ -1,0 +1,84 @@
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+  # Full name
+  first_name: Orealba
+  last_name: Soriano
+  motto: Ore
+  avatar: https://avatars.githubusercontent.com/u/92450839?v=4
+  summary: |
+    I'm a journalist learning to code with 4Geeks Academy. I like to read and watch a lot of movies. I hope that one day I can get a job as a programmer.
+      
+  email: orealbas@gmail.com
+  phone: 645 792 731
+  linkedin: www.linkedin.com/in/orealba
+  github: Orealba
+
+  languages:
+    - idiom: Spanish
+      level: Native
+      
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Read
+
+    - item: Movies
+
+    - item: Travell
+
+    - item: tenis
+
+education:
+    - degree: journalist
+      university: Santa Maria
+      time: 2009-2015
+      details: Venezuela,Caracas
+      
+experiences:
+    - role: journalist
+      time: 2013 -2015 
+      company: Bloque Dearmas
+      details: journalist
+
+    - role: journalist
+      time: 2020 - 2021
+      company: Chief editor
+      details: Learning HTML, CSS, JS, SQL, Ruby, Ruby on Rails
+
+    - role: Student
+      time: 2020 - 2021
+      company: Egerie Magazine
+      details: Journalist
+
+projects:
+    intro: >
+      You can review some of my projects on github.
+    
+    assignments:
+      - title: Tic-tac-toe
+        link: https://github.com/Orealba/Tic-tac-toe-3
+        tagline: Tic-tac-toe
+    
+      - title: Instagram feed
+        link: https://github.com/Orealba/PT-Instagram-con-Bootstrap
+        tagline: instagram feed
+     
+
+skills:
+    toolset:
+    - name: HTML5 & CSS3
+      level: 50%
+
+    - name: Python  
+      level: 10%
+
+    - name: Javascript
+      level: 60%
+
+    - name: React
+      level: 20%
