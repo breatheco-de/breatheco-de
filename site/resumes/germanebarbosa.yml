@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: German Esteban
+    last_name: Barbosa Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: I am a fan of technology  
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a bilingual business administrator focused on the financial area, with management of tools such as Excel, SAP, Power BI. I have worked with database management (CRM, inventories, suppliers), focused on its transformation and analysis for decision making.
+      I am currently looking for a challenging profession where I can make the most of my abilities by actively contributing to the company.
+      Finally I am developing new skills as a code developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: german_ebarbosa@hotmail.com #optional
+    phone: 311 5119 834 #optional
+    #website: optional
+    linkedin: https://www.linkedin.com/in/german-esteban-barbosa-rodriguez-administracion-de-empresas/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: germanebarbosa
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: C1 
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Calisthenics
+
+      - item: Soccer
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: Full Stack Developer 
+      university: 4Geeks Academy
+      # optional
+
+      time: 2023 - 2023
+
+    - degree: Bussiness Management 
+      university: Pontificia Universidad Javeriana
+      # optional
+
+      time: 2017 - 2021
+# Your previous job experiences or voluntier
+experiences:
+    - role: Planing New Bussinnesses Analyst
+      time: 2021 - 2021
+      company: Productos Ramo, Bogota
+
+    - role: General Manager Assistant
+      time: 2021 - 2022
+      company: Intercomercail Andina SAS, Bogota
+      
+# Your project portfolio
+#
+skills:
+    toolset:
+      - name: Javascript
+        level: 30%
+
+      - name: Python
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 60%
