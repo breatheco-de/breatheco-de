@@ -1,0 +1,57 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Matias
+  last_name: Lopez
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+ 
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: lopezp.matias@gmail.com #optional
+  phone:  #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: matiaslopezp
+
+  twitter: "" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: leer
+
+    - item: carpinteria
+
+    - item: 
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: 
+    time: 
+    details: |
+      
+
+experiences:
+ 
+    company_logo: 
+    details: 
+    To-Do List: 
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    Dulce Sabor: 
+      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+
+    Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
+      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+ 
