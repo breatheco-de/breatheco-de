@@ -1,0 +1,217 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexis
+    last_name: Polowsky
+    
+    # Define yourself in 4-5 words
+    motto: Best coder in the world
+    
+    # focus
+    focus: Making impeccable code
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Allow me to introduce myself as Alexis Rose Polowsky, a full time student at Florida 
+      International University, Miami. I am currently pursuing a Master’s degree in Computer 
+      Science (CS). I have a dual major in Electronics Engineering Technology (EET) and 
+      Computer and Information Science (CIS). I am expected to graduate FIU by the end of May
+      2024. I joined Coyne College, Chicago, after High School and obtained an Associate Degree 
+      in Electrical Construction. Later, I secured admission at East-West University & then FIU. 
+      During my education after High School, I worked several jobs as an Electrical Tutor at Coyne, 
+      AutoCAD Drafter, Panda Express PIC, Project Manager, and as a TV- show Artist in the Chicago 
+      land area. 
+      
+      When I decided to enroll at East-West University. I applied for TA ship position and 
+      I was hired. As Teacher Assistant in the Electronics Engineering department, I had great experience 
+      learning both fundamentals and subtle aspects of subject matter. I also had valuable laboratory 
+      experience in Analog, Digital, Filter Design, and Communications. Fortunately, despite my schedule, 
+      I maintained a GPA of 3.8 out of 4.0. I have taken several relevant programming courses in
+      programming, such as, C# I , C# II, Java I , JAVA II, Web Page Design, AutoCAD, and Digital
+      Multi Media Courses. I am currently taking a part time class in 4Geeks while working full time as a
+      Project Manager for an Engineering Firm.
+
+     
+    
+    # Your profile picture URL
+    #https://www.instagram.com/alexispolowsky/?hl=en
+
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: apolowsky22@icloud.com #optional
+    phone: 815 641 0694 #optional
+    website: N/A #optional
+    linkedin: https://www.linkedin.com/in/alexis-polowsky-bb0843179/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlexisRosePolowsky
+    
+    twitter: N/A #optional
+    stack-overflow: N/A # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Guitar
+
+      - item: Boxing
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: Florida International University
+      # optional
+      university_logo: https://brand.fiu.edu/logos/
+      time: 2022 - 2024
+      details: |
+        # Katalon Project Lead for FPL				                                  Sep. 2022 -  Present
+        # Florida International University                                                                      Miami, FL
+        # -	Automating processes in FPL through Katalon
+        # -	Weekly meetings to make corrections and delegate tasks
+
+        # Utilizing Machine Learning for Microplastic                                	        Sep. 2022 -  Present
+        # Florida International University                                                                      Miami, FL
+        # -	Using Python to see how much microplastics are in sea monkeys
+        # -	Photoshop to make distinctions between background & sea monkey
+
+        # Server Manager for FPL Online Courses	                                	        Sep. 2022 -  Present
+        # Florida International University                                                                      Miami, FL
+        # -	Create and manage courses for FPL Online
+        # -	Weekly meetings to discuss how students are doing in class
+
+        # Co-Author on Wireless Power Transfer	                                	        Sep. 2022 -  Present
+        # Florida International University                                                                      Miami, FL
+        # -	Publishing paper on Wireless Power Transfer for Electric Vehicles
+        # -	Conducting research on Wireless Power Transfer
+
+    - degree: Dual BS in Computer Science & Electrcial Engineering Technology
+      university: East-West University
+      # optional
+      university_logo: https://www.eastwest.edu/visit-campus
+      time: 2018 - 2022
+      details: |
+        EET & CIS, Bachelors Degree                                              		        Mar. 2018 -  June 2022
+        East West University                                                                                         Chicago, IL
+        -3.8 GPA Deans list
+        -Perfect Attendance Awards
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Project Manager
+      time: 2019 - Present
+      company: Helix Engineering LLC, Chicago
+      # optional
+      company_logo: https://www.helixengineeringllc.com/
+      details: |
+        Helix Engineering is a utility engineering, drafting, consulting, 
+        and surveying company. With over 30 years of combined experience, 
+        Helix uses its industry knowledge and technology forward methods 
+        to reduce costs and increase efficiency for its clients.
+       
+        Engineering Project Manager                                                                    August 2019 – Present
+        Helix Engineering,IL                                                                                              Crest Hill, IL
+        Responsibilities Consisted of:
+        -Assist various engineers with different projects using MicroStation & AutoCAD
+        -Communicate to my engineering team when deadlines are, new schedules, setting up meetings, etc.
+        -Make sure standards are being followed by quality checking associates work
+
+
+    - role: Engineering Associate 
+      time: 2019
+      company: Interstate Electronics Company, IL
+      # optional
+      company_logo: https://www.facebook.com/InterstateElectronics/
+      details: |
+        -Design various construction drawings and associate documents
+        -Coordinate with managers to plan video/audio systems for schools, hospitals, etc.
+        -Providing technical support to staff at all times
+
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Python
+        level: 70%
+
+      - name: Premire Pro
+        level: 60%
+
+      - name: Photoshop
+        level: 60%
