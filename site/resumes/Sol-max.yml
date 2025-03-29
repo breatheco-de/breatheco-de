@@ -1,0 +1,66 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Aleksandr
+    last_name: Klenin
+    motto: Learning Always, Every Time.
+    summary: |
+        Interested in Software Development. 
+         
+
+    # Sidebar links
+    email: "aleksandr.klenin@gmail.com"
+    phone: +372 56250779
+    website: ~
+    linkedin: https://www.linkedin.com/in/aleksandr-klenin-47975a10a/
+    github: Sol-max
+    
+    languages:
+      - idiom: Russian
+        level: Native
+
+      - idiom: English
+        level: Upper-Intermediate
+
+      - idiom: Estonian
+        level: Upper-Intermediate
+
+    interests:
+      - item: Data science
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: MasterBachelor of Science
+      university: TalTech
+      time: 2007 - 2011
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Go
+        level: ~
+
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
