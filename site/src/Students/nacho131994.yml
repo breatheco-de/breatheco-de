@@ -1,0 +1,82 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nacho
+    last_name: Muñoz
+    
+    # Define yourself in 4-5 words
+    motto: Fun guy who loves sports, nature, traveling and cooking
+    
+    # focus
+    focus: Improving day by day my coding skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I started studying a degree in Nutrition Science, but after 2 years I realised that it was not for me. So, as I love cooking, studied for Restaurant Business and become a chef. I am now studying a FullStack Developer Bootcamp with 4Geeks Academy.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nacho131994
+    twitter: @naach_32 #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Travelling
+
+      - item: Cooking
+      
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: Restaurant Bussiness
+      university: ESHT Simone Ortega
+      # optional
+      time: 2015-2018
+      details: |
+       I studied to become a chef and how to mannage a restaurant.
+   
+# Your previous job experiences or voluntier
+experiences:
+    - role: Chef
+      time: 2018-2022
+      company: Hotel Urban, Glass Mar restaurant
+      # optional
+    
+      details: |
+        I worked as a chef in this restaurant, where, alongside my co-workers, we cooked some of the haute cuisine dishes from the chef Angel Leon, where the main product was marine product.
+    - role: Chef
+      time: 2022-2023
+      company: Restaurante Asador San Huberto
+      # optional
+      
+      details: |
+        I worked as a chef in this spanish traditional kind of resturant, where roasted meet was the main offer.
+    
+# Your project portfolio
+projects:
+    intro: >
+      I have not started any project yet, appart from the ones that I have to do as a FullStack Developer student.
+    
