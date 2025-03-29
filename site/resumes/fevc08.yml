@@ -1,0 +1,106 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fidel
+    last_name: Vera Chourio
+    
+    # Define yourself in 4-5 words
+    motto: Supply Chain | Logistics | Procurement | Data Science Trainee
+    
+    # focus
+    focus: Supply chain and Logistics
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Responsible Industrial Engineer, specializing in logistics management and strategic sourcing.
+      I have more than three years of experience in different areas like procurement and manufacturing process.
+      Efficient in performing administrative and operational tasks. Proficient in MS Excel and Power BI for data analysis.
+      Familiar with SAP MM and PM Modules. Learning about Data Science with Python and SQL.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png
+
+    # Contact Information
+    email: fevc1988@gmail.com
+    phone: +56 9 6905 3177 
+    linkedin: www.linkedin.com/in/fverachourio
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fevc08
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advance
+
+
+# Your previous education
+education:
+    - degree: Industrial Engineering
+      university: Universidad Dr. Rafael Belloso Chacín
+      # optional
+      university_logo: https://www.urbe.edu/images/logo.gif
+      time: 2016 - 2021
+
+    - degree: Diploma Strategic Sourcing
+      university: Universidad de Chile
+      # optional
+      university_logo: https://uchile.cl/.resources/portal-uchile/images/logo-universidad-de-chile.svg
+      time: 2021
+    
+    - degree: Diploma Logistics Management
+      university: Universidad Dr. Rafael Belloso Chacín
+      # optional
+      university_logo: https://www.urbe.edu/images/logo.gif
+      time: 2017
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Operations Specialist
+      time: 2020 - 2023
+      company: Chilean Production Business - Seasonal
+      # optional
+      details: |
+        •Managed projects and contributed to the commitment of production goals.
+        •Supervised and trained the team of employees assigned for managing the different machines and equipment. 
+        •Coordinated with managers to help implement creative solutions for improving production.
+        •Made sure the product being manufactured meet the company's quality standards.
+        •Reported any mechanical problems encountered with vehicles.
+        •Operated machines for processing raw material.
+
+    - role: Purchasing Analyst
+      time: 2018 - 2019
+      company: DESIGN GROUP LATINAMERICA
+      # optional
+      company_logo: https://www.dg-la.com/wp-content/uploads/2022/05/Group-245.svg
+      details: |
+        •Processing the purchase order request from the different projects, according to the necessities.
+        •Processing invoices (materials and equipment) coming from different vendors and sent to accounting for payment processing.
+        •Reconciling the invoices on the given purchase orders that are current payables and over dues.
+        •Coordinating with different Project Coordinators, Project Managers, and Managers on different purchase orders.
+        •Monitoring and checking invoices on different projects per purchase order received from the different vendor.
+        •Monitoring and checking invoices payments and in-process for different vendors.
+
+skills:
+    toolset:
+      - name: Microsoft Excel
+        level: 75%
+
+      - name: Power BI
+        level: 25%
+
+      - name: SAP module MM
+        level: 45%
+
+      - name: Python
+        level: 15%
+
+      - name: SQL
+        level: 30%
