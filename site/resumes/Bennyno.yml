@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Benigno   
+    last_name: Fernandez
+    
+    # Define yourself in 4-5 words
+    motto: The goal is continuous progression. 
+    
+    # focus
+    focus: Getting better one day at a time.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I've worked in the health and wellness retail space since 2008. 
+      I started in GNC as a sales associate and eventually was promoted to assistant manager. 
+      I then transitioned to Vitamin Shoppe in 2011 and soon became a store manager. 
+      I led a team of health enthusiasts and promoted many of my employees within the company in my time there.
+      I have 13 years of knowledge and experience in the health and wellness space and have helped many people with their health and wellness goals.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://yt3.ggpht.com/a/AATXAJznA9ezQ4VqdVrg2ZWeWe4_wIVDde8nz8bEFB5-=s900-c-k-c0xffffffff-no-rj-mo
+
+    # Contact Information
+    email: ben.fernandez28@gmail.com #optional
+    phone: 646 201 8819 #optional
+    website: N/A #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Bennyno
+    
+    twitter: 'benb3nn' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Weight Training
+
+      - item: Coding
+
+      - item: Anime
+
+# Your previous education
+education:
+    - degree: 2 years/No degree
+      university: Baruch College
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2006 - 2008
+      details: |
+       I attended Baruch college for 2 years. 
+       It was a business school and soon I learned that it wasn't for me.
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      Currently working on expanding on some of the projects I've been assigned in 4Geeks.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Javascript & jQuery
+        level: Currently enrolled in 4Geeks to learn these skills.
+
+      - name: Python
+        level: Currently enrolled in 4Geeks to learn these skills.
+
+      - name: Sketch & Photoshop
+        level: 60%
