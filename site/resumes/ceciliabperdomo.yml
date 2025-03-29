@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cecilia
+    last_name: Perdomo
+    
+    # Define yourself in 4-5 words
+    motto: Siempre desafiando mis limites
+    
+    # focus
+    focus: En aprender y avanzar
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Desde un tiempo a esta parte me he dedicado a la programación web.
+      Realizando cursos tanto en Front-end como Backend.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/myAvatar.jpg
+
+    # Contact Information
+    email: cecilia.perdomo@gmail.com #optional
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/cecilia-perdomo/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CeciliaBPerdomo
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: First Certificate 
+
+    # Interests or hobies
+    interests:
+      - item: Leer
+
+      - item: Fotografía
+
+      - item: Deportes
+
+# Your previous education
+education:
+    - degree: Programador Python
+      university: Instituto BIOS
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FInstitutoBiosUruguay%2F&psig=AOvVaw2je-PhXHqOYUEecRvJ1zF0&ust=1663872148669000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMj4x_3EpvoCFQAAAAAdAAAAABAD
+      time: 2021 - 2021
+      details: |
+        Programación Python con Django
+    - degree: Programacion JS Front-end
+      university: Taller de informatica
+      # optional
+      university_logo: https://www.smarttalent.uy/innovaportal/file/18030/1/taller-de-informatica.png
+      time: 2021 - 2021
+      details: |
+        Programacion JavaScript Front-end.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrativa
+      time: 2019 - 2022
+      company: Seguridad Norpe
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Administrativa
+# Your project portfolio
+projects:
+    intro: >
+      Listado de algunos de los proyectos.
+    assignments:
+      - title: Proyecto Front-end Farmacia
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/CeciliaBPerdomo/ProyectoFinal-Farmacia.git"
+        tagline: "Farmacia"
+
+      - title: E-Commerce
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/CeciliaBPerdomo/Ecommerce-ProyectoFinal.git"
+        tagline: "E-Commerce."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: Javascript
+        level: 70%
+
+      - name: Angular
+        level: 65%
+
+      - name: HTML5 & CSS3
+        level: 95%
