@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Eduardo
+    last_name: Rocha
+    motto: Life is Like a Ferris Wheel
+    avatar: https://avatars.githubusercontent.com/u/134506270?v=4
+    summary: |
+      Enterpreneur in Logistics and Freight Forwarding with over 12 years of experience 
+      in Sub-saharan Africa market involved in Door-to Door in-house service for shipping 
+      formalities from origin final destination, including shipping formalities, port 
+      import/export clearance and inland haulage. Handling of general dry cargo and dry chemicals
+      for copper mine usage. Logistics planning and setup consultancy within Eastern Africa (Kenya,
+      Tanzania, Mozambique and Zambia).
+      BSC in Civil Engineering and BSC Marine Biology and Fisheries, providing consultancy 
+      work in project management and special focus on roads construction, infrastructure 
+      and marine costal project and impact assessment.
+      Personal interest in evaluating problems and solving with resouce to new technologies 
+      to streamline processes and automation to optimize operations. 
+
+    # Sidebar links
+    email: eddyrocha@gmail.com
+    phone:
+    linkedin: linkedin.com/in/eduardo-rocha-94225480
+    github: eddyrocha78
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Swahili
+        level: Basic
+
+    interests:
+      - item: Reading
+      - item: Farming
+      - item: Personal Development
+
+education:
+    - degree: BSC Civil Engineering
+      university: Universidade do Algarve - instituto Superior de Engenharia
+      time: 2006 - 2012
+      details: |
+        Bachelor in Civil Engineering
+
+    - degree: Occupational Health and Safety Inspector - Level V
+      university: Conforturis Lda
+      time: July 2005 - December 2005
+      details: |
+        Occupational Health and Safety inspector of OSH technitians 
+        with focus of civil engineering job sites.
+
+    - degree: Occupational Health and Safety Technician
+      university: NERA Lda
+      time: Feburary 2005 - March 2005
+      details: |
+        Occupational Health and Safety technitian at civil engineer job
+        sites under superevision of company lead OHS Inspector
+
+    - degree: BSC Marine Biology and Fisheries
+      university: Universidade do Algarve - Faculdade de Ciencias do Mar e Ambiente
+      time: 1997 - 2004
+      details: |
+        Licenciature in Marine Biology and Fisheries in the field of 
+        Ecology and Coastal Management
+
+experiences:
+    - role: Managing Director
+      time: 2012 - Present
+      company: Mantichora Group
+                - Volcan Logistics Tanzania Limited
+                - B&G Holdings Limited
+                - Volcan Logistics Zambia Limited
+                - Mantichora Engineering Limited
+                - Mantichora Solutions Limited
+
+      details: |
+        Logistics and Freight Forwarding throughout the region of Sub-Saharan
+        Africa (Eastern and southern Africa Economic region)
+
+    - role: Occupational Health and Safety Inspector
+      time: 2006 - 2012
+      company: Jose de Sousa Barra & Filhos Lda., Faro - Portugal
+               Masitrave Limitada, Faro - Portugal
+      details: |
+        Responsible for implementing OHS procedures in all group companies and job sites.
+        Responsible for coordinating between company employees and city council OHS technicians.
+        Responsible for elaborating and submitting OHS plans and budgets duering tenders.
+
+    - role: Occupational Health and Safety Technician
+      time: 2006 - 2006
+      company: FASE Lda, Tunes - Portugal
+      details: |
+       Supervision or works being conduted at substation construction including compliance of
+       site OHS plan, ensuring that all parties involved comply with legal requirements in the
+       name of site owner REN - Rede Electrica Nacional.
+
+    - role: Site Engineer Personal Assistant
+      time: 2005 - 2006
+      company: Soprocil Lda, Tavira - Portugal
+      details: |
+       Repsonsible for asisting Project Manager with site personnel, OHS Plan compliance in cooperation
+       with site owner supervisor entity, expense reconciliation, material ordering and stock control.
+
+projects:
+    intro: >
+      Software development projects as part of the 4GeeksAcademy.
+
+    assignments:
+      - title: Bootstrap Instaffed
+        link: "https://github.com/4GeeksAcademy/Eduardo-Rocha-HTML-Forms"
+        tagline: "A HTML Form with Bootstrap within europe-fs-pt-13 course"
+
+      - title: Bootstrap Instagram
+        link: "https://github.com/4GeeksAcademy/Eduardo-Rocha-HTML-Forms"
+        tagline: "An Instagram feed using Bootstrap within europe-fs-pt-13 course"
+
+      - title: Instagram Postcard
+        link: "https://github.com/4GeeksAcademy/Eduardo-Rocha-Istagram-Post"
+        tagline: "A Isntagram post using CSS within europe-fs-pt-13 course"
+
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: Beginner
+
+      - name: Bootstrap5
+        level: Beginner
