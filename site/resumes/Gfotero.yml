@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gustavo
+    last_name: Fernandez
+    
+    # Define yourself in 4-5 words
+    motto: I find myself in movement and transformation
+    
+    # Focus
+    focus: Always keep my long-term goals in mind
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Being a professional in continuous evolution towards a more comprehensive approach to risk management in organizations.
+      This involves evaluating not only threats and vulnerabilities related to physical security but also considering
+      aspects such as cybersecurity, business continuity, occupational safety, and reputational risks.
+      I am currently developing skills in data science to integrate my professional and university knowledge
+      in this new discipline of knowledge.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:   
+
+    # Contact Information
+    email: gafernandez.otero@gmail.com
+    phone: (+58) 414 1148873
+    website: 
+    linkedin: gfernandezotero
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Gfotero
+    
+    twitter: gfernandezotero
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Finance
+
+      - item: Blockchain
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Management Engineering
+      university: Universidad Metropolitana
+      # optional
+      university_logo: 
+      time: 2021 - 2023
+      details: |
+        The graduate of the Master's Degree in Management Engineering will be able to work in manufacturing or service companies
+        with an ethical and comprehensive vision of modern management in terms of project management and evaluation,
+        operations management, in addition to the global techno-economic evaluation of the potential investments
+        that an organization may have.
+
+    - degree: Industrial Engineer
+      university: La Universidad del Zulia
+      university_logo: 
+      time: 1989 - 1995
+      details: |
+        The Industrial Engineer is dedicated to the organization, planning, continuous improvement
+        and control of the production processes of goods and services. He applies his management skills and 
+        knowledge in the optimization of the material, human and technological resources that companies
+        have to ensure that the operations area is capable of generating high quality goods and services,
+        creating a competitive position in the market.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Corporate Manager Loss Prevention and Control
+      time: 2012 - 2021
+      company: Retail , Caracas
+      # optional
+      company_logo: 
+      details: |
+        Plan and oversee the implementation of loss prevention and control strategies, aiming to ensure the reduction
+        of criminal activities and provide protection to employees, customers, assets, and information through all means,
+        following the policies and guidelines established by the organization's top management levels.
+
+    - role: Corporate Manager Loss Prevention and Control
+      time: 2010 - 2012
+      company: Pharmaceutical Sector, El Vigia
+      # optional
+      company_logo: 
+      details: |
+        Plan and oversee the implementation of loss prevention and control strategies, aiming to ensure the reduction
+        of criminal activities and provide protection to employees, customers, assets, and information through all means,
+        following the policies and guidelines established by the organization's top management levels.
+
+# Your project portfolio
+projects: |
+    intro: 
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - Reduction of the shrinkage rate related to inventory fluctuations, achieving a decrease from 3.0% to 1.5%.
+      - Implementation of the Alert and Response Room to integrate monitoring operations of the Branches.
+      - Development of training programs aimed at the in-house personnel of Loss Prevention and Surveillance services.
+      - Development of a technological data integration facility for information from the SAP system and Closed-Circuit Television.
+      - Design and implementation of access controls.
+      - Designing improvements to safety boxes to reduce theft in distribution and dispatch routes, achieving a reduction
+        of over 50% in losses.
+      - Designing the current organizational structure of the company in the area of loss prevention and control.
+      - Implementation of satellite systems on distribution routes
+
+
+skills: |
+    - Strategic Planning
+    - Team Leadership
+    - Positive Psychology Concepts
+    - Team Management
+    - People Training
+    - Nonviolent Communication
+    - Organizational Structures Design
+    - Physical and Electronic Protection
+    - Contingency Plans Development
+    - KPIs Management and Handling
+    
