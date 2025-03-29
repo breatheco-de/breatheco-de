@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Genesis
+    last_name: Longart
+    
+    # Define yourself in 4-5 words
+    motto: Belive in yourself!
+    
+    # focus
+    focus: Becoming the best fullstack developer I can be.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Frontend developer with vast knowledge of corporate social communication. 
+      If you asked me to describe myself in one word, I would choose "adaptability". 
+      I believe that the human being must have the capacity to continuously transform in order to reach his best version. 
+      Journalism gave me the necessary communication tools to enhance my social, organizational and teamwork skills, 
+      however it was in programming where I discovered that we are capable of generating significant 
+      changes from our square meter.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small/beautiful-latin-woman-avatar-character-icon-free-vector.jpg
+
+    # Contact Information
+    email: gnsslr@gmail.com #optional
+    phone: +56 930733304 #optional
+    linkedin: genesis-longart #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GenyLongart
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Hiking
+
+      - item: Traveling
+
+      - item: Gastronomy
+
+# Your previous education
+education:
+    - degree: BSc in Social Comunication
+      university: Santa María University
+
+      time: 2008 - 2014
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Solutions Assistant
+      time: Ap 2023 - Jun 2023
+      company: NTT Data, Santiago de Chile
+     
+      details: |
+        I worked on a project in the health sector as a fullstack developer, using Java as the main language, 
+        its ZK framework, Oracle SQL database, and Scrum as an agile methodology.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Front-end Developer
+      time: Mar 2022 - Aug 2022
+      company: Laboratoria, Santiago de Chile
+    
+      details: |
+       I had to develop web applications using HTML5, Javascript, React, CSS, Figma, and other technologies, 
+       in addition to participating in ceremonies such as dailys, retrospectives, planning, and demos (Scrum framework).
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Below you can review some of the projects I have developed. Most using vanilla Javascript, HTML5 and CSS3.
+
+    assignments:
+      - title: Smart-savings
+        link: https://smart-spendings.netlify.app/
+        tagline: "A responsive website template designed to help user to plan their expenses."
+
+      - title: Memory Match
+        link: https://genylongart.github.io/SCL020-memory-match/
+        tagline: "A responsive memory game."
+
+      - title: Social Network
+        link: https://github.com/GenyLongart/SCL020-social-network
+        tagline: "A responsive website for students and teacher."
+
+      - title: Criptomaniac
+        link: https://criptomaniac.netlify.app/
+        tagline: "A cryptocoin tool for everybody!"
+
+skills:
+    toolset:
+
+      - name: Javascript 
+        level: 35%
+
+      - name: React
+        level: 35%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Sketch & Figma
+        level: 40%
