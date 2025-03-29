@@ -1,0 +1,19 @@
+basic_info: 
+  avatar: img.png
+  email: jimmygarces4@gmail.com
+  languages: 
+    - 
+      idiom: Español 
+      level: Nativo
+    - 
+
+    
+  linkedin:
+  first_name: jimmy
+  last_name: Garces
+  phone: 3192977649
+  github: jimmygarces47
+  tagline: "Full Stack Developer"
+  motto: An investment in knowledge always pays the highest return.
+skin: green
+template: online-cv
