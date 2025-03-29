@@ -1,0 +1,107 @@
+template: "online-cv"
+skin: "grey"
+
+# Personal Information
+basic_info: 
+
+    # Your full name
+    first_name: Felipe  
+    last_name: Aldea
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+    Actualmente me encuentro realizando el programa Full-Stack Software Developer FT,
+    siendo mi primera experiencia en la programación. Soy Ingeniero Agrónomo y anteriormente 
+    trabaje en la banca, en el sector de análisis de riesgo agrícola y en el sector agroalimentario,
+    en una exportadora de fruta fresca.
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: faldea1@uc.cl  #optional
+    phone: +569 9228 5757  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/faldea1
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Acoustic Guitar
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingeniero Agrónomo
+      university: PUC
+      # optional
+      time: 2011-2017
+      details: Mención, Economía Agraria.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Jefe de Programa
+      time: Abr 2021 - Dic 2021
+      company: Dole Chile
+      # optional
+      details: 
+        Operaciones, envíos de fruta fresca - Temporada 20-21 y 21-22; Pomáceas 
+        (manzanas, peras), kiwis, mandarinas, arándanos y cerezas, 
+        con destino a países de Medio Oriente/Lejano Oriente, 
+        Europa, EEUU/Canadá y Latinoamérica.
+        Coordinación con departamento comercial, plantas 
+        procesadoras y departamento de embarques para la 
+        consolidación de contenedores marítimos y envíos aéreos, 
+        según requisitos de clientes (especies, variedades, calibres, 
+        color/calidad, etiquetas, embalajes, entre otros).
+
+    - role: Analista de Riesgo Agrícola
+      time: Ago 2019 - Abr 2021
+      company: Banco Security
+      # optional
+      details: |
+        Análisis de empresas del rubro agrícola que solicitan
+        préstamos(frutícolas, vitivinícolas y cereales principalmente),
+        apoyando operaciones de ejecutivos comerciales de
+        sucursales en regiones. Elaboración de informes que incluyen
+        análisis de balances y estados de resultados de los últimos 
+        años, tasaciones correspondientes a garantías ofrecidas,
+        análisis de mercado, resultados de últimas temporadas y
+        elaboración de proyecciones para determinar capacidad de
+        pago.
+        Recomendación en presentaciones de ejecutivos en los 
+        comités semanales de operaciones comerciales.
+        Apoyo al área de vaciadores en el ingreso de balances 
+        tributarios/auditados de empresas.
+        Visitas a terreno de clientes del banco y nuevos.
+
+# Your project portfolio
+projects:
+    intro: >
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Excel Avanzado
+        level: 100%
