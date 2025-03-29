@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Stefany Mária
+    last_name: Méndez Salas
+    
+    # Define yourself in 4-5 words
+    motto: Creative, enterprising, passionate about technological solutions
+    
+    # focus
+    focus: Learning software development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Software Enginneer and web developer of 4Geek's Academy. I like to learn new things. Now I want to learn coding to improve my carrer and create my own social entrepreneurship project. Like to write, read, and listen to music.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: tefa15@hotmail.es #optional
+    phone: (506) 8598-4225 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/stefany-méndez-salas-182806145 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Tefis15
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Cycling
+
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: Software Enginner
+      university: Universidad Estatal a Distacia (UNED) Costa Rica
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/f/fd/Logo_Universidad_Estatal_a_Distancia_de_Costa_Rica.png
+      time: 2009 - 2014
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Technical Support
+      time: Jun 2019 - Dec 2022
+      company: Coopebrisas R.L
+      company_logo: https://coopebrisas.cr/wp-content/uploads/2021/07/Logo-Letras-Verde.png
+      
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: CSS3
+        level: 70%
+
+      - name: Javascript
+        level: 50%
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: Java
+        level: 70%
+
+      - name: C++
+        level: 70%
+    
+      - name: C#
+        level: 50%
+
+      - name: SQL
+        level: 50%
+
+      - name: Java
+        level: 70%
+      
