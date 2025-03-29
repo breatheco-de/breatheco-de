@@ -1,0 +1,171 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+
+    first_name: David
+    last_name: Bravo
+    
+    
+    motto: El favor de Dios no es una variable en mi vida, es una constante
+    
+    
+    focus: Aprender a ser un buen desarrollador enfocado en el backend. Poder en un futuro crear plataformas financieras integradas con blockchain.
+    
+    
+    summary: |
+      Tengo una empresa de arbitraje de criptomonedas, adicionalmente acabo de empezar un proyecto donde ayudamos a empresas a incorporarse como una LLC en Estados Unidos y abrir una cuenta bancaria sin necesidad de tener visa ni viajar.
+      Soy de Caracas, Venezuela pero vivo hace casi 6 años en Medellín, Colombia.
+      Estudié Comercio Internacional en la Universidad Simón Bolívar. También estudié música en el Conservatorio Juan José Landaeta.
+
+    
+   
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+
+    
+    email: bravod95@gmail.com
+    phone: +57 (305) 3431658 
+    website: afthoniaent.com 
+    linkedin: https://www.linkedin.com/in/davidbravod/
+    
+    
+    github: davidbravod
+    
+    twitter: 'davidbravods' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Español
+        level: Native
+      - idiom: English
+        level: C1
+
+    
+    interests:
+      - item: Negocios
+
+      - item: Deportes
+
+      - item: Música
+
+
+education:
+     - degree: Licenciatura en Comercio Internacional 
+       university: Universidad Simón Bolívar 
+       # optional
+       university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/USB_logo.svg/1200px-USB_logo.svg.png
+       time: 2012 - 2017
+       details: |
+         Participar en el diseño de procesos automatizados y sistemas informáticos diseñados para ser aplicados en el Comercio Internacional. Analizar la empresa internacional y su entorno, su competitividad, la dirección de operaciones internacionales y la gestión recursos humanos. Analizar el entorno económico internacional y la situación económica, política y social con respecto a la situación mundial. Sugerir mecanismos de control de los recursos financieros, dentro de la actividad del Comercio Internacional de acuerdo a los principios y teoría de las finanzas internacionales. Establecer estrategias para determinar el comportamiento del consumidor. Diseñar el sistema logístico internacional como herramienta para desempeñar la función de compras y ventas internacionales. Analizar contratos de servicios y seguro del transporte para el Comercio Internacional. Desarrollar estrategias de negociación.
+         
+experiences:
+     - role: CEO & Founder
+       time: 2022 - Present
+       company: AFTHONIA ENTERPRISES LLC
+    
+      # details: |
+      #     - Confirms insurance coverage. Determines necessity for pre-authorization and obtains authorization for scheduled procedures.
+      #     - Notifies patient of his/her financial responsibility for services to be provided. Notifies patients and practitioners of any services requested and/or referred that are not authorized by insurance.
+      #     - Communicates with patients and practitioners regarding financial responsibility and insurance coverage issues.
+      #     - Enters patient insurance information into the patient record and documents insurance coverage of services to be provided.
+      #     - Communicated with adjusters for workers compensation and automobile cases to ensure necessary information was obtained. 
+
+
+
+     - role: Vicepresident
+       time: 2019 - Present
+       company: DASILVACORP LLC
+#       optional
+#       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
+#       details: |
+       
+#           - Worked with students to develop fundamental math/reading skills using Kumon proprietary learning methods. 
+#           -  Ensured necessary billing and payments were obtained on time. 
+#           - Developed marketing strategy and worked with small businesses to promote the Kumon brand.
+#           - Provide feedback to parents on the progress of students.
+#           - Manage employees and create a successful team environment through effective communication. 
+#           - Answering phone calls and setting up student orientations for enrollment. 
+#           - Proctor exams and grade classwork and homework.
+#           - Data entry of student progress into Content Management System. 
+#           - Managed day to day operations. 
+#           - Communication and coordination skills developed through handling and adapting to unexpected situations that affected the business. 
+#           - Scheduling and coordinating meetings, interviews, events, and other activities. 
+#           - Assists with the hiring and training of new employees including interviews and documentation. 
+
+
+     - role: Director of Business Development
+       time: 2018 - 2020
+       company: CoinLogiq S.A.S.
+
+#       optional
+#       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
+#       details: |
+
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+# # Your project portfolio
+projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+     assignments:
+       - title: 4Geeks Prework
+#         # optional
+         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+         tagline: Toda la teoría y ejercicios básicos para aprender HTML, CSS y Javascript
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+       - name: HTML
+         level: 60%
+
+       - name: CSS
+         level: 60%
+
+       - name: Bootstrap
+         level: 50%
+
+       - name: GIT & Github
+         level: 30%
+
+       - name: Javascript
+         level: 10%
