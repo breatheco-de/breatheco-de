@@ -1,0 +1,248 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ryan
+    last_name: Daniels
+    
+    # Define yourself in 4-5 words
+    motto: There is only one (D)RYan
+    
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Recent undergraduate student who studied computing at 
+      Birmingham City University achieving a First Class Honours in July 2022. 
+      Complimenting experience and knowledge of computer science topics such as networking, 
+      client-side (HTML, CSS, JS) and server-side web design (PHP), MS SQL Server databases, 
+      advanced programming, computer systems architecture, systems analysis and design and many more, 
+      there lies 5 years IT work experience within the education sector. 
+      Most notably, significant progression and improvement upon C# knowledge, 
+      with knowledge gained on refactoring code depending on the scenario with application of 
+      OOP principles and design patterns. Applies a high-level and accurate service whilst consistently 
+      demonstrating the upmost level of personal and professional standards. 
+      Now seeking a varied and challenging position for a junior or graduate technology engineer/programmer 
+      role that will combine self-professional experience, expand on knowledge and provide opportunities 
+      for personal and professional growth.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQEcHV8jjPoF1Q/profile-displayphoto-shrink_200_200/0/1663497225097?e=1695254400&v=beta&t=sepZrKb4DbUbGa8Y33w24NIuJONs8OgDF2FCdlVg4qY
+
+    # Contact Information
+    email: ryandaniels230@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/ryan-d-6a8a76197/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: RAD531
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Travelling
+
+      - item: Movies
+
+      - item: Football
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Computing (Level 6 | Top-up) - BSc (Hons) - First Class 	
+      university: Birmingham City University
+      # optional
+      university_logo: https://ncace.ac.uk/wp-content/uploads/2021/01/BCU-logo-stacked_blue.png
+      time: 2021 - 2022
+      details: |
+
+          - Consultancy and IT management - 80%
+          - Business Systems Solutions - 79%
+          - IT Infrastructure - 83%
+          - Information Security - 92%
+          - Individual Honours Project - 82%
+
+    - degree: BTEC Level 5 Higher National Diploma (RQF) Computing - Distinction 
+      university: Birmingham Metropolitan College
+      # optional
+      university_logo: https://www.bmet.ac.uk/wp-content/themes/bmt-theme-2017/assets/img/bmet-logo.png
+      time: 2018 - 2021
+      details: |
+
+          - Advanced Programming- Distinction 
+          - Data Structures and Algorithms - Distinction
+          - Game Design Theory - Distinction
+          - Game Design Scripting - Distinction
+          - Business Intelligence - Distinction
+	        - Cloud Computing - Distinction
+          - Computing Research Project - Distinction
+          - Programming - Distinction
+          - Networking - Distinction
+          - Professional Practice - Distinction
+          - Database Design and Development - Distinction
+          - Security - Distinction
+          - Computer Systems Architecture - Distinction
+          - Website Design and Development - Distinction
+          - Managing a Successful Computing Project - Distinction
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Applications Consultant	
+      time: July 2022 - July 2023
+      company: Capgemini, Birmingham
+      # optional
+      company_logo: https://www.capgemini.com/wp-content/uploads/2022/05/Capgemini.gif
+      details: |
+
+          - Overseen and directly impacted global digital transformation projects for ERP. Specifically, with several internal projects, including upgrading a PaaS system within a Kubernetes cluster hosted on OCI and client projects including, upgrading Oracle EBS to Fusion for a global enterprise. 
+          - Communicate effectively with clients, suppliers, and industry professionals in improving their Oracle ERP ecosystem with a complimenting clear strategic roadmap and plan.
+          - Configured new ERP features, including, implementation of data migration across ERP systems.
+          - Design and present to clients and upper management on business process flows, configuration snapshots, reporting and integration catalogues, fit-gap analysis etc.
+
+
+    - role: IT Lecturer
+      time: September 2021 - July 2022
+      company: Birmingham Metropolitan College, Birmingham
+      # optional
+      company_logo: https://www.bmet.ac.uk/wp-content/themes/bmt-theme-2017/assets/img/bmet-logo.png
+      details: |
+
+          - One year experience in IT lecturing to college students; overseeing the learning, development, well-being and achievement of a cohort of students across groups and levels. 
+          -	Proudly delivered quality lessons through dedicated and thorough lesson planning and delivery to help students achieve their maximum potential. This included lessons geared towards learner participation and practicality - moving away from traditional presentations to which this invoked higher engagement and retention of information. Within this, a high percentage of my learners went on to achieve and/or overachieve on their target grades.
+          -	Delivered on a range of subjects across levels in Spreadsheet Modelling, Database Design and Development, Programming, Games Development, Networking etc.
+          -	Actively passionate about maintaining a safe and respectful classroom environment where each student’s opinion is heard while encouraging learner participation to build confidence.
+          -	Upholding the highest standards towards critical administrative duties in grading, internal and external assessments, moderation, training (safeguarding, data protection, child protection), exam moderation, curriculum design and planning. 
+
+
+    - role: Data Support Analyst / Power Platform Developer
+      time: September 2016 – Aug 2021
+      company: James Brindley Academy, Birmingham
+      # optional
+      company_logo: https://www.jamesbrindley.org.uk/_site/images/design/thumbnail.jpg
+      details: |
+
+          -	Provided ongoing development work for bespoke systems using MS Office 365 technologies in PowerApps, Power Automate, SharePoint and Power Bi. Liaised with upper management and key stakeholders on Power Platform projects, including, the planning, design, implementation/development, testing, release and review of PowerApps.
+          -	Replaced existing helpdesk system with a PowerApp, integrating with SharePoint for data storage, Power Automate for simple and complex logic and Power Bi for reporting. Reduced yearly subscription fees by £10,000.
+          -	Set up and managed handheld devices using Microsoft Intune and ensure correct record keeping for such devices.
+          -	Contributed, assisted and reviewed 3rd party support contracts to maintain and improve solutions across the academy like VOIP, printing and reporting systems.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects I have been creating during my 4Geeks Web Development Bootcamp
+
+    assignments:
+      - title: A* PathFinding City Roads Project
+        # optional
+        project_logo: "#"
+        link: https://github.com/RAD531/MyProjects/tree/main/AStarPathFindingCityRoads
+        tagline: "A program created in C# which plots the shortest route on road between buildings and exluded zones using A* path finding"
+
+      - title: Power Champions (Unity 3D game)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/RAD531/MyProjects/tree/main/PowerChampions/Scripts
+        link: https://drive.google.com/file/d/1-peaBbffgvDWms5wuRgs5zi_1Y42Okx2/view?usp=share_link
+        tagline: "Year-long dissertation project on a Unity wheelchair racing game which connected with Bluetooth and Ant+ sensors. The game allowed for people in wheelchairs to exercise and compete virtually around an Olympic track against NPCs where the virtual speed was in sync with the real speed wheelchair users were going through any BLE or Ant+ speed sensor attached to the wheel/s. The project was a success and won the BCU Innovation Fest Digital Transformation Award which was an award for the entire computing department across the University."
+
+      - title: PHP Laravel Blog CRUD Application
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/RAD531/MyProjects/tree/main/Laravel_Blog_CRUD_MVC/Laravel_Blog_CRUD_MVC
+        tagline: "CRUD application built with PHP, the Laravel framework and MySQL which allows a user to post, edit, delete blog posts with background authentication."
+
+      - title: Laravel RESTful Meeting CRUD MVC Application	
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/RAD531/MyProjects/tree/main/Laravel_RESTful_CRUD_MVC/Laravel_RESTful_CRUD_MVC
+        tagline: "PHP Laravel project which uses MySQL as the database with Postman to test GET, POST, PATCH, DELETE requests to APIs. APIs are available to create users, sign in users, create/register/unregister/edit/delete meetings. There is validation and authentication for each appropriate request where Jwt-auth was used to authenticate web tokens."
+
+      - title: Business Intelligence Assessment Tool	
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://drive.google.com/file/d/1UnS6oUzbarJAEN-WM30UEnBpmnDNAE-i/view?usp=sharing
+        tagline: "Power Bi assessment tool which queries a cloud MIS system. Includes live summative tracking, forecast grades, actual grades, examination grades and customised dashboards. Makes use of Q&A query builder, drill throughs, page filtering and rich visualisations."
+
+      - title: Instagram-Photo-Feed-with-Bootstrap
+        # optional
+        project_logo: https://github.com/RAD531/Instagram-Photo-Feed-with-Bootstrap/blob/main/Instagram-Photo-Feed-Preview.JPG
+        link: https://github.com/RAD531/Instagram-Photo-Feed-with-Bootstrap
+        tagline: "A responsive Bootstrap one page Instagram photofeed"
+
+      - title: HTML5 Login-Template
+        # optional
+        project_logo: https://github.com/RAD531/LoginTemplate/blob/main/LoginPage.JPG
+        link: https://github.com/RAD531/LoginTemplate
+        tagline: "A responsive HTML & CSS login template"
+
+skills:
+    toolset:
+      - name: C#
+        level: 60%
+
+      - name: Javascript, jQuery & AJAX
+        level: 40%
+
+      - name: PHP & Laravel
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 40%
+
+      - name: MS SQL Server, TSQL, MySQL & Amazon RDS
+        level: 40%
+
+      - name: AWS, Azure & OCI
+        level: 65%
+
+      - name: Infrastructure as Code & Terraform
+        level: 50%
+
+      - name: PowerApps, Power Automate, SharePoint, Power Bi, Dataverse, Dynamics 365 CE & Business Central 
+        level: 60%
+
+      - name: Linux
+        level: 35%
+
+      - name: Git & GitHub
+        level: 50%
+
+      - name: Unity3D
+        level: 65%
+
+      - name: RESTful API, Postman
+        level: 25%
+
+      - name: IOT protocols (Zigbee, Z-Wave, Wi-Fi), Packet Tracer & Networking
+        level: 40%
+
+      - name: Jira, Office, Slack
+        level: 70%
