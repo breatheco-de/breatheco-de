@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "yellow"
+
+basic_info:
+  # Profile information
+  first_name: Smit
+  last_name: Shah
+  motto: Knowledge is power
+  avatar: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.135.1080.1080a/s640x640/88268928_668689120543415_7133944506415133474_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=f76ahnkW8MQAX9wMOLv&oh=c70d234edb6c0db47ea66900f4ed7e82&oe=5ECCBEA2
+  summary: |
+    I have worked 12 years in El Corte Ingles(well known department store in Spain)
+    in different sections (Computer science, bookstore and leisure, and the last years in comics and video games ).
+    These last years I finished my studies in DAM and I entered in a company of development of apps, in which I follow at the moment. 
+
+  # Sidebar links
+  email: shahsmit293@gmail.com
+  phone: 55552222
+  website: shahsmit293.com #do not add http://
+  linkedin: shahsmit293
+  github: shahsmit293
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+  interests:
+    - item: Videogames and comics
+    - item: Everyday Physics
+    - item: Blockchain
+
+education:
+  - degree: Senior Technician of cross-platform applications development
+    university: Juan XXIII
+    time: 2014 - 2017
+
+  - degree: Full Stack Mobile Bootcamp
+    university: Keepcoding
+    time: 2019 - 2020
+
+experiences:
+  - role: Technical Commercial and Mobile Developer Manager
+    time: 2017 - Present
+    company: EdasNet, Mostoles, Madrid, Spain
+    details: |
+      Design, development and testing of native Android applications for aviation schools.
+      Currently I perform the same functions but using Xamarim Forms for multiplatform applications.
+       
+  - role: Salesman
+    time: 2005 - 2017
+    company: El Corte Inglés, Madrid, Spain
+    details: |
+      Advice and sale of different products in relation to the department I belonged to.
+      Computers and peripherals in the computer section. Comics, graphic novels, figures
+      collection, video games, consoles and peripherals in the comics and video games section.
+        
+        
+projects:
+  intro: >
+   
+  assignments:
+    - title: Instagram Photo Feed Boostrap
+      link: "#https://github.com/sergiocasta32/Instagram_Photo_Feed_Boostrap"
+      tagline: "This is an improved version of the first instagram exercise using bootstrap"
+
+    - title: Excuse Generator
+      link: "#https://github.com/sergiocasta32/ExcusesGenerator"
+      tagline: "A excuses generator in JavaScript."
+
+    - title: Conditional Profile Card
+      link: "#https://github.com/sergiocasta32/exercise-conditional-profile-card"
+      tagline: "Practice conditions, render a profile card based on a series of variables that could change in value during runtime like: username, avatar, etc"
+
+
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 85%
+
+    - name: Sketch & Photoshop
+      level: 60%
