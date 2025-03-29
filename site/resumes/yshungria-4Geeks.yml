@@ -1,0 +1,49 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Yojan Stiben
+    last_name: Hungría
+    
+    
+    motto: Dedication, learning, helping, proactive
+    
+    
+    focus: Learning everything I can about web development and analysis od data. 
+    
+    
+    summary: |
+      I am a professional with problem-solving skills using technical knowledge and teamwork. I have experience designing solutions based on client needs. I am a Full Stack Developer with knowledge in React.js, React Native and Node.js. 
+
+    
+   
+    avatar: https://avatars.githubusercontent.com/u/125624183?s=400&u=fc192ffc384c3d581971890e98c54d4d2a779dcd&v=4
+
+    
+    email: yshungria.4Geeks@gamil.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/ing-yojan-stiben-hungria/
+    
+    
+    github: yshungria-4Geeks
+    
+    twitter: 'hungria_ys' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    
+    interests:
+      - item: Read about leadership
+
+      - item: Learn about web development and data analysis od data.
+
+      - item: Walk in the middle of nature
