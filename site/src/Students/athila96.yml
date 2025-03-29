@@ -1,0 +1,24 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+  # Profile information 
+
+  name: Sameul Herrera Jaraba
+  tagline: Full Stack Developer
+  avatar: profile.png
+
+  # Sidebar links
+
+  email: futbol.ingeniero@gmail.com
+  phone: +58 4149243666
+  website: blog.example.com
+  github: athila96
+  
+  languajes:
+    - idiom: Spanish
+    - level: Native
+
+    - idiom: Inglish
+    - lavel: Beginner
