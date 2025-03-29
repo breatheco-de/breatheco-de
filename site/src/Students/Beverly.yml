@@ -1,52 +1,53 @@
+template: "online-cv"
+skin: "green" 
+
 # Personal Information
 basic_info:
   # Your full name
-  first_name: Judith
-  last_name: Carreño
+  first_name: Beverly
+  last_name: Poni Mumbrú
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
-  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+  Estudiante en el Bootcamp 4geeks Academy. En el aprendí tecnologias como JavaScript,
   React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-  el trabajo grupal con gi
+  el trabajo grupal
 
   # Your profile picture URL
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
   avatar: https://randomuser.me/api/portraits/women/24.jpg
 
   # Contact Information
-  email: devconpantuflas@gmail.com #optional
-  phone: 569 22138662 #optional
+  email: bevponi@gmail.com #optional
+  phone:  #optional
 
   #
   # ******** IMPORTANT *******
   # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-  github: conpantuflas
+  github: 66006600
 
-  twitter: "conpantuflass" #optional
+  twitter:  #optional
 
 
   # Interests or hobies
   interests:
-    - item: Palantas
+    - item: Playa
 
-    - item: 3D web
+    - item: Buceo
 
-    - item: Arte
+    - item: y más playa
 
 # Your previous education
 education:
-  - degree: desarrolladora full-stack
+  - degree: Desarrolladora full-stack
     academy: 4Geeks Academy
     # optional
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    time: mar-2022 - ago-2022
+    time: Feb-2023 - Julio-2023
     details: |
-      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      Estoy en Bootcamp 4geeks Academy. En el aprendí tecnologias como JavaScript,
       React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-      el trabajo grupal con git
+      el trabajo grupal
 
 experiences:
  
@@ -55,9 +56,11 @@ experiences:
     To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
       Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
 
-    Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
-      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
-
     Fooder(Colaborativo): Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas.
       Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
  
+education:
+  - degree: Abogado
+    academy: Universidad Católica Andrés Bello
+    # optional
+    time: Marzo 1995 - Oct-2000
