@@ -1,0 +1,96 @@
+
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Noé
+    last_name: Ibáñez Torres
+    
+    # Define yourself in 4-5 words
+    motto: I like cats and coding
+    
+    # focus
+    focus: Making myself better
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      He estudiado Criminología en la Universidad de Alicante, con la especialidad de investigación privada.
+      Actualmente opositando al CNP y explorando posibilidades y aprendiendo apasionadamente en el mundo del 
+      coding con 4geeksAcademy.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/132618491?v=4
+
+    # Contact Information
+    email: Noesersi@gmail.com #optional
+    phone: 648862432 #optional
+    linkedin: https://www.linkedin.com/feed/?trk=404_page #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Noé Ibáñez Torres
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Hiking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Grado en Criminología
+      university: University of Alicante
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2013-2017
+      details: |
+        Intenso Grado multidisciplinar en ciencias sociales en las que aprendi a estudiar la sociedad desde el punto de vista
+        de la desviación social, para entender estos fenomenos, estudiarlos y prevenirlos. También me especialice en Investigación Privada como rama en esta carrera
+
+
+    
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Camarero
+      time: 2015 - Present
+      company: Taberna Alioli, Alicante
+      # optional
+      details: |
+        Taberna especializada en vinos, en las que desarrollo labores de cocinero y camarero al mismo tiempo.
+
+    - role: Interno en practicas, en Unidad de protección de las familias y violencia de genero
+      time: 2017-2018
+      company: Policia Local San Vicente del Raspeig
+      
+proyectos:
+
+Publicaciones:
+
+Habilidades:
