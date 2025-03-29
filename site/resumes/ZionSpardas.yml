@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Barbosa
+    
+    # Define yourself in 4-5 words
+    motto: Work for money Game for life
+    
+    # focus
+    focus: Master what i can 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am Schooled in Programing but never had any work in programming. I am triyng to change my career path to be able to have a job i can be proud of and be good at it.
+
+      Even though all my experience is not in IT that is what i studied and still triyng to get more knowledge inm the area
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email:  barbosa419@gmail.com #optional
+    phone: +351 91 409 37 77 #optional
+    website: asd.com #optional
+    linkedin: Daniel Barbosa #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Zionspardas
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Begginer
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: WoodWork
+
+      - item: Drift Shows 
+
+# Your previous education
+education:
+    - degree: Full Stack Developer Bootcamp 
+      university: 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      details: |
+          Learning to become a full stack developer 
+
+          - Websites
+          - Apps
+
+    - degree: Secondary School level 4
+      university: Colégio Internato dos Carvalhos 
+      # optional
+      university_logo: 
+      time: 2010 - 2013
+      details: |
+        Scholarhsip in Programming, Software and Hardware Helpdesk, worked with VB, C++, MySql, Html4 and CSS. It was a course focused for the workplace so being a Level 4
+
+          - Websites
+          - Apps
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Recepctionist
+      time: 2021 - 2023
+      company: Residencial S. Gião, Valença do Minho 
+      # optional
+      company_logo: 
+      details: |
+        Worked as a receptionist, maintenance and organizer, working solo in a recepcion. Improved my linguistic skills since it was proeminent English and Spanish
+
+          - Present and Greet
+          - Manager
+
+    - role: Night Auditor
+      time: 2019 - 2020
+      company: Hotel Minho, Vila Meã
+      # optional
+      company_logo: 
+      details: |
+        Receptionist at night shift doing reservations, late Check-ins, printing the closing documents and preparing everything for the morning breakfast. During the day shift doing check-outs and check-ins, doing the e-mail reservations and walk-ins.
+
+        Worked solo and in a group, being very important to develop language skills in English and Spanish
+
+          - Breakfast Preparations
+          - Language Skills
+
+    - role: Kitchen helper
+      time: 2018 - 2018
+      company: Fatum Casa de Fados, Valença
+      # optional
+      company_logo: 
+      details: |
+        Worked as a Kitchen help cleaning dishes, preparing mis-en-place and sometimes cooking and plating, helped to improve coordinating with a member being only two people for a full restaurant
+
+          - Organization
+          - Cooperation
+
+
