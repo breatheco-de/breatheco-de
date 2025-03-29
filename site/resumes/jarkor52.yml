@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Jacobo
+    last_name: Ospina
+    motto: Full Stack Developer
+    avatar: 
+    summary: |
+      Ingeniero Civil Industrial Mecánico de la Pontificia Universidad Católica de Chile,
+      Magíster en Ciencias de la Ingeniería, con experiencia en diversas áreas de negocios, 
+      principalmente en el ámbito de las inversiones y la planificación, evaluación e implementación 
+      de proyectos. 
+
+      
+
+    # Sidebar links
+    email: jacoor626@gmail.com
+    phone: 57- 3005256694
+  
+    github: jarkor52
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: avanzado
+
+    interests:
+      - item: music
+
+
+experiences:
+    - role: Socio Administrador
+      time: 2018 - Actualidad
+      company: Inmob. e Inversiones Santa Isabel Ltda.
+      details: |
+        Gestión activa patrimonio familiar.
+          - Responsable de la toma de decisiones con relación a las nuevas inversiones, buscando
+          siempre mantener un portafolio diversificado y ajustado a nuestro perfil riesgo/retorno.
+          - Compra y venta de bienes raíces comerciales e industriales, gestionar y desarrollar nuevos
+           proyectos comerciales, negociar y buscar la resolución de conflictos con distintas contrapartes.
+
+    - role: Ingeniero de Planificación y Nuevos Negocios
+      time: 2015 - 2018
+      company: El Condor Combustibles
+      details: |
+          - Gestionar y decidir sobre las inversiones de la cartera líquida del grupo ascendente a
+            $12.000 millones (en promedio).
+          - Evaluar proyectos de inversión relacionados a diversas industrias.
+          - Estudiar y recomendar sobre participar en distintos proyectos de capital de riesgo.
+          - Liderar el proceso de venta de una red de ductos soterrados para telecomunicaciones
+            presentes en la V Región de por un monto cercano a USD 2 millones.
+          - Participar en la preparación de información estratégica relevante de la operación de la
+            Compañía, tales como fusiones, compra/venta de empresas y nuevos negocios.
+          - Preparar informes de gestión de empresas de interés del Directorio.
+          
+    - role: Analista Plain Financiero e Inversiones
+      time: 2012 - 2015
+      company: ISA INTERVIAL
+      details: |
+          - Modelación, evaluación y estructuración de nuevos proyectos. 
+          - Mayor logro, reestructurar y refinanciar deuda de Ruta de la Araucanía (MMUSD 380).
+          - Control, seguimiento y gestión de covenants financieros.
+          - Análisis de deuda, Bonos y Créditos Sindicados.
+          - Negociación con bancos, inversionistas, tenedores de bonos y otros. 
+
+education:
+    - degree: Magíster en Ciencias de la Ingeniería
+      university: Universidad Católica de Chile
+      time: 2009 - 2010
+      details: |
+        Ingeniería Industrial y de Sistemas. Mención Economía.
+        "Distinción Máxima" en defensa de Tesis.
+         
+    - degree: Ingeniero Civil de Industrias Mención Mecánica
+      university: Universidad Católica de Chile
+      time: 2004 - 2009
+      details: |
+        Titulación con "Distinción Máxima". Nota final 6,0.
+                  
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: randomCardDealer
+        link: "https://github.com/LReyes29/randomCardDealer.git"
+        tagline: "A responsive website template designed to practice DOM & Events."
+        
+      - title: domainNameGenerator
+        link: "https://github.com/LReyes29/domainNameGenerator.git"
+        tagline: "A responsive website template designed to practice Javascript."
+
+      - title: excuseGenerator
+        link: "https://github.com/LReyes29/excuseGenerator.git"
+        tagline: "A responsive website template designed to practice Javascript."
+
+      - title: photoFeed
+        link: "https://github.com/LReyes29/photoFeed.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+
+      - title: instagramPostcardBT
+        link: "https://github.com/LReyes29/instagramPostcardBT.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+      
+      - title: instagramPhotoFeedWithBootstrap
+        link: "https://github.com/LReyes29/instagramPhotoFeedWithBootstrap.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+
+      - title: testDigitalPostcard
+        link: "#https://github.com/LReyes29/testDigitalPostcard.git"
+        tagline: "A responsive website template designed to practice HTML5 & CSS."
+skills:
+    toolset:
+      - name: DOM & Events
+        level: 60%
+
+      - name: GIT
+        level: 95%
+
+      - name: Javascript & jQuery
+        level: 90%
+
+      - name: Bootstrap
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
