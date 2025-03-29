@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Larisson
+    last_name: Rivero
+    # Define yourself in 4-5 words
+    motto: You think it, I program it. 
+    
+    # focus
+    focus: FullStack software development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Desarrollador apasionado y autodidacta en busca de oportunidades para crecer profesionalmente. Cuento con conocimientos en programación y habilidades en tecnologías como HTML, CSS (Bootstrap), JavaScript (React), PHP, Python, PostgreSQL y SQL. Me considero un trabajador dedicado, proactivo y con habilidades de comunicación efectiva.
+
+    # Contact Information
+    email: Larissonrivero2@gmail.com #optional
+    phone: 936538767 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this:
+    github: Larisson Rivero
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Fitness
+
+# Your previous education
+education:
+    - degree: Profesor de Informatica
+      university: UPEL Venezuela
+      # optional
+      university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Desarrollador Web 
+      time: 2012 - 2013
+      company: Molinos de Venezuela
+      company_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Realice el Sitio wed de la empresa, utilizando tecnologias como HTML, CSS, JavaScript y PHP para crear experiencias de usuario dinámicas y atractivas, También trabajé con bases de datos y servidores para desarrollar aplicaciones web completas y escalables. 
+       
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: Javascript
+        level: 70%
+
+      - name: React
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Git
+        level: 70%
+
+      - name: PostgreSQL
+        level: 70%
+
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
