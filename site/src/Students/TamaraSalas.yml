@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tamara
+    last_name: Salas
+    
+    # Define yourself in 4-5 words
+    motto: Estoy aquí para aprender 
+    
+    # focus
+    focus: Aprende aprende aprende
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy Educadora Diferencial y me he dedicado 13 años de mi vida profesional a trabajar en escuelas
+      de lenguaje y en programas de integración; pero por otro lado siempre sentí que mi vida profesional
+      en algún momento debería sufrir un quiebre, no sabía cuándo ni qué hacer, solo tenía la certeza de
+      que eso sucedería tarde o temprano. Y bueno, a mis 38 años llegó a mi vida la programación como 
+      una oportunidad de crecimiento profesional y personal. Me arriesgué y puse todo mi empeño en 
+      aprender algo totalmente nuevo para mi, pero con la convicción de que es la carrera del futuro 
+      que entregará muchos puestos de trabajo y buenos sueldos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQG8vip_TP_Lkw/profile-displayphoto-shrink_200_200/0/1665972753173?e=1681344000&v=beta&t=DuJNmTtfTg8nJ3UCW-H33Ru76zxUFsnXhJek8bcs83g
+
+    # Contact Information
+    email: tamara.salasvergara@gmail.com #optional
+    phone: 9 8 367 31 91 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/tamara-salas-vergara-5a8066253/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Naturalis007
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés 
+        level: Básico
+
+      
+
+    # Interests or hobies
+    interests:
+      - item: Lettering
+
+      - item: Zendoodle
+
+      - item: Cocina dulce
+
+# Your previous education
+education:
+    - degree: Psicpedagogía
+      university: Instituto Profesional Los Leones
+      # optional
+      university_logo: 
+      time: 2002-2006
+      details: |
+        Carrera enfocada a entregar herramientas de aprendizaje a personas que presenten o no dificultades
+        de aprendizaje en las áreas cognitiva, instrumental y/o emocional.
+
+    - degree: Educación Diferencial mención TEL
+      university: Universidad Autónoma de Chile
+      # optional
+      university_logo: 
+      time: 2008-2010
+      details: |
+        Carrera enfocada en apoyar a estudiantes que presenten dificultades de lenguaje expresivo y/o 
+        comprensivo, a través de la estimulación de las áreas fonológica, semántica, sintáctica y pragmática.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Educadora diferencial
+      time: 2009-2010
+      company: Escuela de lenguaje "Bella Acuarela" y "Elefante Melodía"
+      # optional
+      company_logo: 
+      details: |
+        Profesora de aula a cargo de niveles medios para el desarrollo y la estimulación del lenguaje 
+        en niños y niñas con diagnóstico de TEL mixto y TEL expresivo.
+
+    - role: Educadora Diferencial
+      time: 2011-2021
+      company: Centro de Educación Paula Jaraquemada Alquizar, San Ramón
+      # optional
+      company_logo: 
+      details: |
+        Educadora diferencial que forma parte del programa de integración del establecimiento a cargo de 
+        los estudiantes que poseen diagnóstico de TEL expresivo y/o mixto, entregando apoyo y herramientas
+        de aprendizaje dentro del aula regular. Trabajo colaborativo con docentes. 
+       
+
+# Your project portfolio
+projects:
+    intro: >
+      Revisda mi GitHub para que veas mi progreso en los proyectos de desarrollo, voy de menos a más.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link:
+        tagline: 
+
+      
+      
+skills:
+    toolset:
+      - name: Javascript
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+     
