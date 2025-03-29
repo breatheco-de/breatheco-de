@@ -1,0 +1,40 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Jose
+    last_name: Soares
+    motto:  Each day you can learn something
+    avatar: https://avatars.githubusercontent.com/u/50368271?s=400&u=58796b9faf725e9e339d51358febbc2e08a6e557&v=4
+    summary: |
+      Basically all my expirience has been in HR. So now I'm tying to learn how to code, since is the coding is the future.
+
+    # Sidebar links
+    email: jfernandosoares7@gmail.com
+    phone: +353 833895557
+    website: github.com/jsoares07 #do not add http://
+    linkedin: jose-soares7
+    github: jsoares07
+    twitter: '@JFernandoSoares'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: c1
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Technology
+
+      - item: Music
+
+      - item: Videogames
+
+education:
+    - degree: Bachelor’s degree in Education, with specialization in “Human Resources Development”
+      university: Central University of Venezuela
+      time: 2010 - 2015
