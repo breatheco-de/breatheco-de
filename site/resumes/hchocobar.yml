@@ -1,0 +1,190 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hector
+    last_name: Chocobar-Torrejon
+    
+    # Define yourself in 4-5 words
+    motto: BE, CS. Don't worry, be happy!
+    
+    # focus
+    focus: educational
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Bachelor of Engineer in Computer Science based in Uruguay, graduated in 1994 from the National Technological University (Argentina), and with specializations in Web Development, Programming and Data Science made at the University of Michigan.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://chocobar.net/hectorchocobar
+
+    # Contact Information
+    email: hector@chocobar.net #optional
+    phone: +598 99203277 #optional
+    website: https://chocobar.net #optional
+    linkedin: https://linkedin.com/in/hector-chocobar #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hchocobar
+    
+    twitter: 'hector_chocobar' #optional
+    stack-overflow: 18981955/hector-chocobar-torrejon # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Initial
+
+    # Interests or hobies
+    interests:
+      - item: Rugby Union
+
+      - item: Golf
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BE in Computer Science
+      university: Technological National University (Argentina)
+      # optional
+      university_logo: https://chocobar.net/utn
+      time: 1988 - 1994
+      details: |
+        Grade: Ingeniero en Sistemas de Información, Graduated March 1994
+
+    - degree: Specialization in Web Development, Programming with Python, and Data Science
+      university: University of Michigan.
+      # optional
+      university_logo: https://chocobar.net/university-of-michigan
+      time: 2021 - 2022
+      details: |
+        Specialization in:
+
+          - Web Development & Coding
+          - Programming with Python
+          - Data Science
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Example_1 Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Example_2 Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Example_3 UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Example... You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Example, Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Example, DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Example, Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Example, Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Example, Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: React.JS
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Pandas, NumPy, Matplotlib, SciPy, Scikit-learn
+        level: 85%
+
