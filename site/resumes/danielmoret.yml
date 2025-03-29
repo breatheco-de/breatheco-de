@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Moret
+    
+    # Define yourself in 4-5 words
+    motto: Continuous Learning
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Studying to be an Full Stack Developer. I enjoy creating stuff that can help people to solve a specific problem.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+    # Contact Information
+    email: dmoret17@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/daniel-moret-9667a210b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: danielmoret
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: A2
+
+    # Interests or hobies
+    interests:
+      - item: Technology
+
+      - item: Sports
+
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: High School
+      university: Colegio Las Acacias
+      # optional
+      time: 2008 - 2013
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: QA tester
+      time: 2018 - Present
+      company: Rainforest QA
+      details: |
+        Quality control of web and mobile applications
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are some of my github projects for the 4GeeksAcademy course!
+
+    assignments:
+      - title: Instagram photo feed with Bootstrap
+        link: https://github.com/danielmoret/instagram-photo-feed-with-bootstrap
+        tagline: "Instagram clone made with Bootstrap"
+        
+
+      - title: Excuse Generator
+        link: https://github.com/danielmoret/excuse-generator
+        tagline: "Excuse generator made with JavaScript/CSS/HTML"
+       
+
+      - title: Postcard
+        link: https://github.com/danielmoret/postcard-project
+        tagline: "Postcard made with HTML/CSS"
+       
+
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Angular
+        level: 98%
+
+      - name: Illustrator & Photoshop
+        level: 80%
