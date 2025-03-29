@@ -1,0 +1,100 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Carlos
+  last_name: Iglesias
+  motto: Goals don't get closer if you dont chase them.
+  avatar: https://media-exp1.licdn.com/dms/image/C5603AQHA2uisA4389g/profile-displayphoto-shrink_100_100/0/1517511227288?e=1674086400&v=beta&t=ajR0chycCjBLeOtS0wz8tTl3elqJ_ml2gBtMWtjltP4
+  summary: I've been working as IT Manager and i'm looking for a growth opportunity as a Developer.
+
+  # Sidebar links
+  email: carlos.igles@gmail.com
+  phone: 786 873 9436
+  #website: alesanchezr.com
+  linkedin: https://www.linkedin.com/in/caiglesias/
+  github: carlosiglesias-lab
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: Catalan
+      level: Native
+
+    - idiom: English
+      level: High
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022 - 2023
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+
+experiences:
+  - role: Food and Beverage Server
+    time: 01/2020 - 05/2021
+    company: Fritz and Franz Bierhaus
+    details: |
+      Giving our best to please costumers.
+        - Giving recommendations for food and drinks 
+        - Cleaning of FOH
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 45%
+
+    - name: React.js
+      level: 65%
+
+    - name: HTML5 & CSS
+      level: 35%
+
+    - name: Python
+      level: 25%
+
+    - name: FlaskSQL
+      level: 15%
