@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Diego
+  last_name: Casermeiro
+  motto: Estudiante de 4geeksacademy, actualmente vivo en Toronto y apasionado de
+    viajar a cualquier parte del mundo. Me encuentro con ganas de aprender y
+    mejorar día a día en el mundo del desarrollador.
+  focus: Aprender programación
+  summary: |
+    Estoy en el bootcamp de 4geeksacademy donde estoy aprendiendo HTML, CSS...
+  avatar: https://media.licdn.com/dms/image/C5603AQEGGr_LAPQM4A/profile-displayphoto-shrink_800_800/0/1537369863507?e=2147483647&v=beta&t=GgZWsI-rD-SdWC4g2S8sh2mlrNLH4CGiNbagcBlyFKc
+  email: diegokser@gmail.com
+  phone: +34 616559605
+  website: null
+  linkedin: https://www.linkedin.com/in/diegocasermeiro/
+  github: diegokser
+  twitter: diegokser
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Medio
+    - idiom: Spanish
+      level: Nativo
+  interests:
+    - item: Surf
+    - item: Viajes
+    - item: Fortnite
+education:
+  - degree: Desarrollador Full-stack
+    university: 4GeeksAcademy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: Marzo 2023 - Julio 2023
+    details: "Estoy en el BoBootcamp 4geeks Academy, donde aprendo conocimientos
+      sobre HTML, CSS, Bootstrap. Y mejorar mis habilidades comunicativas en
+      trabajos grupales y resolviendo problemas. "
+  - degree: Fisioterapia
+    university: Universidad de Málaga
+    university_logo: null
+    time: 2017 - 2020
+    details: "Estudié el grado de fisioterapia donde pude reforzar mis conocimientos
+      de anatomía y biomecánica del cuerpo, y aprender nuevas técnicas de
+      tratamiento que aplicar en los pacientes. "
+experiences:
+  - role: Terapeuta Ocupacional
+    time: 2021- 2023
+    company: Polibea SL
+    company_logo: null
+    details: Terapeuta ocupacional en el área neurológica.
+  - role: Fisioterapeuta
+    time: 2019- 2020
+    company: Fisiocentrum
+    company_logo:
+      details: "Fisioterapeuta en el área traumatológica. "
+projects:
+  intro: ""
+  assignments:
+    - title: null
+      project_logo: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: "#"
+      tagline: null
+    - title: null
+      project_logo: null
+      link: "#"
+      tagline: null
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+    - name: Javascript & jQuery
+      level: 10%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 30%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 0%
