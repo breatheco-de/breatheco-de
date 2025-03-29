@@ -1,0 +1,209 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: González
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta disfrutar y vivir
+    
+    # focus
+    focus: Disfrutando lo que soy y tengo.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Estudié en el Internado Nacional Barros Arana en donde complementaron los valores
+      que me forman al día de hoy. Pude entrar a la Universidad de Santiago de Chile
+      a Ingeniería Civil en Informática en donde estudie 2 años. En el segundo
+      año de estudio debute en un Hospital con diabetes mellitus tipo 1 insulino 
+      dependiente, lo que generó un cambio radical en mi calidad de vida, lo que
+      me conllevó a no poder continuar mis estudios. Luego de este gran giro en mi vida
+      entre a trabajar y a estudiar de forma más segura (empleo en un Banco y estudios
+      técnicos superiores) hasta hoy, en donde pude volver a la programación con la meta 
+      de volver al Área de estudio que siempre me gusto con una segunda oportunidad.
+
+      A pesar de todo, creo que con mucho esfuerzo pude volver a lo que me gusta.
+      Fueron años dificiles pero que con la ayuda de mi familia, pareja y amigos pude
+      después de un largo camino volver a la senda que siempre quise, la Programación.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: <a href="https://ibb.co/3hBWvqY"><img src="https://i.ibb.co/2KgPSQY/foto-alejandro.jpg" alt="foto-alejandro" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>insertar link html</a>
+
+    # Contact Information
+    email: ale.gonzalez.gut@gmail.com #optional
+    phone: +569 90185913 #optional
+    website: asd.com #optional
+    linkedin: Alejandro González Gutiérrez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlejandroGonzalezG
+    
+    twitter: ' ' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+      - idiom: 
+        level: 
+
+    # Interests or hobies
+    interests:
+      - item: Videojuegos
+
+      - item: Series y películas
+
+      - item: Juegos de mesa.
+
+# Your previous education
+education:
+    - degree: Ingeniería Civil en Informática Incompleta
+      university: Universidad de Santiago de Chile
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2015
+      details: |
+        Cursé durante 2 años la carrera de Ingeniería Civil en Informática la
+        cual no pude completar. Obtuve conocimientos básicos en python y java,
+        además de aprobar la mayoría del plan común de Ingeniería (Algebra, Cálculo,
+        Ecuaciones diferenciales, etc).
+
+
+    - degree: Técnico en Administración de Empresas Financieras
+      university: Instutito Guillermo Subercaseaux
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2019
+      details: |
+        Terminé la carrera de Administración de Empresas Financieras defendiendo
+        mi tésis basado en la ciberseguridad Bancaria que afecto a los grandes Bancos
+        en Chile, tratando como punto central la inexistente medición de los
+        conocimientos básicos en temas de ciberseguridad de sus trabajadores y sobretodo
+        de sus cliente. Ideando de forma preliminar una tabla para diagnosticar
+        en que nivel de conocimiento clasificar a sus clientes y realizar reservas
+        basadas en la probabilidad de que sean victimas de un ciberdelito, así
+        se establece un método para estar preparados en caso de que ocurra un evento
+        de esas características.
+
+          - Obtuve Certificación de Servicio al Cliente.
+          - Obtuve Certicicación de Analista de Operaciones.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Gestor de Requerimientos.
+      time: 2017 - 2022
+      company: Banco Consorcio, Santiago, Chile.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Me desempeñe como Gestor de Requerimientos durante 5 años en Banco
+        Consorcio, en donde realizaba tareas de analisis y respuesta de requerimientos
+        de los clientes que podían ir desde productos persona como Cuenta Vista,
+        Cuenta Corriente hasta productos empresa como Créditos Hipotecarios y Tarjetas
+        de Crédito. Obtuve en mis 5 años evaluaciones positivas, obteniendo siempre
+        un puntaje mayor a lo esperado y 2 años consecutivos obteniendo
+        Bonos por Desempeño en mis evaluaciones anuales.   
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
