@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 template: "online-cv"
@@ -10,69 +10,64 @@ basic_info:
 
     # Your full name
     first_name: Paige
-    last_name: Woman
+    last_name: Black
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: The Resiliant Rennaissance Woman
     
-    # Focus
-    focus: Killing Bad Boys
+    # focus
+    focus: Building a legacy
     
-    # You have 1 paragraph to make a great impression, summarize your career
+    # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+     lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required.
+      
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
+    email: paigeblack@primebeautyintl.net #optional
+    phone: 786 563 2652 #optional
+    website: primebeautyintl.net #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Techprenuer1
     
-    twitter: 'webjeda' #optional
+    
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # Languages you speak, levels include: Native, Professional
+    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    # Interests or hobbies
+    # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Reading
 
-      - item: Snowboarding
+      - item: Traveling
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2023
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        orem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -81,13 +76,13 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: AA Associates of Arts
+      university: Nova Southeastern University
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nova_Southeastern_University_seal.svg/1200px-Nova_Southeastern_University_seal.svg.png
+      time: 2012-2014
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -96,7 +91,7 @@ education:
           - Bullet point
           - Bullet point
 
-# Your previous job experiences or volunteer
+# Your previous job experiences or voluntier
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -150,10 +145,8 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
+     Landing Page using React
+     Star Wars API
     assignments:
       - title: Velocity
         # optional
@@ -190,7 +183,7 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: JavaScript & jQuery
+      - name: Javascript & jQuery
         level: 98%
 
       - name: Angular
