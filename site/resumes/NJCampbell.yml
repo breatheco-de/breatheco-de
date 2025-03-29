@@ -1,0 +1,66 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  # Profile info
+  name: Nancy Campbell
+  tagline: Full Stack Software Developer
+  avatar: https://avatars.githubusercontent.com/u/124710465?v=4
+
+  # Sidebar links
+  email: n.jeannecampbell@gmail.com
+  phone: 352 552 7129
+  
+  linkedIn: nancy-campbell-831a84267
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: NJCampbell
+ 
+
+  languages:
+    - idiom: English
+    - level: Native
+
+  Education: Associate of Arts, Lake Sumter State College
+
+Career Profile: My journey began as a pharmacy technician for Walgreens. I advanced quickly and was recognized for my leadership skills which
+                opened up opportunities for promotion where I assisted the District Pharmacy Operations Manager in training, educating, and driving
+                performance. I missed having a connection with my patients so I left that position to return to store level and brought my knowledge and 
+                experience to deliver excellent patient care and elevate our store to exceed all expectations. Ultimately this career path was not a good fit for 
+                me and I chose to leave and move into the IT world where I worked as Remote Service Technician for Pomeroy. I was exposed to a large variety
+                of systems and hardware from the numerous clients we serviced. I developed my skills in networking, hardware and software troubleshooting and 
+                installation, and project deployment. Making this changeover from healthcare to IT has given me the confidence to pursue my passion of 
+                software development. I look forward to seeing what the future holds. 
+
+Experiences: Remote Computer Technician, RST      2020-2022
+            Pomeroy IT Solutions 
+
+            
+            Senior Certified Pharmacy Technician    2000-2020
+            Walgreens Co.
+
+Projects: Built a tip calculator using Python
+          
+
+Skills: HTML 90%
+        CSS 80%
+        Javascript 20%
+        Python 10%
+        Frameworks - Bootstrap 70%
+        Hardware troubleshooting, maintenance and installation
+        Software deployment and troubleshooting
+        Network troubleshooting, maintenance and installation
+        Linux Server Maintenance
+        Attention to detail
+        Communication
+        Ability to work both independently and cooperatively
+
+
+             
+
+            
+             
+
+  
