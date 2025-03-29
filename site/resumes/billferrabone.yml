@@ -1,0 +1,101 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo
+    last_name: Ferrabone
+    
+    # Define yourself in 4-5 words
+    motto: Enthusiastic, Fun and Perseverant
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+       I´m a professional always learning new skills. Me in 3 words: Enthusiastic, Fun and Perseverant. I'm Trilingual (Spanish, English and Italian) and my great passion is Technology.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://d3a7c97d5beed5ab2c49-7aac60cfdebb59ab39bebc5ac6e3d5b2.ssl.cf5.rackcdn.com/27640000/27642431/_xs959ce358e310887ed8d155f4558024e5.jpg
+
+    # Contact Information
+    email: billferrabone@gmail.com #optional
+    phone: 507 62862278 #optional
+    linkedin: https://www.linkedin.com/in/guillermo-ferrabone-8b753a25 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: billferrabone
+    
+    twitter: 'billferrabone' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Mountain Biking
+
+      - item: Skateboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4geeks Academy
+      # optional
+      university_logo: 
+      time: 2022 - 2023
+      details: |
+        Bootcamp de programacion para aprender lenguajes altamente demandados en el mercado
+        laboral como los que aprendi y donde aprendi a trabajar en equipo en diferentes 
+        proyectos y pruebas. Los conocimientos adquiridos fueron los siguientes
+          - HTML5
+          - CSS
+          - Bootstrap
+          - Lineas de comando CMD/Bash
+          - Git / Github
+          - JavaScript
+          - Webpack
+          - React
+          - Api's
+          - Ajax / JSON / Serialization
+          - SCRUM / UserStories / Kanban / Metodologias Agiles
+          - React router
+          - Data Structures & Model
+          - SQL
+          - Python
+          - Flask
+      
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 70%
+
+      - name: Javascript & jQuery
+        level: 75%
+
+      - name: React
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Git & Github
+        level: 90%
+
+      - name: SCRUM & UserStories
+        level: 80%
