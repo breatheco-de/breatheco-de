@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Hattie Kay
+    last_name: Bahr
+    
+    # Define yourself in 4-5 words
+    motto: Hard working, positive, kind individual
+    
+    # focus
+    focus: Learning to help and improve my life and everyone else's that I can everyday.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |  
+      I am a hardworking adaptable person who has many hobbies that I 
+      accumulate and thrive to grow including dancing, gaming, art and crafting, etc.
+      I participated in some coding exercises in school and instantly became immensely interested. 
+      I continued my interest in web development and coding, jumping into learning everything I could. 
+      I have continued everyday to grow my knowledge with web and coding development 
+      and hope to continue for the rest of my live.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: profile-pic.jpg #inside static/profile-images/
+
+    # Contact Information
+    email: kaybear0002@gmail.com
+    phone: 385-223-6879
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: KayBahr
+    
+
+    stack-overflow: 21160959/kay # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Dancing
+
+      - item: Gaming
+
+      - item: Art and Crafting
+
+# Your previous education
+education:
+    - degree: High School Degree
+      university: Salem Hills High School
+      time: 2016 - 2019
+      details: | 
+        High School Degree for general studies.
+
+
+# Your previous job experiences or voluntier
+experiences:  
+    - role: Associate Support
+      time: 2021-2022
+      company: Asea Global
+      details: |
+        
+
+    - role: Team Member
+      time: 2019-2021
+      company: Joann's Fabric Store
+      details: |
+        
+
+    - role: Assistant
+      time: 2017-2018
+      company: Rosestone Manor Assisted Living
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:  #none of these?
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:  # not completed?
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Javascript
+        level: 40%
+
+      - name:  Python
+        level: 30%
