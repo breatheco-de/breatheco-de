@@ -1,0 +1,208 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Roberto
+  last_name: Lopez
+
+  # Define yourself in 4-5 words
+  motto: Learn, experience, and repeat.
+
+  # focus
+  focus: Programming
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Fullstack Web Developer, Architect, photographer, and audiovisual content creator for local and international tourism audiences with broad experience in marketing for hotels, brands and services through social media. Entrepreneur and owner of personal brand Café Terra Santos, Costa Rica.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: http://sep.breatheco.de/static/profile-images/Roberto.JPG
+
+  # Contact Information
+  email: roberto@lightsaint.com #optional
+  phone: +506 88212970 #optional
+  website: lightsaint.com #optional
+  linkedin: etolopez #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: etolopez
+
+  twitter: "etohacearte" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+  # Interests or hobies
+  interests:
+    - item: Art and Illustration
+
+    - item: Cycling
+
+    - item: Coffee
+
+    - item: Crypto/Web3
+
+# Your previous education
+education:
+  - degree: Fullstack Web Developer Bootcamp
+    university: Udemy
+    # optional
+    Company logo: https://s1.qwant.com/thumbr/0x380/9/4/6a699df1f2221a95ff5a79819ca2612331aa1a69b3199809c149b11b8e4488/udemy-logo.png?u=https%3A%2F%2Flearndashcom.lightningbasecdn.com%2Fwp-content%2Fuploads%2Fudemy-logo.png&q=0&b=1&p=0&a=0
+    time: 2021-2022
+    details: |
+      Learned the basis of Fullstack Web Development, how to create, design and deploy
+      a working website using HTML, CSS, JS, Express, NodeJS, JSON and jQuery.
+
+  - degree: Social Media Marketing Certificate
+    university: Brainstation, Canada
+    # optional
+    Company logo: https://s1.qwant.com/thumbr/0x0/a/3/d32a7f82c21d8829d319a55482e4cedfb2436aadc3f6bb95cb7b59f6f12041/blacksquare-logo.jpg?u=https%3A%2F%2Fcourse_report_production.s3.amazonaws.com%2Frich%2Frich_files%2Frich_files%2F4555%2Fs300%2Fblacksquare-logo.jpg&q=0&b=1&p=0&a=0
+    time: 2019
+    details: |
+      Learned how to effectively, via design and testing, make successful social media
+      marketing campaigns.
+
+  - degree: Certificate/ Entrepreneurial course "Mi hijo es un Artista"
+    university: Pejibaye Consulting, Costa Rica
+    # optional
+    time: 2017
+    details: |
+      Learned how to 'wear many hats' as an entrepreneur in terms of social media managing, 
+      accounting, designing and creating all the necessary components to work as a 
+      one-man company.
+
+  - degree: Lic. Architecture
+    university: Veritas University
+    university logo: https://s2.qwant.com/thumbr/0x0/5/8/8acc248f0eeedbe2a99df1f0a45465332f996727f573b455a040faae508492/logo-veritas-220x51px.ashx.jpg?u=http%3A%2F%2Fwww.veritas.cr%2F~%2Fmedia%2Fimages%2Fresponsive%2Funiversidadveritas%2Fhome%2Flogo-veritas-220x51px.ashx&q=0&b=1&p=0&a=0
+    # optional
+    time: 2010 - 2016
+    details: |
+      Architecture degree in order to work as a professional in the field in Costa Rica. 
+      Mastered design concepts, learning about customers and their environment, 
+      conceptualizing spaces in direct relationship with needs and wants of the 
+      client.
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: Fulltime Video Editor
+    time: 2021 - Present
+    company: Amazon, Costa Rica
+    # optional
+    company_logo: https://s1.qwant.com/thumbr/0x380/1/b/6469715a6797d39620f4082ff269ff2debad32d94465ebcf2973aac7b79b61/amazon_PNG5.png?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Famazon%2Famazon_PNG5.png&q=0&b=1&p=0&a=0
+    details: |
+      Work alongside a team of editors to edit and create video Ads for multiple clients. This
+      also includes working alongside multiple stakeholders to better improve quality and customer
+      experience.
+
+  - role: Freelance Audiovisual Content Creator
+    time: 2015 - Present
+    company: Freelance, Costa Rica
+    # optional
+    details: |
+      5+ years creating, editing and producing high quality videos and photography for brands
+      and companies who want to communicate their story.
+              
+      Relationship builder of more than 40 satisfied clients with
+      photography in products, brands, hotels or architecture, such as;
+
+      Mawamba Lodge, Express Store, Ecoterra Expeditions, Universidad Santa Paula,
+      Kendall Waston, Costa Rent a Car, Infotree Global Solutions, Peninsula Condominums,
+      Amex for Foodies, and others.
+
+      Managed dynamic team environments that include,
+      but are not limited to, assistant, second photographer/
+      videographer, and models.
+
+      Provided tutorial lessons for individuals or groups on
+      various aspects of photography and social media, from novice to expert levels.
+
+      Created and designed branding for client-specific brands.
+
+  - role: Owner and Manager of Personal Coffee brand
+    time: 2016 - Present
+    company: Cafe Terra Santos
+    # optional
+    details: |
+      Grows brand community though targeted social media campaigns and influencers.
+
+      Administration of payment and sales.
+
+      Organizes delivery and quality standards of product.
+
+      Designed packaging and visual representation for high quality social media engagement.
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Photoshop/Lightrrom/Illustrator/Indesign
+      level: 95%
+
+    - name: Procreate
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 85%
+
+    - name: Sketch & Photoshop
+      level: 60%
