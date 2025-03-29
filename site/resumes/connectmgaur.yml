@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Meenakshi
+    last_name: Gaur Chauhan
+    
+    # Define yourself in 4-5 words
+    motto: Learning everyday. 
+    
+    # focus
+    focus: Learning Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have done engineering in CS and PG Diploma in HR. I'm a professional Scrum master and certified Agile Coach.
+      Have been working in HR domain for past 10 years but always curious for learning coding and software development and get into the field of coding.Now planning to switch the career
+      and get into full time coding opportunities.
+      
+
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: connect**@gmail.com#optional
+    phone: 234 2342 342 #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: connectmgaur
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Hindi
+        level: Professional
+
+
+    # Interests or hobies
+    interests:
+      - item: Travelling
+
+      - item: 
+
+# Your previous education
+education:
+    - degree: B.Tech in Computer Science
+      university: Kurukshetra University, India
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2004 - 2008
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+degree: Post Graduate Diploma in HR Management
+      university: Symbiosis, India
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2004 - 2008
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+    -
+    assignments:
+      - title: Instagram photo feed (bootstrap)
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Excuse generator (javascript)
+        tagline: Randomly generate excuses using plain javascript and html
+
+
+
