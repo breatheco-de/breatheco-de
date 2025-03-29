@@ -1,0 +1,114 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hussein
+    last_name: Serhan
+    
+    # Define yourself in 4-5 words
+    motto: I am a language interface
+    
+    # focus
+    focus: I facilitate language processing tasks.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      As a former chief of staff at a Y Combinator startup, I have experience managing and leading teams to success. 
+      In addition, my proficiency in multiple languages allows me to communicate effectively with people from diverse backgrounds. 
+      I've also worked as a tech consultant at Oracle, where I gained experience in software development and honed my analytical skills. 
+      As a self-taught programmer, I'm continuously learning and expanding my technical knowledge. 
+      With my diverse background and expertise in both business and technology, I bring a unique perspective and valuable skills to any project or team.
+    
+    # Your profile picture URL
+    # https://media.licdn.com/dms/image/C4E03AQFTsb86DYy7eA/profile-displayphoto-shrink_800_800/0/1610487079028?e=1683763200&v=beta&t=Rvwkg4lrtHGzIFrR5yOOBzZjchVdm_9tCmhQf7U6lVM
+
+    # Contact Information
+    email: husseinserhan3012@gmail.com #optional
+    phone: 613 400 7974 
+    linkedin: https://www.linkedin.com/in/hussein-serhan/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: HusseinSerhan
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Working Out
+
+      - item: Techno Music
+
+      - item: Painting
+
+# Your previous education
+education:
+    - degree: Economics and Management Science
+      university: Toronto Metropolitan University
+      # optional
+      university_logo: https://media.licdn.com/dms/image/C560BAQF2qOWeK9ayhQ/company-logo_100_100/0/1657046815044?e=1686182400&v=beta&t=Wvic4WEUaeA3T_jz0lYcFNh6aMoemUqRxMn-OTIeT3c
+      time: 2018 - 2021
+      details: | 
+        I am proud to have earned a Bachelor of Commerce, Economics, and Management Science degree from Toronto Metropolitan University. 
+        During my time there, I was actively involved in the investment and debate club and was able to successfully balance my academics and extracurricular activities. 
+        Despite being the first person in my family to pursue higher education, I was able to complete my studies with distinction (Cum Laude) in record time.
+        
+    - degree: Full Stack Development Certificate | Part-Time Program
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023
+      details: |
+        Skills: React | JavaScript | ReactJS | Django | Python | ApiREST | Test | Scrum | GIT | HTML | CSS | MaterialUI | Bootstrap | SQL | Postgres
+# Your previous job experiences or voluntier
+experiences:
+    - role: Chief Of Staff
+      time: 2022
+      company: Truora, Bogota, COL
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4E0BAQGKX0j8j_vzOg/company-logo_100_100/0/1658934347710?e=1686182400&v=beta&t=x6I-M2Odh_aPr91kxT-cg7ac0AgJskUoJM1Fh6bhujE
+      details: |
+        Acted as a liaison between the Chief Product Officer and internal and external stakeholders, managing complex relationships and ensuring effective communication and collaboration.
+        
+        Coordinated with cross-functional teams and departments to ensure seamless execution of projects and initiatives, while maintaining alignment with organizational goals and objectives.
+        
+        Provided leadership and direction in high-pressure, fast-paced environments, demonstrating resilience, adaptability, and a solutions-oriented approach.
+         
+    - role: Associate Consultant
+      time: 2021 - 2022
+      company: Oracle, Toronto, CAN
+      # optional
+      company_logo: https://media.licdn.com/dms/image/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/0/1665755678671?e=1686182400&v=beta&t=EMTLa5l7uYCicETUhuuw6ewxDh0anz0j3JI3IZYrFfg
+      details: |
+        Provided strategic consulting and technical expertise to clients in various industries, using strong communication and interpersonal skills to understand their needs and develop effective solutions.
+        
+        Built and maintained positive relationships with clients, ensuring a high level of customer satisfaction and repeat business.Provided strategic consulting and technical expertise to clients in various industries, using strong communication and interpersonal skills to understand their needs and develop effective solutions. Built and maintained positive relationships with clients, ensuring a high level of customer satisfaction and repeat business.
+        
+        Skills: System Deployment · NetSuite · Software Implementation
+        
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: Javascript 
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+
