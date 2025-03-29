@@ -1,0 +1,184 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maximiliano
+    last_name: Gómez
+    
+    # Define yourself in 4-5 words
+    motto: Flexible, Responsable, ceartivo, Apasionado. 
+    
+    # focus
+    focus: Aprender constantemente.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Estudiante, sin es¿xperiencia laboral.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQGTctfuawQGYw/profile-displayphoto-shrink_400_400/0/1690424100061?e=1695859200&v=beta&t=MpbyIshEV74Bev4l68zQgTmgNBEvQVsg_TwPJRAppr8
+
+    # Contact Information
+    email: m.gomezcoitino@gmail.com #optional
+    phone: --- #optional
+    website: --- #optional
+    linkedin: https://www.linkedin.com/in/maximiliano-gomez-coitino/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MaxGoxt
+    
+    twitter: '---' #optional
+    stack-overflow: --- # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Portugués
+        level: Professional
+
+      - idiom: Inglés
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Diseño 3D
+
+      - item: Dibujo
+
+      - item: Actividades Físicas
+
+# Your previous education
+education:
+    - degree: Tecnólogo en Análisis y Desarrollo de Sistemas
+      university: Universidad Utec del Uruguay
+      # optional
+      university_logo: https://utec.edu.uy/assets/static/LOGO_HEADER.svg
+      time: 2023 - Actalmente
+      details: |
+        Soy estudiante de la carrera de análisis y desarrollo de sistema.
+
+    - degree: Desarrollo Web Full-stack
+      university: 4Geeks Academy  
+      # optional
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      time: 2023 - Actualmente
+      details: |
+        Estudio desarrollo web full-stack, aplicando tecnologías como:
+
+          - HTML
+          - CSS
+          - Bootstrap
+          - Git/ Git Hub
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: ---
+      time: ---
+      company: --
+      # optional
+      company_logo: ---
+      details: |
+        ---
+
+          - ---
+          - ---
+
+    - role: --
+      time: --
+      company: --
+      # optional
+      company_logo: ---
+      details: |
+        ---
+        ---
+        ---
+        ---
+        ---
+
+          - --
+          - --
+
+    - role: ---
+      time: ---
+      company: ---
+      # optional
+      company_logo: ---
+      details: |
+        ---
+        ---
+        ---
+        ---
+        ---
+
+          - ---
+          - ---
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
