@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: blue 
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Gomez
+    
+    # Define yourself in 4-5 words
+    motto: Tomorrow is another day.
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://mdc.blackboard.com/avatar/user/_494785_1?ts=1663800589879
+    # Contact Information
+    email: josemiguelgp17@gmail.com
+    phone: 786-602-5776
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jogomze
+    
+    twitter: josemiguelgmezp
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Soccer
+
+      - item: Concerts
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Computer Science Associate in Arts
+      university: Miami Dade College
+      # optional
+      university_logo: https://en.wikipedia.org/wiki/Miami_Dade_College#/media/File:Miami_Dade_College_logo.svg
+      time: 2021 - present.
+      details: Currently in my last year of Computer Science, looking forward to transfer to a Computer Science Bachelor in Science in Florida International University
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Learning Ambassador
+      time: 2020 - Present
+      company: Amazon Fullfilment Center MIA 1
+      # optional
+      company_logo: https://press.aboutamazon.com/system/files-encrypted/nasdaq_kms/inline-images/Amazon-logo.jpg
+  
+            - Developed on boarding classes for new hires in different departments (pack multi and
+            single).
+            - Taught associates different positions in the department such as sorting, pack singles and
+            slam.
+            - Coached and helped associates to solve all the problems they would have.
+            - Guided the associates to improve the skills in the work field.
+            - Learned how to do the work as a Process Assistant.
+            - Managed the staffing of the associates in the floor.
+            - Handled the problems of the process assistant helping the managers.
+            - Trained on different positions throughout the building
+            - Gained the permissions to pack single and multi, counting simple cycle, managed the sort
+            stations, problem solve (checking, collection, jackpot), slam operator (intermediate level).
+            - Approved the certification to clear jams.
+            - Set goals to the associates to reach at the estimated level of development in the pack
+            process.
+            - Evaluated through audits the skills of the associates and their improvements. 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
