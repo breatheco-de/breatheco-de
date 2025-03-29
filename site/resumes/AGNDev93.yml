@@ -1,0 +1,177 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yimy Alejandro
+    last_name: García Navia
+    
+    # Define yourself in 4-5 words
+    motto: Humanity, creativity and continuous learning
+    
+    # Focus
+    focus: Technology, languages and public-private value 
+    
+    # You have 1 paragraph to make a great impression, summarize your career 
+    summary: |
+     I am a person with a high capacity for learning and a love of knowledge, 
+     with technical and social skills to create public-private value. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/172032428?s=400&u=96989514d97d26f268513ab87399aa7127066fbe&v=4 
+
+    # Contact Information
+    email: alejogarcia@unicauca.edu.co 
+           agndev93@gmail.com
+    phone: 314 745 0542
+    website: https://github.com/AGNDev93 #optional
+    linkedin: https://www.linkedin.com/in/agndeveloper/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AGNDev93
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+
+      - item: Oratory
+
+      - item: Languages
+
+      - item: Public Policy
+
+      - item: Social Sciences
+
+      - item: Robotic
+
+      - item: Software
+
+      - item: Walking
+
+# Your previous education
+Education:
+    - Master's degree: Master in Government and Public Policy
+      University: University of Cauca
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/5/57/Escudo_original_de_la_universidad_del_Cauca.jpg 
+      time: 2021 - 2024  
+
+    - Master's degree: Specialization in Government and Public Policy
+      University: University of Cauca 
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/5/57/Escudo_original_de_la_universidad_del_Cauca.jpg 
+      time: 2019 - 2020
+
+    - Degree: Political Science
+      University: University of Cauca
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/5/57/Escudo_original_de_la_universidad_del_Cauca.jpg 
+      time: 2014 - 2018
+     
+    - Degree: Electronic Engineering
+      University: Autonomous University of Cauca
+      # optional
+      university_logo: https://www.uniautonoma.edu.co/sites/default/files/contenido/logo_autonoma_png.png
+      time: In progress
+ 
+# Your previous job experiences or volunteer
+Experiences:
+  - Role: Institutional Manager
+    Time: 2024-2024
+    Company: Toribio Maya Training Institute 
+
+  - Role: Social Sciences Teacher
+    Time: 2021-2024
+    Company: Divine Child Educational Institution
+  
+  - Role: Public Policy Consultant
+    Time: 2021 - 2021
+    Company: Open Government
+
+  - Role: Project formulation and political advocacy
+    Time: 2019 - 2022
+    Company: Cauca Departmental Women's Network
+
+  - Role: Facilitator of political participation workshops
+    Time: 2010 - 2020
+    Company: Cauca Departmental Women's Network
+    
+  # Your project portfolio
+projects:
+
+  intro: >
+    Projects developed at the 4geeks academy, personal and at the university
+
+  assignments:
+
+    - title: Looping FizzBuzz
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: Random javascript excuses
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: Feed Instagram with Bootstrap and HTML/CSS
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: HTML5 Form with Bootstrap
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: Line following robot
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: In reserve
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+ 
+skills:
+    toolset:
+
+      - name: Python & Django
+        level: 100%
+
+      - name: JavaScript & jQuery
+        level: 100%
+
+      - name: React
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+      
+      - name: Bootstrap
+        level: 100%
+
+      - name: C++
+        level: 98%
+
+
+  
+
+      
