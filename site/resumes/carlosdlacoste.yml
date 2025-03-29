@@ -1,0 +1,43 @@
+
+
+
+template: "online-cv"
+skin: "orange"
+
+
+# Personal Information
+basic_info:
+
+  first_name: Carlos
+  last_name: D'Lacoste
+
+
+  summary: |
+    I am a person who always gives 100% of myself in everything I do.
+    I like to live new adventures and if in the process I share with 
+    incredible people that is what satisfies me the most as a human being.
+
+  # Contact Information
+  email: cdlacostesalazar@gmail.com 
+  phone: +58 55555555 
+  github: carlosdlacoste
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+# Previous education
+education:
+  - degree: Systems Engineering
+    university: Universidad Metropolitana de Caracas
+    time: sep-2013 - nov-2022
+    details: |
+      Systems Engineering at UNIMET allows me to acquire some abilities and to take my first steps 
+      as a programmer, acquiring the knowledge required for understanding the logic applied to
+      this area. Also, that helps me face a lot of challenges and problems in which it was 
+      necessary to look for and implement the best possible solution.
+
+    
