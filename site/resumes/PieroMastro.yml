@@ -1,0 +1,203 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Pier
+  last_name: Mastrogiacomo
+
+  # Define yourself in 4-5 words
+  motto: Always strive to do your best, regardless of the outcome.
+
+  # focus
+  focus: Becoming a Full Stack developer and building a long-term career as a developer.
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    From Medical Sciences to the ever-expanding digital world, I started this journey with something in mind.
+    I am giving my professional life a complete overhaul and becoming a Full Stack Developer.
+    Since I was a teenager back in the 90s, always had a thing about tech and computers in general,
+    I went to Medical School and then moved to Chile to pursue a major in Biomedical Sciences.
+    The pandemic struck, and I had a massive change in the way I lived my life, became a dad and I noticed something was missing, I wanted to spend more time with my kids.
+    Now I'm looking for an opportunity to work from home and be with my family, keep learning and hopefully find a job that allows me to continue to grow as a father and a developer.
+    I'm Honest, hard-working, and trustworthy with a lot of experience working as part of a team and individually, and always hungry for knowledge.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://i.imgur.com/K1ZWeyd.png
+
+  # Contact Information
+  email: pier.andres@gmail.com #optional
+  phone: +58 412 240 1280 #optional
+  website: asd.com #optional
+  linkedin: https://linkedin.com/in/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: PieroMastro
+
+  twitter: "webjeda" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: C1
+
+    - idiom: Italiann
+      level: Basic
+
+  # Interests or hobies
+  interests:
+    - item: Passionate about Arts, Music and Science, a geek for techology and all things related.
+
+    - item: Fan of Hiking and Sports in general.
+
+    - item: Cooking (I try), always looking for some nice movie/TV serie to add to my backlog.
+
+# Your previous education
+education:
+  - degree: Bachelor of Medicine
+    university: University of Carabobo
+    # optional
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/c/c3/UC_logo.png
+    time: 2000 - 2008
+    details: |
+      Molecular biology, histology, embryology, biochemistry, anatomy.
+      Pharmacology, pathology, physical examination and Clinical Cycle.
+
+       - Bullet point
+       - Bullet point
+
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 85%
+
+    - name: Sketch & Photoshop
+      level: 60%
