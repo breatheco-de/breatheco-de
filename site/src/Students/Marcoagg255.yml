@@ -1,0 +1,11 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+email: marcoguevara255@gmail.com
+phone_contact: +34 666 31 23 22
+
+    # Your full name
+    first_name: Marco
+    last_name: Guevara
