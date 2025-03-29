@@ -1,0 +1,83 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Información de perfil
+  first_name: Iván
+  last_name: González
+  motto: D'oh!
+  avatar: data:image/png;base64,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
+  summary: |
+    Full Stack Developer
+
+  # Sidebar links
+  email: ivan.ggonzalez@gmail.com
+ 
+  github: IvanGonzalezRecruiter
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2022
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: FlaskSQL
+      level: 75%
