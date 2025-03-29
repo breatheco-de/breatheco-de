@@ -1,0 +1,104 @@
+
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    first_name: Frederico
+    last_name: Rodrigues
+    motto: A philosofical MD Coder wants to conquer the world before AI
+
+    avatar: https://ibb.co/ChR9W69
+
+    summary: |
+        I would love to truly integrate my humanistic view of the world with scientific rigor into Web Development. 
+        
+        I strongly aspire to collaborate with ambitious medical companies in the market offering a detail oriented mind and adiversified skil-set.
+        
+        Having a medical training background and having practiced as a Medical Doctor, I realized my areas of interest expand much more than the traditional path. 
+
+        I am proactive, creative, analytical and tipically stand out for my leadership and ambition.
+        
+        I have also become quite keen on Philosophy with a special interest in Phenomenology and Bioethics.
+
+    email: frederico2191@gmail.com
+    linkedin: https://www.linkedin.com/in/frederico-rodrigues-fullstack-developer/
+    github: frederico2191
+
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+      - idiom: Spanish
+        level: Bilingual
+
+      - idiom: Polish
+        level: Bilingual
+
+      - idiom: French
+        level: A2
+
+      - idiom: Dutch/Flemish
+        level: A2
+
+      
+    interests:
+      - item: Music Production
+
+education:
+    - degree: Doctor of Medicine
+      university: Faculty of Medicine of the University of Coimbra
+      time: 2009 - 2015
+      details: The 3% Best Students Award in the academic year 2013/2014
+
+    - degree: Exchange Year
+      university: Medical University of Warsaw
+      time: 2012-2013
+      details: Medical English, Medical Ethics and completion of 180 hours of Medical Polish clases with finishing grade A+.
+
+    - degree: Bachelors degree in Philosophy of Being, Cognition, and Value
+      university: University of Warsaw
+      time: 2018-2022
+      details: Focus on Logic and Semiotics, Philosophy of Medicine and Bioethics.
+
+    - degree: Full-Stack Developer
+      university: 4Geeks Academy
+      time: 2023
+    
+
+experiences:
+    - role: Medical Doctor
+      time: 2017-2018
+      company: Centro Hospitalar Entre Douro e Vouga, Portugal
+      details: |
+       50 hours/week workload whilst engaging in a postgraduate GP training.
+
+    - role: Medical Doctor
+      time: 2015-2016
+      company: he Public Central Teaching Hospital on Banacha Street, Warsaw, Poland.
+      details: |
+       50 hours/week workload whilst engaging in a postgraduate GP training.
+
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: Python
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: SQL
+        level: 85%
+
+      - name: Jest
+        level: 60%
