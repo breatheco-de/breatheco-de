@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Queenette
+  last_name: Minter
+
+  # Define yourself in 4-5 words
+  motto: Keep pushing forward
+
+  # focus
+  focus: Life
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    As a beginner Junior Full Stack Developer, I am extremely passionate about my craft and am always striving to improve my skills and knowledge in both front-end and back-end development.
+    I have built a solid foundation in various programming languages such as HTML, CSS, and JavaScript, and have demonstrated proficiency in various frameworks and libraries such as React, Node.js, and Express.
+    Working on collaborative projects has allowed me to effectively communicate with team members and deliver high-quality code in a timely manner. 
+    I am enthusiastic about solving complex problems and learning new technologies, and I believe that my eagerness to continue growing and developing my skills makes me a valuable asset to any team.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: queenette.minter001@mymdc.net #optional
+  phone: TBD #optional
+  website: TBD #optional
+  linkedin: TBD #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: qmint001
+
+  twitter: "TBD" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: Spanish
+      level: Beginner
+
+    - idiom: Arabic
+      level: Beginner
+
+  # Interests or hobies
+  interests:
+    - item: Writing
+
+    - item: Reading
+
+    - item: Composing
+
+# Your previous education
+education:
+  - degree: Criminal Justice Aministration
+    university: Miami Dade College
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+  - role: TBD
+    time: TBD - Present
+    company: TBD
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+
+    - name: Javascript & jQuery
+      level: 20%
+
+    - name: Angular
+      level: 0%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 0%
+
+    - name: Sketch & Photoshop
+      level: 0%
