@@ -1,0 +1,93 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+  # Your full name
+  first_name: Débora
+  last_name: Díaz Pérez
+  
+  # Define yourself in 4-5 words
+  motto: Curious
+  
+  # focus
+  focus: Gaming, food, friends, CODE
+  
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Diploma in Film School. Graduated in self learning via internet
+  
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars2.githubusercontent.com/u/73470664?s=460&u=e3e8302070d5baaa27a97b031d57d49c45bae80f&v=4
+
+  # Contact Information
+  email: deboradiazper@gmail.com #optional
+  phone: nophoneadded #optional
+  website: nowebadded #optional
+  linkedin: https://www.linkedin.com/in/debora-d%C3%ADaz-p%C3%A9rez-8407223b/ #optional
+  
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Deboradiazper
+  
+  twitter: '@httpdbr' #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: Catalan
+      level: Native
+
+    - idiom: English
+      level: Mid-high
+
+  # Interests or hobies
+  interests:
+    - item: Gaming
+
+    - item: Cooking
+
+    - item: Internet
+
+# Your previous education
+education:
+    - degree: Film School Diploma
+      university: Bande à Part Film School
+      # optional
+      time: 2011-2014
+      
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Technical Support Advisor
+      time: 2014 - 2019
+      company: Sellbytell
+      # optional
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
