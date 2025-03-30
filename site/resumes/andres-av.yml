@@ -1,0 +1,165 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andres
+    last_name: Abarca
+    
+    # Define yourself in 4-5 words
+    motto: After years of experience operating and managing different projects related to volunteering, continuous process improvement and other technical and technological projects, I have become passionate about meeting the highest standards with a detail oriented approach. I find it fulfilling to collaborate in a company where the projects we develop impact positively the lives of others, while keeping sustainability as a priority. 
+
+       I am always looking forward to learning and improving, and I believe constant and meaningful feedback is key when achieving these goals. 
+
+       I am autonomous and self-directed when managing my workload. However I like being a team player and always being eager to help.
+    
+    # focus
+    focus: Focused on constant learning, process and project improvement and teaching, training or tutoring others. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      First employed as a Tour Guide in Costa Rica, I have developed great customer service skills. However, lately I have been transitioning to the technological industry, first, by taking 
+      advantage of the Career Choice program at Amazon to study project Management, then getting trained in Scrum Master and Agile Methodologies and most recently, becoming a full-stack web developer, I am aiming to
+      collaborate in meaningful and challenging programming projects that enhance people's daily lives.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/fotoPerfil.jpg
+    
+    # Contact Information
+    email: jandresav1793@gmail.com #optional
+    phone: 684 345968 #optional
+#     website: #optional
+    linkedin: https://www.linkedin.com/in/andres-abarca/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andres-av
+    
+#     twitter: #optional
+#     stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Proficient
+
+      - idiom: Italian
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Arts
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Project Management
+      university: Universidad Politecnica Internacional
+      # optional
+#       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021
+      details: |
+        Costa Rica - Amazon scholarship to study Cascading Project Management. Developing different skills such as Team Leadership, Risk, Budget, Time and Quality Management.
+    - degree: Full-stack Web Developer
+      Bootcamp: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022
+      details: |
+       Became a Full Stack Web Developer, working proficiently with languages as HTML5, CSS3, JavaScript, Python with frameworks as Bootstrap, Angular among others. 
+# Your previous job experiences or voluntier
+experiences:
+    - role: Fire TV Catalog Specialist
+      time: 2020 - 2021
+      company: Amazon
+      # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Processing and managing information and catalogs from different providers that offer their Movies and TV Series on the Fire TV platform for all marketplaces across the world. 
+
+        Processiang more than 500 operations each day on a fast paced environment while making decisions and categorizing the information according to given criteria and internal guidelines.
+    - role: ERC Associate
+      time: 2020
+      company: Amazon
+      # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       As an ERC (Employee Resource Center) associate I provided HR assistance to Amazon employees, in the form of accurate, consistent, and timely responses to inquiries from various contact channels – phone, web case and chat.
+
+        Taking ownership of employee contacts ensuring that each contact is accepted and resolved with a high degree of customer focus
+    - role: Program Manager
+      time: 2019
+      company: Rustic Pathways
+      # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        While managing a team with a diverse array of talents and responsibilities I was in charge of developing and organizing a program where foreign students would contribute responsibly to the local communities of Costa Rica in accordance with the UN SDGs. 
+        Ensuring goals were met in areas including customer satisfaction, safety, quality, and team member performance.
+# Your project portfolio
+# projects:
+#     intro: >
+      
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 10%
