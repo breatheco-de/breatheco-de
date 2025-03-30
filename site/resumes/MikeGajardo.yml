@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Michael
+    last_name: Gajardo
+
+    # Define yourself in 4-5 words
+    motto: Don't let your dreams be memes.
+
+    # focus
+    focus: focus
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: mikegajardo@gmail.com #optional
+    phone: 305 202 0790 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MikeGajardo
+
+    #optional
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English, Spanish
+        level: Native, Professional
+
+    # Interests or hobies
+    interests:
+      - item: Guitar Player, NFT Enthusiast
+
+# Your previous education
+education:
+    - degree: BA
+      university: Florida International University
+      university_logo: 
+      time: 2011 - 2016
+      details: Marketing
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Content Analyst
+      time: 2021 - Present
+      company: Celebrity Global eCommerce
+      # optional
+      company_logo: 
+      details: |
+          - Ensure that content management, SEO, & web optimization best practices are applied and followed by all content authors & producers globally.
+          - Create and identify new web component configurations in Adobe Experience Manager to meet business needs and requirements.
+          - Update & keep track of promotions on the celebritycruises.com website across local and international markets.
+          - Refresh site content through the creation of new templates for landing pages, images, & responsive web components.
+    - role: Content Specialist
+      time: 2018 - 2021
+      company: Celebrity Global eCommerce
+      # optional
+      company_logo: 
+      details: |
+          - Create, design, and optimize new landing pages in Adobe Experience Manager to have a modern, user-friendly look and feel. 
+          - Handle and assign JIRA requests which include redesign of destination pages, creation of monthly newsletters, and updates to the site requested by various teams across the organization.
+          - Provide feedback, QA, and ideas for new components that are introduced into our CMS, identifying needs from both the business and content authoring perspective.
+    - role: Project Coordinator - Customer Experience Marketing
+      time: 2017 - 2018
+      company: Royal Caribbean Cruises Ltd.
+      # optional
+      company_logo: 
+      details: |
+          - Project owner of recreating all existing tours on new pre-cruise planner digital catalog
+          - Coordinated the creation of tour descriptions from beginning to end across our copywriting agency, tour operators, and internal departments
+          - Sourced the imagery of over 500 new shore excursions, ensuring accuracy of experience, destination, and brand values
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: HTML5 and CSS Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MikeGajardo/mikeg-coding"
+        tagline: A postcard utilizing HTML5 and CSS
+      - title: HTML5 and CSS Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MikeGajardo/instagram-single-post"
+        tagline: A sample Instagram post using HTML and CSS
+      - title: HTML5 and CSS Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/MikeGajardo/simple-instagram-feed"
+        tagline: A sample Instagram feed utilizing HTML and CSS.
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 50%
