@@ -1,0 +1,172 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Enrique 
+    last_name: Ibarra
+    
+    # Define yourself in 4-5 words
+    motto: I don't know that, yet
+    
+    # focus
+    focus: Coding and everything else
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm originally from Chile, but I have lived abroad for more than 10 years now. 
+      During the past 10+ years I have lived in New Zealand, Australia, Brazil and 
+      Spain, where I'm currently living. I speak 4 languages (Spanish, English, 
+      Portuguese and French) and have a journalist degree. I worked for 
+      Thomson-Reuters, the world's biggest news agency, as a sub-editor in the 
+      Economy and Treasuries Section. After a few years, I decided that journalism 
+      wasn't really my passion, so I decided to travel and explore new possibilities 
+      in life. 
+      
+      During my years in Brazil I founded and developed two succesfull businesses in 
+      the hospitality industry, and currently in Barcelona I'm developing 
+      an ecommerce platform to sell CBD products for the EU market. 
+      Since a few years I have been intrigued and looking into pursuing a carrer on 
+      tech as I feel that with my background and experience I could bring a different 
+      approach to solving real life issues while offering new technological solutions 
+      for businesses in the digital world.   
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U04GSPKA3B7-ca157490ff4b-192
+
+    # Contact Information
+    email: eibarraf@gmail.com #optional
+    phone: 34 611 653 042 #optional
+    website: N/A #optional
+    linkedin: https://www.linkedin.com/in/enrique-ibarra-0238ab190/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Enricrypto
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - language: Spanish
+        level: Native
+
+      - language: English
+        level: Professional
+
+      - language: Portuguese
+        level: Professional
+
+      - language: French
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Yoga
+
+      - item: Meditation
+
+      - item: Jogging
+
+# Your previous education
+education:
+    - degree: Bachelor of Arts - BA
+      university: Universidad Diego Portales
+      # optional
+      university_logo: https://media.licdn.com/dms/image/C4E0BAQFCFgaWkS7FUw/company-logo_200_200/0/1519856290284?e=1683158400&v=beta&t=7l0pyZRNacLJZLJHoUdgpVIZCIMp-hMQ7z59FcM6L_U
+      time: 2000 - 2005
+      details: |
+        Communication, Journalism, and Related Programs
+        Grade: Journalism and Mass Communication
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sub-Editor - Treasuries Section 
+      time: 2006 - 2009
+      company: Thomson Reuters
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C560BAQFv3WODZf1ULQ/company-logo_200_200/0/1656655511771?e=1683158400&v=beta&t=6T2fl4lNg9kXmkGAae0d1mCRgPiRkOcozQmCGr3_NIo
+      details: |
+        - Edition and selection of contents of interest for the LATAM market
+        - Analysis of the Forex market and Treasury bonds
+        - Development of reports for financial investors and companies subscribed to the special economy services of the company
+
+    - role: Co-Founder and General Management
+      time: 2012 - 2019
+      company: Discovery Hostel, Rio de Janeiro
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4E0BAQGpmnC2zC3gTA/company-logo_200_200/0/1519913060263?e=1683158400&v=beta&t=s9VJLceiseImyfupO0WOWUxlwYMpXA43VH2fxnGC9d4
+      details: |
+        - Handled guest complaints and offered complimentary services to maintain high guest satisfaction rates
+        - Reviewed KPI's to monitor and measure productivity, goal progress and activity levels
+        - Managed budget implementations, employee reviews, training, schedules and contract negotiations
+        - Marketing strategy development, procurement and negotiation with providers.
+        - Ran outreach campaigns and did market research using a combination of phone, email, and social touches to reach suitable leads for attracting more customers
+
+    - role: Co-Founder and General Management
+      time: 2016 - 2019
+      company: Explorer Bar, Rio de Janeiro
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C560BAQEZSOgNbfONOQ/company-logo_200_200/0/1630450054986?e=1683158400&v=beta&t=D2OuUc4vvtvmi6XvhFzCicBuCPGryQxNlQG9dabdQRs
+      details: |
+        - Communication with partners, colleagues and stakeholders
+        - Deliver excellent customer experiences in all interactions with internal and external customers
+        - Maintained written and visual content for hotel and bar, attractions and other products or services
+        - Arrangement of reservations, packages and trips through the use of traveling software (computer reservation systems and basic GDS)
+        - Improvement of processes and analysis, achievement and monitoring of KPIs
+        - Hotel benchmarking, creation of special packages (up-selling and cross-selling) and events coordination (weddings, birthdays and conferences)
+        - Listing of hotel amenities, services, prices, packages, events and attractions on OTA's
+        - Updating relevant content on the property management system
+        - Ran outreach campaigns and did market research using a combination of phone, email, and social touches to reach suitable leads for attracting more customers      
+
+      
+    - role: Co-Founder and General Management
+      time: 2021 - Present
+      company: Lab Botanicals, Barcelona
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4E0BAQEbkk9kFX0-rw/company-logo_100_100/0/1624017857679?e=1683158400&v=beta&t=g00fuJFB3TnFQgQRi33g1qSfN8KBni3CrVbVTcS4wG4
+      details: | 
+        - Co-Founder and Business Development Manager of commodities and API (Active Pharmaceutical Ingredients) trading company. 
+        - Co-Founder and Business Development Manager at sister company Zoo Lab, e-commerce retailer in the Cannabis industry. 
+        - International Business Development · Product Development · E-Marketing   
+
+# Your project portfolio
+projects:
+    intro: >
+        Currently working in building an excuse generator with Bootstrap. 
+
+    projects:
+      - title: My Task App
+        link: https://github.com/Enricrypto/Task-App.git
+        tagline: "My first App built with Vue JS, Javascript, HTML5 and CSS"
+
+      - title: Instagram-Feed
+        link: https://github.com/Enricrypto/Instagram-Photo-Feed-with-Bootstrap.git
+        tagline: "This Instagram Feed project was built using HTML5 and Bootstrap"
+
+      - title: Circle Agency Website
+        link: https://github.com/Enricrypto/MidTerm-Project
+        tagline: "I built a copy of the Circle Agency website, using HTML5, CSS3 and Javascript."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 90%
+
+      - name: Javascript & jQuery
+        level: 80%
+
+      - name: Vue JS
+        level: 80%
+
+      - name: Python
+        level: 40%
