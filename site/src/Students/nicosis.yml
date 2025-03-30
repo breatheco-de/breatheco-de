@@ -1,0 +1,116 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolás
+    last_name: Sismonda
+    
+    # Define yourself in 4-5 words
+    motto: I like riding morortcycles
+    
+    # focus
+    focus: Study hard to become a professional Full-stack developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I enjoy both outdoor activities and indoor hobbies such as watching
+      films and spending time on the computer.
+      I was a professional sourdough bread baker for a few years, and after
+      that, I decided to make a big change. I have had an interest in web
+      development for quite a while now, so I decided to jump in and tackle it head-on.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: nicosis@gmail.com #optional
+    phone: 615 250 725 #optional
+    linkedin: https://www.linkedin.com/in/nicol%C3%A1s-sismonda-815b8b18/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nicosis
+    
+    twitter: 'nico_sis' #optional
+    stack-overflow: U04K6MB49NW/Nico Sismonda # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Professional
+        
+      - idiom: Portuguese
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Film
+
+      - item: Sports
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Business/Managerial Economics
+      university: Universidad Torcuato Di Tella
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        My studies in Business Economics have provided me with a solid 
+        understanding of economic principles and analytical tools. Through 
+        coursework and practical applications, I have gained knowledge in 
+        micro and macroeconomics, financial analysis, operations management, 
+        marketing, and decision-making. I have also developed skills in 
+        conducting market research and competitive analysis. Overall, my 
+        studies have equipped me with valuable skills and knowledge that 
+        would be beneficial in various industries and roles.
+          - Studied Business Economics with a focus on economic principles, 
+          analytics, and practical applications in market research and competitive analysis.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Gimp & Photoshop
+        level: 90%
