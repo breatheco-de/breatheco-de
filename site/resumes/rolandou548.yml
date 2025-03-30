@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 template: "online-cv"
@@ -9,23 +9,21 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Rolando
+    last_name: Uzcategui
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like playing chess
+    # focus
+    focus: Programming
     
-    # Focus
-    focus: Killing Bad Boys
-    
-    # You have 1 paragraph to make a great impression, summarize your career
+    # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -39,30 +37,27 @@ basic_info:
     
     #
     # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: rolandou548
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # Languages you speak, levels include: Native, Professional
+    # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
-
-    # Interests or hobbies
+    # Interests or hobies
     interests:
-      - item: Climbing
+      - item: Chess
 
-      - item: Snowboarding
+      - item: Piano
 
-      - item: Cooking
+      - item: Speedcubing
 
 # Your previous education
 education:
@@ -96,7 +91,7 @@ education:
           - Bullet point
           - Bullet point
 
-# Your previous job experiences or volunteer
+# Your previous job experiences or voluntier
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -190,7 +185,7 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: JavaScript & jQuery
+      - name: Javascript & jQuery
         level: 98%
 
       - name: Angular
