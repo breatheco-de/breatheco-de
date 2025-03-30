@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Otto
+  last_name: Lauterbach
+  motto: Front-end Developer
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  summary: |
+    Summarise your career: I have been working on Front-end development for 3 years.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+    ex ea commodo consequat.
+
+  # Sidebar links
+  email: otto.lh12@gmail.com
+  phone: 426 584-6458
+  website: something.com #do not add http://
+  linkedin: https://www.linkedin.com/in/otto-lauterbach-86a5a7248/
+  github: Otto777L
+  twitter: OriginalPocho
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+  interests:
+    - item: Videogames
+
+    - item: Anime
+
+education:
+  - degree: Informatic Engineering
+    university: UCAB
+    time: 2013 - Actual
+    details: |
+      Front end coding Java Script
+
+experiences:
+  - role: Front-end Development
+    time: 2018 - 2022
+    company: HCOLL Producciones Audiovisuales
+    details: |
+      Development with Android studio and Angular. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Xpik
+      link: "#hook"
+      tagline: "An android and iOS app for communicating with images."
+
+skills:
+  toolset:
+    - name: Android Studio
+      level: 70%
+
+    - name: Javascript
+      level: 60%
+
+    - name: Angular
+      level: 60%
+
+    - name: HTML5 & CSS
+      level: 75%
