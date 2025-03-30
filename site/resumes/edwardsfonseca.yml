@@ -1,0 +1,97 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    first_name: Edwards Danhilverth Jose
+    last_name: Fonseca Bermudez
+    motto: Full-stack Developer
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U02FP1Y8DFF-b2109458795e-48
+    summary: |
+      
+
+    email: eduards_fonseca@hotmail.com
+    phone: 999348392
+    website: 
+    linkedin: https://www.linkedin.com/in/edwards-fonseca-73ab091b5/
+    github: edwardsfonseca
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Basic
+        
+      - idiom: French
+        level: Basic
+
+    interests:
+      - item: Statistics
+
+      - item: Coding
+
+      - item: Music
+
+      - item: kitchen
+
+education:
+    - degree: Full-stack 
+      university: 4Geeks Academy
+      time: Currently
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with JavaScript
+      
+projects:
+    intro: 
+      
+    assignments:
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+        
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+             
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Javascript
+        level: 20%
+
+      - name: Statistics
+        level: 30%
