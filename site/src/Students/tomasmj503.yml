@@ -1,0 +1,129 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Tomas
+    last_name: Munoz
+    motto: Head Bartender and soon programmer
+    avatar: https://pm1.aminoapps.com/6476/4acc93ed7c60b9dcdec9e270674a7afb34cbac8c_hq.jpg
+    summary: |
+        hi is not me but i like this. I dedicated my life to coding since I was 13 years old, today I'm fortunate to make a living building and teaching code to everyone throughout my different business endeavors:
+        
+        First I founded 4Geeks Developers Community: At the company, we built and launched 50 tech products during 10 years mainly focused in LatinAmerican markets. We opened offices in 7 different countries, 300 employees and more than $8,000,000 in revenues.
+        
+        4Geeks Academy: Coding academy with 700+ alumni worldwide, ~90% of the graduates had an average 20% increase in salary after completing the program. $1,000,000+ in annual revenues in 6 locations.
+        
+        BreatheCode: Not-for-profit open source community aiming to accelerate the way junior developers learn and evolve using technology. 
+
+    # Sidebar links
+    email: tomas-mj@hotmail.com
+    phone: 970 422 67 36
+    website: procoderfit.com #do not add http://
+    linkedin: tomasmj
+    github: tomasmj503
+    twitter: '@tomasmj'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Food
+      - item: Fitness
+      - item: Books
+
+education:
+    - degree: MS in Toursim Management
+      university: Externado
+      time: 2003 - 2009
+
+    - degree: BSc in Tourism and Hospitality
+      university: Externado
+      time: 2007 - 2011
+
+experiences:
+    - role: Head Bartender
+      time: 2021 - Present
+      company: Hotel Jerome, Aspen Colorado
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Bartender
+      time: 2014 - 2015
+      company: JW Marriot, Savannah, Georgia 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Cocktail server
+      time: 2012 - 2014
+      company: Edition Hotel, Miami
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Feed with bootstrap
+        link: "#hook"
+        tagline: "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+
+      - title: Instagram feed html
+        link: "#"
+        tagline: "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+
+      - title: HTML Forms
+        link: "#"
+        tagline: "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor"
+
+      
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 55%
+
