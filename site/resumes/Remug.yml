@@ -1,0 +1,131 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+
+    first_name: Rémulo W
+    last_name: Castro
+    
+    
+    motto: FuRinKaZan Lo pequeño no es pequeño, haz con excelencia lo pequeño y te estarás preparando para la grandeza
+    
+    
+    focus: Learning everything I can. 
+    
+    
+    summary: |
+      Hola, soy Rémulo. Soy un apasionado de la programación y la tecnología. Mi principal enfoque es el desarrollo de software, y me encanta trabajar en proyectos,
+      estoy en el Bootcamp 4geeks Academy, el cual me encanta y me permite reforzar los conocimientos que previamente forme como autodidacta. Estoy terminando un Grado
+      Superior de Desarrollo Web. Estoy aprendiendo tecnologias como JavaScript, React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo colabrativo con git 
+    
+   
+    avatar: https://avatars.githubusercontent.com/u/103341303?v=4
+
+    
+    email: rewcag@gmail.com
+    phone: 655636325 
+    github: Remug
+    website: rewcast.com 
+    linkedin: https://www.linkedin.com/in/rewcast/
+    stackoverflow: 21936368/remulo-castro
+
+    
+   
+    
+    languages:
+      - idiom: Español
+        level: Native
+      - idiom: English
+        level: Professional
+
+    
+    interests:
+      - item: personal and financial development
+
+      - item: Web Development
+
+      - item: Science & Tech
+
+      - item: Health & wellness
+
+      - item: Development
+
+
+
+
+
+education:
+    - degree: fullstack developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+        que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+        React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+        el trabajo grupal con git
+
+          - Bullet point
+          - Bullet point
+
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# skills:
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
