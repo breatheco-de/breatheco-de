@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marina
+    last_name: Myssak
+    
+    # Define yourself in 4-5 words
+    motto: I like learning new things
+    
+    # focus
+    focus: learning to write code
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      - Knowledge of document markup languages (web sites): HTML, CSS, Javascript (JS);
+      - Ability to write structured and understandable code;
+      - Understanding the principles and stages of web projects development;
+      - Ability to find effective solutions, work for results;
+      - Ability to work with a large amount of information.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://images.nightcafe.studio/jobs/TMZLpszi6qPLKDicj1aE/TMZLpszi6qPLKDicj1aE--1--jdjpy.jpg?tr=w-1600,c-at_max
+
+    # Contact Information
+    email: marina777master@mail.ru #optional
+    phone: 3055759547 #optional
+    website: marina_myssak - Instagram #optional
+    linkedin: Marina Myssak #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/MarinaMaster
+    
+    twitter: 'No' #optional
+    stack-overflow: 'No' # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Upper-Intermediate 
+
+      - idiom: Russian
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Walking
+
+      - item: Watching movies
+
+      - item: Eating snacks
+
+# Your previous education
+education:
+    - degree: Master of Pedagogical Sciences
+      university: Pavlodar Pedagogical University
+      # optional
+      university_logo: https://old.altspu.ru/uploads/posts/2013-04/1365763214_logo-1.jpg
+      time: 2020 - 2022
+      details: |
+
+    - degree: Bachelor of Pedagogy and Methods of Primary Education
+      university: Pavlodar Pedagogical University
+      # optional
+      university_logo: https://old.altspu.ru/uploads/posts/2013-04/1365763214_logo-1.jpg
+      time: 2016 - 2020
+      details: |
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Primary school teacher
+      time: 2020 - 2021
+      company: Kazakhstan, Pavlodar
+      # optional
+      company_logo: 
+      details: |
+
+    - role: Team member
+      time: 2022 - 2023
+      company: USA, Miami
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/ru/thumb/c/c4/Papa_John%27s_Pizza_logo.svg/2560px-Papa_John%27s_Pizza_logo.svg.png
+      details: |
+
+    - role: Photographer
+      time: 2023 - present
+      company: USA, Miami
+      # optional
+      company_logo: 
+      details: |
+
+# Your project portfolio
+projects:
+    intro: >
+      Software development projects as part of the 4GeeksAcademy.
+
+    assignments:
+      - title: Postcard
+        # optional
+        link: "https://github.com/MarinaMaster/4geek.postcard.marina"
+        tagline: "A nice postcard to send to family and friends for any ocation."
+
+      - title: Instagram-Photo-Feed
+        # optional
+        link: "https://github.com/MarinaMaster/4geek.Instagram-Photo-Feed"
+        tagline: "An example of the design of a well-known popular website."
+
+      - title: Excuse Generator
+        # optional
+        link: "https://github.com/MarinaMaster/vanillajs-hello"
+        tagline: "A tool to generate an appropiate excuse for every ocation"
+
+      - title: Instagram-Post 
+        # optional
+        link: "https://github.com/MarinaMaster/Instagram-Post"
+        tagline: "An example of post design of a popular site."
+
+      - title: Photo-Feed-with-Bootstrap
+        # optional
+        link: "https://github.com/MarinaMaster/Photo-Feed-with-Bootstrap"
+        tagline: "Building a page using Bootstrap"
+      
+      - title: HTML5-form
+        # optional
+        link: "https://github.com/MarinaMaster/Marina-HTML5-form"
+        tagline: "Page for filling in contact information"
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
+
