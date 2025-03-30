@@ -1,0 +1,237 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joel
+    last_name: Barranco
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta disponer de mi tiempo
+    
+    # focus
+    focus: Resolver problemas
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy Ingeniero Civil con 15 años de experiencia. Emigrante Venezolano en Chile.
+      Actualmente enfocado en un cambio de profesión y por ello estoy interesado en la programación.
+      Es algo por lo que he sentido curiosidad y afortunadamente puedo explorar en este nuevo mundo.
+      Mi objetivo final es poder programar videojuegos, en algun omento espero pueda hacer algo grande.
+      Siento que mi experiencia como Ingeniero de alguna forma me puede ayudar con la programación.
+      Soy musico, toco la bateria. Me gusta leer, soy gamer y practico mountain bike.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: joealebarranco@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: Joel Barranco Giron #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JoeyB83
+    
+    twitter: '@thunderdrums' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Intermedio 
+
+    # Interests or hobies
+    interests:
+      - item: Videojuegos
+
+      - item: Leer
+
+      - item: Mountain Bike
+
+# Your previous education
+education:
+    - degree: Ingeniero Civil
+      university: Universidad de Carabobo
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/5/5b/Universidad_de_Carabobo.svg
+      time: 2001 - 2007
+      details: |
+        Como desarrollar una obra de construcción habitacional, industrial, vialidad o hidraulica.
+        Me dan todas las herramientas para analisar y resolver problemas de la manera mas eficiente.
+        Entiendo el comportamiento de las estructuras.
+        Capacidad para planificar todos los trabajos necesarios para las diferentes construciones de las que 
+        he sido y ser participe.
+    - degree: Full-Stack Software Developer
+      university: 4geeks Academy
+      # optional
+      university_logo: 
+      time: 2022
+      details: |
+        Prendo el uso de lenguajes de programación como HTML, CSS y Javascript.
+        Herramientas GitHub, Gitpod y Git.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Jefe de Asesoria
+      time: 2021 - Present
+      company: H + M Consultores
+      # optional
+      company_logo: 
+      details: |
+        Contratado para la Asesoría Profesional a la Inspección Técnica para las etapas de diseño y construcción 
+        de la obra teleférico Pio Nono en el Parque Metropolitano de Santiago. Actualmente como apoyo a la Asesoría Profesional 
+        a la Inspección Técnica para la construcción del Parque Deportivo Estadio Nacional, sede de los Juegos Panamericanos 
+        y Parapanamericanos Santiago 2023.
+    - role: Administrador de Obra
+      time: 2019 - 2021
+      company: Constructora LPM SPA
+      # optional
+      company_logo: 
+      details: |
+        Construcción de urbanismo para el Loteo Barrio Cumbres en la comuna de Puente Alto del Serviu Metropolitano. 
+        1161 m de colector de alacantarillado y 1458 m de matriz de agua potable. Construcción de cámaras de inspección pública
+        y cámaras UD. Pruebas de hermeticidad y verificación de pendientes. Arranque para viviendas y áreas verdes. 
+        Instalación de grifos y medidores. Movimientos de tierra e instalación de 1760 m de solera tipo A y 740 m de solera 
+        tipo C. Movimientos de tierra y construcción de 2113 m2 de veredas. Construcción de 817 m de colector aguas lluvia, 
+        sumideros y cámaras de inspección. Construcción de drenes con bolones de 320, 200 y 240 m3, y un dren de 188 m3 con 
+        cubodren. Construcción de cámaras decantadoras y cámaras de inspección para drenes. Rectificación y compactación de 
+        subrasante y base. Colocación de 8115 m2 de asfalto. Construcción de obras de mitigación calle Puerto Seguro en 
+        Puente Alto. Movimientos de tierra y construcción de 459 m2 de veredas. Construcción de 13 m de colector aguas lluvia 
+        y sumideros. Construcción de drenes con cubodren de 5, 9 y 10 m3. Construcción de cámaras decantadoras para drenes. 
+        Rectificación y compactación de subrasante y base. Colocación de 777 m2 de asfalto. Elaboración de Estados de Pago, 
+        presupuestos y programación, manejo de personal.
+    - role: Inspector Técnico de Obra
+      time: 2017 - 2019
+      company: H + M Consultores
+      # optional
+      company_logo: 
+      details: |
+        Construcción del Centro Deportivo Cerro Apoquindo que incluye socalzados, obra gruesa, instalaciones 
+        (sanitarias, eléctricas, clima, aguas lluvias, piscinas, spa). Construcción de 3800 m2 de estacionamientos incluyendo 
+        movimientos de tierra y construcción de taludes, pavimentos, aguas lluvias y señaléticas. Construcción del Centro 
+        Comunitario Santa Zita incluyendo obra gruesa, instalaciones (sanitarias, eléctricas, clima, aguas lluvia, ascensores).
+        Construcción de 550 m2 de estacionamientos incluyendo movimientos de tierra, pavimentos, aguas lluvias y señalética. 
+        En ambas obras, tareas administrativas tales como: realización de informes técnicos, revisión de presupuestos y estados
+        de pago, aumentos de plazo, documentación previsional, seguimiento de avance de obra (Carta Gantt y Curva S), revisión 
+        de planos.
+    - role: Inspector Técnico de Obra
+      time: 2015 - 2017
+      company: Getinsa - Payma
+      # optional
+      company_logo: 
+      details: |
+        Rehabilitación y reforzamiento de puentes ferroviarios pertenecientes a la Empresa de Ferrocarriles del Estado (EFE), 
+        correspondientes a la ruta del ácido en el tramo Paine – Rancagua. Seguimiento de avance de obra, revisión de planos y 
+        procedimientos de trabajo. Inspección en la construcción de defensas fluviales, pintura y obras civiles en hormigón y 
+        acero en general. Inspección del proyecto Tetra en el Metro de Santiago, inspección nocturna de trabajos y elaboración 
+        diarios. Inspección de trabajos en la construcción de estructura metálica como parte del proyecto techumbre en la vía 
+        }de prueba de los talleres Neptuno del Metro de Santiago. Inspección de trabajos en las estaciones Parque O’Higgins y 
+        Toesca como parte del proyecto de instalación ascensores para personas con discapacidad y/o movilidad reducida del Metro 
+        de Santiago.
+    - role: Inspector Técnico de Obra
+      time: 2014 - 2015
+      company: Askiyan C.A.
+      # optional
+      company_logo: 
+      details: |
+        Inspección de obras industriales, residenciales y obras de rehabilitación. Inspección en la construcción y rehabilitación
+        de galpones y en edificación de 22 pisos. Control y compra de materiales, manejo de personal y nómina.
+    - role: Ingeniero Residente
+      time: 2012 - 2013
+      company: Coinmar C.A.
+      # optional
+      company_logo: 
+      details: |
+        Inspección y control en la construcción de galpones, manejo de personal, nómina y contratista, control de medición y 
+        avance de obra, compra de materiales. Construcción de aproximadamente 3000 m2 de vialidad en hormigón, incluyendo 
+        movimientos de tierra, drenaje para aguas lluvias, sistema de alcantarillado y agua potable.
+    - role: Ingeniero Residente
+      time: 2011 - 2012
+      company: Administradora Binomio
+      # optional
+      company_logo: 
+      details: |
+        Inspección y control en la construcción de fábrica de productos lácteos, manejo de personal y contratistas, 
+        control de medición y avance de obra, compra de materiales. Inspección del movimiento de tierra y pavimentación con 
+        hormigón de la vialidad interna de la fábrica, construcción del sistema para el drenaje de las aguas lluvias y descargas 
+        sanitarias.
+    - role: Inspector Técnico de Obra
+      time: 2008 - 2011
+      company: G.F.M. Ingenieria
+      # optional
+      company_logo: 
+      details: |
+        Inspección en la construcción de 920 townhouse de hormigón, instalaicones sanitarias y electricas. Construcción de 
+        aproximadamente 6500 m2 de vialidad en hormigón, incluyendo movimientos de tierra, matrices de agua potable,  sistema de 
+        alcantarillado, drenajes para aguas lluvias y electricidad. Manejo de personal, control de calidad de materiales, control 
+        y supervisión de contratistas, mediciones, compra de materiales y computos métricos. Revisión de planos
+    - role: Inspector Técnico de Obra
+      time: 2008
+      company: Grippi & Silva Proyectos Civiles
+      # optional
+      company_logo: 
+      details: |
+        Supervisión de obras industriales, manejo de personal.
+    - role: Inspector Técnico de Obra
+      time: 2007 - 2008
+      company: Constructora Anaco
+      # optional
+      company_logo: 
+      details: |
+        Supervisión en la construcción de estructuras en hormigón, manejo de nómina y personal, realización de estados de pago 
+        y revisión de planos.
+                 
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de los proyectos en los que he trabajado en la Academia 4Geeks
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: 
+        link: https://github.com/JoeyB83/Postcard-exercise
+        tagline: "El ejercicio de la postcard para conocer HTML"
+
+      - title: Excuse Generator
+        # optional
+        project_logo: 
+        link: https://github.com/JoeyB83/Excuse-generator
+        tagline: "Un generador de excusas sencillo que cambia cada vez que actualizas la pagina"
+
+      - title: Photo feed
+        # optional
+        project_logo: 
+        link: https://github.com/JoeyB83/Bootstrap-photo-feed
+        tagline: "Una pagina clon de instagram, para conocer bootstrap"      
+
+skills:
+    toolset:
+      - name: Autocad
+        level: 60%
+
+      - name: Excel
+        level: 50%
+
+      - name: Word
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Javascrip
+        level: 30%
+
+      - name: C#
+        level: 20%
