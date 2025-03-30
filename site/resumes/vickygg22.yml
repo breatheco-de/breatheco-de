@@ -1,0 +1,126 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Victoria
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: You are everything and more
+    
+    # focus
+    focus: Learning to code without dying in the process 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      My main studies are Translation and Interpreting and lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/background_art.jpg
+
+    # Contact Information
+    email: victoriagg@gmail.com
+    phone: 666 563 221
+    linkedin: victoriagonzalezgarcia
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: vickygg22
+    
+  
+    stack-overflow: 123456/VictoriaGonzalez
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - language: Spanish
+        level: Native
+
+      - language: English
+        level: CAE - Cambridge
+
+      - language: Italian
+        level: B2 - PLIDA
+
+      - language: French
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Cooking vegan meals
+
+      - item: Both playing and listening to rock music
+
+      - item: Tattoos
+
+# Your previous education
+education:
+    - degree: Translation and Interpreting
+      university: University of Malaga
+      # optional
+      time: 2016 - 2020
+      details: |
+        I mainly worked with translation, although I also practiced a bit of interpreting and lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Translation
+          - Interpreting
+    - degree: Professional Translation
+      university: University of Granada
+      # optional
+      time: 2020 - 2021
+      details: |
+        I specialized in subtitling, but also lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Subtitling
+          - Localization
+# Your previous job experiences or voluntier
+experiences:
+    - role: English teacher
+      time: 2017 - Present
+      company: independent
+      # optional
+      details: |
+        Offered Englilsh lessons lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+    -
+# Your project portfolio
+projects:
+    intro: none yet
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
