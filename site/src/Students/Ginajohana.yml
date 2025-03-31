@@ -1,0 +1,58 @@
+Personal Information
+basic_info:
+  
+  first_name: Johana
+  last_name: Semeniuk
+
+  
+  summary:
+  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+  el trabajo grupal con gi
+
+  
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: ginajohana94@gmail.com #optional
+  phone: 
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Ginajohana
+
+  
+
+
+  # Interests or hobies
+  interests:
+    - item: Mountain
+
+    - item: 3D web
+
+    - item: Arte
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: mar-2022 - ago-2022
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+   
+ 
