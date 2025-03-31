@@ -1,0 +1,94 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Concetta
+    last_name: Chimienti
+    
+    # Define yourself in 4-5 words
+    motto: Learning something new everyday.
+    
+    # focus
+    focus: Programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have a digital marketing background and I am currently learning to code at 4 Geeks Academy in the hopes of becoming a proficient Web Developer. 
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    # Contact Information
+    email: cchimie303@gmail.com
+    phone: 305-815-8611 #optional
+    linkedin: https://www.linkedin.com/in/concetta-chimienti-55a172151/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: c-chimie
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Playing Sports (Volleyball, Rollerskating, Golf, Pickleball)
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Bachelor of Business Administration in Marketing, Legal Studies; Minor in Ecosystem Science & Policy
+      university: University of Miami
+      time: 2017 - 2021
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Project Manager
+      time: 2021 - 2022
+      company: Evestar Digital Marketing Agency, Florida
+      # optional
+        
+
+# Your project portfolio
+
+assignments:
+      - title: Instagram post
+        # optional
+        project_logo:
+        link:
+        tagline:
+      - title: 
+        tagline: 
+      - title: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML, CSS & Bootstrap
+        level: 75%
+
+      - name: Javascript 
+        level: 25%
+
+      - name: React
+        level: 0%
+
+      - name: Nodejs-express
+        level: 0%
+
+      - name: Mongodb
+        level: 0%
