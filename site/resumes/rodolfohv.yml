@@ -1,0 +1,177 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rodolfo
+    last_name: Hernández Villa
+    
+    # Define yourself in 4-5 words
+    motto: Crack de desarrollo web
+    
+    # Focus
+    focus: Crear nuevos e innovadores proyectos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estratega digital con más de 15 años de experiencia en marketing, análisis de datos y diseño de experiencias, actualmente enfocado en desarrollo web. Combino visión de negocio con habilidades técnicas para crear productos digitales innovadores, funcionales y escalables. Mi formación en desarrollo full stack complementa una trayectoria liderando equipos, diseñando estrategias omnicanal y ejecutando proyectos con foco en conversión y crecimiento.
+
+      Busco impulsar ideas que conecten propósito, tecnología y usuario final, desde la lógica hasta el código.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQEtdXsJ4Ym1BA/profile-displayphoto-shrink_800_800/B4EZZ02.hrHQAc-/0/1745717291811?e=1758153600&v=beta&t=SLkWWMWQ-7sVBnonutcP5j7wnfIhtCriD70OB58r1eY
+
+    # Contact Information
+    email: mimail@gmail.com #optional
+    phone: +52 55 5555 5555 #optional
+    website: crackdev.com #optional
+    linkedin: rodolfohv #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: rodolfohv
+    
+    twitter: 'rodolfohv' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Conversacional
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Running
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: Full stack Web Development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2025
+      details: |
+        Bootcamp de desarrollo web full stack con enfoque en la creación de aplicaciones web modernas y escalables. Aprendí a combinar tecnologías front-end y back-end para construir soluciones completas, desde la interfaz de usuario hasta la lógica del servidor.
+
+          - Front end: HTML, CSS, JavaScript, React
+          - Back end: Node.js, Express, MongoDB
+
+    - degree: Mercadotecnia con especialización en investigación de mercados
+      university: Universidad Madero
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCEmMXRf-oZiP-UgJ1rEfI_QzqgZ2a7HC87Q&s
+      time: 2002 - 2006
+      details: |
+        Estudios en mercadotecnia con un enfoque en investigación de mercados, análisis de datos y desarrollo de estrategias digitales. Aprendí a comprender el comportamiento del consumidor y a diseñar campañas efectivas basadas en datos.
+
+          - Marketing
+          - Investigación de mercados
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Consultor de Marketing Digital
+      time: 2018 - Presente
+      company: Menú Agency, México
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+        Desarrollo de estrategias digitales y consultoría en marketing para empresas. Me enfoco en la creación de experiencias digitales efectivas, utilizando análisis de datos y diseño centrado en el usuario.
+
+          - Branding
+          - Lead generation
+
+    - role: Jr Project Developer
+      time: 2016 - 2018
+      company: Independiente, México
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Desarrollo de proyectos web y aplicaciones de manera independiente para clientes de sectores privados y publicos, principalmente emprendedores.
+
+          - Desarrollo de aplicaciones web
+          - Corección de errores
+
+    - role: UI Developer
+      time: 22014 - 2016
+      company: 4Geeks, México
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        UI desarrollo de aplicaciones web y móviles, enfocándome en la creación de interfaces de usuario intuitivas y atractivas. Colaboré con equipos multidisciplinarios para diseñar y desarrollar soluciones digitales efectivas.
+
+          - CSS
+          - HTML5
+          - JavaScript
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Generador de excusas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/rodolfohv/generador-excusas-js-pt54-ok
+        tagline: "Generador de excusas trabajado con JavaScript, HTML y CSS. Permite a los usuarios generar excusas aleatorias para diversas situaciones."
+
+      - title: IG Feed Project
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/rodolfohv/InstagramPhotoFeed-Rodolfo
+        tagline: "Se emulo el feed de Instagram utilizando HTML, CSS y JavaScript. El proyecto permite a los usuarios ver fotos y descripciones de manera similar a la plataforma real."
+
+      - title: Condicionales de Perfil
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/rodolfohv/exercise-conditional-profile-card
+        tagline: "conditional profile card es un proyecto que permite a los usuarios crear una tarjeta de perfil personalizada utilizando condicionales en JavaScript. Los usuarios pueden ingresar información y ver cómo se muestra en la tarjeta."
+
+      - title: Postcard Exercise
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/rodolfohv/exercise-postcard
+        tagline: "Ejecicio de Postcard es un proyecto que permite a los usuarios crear una tarjeta postal personalizada utilizando HTML, CSS y JavaScript. Los usuarios pueden ingresar información y ver cómo se muestra en la tarjeta."
+
+      - title: Proyecto CV anterior
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/rodolfohv/ProyectoCV
+        tagline: "un primer ejercicio sobre un CV profesional relalizado en HTML y CSS en el año de 2023"
+
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 25%
+
+      - name: Adobe Creative Suite
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: G-Suite
+        level: 85%
+
+      - name: MOffice
+        level: 90%
