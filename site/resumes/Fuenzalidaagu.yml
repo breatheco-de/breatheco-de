@@ -1,0 +1,67 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  first_name: Agustín 
+  last_name: Fuenzalida
+
+  motto: I love the technology
+
+  focus: Being 1% better every day
+
+  sumary: Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+
+  avatar:
+
+  email:
+  phone:
+  website:
+  linkedin:
+
+  github: Fuenzalidaagu
+
+  twitter:
+  stack-overflow:
+
+  languages: 
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+  interests:
+      - item: Sports
+
+      - item: Cooking
+
+Education:
+  - degree: Engineering in business administration mention marketing
+    university: Duoc UC
+    time: 2020 - 2022
+    
+  - degree: full-stack developer
+    university: 4Geeks Academy
+    time: October 2022 - February 2023
+
+Proyects:
+
+Skills:
+  toolset:
+      - name: Python
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 98%
