@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Egdar
+    last_name: Diaz
+    
+    # Define yourself in 4-5 words
+    motto: learn a little of everything
+    
+    # focus
+    focus: Happiness
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Contribute to the maximum Development of the Company, where I can perform efficiently and effectively, in addition to developing my skills and technical skills in several positions, which allow me to have a successful career within the organization.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ed35376@gmail.com #optional
+    phone: +584265127699 #optional
+    #website: asd.com #optional
+    linkedin: edgar-diaz-29574450 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/edgardiaz1212
+    
+    twitter: 'hey_eddiaz' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Science
+
+      - item: Manual arts
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MECHANICAL ENGINEER 
+      university: UNIVERSITY OF LOS ANDES
+      # optional
+      university_logo: https://www.weadapt.org/sites/weadapt.org/files/styles/large/public/ula-logo-5a0b341f47-seeklogo.com_.png?itok=vECrisH7
+      time: 2005-2010
+      details: |
+        he mechanical engineer's main job is to get an idea, develop it, build it and bring it to market. To do this requires a wide range of knowledge and skills, from thermodynamics, mechanics and electricity to structural analysis, magnetics and computation; he must consider all possible failures that his device, machine or system may have, as well as optimize space, provide an intuitive design and determine the most efficient way to manufacture the device without loss of quality or functionality.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: LEAD/CORDINATE DATA CENTER INFRASTRUCTURE
+      time: 2019 - Present
+      company: Cantv, Caracas
+      # optional
+      company_logo: https://poderopediave.org/wp-content/uploads/2014/03/Cantv_logo-2.jpg
+      details: |
+        Ensure compliance with policies, rules, procedures, declared in the Quality Management System,
+        Detailed monitoring of compliance in the field of preventive and corrective maintenance of the electromechanical plant, physical and IT platforms.
+        Coordinate necessary actions for the identification, design, evaluation, approval and implementation of IT infrastructure solutions
+          - Bullet point
+          - Bullet point
+    - role: CHIEF ENGINEER
+      time: 2018-2018
+      company: The Future of Mining, Sweden
+      # optional
+      company_logo: https://static.news.bitcoin.com/wp-content/uploads/2017/09/logo-apple1-1-300x109.png
+      details: |
+        Personnel management in the Networkingand Infrastructure area 
+        Coordinate and review the designs between the areas of electricity, networking and 
+        refrigeration to ensure the proper functioning of the mining farm. 
+        Ensure that all areas have the necessary implements 
+        Contact the supplies
+          - Bullet point
+          - Bullet point
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 30%
+      - name: HTML5 & CSS
+        level: 30%
+      - name: Autocad
+        level: 40%
