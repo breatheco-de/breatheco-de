@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pedro
+    last_name: Maldonado
+    
+    # Define yourself in 4-5 words
+    motto: If you want to change the world you have to start with yourself first!
+    
+    # focus
+    focus: Gain professional experience as a Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Over ten years of experience working as a Filmmaker in the audiovisual industry. 
+      I am also experienced on live corporate events as a Head Technician. At the present 
+      time I am complementing my habilites in the content creation area but also in the 
+      technical area with a Bootcamp as a Full Stack Developer.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: "http://sep.breatheco.de/static/profile-images/Azim3triko"
+
+    # Contact Information
+    email: pedronomada@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Azim3triko
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+  
+
+    # Interests or hobies
+    interests:
+      - item: Surfing
+
+      - item: Music
+
+      - item: Astrology
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2022
+
+    - degree: B.S. in Communications Media - Cum Laude
+      university: Fitchburg State University
+      # optional
+      university_logo: https://www.fitchburgstate.edu/sites/default/files/site-wrapper/fitchburg-state-logo.svg
+      time: 1997 - 2000
+   
+# Your previous job experiences or voluntier
+experiences:
+    - role: Technical Operator
+      time: 2021 - 2021
+      company: Universidad Aldolfo Ibañez
+      # optional
+      company_logo: https://www.uai.cl/assets/themes/uai-central/img/logo.svg
+      details: |
+        Responsible for operating the audiovisual system installed in the class rooms 
+        on hybrid type classes. Also using Zoom as the streaming platform.
+
+    - role: Head Technician & Sales Representative
+      time: 2017 - 2020
+      company: RLA Latam
+      # optional
+      company_logo: 
+      details: |
+        Responsible for selling and setting up AV corporate events at hotels such as Sheraton, 
+        Hilton, Marriott and many others. Also to coordinate AV technicians to operate several 
+        events simultaneously.
+    - role: Media Technician
+      time: 2012 - 2014
+      company: Harvard University
+      # optional
+      company_logo:	data:image/svg+xml;charset=utf-8,%3Csvg id='Layer_…3.1s-.2.5.4.7c0 .1.1.2.1.4'/%3E%3C/g%3E%3C/svg%3E
+      details: |
+        Responsible for scheduling, delivery, set up and operation of media equipment including: 
+        slides, film, computer projection, video and audio recording. Train faculty, staff and 
+        students on the operation of the equipment.
+# Your project portfolio
+assignments:
+      - title: AcompañaME
+        # optional
+        project_logo: https://github.com/Azim3triko/AcompanaMEapp/blob/main/src/front/js/pages/Imagenes/Logo_A.png
+        link: "https://github.com/Azim3triko/AcompanaMEapp"
+        tagline: "A responsive app created as an educational tool and for the cognitive estimulation
+         of alzheimer patients and caretakers to help them with the desease."
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 40%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: React
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: MySql
+        level: 40%
+
+      - name: Photoshop & Illustrator
+        level: 100%
