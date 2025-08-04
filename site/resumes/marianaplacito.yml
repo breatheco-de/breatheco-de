@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mariana
+    last_name: Plácito
+    
+    # Define yourself in 4-5 words
+    motto: I'm wonder woman
+    
+    # focus
+    focus: Be happy
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm passionated by programming. I started my journey with biology and always trying to improve and looking for things that complement it, such as the environment and the technologies that are necessary with evolution.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/101410421?s=400&u=a2d87eeacb5498b4ad52fc16a4bd9cf84ba6844f&v=4
+    # Contact Information
+    email: mariana.placito@gmail.com #optional
+    phone: +351 912479259 #optional
+  
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marianaplacito
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: reading 
+
+      - item: travel
+
+# Your previous education
+education:
+    - degree: Graduation in Human biology
+      university: University of Évora 
+      # optional
+      university_logo: https://www.uevora.pt/var/uevora_responsive/storage/images/media/images/simbolo/6194-1-por-PT/Simbolo_small.png
+      time: 2009 - 2014
+      details: |
+        This cycle of studies provides a solid theoretical background, complemented with a strong experimental background, providing an interdisciplinary and integrated view of the human species from a biological point of view, which includes development, growth, anatomy and physiology.
+
+    - degree: Multimedia product development
+      university: Novotecna - Leiria
+      # optional
+      time: 2019 - 2021
+      details: |
+        Conceive, plan and develop solutions using the principles and practices of design and multimedia technologies, as well as techniques for capturing, recording, processing and disseminating cinema and video.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Graphic designer
+      time: 2022 - 2023
+      company: Hilário & Alves, Leiria
+
+      details: |
+        When the problem requires creativity, technique, good aesthetic taste and a pinch of talent, possibly this problem will be solved by a graphic designer.
+
+    - role: Researcher 
+      time: 2015 - 2016
+      company: Institute of Legal Medicine and Forensic Sciences, I.P. Delegation of the Center
+      # optional
+      company_logo: https://inmlcf.justica.gov.pt/Portals/28/NOVO%20LOGO%20INMLCF1.png?ver=LC2Vx-H11z3Zff_vqKmovQ%3d%3d
+      details: |
+        In research in Genetics at the Genetics and Forensic Biology Service
+skills:
+    toolset:
+      - name: Javascript
+        level: 4%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 80%
