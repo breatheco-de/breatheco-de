@@ -1,0 +1,21 @@
+template: "online-cv"
+skin: "white"
+
+basic_info:
+
+  #Profile Information
+  name: Argelio Baca
+  tagline: Full Stack Developer
+
+  #Sidebar Links
+  email: argelio.baca@gmail.com
+  phone: +505 889-395-87
+  linkedin: argelio-baca
+  github: Argeliosk8
+
+  languages:
+    - idiom: Spanish
+      level: Native
+    
+    - idiom: English
+      level: Proficient
