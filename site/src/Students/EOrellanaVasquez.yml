@@ -1,0 +1,175 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduardo
+    last_name: Orellana
+    
+    # Define yourself in 4-5 words
+    motto: Civil Industrial Engineer and Full Stack Developer.
+    
+    # focus
+    focus: Learning the more I can everyday.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+    I a bachelor degree in Egineering, worked in Ecomsur where I learned about the world of e-commerce, and now I'm
+    trying to find my way in the world of the web developmen.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/_MG_2921-2.jpg
+
+    # Contact Information
+    email: edo.orellanavasquez@gmail.com #optional
+    #phone: 234 2342 342 #optional
+    website: https://github.com/EOrellanaVasquez #optional
+    linkedin: https://www.linkedin.com/in/edu0rellana/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/EOrellanaVasquez
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Conversational
+
+      - idiom: Norwewian
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor in Civil Industrial Engineering
+      university: Universidad San Sebastián
+      # optional
+     # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2019
+      #details: |
+       # Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #pretium quis, sem.
+
+         # - Bullet point
+          #- Bullet point
+
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      # optional
+     # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      #details: |
+       # Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #pretium quis, sem.
+
+         # - Bullet point
+          #- Bullet point
+
+# Your previous job experiences or voluntier
+#experiences:
+   # - role: Lead Developer
+    #  time: 2015 - Present
+     # company: Startup Hubs, San Francisco
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       # Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #Cum sociis natoque penatibus et magnis dis parturient montes,
+        #nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+       # enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        #error sit voluptatem accusantium doloremque laudantium, totam rem
+        #aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        #architecto beatae vitae dicta sunt explicabo.
+
+         # - Bullet point
+          #- Bullet point
+
+    - # role: Senior Software Engineer
+      #time: 2014 - 2015
+      #company: Google, London
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       # Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #Cum sociis natoque penatibus et magnis dis parturient montes,
+        #nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #pellentesque eu, pretium quis, sem.
+
+         # - Bullet point
+          #- Bullet point
+
+    - # role: UI Developer
+      #time: 2012 - 2014
+      #company: Amazon, London
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       # Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #Cum sociis natoque penatibus et magnis dis parturient montes,
+        #nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #pellentesque eu, pretium quis, sem.
+
+         # - Bullet point
+          #- Bullet point
+
+# Your project portfolio
+projects:
+    intro: Some project where i've participated
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: ""
+        tagline: ""
+
+skills:
+    toolset:
+      #- name: Python & Django
+      #  level: 98%
+
+      #- name: Javascript & jQuery
+      #  level: 98%
+
+      #- name: Angular
+      #  level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      #- name: Ruby on Rails
+      #  level: 85%
+
+      #- name: Sketch & Photoshop
+      #  level: 60%
