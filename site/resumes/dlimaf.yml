@@ -1,0 +1,145 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: dlimaf1995@gmail.com
+  first_name: Dayana
+  last_name: Lima
+  github: dlimaf
+  twitter: DayanaLimaFigueroa
+  website: ~
+  interests: 
+    - 
+      item: Desarrollo-Web 
+    - 
+      item: Ingeniería civil
+    - 
+      item: Viajar
+  languages: 
+    - 
+      idiom: Spanish
+      level: Professional
+    - 
+      idiom: English
+      level: Basico
+
+  
+  motto: Todo esfuerzo tiene su recompensa
+  phone: "0931308328"
+  stack-overflow: ~
+  summary: |
+      Estudiante de 4Geeks, curso de Full Stack developers, amante de la tecnología.
+      Ingeniera civil, 4 años de experiencia en el rublo de la construcción, he participado en varios proyectos de hoteles en zona de playa.
+      Actualmente me desarrollo como asistente administrativa del estudio jurídico Lena y Cia S.A 
+
+education: 
+  - 
+    degree: Ingeniería civil
+    details: |
+        Graduada de la generación de 2018,me desarrollé como alumna ayudante durante los dos últimos años de la carrera,
+        realicé mi trabajo de tesis sobre el análisis de comportamiento de cimentaciones según las condicones del suelo 
+        con la utilización del programa ABAQUS, quinta de mi generación.
+        
+          - Bullet point
+          - Bullet point
+    time: septiembre 2013 - julio 2018
+    university: UCLV
+    university_logo: "https://www.uclv.edu.cu/wp-content/uploads/2020/05/logo_small.png"
+  - 
+    degree: Full Stack developers
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: enero 2023 - Actualidad
+    university: 4Geeks Academy
+    university_logo: "https://www.lascondes.cl/files/8505"
+experiences: 
+  - 
+    company: AEI UCM-Bouigues Batiment International
+    company_logo: "https://www.bouygues-construction.com/sites/default/files/logo-by-bat-international_0_3.png"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+        
+          - Bullet point
+          - Bullet point
+    role: Especialista "A" en obras de ingeniería e industriales
+    time: septiembre 2018 - diciembre 2021
+  - 
+    company: Lena y Cia S.A
+    company_logo: "https://media.licdn.com/dms/image/C4E0BAQEbNzNoU7USLw/company-logo_200_200/0/1598304172812?e=2147483647&v=beta&t=jGteeMSos6YW4jVx1Zm_Pnql54pJfaewDXj_q9DAoWw"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: Asistente administrativa
+    time: Agosto 2022 - Actualidad
+  - 
+    
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: ~
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 100%
+      name: "Python & Django"
+    - 
+      level: 90%
+      name: "Javascript & jQuery"
+    - 
+      level: 70%
+      name: Angular
+    - 
+      level: 95%
+      name: "HTML5 & CSS"
+    - 
+      level: 90%
+      name: "Ruby on Rails"
+    - 
+      level: 80%
+      name: "Sketch & Photoshop"
+skin: green
+template: online-cv
