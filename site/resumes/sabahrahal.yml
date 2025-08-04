@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sabah
+    last_name: Rahal
+    
+    # Define yourself in 4-5 words
+    motto: “Technology is a word that describes something that doesn’t work yet.”
+    
+    # focus
+    focus: Learn and improve my skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Developer with 1 year of experience building applications with languages ​​(HTML5, CSS3, JAVASCRIPT and JAVA). 
+      Frameworks (Springboot). 
+      Connection with RESTful API. 
+      Evolutive for customer types online stores, marketing agencies, NGOs and SMEs.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFL9i_oIVQKog/profile-displayphoto-shrink_800_800/0/1645117430335?e=1666828800&v=beta&t=LTsxZ7nrzD_QYNvNUhtlTdlxR2nnyrL7TAFR9A6HqV8
+
+    # Contact Information
+    email: sabahrahal1998@gmail.com #optional
+    phone: +584248526950 #optional
+    website: https://github.com/sabahrahal #optional
+    linkedin: https://www.linkedin.com/in/sabah-rahal-5a82b2228/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/sabahrahal
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+    # Interests or hobies
+    interests:
+      - item: Valorant
+
+      - item: Soccer
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: Bachelor.
+      university: Colegio Guayamurí.
+      # optional
+      university_logo: https://www.arcadat.com/logos/li162415804E20E5E77EF0D3.jpg
+      time: 2010 - 2014
+      details: |
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: JUNIOR FULL STACK DEVELOPER
+      time: 2020 - PRESENT
+      company: Freelancer
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+      - Development of static and dynamic Mobile First Design responsive websites
+        optimized for SEO.
+      - Construction of inventory application with technologies
+        (HTML5/CCS3/JAVASCRIPT/JSP/JAVA) and database (MySQL)
+      - Use of Git version control system and Github platform
+      - Mockup design with Adobe suite (Illustrator, inDesign, Photoshop, XD).
+    - role: Warehouse Supervisor.
+      time: 2018 - 2019
+      company: Hospital Akkar Rahal. Akkar, Líbano.
+      # optional
+      company_logo: https://hopitalrahal.files.wordpress.com/2011/11/visit-card-walid-rahal2.jpg?w=140
+      details: |
+        - Management of supplies.
+        - Preparation of inventories.
+        - Making orders.
+        - Search of suppliers.
+        - Logistics solutions.
+# Your project portfolio
+projects:
+    intro: >
+      These are the proyects I've worked on.
+    assignments:
+      - title: Control de clientes
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/sabahrahal/customerControl"
+        tagline: "- Realizado con HMTL5/BOOSTRAP/JAVASCRIPT/JAVA patrón MVC Servlets, JSP y MySQL - Control de clientes (agregar, eliminar, editar, balance de saldo y cantidad de clientes) - Proyecto de aprendizaje"
+
+      - title: To Do List
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/sabahrahal/todoList"
+        tagline: "- Realizado con HTML5/CCS3/JAVASCRIPT - To Do List básico - Proyecto de aprendizaje"
+
+      - title: TifonApp con JAVA
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/sabahrahal/tifonApp"
+        tagline: "- Realizado con JAVA Swing y MySQL - Registrar pedidos pagos y por cobrar - Proyecto de aprendizaje y utilidad"
+
+      - title: Calculadora JS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/sabahrahal/calculadora"
+        tagline: "- Calculadora realizada con HTML5/CCS3/JS - Calculadora básica - Proyecto de aprendizaje"
+
+skills:
+    toolset:
+      - name: Java
+        level: 70%
+
+      - name: Javascript
+        level: 40%
+
+      - name: Springboot
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Illustrator & Photoshop
+        level: 80%
+
+      - name: Wordpress
+        level: 90%
