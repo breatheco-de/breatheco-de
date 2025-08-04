@@ -1,0 +1,102 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christian
+    last_name: Luperon
+    
+    # Define yourself in 4-5 words
+    motto: I'm constantly chasing dopamine.
+    
+    # focus
+    focus: Starting projects from the ground up.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have been a mechanic since the age of 16 and decided to change my career
+      once I found out cars would no longer be mechanical and more electric and
+      since there will be no need for mechanics anymore in the future i decided to
+      change my career towards software development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C5603AQEYkEVv0XrvaQ/profile-displayphoto-shrink_800_800/0/1657144838527?e=1674086400&v=beta&t=dZsLlw6cYOLt2ue8LxdsjD9uZ39kOPqcseiquspRcFw
+
+    # Contact Information
+    email: luperon.christian22@gmail.com #optional
+    phone: 786-760-9556 #optional
+    linkedin: https://www.linkedin.com/in/christian-luperon/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lupey1103
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Fluent
+
+
+    # Interests or hobies
+    interests:
+      - item: Automotive Racing
+
+      - item: Skateboarding
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Full Stack Software Development Certificate
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      details: |
+        My studies consisted of learning the basic fundamentals with programming languages
+        while advancing to the more intimidating back end programming languages.
+          - Learned front end programming languages such as HTML, CSS, JavaScript, React; etc,
+          - Learned back end programming languages such as Python, MySQL, JWT; etc.
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Plan and Go
+        # optional
+        tagline: "A responsive website designed to help individuals find events near an area they will be traveling to."
+
+skills:
+    toolset:
+      - name: Python
+        level: 20%
+
+      - name: Javascript
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Firebase
+        level: 50%
+
+      - name: C#
+        level: 20%
