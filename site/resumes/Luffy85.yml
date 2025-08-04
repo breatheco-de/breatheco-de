@@ -1,0 +1,48 @@
+basic_info: 
+  avatar: "https://tse3.mm.bing.net/th?id=OIP.gewsDHBehuvAIcn5ePjWMgHaD5&pid=Api&P=0&w=288&h=151"
+  email: macias85ale@gmail.com
+  first_name: Alejandro
+  focus: "The future"
+  github: Luffy85
+  interests: 
+    - 
+      item: sports
+    - 
+      item: comics
+    - 
+      item: Cooking
+  languages: 
+    - 
+      idiom: espanol
+      level: Native
+    - 
+      idiom: English
+      level: Professional
+    - 
+      idiom: italian
+      level: Professional
+  last_name: Macias
+  linkedin: ~
+  motto: "I like lern a new skild"
+  phone: 1786853929
+  stack-overflow: ~
+  summary: ""
+  website: ~
+education: 
+  - 
+    degree: x
+experiences: 
+  - 
+    company: x
+    details: "x\n"
+    role: x
+    time: x
+  - 
+    company: x
+    role: x
+    time: x
+projects: 
+  assignments: ~
+  intro: "x.\n"
+skin: blue
+template: online-cv
