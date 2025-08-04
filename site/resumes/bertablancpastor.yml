@@ -1,0 +1,189 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Berta
+    last_name: Blanc Pastor
+    
+    # Define yourself in 4-5 words
+    motto: I like learning to program
+    
+    # focus
+    focus: Listen and learn
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I first moved from Graphic Design to Social Media, then e-commerce strategies, and finally to Web Development. The aim is to be able to switch to projects in all phases: concept, research, design and frontend implementation. Enthusiastic about technology and programming. I am in favor of continuous self improvement, good practices, clean code, test-driven development and scrum team-work methodologies. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQEdm9WDk5JzkQ/profile-displayphoto-shrink_800_800/0/1683020107075?e=1689811200&v=beta&t=ILPOyzcewUeYvLAEM73ygxne7BZzQsRZI9mJdq2kmAM
+
+    # Contact Information
+    email: bertablanc89@gmail.com #optional
+    phone: 617 764 235 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/berta-blanc-pastor-2b98b84b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: bertablancpastor
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Culture
+
+      - item: Sports
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: FullStack Web Development
+      university: 4Geeks Academy Spain
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: may. 2023 - sept. 2023
+      details: |
+        Development of web pages, digital/multimedia content and computer resources
+
+        - HTML5
+        - CSS
+        - Bootstrap
+        - Git
+        - GitHub
+
+    - degree: JavaScript
+      university: It Academy de Barcelona Activa
+      # optional
+      university_logo: https://digitalfuturesociety.com/app/uploads/2022/06/BDT_it-academy-y-basa.png
+      time: 2007 - 2011
+      details: |
+        Fundamentals of programming with javascript oriented programming with objects
+
+          - JavaScript
+
+    - degree: FrontEnd Web Development
+      university: Ironhack
+      # optional
+      university_logo: https://www.datocms-assets.com/14946/1661408107-logo-ironhack-blue.png?auto=format&fit=max&w=1200
+      time: nov. 2022 - dic. 2012
+      details: |
+        Development of web pages, digital/multimedia content 
+
+          - HTML5
+          - CSS
+          - JavaScript
+          - Vue.js
+          - Git
+          - GitHub
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Account Manager
+      time: dic. 2020 - ene. 2022
+      company: Ajuntament de Sant Just Desvern
+      # optional
+      company_logo: https://santjust.net/media/uploads/imgcorporativa/logo_sj.jpg
+      details: |
+        Developing different projects in the areas of Commerce and Innovation.
+        During the last years, a model of events has been consolidated that constitutes a commercial promotion campaign for the municipality. The distribution in the different neighborhoods and in different periods has allowed us to balance an offer that currently reaches practically the entire population.
+        Projects
+          - Sant's Market
+          - Nit de Sant Just al carrer
+
+    - role: Event manager
+      time: ene.2020 - sept.2020
+      company: Grup Ametller Origen
+      # optional
+      details: |
+        Creadción y coordinación de los eventos internos y externos de la empresa Grup Ametller Origen.
+
+          - Cuina amb Estrella
+          - La Gran Calçotada
+
+    - role: Event manager
+      time: ene. 2015 - dic. 2019
+      company: grups gsr - Grupo Vocento
+      # optional
+      details: |
+        Organización y coordinación de eventos gastronómicos.
+
+          - Tast a La Rambla
+          - Mercat de Mercats
+          - Terrae
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+
+      - name: Javascript 
+        level: 50%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 95%
