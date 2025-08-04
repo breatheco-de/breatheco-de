@@ -1,0 +1,130 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alicia  
+    last_name: Garrote
+    
+    # Define yourself in 4-5 words
+    motto: Loving challenges
+    
+    # focus
+    focus: Learning to become a Ful Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      "Learning"
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://sep.breatheco.de/static/profile-images/
+
+    # Contact Information
+    email: aleisgar@gmail.com #
+    linkedin: https://www.linkedin.com/in/alicia-garrote-53a466a7/ #
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: Aleisgar
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: hikking
+
+      - item: dancing
+
+      - item: playing with my children
+
+# Your previous education
+education: 
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2022
+      details: |
+       HTML5, CSS3, JS, Git, Python, React, Flask, SQL
+        
+
+    - degree: Environmental pollution and toxicology
+      university: Universidad del País Vasco
+      time: 2014-2015
+
+    - degree: Environmental ciencies
+      university: Universitat de Girona
+      time: 2006-2012
+    
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Project manager 
+      time: 2019-2021
+      company: Organic SCCL
+      details: |
+       Proyecto intercooperativo relacionado con la economía circular.
+        
+
+    - role: Founding partner and attendand in organic food coop
+      time: 2016-2022
+      company: Organic SCCL
+      details: |
+        
+          
+# Your project portfolio
+projects:
+    intro: >
+        Currently working in building an excuse generator with Bootstrap. 
+
+    assignments:
+      - title: My Postcard
+        link: 
+        tagline: "My first coding project built an interactive Postcard with Html5 and Css."
+
+      - title: Instragram Feed
+        link: 
+        tagline: "My second coding project further used my Css skills and learned how to make a responsive website."
+
+      - title: Instagram Feed with Bootstrap
+        link: "https://github.com/Aleisgar/Instagram-with-Bootstrap"
+        tagline: "My first project with Bootstrap."
+
+      - title: Collab Project
+        link: 
+        tagline: "My first collboration with other students in my cohort. Built the Navbar using Bootstrap 4."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: React
+        level: 0git %
+
+      - name: SQL
+        level: 0%
+        
