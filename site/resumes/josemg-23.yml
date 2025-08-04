@@ -1,0 +1,96 @@
+--- 
+basic_info: 
+  avatar: "https://randomuser.me/api/"
+  email: "jose.gomezt19@gmail.com"
+  first_name: Jose Manuel
+  focus: "Learning to become a Full Stack Developer. Expanding my knowledge as much as possible to change my career and knowledge."
+  github: josemg-23
+  interests: 
+    - 
+      item: "Music, DJing, Cycling"
+    - 
+      item: Metal/Networking/Programming
+    - 
+      item: "Traveling/Food/playing with Videogames"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: B2+
+  last_name: Gomezo
+  linkedin: "https://www.linkedin.com/"
+  motto: "I'm ambitious, intelligent and fun."
+  phone: "+57 3016075438"
+  stack-overflow: ~
+  summary: "I am an industrial engineer, willing to learn to code with my engineer background"
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "Industrial Engineer"
+    details: "5 years bachelor, 4.2 GPA"
+    time: "2016 - 2021"
+    university: "Universidad ICESI"
+experiences: 
+  - 
+    company: "Arukay SA"
+    details: "B2B Sales agent"
+    role: "Business Development Agent"
+    time: "2020 - 2021"
+  - 
+    company: "Imgral LTDA"
+    details: "Sales, accounting, financial and digital developing"
+    role: "Business Admnistrator"
+    time: "2019 - Present"
+  - 
+    
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: N/A
+skills: 
+  toolset: 
+    - 
+      level: 0%
+      name: "Python & Django"
+    - 
+      level: 10%
+      name: "Javascript & jQuery"
+    - 
+      level: 0%
+      name: Angular
+    - 
+      level: 50%
+      name: "HTML5 & CSS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 15%
+      name: "Sketch & Photoshop"
+    - 
+      level: 90%
+      name: "Networking & Security"
+skin: blue
+template: online-cv
