@@ -1,0 +1,150 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Olga
+    last_name: Golovina
+    
+    # Define yourself in 4-5 words
+    motto: Positive attitude, effective and efficient teamwork, always striving to improve
+
+    
+    # focus
+    focus: to become a good Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´ve been working in supply chain for an auto industry for the last 6 years. 
+      Now it´s time to learn somehting new. Technological sector is very interesting and perspective. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFlvjqHjwiDew/profile-displayphoto-shrink_800_800/0/1647168735854?e=1652918400&v=beta&t=RL029ywSet1z6azsjFya3fnyFgrix1MH9tk9469sYcY
+
+    # Contact Information
+    email: oy.golovina@gmail.com #optional
+    phone: +34 625 878 688 #optional
+    website: --- #optional
+    linkedin: https://www.linkedin.com/in/olgagolovina #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Heylga
+    
+    twitter: '@oy_golovina' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Russian
+        level: Native
+
+      - idiom: English
+        level: C1
+
+      - idiom: Spanish
+        level: C1
+
+      - idiom: German
+        level: A2
+
+    # Interests or hobies
+    interests:
+      - item: Jogging
+
+      - item: Graphic Desighn
+
+      - item: Travelling
+
+# Your previous education
+education:
+    - degree: Higher education in Economics
+      university: STATE UNIVERSITY OF MANAGEMENT
+      # optional
+      university_logo: https://guu.ru/assets/img/logo_en.png
+      time: 2009 - 2014
+      details: |
+        Foreign-economic activity (World economy)
+    - degree: Intership in International Business and Economics
+      university: Uniwersytet Ekonomiczny w Poznaniu
+      # optional
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHSgNJd6BGgng/company-logo_200_200/0/1634556973451?e=1655337600&v=beta&t=NtxyOKfe4vBMfOkEbVBpTpem5vmi_cUPsY8s941lc6E
+      time: 2011 - 2012
+      details: |
+        International Business and Economics
+    - degree: Master´s Degree in E-Commerce
+      university: Seeway, Barcelona
+      # optional
+      university_logo: https://th.bing.com/th/id/R.d400f25be132bc8aced5eb5afbe98b52?rik=QwaQAPXjX%2b6vdg&riu=http%3a%2f%2fthink.innovafoto.com%2fwp-content%2fuploads%2f2017%2f02%2fAF-SEEWAY-LOGO-CAST-rgb.png&ehk=JXX%2ftM69u32m1evDQQganZcMP34MDV9CEAK%2bzILiy7Y%3d&risl=&pid=ImgRaw&r=0
+      time: 2015-2016
+      details: |
+        Master´s Degree in E-Commerce
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Team Coordinator
+      time: 2018 - Present
+      company: Daimler, AG, Barcelona
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGI2YOMRiKeOQ/company-logo_100_100/0/1638291602473?e=1655337600&v=beta&t=H3mb7szHc1JgPfasVwG_2rYxtWerEHCtqCYouGrSrGM
+      details: |
+        -	Measuring and organizing the capacity of the team 
+        -	Supporting staff with operative tasks
+        -	Overseeing processes and monitoring that tasks are completed correctly and on time
+        -	Working on improving KPIs of team members
+        -	Checking the progress of a member reaching his/her goals
+        -	Organizing and providing training and development of staff
+        -	Arranging and running team daily/weekly meetings 
+
+    - role: Supply Chain Analyst
+      time: 2015 - 2018
+      company: Daimler, AG, Barcelona
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGI2YOMRiKeOQ/company-logo_100_100/0/1638291602473?e=1655337600&v=beta&t=H3mb7szHc1JgPfasVwG_2rYxtWerEHCtqCYouGrSrGM
+      details: |
+        -	Analysis of database and improving current processes of supply chain 
+        -	Evaluating suppliers, based on speed of delivery
+        -	Obtaining and measuring data, and reporting on supply performance 
+        - Coordination of process movements to support inbound and outbound infrastructure
+        -	Integrating and assisting other departments (finance, sales, development, quality, transport, customer service)
+        -	Collaboration with purchasing department, meeting customer demands
+
+   
+# Your project portfolio
+projects:
+    intro: >
+      Below  you will find  a list of my projects. All the websites are responsive and are visible in github repositories.
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: 
+        link: https://github.com/Heylga/4GEEKS-PT-01-MyPostcard
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 60%
