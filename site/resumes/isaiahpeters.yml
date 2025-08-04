@@ -1,0 +1,76 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Isaiah
+    last_name: Peters
+    motto: Coder
+    summary: I've worked various jobs throughout my life and earlier this year of 2022 my best friend really got me interested into learning coding. 
+      I started just by going on free coding websites and learning languages like Python.
+      I then looked into ways I could be succesful with learning how to code and I found 4Geeks Academy! 
+      So far I really like the program and I really appreciate all of the support from such great people!
+    # Sidebar links
+    email: isaiah.peters64@gmail.com
+    phone: 207 809 9204
+    github: isaiahpeters
+    stack-overflow: 19490695/isaiah-peters # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Basketball
+      - item: Video Games
+      - item: Dropshipping
+
+education:
+    - degree: AS in Marketing
+      university: USM
+      time: 2018 - 2020
+
+experiences:
+    - role: Truck Driver
+      time: 2018 - 2019
+      company: Native Maine
+      details: I would have everything prepared for loading whatever truck I'm assigned to do that day 
+       and I would load up the back of a good sized box truck with produce and specialty foods to 
+       deliver to many restaurants throughout that day. 
+       I would also sometimes have to help box up the food and help prepare for other drivers including 
+       myself depending on how busy the company was in general on certain days. 
+
+          - Bullet point
+          - Bullet point
+
+    - role: Package Distributer
+      time: 2020 - Present
+      company: 207 Distribution
+      details: I pack various products that customers order from this company and mail them out throug the post office. 
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 2%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 10%
