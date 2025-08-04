@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Santamaria Rodrigo
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta disfrutar de la vida.
+    
+    # focus
+    focus: Ser la mejor persona posible
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy una persona seria y trabajadora, con grandes aptitudes y actiudes que trabaja bien en
+      equipo y el trabajo sobre presion.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Sergio-Santamaria
+
+    # Contact Information
+    email: ssantamariarodrigo@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Pas0ta
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: 
+        level:
+
+      - idiom:
+        level:
+
+    # Interests or hobies
+    interests:
+      - item: Cine/Series
+
+      - item: Psicologia
+
+      - item: Analisis
+
+# Your previous education
+education:
+    - degree: Master business intelillent and big date
+      university: 
+      # optional
+      university_logo: 
+      time: 2019/2020
+      details: |
+        Estudios centrados en Marketing Mobile y Publicidad , a traves de
+        Business Intelligence y sistemas de busquedad de datos como Google Analytics. 
+              
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Responsable de zona
+      time: 2017/2020
+      company: Viva aquaservices
+      # optional
+      company_logo: 
+      details: |
+       Gestión de clientes , solución de incidencias, venta al detalle, organización de rutas, control                
+       de cargas y descargas, mantenimiento de vehículos.
+
+    - role: Analista-autonomo
+      time: 2020/2021
+      company: koZgZ
+      # optional
+      company_logo:
+      details: |
+        Ofrecer y gestionar a comercios de barrio y perqueñas empresas ofreciendo
+        soluciones RRSS y analisis de sus comercios on/off line aumentado rentabilidad
+        a sus negocios.
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+# Your project portfolio
+projects:
+    intro: >
+     
+    assignments:
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30% -> aprendiendo
+
+      - name: Javascript 
+        level: aprendiendo
+
+      - name: 
+        level:
+
+      - name: HTML5 & CSS
+        level: 30% -> aprendiendo
+
+      - name: 
+        level: 
+
+      - name: 
+        level:
