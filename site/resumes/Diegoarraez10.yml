@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego 
+    last_name: Arraez
+    
+    # Define yourself in 4-5 words
+    motto: Dont let your memes be dreams
+    
+    # focus
+    focus: Being better than the day before
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      An independent and self-motivated individual with proven and tested programming,
+      negotiation, sales and marketing skills.With an outstanding ability to
+      handle myself in multiple languages and environments.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.code-wizard-pro.com/wp-content/uploads/fullsizeoutput_d8c.jpeg
+
+    # Contact Information
+    email: diegoarraez11@hotmail.com #optional
+    phone: +584122703800
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Diegoarraez10
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: japanese
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Cats
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Fullstack software developer
+      university: 4geeks academy
+      # optional
+      university_logo: 
+      time: 2022 - 2023
+      details: completed the 4geeks bootcamp to become a fullstack software developer, taking a dive in the world of programming
+              learning how to handle myself in  this envioronment and work with a team
+        
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: junior dev
+      time: 2023 - present
+      company: TradeaTodo, Barquisimeto, Lara, Venezuela
+    
+# Your project portfolio
+projects:
+    intro: >
+      these are some of the stuff ive been working on
+    assignments:
+      - title: Tradeatodo
+        # optional
+        project_logo: 
+        link: "https://github.com/Diegoarraez10/flask-proyecto-final-DJJ"
+        tagline: "pagina web estilo e-commerce con focus en videojuegos"
+
+    
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Javascript 
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Photoshop
+        level: 50%
+
+      - name: React
+        level: 85%
+
