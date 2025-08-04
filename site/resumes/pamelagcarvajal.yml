@@ -1,0 +1,44 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Pamela
+    last_name: Granados Carvajal
+    
+    
+    motto: Dedication, learning, caring, helping, active, responsible.
+    
+    
+    focus: Learn to develop to help others and myself. 
+    
+    
+    summary: |
+      I am a person who likes outdoor activities, but also being at home watching series.
+       Social Worker by profession, with new knowledge and interest in web development. 
+       I love reading books and I am a number 1 fan of Harry Potter.
+
+    
+   
+    avatar: 
+
+    
+    email: pamela.gcarvajal@gmail.com
+    # phone: (+506) 8897-6792  
+    linkedin: https://www.linkedin.com/in/pamela-granados-144006230/
+    
+    
+    github: pamelagcarvajal
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    
+    interests:
+      - item: Anime
+
+      - item: Read
+
+      - item: Learn
