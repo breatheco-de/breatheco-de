@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Paulo
+    last_name: Riveiro
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta Programar.
+    
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me considero una persona proactiva, constantemente aprendiendo, sentido de la responsabilidad. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: pauloriveiro01@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DrowLink
+    
+    twitter:  #optional
+    stack-overflow:  # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: Portuguese
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Games
+
+      - item: Coding
+
+      - item: Constantly Learning
+
+# Your previous education
+education:
+    - degree: Puerto La Cruz, Venezuela
+      university: 4Geeks Academy LLC
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2019
+      details: |
+        Full-Stack Development 
+    - degree: Maracaibo, Zulia, Venezuela
+      university: URBE - Universidad Dr. Rafael Belloso Chacín
+      # optional
+      university_logo: https://i.ibb.co/4dTf1wq/Logo-urbe1-sinfondo.gif
+      time: 2008 - 2009
+      details: |
+        Gestion y Analisis de Costo
+    - degree: Maracaibo, Zulia, Venezuela
+      university: Univerdidad Del Zulia
+      # optional
+      university_logo: https://i.ibb.co/Vv4rpJy/lus-escudo.png
+      time: 2005 - 2009
+      details: |
+        Economista
+    - degree: Maracaibo, Zulia, Venezuela
+      university: CEFAE - Centro DE Educación y Formación Albert Einstein
+      # optional
+      university_logo: https://i.ibb.co/sjTsN2q/230393-212512078766577-3462392-n.jpg
+      time: 2003 - 2003
+      details: |
+        Programador Tecnico Computarizado
+    - degree: Maracaibo, Zulia, Venezuela
+      university: CEFAE - Centro DE Educación y Formación Albert Einstein
+      # optional
+      university_logo: https://i.ibb.co/sjTsN2q/230393-212512078766577-3462392-n.jpg
+      time: 2003 - 2003
+      details: |
+        Reparacion y Mantenimiento de Computadoras
+# Your previous job experiences or voluntier
+experiences:
+    - role: Programador C# 
+      time: 2015 - 2019
+      company: ASB TECHNOLOGY C.A., Venezuela
+      # optional
+      company_logo: http://asbtechnologyca.com.ve/images/2012/logoasb4.png
+      details: |
+        Desarollador de Software de gestión empresarial. 
+        Tambien Participe en el desarrollos de sitios web e-commerce.
+    - role: Administrador
+      time: 2010 - 2015
+      company: CLUB DE EDUCADORES C.A., Venezuela
+      # optional
+      company_logo: http://clubdeeducadores.com.ve/images/CLUB_DE_EDUCADORES/logoclub4.png
+      details: |
+        Administrador en cargado de llevar el control y administración de contratos a crédito 
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML5 - CSS & Bootstrap
+        level: 95%
+
+      - name: Javascript
+        level: 95%
+
+      - name: PHP
+        level: 80%
+
+      - name: Python & Django
+        level: 95%
+        
+      - name: Photoshop - Gimp - Illustrator - Blender
+        level: 30%
