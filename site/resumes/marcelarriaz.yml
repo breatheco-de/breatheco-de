@@ -1,0 +1,55 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Marcel
+    last_name: Arriaz
+    motto: 
+    avatar: ~
+    summary: |
+        Técnico en informática, con experiencia en soporte técnico e infraestructura a distintos niveles de aplicación. Gestión de incidentes de seguridad, administración de accesos de usuarios, equipos, permisos y roles dentro del ecosistema de información. Utilizando herramientas de virtualización, monitoreo de redes cableadas e inalámbricas, servidores y recursos. 
+         
+
+    # Sidebar links
+    email: marcelarriaz@gmail.com
+    phone: +54 911 4870 0342
+    website: ~
+    linkedin: marcel-enrique-arriaz-avendaño-8982447b
+    github: marcelarriaz
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: TSU Informatica
+      university: IUT Rufino Blanco Fombona
+      time: 2010 - 2019
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
