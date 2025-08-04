@@ -1,0 +1,57 @@
+template: "online-cv"
+skin: "orange"
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Pablo
+  last_name: Troncoso
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  - Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript, React, Bootstrap, Flux , Python y Sql.
+  - Además aprendí a trabajar de manera colaborativa a través de herramientas como Github y Gitpod 
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://pbs.twimg.com/profile_images/1545121384816431104/o7jhodMZ_400x400.jpg
+
+  # Contact Information
+  email: pablo.troncoso@mail.udp.cl #optional
+ 
+ 
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: pablotroncosog
+
+  instagram: _gonker_ #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Gaming
+
+    - item: Gimnasio
+
+    - item: Fotografía
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    time: jul-2022 - nov-2022
+      
+
+experiences:
+ 
+    details: 
+
+    To-Do List: 
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+
+
+
+
