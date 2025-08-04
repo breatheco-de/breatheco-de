@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Matias
+  last_name: Borba
+  motto: Goals don't get closer if you dont chase them.
+  avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/146208674_5312318962126639_6244084036489217581_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=yYgSvGPQuMEAX9v0XDc&_nc_ht=scontent-mia3-1.xx&oh=f43baf832867826f68841138ca6fefba&oe=60926C7B
+  summary: |
+    I've been working on costumer service for around 2 years (same time i have in US) and i'm looking 
+    for a growth opportunity as a Developer.
+
+  # Sidebar links
+  email: matiasborba89@gmail.com
+  phone: 786 873 9436
+  #website: alesanchezr.com
+  linkedin: https://www.linkedin.com/in/matias-borba/
+  github: 19Mega
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2020 - 2021
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+
+experiences:
+  - role: Food and Beverage Server
+    time: 01/2020 - 05/2021
+    company: Fritz and Franz Bierhaus
+    details: |
+      Giving our best to please costumers.
+        - Giving recommendations for food and drinks 
+        - Cleaning of FOH
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: FlaskSQL
+      level: 75%
