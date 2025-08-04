@@ -1,0 +1,81 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Andres
+  last_name: Ramirez Aliste
+  motto: Full Stack Developer
+  avatar:
+  summary: Actualmente soy estudiante de 4GeekAcademy, en la carrera de Full Stack Software Developer 
+            Con la intencion de en un futuro proximo trabajar como Desarrollador y poder crear cosas interesantes.
+  # Sidebar links
+  email: aramirezaliste@gmail.com
+  phone: +56 9 66127170
+  linkedin: Andres-Ramirez-Aliste/
+  github: aramirezaliste
+  twitter: "@aramirezaliste"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Español
+      level: Native
+
+    - idiom: Ingles
+      level: Basic
+
+  interests:
+    - item: Jugar futbol
+
+    - item: Codigo
+
+    - item: Cocinar
+
+education:
+  - degree: Full Stack Web Developer
+    university: 4Geeks Academy
+    time: 2022 - presente
+    details: |
+      Cuatro meses intensivos de bootcamp en los cuales me enseñaron las formas y maneras de crear proyectos increibles con las herramientas: HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+       
+  - degree: Ing. Mecanica Industrial
+    university: INACAP
+    time: 2009 - 2016
+    details: |
+      En esta carrera tuve la oportunidad de introducirme en la gestion de las diferentes areas de la produccion mecanica.
+      
+experiences:
+  - role: Proyectista Mecanico
+    time: 2020 - Present
+    company: Matritec
+    details: |
+      Responsable del area de diseño y planimetria para la fabricacion de piezas mecanicas o fabricacion de proyectos para la produccion.
+
+projects:
+  intro: >
+    Aca puedes encontrar una lista de algunos de mis proyectos hechos en 4Geeks Academy en mis 3 primeros meses de Bootcamp.
+  assignments:
+    - title: Instagram Photo Feed
+      link: "#https://github.com/aramirezaliste/bootstrap-instagram"
+      tagline: "Proyecto responsivo con las herramientas: HTML5,CSS y Bootstrap."
+
+    - title: Instagram Post
+      link: "#https://github.com/aramirezaliste/Ejercicio-Instagram-Post"
+      tagline: "Ejercicio similando un instagram post con HTML5 y CCS"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 20%
+
+    - name: React
+      level: 20%
+
+    - name: Python/Flask
+      level: 20%
+
+    - name: HTML5 & CSS
+      level: 90%
