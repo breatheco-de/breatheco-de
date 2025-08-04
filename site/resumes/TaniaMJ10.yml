@@ -1,0 +1,174 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Tania
+    last_name: Madrigal
+    
+    
+    motto: excelente trabajadora en equipo, buena comunicadora, efectiva en cuanto a resolucion de problemas, empatica. 
+    
+    
+    focus: Aprendiendo todo sobre ser un desarrollador web. 
+    
+    
+    summary: |
+      Me considero una persona proactiva, con muchas ganas de mantenerme actualizada en los diferentes temas de la actualidad.
+      Disfruto mucho de la lectura en mi tiempo libre y compartir con mi familia cuando me sea posible.
+
+    
+   
+    avatar: 
+    
+    email: tmadrigaljimenez10@gmail.com
+    # phone: 50689934035 
+    # website:  
+    linkedin: 
+    
+    
+    github: TaniaMJ10
+    
+    twitter: 
+    # stack-overflow: 
+
+    
+    languages:
+      - idiom: English
+        level: B2
+
+    
+    interests:
+      - item: Artes culinarias
+
+      - item: Bienestar y Actividad fisica
+
+      - item: Tecnologia en la actualidad
+
+
+
+# education:
+#     - degree: Bach. Terapia del Lenguaje 
+#       university: Universidad Santa Paula 
+#       # optional
+#       university_logo: 
+#       time: 2016
+#       details: |
+#         Es una disciplina terapéutica que se enfoca en evaluar, diagnosticar y tratar trastornos del lenguaje y la comunicación. 
+#         Su objetivo principal es ayudar a las personas a mejorar sus habilidades de comunicación
+#         y superar dificultades relacionadas con el habla, el lenguaje, la articulación,
+#         la fluidez, la voz y otras áreas relacionadas.
+#         
+
+#           - Bullet point
+#           - Bullet point
+
+
+experiences:
+    - role: Niñera 
+      time: 2022- 2023
+      company: Profile Racing
+    
+      # details: |
+      #     - Cuidado y supervisión de niños: Proporcionar un entorno seguro y amoroso para los niños a mi cargo. 
+      #     - Supervisar sus actividades diarias y garantizar su bienestar físico y emocional.
+      #     - Preparación de comidas: Planificar y preparar comidas y meriendas saludables según las necesidades dietéticas y preferencias de los niños.
+      #     - Actividades educativas y recreativas: Organizar y participar en actividades educativas y recreativas apropiadas para la edad de los niños, como juegos, manualidades, lecturas y salidas al parque.
+      #     - Establecimiento de rutinas: Ayudar a establecer rutinas diarias y horarios para los niños, como horarios de comidas, tiempo de juego, tiempo de estudio y hora de dormir.
+
+
+
+#     - role: Manager
+#       time: 2011- 2017
+#       company: Kumon, Miramar/Sunrise
+#       # optional
+#       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
+#       details: |
+       
+#           - Worked with students to develop fundamental math/reading skills using Kumon proprietary learning methods. 
+#           -  Ensured necessary billing and payments were obtained on time. 
+#           - Developed marketing strategy and worked with small businesses to promote the Kumon brand.
+#           - Provide feedback to parents on the progress of students.
+#           - Manage employees and create a successful team environment through effective communication. 
+#           - Answering phone calls and setting up student orientations for enrollment. 
+#           - Proctor exams and grade classwork and homework.
+#           - Data entry of student progress into Content Management System. 
+#           - Managed day to day operations. 
+#           - Communication and coordination skills developed through handling and adapting to unexpected situations that affected the business. 
+#           - Scheduling and coordinating meetings, interviews, events, and other activities. 
+#           - Assists with the hiring and training of new employees including interviews and documentation. 
+
+
+#     - role: UI Developer
+#       time: 2012 - 2014
+#       company: Amazon, London
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# skills: 
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
