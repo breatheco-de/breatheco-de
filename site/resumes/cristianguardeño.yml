@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristian
+    last_name: Guardeño
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta el ketchup
+    
+    # focus
+    focus: Ver anime
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      no tengo ni idea de lo que poner aqui pero como va a ocupar espacio voy a escribir lo primero que se me pase por la cabeza, no he merendado asi que igual me hago un batido con hielo fresquito pero creo que voy a parar de hablar de eso porque empiezo a salibar, no he merendado repito.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imagenes.elpais.com/resizer/iksHj8K729zx_amR6S2K1sB79YI=/1960x1470/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/B6H277FBSRW2AUY6T5WYT5WCBQ.jpg
+
+    # Contact Information
+    email: cristian.guardenyo@gmail.com #optional
+    phone: 659 250 445 #optional
+    website: google.com #optional
+    linkedin: elniñolacurva #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CristiianGB
+    
+    twitter: 'mojinos escocíos' #optional
+    stack-overflow: no se ni lo que es stack overflow # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: castellano
+        level: Native
+
+      - idiom: english
+        level: Professional
+
+      - idiom: neozelandés
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: playa
+
+      - item: piscina
+
+      - item: rios de andalucía
+
+# Your previous education
+education:
+    - degree: Sociedad draconólogica de Massachusets
+      university: University of Draconology
+      # optional
+      university_logo: https://i.pinimg.com/736x/7f/7c/43/7f7c43fd7bba1a3b956cdce7f6b9ce80.jpg
+      time: 2011 - 2016
+      details: |
+        Nos enseñaron a hacer nudos, sobrevivir en la naturaleza y poco más
+    - degree: Cazamiento de Unicornios y seres Cuadrípedos
+      university: Narnia University
+      # optional
+      university_logo: http://images2.memedroid.com/images/UPLOADED56/52cb48701e700.jpeg
+      time: 2007 - 2011
+      details: |
+        Nos enseñaron a hacer mas nudos, cabalgar por si había suerte y a hacernos abrigos.
+          
+# Your previous job experiences or voluntier
+experiences:
+    - role: Domador de dragones
+      time: 2015 - 2015
+      company: Los mojinos escocíos
+      # optional
+      company_logo: http://www.mojinos.com/wp-content/uploads/2019/03/Mojinos-2019_2.jpg
+      details: |
+        Muy buen ambiente laboral pero no vimos ni un dragon
+    - role: Cazador 
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/12/legolas.jpg?fit=2274%2C1424&quality=50&strip=all&ssl=1
+      details: |
+        Nada, nada. Me daban pena los bichos y no duré ni 3 días
+    
+# Your project portfolio
+projects:
+    intro: >
+      No tengo proyectos tengo proyectiles
+    assignments:
+      - title: escopeta
+        # optional
+        project_logo: https://www.borchers.es/16768-tm_large_default/escopeta-de-corredera-mossberg-500-hunting-field-20-76.jpg
+        link: "#hook"
+        tagline: "cartuchos, cartuchos siempre"
+
+      - title: Arco
+        # optional
+        project_logo: https://www.disfracessimon.com/18368-home_default/ballesta-medieval-madera-flechas.jpgg
+        link: "#"
+        tagline: "se que pone arco, es mas profesional. "
+
+      - title: pistola
+        # optional
+        project_logo: https://juguettos.com/2855767-large_default/A0260587.jpg
+        link: "#"
+        tagline: "es de agua, me has pillado"
+
+skills:
+    toolset:
+      - name: nudos
+        level: 98%
+
+      - name: cocina
+        level: 98%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 5%
+
+      - name: Ruby on Rails
+        level: no sé ni lo que es%
+
+      - name: Sketch & Photoshop
+        level: 800% pa salir guapo en las fotos
