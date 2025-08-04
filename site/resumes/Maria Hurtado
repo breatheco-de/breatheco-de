@@ -1,0 +1,79 @@
+# Personal Information
+personal_information:
+  name: Maria Jose Hurtado Sandia
+  email: mhurtadosandia@gmail.com
+  phone: "+491795418052"
+  linkedin: https://www.linkedin.com/in/maria-jose-hurtado-sandia-0b3901231/
+  github: https://github.com/mjhs1999
+  address:
+    street: Degenfeldstrasse
+    city: Karlsruhe
+    state: BW
+    zip_code: "76131"
+    country: Germany
+  # Objective statement
+  objective: >
+    Aspiring full-stack developer passionate about learning and applying new
+    technologies. Completed a full-stack development bootcamp and looking to
+    leverage skills in a dynamic development environment.
+
+# Education Details
+education:
+  - degree: Bachelor of Science in Mechanical Engineering (Student)
+    institution: Karlsruhe Institute of Technology (KIT)
+    year: 2018-Present
+    location: Karlsruhe, Germany
+
+# Work Experience
+work_experience:
+  - company: Amazon Pforzheim
+    position: Intern
+    start_date: January 2022
+    end_date: June 2022
+    responsibilities:
+      - Project management
+
+  - company: Amazon Pforzheim
+    position: Working Student
+    start_date: July 2022
+    end_date: June 2023
+    responsibilities:
+      - Project management
+
+  - company: AVG Karlsruhe
+    position: Working Student in Logistics
+    start_date: July 2023
+    end_date: November 2023
+    responsibilities:
+      - Spare parts management
+
+  - company: Bosch Buhl
+    position: Intern in Manufacturing
+    start_date: "December 2023"
+    end_date: "May 2024"
+    responsibilities:
+      - Project management
+
+# Skills (Add or remove categories as applicable)
+skills:
+  programming_languages:
+    - Java
+    - Python (Basic)
+  frameworks_and_technologies:
+    - "Add frameworks and technologies here."
+  tools:
+    - "Add tools and software here."
+  soft_skills:
+    - Communication
+    - Teamwork
+    - Problem-solving
+"
+
+# Languages
+languages:
+  - name: Spanish
+    proficiency: Native
+  - name: German
+    proficiency: C1
+  - name: English
+    proficiency: C1
