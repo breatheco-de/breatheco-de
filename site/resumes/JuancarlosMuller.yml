@@ -1,0 +1,58 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Juancarlos
+  last_name: Muller
+  motto: I love the challenges
+  focus: Family, learning and sports
+  summary: A Financial, Controlling and IT career with over 10 years experience in
+    differents industries.
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+  email: jc.profit88@gmail.com
+  phone: 56993341136
+  website: null
+  linkedin: null
+  github: JuancarlosMuller
+  twitter: ""
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Soccer
+    - item: Running
+    - item: Family
+education:
+  - degree: Industrial Engineer
+    university: Adolfo Ibanez University
+    university_logo: upload.wikimedia.org/wikipedia/commons/3/35/Logo_Universidad_Adolfo_Ibañéz.jpg
+    time: 2008- 2013
+    details: As Industrial Engineer i am prepared to resolve and lead differents
+      kind of problems in any industry.
+experiences:
+  - role: CFO
+    time: 2022 - Present
+    company: EA FRESH AMERICAS
+    company_logo: null
+  - role: CFO
+    time: 2021 - 2022
+    company: HeyFodie
+    company_logo: null
+    details: ""
+skills:
+  toolset:
+    - name: Office
+      level: 100%
+    - name: SAP
+      level: 70%
+    - name: PowerBi
+      level: 70%
+    - name: Strategy
+      level: 100%
+    - name: Finance & Countabilty
+      level: 100%
+    - name: null
+      level: null
