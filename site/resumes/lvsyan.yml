@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergi
+    last_name: Madrigal
+    
+    # Define yourself in 4-5 words
+    motto: I like to help others and be respectful.
+    
+    # focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      Estudiante de Full Stack Developer en un bootcamp. Dedicado
+      a la programación para dedicarme a ello en un futuro de forma
+      presencial o remota, busco aprender lo necesario.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lolstatic-a.akamaihd.net/frontpage/apps/prod/arcane-lac-2021/es_ES/fbda2f3d65a5528d65c79de83092130bc17a3fa3/assets/images/social-1200x630.jpg
+
+
+    # Contact Information
+    email: Lvsyan96@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/sergi-madrigal-47982a203/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lvsyan
+    
+    twitter: 'https://twitter.com/LvsyanLoL' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+      - idiom: Catalan
+        level: Native
+    # Interests or hobies
+    interests:
+      - item: Esports
+
+      - item: Gaming
+
+      - item: Learning programming
+
+      - item: Movies/Series
+
+      - item: Traveling
+
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy (España)
+      # optional
+      university_logo: https://storage.googleapis.com/4geeks-academy-website/blog/2016/04/logo1-01-02.png
+      time: 2022-2022
+      details: |
+        Bootcamp de 16 semanas para certificarse Full Stack Developer.
+
+
+    - degree: Preimpresion
+      university: Antoni Algueró (Esplugues)
+      # optional
+      university_logo: https://www.etiquetanews.com/wp-content/uploads/2018/01/escola_antoni_alguero_logo.jpg
+      time: 2013 - 2014
+      details: |
+        Grado Medio de Artés Gráficas
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: League of Legends proplayer
+      time: 2013-2020
+      company: Diferent companies
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Jugador profesional en el juego League of legends durante 7-8 años
+        dedicandome a jugar 14-16 horas diarias durante todos los días del año
+        sin descanso. Quise llegar a ser profesional a nivel pro pero no lo consegui.
+
+skills:
+    toolset:
+      - name: HTML
+        level: 50%
+
+      - name: CSS
+        level: 50%
