@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "White"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Christian
+    last_name: Aranguiz
+    
+    # Define yourself in 4-5 words
+    motto: One must imagine sisyphus happy
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Bilingual Virtual Assistant with 3 years of experience. Dedicated, focus on detail and always looking to improve and accomplish results.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/25093705/Gustavo-Cerati-Bocanada.jpg
+
+    # Contact Information
+    email: chnicolas.aranguiz@gmail.com #optional
+    phone: +58 414 173 1748 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/christian-aranguiz-a2b05a198/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NikoDemo96
+    
+    twitter: 'chris_aranguiz' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Swimming
+
+      - item: Bodybuilding
+
+      - item: Cooking
+
+# Your previous education
+education:
+
+    - degree: BSc in Materials Engineering
+      university: Simon Bolivar University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/USB_logo.svg/1200px-USB_logo.svg.png
+      time: 2015 - 2022
+      details: 
+        Materials engineering is concerned with investigating the properties of existing materials and substances in order to create new materials and items with enhanced chemical and physical properties.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Project Manager
+      time: 2021 - Present
+      company: Home Defenders, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In charge of keeping the business running. Coordinate logistics between door knocking team and the cold calling team. Generating reports for upper management.
+
+
+    - role: Data Analyst
+      time: 2022 - Present
+      company: YOBE Consulting, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Scrap and Analyze Data in order to find the best investors for our clients.
+
+
+    - role: Virtual Assistant
+      time: 2019 - 2021
+      company: VAlocator, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Coordinate agenda, schedule calls and meetings for a Real Estate agent. Assist in the process of buying and selling a property.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: vvVersions
+        # optional
+        project_logo: https://pasteboard.co/eRfbHWb5WWq1.png
+        link: "#hook"
+        tagline: "A github like service for Musicians and multimedia creators."
+
+
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 80%
