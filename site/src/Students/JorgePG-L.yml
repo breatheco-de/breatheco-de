@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Piqueras
+    
+    # Define yourself in 4-5 words
+    motto: Curious by nature
+    
+    # focus
+    focus: In the future
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I´ve never stop learning new skills and trying to develop myself as much as I can.
+      Working as technical artist in videogames or developing Virtual reality experiences,
+      I have a huge amount of resources to do my job the best I can.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    # Contact Information
+    email: jorgepiqueras92.com #optional
+    phone: 600350414 #optional
+    website: asd.com #optional
+    linkedin: Jorge Piqueras #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JorgePG-L
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: FIlms
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Game design - Madrid
+      time: 2015 - 2016
+      company: Drakhar Studio
+      # optional
+      company_logo: 
+      details: | 
+        I worked implementing new game mechanics, helping with the level design and  doing all the cinematics. We did all the work with Unity.
+        
+    - role: Game and interactive experiences developer
+      time: 2016 - 2019
+      company: GAZ VR - Madrid
+      # optional
+      company_logo: 
+      details: |
+        We did all kind of work in virtual reality, art projects. Probably in that time one of the first virtual reality projects in the art field. And other kinds of marketing projects for different brands.
+        In this company we implemented the work in Unreal engine, searching for the best aestethic results. Some of the experiences I developed all by myself, from coding to 3d modelling and textures.
+    - role: Technical artist and video
+      time: 2019 - Today
+      company: WowinGroup - Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Today I work in several virtual reality experiences we are developing. Implementing assets and working as well in the game design and UX.
+# Your project portfolio
+
+projects:
+    intro: >
+     
+    assignments:
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
