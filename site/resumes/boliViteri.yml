@@ -1,0 +1,117 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bolivar
+    last_name: Viteri
+    
+    # Define yourself in 4-5 words
+    motto: In Vino Veritas
+    
+    # focus
+    focus: Learn and Grow
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am a seasoned software and finance professional with 9+ years of corporate 
+        leadership and IT experience in the software, technology, and banking sectors. I 
+        am recognized for demonstrating a natural aptitude for leading information security 
+        management teams, as well as for creating database management programs, I have a 
+        verifiable history of contributing directly to company growth and expansion 
+        throughout my career. Professional focal points include sales, account management, 
+        market analysis, infrastructure development, technology solutions, data analysis, 
+        database management, financial services, mortgage lending management, crew management, 
+        client relations, and project management. Delivering superior administration on the 
+        latter areas of expertise requires utilization of effective communication skills, 
+        negotiation skills, as well as business acumen, systems analysis, project management, 
+        and resource management to support efficiency and maximum returns. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/boli_image
+
+    # Contact Information
+    email: baviteri@gmail.com #optional
+    phone: 678 428 2985 #optional
+    website:  #optional
+    linkedin: --- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BoliViteri
+    
+    Instagram: 'urbanargonaut' #optional
+    stack-overflow: 20056568/bolivar-viteri
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Conversational
+
+    # Interests or hobies
+    interests:
+      - item: Running
+
+      - item: Lifting
+
+      - item: SQL
+
+# Your previous education
+education:
+    - degree: MSc in International Policy Management
+      university: Kennesaw State University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2013 - 2015
+      details: |
+        Studied international policy with a concentration on economic policy.
+    - degree: BBA in Business Management
+      university: Kennesaw State University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2003 - 2010
+      details: |
+          Studied business administration with concentration on International Entrepreneurship.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Data Analyst
+      time: 2022 - Present
+      company: PayCargo, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          Collaborate with internal and external partners to design, develop, and 
+          implement database and reporting solutions to support critical business 
+          functions.  This is accomplished using SQL Server (for Azure) database 
+          solutions as well as Microsoft’s Power BI platform;
+    - role: SQL Architect
+      time: 2019 - Present
+      company: Insurety Capital, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Design, test, and implement enhancements to legacy databases and related reports in support of business requirements.
+# Your project portfolio
+projects:
+    intro: >
+      Currently working on new projects for the conding camp.
+skills:
+    toolset:
+      - name: SQL 
+        level: 90%
+
+      - name: DAX
+        level: 50%
+        
+      - name: C#
+        level: 20%
+
