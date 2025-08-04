@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Marco
+  last_name: Struggia
+  motto: Perseverance is the key
+  avatar: site/static/1593185020772.jpg
+  summary: |
+    more than 5 years in the graphic design field finding solutions for costumers in the corporate and web design fields
+  # Sidebar links
+  email: marcostruggia@gmail.com
+  phone: 655609221
+  #website: alesanchezr.com
+  linkedin: https://www.linkedin.com/in/marcostruggia/
+  github: marcoscutaro
+ 
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+    - idiom: Dutch
+      level: Basic
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2023 - 2023
+    details: |
+      Front end coding Java Script
+      back end coding python
+        - FlaskSQL
+        - REST APIs
+experiences:
+  - role: Graphic Designer 
+    time: 01/2013 - 05/2017
+    company: Iconos consultores
+    details: |
+      Giving our best to please costumers.
+        - Giving recommendations for food and drinks 
+        - Cleaning of FOH
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: FlaskSQL
+      level: 75%
