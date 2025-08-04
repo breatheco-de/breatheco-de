@@ -1,0 +1,61 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+  first_name: Jose 
+  Last_name: Perestrelo
+
+  motto: Only obstacles give more sense of the purpose.
+
+  email: perestrelo95@gmail.com
+  github: Perestrelo95
+
+  focus: be better every day, programing  happily :)
+
+languages:
+      - idiom: English
+        level: intermediate/Professional
+
+      - idiom: Spanish
+        level: Native
+
+interests:
+      - item: video games, movies
+
+      - item: tennis and chess
+
+      - item: read, learn and study
+
+education:
+    - degree: Informatics Engineering 
+      university: Instituto universitario tecnico gran mariscal-sucre
+      time: 2017 - 2022
+
+    - courses: -pc/laptop repair technician
+              -technician repairing cell phones
+              -audio assistant technician
+
+
+
+skills:
+
+  toolset:
+
+  - name: Python
+    level: 0%
+
+  - name: Javascript
+    level: 20%
+
+  - name: HTML5 & CSS3
+    level: 60%
+
+  - name: Bootstrap
+    level: 50%
+
+  - name: Git-github
+    level: 40%
+
+  - name: PHP
+    level: 40%
