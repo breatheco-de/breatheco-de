@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jairzinho
+    last_name: Torres
+    
+    # Define yourself in 4-5 words
+    motto: leave a better future
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jair1924torres@gmail.com #optional
+    phone: 099776487 #optional
+    website: asd.com #optional
+    linkedin: jairzinho-torres #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JairzinhoTorres
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Basico
+    # Interests or hobies
+    interests:
+      - item: Natacion
+
+      - item: Gimnacio
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Estudiante avanzado Ingnieria en Energias Renovables
+      university: UTEC Universidad Tecnologica del Uruguay
+      # optional
+      university_logo: https://red.utec.edu.uy/wp-content/uploads/2018/11/09-Isotipo-1.png
+      time: 2020 - 2024
+      details: |
+      La Ingeniería en Energías Renovables se orienta a la formación de profesionales que promuevan, diseñen, implementen y administren el uso de energía limpia a partir de fuentes primarias de energía, como son la energía solar, eólica, hidráulica, entre otros, desde la perspectiva de un desarrollo humano y productivo sustentable en todo el territorio. Esta carrera tiene dos especializaciones para el título de ingeniero: energía solar y eólica. Además, es posible obtener el título intermedio de Tecnólogo en Energías Renovables al culminar el sexto semestre.
+    - degree: EMT Administacion
+      university: UTU Universidad del Trabajo
+      # optional
+      university_logo: https://www.utu.edu.uy/sites/www.utu.edu.uy/files/styles/styles_noticias_home/public/noticia/imagenes/2020/05/isotipo-utu_noticias.png?h=f0f2b89e&itok=_McT_czO
+      time: 2016 - 2018
+      details: |
+        Se trata de una formación de carácter técnico que capacita profesionales expertos en procesos administrativos y operativos de las empresas, con amplios conocimientos teóricos y habilidades en lo que respecta la gestión empresarial.
+# Your previous job experiences or voluntier
+experiences:
+    - role: -------------------
+      time: -------------------
+      company: -------------------
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          ---------------------------------------------------------
+    - role: -------------------
+      time: -------------------
+      company: -------------------
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          ---------------------------------------------------------
+    - role: -------------------
+      time: -------------------
+      company: -------------------
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          ---------------------------------------------------------
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
