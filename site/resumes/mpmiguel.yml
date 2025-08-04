@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel 
+    last_name:  Martinez Pazos
+    
+    # Define yourself in 4-5 words
+    motto: Consistency outweighs talent.
+    
+    # focus
+    focus: Becoming my best version.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a professional with 4 years of experience in logistics and the automotive industry, looking to transition to full-stack programming. My goal is to contribute to the development of quality web applications.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/5568767?s=460&u=86e2eb9bb44630302fd56364ac87df038453e876&v=4
+
+    
+   
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MPMiguel
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: A1
+    
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Drawing , tatoos
+
+      - item: Videogames, cycling, boxing, motorbikes
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Javascript
+        level: 50%
+
+      - name: React
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Git
+        level: 70%
+
+      - name: Java
+        level: 50%
