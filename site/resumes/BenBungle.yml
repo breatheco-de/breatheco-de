@@ -1,0 +1,156 @@
+basic_info: 
+  avatar: ~
+  email: benstarkart@gmail.com
+  first_name: Benjamin
+  last_name: Vilaplana Stark
+  github: BenBungle
+  interests: 
+    - 
+      item: Full Stack Web Developer
+    - 
+      item: Artista Visual
+    - 
+      item: Political Science
+  languages: 
+    - 
+      idiom: Spanish
+      level: Professional
+    - 
+      idiom: English
+      level: Professional
+
+  motto: Actions speaks for themselves, words dont mean success, always in movement, never stalled 
+  phone: "+56974523358"
+  stack-overflow: ~
+  summary: |
+      Work-related experience: I've been working in restaurants, clothes shops, I considered myself a good cooker, studied Political Science, I'm also a Visual Artist with a lot of creativty on my canvases and now in a bootcamp for full-stack web developer which has always been something I would like to learn. I'm very happy I'm doing this, it will give me thousand opportunities to my life, education is something we should always invest on ourselves, never surrender always moving foward
+      Near death experience: in 2011 I had a terminal cancer which almost killed me, within my life I've never felt so much pain and suffering going through chemotherapy and radiotherapy but at the same time i realized how fragile life is, I'm happy I'm alive and continue the never ending journey of empirism, life never ended to me, it just got started when I healed from this cancer
+      His major objective in life: my major objective in life is to achieve and materialize my dreams, being in peace within my mind, to awake and become more conscious every day it passes and always learn new things, eat different types of cousine styles, major dream is to work at the game industry, have a foodtruck and travel Europe making food for the people and creating the most astonishing art, in my style, to inspire the people and new generations to come. 
+  twitter: Benstarkart
+  website: ~
+
+  education:
+  -  
+    degree: Political Science not finished
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: 2013-2015 and 2016-2018
+    university: Universidad del desarollo, Universidad Diego Portales 
+    university_logo: ~
+  - 
+    degree: Political Science
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: 2 years
+    university: ~
+    university_logo: ~
+  - 
+    company: ~
+    company_logo:
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+        
+          - Bullet point
+          - Bullet point
+    role: ~
+    time: ~
+  - 
+    company: ~
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: ~
+    time: ~
+  - 
+    company: ~
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: ~
+    time: ~
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: ~
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 100%
+      name: "Python & Django"
+    - 
+      level: 90%
+      name: "Javascript & jQuery"
+    - 
+      level: 70%
+      name: Angular
+    - 
+      level: 95%
+      name: "HTML5 & CSS"
+    - 
+      level: 90%
+      name: "Ruby on Rails"
+    - 
+      level: 80%
+      name: "Sketch & Photoshop"
+skin: green
+template: online-cv
