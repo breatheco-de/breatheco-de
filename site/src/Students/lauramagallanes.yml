@@ -1,0 +1,146 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Laura
+    last_name: Magallanes
+    
+    # Define yourself in 4-5 words
+    motto: Soy una eterna aprendiz
+    
+    # focus
+    focus: Aprender a programar y disfrutar de la naturaleza
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Amo aprender cosas nuevas constantemente, y desafiarme día a día. De profesión, soy Química Farmacéutica, con un posgrado de Magister en Química. Actualmente me dedico a ser Guía de Naturaleza y de Observación de aves en el Paisaje Protegido Paso Centurión y Sierra de Ríos, en el departamento de Cerro Largo, Uruguay, lo cual aprendí de forma autodidacta, debido a la pasión que siento por la naturaleza y su conservación. En este momento, estoy estudiando para convertirme en Programadora, una de mis metas actuales. En el ultimo tiempo me he apasionado por la programación y todas las posibilidades que esta disciplina nos brinda.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i1.rgstatic.net/ii/profile.image/385592337682432-1468943785096_Q512/Laura-Magallanes.jpg
+
+    # Contact Information
+    email: pasocentuiontours@gmail.com #optional
+    phone: +59898372742 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/laura-magallanes-4025b6212/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lauramagallanes
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Birding
+
+      - item: Cooking
+
+      - item: Hiking
+
+# Your previous education
+education:
+    - degree: MSc in Chemistry
+      university: Universidad de la Republica
+      # optional
+      university_logo: http://udelar.edu.uy/portal/wp-content/uploads/sites/48/2020/04/04-Udelar-isologotipo-versi%C3%B3n-preferencial-positiva-rgb-web.png
+      time: 2013 - 2016
+      details: |
+        Posgrado en Quimica enfocado al estudio de la bioequivalencia de medicamentos y correlaciones In Vitro / In Vivo
+    - degree: Quimica Farmaceutica
+      university: Universidad de la Republica
+      # optional
+      university_logo: http://udelar.edu.uy/portal/wp-content/uploads/sites/48/2020/04/04-Udelar-isologotipo-versi%C3%B3n-preferencial-positiva-rgb-web.png
+      time: 2007 - 2012
+      details: |
+        Formacion como Quimica Farmaceutica, enfocada en la Farmacia Hospilalaria, Monitoreo de Medicamentos, estudios de Bioequivalencia, y correlaciones In Vitro/In Vivo
+# Your previous job experiences or voluntier
+experiences:
+    - role: Docente Grado 1
+      time: 2012 - 2016
+      company: Universidad de la Republica, Facultad de Quimica
+      # optional
+      company_logo: http://udelar.edu.uy/portal/wp-content/uploads/sites/48/2020/04/04-Udelar-isologotipo-versi%C3%B3n-preferencial-positiva-rgb-web.png
+      details: |
+        Cumpli rol docente en los cursos de Farmacocinetica, Biodisponibilidad y Bioequivalencia de Medicamentos, ambos de la carrera Quimica Farmaceutica, y en el curso intermedio de Auxiliar de Farmacia Hospitalaria.
+    - role: Docente Grado 2
+      time: 2014 - 2015
+      company: Universidad Catolica del Uruguay
+      # optional
+      company_logo: https://ucu.edu.uy/sites/all/themes/univer/images/logo_es.png
+      details: |
+        Cumpli rol docente encargada del curso de Farmacoterapia para la carrera de Licenciatura en Fisioterapia de la Universidad Catolica del Uruguay. Desarrolle el curso desde cero para esta carrera.
+    - role: Auxiliar de Farmacia Hospitalaria
+      time: 2012 - 2015
+      company: Summum
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+        Trabaje como Auxiliar de Farmacia y como asistente de DT.Quimica Farmaceutica
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos que forman parte del curso de 4GeeksAcademy
+    assignments:
+      - title: Instagram Feed
+        # optional
+        project_logo: 
+        link: "https://github.com/lauramagallanes/html-hello"
+        tagline: 
+
+      - title: Postcard
+        # optional
+        project_logo: 
+        link: "https://github.com/lauramagallanes/ejercicio-postcard"
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        tagline: 
+      - title:
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: Javascript 
+        level: 20%
+
+      - name: React
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Node js
+        level: 15%
+
+      - name: WordPress
+        level: 60%
