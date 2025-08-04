@@ -1,0 +1,66 @@
+---
+template: online-cv
+skin: white
+basic_info:
+  first_name: Isaiah
+  last_name: Peters
+  motto: I am obsessed with learning
+  focus: New technologies, Economy, and the Global Market
+  summary: >
+    Recent 4Geeks Academy bootcamp grad where I gained robust experience in
+    technologies such as JavaScript, ReactJs, NodeJs, Bootstrap, Python, Flask,
+    Rest APIs, SQL, and Git. Gained collaboration experience with teachers,
+    mentors and fellow classmates debugging various code, working on solving the
+    problems as a team. Created many different projects involving both front and
+    back end. I enjoy implementing visual layouts and building new dynamic
+    API's, creating a smooth and prolific user experience. You can check out all
+    of my uploaded projects on my Github profile here:
+    https://github.com/ipeters64
+  avatar: /workspace/About-4Geeks-Academy-21/site/static/IMG_0302.jpg
+  email: isaiah.peters64@gmail.com
+  phone: 234 2342 342
+  website: asd.com
+  linkedin: isaiah-peters207
+  github: ipeters64
+  twitter: webjeda
+  stack-overflow: 19490695/isaiah-peters
+  languages:
+    - idiom: English
+      level: Native
+  interests:
+    - item: Hiking
+    - item: Basketball
+    - item: Business
+education:
+  - degree: Associates in Marketing
+    university: University of Southern Maine
+    time: 2019 - 2020
+experiences:
+  - role: Website Manager
+    time: 2020 - 2022
+    company: 207 Genetics, Maine
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Daizen Dream App
+      link: https://sample-service-name-ooij.onrender.com/
+      tagline: A responsive website designed to help users think about what their
+        dreams truly mean and the science behind it.
+    - title: Chat GPT3 Front End Design
+      link: https://chat-gpt3-x8l6.onrender.com/
+      tagline: A modern ReactJS front end website design dedicated to ChatGPT3
+skills:
+  toolset:
+    - name: Python & Django
+      level: 45%
+    - name: Javascript & jQuery
+      level: 70%
+    - name: HTML5 & CSS
+      level: 85%
+    - name: ReactJs
+      level: 60%
+    - name: Flask
+      level: 50%
