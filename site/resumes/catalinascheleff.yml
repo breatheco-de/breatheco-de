@@ -1,0 +1,154 @@
+basic_info: 
+  avatar: ~
+  email: catascheleff@gmail.com
+  first_name: Catalina
+  github: CatalinaScheleff
+  interests: 
+    - 
+      item: Desarrollo-Web 
+    - 
+      item: Música
+    - 
+      item: Playstation
+  languages: 
+    - 
+      idiom: Spanish
+      level: Experto
+    - 
+      idiom: English
+      level: Professional
+
+  last_name: Scheleff
+  motto: Manden plata
+  phone: "976196914"
+  stack-overflow: ~
+  summary: |
+      
+  twitter: 
+  website: ~
+education: 
+  - 
+    degree: Interprete en Jazz y Música Popular
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: 2021-2023
+    university: Instituto Profesional Projazz
+    university_logo: ~
+  - 
+    degree: ~
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: ~
+    university: ~
+    university_logo: ~
+experiences: 
+  - 
+    company: ~
+    company_logo: "https://wordpress-utec.s3.amazonaws.com/uploads/2017/12/Logo-png-2.png"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+        
+          - Bullet point
+          - Bullet point
+    role: ~
+    time: ~
+  - 
+    company: ~
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: ~
+    time: ~
+  - 
+    company: ~
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: ~
+    time: ~
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: ~
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: ~
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 100%
+      name: "Python & Django"
+    - 
+      level: 90%
+      name: "Javascript & jQuery"
+    - 
+      level: 70%
+      name: Angular
+    - 
+      level: 95%
+      name: "HTML5 & CSS"
+    - 
+      level: 90%
+      name: "Ruby on Rails"
+    - 
+      level: 80%
+      name: "Sketch & Photoshop"
+skin: green
+template: online-cv
