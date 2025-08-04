@@ -1,0 +1,72 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Alejandro
+    last_name: Pacheco
+    motto: Full-stack Developer
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQH8zIbzLyvrhw/profile-displayphoto-shrink_400_400/0?e=1610582400&v=beta&t=gZTfsZM7B9WqQqkb3TmBWpm-SbfKlRws2ptm1sQG6uM
+    summary: |
+      Me encanta la programación por muchas razones... pero una de las principales sería el hecho de poder hacer practicamente 
+      lo que sea desde un computador con algunas lineas de código. Aparte de saber que es un entorno donde mientras más avanzamos
+      como sociedad, más podemos hacer desde nuestro conocimiento. Espero con muchas ansias ser de mucha utilidad a medida que
+      tenga un conocimiento más extenso en cuanto a programación.
+
+
+    email: alejandropacheco2497@gmail.com
+    phone: 573185080308
+    website: 
+    linkedin: 
+    github: alejandropmz
+    twitter: alejandropachem
+    stack-overflow: 
+
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: English 
+        level: beginner
+
+
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: trading
+
+      - item: Sells
+
+
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicando para ser desarrollador Full-stack! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+          
+
+
+      
+
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+
+
+      - name: HTML5 & CSS
+        level: 40%
