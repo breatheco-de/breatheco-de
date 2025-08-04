@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Thannais
+    last_name: Superlano
+    
+    # Define yourself in 4-5 words
+    motto: I like to be constantly learning
+    
+    # focus
+    focus: Be a good programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I studied Law in Venezuela and graduated as a lawyer, when I emigrated to Chile, I realized that I needed to learn something that would help me connect more with the world and technology, so I decided to learn programming since then and for now the world of Front -end has caught my attention a lot and I want to improve every day to be a great Full-stack.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/
+
+    # Contact Information
+    email: superlanoneri@gmail.com #optional
+    phone: 991417499 #optional
+    website: asd.com #optional
+    linkedin: thannais-superlano-aa3715214 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/sthannais
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: medio
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Read.
+
+      - item: Listen to music.
+
+      - item: Do exercises.
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Junior Developer
+      time: 2022 - Present
+      Academy: 4Geeks
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I did the pre work at 4geeks academy where I started learning html, css and nodejs. Then I started the course in August where I developed these topics in more depth and learned libraries like Bootstrap, I also learned React, Python with Flask.
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 98%
+
+      - name: Javascript
+        level: 60%
+
+      - name: React
+        level: 70%
+
+      - name: Python
+        level: 60%
