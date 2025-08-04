@@ -1,0 +1,58 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Luis Jose
+  last_name: Blanco Reyes
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Estudiante del Bootcamp 4geeks Academy, el cual me ha permitido adquirir los conocimientos básicos necesarios  de un Full Stack Developer. 
+  En este bootcamp he aprendido tecnologias como JavaScript,   React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+  el trabajo grupal con git
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://i.stack.imgur.com/zwpYD.jpg?s=256&g=1
+
+  # Contact Information
+  email: luijbr83@gmail.com #optional
+  phone: - #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Blancreyes
+
+  twitter: "Blancreyes" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Data Science
+
+    - item: Web Development
+
+    - item: Finance
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: nov-2022 - march-2023
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio obtener de un Full Stack Developer. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    ReservameApp: Aplicación para la gestión de reservas de instalaciones deportivas. 
+      Tecnologias: React, StyledComponents, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+ 
