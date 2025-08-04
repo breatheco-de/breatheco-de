@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lucia
+    last_name: Mackova
+    
+    # Define yourself in 4-5 words
+    motto: Believe you can fly
+    
+    # focus
+    focus: Living the best life I can
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Throughout my career I have taught all kinds of ages and professionals. I have helped my students to achieve their personal and professional goals, to get their certifications and to make them feel comfortable when speaking in English. I have regularly attended trainings and courses for teachers. 
+    
+    # Your profile picture URL
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U04Q5JRJQNA-1aa9455060a4-512
+
+    # Contact Information
+    email: lucia.mackova87@gmail.com #optional
+    phone: 622 14 28 11 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/lucia-mackova/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LucyMacko
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Slovak
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: German
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: horse riding
+
+      - item: healthy lifestyle
+
+      - item: reading books
+
+      - item: surfing
+
+      - item: board games
+
+# Your previous education
+education:
+    - degree: MLitt in English Linguistics for Advanced Teachers of English
+      university: University of Aberdeen
+      # optional
+      university_logo: https://www.abdn.ac.uk/global/images/layout/UoA_Primary_Logo_RGB_2018.svg?v=1537886890
+      time: 2011 - 2013
+      details: |
+        The MLitt English Language and Literature programme provides graduate-level skills and training in a variety of areas of English literature and linguistics. The programme introduces students to specialist knowledge and scholarly approaches in the historical and critical analysis of English language and literature.
+    - degree: Degree in English Philology |
+      university: Universidad de Málaga
+      # optional
+      university_logo: https://www.uma.es/static/themes/uma2016/images/UMA_logo.png
+      time: 2010 - 2016
+      details: |
+        Extensive knowledge of British and American listerature and their history, linguistics
+    - degree: BA in British and American Studies
+      university: University of Pavol Jozef Šafárik in Košice
+      # optional
+      university_logo: https://www.upjs.sk/app/uploads/sites/7/2023/02/FF_ENG_frame.svg
+      time: 2007 - 2010
+      details: |
+        This BA degree gave me a solid foundation in linguistics: Phonetics and Phonology, Semantics, Syntax, Morphology, British and American listerature and their history.
+exchange programs: 
+    - university: University of Jaen
+      program: Erasmus
+      time: 2010 - 2011
+    - university: University of Barcelona
+      program: Socrates
+      time: 2012 - 2013
+# Your previous job experiences or voluntier
+experiences:
+    - role: self-employed English Teacher
+      time: 2019- 2022
+      company: English n Lucy
+      details: |
+        In company and private English classes. I worked with different materials, always adapting to the needs of my clients. Preparation for Cambridge certificates from A1 to Proficiency
+    - role: English Teacher
+      time: 2019 - 2020
+      company: Vaughan Systems
+      details: |
+        In company English classes for clients in Málaga.
+    - role: English Teacher
+      time: 2018 - 2021
+      company: BrightON
+      details: |
+        In company English classes for Adecco Outsourcing Málaga.
+    - role: English Language Teacher extracurricular
+      time: 2017 - 2018
+      company: Cerrado Calderon school, Málaga
+      details: |
+        Extracurricular English classes for students of Cerrado Calderón. I taught young learners (around 3 years old), teenagers and adults.
+    - role: English Teacher extracurricular
+      time: 2013 - 2017
+      company: La Salle Bonanova, Barcelona
+      details: |
+        Extracurricular English classes for students of Cerrado Calderón. I taught young learners (around 3 years old), teenagers and adults.
+        
