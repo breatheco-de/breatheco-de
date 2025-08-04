@@ -1,0 +1,64 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Antonio
+    last_name: Nuñez
+    motto: University Student
+    avatar: ~
+    summary: |
+        Studying at 4Geeks Academy. Interested in Software Development, Python, React, Javascript and other tools. Also, I like the projects of designs, always I seek to increase my personal and professional performance through a constant learning process.
+        through proactivity, which allows at the same time to improve my skills and increase my skills.
+         
+
+    # Sidebar links
+    email: a.nunez.jeria@gmail.com
+    phone: +569 644 21 411
+    website: ~
+    linkedin: linkedin.com/in/luis-antonio-nu%C3%B1ez-jeria-b3318098
+    github: AntoNunez
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Music
+      - item: Art
+      - item: Machine Learning
+
+education: 
+    - degree: FullStack Developer
+      university: 4Geeks Academy
+      time: 2022
+      details: |
+        Learned the basics of coding with Html5 and Css. 
+        Learned how to use coding social websites such as Github, Stack Overflow & Stack. 
+        Built different projections as the lessons progressed with different programs. 
+
+
+projects: https://github.com/jorgerebolledoa/Proyecto-Guitar-Store.git
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: Bootstrap
+        level: ~
+      
+      - name: React
+        level: ~  
