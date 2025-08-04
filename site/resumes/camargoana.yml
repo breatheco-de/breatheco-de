@@ -1,0 +1,122 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: camargoana851@gmail.com
+  first_name: Ana
+  focus: "developer full stack"
+  github: example
+  interests: 
+    - 
+      item: "Technological change"
+    - 
+      item: "Action movies"
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: Basic
+  last_name: Camargo
+  linkedin: ~
+  motto: thorough
+  phone: 04241502194
+  stack-overflow: ~
+  summary: |
+      I´ve been working in customer service for the past 14 years, so now I want to make technology my passion. I like much to learn new things about the world of technology.
+      
+      Second paragraph if required.
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: ~
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: ~
+    university: ~
+    university_logo: ~
+  - 
+    degree: ~
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    time: ~
+    university: ~
+    university_logo: ~
+experiences: 
+  - 
+    company: "Controlca, S.A"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+        
+          - Bullet point
+          - Bullet point
+    role: "Lider de Proyectos"
+    time: "2020 all present"
+  - 
+    company: "ivc, Network"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+    role: "Support Engineer"
+    time: 2019-2019
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skin: purple
+template: online-cv
