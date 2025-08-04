@@ -1,0 +1,187 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Vela
+    
+    # Define yourself in 4-5 words
+    motto: I like practice sports
+    
+    # focus
+    focus: Personal development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I started working when I was young. I worked hard in construction, 
+      I knew the world of telecommunications installing lines for Telefonica, 
+      later I studied a CFGS in Telecommunications and Computer Systems, 
+      during two summers I alternated the work of lifeguard with the work at night during the weekends traveling all over Spain. 
+      I worked in a gymnasium and finally I entered the company where I have been working for 7 years 
+      and where I have gone through an electronic technical department, 
+      purchasing department and finally the department I work for today, 
+      information systems in which i am a DBA and maintain web applications.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars3.githubusercontent.com/u/48392946?s=460&u=f82adf6aa2fe9562f527f453646bb1e23d3fa37c&v=4
+
+    # Contact Information
+    email: luismvl@mail.com #optional
+    phone: 234 2342 342 #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luismvl
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      # - idiom: Spanish
+      #   level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Basketball
+
+      - item: Footbal
+
+      - item: Boxing
+
+      - item: Encode
+
+
+# Your previous education
+education:
+    - degree: Computer Engineering
+      university: Universidad Rey Juan Carlos 
+      # optional
+      university_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGwb3cs9Ub2ng/company-logo_200_200/0?e=1596067200&v=beta&t=oQkTjkHvgnh53mstteS_dMiQxmtWoE45muU3LxArO9Y
+      time: 2016 - 2017
+      details: |
+        First year in computer engineering.
+
+    - degree: CFGS Telecommunications systems in computer science
+      university: IES BEnjamín Rua
+      # optional
+      university_logo: http://petales.es/wp-content/uploads/2018/04/comunidad-madrid-consejeria-educacion-investigacion.jpg
+      time: 2009 - 2012
+      details: |
+        Higher level training in telecommunications and computer systems.
+
+        - Introduction to programming.
+        - Electronics.
+        - Hardware.
+        - Radio.
+        - Television.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Software Developer
+      time: 2017 - Present
+      company: Bq, Madrid
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo-BQ-CasoDeExito.png
+      details: |
+        Developments, modifications and corrections in internal systems created in the company 
+        (inventory management, internal and external logistics, orders, productions, BoMs, layouts... ) 
+        and integrated with external applications (logistics operators, repairers, SAP...).
+        All these developments are made with Grails technologies (Groovy and Rails), GSP, JavaScript, .Net (VB.Net, C # and .NET Core).
+
+          - Groovy and Rails
+          - GSP
+          - JavaScript
+          - .Net
+
+    - role: Software Analyst
+      time: 2017 - Present
+      company: Bq, Madrid
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo-BQ-CasoDeExito.png
+      details: |
+        Analysis of client needs and elaboration of programmed tasks for software development.
+
+          - Jira
+
+    - role: DBA SQL Server and MySQL
+      time: 2017 - Present
+      company: Bq, Madrid
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo-BQ-CasoDeExito.png
+      details: |
+        Database administration in SQL Server and MySQL
+
+          - Install, configure and manage databases.
+          - Development team support.
+          - Design data distribution and storage solutions.
+          - Development of ad hoc stored procedures, both in SQL queries and server configuration.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: ExcuseGenerator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/LuisSanchezArevaloRionegro/TheExcuseGenerator"
+        tagline: "Project in JavaScript that generates a random excuse based on several lists of strings."
+
+      - title: InstragramFeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/LuisSanchezArevaloRionegro/InstagramFeed"
+        tagline: "I work with HTML and CSS replicating the Instagram format."
+
+      - title: ConditionalProfileCard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/LuisSanchezArevaloRionegro/exercise-conditional-profile-card"
+        tagline: "Dynamic card that builds your data into text fields and html selectors."
+
+skills:
+    toolset:
+      - name: SQL Server & MySQL
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 60%
+      
+      - name: .NET
+        level: 60%
+
+      - name: Python
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: GoLang
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      
