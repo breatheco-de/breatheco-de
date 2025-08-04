@@ -1,0 +1,163 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julio 
+    last_name: Espinoza
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Full-Stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Egresado de ingenieria civil electronica, actualmente me desempeño en lavores 
+      de mantencion y gestion de nuevas redes de internet en colegios e institutciones publicas.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: julio.esver@gmail.com
+    phone:  #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/julio-espinoza-163835162/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Juliuuss
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Basico
+
+      - idiom: 
+        level: 
+
+    # Interests or hobies
+    interests:
+      - item: Programacion
+
+      - item: 
+
+      - item: 
+
+# Your previous education
+education:
+    - degree: Ingeniero Civil Electronico
+      university: Universidad Tecnologica Metropolitana
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+       
+# Your previous job experiences or voluntier
+experiences:
+    - role:
+      time:
+      company: 
+      # optional
+      company_logo: 
+       
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+       
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+       
+# Your project portfolio
+projects:
+    intro: >
+     
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: 
+        link: ""
+        tagline: ""
+
+      - title: DevStudio
+        # optional
+        project_logo: 
+        link: ""
+        tagline: ""
+
+      - title: Tempo
+        # optional
+        project_logo: 
+        link: ""
+        tagline: ""
+
+      - title: Atom
+        # optional
+        project_logo: 
+        link: ""
+        tagline: ""
+
+      - title: Delta
+        # optional
+        project_logo: 
+        link: ""
+        tagline: ""
+
+skills:
+    toolset:
+      - name: 
+        level:
+
+      - name:
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
