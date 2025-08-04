@@ -1,0 +1,65 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Zvonimir
+    last_name: Jovic
+    
+    # Define yourself in 4-5 words
+    motto: Simple is the key
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Experienced frontend developer learning backend.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/38418292?v=4
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/zjovic
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Croatian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Family
+
+      - item: Dogs
+
+      - item: Nature
+
+skills:
+    toolset:
+      - name: HTML
+        level: 99%
+
+      - name: CSS
+        level: 99%
+
+      - name: JS
+        level: 80%
+
+      - name: Project management
+        level: 90%
+
+      - name: Mentoring
+        level: 75%
