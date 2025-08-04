@@ -1,0 +1,89 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diana
+    last_name: Chamorro
+    
+    # Define yourself in 4-5 words
+    motto: Keep learning what you love
+    
+    # focus
+    focus: Art, Music, Engineering, Code, Creativity, Resiliency
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+    New Graduate Electrical Engineer passionate about data science, software development, network engineering, and real-time and digital systems looking for professional experience. Team player, motivated, and eager to participate in the development of new technologies.
+    
+
+    # Contact Information
+    email: dianas.chamorro@gmail.com #optional
+    phone: +1 778 883 3972 #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dianysof
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Singing
+
+      - item: Technology
+
+      - item: Engineering
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: Bachelor in Applied Science in Electrical Engineering
+      university: University of British Columbia
+      # optional
+      time: 2016 - 2020
+      details: |
+      Strong skills learned:
+          - Power
+          - Telecomunications
+          - Software
+# Your previous job experiences or volunteer
+experiences:
+    - role: IP Network Planner
+      time: 2021 - Present
+      company: Rogers Company
+      # optional
+      
+      details: |
+        Plan and oversee Network Capacity for the east of Canada
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: Javascript 
+        level: 40%
+
+      - name: Java
+        level: 40%
+
+      - name: C++
+        level: 30%
