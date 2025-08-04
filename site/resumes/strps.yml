@@ -1,0 +1,43 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: César
+    last_name: Jerez
+    
+    # Define yourself in 4-5 words
+    motto: I like programing and drawing
+        
+
+    # Contact Information
+    email: csrstrps@gmail.com
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: strps
+  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: 85%
+
+      - idiom: Spanish
+        level: Native
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Javascript & jQuery
+        level: 85%
