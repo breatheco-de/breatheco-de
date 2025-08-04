@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Amanda
+    last_name: Esquivel
+    motto: Never stop learning and you will keep moving forward.
+    avatar: https://i.kym-cdn.com/photos/images/original/001/394/352/86a.jpg
+    summary: |
+         I have always been a person who leans towards the graphic and digital design areas 
+         and my skills as a creative can empower my abilities to develop myself in this side of technology. 
+         I'm a fast learner and I'm looking forward to gain new skills. 
+    
+    # Sidebar links
+    email: amyesquivel@gmail.com
+    phone: 506 8911 3754
+    website: #do not add http://
+    linkedin: xmanda
+    github: xmanda
+    twitter: '@xmandacodes'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C2
+
+    interests:
+      - item: Painting
+      - item: Harry Styles
+      - item: Playing RDR2
+
+education:
+    - degree: BFA Pictorial Design
+      university: UCR
+      time: 2017 - indefinetly
+
+
+experiences:
+    - role: GO-AI Scout Annotator
+      time: 2022
+      company: Amazon
+      details: |
+        Mapping of cross-sectional surfaces (Road Surface) and annotations of 3D environments (Bounding Box) in Blender for the navigation of Scout robots
+
+    - role: GO-AI ML Tron Associate
+      time: 2022
+      company: Amazon
+      details: |
+        Monitoring activities of Fulfillment Centers to support Machine Learning technology
+
+
+
+projects:
+    intro: >
+      Projects done during the 4 Geeks Full-Stack Bootcamp 
+
+    assignments:
+      - title: Instagram Photo Feed with Bootstrap
+        link: "#hook"
+        tagline: "A responsive website template designed to recreate the instagram layout"
+
+      - title: HTML 5 Form
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website of a form to capture information"
+
+     # - title: Atom
+      #  link: "#"
+       # tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      # - title: Delta
+       # link: "#"
+        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 80%
+
+      - name: Ilustrator
+        level: 75%
+
+      - name: HTML5 
+        level: 50%
+
+      - name: CSS
+        level: 30%
+
+      - name: Procreate
+        level: 90%
+
+      - name: Blender
+        level: 25%
