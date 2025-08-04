@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Framberling
+    last_name: Barrios
+    
+    # Define yourself in 4-5 words
+    motto: Creativa, dedicada , responsable .
+    
+    # focus
+    focus: aprender y programacion
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy una persona proactiva y comprometida con capacidad de trabajar en equipo
+      Disfruto aprender cosas nuevas y poder aplicarlas a mi area laboral.  
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: frambesbarrios@gmail.com
+    phone: 00 11 00 11
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: framsb
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Basico
+
+    # Interests or hobies
+    interests:
+      - item: Diseño web
+
+      - item: Video juegos
+
+      - item: Programacion
+
+# Your previous education
+education:
+    - degree: Ingenieria en Informatica
+      university: Universidad Alejandro de Humboldt
+      # optional
+      university_logo: :D.jpg
+      time: 2018 - Presente
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Soporte en Sitio
+      time: 2021 - Presente
+      company: Farmatodo C.A
+      # optional
+      company_logo: http://sumanent.com/images/logo.png
+      details: |
+        lorem ipsum dolor sit amet, consectetuer
+        élite adipiscente. Aenean commodo ligula eget dolor. masa aeneana.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pelentesque eu, pretium quis, sem. nulla consequat massa quis
+        enim Done pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        arquitecto beatae vitae dicta sunt explicabo.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Under Construction
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: Under Construction
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: C++
+        level: 60%
+
+      - name: C
+        level: 70%
+
+      - name: HTML5, CSS, & Bootstrap 4
+        level: 85%
