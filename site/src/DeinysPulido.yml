@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Deinys Javier
+    last_name: Pulido Uzcategui
+    
+    # Define yourself in 4-5 words
+    motto: Positive Main and try to find the best to resolve any problem
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: I am an Electronic Engineer and always like to know about the new technology.|
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: dpulido200@hotmail.com #optional
+    phone: +58 414 4537828 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Deinys
+    
+    stack-overflow: #
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: 80%
+
+    # Interests or hobies
+    interests:
+      - item: Create electronic gadgets and test it.
+
+      - item: Code
+
+      - item: Cars
+      
+      - item: TV
+
+# Your previous education
+education:
+    - degree: Electronic Engineer/Full Stack Web Developer
+      university: 4Geeks Academy
+      # optional
+      
+    
+
+skills:
+    toolset:
+        
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java Script
+        level: 95%
