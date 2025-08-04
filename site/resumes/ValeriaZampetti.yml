@@ -1,0 +1,53 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Valeria
+    last_name: Zampetti
+    motto: The starting point for all achievement is desire.
+  
+    email: valeriazampettirubino@gmail.com
+    github: ValeriaZampetti
+    
+focus: Full Stack Development
+
+languages:
+  - idiom: Spanish
+    level: Native
+  
+  - idiom: English
+    level: Professional
+  
+  - idiom: French
+    level: A2.8
+
+
+interests:
+  - item: Movies
+  - item: Tennis
+
+skills:
+  toolset:
+  - name: Python
+    level: 60%
+    
+  - name: Javascript
+    level: 20%
+
+  - name: HTML5 & CSS
+    level: 60%
+
+  - name: Bootstrap
+    level: 50%
+
+education:
+    - degree: Systems engineer 
+      university: Metropolitan University
+      time: 2020-currently 
+
+  
+
+    
+
+    
+  
