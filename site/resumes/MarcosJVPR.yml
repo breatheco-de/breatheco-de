@@ -1,0 +1,95 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name:
+    - Marcos
+  last_name:
+    - Pérez
+  motto: Creatividad, estrategia y buena vibra
+  focus: Comunicación, experiencias y tecnología
+  summary: >
+    Profesional polivalente con experiencia en marketing, branding,
+    atención al cliente y gestión de equipos. He trabajado en sectores como
+    alimentación, entretenimiento, arte y tecnología, y actualmente me estoy
+    formando como desarrollador full stack. Me destaco por mi creatividad,
+    habilidades comunicativas y capacidad para generar experiencias memorables.
+  avatar: https://randomuser.me/api/portraits/men/32.jpg
+  email: perezmarcosjulio@gmail.com
+  phone: 672 059 796
+  website: https://www.instagram.com/marcosjvpr/
+  linkedin: https://www.linkedin.com/in/marcosjvpr/
+  github: https://github.com/MarcosJVPR
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Teatro
+    - item: Videojuegos
+    - item: Diseño
+    - item: Tecnología
+education:
+  - degree: Formación en Desarrollo Full Stack (en curso)
+    university: Plataforma Online
+    time: 2025
+    details: >
+      Aprendizaje de tecnologías como HTML, CSS, JavaScript, React y Node.js,
+      con enfoque en proyectos prácticos y lógica de programación.
+  - degree: Formación artística y escénica
+    university: Diversas academias y talleres
+    time: 2010 - 2020
+    details: >
+      Formación y práctica en teatro, teatro musical, danza y docencia artística.
+experiences:
+  - role: Coordinador de Publicidad
+    time: 2021 - 2023
+    company: VENILAC (aliada de Lácteos Los Andes)
+    details: >
+      Lideré el rebranding de una marca aliada, coordinando la comunicación
+      visual, campañas y supervisión de piezas gráficas. Coordinación con
+      proveedores y seguimiento de materiales.
+  - role: Gerente de Centro de Realidad Virtual
+    time: 2022 - 2023
+    company: Zero Latency
+    details: >
+      Gestión de personal, atención al cliente, coordinación de reservas,
+      campañas de marketing digital y colaboraciones con influencers. Mejora de
+      experiencia de usuario.
+  - role: Encargado de pastelería
+    time: 2020 - 2021
+    company: El Panal
+    details: >
+      Atención al cliente, presentación de productos, gestión del punto de
+      venta, enfoque en pastelería francesa.
+  - role: Profesor de artes escénicas
+    time: 2012 - 2022
+    company: Independiente / Voluntariado
+    details: >
+      Clases de teatro, teatro musical y danza a diversos públicos,
+      incluyendo personas mayores. Diseño de dinámicas, dirección escénica y
+      acompañamiento pedagógico.
+projects:
+  intro: >
+    Proyectos creativos y personales vinculados a diseño, comunicación y
+    desarrollo web en curso.
+  assignments:
+    - title: Rebranding de marca láctea
+      tagline: Lideré el rediseño y comunicación visual para una empresa aliada de
+        Lácteos Los Andes.
+    - title: Estrategia digital para centro VR
+      tagline: Campañas en redes sociales, alianzas con influencers y optimización de
+        experiencia del usuario.
+skills:
+  toolset:
+    - name: Illustrator & CapCut
+      level: 90%
+    - name: Premiere & Photoshop
+      level: 70%
+    - name: HTML, CSS, JavaScript
+      level: 50%
+    - name: Atención al cliente y gestión de equipos
+      level: 95%
+    - name: Branding y estrategia digital
+      level: 90%
