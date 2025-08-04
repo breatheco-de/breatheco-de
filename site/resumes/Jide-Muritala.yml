@@ -1,0 +1,70 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jide
+  last_name: Muritala
+  motto: Coding is fun!
+  focus: Producing clean code
+  summary: |
+    I studied Petroleum Engineering for my bachelors degree and worked as 
+    an engineer in the Oil and Gas industry for three and a half years. 
+    After which I had further studies, first an MBA, and second, a PhD in
+    Business management. I started on the path to becoming a Full-Stack Web
+    Developer afterwards and I am currently loving it!
+  avatar: https://avatars.githubusercontent.com/u/115728688?s=400&u=b907431270ae9e7be406d97d8d831005d3eb5ddc&v=4
+  email: jidemuritala@mail.com
+  phone: 234 2342 342
+  website: jidemuritala.com
+  linkedin: https://www.linkedin.com/babajidemuritala
+  github: Jide-Muritala
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Sports
+    - item: Current affairs
+    - item: Travel
+education:
+  - degree: PhD in Business Management
+    university: Universitat Rovira i Virgili
+    time: 2019 - 2022
+  - degree: Master of Business Administration
+    university: University of Nottingham, Malaysia Campus
+    time: null
+  - degree: BSc in Petroleum Engineering
+    university: University of Ibadan
+    time: null
+experiences:
+  - role: Senior Field Engineer
+    time: 2011 - 2015
+    company: SLB (formerly Schlumberger), Port Harcourt
+projects:
+  intro: |
+    You can list your side projects or open source libraries in this section.
+  assignments:
+    - title: MeetingSpace
+      link: https://github.com/margeol90/meeting_space
+      tagline: Find meeting spaces for meetings and events near you.
+    - title: AirNBN
+      link: https://github.com/margeol90/AirNBN_Clone_MS
+      tagline: AirBNB clone.
+    - title: Instagram Feed clone
+      link: https://github.com/4GeeksAcademy/jidemuritala-instagram-feed-with-bootstrap
+      tagline: Instagram Feed clone with only Bootstrap
+skills:
+  toolset:
+    - name: Python & Flask
+      level: 68%
+    - name: Javascript & jQuery
+      level: 88%
+    - name: REST API
+      level: 70%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 95%
+    - name: SQL
+      level: 90%
