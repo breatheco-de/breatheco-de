@@ -1,0 +1,80 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Miguel
+  last_name: Ojeda
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Estuve en el Bootcamp 4geeks Academy, el cual me permitió reforzar los conocimientos 
+  que previamente me forme como autodidacta. En el aprendí tecnologías como HTML, CSS, JavaScript,
+   React, Bootstrap, Flux, Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+   el trabajo grupal con git, ademas tengo experiencia en reparaciones pertinentes de equipos
+   electronicos como laptops tarjetas electronicas y fuentes conmutadas y experiencia en elaboracion de
+   tarjetas PCB atrevez de una linea de prototipado LPKF.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: cabrerasm081@gmail.com #optional
+  phone: 58 04241416295 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Alejandro959521
+
+  twitter: "conpantuflass" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Programacion 
+
+    - item: Deporte
+
+    - item: Ingenieria 
+
+# Your previous education
+education:
+  - degree: desarrollador full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: mar-2022 - ago-2022
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+      - Universidad Catolica Andres Bello
+
+          Actualmente cursando 7mo semestre en ingenieria en telecomunicaciones.
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    Inventario: Programa de Inventario de componentes y equipos electronicos, creacion de usuario como 
+    administrador y como cliente, interfaz amigable, muestra en pdf de la hoja de datos de cada componente
+     o quipo y control numerico de cada item.
+      Tecnologias: Java y Mysql.
+     
+      CENDIT : https://www.cendit.gob.ve/wp-content/themes/theme-wordpress-entes-mincyt/assets/image/cendit.png
+      
+      - Reparacion de tarjetas electronicas y fuente conmutadas.
+       
+       -Reparacion de equipos medicos tales como incubadoras, bombas de infucion, tensiometros,
+       aspiradores de glera, monitores multiparametros entre otros.
+
+       -Manejo de linea de prototipado LPKF para la construccion de tarjetas PCB (debastado de pistas,
+       galbanizado para tarjetas multicapa, soldadura smd, serigrafia y mascara de soldadura).
+
+
+      
+
+    
+ 
