@@ -1,0 +1,102 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Silvia Elena  
+    last_name: Zúñiga Fonseca
+    
+    # Define yourself in 4-5 words
+    motto: Charismatic and meticulous communicator with a detail-oriented mindset
+    
+    # focus
+    focus: Full stack development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      A charismatic and dynamic professional with excellent communication skills.
+       Skilled at cultivating an environment of collaboration and facilitating team synergy. 
+       Demonstrates superior written communication capabilities, excelling at simplifying complex concepts into actionable tasks. 
+       Boasts a keen eye for detail, ensuring thoroughness and precision in all tasks undertaken. 
+       Highly committed to driving team efficiency and maintaining the highest standards of quality.
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: silviazufonseca@gmail.com
+    phone: +506 8865 9357
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/silvia-elena-z%C3%BA%C3%B1iga-fonseca-b24930186/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ElenaZu
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish 
+        level: Native
+      - idiom: Spanish 
+        level: Advanced
+
+    # Interests or hobies
+    interests:
+      - item: Swimming
+
+      - item: Dancing
+
+# Your previous education
+education:
+    - degree: Business Degree in Finance
+      university: Universidad Nacional 
+      # optional
+      university_logo: https://www.carreras.una.ac.cr/wp-content/uploads/firma_transparente_roja.png
+      time: 2014 - 2015
+      details: |
+        I obtained a Business License in Finance.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales Advisor at Coopealianza R.L. 
+      time: Julio 2015-Abril 2017.
+      company: Coopealianza RL. 
+      # optional
+      company_logo: https://coopealianza.fi.cr/wp-content/uploads/2021/04/Coopealianza.png
+      details: |
+       As a Sales Advisor at a financial cooperative, 
+       I provided personalized guidance, assisted members with their financial needs,
+        and built strong relationships. I offered expert advice on products and services, 
+        ensuring members achieved their financial goals. 
+        I also actively engaged in acquiring new customers through outreach and marketing efforts.
+    - role: Digital Signature Director
+      time: Mayo 2017-Febrero 2019
+      company: Coopealianza RL. 
+      # optional
+      company_logo: https://coopealianza.fi.cr/wp-content/uploads/2021/04/Coopealianza.png
+      details: |
+            In charge of digital Signature Area
+skills:
+    toolset:
+      - name: Javascript 
+        level: basico
+
+      - name: HTML5 & CSS
+        level: intermedio
+
+      - name: SQL 
+        level: basico
+
+      - name: C++
+        level: Básico
