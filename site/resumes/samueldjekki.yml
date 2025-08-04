@@ -1,0 +1,118 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Samuel
+    last_name: Djekki
+    
+    # Define yourself in 4-5 words
+    motto: Not great not terrible
+    
+    # focus
+    focus: Learning to be better than before
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I introduced myself to the world of coding not too long ago. In love with it.
+      I finished my fullstack developing course and now I'm ready and willing to take on the world. Comfortable with js, react on the front-end. 
+      Python and posgresql on the backend. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/lK9OIax.jpg
+
+    # Contact Information
+    email: samueldjekki@gmail.com #optional
+    phone: +58 414 107 0627 #optional
+    website: wowtrade.com (soon) #optional
+    linkedin: https://www.linkedin.com/in/samuel-djekki-604305227/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/samu1243
+    
+    twitter: 'Don't use twitter' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Fluent & semi-professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Soccer
+
+      - item: Coding
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: University Pathway 3 
+      university: International Language Academy of Canada
+      # optional
+      university_logo: https://www.ilac.com/wp-content/uploads/2020/01/red-logo.png
+      time: 2014 - 2014
+      details: |
+        Enrolled in the most prestigious English academy in Canada. Managed to skip several levels and completed the university pathway in quite a short amount of time.
+        In general, the experience was great. I was in Toronto and classes were monday to friday from 7am to 3pm.
+
+      # optional
+# Your previous job experiences or voluntier
+experiences:
+    - role: English professor
+      time: 2017 - 2019
+      company: Idiomas Ruge
+      # optional
+      company_logo: https://twitter.com/idiomasruge/status/537384620434944000
+      details: |
+       I possess 1 year and a half of teaching experience with the English languange. 
+       Most of my work was teaching a personal and small number of students. 
+       Thanks to this, I was able to attend their educational needs much better than I could with a large classroom. 
+       I have worked with small kids (youngest I can think of was 8), teenagers, and professional adults. 
+       Furthermore, most of adults that were taught by me had a 1 on 1 teaching class. 
+       They received educational programs mostly related to the financial sector. What I did the most with teenagers was academic in nature regarding the teaching subjects. 
+       Thus, I possess a bit of experience teaching a wide range of topics to different age groups.
+    - role: Senior Software Engineer
+      time: 2019 - present
+      company: Freelance
+      # optional
+      company_logo: https://www.upwork.com/static/marketing/ui/master/img/logo-1200x630.png
+      details: |
+        Did some translating jobs here and there. More than 80.000 words I have translated. All of them were English to Spanish.
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+# Your project portfolio
+projects:
+    intro: >
+      No side projects at this moment in time. All of the projects that you'd find in my repository were done to fulfill my assignments as a student for 4geeks.
+
+skills:
+    toolset:
+      - name: Python
+        level: 95%
+
+      - name: Javascript & jQuery
+        level: 96%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: React
+        level: 96%
+
