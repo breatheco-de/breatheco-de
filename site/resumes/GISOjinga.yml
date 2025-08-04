@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ojinga
+    last_name: Anokwu
+    
+    # Define yourself in 4-5 words
+    motto: I like problem solving
+    
+    # focus
+    focus: Getting a project to completion
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Hard working developer of 8+ years of background experience in solo development or
+      directing a team in the most effective direction.
+      Front and back end programming expertise, leveraging a variety of
+      programming techniques to complete jobs and assignments.
+
+    
+
+
+    # Contact Information
+    email: ojingaanokwu@gmail.com #optional
+    phone: 470 651 5494 #optional
+    linkedin: https://www.linkedin.com/in/ojinga-anokwu/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GISOjinga
+    
+    twitter: 'https://twitter.com/home' #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: German
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item: Programming
+
+      - item: Exercising
+
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: Associates Degree Computer Programming 
+      university: West Georgia Technical College (In Progress)
+      # optional
+      university_logo: https://www.westgatech.edu/wp-content/themes/wgtc/images/logo.png
+      time: 2022-2024
+      details: |
+        I've loved studying computer programming at West Georgia Technical College. 
+        Students and faculty feel connected on campus. 
+        Our professors are knowledgeable and passionate about teaching, always ready to help. 
+        Working on projects with classmates in computer programming classes is challenging but rewarding. 
+        Clubs and extracurricular at the school make it easy to meet like-minded people. 
+        West Georgia Technical College has been amazing, 
+        and I'm excited to see where my education takes me.
+          
+          - Hands-on experience through projects and collaborations
+          - Strong sense of community
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: QA Automotive Engineer
+      time: 2022 - Present
+      company: Roblox
+      # optional
+      company_logo: https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/08/Roblox-New-Logo.jpg
+      details: |
+        As a QA Automative Physics Engineer at Roblox, 
+        the role primarily involves testing and ensuring the quality of the physics engine 
+        in various games, by designing test places for other software engineers to test on. 
+        This includes collaborating with developers to troubleshoot issues, 
+        optimize performance, and implement improvements. 
+        Additionally, staying up-to-date with the latest tools and techniques is essential to 
+        enhance the user experience and maintain the high standards of the platform.
+
+    - role: Cook
+      time: 2021 - 2022
+      company: Waffle House
+      # optional
+      company_logo: https://static.wikia.nocookie.net/logopedia/images/e/e0/Wreujwv2.png/revision/latest?cb=20151126181627
+      details: |
+        - Grill cook position
+        - 1+ years of customer service experience
+        - Proficient in teamwork
+        - Capable of leading and directing store independently
+        - Adherence to daily work schedule
+        - Strong communication with customers
+        - Experience in fast-paced environment
+        - Cook at Waffle House
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Monowheel (Lua)
+        # optional
+        link: "#https://www.roblox.com/games/9020300192/MonoWheel"
+        tagline: "A game in which you control a vehicle that defies gravity and moves as if its center of gravity is at the intersection between the vehicle and the flooring. It demonstrates that I am proficient in math and logical problem solving. It begins with a casting ray that adjusts at a 90-degree angle based on the speed of the vehicle."
+
+      - title: Moving Average (C++)
+        # optional
+        tagline: "It displays my understanding of C++ formatting and my ability to interpret charts and graphs. This code runs on a meta trader executor, is written in mql4, and predicts the next probable moving average on a graph based on prior changes in averages on the graph."
+
+      - title: Object Oriented Importer (JavaScript & Yaml)
+        # optional
+        link: "#https://marketplace.visualstudio.com/items?itemName=GISJinga.robloxForceStrict"
+        tagline: "A plugin for roblox developers that automatically adds a --!strict comment with forces the rest of the script to follow a set format."
+
+skills:
+    toolset:
+      - name: Lua & OOP
+        level: 98%
+
+      - name: Javascript & HTML & CSS
+        level: 40%
+
+      - name: C++ & C#
+        level: 60%
+
+      - name: Java
+        level: 70%
+
+      - name: Python
+        level: 80%
