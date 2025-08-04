@@ -1,0 +1,176 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria
+    last_name: Ripoll Vives
+    
+    # Define yourself in 4-5 words
+    motto: In my book, experience outranks everything.
+    
+    # focus
+    focus: Learn to program to get the most out of my skills, to gain experience in more companies and in other countries.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      My language studies led me to discover communication, communication led me to marketing, marketing led me to web development, and here I am now: learning to code to take my professional career to the next level.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://twitter.com/mariaripollcode/photo
+
+    # Contact Information
+    email: ripollmaria3@gmail.com #optional
+    phone: +34 675263279 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/mariaripollvives/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mariaripoll
+    
+    twitter: 'mariaripollcode' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional/Advance
+
+      - idiom: French
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Art
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: English Language and Literature
+      university: University of Valencia
+      # optional
+      university_logo: https://enem.ametic.es/wp-content/uploads/empresas/912766_logo-UV-con-escudo-2-lineas.jpg
+      time: 2013 - 2018
+      details: |
+        Outstanding in the Final Degree Project.
+        Honors in Poetry of the XX-XXI centuries.
+        Minor: French Language and Literature.
+    - degree: Masters in Digital Marketing and Sales
+      university: EDEM Business School
+      # optional
+      university_logo: https://www.momapublicidad.com/wp-content/uploads/2018/05/LOGO-EDEM-300x136.jpg
+      time: 2018 - 2019
+      details: |
+        Master's degree in Marketing and Digital Sales, working on social networks, email marketing, SEO and SEM, digital analytics, e-commerce, CRM and UX.
+    - degree: MBA
+      university: ThePower Business School
+      # optional
+      university_logo: https://mkttpmba.s3.eu-west-1.amazonaws.com/ThePower+Business+School/Brand/TPBS(LOGOS)/DIGITAL/svg/Digital-negativo.svg
+      time: 2021 - 2023
+      details: |
+        ThePowerMBA Future Leaders Program, Business Expert, Business Administration and Management.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Account Manager
+      time: 2022 - Present
+      company: Nouveaux Media, Elche (Spain)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ➡️ Developing marketing plans based on current trends and customer demographics to increase brand awareness of our clients.
+        ➡️ Working with the advertising department to develop ad campaigns that effectively reach target markets.
+        ➡️ Conducting market research to identify new opportunities for our clients' products/services.
+        ➡️ Coordinating with the designers team on creating promotional materials such as brochures, flyers, and creative to advertise products or services.
+        ➡️ Monitoring competitors' activities in order to identify their strategies for growth within their industry.
+
+        𝗦𝗼𝗺𝗲 𝗱𝗮𝘁𝗮:
+        💲 𝗢𝗩𝗘𝗥 $𝟮𝟱𝗠 𝗠𝗔𝗗𝗘 𝗜𝗡 𝟮𝟬𝟮𝟮
+        📨 +𝟴𝟴𝗞 𝗟𝗘𝗔𝗗𝗦 𝗢𝗥 𝗕𝗢𝗢𝗞𝗜𝗡𝗚𝗦 𝗜𝗡 𝟮𝟬𝟮𝟮
+        🏬 +𝟳 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧 𝗜𝗡𝗗𝗨𝗦𝗧𝗥𝗜𝗘𝗦
+        🌍 𝗚𝗟𝗢𝗕𝗔𝗟 𝗥𝗘𝗔𝗖𝗛, 𝟰+ 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘𝗦
+    - role: Digital Marketing Manager and Scrum Master
+      time: 2019 - 2022
+      company: dtscreativo, Valencia (Spain)
+      # optional
+      company_logo: https://dtscreativo.es/wp-content/uploads/2021/11/logo-dtscreativo-512x512-1.png
+      details: |
+        Implementation of Agile methodologies in the development of projects and strategies. Improving work processes and increasing team productivity.
+          🎯 Scrum
+          🎯 Kanban
+          🎯 Lean
+
+        Project management and coordination for goal-oriented projects.
+          - Establish the marketing strategy
+          - Develop pipelines, conversion funnels
+          - Plan strategic campaigns
+          - Distribution of tasks
+          - Team coordination
+          - Supervision and monitoring of actions
+          - Analysis of results
+
+        Execution of campaigns:
+          -Facebook ads
+          - Email Marketing
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Wordpress
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: JavaScript & React
+        level: 60%
