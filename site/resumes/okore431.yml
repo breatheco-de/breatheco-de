@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Olga
+    last_name: Korenchuk
+    
+    # Define yourself in 4-5 words
+    motto: Be yourself...
+    
+    # focus
+    focus: Learning software development. 
+
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Logical and results-driven full stack developer student, dedicated to building and optimizing user-focused websites and applications.Technically proficient and analytical problem solver with a calm and focusted demeanor.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/113946674?s=400&v=4
+
+    # Contact Information
+    email: olussskin@gmail.com #optional
+    phone: +971 325 7362 #optional
+    linkedin: Olga Korenchuk #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: okore431
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advance
+
+      - idiom: Ukrainian
+        level: Native
+
+      - idiom: Russian
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Hiking
+
+      - item: Reading
+
+      - item: Dancing
+
+# Your previous education
+
+education:
+
+    - degree: Full-Stack Software Developer Certificate
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022-2023
+
+    - degree: MA in International Hospitality and Tourism Business
+      university: University of Wales
+      # optional
+      university_logo: https://en.wikipedia.org/wiki/University_of_Wales#/media/File:University_of_Wales.svg
+      time: 2013 - 2015
+
+    - degree: BSc in International Relations
+      university: University of Kyiv
+      # optional
+      time: 2007 - 2011
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Culinary Administrative assistant 
+      time: 2022 - Present
+      company: The Ritz-Carlton
+      # optional
+      company_logo: https://en.wikipedia.org/wiki/The_Ritz-Carlton_Hotel_Company#/media/File:RitzCarlton.svg
+    
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+
+    - role: Concierge
+      time: 2016 - 2022
+      company: Hilton Worldwide
+      # optional
+      company_logo: https://commons.wikimedia.org/wiki/File:Hilton_Worldwide_logo.svg
+
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+        
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+            I am just starting my porfolio
+
+assignments:
+
+      - title: Instagram Photo Feed with Bootstrap
+        link: https://github.com/okore431/Insta-feed-Bootstrap
+        tagline: "This is an improved version of the first Instagram exercise, now using bootstrap."
+
+      - title: Instagram Photo Feed
+        link: https://github.com/okore431/Instagram-Photo-Feed
+        tagline: "First Instagram Photo Feed. Using HTML + CSS"
+      
+      - title: Digital Postcard
+        link: https://github.com/okore431/Postcard-Project-2
+        tagline: "The very first project. Using HTML + CSS"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 0%
