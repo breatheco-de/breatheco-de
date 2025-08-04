@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Paulina
+    last_name: Acuña
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: paulinefugit@gmail.com 
+    phone: +56926072026 
+    website:  https://github.com/PauFugit
+    
+   
+    github: PauFugit
+    
+    stack-overflow: 19550528/paufugit
+
+   
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+  
+    interests:
+      - item: Reading
+
+      - item: Study
+
+      - item: Cooking
+
+
+education:
+    - degree: Master's degree in education with mention in curriculum and competency-based evaluation.
+      university: University of Miguel de Cervantes
+      university_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcambio21.cl%2Fimage%2F5e6ed35ccd49b0062b6efc65.jpg&f=1&nofb=1
+      time: 2019 - 2021
+      details: |
+        PENDIENTE
+          - Bullet point
+          - Bullet point
+    - degree: Pedagogy in Philosophy and Bachelor of Education
+      university: Pontificie Universidad Católica de Valparaíso
+      university_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.univerzities.com%2FImages%2FUni%2Flogo6623.jpg&f=1&nofb=1
+      time: 2010 - 2016
+      details: |
+        532 / 5.000
+        Advanced knowledge of Western and Latin American philosophical theory. 
+        Intermediate studies of Latin and ancient Greek, plus tools for discussion, argumentation, and rhetoric. 
+        On the other hand, I have teacher training which includes everything from theoretical management to the 
+        implementation of methodologies and tools focused on learning from others. I also have the ability to generate 
+        didactic and educational material in various areas, following models already created by various educational theorists.
+
+
+experiences:
+    - role: Teacher
+      time: 2020 - 2021
+      company: Colegio Santa María de Quilicura, Santiago.
+
+      company_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F_3IlYYvzdvBE%2FR-SNVOOqwII%2FAAAAAAAAAAM%2FZaazP9lNH7g%2Fs200%2Fimage001.png&f=1&nofb=1
+
+
+    - role: Teacher
+      time: 2017 - 2020
+      company: Manquecura (COGNITA), Santiago
+   
+      company_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.manquecura.cl%2Fwp-content%2Fuploads%2F2018%2F02%2Fadvisory-board-COGNITA-700x438.jpg&f=1&nofb=1
+     
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript 
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Sketch & Photoshop
+        level: 80%
+
+      
