@@ -1,0 +1,50 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Luciana
+  last_name: Marin
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: 
+  Soy Auxiliar Administrativo, recreadora deportiva, estudié la carrera de Tecnólogo en mecatrónica industrial durante dos años.
+Durante 8 años trabajé como Oficial de Policía en Uruguay, el trabajo era bueno, pero no sentía que era mi lugar, por diferentes razones, decidí cambiar mi vida. Fue entonces cuando decidí sumergirme en el mundo de la programación. Realicé varios cursos en Udemy, y actualmente estoy estudiando en 4GeeksAcademy, formación Web Full Stack.
+Así que decidí iniciar esta transición de carrera, buscando una mayor satisfacción profesional haciendo lo que más me gusta, ¡que es programar!
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: marinperezluciana@gmail.com #optional
+  phone: 598 91526279 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: lumarin2802
+
+
+
+  # Interests or hobbies
+  interests:
+    - item: Cocinar
+
+    - item: Leer
+
+    - item: Actividades al aire libre
+# Your previous education
+education:
+  - degree: desarrolladora full-stack 
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: dic-2022 - feb-2023
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    
