@@ -1,0 +1,102 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Oliver
+    last_name: Sanderson
+    
+    # Define yourself in 4-5 words
+    motto: I enjoy learning new skills
+    
+    # focus
+    focus: Coding something useful
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      After a degree in computer science, I have always remained passionate
+      about coding but mostly in personal projects. After a recent lifestyle change,
+      I have now decided to pursue this passion as a career choice and have
+      been lucky enough to gain some experience at different companies getting
+      hands on with Python JavaScript and Angular. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/93383676?v=4
+
+    # Contact Information
+    email: oliver_343@hotmail.com #optional
+    phone: #optional
+    website: https://lnkd.in/dKM4ZF25 #optional
+    linkedin: https://www.linkedin.com/in/oliver-sanderson-66357b182/  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Oliver343
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Board games
+
+      - item: Climbing
+
+      - item: Design
+
+# Your previous education
+education:
+    - degree: Honours degree in Computer Science with Business
+      university: University of Hull
+      # optional
+      university_logo: https://findvectorlogo.com/wp-content/uploads/2019/04/university-of-hull-vector-logo.png
+      time: 2008 - 2011
+      details: |
+        Gained a deep fundamental knowledge of computer science while also obtaining
+        practical business skills allowing for a diverse skillset. Along with this developed
+        lasting connections and the ability to manage a large workload and with together as         
+        part of a team to deliver a specific project. 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Angular Developer
+      time: November 2022 - April 2023
+      company: The Next Flow - Spain
+      # optional
+
+
+    - role: Junior Software Developer
+      time: March 2022 - October 2022
+      company: Veiovia - England (Remote)
+      # optional
+      
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 75%
+
+      - name: Angular
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 90%
