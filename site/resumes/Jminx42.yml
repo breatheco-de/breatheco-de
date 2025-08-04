@@ -1,0 +1,189 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jessica
+    last_name: Ferreira
+    
+    # Define yourself in 4-5 words
+    motto: “Do the best you can until you know better. Then when you know better, do better.”
+            ― Maya Angelou
+
+    
+    # focus
+    focus: You can do anything, but not everything.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      While I was studying for my Bcom in Marketing Management, I worked as a tutor. Kumon offered extra English and Mathematics lessons for students of various ages. It was a great way for me to earn extra income and gain experience. I was determined to start at the bottom and work my way up wherever I found myself.
+      My next step was as a Junior Bookseller at Bargain Books. I learned a lot about customer service and adminstrative tasks that were required running a bookstore. The next venture started out as a personal assistant position at Edublox PE. It evolved into a tutoring position and then into a teaching position. It was a lot of responsibility and it showed me how much I was capable of doing.
+      I was offered an opportunity at ATM Solutions as an Operations Coordinator. The title of the position, itself, was daunting. However, I was ready for the challenge.
+      I was confident in the skills and processes they taught me. 
+      I find myself on a new path into the IT world and all that it holds. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4E03AQEewhKl9X-i9Q/profile-displayphoto-shrink_800_800/0/1602482141172?e=1684368000&v=beta&t=gHN29wgOvumZk9bUJImJz9MWyXm1lI8xsHIrNUh-8Tc
+
+    # Contact Information
+    email: visagiejessica@gmail.com #optional
+    phone: 31 62 072 5833 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/jessica-ferreira-005497158 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jminx42
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Afrikaans
+        level: Professional 
+
+    # Interests or hobies
+    interests:
+      - item: Crocheting
+
+      - item: Reading
+
+      - item: Playing games
+
+# Your previous education
+education:
+    - degree: Bcom Marketing Management
+      university: University of South Africa
+      # optional
+      university_logo: https://cdn3.freelogovectors.net/wp-content/uploads/2020/01/Unisa_Logo_University_of_South_Africa.png
+      time: 2016 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Full-Stack Software Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - present
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Part-Time Tutor
+      time: 2016 - 2019
+      company: Kumon Westering Center, Port Elizabeth
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/2560px-Kumon_Method_Logo.svg.png
+      details: |
+        In the fast pace environment of the center, it was important to have everyone work together as a team for the learners to get the most out of the tutoring lessons. 
+        My responsibilities are as follows:
+        - Tutoring of English and Mathematics to learners (of various ages)
+        - Marking of corrections and workbooks
+        - Maintaining of record books
+        - Handling the Kumon library
+    - role: Junior Bookseller 
+      time: 2019 - 2021
+      company: Bargain Books Baywest, Port Elizabeth
+      # optional
+      company_logo: https://www.bargainbooks.co.za/wp-content/uploads/2018/06/Bargain-Books-Logo.jpg
+      details: |
+        I have learned from working at Bargain Books that I am a people pleaser. The highlight of any day would be attributed to helping a customer to the best of my ability.  
+        My responsibilities are summarized as follows:
+        - Customer Service
+        - Merchandising
+        - Stock Management
+        - Security
+        - Sales and up-selling
+        - Administration
+    - role: Personal Assistant to the owner / EDUBLOX and EASY Tutor
+      time: 2021 - 2021
+      company: Edublox PE, Port Elizabeth
+      # optional
+      company_logo: https://www.edubloxsa.co.za/wp-content/uploads/2020/11/EdubloxLogo-1.png
+      details: |
+        I started off working at Edublox PE as a personal assistant to the owner of Edublox PE. 
+        As time went on I was given my EASY class which consisted of high school learners. I had to focus on building and strengthening the foundation of their languages and mathematics.
+        My responsibilities are summarized as follows:
+        - Administration 
+        - Maintenance of EASY homework books and EDUBLOX afternoon class books
+        - Tutoring in English, Mathematics, and Afrikaans to learners (of various ages)
+        - Maintaining COVID regulations (check-ins, sanitization, etc.)
+        - Planning and teaching an EASY class
+    - role: Operations Coordinator
+      time: 2022 - 2022
+      company: ATM Solutions, Port Elizabeth
+      # optional
+      company_logo: https://www.paycorp.co.za/wp-content/uploads/2020/04/Untitled-2_0000_Asset-185.png
+      details: |
+        This position was completely different to what I had done previously. 
+        It was definitely a challenge to learn all the roles and responsibilities I had to play.
+        However, once I was comfortable in what my role was I could do my work confidently and in turn help others.
+        My time with ATM Solutions PE was unfortunately cut short. But I will never forget the experiences and people who helped me learn to do my job efficiently.
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects we have completed at 4Geeks Academy so far. This list will be updated as the class advances.
+    assignments:
+      - title: Digital Postcard with HTML/CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jminx42/digital-postcard"
+        tagline: "Create a postcard with HTML5 and CSS to match the sample image given."
+
+      - title: Simple Instagram Photo Feed With HTML/CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jminx42/breathe-code-photo-feed-main"
+        tagline: "Using everything you have learned with HTML and CSS3, please create a website that replicates this gif in every way (pixel perfect)."
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Create the HTML and CSS needed to replicate the sample image."
+
+      - title: Instagram Photo Feed With Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jminx42/instagram-feed-using-bootstrap"
+        tagline: "You are given the task to replicate a picture as a website using components from Bootstrap."
+
+      - title: HTML5 Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jminx42/html5-form"
+        tagline: "Style the form to look like the sample image. Using bootstrap components, HTML5 elements, and your first small validations!"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Javascript
+        level: 60%
+
+      - name: Java
+        level: 60%
