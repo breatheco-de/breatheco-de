@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Rubicco Ferro
+    
+    # Define yourself in 4-5 words
+    motto: I like automation
+    
+    # focus
+    focus: Creative Programming & Automation of boring tasks
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I always liked Videogames and that's what brought a passion for coding.
+      I've been dealing with computes for a long time. I've written code snippets that improve significantlly the workflow of refurbishing PCs.
+      I plan to be a part of the VideoGame creating process as a way to give back to what brought me so much joy in the past.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jrf210801@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jnv821
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+      - level: Professional
+
+      - idiom: Galician
+      - level: Professional
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Digital Painting
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Technic in informatic microsystems and networks.
+      university: IES SAN CLEMENTE
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2021
+      details: |
+        I had the pleasure to attend a plurilingual course that not only taught me a lot about computers but also another language.
+        I also had the great oportunity to participate in the Erasmus+ program and internship abroad. It was a great experience overall
+        full of amazing professionals.
+          - Great facilities
+          - Great information
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Internship - Production Department
+      time: July of 2020, March to June of 2021
+      company: WDMI
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I worked as a member of the production team, refurbishing PCs, Laptops and more.
+        I checked the states of the PCs and gave them a rating in the rating system provided by the company.
+        I changed SSDs, RAM, and diagnosed PCs with possible problems as well as fixing them.
+        I learned to use Aiken Workbench to keep good inventory and quality standards.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 20%
+
+      - name: Sketch & Photoshop
+        level: 90%
