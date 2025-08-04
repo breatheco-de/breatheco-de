@@ -1,0 +1,134 @@
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio 
+    last_name: Faloppa
+    
+    # Define yourself in 4-5 words
+    motto: Ambitious Organized Leadership Professional Intelligent Problem Solver
+    
+    # # focus
+    # focus: Becoming gainfully employed as a software developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      ● Ambitious and competitive person, constantly looking for new goals and ways to improve
+      ● Order is part of my daily life, makes me responsible and diligent.
+      ● I feel passionate about Civil Engineering, especially the branches of Geotechnics, Materials and Management.
+      ● Being in contact with staff from an early age has helped me develop my abilities of leadership and teamwork.
+      ● Acquire new knowledge is a priority in my life, that is why I am constantly reading and keeping up on topics of interest.
+      ● I consider myself a problem solver, with abilities in mathematical thinking.
+      ● Medical insurance with international coverage up to date.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://sites-af.com/wp-content/uploads/2022/05/IMG_1934-scaled.jpg
+
+    # Contact Information
+    email: antoniofaloppa@hotmail.com #
+    phone: +58-414-545-7846 #
+    website: https://sites-af.com #
+    # linkedin: andinoga #
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: AntonioFaloppa
+    
+    # twitter: '' #
+    # stack-overflow: # 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: Italian
+        level: Advanced
+
+    # # Interests or hobies
+    # interests:
+    #   - item: 
+
+    #   - item: 
+
+    #   - item: 
+
+# Your previous education
+education: 
+    - degree: Civil Engineer
+      university: Universidad Metropolitana de Caracas
+      time: 2017 - 2022
+      details: | 
+
+    - degree: High School Diploma
+      university: Colegio Rioclaro
+      time: 2012 - 2017
+      details: |
+ 
+# Your previous job experiences or voluntier
+experiences:
+    - role: Director Manager of Mapreca and Pedrera Yaracuyana
+      time: May 2021 - December 2021
+      company: Mapreca and Pedrera Yaracuyana, Yaracuy
+      details: |
+        ● Built a new cost structure and unit price analysis of all products (50 of them).
+        ● Developed new website with Wordpress and new face on social media
+        ● Directed all employees in production 
+
+    - role: Web Developer (Wordpress)
+      time: January 2020 - May 2020
+      details: |
+        ● Developed an online course website with Wordpress, meant to be used by professionals and educators to post their courses
+
+    - role: Social Labor
+      time: 2015 - 2020
+      details: |
+        ● More than 300 hours of social labor.
+        ● From painting walls of houses and churches, to constructing a bridge for a town in need.
+
+# Your project portfolio
+projects:
+    intro: >
+        Currently working in new projects through 4Geeks Fullstack Software Developer Bootcamp
+
+    assignments:
+      - title: My Postcard
+        link: "#https://github.com/AntonioFaloppa/my-postcard"
+        tagline: "My first project with html and css"
+
+      - title: Instragram Post CSS
+        link: "#https://github.com/AntonioFaloppa/instagram-post"
+        tagline: "My second project with html and css"
+
+      - title: Collab Project
+        link: "#https://github.com/AntonioFaloppa/instagram-photo-feed-bootstrap"
+        tagline: "My third project with bootstrap 5"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: React
+        level: 0%
+
+      - name: Java
+        level: 0%
+        
