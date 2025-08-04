@@ -1,0 +1,71 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Alberto
+    last_name: Moreno
+    motto: Keep it simple
+    avatar: ~
+    summary: |
+        Love technology and I am always eager to learn. I have been working as Presales of IBM Power Systems and Storage but I am interested in changing my path into
+        software development.
+        
+         
+
+    # Sidebar links
+    email: moreno.alberto.cursos@gmail.com
+    phone: 414 444 44 44
+    website: ~
+    linkedin: https://www.linkedin.com/in/alberto-moreno-conde-946a96168/
+    github: Alb3rnaru
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Game Development
+      - item: Public Clouds
+      - item: DevOps
+      - item: Machine Learning
+
+education:
+    - degree: Bachelor of Computer Science
+      university: Universidad Central de Venezuela
+      time:
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+      
+      - name: C++ 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
