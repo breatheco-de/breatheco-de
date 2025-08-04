@@ -1,0 +1,77 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Eric
+  last_name: Báez 
+  motto: Goals don't get closer if you dont chase them.
+  avatar: https://
+  summary: |
+    I have been working as a computer scientist for about 6 years and am looking for a growth opportunity as a developer.
+
+  # Sidebar links
+  email: baez5720@outlook.com
+  phone: 722 33 31 46
+  #website: 
+  linkedin: 
+  github: 3ric-b
+  stack-overflow: 
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Basic
+
+  interests:
+    - item: Robotics
+
+    - item: Artificial Intelligence
+
+    - item: Programming
+
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    time: 2022 - 2023
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+
+experiences:
+  - role: Network and Telecommunications Technician
+    time: 2017 – 2021
+    company: CLARO PRT (EE. UU.)
+    details: |
+      Resolution of incidents on technologies of data.
+        - Resolution of incidents on data services, installation and splicing of large-scale networks (fiber optics, copper and LAN ethernet), etc.
+        - Configuration of satellite Wi-Fi, access point, internet of things, routing, switching, server maintenance lv1.
+projects:
+  intro: >
+    As a newly graduated Full Stack Developer, I don't have many projects, over time this list will become more interesting.
+  assignments:
+    - title: 
+  
+      tagline: 
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 95%
+
+    - name: FlaskSQL
+      level: 95%
