@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lisa
+    last_name: Valdes
+    
+    # Define yourself in 4-5 words
+    motto: 
+    
+    # focus
+    focus: study
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C5603AQHUeXM_ZAbppw/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=FJz8CIO9oFZZGaELlWIgcgQXCB2q1fGnlY4Uw6WSb9c
+
+    # Contact Information
+    email: lisamaria.valdes@gmail.com #optional
+    phone: 786 251 4956 #optional
+    linkedin:  #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LisaMV
+
+      # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: 
+
+      - item:
+
+      - item: 
+
+# Your previous education
+education:
+    - degree: Telecomunication and Electronics
+      university: University for Technology of Havana (CUJAE)
+      # optional
+      university_logo:
+      time: 2016-2021
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - 3.5 GPA
+          - Cum Laude
+          - Minor in Business
+          # Your previous job experiences or voluntier
+        
+experiences:
+    - role: Front Desk
+      time: 2022 - Present
+      company: Friendly Hands
+
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Math Tutor
+      time: 2018-2021
+      company: University for Technology of Havana (CUJAE)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects that I have completed. This list will be updated as the 
+      my coding journey advances.
+
+    assignments:
+      - title:  PostCard
+        # optional
+        tagline: "A responsive Postcard template designed with Html and CSS."
+
+      - title: Instagram Post
+        # optional
+        tagline: "A responsive instagram post designed with Html and CSS"
+
+      - title: "Instagram feed"
+      
+        # optional
+        tagline: "A responsive instagram feed designed with Html and CSS"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 5%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 20%
+
