@@ -1,0 +1,47 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Toni
+  last_name: Centenera
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Tras tomarme un tiempo para aprender programación de forma autodidacta llegó un punto donde me atasqué y decidí dar un giro a mi vida haciendo el Bootcamp 4Geeks Academy el cual me permitió dar un salto cualitativo en mis habilidades de programación y abrir las puertas a un nuevo y brillante futuro como desarrollador Full Stack.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: "https://www.bing.com/images/search?view=detailV2&ccid=pNdzNon7&id=6454050596FE337C2D63ECABDFD31D0AF343E18C&thid=OIP.pNdzNon7Q6R7z_Q5nb1gtwAAAA&mediaurl=https%3a%2f%2fpuntorojolibros.com%2falejandria%2fimg%2fperfil%2fantonio_centenera_mayoral8561.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a4d7733689fb43a47bcff4399dbd60b7%3frik%3djOFD8wod09%252br7A%26pid%3dImgRaw%26r%3d0&exph=400&expw=300&q=toni+centenera&simid=607999238812169582&FORM=IRPRST&ck=6DC140C59527B248023423A43BE6A53C&selectedIndex=3&ajaxhist=0&ajaxserp=0"
+
+  # Contact Information
+  email: tonicentenera@gmail.com #optional
+  phone: 640 758091 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Toni369-vs
+  linkedin: "https://www.linkedin.com/in/antonio-centenera-mayoral/"
+  twitter: "No Disponible" #optional
+
+
+  # Interests or hobbies
+  interests:
+    - Programación
+    - Deporte
+    - Escritura
+
+# Your previous education
+education:
+  - degree: Desarrollador Full Stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    time: may-2023 - sep-2022
+    details: |
+      Tras tomarme un tiempo para aprender programación de forma autodidacta llegó un punto donde me atasqué y decidí dar un giro a mi vida haciendo el Bootcamp 4Geeks Academy el cual me permitió dar un salto cualitativo en mis habilidades de programación y abrir las puertas a un nuevo y brillante futuro como desarrollador Full Stack.
+
+experiences:
+  - company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+      - To-Do List: Contador de clicks, Calculadora interactiva, app de testimonios y app administrador de tareas
+      - Tecnologias: Html, Css, Javascript, React con Eventos y Hooks.
