@@ -1,8 +1,8 @@
 # Personal Information
 basic_info:
   # Your full name
-  first_name: Judith
-  last_name: Carreño
+  first_name: Miguel
+  last_name: Gil
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
@@ -16,13 +16,13 @@ basic_info:
   avatar: https://randomuser.me/api/portraits/women/24.jpg
 
   # Contact Information
-  email: devconpantuflas@gmail.com #optional
+  email: Miguelgilf@gmail.com #optional
   phone: 569 22138662 #optional
 
   #
   # ******** IMPORTANT *******
   # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-  github: conpantuflas
+  github: https://github.com/Miguel-web
 
   twitter: "conpantuflass" #optional
 
@@ -49,7 +49,7 @@ education:
       el trabajo grupal con git
 
 experiences:
- 
+
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: 
     To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
@@ -59,4 +59,3 @@ experiences:
 : "Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra' y marcar un producto como favorito."
 Fooder(Colaborativo): "Aplicacion para postear recetas, con creacion de usuario y marcado de recetas como favoritas."
 Tecnologias: "React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git."
- 
