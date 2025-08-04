@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristian Alexander
+    last_name: Garcia de la Vega
+    
+    # Define yourself in 4-5 words
+    motto: I love nature and technology
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Results-oriented young man with great ease of communication which allows me to have a excellent treatment for customer service. Competent to assume responsibilities under good practice approach. Responsible for teamwork and handling information confidential. Committed, honest, proactive and leader; willing to face new challenges with the greatest dedication. In search of personal improvement and to acquire new knowledge.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.facebook.com/photo/?fbid=10225472705832148&set=a.1578534510871
+
+    # Contact Information
+    email: calexandergarcia@gmail.com #optional
+    phone: +34600266251 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/CAlexanderGarcia
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: 80%
+
+    # Interests or hobies
+    interests:
+      - item: VideoGames
+
+      - item: Code
+
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: 
+      time: 2021 - 2022 (without end)
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Here you can see all the information of my completed projects.
+    assignments:
+      - title: Final Project
+        # optional
+        project_logo: https://github.com/CAlexanderGarcia/Invest-Final-Proyect
+        link: "#hook"
+        tagline: "Final Project"
+
+      - title: Blog StarWars
+        # optional
+        project_logo: https://github.com/CAlexanderGarcia/Blog-Star-War
+        link: "#"
+        tagline: "Blog StarWars"
+
+      - title: ToDo List
+        # optional
+        project_logo: https://github.com/CAlexanderGarcia/Todo-List
+        link: "#"
+        tagline: "ToDo List "
+
+      - title: Landing Page
+        # optional
+        project_logo: 
+        link: https://github.com/CAlexanderGarcia/Landing-page-with-React
+        tagline: "Landing Page"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 35%
+
+      - name: Javascript & jQuery
+        level: 85%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Wordpress
+        level: 30%
+
+      - name: Testing
+        level: 30%
