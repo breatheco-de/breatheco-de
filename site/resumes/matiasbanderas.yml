@@ -1,0 +1,107 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    # Your full name
+    first_name: Matias
+    last_name: Banderas
+    
+    # Define yourself in 4-5 words
+    motto: Work smart, not hard
+    
+    # focus
+    focus: Getting a job.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      tbh I'm speedrunning my assignments at the last minute, like a CHAMP if I might say so.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i1.sndcdn.com/artworks-000308786961-qa31bv-t500x500.jpg
+
+    # Contact Information
+    email: matias.banderas@ug.uchile.cl #optional
+    phone: +569 925 34 785 #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MatiasBanderas
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Native
+      
+      - idiom: Spanish
+        level: Native
+
+    
+    # Interests or hobies
+    interests:
+      - item: Content creation
+
+      - item: Gaming
+
+      - item: GAMING in all-caps
+
+# Your previous education
+education:
+    - degree: none
+      university: Universidad de Chile
+      # optional
+      university_logo: https://arpa.uchile.cl/wp-content/uploads/2017/10/Logo-UCHILE-Horizontal-RGB.png
+      time: 2014 - 2019
+      details: |
+        Attended law school for almost 5 years. Hated it and left because it's better to quit late than never.
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Head of Record assistant
+      time: 2016 - 2017
+      company: Notaria Rieutord
+      company_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Basically the notary's legal slave.
+
+# Your project portfolio
+projects:
+    intro: 
+      You can list your side projects or open source libraries in this
+      section. 
+    assignments:
+      - title: el Pololito
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "An informal jobs labor market, where employers and contractors can meet (and have their needs met too!)"
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 80%
+
+      - name: CSS
+        level: 70%
+
+      - name: Javascript
+        level: 70%
+
+      - name: React
+        level: 80%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: Git
+        level: 70%
+
+      - name: Python  
+        level: 15%
