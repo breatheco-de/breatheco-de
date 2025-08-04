@@ -1,0 +1,65 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Alberto 
+  last_name: Gonzalez
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Desarrollador Fullstack, Front end y Diseñador UI con 4 años de experiencia en TI como diseñador
+  y maquetador-Front-end, estoy interesado en mover mi carrera al mundo del código,
+  Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+  que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+  React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+  el trabajo grupal con gi
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://media-exp1.licdn.com/dms/image/D4E35AQEfOMHEhWFAUw/profile-framedphoto-shrink_200_200/0/1666802150804?e=1671026400&v=beta&t=7q2zTTMsio-MFTTPR4m5EaeEe7z3ft6k7MYAf_u2M8A
+
+  # Contact Information
+  email: agonzalez.front@gmail.com #optional
+  phone: +56 9 99543156 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: greatzerllel
+
+  linkedin: "https://www.linkedin.com/in/alberto-gonzalez-72a3b5127/" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Videogames
+
+    - item: Code
+
+    - item: Dogs
+
+# Your previous education
+education:
+  - degree: desarrollador full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: aug-2022 - oct-2022
+    details: |
+      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+      Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
+
+    La Campagna: Tienda de Frutas y verduras donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
+      Tecnologias: React, Hooks, Route, Css, Python, Flask, SqlAlchemy, PostgreSql ,Jwt , Git.
+
+    Starwars Blog: Aplicacion que consulta una api y genera un blog basado en la informacion de starwars.
+      Tecnologias: React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+ 
