@@ -1,0 +1,106 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Julio
+    last_name: Vargas
+    motto: Learning everyday 
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFMlDCGlHC9Qw/profile-displayphoto-shrink_200_200/0/1610836398056?e=1616630400&v=beta&t=3XuUH1N5zm6cfTQiesDBR-ln7z9boGMhVfK-P5qWdcI
+    summary: |
+      Enthusiastic about communication with more than 6 years of experience in marketing agencies and departments.
+      |
+      After developing myself as a professional in communication projects, marketing, digital marketing, e-commerce, social networks, Amazon ... I decided to develop myself in the field of new technologies, learning how to program thanks to 4GeeksAcademy.
+      |
+      On a personal level, what fullfills me is learn languages, visit a museum, take a plane anywhere, enjoy a good movie or attend a concert. 
+      |
+      Curious, persevering and thoughtful, I always try to give my best in everything I do. My motto is to learn something new every day. Shall we speak? 
+
+    email: julio.vargas11@hotmail.com 
+    phone: +506 6230-5763
+    website:
+    linkedin: linkedin.com/in/julio-daniel-vargas-ledezma-357822230 
+    github: JulioV10
+    twitter: 
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Enslish
+        level: B2
+
+
+    interests:
+      - item: Sports
+
+      - item: Languages
+
+      - item: Sports
+
+      - item: Dogs
+
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: nov 2022 - mar 2023
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp.
+        
+    - degree: Physical education bachelor
+      university: Universidad Autonoma de Centroamerica
+      university_logo: 
+      time: jan 2016 - dec 2018
+       
+experiences:
+    - role: 
+      time: 
+      company:  
+      company_logo: 
+      details: 
+    - role: 
+      time: 
+      company: 
+      company_logo: 
+      details: 
+
+
+    - role:
+      time:
+      company:
+      company_logo:
+      details:
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+    assignments:
+      - title: Digital Postcard
+        link: https://github.com/AlmuUve/Postcard
+        tagline: "My First HTML and CSS project"
+
+      - title: Instagram
+        link: https://github.com/AlmuUve/instagram-post-html-and-css.git
+        tagline: "Instagram-look-a-like feed using HTML and CSS."
+
+      - title: Form Bootstrap
+        link: https://github.com/AlmuUve/form-bootstrap
+        tagline: "A payment form using Bootstrap exclusively"
+
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 30%
+
+      - name: CSS
+        level: 60%
+
+      - name: bootstrap
+        level: 50%
+
