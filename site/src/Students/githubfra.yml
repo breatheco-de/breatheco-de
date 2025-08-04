@@ -1,0 +1,42 @@
+
+basic_info:
+
+  first_name: Francisca 
+  last_name: Díaz
+
+  summary:  Estoy cursando  el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript, React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como el trabajo grupal con git.
+ 
+  avatar:
+  - https://valleyadventours.com/wp-content/uploads/2018/03/avatar-mujer.jpg
+
+  # Contact Information
+  email: diazcabellofrancisca@gmail.com 
+  phone: 569 85907035 
+
+ 
+  github: githubfra
+
+  twitter: "xxxxxxxxx" 
+
+
+
+  interests:
+    - item: animales
+    - item: bicicletas
+    - item: fotos
+
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+   
+    time: jul-2022 - nov-2022
+    details: 
+      Estoy cursando el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git.
+
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+  
+   
