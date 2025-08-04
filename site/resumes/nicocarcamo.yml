@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolás
+    last_name: Cárcamo
+    
+    # Define yourself in 4-5 words
+    motto: Work hard, rest harder.
+    
+    # focus
+    focus: Loading coding skills...
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm Nicolás Cárcamo, professional musician with 10+ years of experience. After a long time working in this, i decided to study again and try to make a shift in my professional path. My objective is to become a software developer and be able to work in this field.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/JynGQ3T
+
+    # Contact Information
+    email: nicolascarcamonaccarino@gmail.com #optional
+    phone: +56 9 8818 1090 #optional
+    linkedin: https://www.linkedin.com/in/nicol%C3%A1s-c%C3%A1rcamo-naccarino-abba471ab/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nicocarcamo
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobies
+    interests:
+      - item: Road bike
+
+      - item: Videogames
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Intérprete Instrumental Mención Batería
+      university: Escuela Moderna De Música
+      # optional
+      time: 2007 - 2011 (Incomplete)
+      details: |
+        Professional music studies from 2007 to 2011, specializing in drums. Dropped out due to money issues and high work load.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Session musician
+      time: 2009 - Present
+      company: Freelance musician for independent artists
+      # optional
+      details: |
+        Studio and live session musician, for many artists ranging a wide variety of music styles.
+    - role: Drum teacher
+      time: 2011 - 2020
+      company: Freelance teacher
+      # optional
+      details: |
+        Teaching basic to advanced drums and basic piano to a wide number of students across the years.
+
+
+skills:
+    toolset:
+      - name: Javascript & React
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 30%
