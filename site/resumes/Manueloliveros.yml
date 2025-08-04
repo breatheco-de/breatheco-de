@@ -1,0 +1,66 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Manuel
+    last_name: Oliveros
+    motto: Full-stack Developer
+    avatar: 
+    summary: 
+ 
+
+    email: manueloliveros@gmail.com
+    phone: +584246393044
+    website: 
+    linkedin: 
+    github: maoc86
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish 
+        level: Professional
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Karate
+
+education:
+    - degree: Ingeniero en Informatica
+      university: Universidad Rafael Belloso Chacin 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Selection sort algorithm
+        link: https://github.com/maoc86/Instagram-Post
+        tagline: "Instagram Post"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
