@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexis
+    last_name: Peña
+    
+    # Define yourself in 4-5 words
+    motto: In search of knowledge
+    
+    # focus
+    focus: Improve the world and/or perhaps the universe?
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Since I was a child, I have always liked everything that has to do with technology, moreover.
+      In third grade I was given the little green ceibalita with antennas and without knowing Python or anything else I edited the games and activities of it. 
+      Then in third grade of high school I wanted to study a technological high school and I chose Computer Science, now I intend to continue my education and do a university degree related to this as well.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/qWRp1VK.jpg
+
+    # Contact Information
+    email: aleperixx@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: example.com #optional
+    linkedin: https://linkedin.com/in/aleperix #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: aleperix
+    
+    twitter: 'aleperix' #optional
+    stack-overflow: 14524190/aleperix # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic-Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Programming
+
+      - item: Undertake
+
+      - item: Make a better world
+
+# Your previous education
+education:
+    - degree: Ciclo Básico Tecnológico
+      university: Escuela Técnica de Minas
+      # optional
+      university_logo: https://www.maldonadonoticias.com/beta/images/Diciembre15/Imagen-_nuevo_logo.png
+      time: 2013 - 2016
+      details: |
+        Here I attended my first three years of high school where 
+        I gained basic knowledge of common high school subjects.
+
+    - degree: Auxiliar Técnico en Informática
+      university: Polo Educativo Tecnológico los Arrayanes
+      # optional
+      university_logo: https://guardaparques.org.uy/wp/wp-content/uploads/2021/07/UTU_Arrayanes.jpg
+      time: 2017 - 2019
+      details: |
+        Here I gained knowledge related to computer science and technology, such as
+        programming, electronics, logic, business education, economics, etc. 
+        Also with other classmates I performed tasks in projects which one of them won
+        first place prize in a Robotics and Programming Olympiad in 2018.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web, Mobile and Desktop Developer
+      time: 2020 - 2021
+      company: Yatek S.A(Vivo Cable Color)
+      # optional
+      company_logo: https://www.google.com/search?q=vivo+cable+color&tbm=isch&sxsrf=ALiCzsZBxRuzzDN52TGX0hDlxh6Eqfxg3Q%3A1663787409401&source=hp&biw=1360&bih=629&ei=kWErY_bKFpHd1sQPv4e5uA8&iflsig=AJiK0e8AAAAAYytvoXBcazOUlzVVbZ3nU2-QAkONrfQ_&ved=0ahUKEwi215GMy6b6AhWRrpUCHb9DDvcQ4dUDCAc&uact=5&oq=vivo+cable+color&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEB4QCDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDoHCCMQ6gIQJzoECCMQJzoICAAQgAQQsQM6BAgAEAM6CAgAELEDEIMBOgQIABAeOgYIABAeEAVQ_wJYyxJghxNoAnAAeACAAVqIAZIKkgECMTaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img#imgrc=Ym8YqF2PwbPn-M
+      details: |
+        I performed development tasks such as web pages written from scratch
+        as well as with wordpress, API usage, etc.
+        I developed mobile applications for the company in Java language and
+        also developed desktop applications in C# language
+        for the automation of tasks in the company.
+
+# Your project portfolio
+projects:
+    intro: >
+      I have developed two mini projects in Javscript using API calls
+      and getting data from them.
+
+    assignments:
+      - title: CovidUY-Data
+        # optional
+        project_logo: https://avatars.githubusercontent.com/u/44621287?v=4
+        link: "https://github.com/Aleperix/CovidUY-Data"
+        tagline: "Monitoring system for Covid-19 cases and vaccines in Uruguay."
+
+      - title: Billboard-LatinMusicCharts
+        # optional
+        project_logo: https://avatars.githubusercontent.com/u/44621287?v=4
+        link: "https://github.com/Aleperix/Billboard-LatinMusicCharts"
+        tagline: "REST API that generates a list of the 10 best Latin songs of the moment from billboard."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 70%
+
+      - name: PHP
+        level: 40%
+
+      - name: Visual Basic & C#
+        level: 60%
+
+      - name: Git
+        level: 40%
+
+      - name: Unity & Blender
+        level: 60%
