@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexander
+    last_name: De Matteo
+    
+    # Define yourself in 4-5 words
+    motto: ama como vives, vive como amas
+    
+    # focus
+    focus: ser cada dia mejor
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy una persona responsable, puntual, emprendedor y proactivo, 
+      me esfuerzo por trabajar en equipo y fomentar valores como los 
+      del compañerismo. Acostumbrado al trabajo bajo presión, tengo 
+      varios años de experiencia en administración, venta y atención al cliente. 
+      También me considero una persona resolutiva, con buen ánimo y 
+      capaz de resolver problemas fácilmente.
+      Desde temprana edad sentí un gran interés en la programación y siempre fue 
+      mi hobie, desde entonces me centre en conocer cada vez más y me llevo
+      a desarrollar actividades de programación de software administrativos en 
+      entorno de Windows y sitios web dinámicos.
+
+    # Contact Information
+    email: aldml0201@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlexanderDeMatteo
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Intermedio
+
+
+    # Interests or hobies
+    interests:
+      - item: MMO Games
+
+      - item: Programar
+
+      - item: cocinar
+
+# Your previous education
+education:
+    - degree: Valencia, Venezuela
+      university: 4Geeks Academy LLC
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022- 2022
