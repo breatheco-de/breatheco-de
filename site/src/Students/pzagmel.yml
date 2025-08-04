@@ -1,0 +1,50 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Pedro 
+  last_name: Zagal 
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+    Kinesiólogo de profesion, amante del deporte y las nuevas tecnologias, entré al Bootcamp
+    de 4Geeks para aprender lo que siempre me llamó la atención, la programación, todo lo que 
+    es creación de páginas web, diseño y base de datos. Me gustan los nuevos desafios y por lo que
+    me han contado esto se viene complejo, pero me motiva pensar que esto es el futuro y este
+    el mejor momento para aprenderlo.
+
+  # Contact Information
+  email: pedro.zagalm@gmail.com #optional
+  phone: +569764833433 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: pzagmel
+
+  twitter: MelaniZagal
+
+
+  # Interests or hobies
+  interests:
+    - item: Deportes
+
+    - item: Salidas al aire libre
+
+    - item: Lectura
+
+# Your previous education
+education:
+  - degree: desarrolladora full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: Sep-2022 - Feb-2023
+    details: |
+      Estudié en el Bootcamp 4geeks Academy, aprendí tecnologias como JavaScript, React, Bootstrap,
+      Flux , Python, Sql, SqlAlchemy, Flask, Jest y Habilidades como el trabajo grupal con git.
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    Tecnologias: HTML, CSS, BOOTSTRAP, React, Flux, StyledComponents, Python , Flask, SqlAlchemy, PostgreSql, Jwt, Git.
+ 
