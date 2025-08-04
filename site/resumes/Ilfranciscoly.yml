@@ -1,0 +1,217 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ilfranciscoly
+    last_name: Paul
+    
+    # Define yourself in 4-5 words
+    motto: I want it all
+    
+    # focus
+    focus: Everything design related
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a Product Designer with knowledge in multiple design related areas, from analogue to ditigal. Printed media, fashion and objects to UI and brand visual identity as a whole, I love to know and take part in all design related work.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4E03AQGDTcLMJkOdPA/profile-displayphoto-shrink_400_400/0?e=1601510400&v=beta&t=lMT0n0zz0g6UV41JAZqpwE1IO4YeW8VUt7pOjDMWoy8
+
+    # Contact Information
+    email: ilfranciscolypaul@gmail.com #optional
+    phone: 978 996 4912 #optional
+    website: #optional
+    linkedin: ierrandonea #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ilfranciscoly
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Climbing
+
+      - item: Vintage Electronics
+
+      - item: Puzzles
+
+# Your previous education
+education:
+    - degree: Postgraduate Diploma in Branding
+      university: Andres Bello University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2020
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BFA in Product Design
+      university: Andres Bello University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2018
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+   
+    - degree: International Certificate in Entrepreneurship for Creative Careers
+      university: Domus Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2018
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+   
+    - degree: Associate Degree in Arts
+      university: Andres Bello University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2017
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Branding, Design & Creativity Consultant 
+      time: 2017 - Present
+      company: Freelance 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a freelance designer, I have been working in several projects of various areas of design, such as instructional books, packaging design, illustration and vector graphics as well as apparel, merchandising and food products.
+        
+        My most significative projects are on creation and renewal of brand visual imagery for entrepreneurs, NGOs and cultural organizations.
+
+          - Designed complete visual imagery for consumer products
+          - Developed brand imagery, logos and visual guidelines for emerging enterpreurships
+          - Managed production for printed media and apparel 
+          
+    - role: Instructor on Social & Material Trends Research
+      time: 2019 - 2020
+      company: Andres Bello University
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        A mainly practical course focused in teaching diverse methods for qualitative research. The main objective for students was to mentor, complement and acquire new perspectives in their final project.
+
+          - Help students to find and understand topics for the davelepment of their projects
+          - Review and mentoring of assignments and projects
+          - Conduct assessment of student projects and use results for personalized feedback
+          - Assist in selection of complementary readings, media and instructional materials
+          
+
+    - role: Instructor on Fashion Branding Workshop
+      time: 2019 - 2019
+      company: Andres Bello University
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Theorical course aimed to analyze fashion industry from a branding focused perspective. Some of the contents were fashion brands history & evolution analysis as well as notions for constructing fashion brands.
+
+          - Planning in topics, activities and classes alongside main teacher
+          - Dictating lessons
+          - Design of evaluation and grading guidelines
+          - Prepare and moderate talks with specialist on different fields and categories of the fashion industry
+          - Administrative management
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+        
+      - name: Bootstrap
+        level: 60%
+
+      - name: Blender
+        level: 50%
+
+      - name: Figma, Illustrator & Photoshop
+        level: 90%
