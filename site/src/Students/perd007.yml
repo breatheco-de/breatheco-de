@@ -1,0 +1,100 @@
+
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jose Carlos
+  last_name: Perdomo Herrera
+  motto: Me gusta crear cosas nuevas, ser parte del avance tecnológico
+  focus: Inventar cosas nuevas
+  summary: >
+    Soy ingeniero de sistemas que le apasiona desarrollar sistemas
+    recientemente realice un Bootcamp para actualizar mis conocimiento,
+    conociendo nuevas tecnologías, y trabajando en equipo , me encanta el
+    trabajo en equipo donde podamos aprender los unos de los otros
+  email: phpperdomo@gmail.com
+  phone: +58 416 9404140
+  linkedin: Jose Carlos Perdomo Herrera
+  github: perd007
+  languages:
+    - idiom: English
+      level: Basic
+    - idiom: Español
+      level: Native
+  interests:
+    - item: Hacer ejercicios
+    - item: Estudiar nuevas tecnológicas de desarrollo de aplicaciones
+    - item: Cocinar
+    - item: Ver Peliculas
+    - item: Pasear
+education:
+  - degree: Ingeniero de Sistemas
+    university: Universidad Nacional experimental Politécnica de las Fuerzas Armadas
+    university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdhb9safma_UT8HsiZQlgBqxxJ6ymtgIABni5wzkw&s
+    details: >
+      En esta carrera, aprendí  a analizar los requerimientos de los clientes
+      para determinar que funciones debe cumplir el sistemas, luego procesarla
+      mediantes diagramas y posteriormente codificar el sistema , realizar las
+      pruebas de funcionamiento y capacitar a los usuarios
+  - degree: Desarrollador de Software (Aplicaciones E-Bussines)
+    university: IBM/Universidad Nacional Abierta/Ministerio del Poder Popular para
+      Ciencia y Tecnologia
+    time: 2007 - 2008
+    details: >
+      En este curso pude desarrollar la logica de progrmacion y conocer
+      distintos lenguajes de programacion
+  - degree: Developer Full Stack
+    university: 4geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2023 - 2023
+    details: >
+      En este Bootcamp pude voilver a despertar mi logica de porgramacion,
+      asi como conocer nuevas tecnologias y esquemas de desarrollo de
+      aplicaciones
+experiences:
+  - role: Desarrollador de sistemas en ambiente WEB
+    time: 2010-2011
+    company: Fundacite Amazonas, Venezuela
+    details: >
+      En este trabajo correspondia relizar analisis de requerimiento y crea
+      un sistemas web en php, javascript y mysql
+  - role: Analista de Informatica II
+    time: 2012-2013
+    company: Contraloria del Estado Amazonas, Venezuela
+    details: >
+      Fui el encargado de servicio tecnico de Pcs, redes y porgramacion de
+      modulos del sistema administrativo de la organizacion
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: padeladmin
+      link: https://adminpal.onrender.com/
+      tagline: Un sitio Web responsive de adminitracion y reservas de espacio dentro
+        del clubs de recreacion, usando reactjs, javascript, bootstrap, python,
+        flask y postgres
+    - title: SAE
+      link: https://github.com/perd007/sae.git
+      tagline: Un sistema en ambiente de control de inventario y facturacion, en php,
+        javascript, y msql
+skills:
+  toolset:
+    - name: Python & Flask
+      level: 70%
+    - name: JavaScript
+      level: 80%
+    - name: Php
+      level: 80%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Bootstrap
+      level: 75%
+    - name: DreamWeber
+      level: 90%
+    - name: Mysql
+      level: 80%
+    - name: Postgress
+      level: 75%
+    - name: phpmyadmin
+      level: 90%
