@@ -1,0 +1,127 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+   
+    first_name: Victor Hugo 
+    last_name: Pereira da Conceição
+    
+   
+    motto: I Love to Challenge Myself
+    
+   
+    focus: Be a Good Coder and always do my best to achieve my Goals 
+    
+
+    summary: |
+     "My career aspirations are centered around constant growth and skill enhancement. I am committed to staying updated with the latest trends and technologies in the industry. I´m always looking to pursue specialized certifications and attend industry conferences to learn from experts
+    
+ 
+    
+    avatar: https://cdn0.iconfinder.com/data/icons/occupation-002/64/programmer-programming-occupation-avatar-512.png
+
+ 
+    email: vhp04@hotmail.com
+    
+   
+    github: victorconceicao88
+    
+  
+
+  
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    
+    interests:
+      - item: Gym
+
+      - item: Brazilian BJJ
+
+      - item: Cooking
+
+      - item: Playing Guitar
+
+
+education:
+    - degree: Full Stack Web Developer at 4geeks Academy
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Currently Studying
+      details: |
+        Being  part of a team to implement new features, as well as making modifications and fixing bugs in our existing codes. designing and developing layouts, writing code to power the underlying functionality of the websites,  developing and testing codes we currently writing.
+
+        
+
+    
+
+projects:
+    intro: >
+      Follow below Some of the Projects i have already finished at School!
+
+    assignments:
+      - title: Instagram Feed
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/My-Instagram-Feed-"
+        tagline: " An example of Instagram Feed"
+
+      - title: Instagram Feed With Bootstrap
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/instagram-bootstrap"
+        tagline: "An example of Instagram Feed Using Bootstrap"
+
+      - title: Payment Form Designed with Bootstrap,HTML and CSS
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/My-Form-HTML5"
+        tagline: " A payment Form template which Can be used at any Website"
+
+      - title: An excuse Generator done with Javascript,html and CSS
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/My-Excuse-Generator-"
+        tagline: " An Excuse Generator to Play Around."
+
+      - title: A post Card built with HTML and CSS.
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/exercise-postcard"
+        tagline: "Post card Built the can be sent to friends and Family"
+
+      - title: Landing page for a Interior Design Office
+       
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/Desafio-1-Landing-page"
+        tagline: "Landing page Built to upsell at any type of bussiness"
+
+        
+      - title: Landing page for a Tech School
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/victorconceicao88/Project-landing-Page-"
+        tagline: "Landing page Built to upsell at any type of bussiness"
+
+
+
+skills:
+    toolset:
+    
+      - name: JavaScript 
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
