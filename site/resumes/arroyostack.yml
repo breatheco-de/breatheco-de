@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: El Hadj Mbaye
+    last_name: Mbengue Arroyo
+
+    # Define yourself in 4-5 words
+    motto: I speak english and spanish
+
+    # focus
+    focus: Web App Technologies
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     I am a Front End developer based in Spain. Passionate for web technologies, Javascript ecosystem and how web apps are evolving.
+
+
+     My main skills cover Worpress, Html, CSS, Javascript, Vue 3, Firebase , Sass, Github, as well web developing tools and some products from Adobe Creative Cloud. 
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQFb1Q3j5V_ddw/profile-displayphoto-shrink_800_800/0/1661499734474?e=1691020800&v=beta&t=PmsBI8BvgBAnAEFNTR_wg9RcJe6J8cddq3F7jxJt5sM
+
+    # Contact Information
+    email: arroyostack #optional
+    phone: 0034 613325769
+    website: https://elhadjarroyo.com/ #optional
+    linkedin: https://www.linkedin.com/in/elhadjarroyo/#optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: arroyostack
+
+
+    stack-overflow: arroyostack
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: english
+        level: Native
+
+      - idiom: spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Web technogies
+
+      - item: Programming
+
+      - item: Music
+
+      - item: Science
+
+# Your previous education
+education:
+    - degree:  BA (Hons) Music and Sonic Media, Music and Sonic MediaBA 
+
+     
+      university: 4geeks academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+       
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Freelance Web Developer
+      time: 2021 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       
+   
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: Javascript & jQuery
+        level: 70%
+
+      - name: Angular
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 70%
+
+      - name: Sketch & Photoshop
+        level: 70%
