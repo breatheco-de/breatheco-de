@@ -1,0 +1,61 @@
+template: "online-cv"
+skin: "gold"
+
+basic_info:
+
+
+    first_name: Jose Angel
+    last_name: Barreto 
+    
+   
+    motto: Think before you speak.
+
+    summary: Highly oriented to get results, excelent communication proficiency. Looking forward to be part of a project to feel proud about.
+    
+    email: josebarreto665@gmail.com
+    linkedin: www.linkedin.com/in/barretojose
+    github:  Josea1705
+
+    languages:
+      - idiom: English
+        level: c1
+
+      - idiom: French
+        level: A3
+
+      - idiom: Spanish
+        level: Native
+
+      
+    interests:
+      - item: Technology
+
+      - item: Languages
+
+      - item: Play the Piano
+
+education:
+    - degree: Modern Languages 
+      university: Instituto Universitario Americo Vespucio
+      time: 2019 - 2022
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 30%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
+
+      - name: JavaScript
+        level: 30%
