@@ -1,0 +1,67 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcia
+    last_name: da Rosa
+    
+    # Define yourself in 4-5 words
+    motto: calm, friendly, educated and organized.
+    
+    # focus
+    focus: always help.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Hello! I am a passionate Information Technology (IT) student with a strong interest in immersing myself in the fascinating world of programming.
+       Although I currently lack experience in this area, my passion for computer science and problem solving has driven me to seek knowledge and opportunities to grow in this field.
+        My dedication and enthusiasm are my main drivers to learn and face challenges. I am excited to get into programming and look forward to bringing my creativity and perseverance
+         to innovative projects. I am ready to make my way in the world of technology and prove myself as a future professional in the field of programming!
+    
+    
+    # Contact Information
+    email: marciasilvanadarosa@gmail.com
+    phone: +598656627 
+    website:  
+    linkedin: https://www.linkedin.com/in/luismendezmor/ 
+    
+    
+    # ******** IMPORTANT *******
+    
+    github: Marcia0420
+    
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: riding a bicycle
+
+      - item: Cooking
+
+     
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      UTU Polo Educativo: https://www.utu.edu.uy/
+      time: 2021 - 2022
+      
+
