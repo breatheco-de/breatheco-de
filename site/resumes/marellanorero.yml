@@ -1,0 +1,203 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: M. Laura
+    last_name: Arellano N.
+    
+    # Define yourself in 4-5 words
+    motto: Mother, Artist, Designer, Programmer, Dog Trainer
+    
+    # focus
+    focus: Design and grow in this programmer worl
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      UI/UX Designer and Full Stack Programmer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: mlanorero@gmail.com #optional
+    phone: +56 9 4461 23 93 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marellanorero
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedie (B1)
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Homeschool
+
+      - item: Art and photography
+
+      - item: Dog trainer
+
+# Your previous education
+education:
+    - degree: Graphic Design
+      university: DuocUC
+      # optional
+      university_logo: https://www.duoc.cl/wp-content/uploads/2020/12/logos_areas-15.jpg
+      time: 2008 - 2010
+      details: |
+        Graphic design up third year
+
+          - Branding
+          - Illustrator
+          - Photoshop
+          - Indesign
+
+    - degree: UI/UX Design
+      university: Coderhouse
+      # optional
+      university_logo: https://i0.wp.com/edtechreviews.net/wp-content/uploads/2021/12/coderhouse_logo.png?resize=750%2C750&ssl=1
+      time: 2020 - 2021
+      details: |
+        UI/UX design course with UX Research and UI specialization
+
+          - UI/UX
+          - UX Writing
+          - UX Research
+          - UI Design
+
+    - degree: Photography
+      university: Autodidact Learn with María Ángelica Cherokee of mentor
+      # optional
+      university_logo: https://www.behance.net/gallery/140703529/Borrar-Rejas
+      time: 2018 - actual
+      details: |
+        I study nature photography with a recognized photographer in USA, she is the old school, and i learn so much with her
+
+     - degree: Full Stack Developer
+      university: 4 Geeks Academy
+      # optional
+      university_logo: https://www.lascondes.cl/files/8505
+      time: 2022
+      details: |
+        
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Freelance Graphic Designer, UI/UX and developer services
+          time: 2020
+          company: 
+          # optional
+          company_logo: https://www.lascondes.cl/files/8505
+          details: |
+            
+
+    - role: Graphic and web Designer 
+          time: 2010 - actual
+          company: GrupoBG - Logistic Services and investments, Chile
+          # optional
+          company_logo: https://grupobg.cl/wp-content/themes/grupo-bg/img/logo-grupo-bg-blanco.png
+          details: |
+            Branding 
+            Logo and corporate image 
+            Web design for some services (ecommerce, landing page, and other)
+
+    - role: Founder and Graphic Designer
+      time: 2011 - 2014
+      company: Creando Sensaciones, Chile
+      # optional
+      company_logo: https://1.bp.blogspot.com/-SS7Ot5wsHj8/U6X-V2AyCII/AAAAAAAAANw/K09u4zDYuLI/s141/*
+      details: |
+        Business and Academy of beauty: Branding, logo, corporate image, design and publicity
+
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
