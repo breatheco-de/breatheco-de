@@ -1,0 +1,24 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+  #profile information
+  name: Stewart Benson
+  Tagline: full Stack Developer
+  avatar:
+
+
+  #sidebar links
+  email: Istews@live.com
+  phone: 954-684-8969
+  website: github.com/stewybenz95
+  linkedin: google.com
+  github: stewybenz95
+  twittter: '@Stewybenz'
+
+  languages:
+    - idiom: english
+      level: native
+
+  #end
