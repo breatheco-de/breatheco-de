@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Betsy
+    last_name: Rivera
+    
+    # Define yourself in 4-5 words
+    motto: 
+    
+    # focus
+    focus: sleep
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Executive chef and franchisee trainer for an original Cuban bakery in Miami. 
+      Originally a cake decorator turned into a mass production connoiseur to supply product and knowledge over to now 22 bakeries going on 35 by the end of 2023.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: bitsibetsy@yahoo.com #optional
+    phone: 786 223 6693 #optional
+    website: vickybakery.com #optional
+    linkedin: BetsyRivera1026 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: bitsibetsy
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      
+    # Interests or hobies
+    interests:
+      - item: Baking / Experiments
+
+      - item: Organizing
+
+      - item: Teaching
+
+# Your previous education
+education:
+    - degree: BA in Business
+      university: Miami Dade College
+      # optional
+      university_logo: https://logodix.com/logo/653009.jpg
+      time: 2008-2013
+      details: |
+        
+    - degree: AA in Applied Science
+      university: Miami Dade
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2005-2008
+      details: |
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Executive Chef and Franchisee Trainer
+      time: 2018 - Present
+      company: Vicky Bakery
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -Trainer of new franchise owners.
+        -Open new store locatrions which includes going over blueprint layouts, equipment purchases, new employee hires, launch opening and continued assistance and training. 
+        -Store evaluations. See how well stores are doing from how well stores are maintained and how much money they make.
+        -Overlook USDA production facility.
+        -Create new product in mass production. Mass bakingf recipes, pricing, nutrition facts and ingredient labels included. 
+
+    - role: Cake Decorator
+      time: 2018-2016
+      company: BunnieCakes, Wynwood
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -Create new, never used designs for cakes and desserts.
+        -Bring in more sales and modernize designs while keeping costs down.
+        -Bi-weekly studio teachings for adults and kids. Teaching adults and kids how to decorate cupcakes and cakes. 
+        -Provide full dessert tables along with a short class for parties.
+
+    - role: Sales Rep
+      time: 2016-2007
+      company: DiscountMugs.com
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -Phone sales rep.
+        -Take calls and sell promotional printed items.
+        -Provide customer service with any issues.
+     
+
+# Your project portfolio
+projects:
+    intro: >
+      Fully new to computer sciences. Dabbling in web developing in hopes to further my education and like for computers and programming. 
+    assignments:
+      - title: Instagram Post Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://4geeks.com/syllabus/mdc-22/project/instagram-feed"
+        tagline: "Replicate instagram post feed to put html and css to practice. Use of dsisplay and position rules"
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://4geeks.com/syllabus/mdc-22/project/instagram-post"
+        tagline: "Replicae instagram post to put html and css to practice."
+
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://4geeks.com/syllabus/mdc-22/project/postcard"
+        tagline: "Build a Digital Postcard with HTML/CSS"
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 15%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
