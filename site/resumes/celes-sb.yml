@@ -1,0 +1,60 @@
+---
+template: online-cv
+skin: ceramic
+basic_info:
+  first_name: Celeste
+  last_name: Bareiro
+  motto: discipline and practice = progress
+  focus: this Full Stack Bootcamp
+  summary: >
+    I am new in the world of programming. But I am not new at diving into
+    deep changes in my life. After learning on my own for a few months I made
+    the decision to enrol in 4Geeks Academy Bootcamp program to learn properly
+    and in a collaborative environment where I can acquire all the necessary
+    skills to insert myself in the job market.
+
+    I am focused on being the best developer I can be. Discipline and determination are on my side.
+  avatar: https://avatars.githubusercontent.com/u/121136209?s=96&v=4
+  email: cnyx7@proton.me
+  linkedin: celeste-b-980477262
+  github: celes-sb
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Weight Lifting
+    - item: Aerial Arts
+    - item: Dancing
+Education:
+  - degree: Diploma in Massage Therapy
+    college: Australian College of Sports and Fitness
+    university_logo: null
+    time: 2016 - 2018
+  - degree: Certificate IV in Fitness
+    college: Australian College of Sports and Fitness
+    university_logo: null
+    time: 2018 - 2019
+experiences:
+  - role: no experience in the field at the moment.
+    time: null
+    company: null
+    company_logo: null
+    details: |
+      Soon to be updated.
+        - Bullet point
+        - Bullet point
+projects:
+  intro: |
+    In progress, soon to be updated.
+  assignments:
+    - title:
+        - null
+      project_logo:
+        - null
+      tagline: null
+skills:
+  toolset:
+    - name: in progress, soon to be updated.
+      level: in progress, soon to be updated.
