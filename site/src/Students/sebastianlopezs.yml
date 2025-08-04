@@ -1,0 +1,68 @@
+# Personal Information
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Your full name
+  first_name: Sebastian
+  last_name: Lopez
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+  Motivated, hardworking and passionate job seeker with experience in customer service and sales. Skilled in building customer relationships and understanding customer needs. Strong communication and interpersonal skills for providing superior customer service. Successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team and company goals.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+  # Contact Information
+  email: sebastianlopezdev@gmail.com #optional
+  phone: 3526654788 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: sebastianlopezs
+
+  twitter: "sebaslopezs18" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Futbol
+
+    - item: Videojuegos
+
+    - item: Arte
+
+    languages:
+    idiom: Spanish
+    level: Native
+
+    idiom: English
+    level: Professional
+
+# Your previous education
+education:
+  - degree: Full stack
+    academy: 4Geeks
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: jul-2023 - nov-2023
+    details: |
+      Estuve en el Bootcamp 4Geeks Academy, el cual me permitio reforzar los conocimientos
+      que previamente forme como autodidacta. En el estoy apreniendo tecnologias como HTML, CSS, Bootstrap, GIT, JavaScript, etc.
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+    To-Do List: Simular post de Instagram
+      Tecnologias: Html, Css.
+
+    Instagram feed: Recrear el feed de Instagram con Bootstrap
+      Tecnologias: HTML, CSS, Bootstrap
+
+    Form: Crear un form 
+      Tecnologias: HTML, CSS, Bootstrap
+ 
