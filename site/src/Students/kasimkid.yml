@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rafael  
+    last_name: Araujo
+
+    # Define yourself in 4-5 words
+    motto: Learning to be a fullstack developer
+
+    # focus
+    focus: Generate knowledge Daily
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+            Computers and programming have always caught my attention. 
+            I have worked in other fields, but I have always liked technology. 
+            Programming and development is a fascinating world; I want to learn everything related to it.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/open?id=1kCUTD25qfbC_sNqABQ72jYFnFV5ywFXr
+
+    # Contact Information
+    email: kasim85.ra@gmail.com #optional
+    phone: +56953029341
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kasimkid
+    linkedin: https://www.linkedin.com/in/rafael-araujo-sandoval/
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate, in speaking and listening
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music 
+
+      - item: Sports
+
+      - item: Movies
+
+      - item: Series
+
+      - item: Family
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Master of Automotive Engineering
+      university: Vigo University
+      # optional
+      university_logo: 
+      time: 2018 - 2019
+      details: |
+    - degree: Master Degree in Mechanical Engineer
+      university: Armed Force`s University of Venezuela  
+      # optional
+      university_logo: 
+      time: 1999 - 2003
+      details: |
+# Your previous job experiences or voluntier
+experiences:
+    - role: VAlidation Engineering
+      time: Currently
+      company: CTAG
+      # optional
+      company_logo: 
+      details: |
+       Electronics and Intelligent Transportation Systems (ITS) Area:
+       general ledger accounts. Prepared and recorded monthly closing entries. Prepared and recorded journal entries by compiling, analyzing, and substantiating financial transactions as needed.
+       Prepared and recorded monthly intercompany elimination entries and adjustments for various bank subsidiaries. Performed ad hoc analysis as required by management. Assisted with compliance requirements including taxes and audits. 
+       Assisted wth analyzing financial statements on a monthly basis and reporting on variances.
+       
+    - role: CEO
+      time: 2011 - 2018
+      company: Repaven Spare Parts - Venezuela
+      # optional
+      company_logo: 
+      details: |
+        To plan the general and specific objectives of the company in the short, medium and long term.
+        To control planned activities by comparing them with what has been done and detect deviations or differences.        
+        Provided litigation support, due diligence support and forensic accounting for various high profile clients. Assisted in the compliance audit of a major regional Florida bank in relation 
+        to their adherence to the Bank Secrecy Act and its implementing regulations, the Anti Money Laundering rules.
+    - role: Intern
+      time: March 2015 - June 2015
+      company: Banco Popular Insurance Agency, Inc. - San Juan, Puerto Rico
+      # optional
+      company_logo:
+      details: |
+        Researched, compiled, and presented a report on consumer trends and industry growth, tendencies and innovations in the local and international insurance markets.
+# Your project portfolio
+projects:
+    intro: >
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A digital postcard created using HTML and CSS that you can send to your friends and family."
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website built using HTML, CSS and Bootstrap that showcases your photos, just like Instagram."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 25%
+
+      - name: Git & YAML
+        level: 30%
