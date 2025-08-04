@@ -1,0 +1,156 @@
+
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julián
+    last_name: Guevara
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack Developer
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I considered myself as someone earnest and diligent who not only has a big passion for learning, but also can take on challenges and solve problems; learn new technologies and skills quickly, and create an exceptional experience for customers of any kind.
+      Also, I have had previous job experiences where I had to meet business targets with good outcomes, keep an efficient communication with internal and external stakeholders in order to help our customers in either English or Portuguese; and have a bias for action with my peers to always improve my organization in any way.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jguevara321@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/juli%C3%A1n-guevara-167a70156/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jul1998
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Portuguese
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Krav Maga
+
+      - item: Reading
+
+      - item: Technology such programming
+
+      - item: Enjoy programming in Python
+
+# Your previous education
+education:
+    - degree: Business Degree
+      university: Universidad de Costa Rica
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/2/2d/LogoUCR.jpg
+      time: 2017 - 2021
+      details: |
+        This major aims to develop a professional with training in the field of the English language, 
+        at least level C1, which implies a deeper preparation in all linguistic skills; 
+        In addition, in this major, gratuated students are capable of working in a business 
+        environment in which they must manage a budget, carry out projects, feasibility studies, and in some cases, 
+        be in charge of hiring personnel or manage a group of collaborators. 
+        
+        - English language professional with the necessary skills to function in the business field.
+    - degree: Degree
+      university: CENFOTEC
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Compliance Specialist
+      time: 2020 - Present
+      company: Amazon
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I am working in Compliance Operation department inside Amazon where I have 
+        to perform a deep and thorough analysis into different products offered and sold 
+        on Amazon.com.br to discover whether it is necessary or not to remove them, 
+        based on policies and standards procedures.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: Intermediate
+
+      - name: Javascript
+        level: Intermediate- Advanced
+
+      - name: Angular
+        level: None
+
+      - name: HTML5 & CSS
+        level: Basic
+
+      - name: Excel
+        level: Intermediate
