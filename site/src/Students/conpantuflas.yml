@@ -1,8 +1,8 @@
 # Personal Information
 basic_info:
   # Your full name
-  first_name: Judith
-  last_name: Carreño
+  first_name: Victor
+  last_name: Magalhães
 
   # You have 1 paragraph to make a great impression, summarize your career.
   summary:
@@ -11,48 +11,50 @@ basic_info:
   React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
   el trabajo grupal con gi
 
-  # Your profile picture URL
+  
   # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  avatar: 
 
   # Contact Information
-  email: devconpantuflas@gmail.com #optional
-  phone: 569 22138662 #optional
+  email: victor_miguel@msn.com #optional
+  phone: 00351 969564324 #optional
 
   #
   # ******** IMPORTANT *******
   # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-  github: conpantuflas
+  github: VictorMagalhaesCBT
 
-  twitter: "conpantuflass" #optional
+  twitter: "" #optional
 
 
   # Interests or hobies
   interests:
-    - item: Palantas
+    - item: Sports
 
-    - item: 3D web
+    - item: Movies & Films
 
-    - item: Arte
+    - item: 
 
 # Your previous education
 education:
-  - degree: desarrolladora full-stack
-    academy: 4Geeks Academy
+  - degree: Bachelor's degree in PhysioTherapy
+    academy: Escola Superior das Tecnologias da Saúde de Lisboa
     # optional
-    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    time: mar-2022 - ago-2022
+ 
     details: |
-      Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
-      que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
-      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
-      el trabajo grupal con git
+      Completed in 2002.
+
+  - currently: Full Stack Develloper
+    academy: 4Geeks Academy
+
+    details:
+      Started in April of 2023.
 
 experiences:
  
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: 
-    To-Do List: Aplicacion para apuntar los quehaceres y eliminarlos cuando sean completados.
+    To-Do List: Instagram Post, 
       Tecnologias: Html, Css, React con Eventos, Hooks y Fetch.
 
     Dulce Sabor: Tienda de pastelerias donde el usuario tiene una interfaz amigable, puede crear una cuenta, generar una 'compra'  y marcar un producto como favorito. 
