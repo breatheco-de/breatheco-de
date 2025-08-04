@@ -1,0 +1,181 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristian
+    last_name: Yanza
+    
+    # Define yourself in 4-5 words
+    motto: Learn more I mean get more knowledge and also sahred my all knowledge with others
+    
+    # focus
+    focus: Learn new things in different areas
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a responsible, dynamic person with a fast
+      learning ability that allows me to adapt to the
+      changes that arise in everyday life. I take
+      teamwork as the main mainstay for the success
+      of projects, on the other hand I have the skills to
+      design and implement optimal and effective
+      solutions in any process of my expertise.
+      I'm a software engineer with experience in
+      different areas of development and
+      management with the role of Team Manager. I
+      am a professional who is constantly trained
+      with cutting-edge technologies, emerging from
+      the fourth industrial revolution.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/cristian-daniel-yanza-velasco-987818bb/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yanzacd92
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Soccer
+
+      - item: Learning
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: MSc Bussines Administration
+      university: EAFIT University
+      # optional
+      university_logo: 
+      time: 2019 - 2021
+      details: |
+        I got knowledge about the strategies to manage companies, projects, people so on.
+    - degree: Software Engineer
+      university: Univeristy of Cauca
+      # optional
+      university_logo: 
+      time: 2010 - 2017
+      details: |
+        Learned the basic and advange know-how about the programming develop
+# Your previous job experiences or voluntier
+experiences:
+    - role: FullStack Developer and Salesforce Developer
+      time: 2020 - Present
+      company: Perficient, United State
+      # optional
+      company_logo: 
+      details: |
+         - Development in Salesforce (Apex, Aura, Lightning Platform, so on)
+         - Development in Java 11 using the Streams and Reactive Programming advantages
+         - Development in Angular 10 Development under the Spring framework, I also use Hibernate, Maven, among others.
+         - Unit tests with Mockito and JUnit
+         - Project deployments in AWS Managing versions with Github
+         - Continuous integration with Jenkins
+    - role: Team Manager and Fullstack Developer
+      time: 2018 - 2020
+      company: Wolox, Argentina
+      # optional
+      company_logo: 
+      details: |
+        - Managing projects as a Product Owner
+        - Projects and collaborators monitoring using Scrum and Kanban
+        - Development of applications in Ruby on Rails with their respective unit tests
+        - Development of applications in Java using Springboot with their respective unit tests
+        - Development in reactive programming for Java with the Reactor library
+        - Development of applications with React JS
+        - Project deployments in AWS and Kubernetes
+        - Management of Github, Gitlab, Jenkins, Postgresql, Trello and Jira
+    - role: Java Developer
+      time: 2018 - 2018
+      company: Ingeniería, aplicaciones y software (IAS), Colombia
+      # optional
+      company_logo: 
+      details: |
+        - Java application development with Springboot and its respective unit tests
+        - Development of applications with /static/profile-images/Use of scrum methodology
+        - Handling of Jenkins
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Java & Springboot
+        level: 80%
+
+      - name: Salesforce
+        level: 80%
