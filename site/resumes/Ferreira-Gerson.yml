@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  last_name: "Ferreira"
+  first_name: "Gerson"
+
+  motto: "Learn 4ever 'keep the pace'"
+
+  focus: "...with accurate knowleedge an full discernment, make sure of the most important things..."
+
+  summary: "Professional experiense as a factory operator and knowleedges in customer services and talk to a public."
+
+  avatar: "/workspace/About-4Geeks-Academy/site/static/1662021968892.jpeg"
+
+  
+  email: "gersonferreira90@gmail.com"
+  phone: "+32 496 35 53 27"
+  twitter:  https://twitter.com/gersonf73441091
+  linkedin: https://www.linkedin.com/in/gerson-ferreira-673393b9/
+  
+  github: Ferreira-Gerson
+
+  languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Advanced (C2)
+
+      - idiom: German
+        level: Basic (A1)
+    
+  interests:
+      - item: Music
+
+      - item: Football
+
+education:
+    - degree: Banck and Insurrance
+      university: Escola 2+3 com Secundário de Santo António
+      time: 2006 - 2008
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Expert Claim Ivestigation
+      university: RFA Academy
+      time: 2013-2013
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+experiences:
+    - role: Factory Operator
+      time: 2010 - 2022
+      company: Volkswagen Autoeuropa, Lda.
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Outbound
+      time: 2009 - 2010
+      company: ContactCenter, Lisbon
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Warehouse Operator
+      time: 2022 - Present
+      company: Aalterpaint, Aalter
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 42%
+
