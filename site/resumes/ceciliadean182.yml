@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Cecilia
+    last_name: Dean
+    motto: Full Stack Developer
+    avatar: https://avatars.githubusercontent.com/u/45336766?v=4
+    summary: |
+      I am currently enrolled in a Full Stack Developer boot camp, and I am a Software Tester. My focus is on enhancing my skills in both areas to contribute effectively to innovative software projects in the future.
+    # Sidebar links
+    email: cecilia.deanm@gmail.com
+    phone: +598 94 44 30 33
+    linkedin: https://www.linkedin.com/in/ceciliadean/
+    github: ceciliadean182
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2023 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+
+    - degree: Software Tester
+      university: Abstracta Academy
+      time: 2023
+      details: |
+        As a Software Tester, I have knowledge in various testing methodologies, including Black Box and White Box Testing. I am skilled in creating test cases and  managing defects. 
+        I can confidently communicate test results through clear and concise reports and documentation. 
+        My collaborative nature allows me to work seamlessly with Agile development teams, and my analytical abilities help me identify potential test scenarios and defects proactively.
+
+    - degree: Functional Analyst
+      university: EducacionIT
+      time: 2022
+      details: |
+        As a Functional Analyst, I acquired the ability to gather and analyze requirements, design efficient processes, collaborate with teams, conduct testing, provide support, and enhance projects, ensuring effective solutions and business success.
+
+
+experiences:
+    - role: Project Manager support
+      time: June 2022 - May 2023
+      company: Geocom
+      details: |
+         I assisted with various tasks, including planning, monitoring, and coordinating activities, managing resources, communicating with stakeholders and the team, 
+         and overall ensuring the successful development of the project and meeting its objectives.
+
+    - role: Customer Service Representative
+      time: July 2015 - May 2022
+      company: Telefónica
+      details: |
+        As a Customer Service Representative, I excel in delivering exceptional customer experiences. My responsibilities include handling customer inquiries, resolving issues, and providing timely and accurate information. I am skilled in active listening and problem-solving, ensuring customer satisfaction with every interaction. 
+        Additionally, I maintain detailed records of customer interactions and collaborate closely with internal teams to address customer needs effectively. My strong communication skills and empathy enable me to build positive relationships and enhance the overall customer experience.
+
+
+projects:
+    intro: >
+     Here you can find a summary of my projects:
+    assignments:
+      - title: MacLarens (Final Project)
+        link: "#https://github.com/Farancibiat/pichangapp"
+        tagline: "Website for a fictional bar called 'Maclarens'. [HTML5, CSS3, Bootstrap, Sass, GIT]"
+      
+      - title: Instagram Photo Feed
+        link: "https://github.com/ceciliadean182/cdean-Instagram-Feed-bootstrap"
+        tagline: "A responsive instagram photo feed to practice Bootstrap. [HTML5, Bootstrap]"
+
+
+skills:
+    toolset:
+
+      - name: Software tester
+        level: 90%
+
+      - name: Git
+        level: 70%
+
+      - name: Javascript
+        level: 30%  
+
+      - name: ReactJS
+        level: 80%
+      
+      - name: Python/Flask
+        level: 50%
+
+      - HTML5: HTML5
+        level: 98%
+
+      - name: CSS3
+        level: 60%
