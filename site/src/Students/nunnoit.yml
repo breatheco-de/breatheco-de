@@ -1,0 +1,93 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nunno
+    last_name: IT
+    
+    # Define yourself in 4-5 words
+    motto: Follow the white rabbit...
+    
+    # focus
+    focus: <improve my skills/>
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I like to try new technologies :)
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/109560252?v=4
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/nunnoit
+    # twitter: 
+    # stack-overflow:
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+
+      - idiom: Spanish
+
+    # Interests or hobies
+    interests:
+      - item: Technology
+
+      - item: Multimedia
+
+      - item: Design
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4 Geeks Academy
+      # optional
+      time: 2022 - Present
+
+# Your previous job experiences or voluntier
+# experiences:
+#     - role: Lead Developer
+#       time: 2015 - Present
+#       company: Startup Hubs, San Francisco
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#         error sit voluptatem accusantium doloremque laudantium, totam rem
+#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#         architecto beatae vitae dicta sunt explicabo.
+#           - Bullet point
+#           - Bullet point
+
+# Your project portfolio
+projects:
+    assignments:
+      - title: Repositories
+        # optional
+        link: "https://github.com/nunnoit?tab=repositories"
+        tagline: "My Github repo list."
+
+skills:
+    toolset:
+      - name: HTML
+
+      - name: CSS
+
+      - name: Bootstrap
+
+      - name: JavaScript
+
+      - name: React
+
+      - name: Linux <3
