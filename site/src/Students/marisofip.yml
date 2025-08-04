@@ -1,0 +1,100 @@
+
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mariandris 
+    last_name: Brito
+    # Define yourself in 4-5 words
+    motto: I like live my life Learning something new 
+    
+    # focus
+    focus: Learning to code
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm an auditor accountant with 10 years or more of experience, after the quarantine i realize that tecnologies of information are importants, and they are here in everywhere, so i want to learn and apply the best i can my knowledges for begin in this new era 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.google.com/photo/AF1QipMpzY4tCjPdWyubys79E9G9SPWPIbMPeBrSwiXi 
+
+    # Contact Information
+    email: marisofipalencia@gmail.com #optional
+    phone: +56 9584-13292 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marisofip
+    
+    twitter:  #optional
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+      - idiom: French
+        level: Beginer
+        
+
+    
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Music
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: Public Accountant
+      university: Unipap
+      # optional
+      university_logo:
+      time: 2010 - 2015
+      details: | 
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role:  compliance auditor
+      time: Feb 2018 - Sep 2022
+      company: ALTO, SA.
+      company_logo: 
+      details: |
+       Creation of Checks from client requirement lists, planning and estimation of compliance audits, information gathering, creation of deliverables prioritizing commitments, working with clients from different sectors such as Retail, Supermarkets, Home Solutions
+    
+
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Bootstrap
+        level: 30%
+
+      - name: Git
+        level: 20%
+
+      
+          Footer
