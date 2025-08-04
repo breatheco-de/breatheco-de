@@ -1,0 +1,52 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Acevedo
+
+    # Define yourself in 4-5 words
+    motto: either quiet or loud
+
+    # focus
+    focus: Studying
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Ive been working since i left my homeland at 18y/o and its time for me to take the next step and improve my quality of life, expand myself and be succesful.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiFzuWRiY_jAhUs11kKHak6CNUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fgithub.com%252Flogos%26psig%3DAOvVaw13a4SZPf58Rwt1lPILffSp%26ust%3D1561910756670797&psig=AOvVaw13a4SZPf58Rwt1lPILffSp&ust=1561910756670797
+
+    # Contact Information
+    email: santixero@gmail.com #optional
+    phone: 659 68 17 68
+    website:  #optional
+    linkedin:  #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: SantiXero
+
+    twitter: lNealXero #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - Language: english
+        level: Advanced
+
+      - Language: spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Football (not American one)
+
+      - item: Video Games
+
+      - item: Training (Gym)
