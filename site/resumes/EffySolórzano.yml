@@ -1,0 +1,40 @@
+---
+template: online-cv
+skin: violet
+basic_info:
+  first_name: Stephanie
+  last_name: Solórzano
+  motto: null
+  focus: null
+  summary: |
+    Upcoming developer.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: solorzano.steph@gmail.com
+  phone: +598 98 553424
+  linkedin: https://www.linkedin.com/in/stephanie-solórzano-94a846146/
+  github: EffySolorzano
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Native
+    - idiom: Japanese
+      level: Basic
+    - idiom: French
+      level: Basic
+  Interests:
+    - item: Perritos gordos
+    - item: Traveling & Eating
+education:
+  - degree: Illustrator and Graphic Design
+    university: Centro Art Escuela de Diseño
+    time: 2008 - 2011
+experiences: null
+projects: null
+skills:
+  toolset:
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Illustrator & Photoshop
+      level: 95%
