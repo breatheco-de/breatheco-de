@@ -1,0 +1,65 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Gabriel
+    last_name: Aldea
+    motto: University Student
+    avatar: ~
+    summary: |
+         
+
+    # Sidebar links
+    email: gabriel.aldea@gmail.com
+    phone: +569 93441532
+    website: ~
+    linkedin: linkedin.com/in/gabriel-aldea-davila
+    github: galdea
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Web Development
+      - item: 
+      - item: Machine Learning
+
+education:
+    - degree: Licenciatura en Letras Hispánicas y Lingüística
+      university: Pontificia Universidad Católica
+      time: 2008 - 2012
+    - degree: Pedagogía en Lenguaje y Comunicación
+      university: Pontificia Universidad Católica
+      time: 2013 - 2014    
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
