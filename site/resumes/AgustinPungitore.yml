@@ -1,0 +1,178 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Agustin
+    last_name: Pungitore
+    
+    # Define yourself in 4-5 words
+    motto: Positive leader with great innitiave
+    
+    # focus
+    focus: Always interested in learning new things
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Multilingual customer support and business development specialist with 4+ years of proven track experience with a strong IT interest. 
+     Solid problem-solving profile, people-orientated, proactive, negotiator, excellent communication skills, and new relationships developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQEDxp5MVAecng/profile-displayphoto-shrink_400_400/0/1655822666741?e=1664409600&v=beta&t=0yLW1BP_kfZorQVofHDFl1joChzN4e-l-yc-OrKgUB8
+
+    # Contact Information
+    email: agustinpungitore@gmail.com
+    phone: +549 1136013175
+    website: 
+    linkedin: https://www.linkedin.com/in/agustin-pungitore/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AgustinPungitore
+    
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Proficient
+
+      - idiom: German
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Videogames
+
+      - item: Travel
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: High School Diploma
+      university: Schiller Schule
+      # optional
+      university_logo: 
+      time: 2009 - 2014
+      details: |
+       
+
+    - degree: Full Stack Developer
+      university: 4 Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: 
+                
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Business Development Representative
+      time: Feb 2022 - August 2022
+      company: Sellerate
+      # optional
+      company_logo: data:image/jpeg;base64,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
+      details: |
+       • Developed and executed sales strategies to expand business within my assigned territory.
+       • Researched related industry and pre-defined target accounts.
+       • Understanding organizational hierarchy and identifying key players.
+       • Performed outbound outreach, primarily via email and social platforms.
+       • Booked qualified meetings for our client to drive forward.
+
+    - role: Business Sales Manager
+      time: Aug 2020 - Jan 2022
+      company: Grupo Monllor
+      # optional
+      company_logo: data:image/jpeg;base64,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
+      details: |
+       • Developed and managed key accounts in private and public sector
+       • Established sales strategies
+       • Forged long-term relationships with clients and suppliers
+       • Analyzed and qualified all RFQ’s
+       • Preparedandclosedtechnicalandcommercialproposals-uptoUSD500K
+       • Developed and managed network of dozens of international vendors to support sales efforts
+       • Collaborated daily with teams of professional and cultural backgrounds including executives, engineers, freight forwarders, and accountants
+       • Oversaw procurement efforts to ensure the success of the sale effort
+       • Organize and prioritize work to complete assignments in a timely, efficient manner. All bids have a deadline.
+
+    - role: Customer Care Professional
+      time: Nov 2019 - July 2020
+      company: American Express
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+        • Provided support to the German, United Kingdom market related to MR Cardholders
+        • Multitasking skills
+        • Meetings with India, Germany and United Kingdom
+        • Cooperate with other teams
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
