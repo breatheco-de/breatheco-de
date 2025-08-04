@@ -1,0 +1,55 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Yurbanis
+  last_name: Briceño
+  summary: 
+    Estuve en el Bootcamp 4geeks Academy, el cual me permitio reforzar los conocimientos
+    que previamente forme como autodidacta. En el aprendí tecnologias como JavaScript,
+    React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+    el trabajo grupal con git.
+  avatar: https://media.licdn.com/dms/image/C4E03AQHJKOxnlCLssw/profile-displayphoto-shrink_200_200/0/1659034580100?e=1681948800&v=beta&t=AnqYBK03xpnhvQV9R3JXX_x0dI9IqLEghcLVG-mulUE
+  email: yurbanisbriceno@gmail.com
+  phone: +569 33880968
+  linkedin: Yurbanis Briceño
+  github: Yurbanis 
+  stack-overflow: null
+  languages:
+    - idiom: Español
+      level: Nativo
+  interests:
+    - item: Comer
+    - item: Manualidades
+    - item: Arte
+education:
+  - degree: T.S.U Administracion de Empresa
+    university: IUTAR Instituto Tecnologico Antonio Ricaurte
+    time: 2012 - 2015
+experiences:
+  - role: Asistente administrativo
+    time: 2016 - 2017
+    company: Cerdicom LTDA
+    company_logo: https://images.jumpseller.com/store/cerdicom/store/logo/logo-cerdicom.png?0
+    details: Trabaje de recepcionista ademas realice trabajos como cuadratura de caja, pago de nomina, pago de viaticos, cuentas por cobrar, cuentas por pagar y facturacion.
+      
+  - role: Encargada de seguros dental
+    time: 2017 - 2019
+    company: Mora Pavic LTDA
+    company_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQFb0tF5Y0MZiA/company-logo_200_200/0/1583864418045?e=2147483647&v=beta&t=rL7xyx6nV-WmZ-PmiDv6sqdWn4JmuJT_37lygWB1VQg
+    details: Encargada del area de seguro dental realizando trabajos como cobranza, caja chica, nomina conciliacion bancaria.
+       
+projects:
+  intro: >
+    
+  assignments:
+    - title: 
+      project_logo: 
+      link: 
+      tagline: 
+   
+skills:
+  toolset:
+    - name: 
+      level: 
+    
