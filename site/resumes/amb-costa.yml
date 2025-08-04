@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Amber
+    last_name: Costa
+    
+    # Define yourself in 4-5 words
+    motto: Going further the knowledge spiral
+    
+    # focus
+    focus: Full-Stack Developer
+    
+    summary: |
+      After 7 years of university but no degree, had to rethink my approach on life. Programming courses were fun, so why not start something there? Trying my hardest to make it.
+      Relentless music nerd. I'm the backrooms' favorite DJ.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    linkedin: amb-costa #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: amb-costa
+    
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Cooking
+
+      - item: Gardening
+
+      - item: Exercising
+
+# Your previous education
+education:
+    - degree: Bachelor in Chemical Civil Engineer (not finished)
+      university: Universidad de Chile
+      time: 2018-2021
+      details: |
+        Second attempt at this degree. Quit halfway. 
+
+          - Math level: Up to advanced calculus
+          - Evaluated as English Level 5, no courses were taken
+
+    - degree: Bachelor in Chemistry (not finished)
+      university: Universidad de Chile
+      time: 2015-2016
+      details: |
+        Did a year before quitting for personal issues.
+    
+    - degree: Bachelor in Chemical Civil Engineering (not finished)
+      university: Universidad de Chile
+      time: 2013-2014
+      details: |
+        First attempt at this degree. Quit after a year due to career uncertainty
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Business Process Manager
+      time: 2022
+      company: MAINTEK EIRL
+      details: |
+        In charge of communication with clients, delivering reports on repairments plus receipts according to SII
+
+# Your project portfolio
+projects:
+    intro: >
+      These are mostly 4GEEKS assignments, hope to have more interesting stuff to show from now on
+
+    assignments:
+      - title: Pedal Partner
+        link: "https://github.com/amb-costa/finalPedalPartner.com"
+        tagline: "Final Project for the Full Stack Developer course."
+
+      - title: To-Do list with Fetch
+        link: "https://github.com/amb-costa/fetchToDoList.jsx"
+        tagline: "A to-do list using fetch functionalities."
+
+      - title: Bubblesort
+        link: "https://github.com/amb-costa/bubbleSort4Cards.js"
+        tagline: "Card generator and sorter using the bubble sort algorithm."
+
+  
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Javascript & jQuery
+        level: 80%
+
+      - name: Python
+        level: 40%
