@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Luisa
+    last name: Perilla
+    # Define yourself in 4-5 words
+    motto: perseverant and work for what I want
+    # focus
+    focus: I'm a designer and want it to get into coding
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm from Colombia, I graduated from Industrial design and I'm working now more on a
+      digital marketing. I think coding is on high demand and to learn it would be such a plus
+      for my profile.
+      Second paragraph if required.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    # Contact Information
+    email: perillaluisa11@gmail.com
+    phone: 786 5579698
+    website: luisadesign.com
+    linkedin: luisa.perilla
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lutiago
+    twitter: Luisa.perilla
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+    # Interests or hobies
+    interests:
+      - item: Running
+      - item: travel
+      - item: Cooking
+# Your previous education
+education:
+    - degree: Industrial Design
+      university: Jorge Tadeo Lozano University - Bogota, Colombia
+      # optional
+      university logo: https://www.utadeo.edu.co/sites/tadeo/files/imageblock/horizontal-azul.png
+      time: 2011 - 2017
+      details: 
+        I study industrial design in Bogota Colombia and got an internship at MIA. I decided to
+        stay and start my life here. I worked more as a digital designer and have more experience in it! as on my career
+        path is really important to know about coding languages and understand it would open better opportunities.
+          - Adobe Illustrator, InDesign and Photoshop proefency.
+          - 3d rendering on Rhinoceros software.
+# Your previous job experiences or volunteer
+experiences:
+    - role: Visual and content designer
+      time: 2021 - 2022
+      Company: HNM Medical Miami FL
+      # optional
+      company_logo: https://stockholm53.qodeinteractive.com/wp-content/uploads/2020/06/Logo-dark-img.png
+      details: 
+        Resize and get files ready to print and produce visuals for different big brands in the perfumes field.
+        Print and cut different files using different software. Design and propose 3d presentation perfume displays
+        for different malls and airports. Handling social media platforms and producing all the content.
+       Website redesign and keep it updated in WordPress. Assisting with display production.
+    - role: Marketing coordinator
+      time: 2016 - 2020
+      company: HNM Medical, Miami, FL
+      # optional
+      company logo: https://hnmmedical.com/logo.png
+        Produce creative visual concepts using different software always following regulations
+       as (FDA, ISO) to communicate and Coffees how to the customers in the medical field. Developed overall 
+       layouts and designs for brochures, catalogs, surgical techniques, banners, postcards, logos, info-graphics, produce rendering, labeling, and product photography; all the visual content which is very important for sales and corporate identity.
+
+Skills: 
+    
+      - name: Adobe Illustrator
+        level: 90%
+      - name: Adobe Photoshop
+        level: 90%
+      - name: Adobe InDesign
+        level: 90%
+      - name: Rhinoceros 3D
+        level: 75%
+      - name: Keyshot
+        level: 75%
