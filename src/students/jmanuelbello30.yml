@@ -1,0 +1,84 @@
+---
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Jose
+    last_name: Bello
+    
+    motto: The closer we find you achieving what you love, the closer you will be to achieve happiness
+    
+    focus: Learn new things
+    
+    summary: Experience in Human Resources and Organization and Methods
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+
+    email:  jmanuebello30@gmail.com
+    phone: 9 85212345
+    linkedin: https://www.linkedin.com/in/belloal/
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jmanuelbello30
+    
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Video-Games
+
+      - item: Read-Books
+
+      - item: Search new themes to learn
+
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2019
+      Learning technologies:
+       -HTML5 y CSS3, JS, React, Webpack, Python, Django, Mongo, AJAX, APIs, POST, GET, HTTPS, Client vs. Server and more
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Jr Full Stack Developer
+      time: 2020 - 2021
+      company: GRUPO DNA
+      # optional
+      details: |
+        - Development and improvement of DNA group products.
+        - Development methodology focused on Scrum.
+      Technologies: ReactJS, CSS3, HTML5, Bootstrap, Ruby on Rails,
+                    MySQL, Git(Azure, Github).
+      Tools: azure, asana, slack.
+
+# Your project portfolio
+projects:
+    intro: >
+      Quick service app for patients with anxiety attacks, using a real-time chat between patient and professional.
+    assignments:
+      - title: HelpMeNow!
+
+skills:
+    toolset:
+
+      - name: Javascript & React
+        level: 60%
+
+      - name: HTML5 & CSS3
+        level: 60%
+
+      - name: Bootstrap
+        level: 60%
+
+      - name: Ruby on Rails
+        level: 40%
+
