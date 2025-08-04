@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "Blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Thomas
+    last_name: Jayes
+    motto: 
+    avatar: https://photos.google.com/photo/AF1QipP7oRAyhTlNs-1KeJA3LtYpTLoZfdXW0tRTJBlC
+    summary: 
+      I am passionate about new technologies and I am always willing to learn new things.
+      I was able to work and study at the same time to pay for my studies to get a college degree at 24.
+      I wanted to study Fullstack to get a job that let me stay near the people I love without attending to an office constantly.
+      
+    # Sidebar links
+    email: twjp@criptext.com
+    phone: +507 6329-0602
+    website: linkedin.com/in/thomas-jayes-b757aa192/ #do not add http://
+    linkedin: thomasjayes
+    github: ThommyJP
+    Instagram: '@twjayesp'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - language: Spanish
+        level: Native
+
+      - language: English
+        level: Advanced, C1
+
+    interests:
+      - item: Play videogames
+
+      - item: Going out with friends 
+
+      - item: Play sports 
+
+      - item: Love Learning new things
+
+      - item: Spent time with my family
+
+education:
+    - degree: Fullstack Developer
+      university: 4Geeks Academy
+      time: Ongoing
+      details: Bootcamp with a timeframe of 4 months of intense learning
+
+    - degree: Electronics Engineering and Communications.
+      university: Universidad Interamericana de Panama (UIP)
+      time: 2017 - 2021
+      details: |
+
+    - degree: Bachellor in Science, Letters and Philosophy 
+      university: Colegio Javier
+      time: 2005 - 2014
+      details: |
+
+experiences:
+    - role: Master Data Manager
+      time: 2017 - Present
+      company: Tetra Pak
+      details:         
+
+    - role: Summer work as an assistant 
+      time: January 2017 - February 2017
+      company: Laboratorios Palm S.A.
+      details:  
+        Managed all the task that came out in the day. 
+        Managed an equipment sale and reporting the result.
+        Do an analysis and a report of what needs to be changed of their web page.
+        Assist with calls for information and meetings.
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Postcard
+        link: ""
+        tagline: "Initial project of generating a postcard only using html and CSS."
+
+      - title: Instagram Insta-Post
+        link: ""
+        tagline: "By using HTML & CSS to reproduce an instragram post."
+
+      - title: Instagram feed
+        link: ""
+        tagline: "By using what was learned use HTML & CSS create a Instagram like feed"
+
+      - title: Boots Insta-Feed
+        link: ""
+        tagline: "By using Bootstrap generate a simple feed"
+
+skills:
+    toolset:
+      - name: Communication
+        level: 90%
+
+      - name: Microsoft Excel
+        level: 65%
+
+      - name: SAP
+        level: 85%
+
+      - name: Data Management
+        level: 85%
