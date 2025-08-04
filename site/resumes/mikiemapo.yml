@@ -1,0 +1,207 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Michael
+  last_name: Mapfumo
+
+  # Define yourself in 4-5 words
+  motto: Good to be hard hard to be good
+
+  # focus
+  focus: life
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    I am currently working as a customer service tech support agent for Alarm club. 
+    I have a total of 7 years in customer service. With Alarm Club I receive an average of 120 per day. 
+    I process payments, walk customers through equipment setup and troubleshooting. I also sell equipment. 
+    The company offers alarm monitoring services and also sell equipment such as cameras and motion sensors. 
+    I have worked within the healthcare industry as well doing something similar. 
+    Inbound calls, rerouting calls, processing payments and so forth
+
+     
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://media.licdn.com/dms/image/D4E03AQEEGLS3YO_1Qg/profile-displayphoto-shrink_400_400/0/1672980645462?e=1683158400&v=beta&t=ZDNXvVsPH6PUPMV0tG6bcYIM0Ig-djpnAjeJUDmZmZw
+
+  # Contact Information
+  email: a@a.com #optional
+  phone: 234 2342 342 #optional
+  website: asd.com #optional
+  linkedin: alandoe #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: mikiemapo
+
+  twitter: "webjeda" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # languages you speak, levels inculde: Native, Professional
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: French
+      level: Professional
+
+    - idiom: Spanish
+      level: Professional
+
+  # Interests or hobies
+  interests:
+    - item: Climbing
+
+    - item: Snowboarding
+
+    - item: Cooking
+
+# Your previous education
+education:
+  - degree: Cinematography
+    university: Sae Film School
+    # optional
+    university_logo: data:image/png;base64,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
+    time: 2018 - 2019
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+  - role: VFX Artist 
+    time: 2015 - Present
+    company: Startup Hubs, Cape town
+    # optional
+    company_logo: https://www.risewb.org/wp-content/uploads/2020/07/cropped-RISE_Primary-Logo_Full-colour.png
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 85%
+
+    - name: Sketch & Photoshop
+      level: 60%
