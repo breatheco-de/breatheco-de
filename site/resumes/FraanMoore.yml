@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisca
+    last_name: Morales
+    
+    # Define yourself in 4-5 words
+    motto: Soy proactiva y creativa
+    
+    # focus
+    focus: lograr las metas cortas para llegar al sueño
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Comencé a trabajar desde los 18 años, en cada trabajo he dado lo mejor de mí e ir aprendiendo lo máximo posible.
+      Los primeros 3 años me dedique a las ventas, lograr que las personas consiguieran lo que querían, incluso cuando ellos no sabían.
+      Vieron mi potencial en liderazgo y me subieron a SubJefe de tienda donde aprendí a administrar y resolución de conflictos entre el equipo y con los clientes.
+      Luego, se me dio la oportunidad de trabajar en mi área, el turismo, actualmente trabajo en backoffice, como administrador de finanzas.
+      Al cumplir estas pequeñas metas, estoy logrando cumplir el sueño de estudiar programación y dedicarme a lo que realmente me gusta, hacer arte en una computadora.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+ 
+
+    # Contact Information
+    email: fraanmoore@gmail.com #optional
+    phone: +569 73518292 #optional
+
+    linkedin: https://www.linkedin.com/in/mar%C3%ADa-francisca-morales-moore-2821ab142/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: FraanMoore
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Intermedio
+
+      - idiom: Portugués
+        level: Básico
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Dibujar y pintar
+
+      - item: Leer
+
+# Your previous education
+education:
+    - degree: Full Stack Developer Junior
+      university: 4Geek Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022-2023
+      
+
+    - degree: Administrador Turístico y Hotelero
+      university: Duoc UC
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3ALogo_DuocUC.svg&psig=AOvVaw0oWzKtV1Vf1dO-c5XFiY83&ust=1671901212322000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCf5MGbkPwCFQAAAAAdAAAAABAE
+      time: 2017-2020
+      details: |
+       
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrativo de Finanzas
+      time: Octubre 2021 - al presente
+      company: COCHA
+      # optional
+      company_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.araucomaipu.cl%2Ftiendas%2Fcocha&psig=AOvVaw2OrZB30VmmKcvxtzvOLI-k&ust=1671901286232000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjA-uSbkPwCFQAAAAAdAAAAABAE
+      details: |
+        Encarcagada de la comunicación con proveedores terrestres, análisis de facturas pendientes de pago.
+        Asesorar al cliente en sus consultas con respecto a facturas, fechas de pago y conciliación de deuda.
+
+    - role: SubJefe de Tienda
+      time: Julio 2021 - Octubre 2021
+      company: Sociedad Comercia DistriHogar. Cannon Home
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+        Apoyo a la jefaura, ingreso de inventario, resolución de conflicto, estadisticas de ventas y vendedores y asesorar a clientes en su compra.
+
+    - role: Vendedor part-time
+      time: 2018  - 2020
+      company: Sociedad Comercia DistriHogar. Cannon Home
+      # optional
+      
+      details: |
+        Asesorar al cliente en su compra y cumplimento de metas mensuales.
+
+skills:
+    toolset:
+   
+      - name: Javascript 
+        level: 1%
+
+      - name: HTML5 & CSS
+        level: 50%
+
