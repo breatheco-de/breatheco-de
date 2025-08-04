@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Alejandro
+    last_name: Toledo Acuña
+    motto: Full Stack Developer
+    avatar: https://e7.pngegg.com/pngimages/78/788/png-clipart-computer-icons-avatar-business-computer-software-user-avatar-child-face.png
+    summary: |
+      I am passionate about new technologies and I am always willing to learn something new every single day.
+      Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
+    # Sidebar links
+    email: alebarto2002@hotmail.com
+    phone: +34 636 666 666
+    linkedin: alex1kenobi
+    github: Alex1kenobi
+    twitter: '@Alex1kenobi'
+    web: https://alex1kenobi.com
+    
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: High
+
+    interests:
+      - item: Killing dragons
+
+      - item: Imagine dragons
+
+      - item: Being Father of Dragons
+
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2022 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+
+    - degree: Digital Marketing Master Degree
+      university: Aula CM 
+      time: 2017 - 2018
+      details: |
+        During 
+experiences:
+    - role: Project Leader Digital Marketing
+      time: 2022 - Present
+      company: Opinno
+      details:
+      • Organize work teams, distribute tasks and monitor results.
+      • Support team members with data and insights and establish processes for the digital marketing team to collaborate, internally and externally.
+      • Manage customer communication and relationships, business liaison and customer management.
+      • Create and implement digital marketing and communication strategies.
+      • Analyze competition, define objectives and target audiences.
+      
+    - role: Digital Marketing Manager
+      time: 2019 - 2022
+      company: BIMobject
+      details: 
+        • Overseeing implementation of the Marketing strategy - including campaigns, events, digital marketing
+        • Guiding the day to day activities of the marketing team
+        • Ensuring that the marketing objectives are implemented by the marketing team.
+        • Work closely with product management team to define marketing materials and programs.
+        
+    - role: SEO / SEM Manager
+      time: 2016 - 2018
+      company: Valeet
+      details: |
+        • Execution of paid social campaigns end-to-end, overseeing planning, execution (targeting, bidding, optimization)for Google Adwords, Analytics, Twitter and FB Ads and making periodical reporting, and reporting.
+        • Develop strategies intended to drive awareness, engagement, and customer acquisition/retention.
+        • Manage closely to performance targets across spend, lead generation, conversion and ROAS
+
+projects:
+    intro: >
+     Here you can find a summary of my projects dones in 4Geeks Academy in my first 3 weeks of Bootcamp.
+    assignments:
+      - title: Instagram Photo Feed
+        link: "#https://github.com/Asanchez-2/Instagram-PhotoFeed-Bootstrap"
+        tagline: "A responsive instagram photo feed with HTML5,CSS and Bootstrap."
+
+      - title: Excuse Generator
+        link: "#https://github.com/Asanchez-2/tutorial-project-excuse-generator-javascript"
+        tagline: "Exercise based in getting a random excuse onloading the browser with JavaScript."
+
+      - title: Domain Generator
+        link: "#https://github.com/Asanchez-2/The-Domain-Name-Generator"
+        tagline: "A exercise based in getting a complete list of domain using arrays and loops."
+
+
+skills:
+    toolset:
+
+      - name: Html & CSS
+        level: 70%
+
+      - name: React
+        level: 50%
+      
+      - name: Python/Flask
+        level: 50%
+
+      - name: Javascript
+        level: 50%
