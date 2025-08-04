@@ -1,0 +1,175 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Herrera
+    
+    # Define yourself in 4-5 words
+    motto: Curious and passionate about technology
+    
+    # focus
+    focus: In continuous learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Production Engineer with more than 2 years of experience in process optimization and inventory / catalog management. 
+      Thanks to my background, my profile is oriented towards the use of technological tools for data analysis, which facilitate making the right business decisions. 
+      In this way, I can offer a fresh and creative perspective for the fulfillment of the organization's objectives.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Foto_de_Perfil_2022.png
+
+    # Contact Information
+    email: c.herrerav97@gmail.com #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    linkedin: www.linkedin.com/in/carlos-herrera-738155201 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: careduh97
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Tech innovations
+
+      - item: Videogames
+
+      - item: Automotive industry
+
+# Your previous education
+education:
+    - degree: Full Stack Software Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - Present
+      details: |
+        Training from scratch as Full Stack Developer. 
+        Learning to create a website with the best practices of responsive web design, 
+        working with various languages that are in high demand today. 
+        All with a solid foundation of frontend, backend, database, management of distributed processes and use in web platforms.
+          - Javascript
+          - Python
+
+    - degree: Production Engineer
+      university: Universidad Metropolitana
+      # optional
+      university_logo: https://www.unimet.edu.ve/wp-content/uploads/2017/03/Logo-unimet-1-1030x415.png
+      time: 2015 - 2020
+      details: |
+        Specialized in the organization, planning, continuous improvement and control of the production processes of goods and services. 
+        With management skills and knowledge in optimizing the material, human and technological resources that companies have, 
+        in order to ensure that key operations are capable of generating high-quality goods and services, 
+        creating a competitive position in the market.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Coding coordinator
+      time: Mar 2022 - Nov 2022
+      company: Yeet Venezuela C.A., Caracas
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Plan and direct the activities of creation, updating and maintenance of the commercial catalog of the company. 
+        Consolidation of the information attributes of the database, focused on the technical data sheet of products, 
+        services and suppliers linked through an ERP system. Management of product categories and supplier classification. 
+        Verification of costs, sales prices, taxes and profit margins of the product catalog.
+
+    - role: Process analyst
+      time: Mar 2021 - Feb 2022
+      company: Yeet Venezuela C.A., Caracas
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Develop the activities of creation, documentation and updating of the policies, 
+        procedures and systems used by the different functional areas of the company. 
+        Implementation of management indicators (KPI) for the diagnosis of the various operational and support processes, 
+        in order to propose and design improvements.
+
+    - role: Inventory analyst
+      time: Feb 2019 - Dec 2019
+      company: Inversiones KCMA C.A., Miranda
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Control and analysis of daily inventory operations. 
+        Supervision of the entrances and exits of merchandise in the warehouse, 
+        as well as the classification and statistical study of the movements of inventory, 
+        for the generation of dynamic reports that allow to evaluate the management of the resources.
+
+# Your project portfolio
+projects:
+    intro: >
+      4Geeks Academy (Full Stack Software Developer) bootcamp exercises, assignments, and projects.
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/careduh97/Preword-Postcard-Project-CH
+        tagline: "Digital Postcard with HTML and CSS."
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/careduh97/FSSD-Instagram-Post-Project-CH
+        tagline: "Replicate an Instagram Post using HTML and CSS."
+
+      - title: Instagram Photo Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/careduh97/Prework-Instagram-Photo-Feed-Project-CH
+        tagline: "Replicate an Instagram Photo Feed using only HTML and CSS."
+
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/careduh97/FSSD-Bootstrap-Project-CH
+        tagline: "Replicate an Instagram Photo Feed using HTML/CSS and Bootstrap."
+
+      - title: HTML5 Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/careduh97/FSSD-HTML-Forms-Project-CH
+        tagline: "Create a HTML5 form using Bootstrap."
+
+skills:
+    toolset:
+      - name: Suite Microsoft Office
+        level: 90%
+
+      - name: Google Workspace
+        level: 90%
+
+      - name: Microsoft Project & Jira Software
+        level: 75%
+
+      - name: Odoo ERP v14 (Functional)
+        level: 75%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
