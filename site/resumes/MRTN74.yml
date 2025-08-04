@@ -1,0 +1,196 @@
+template: "online-cv"
+
+skin: "orange"
+
+
+
+
+basic_info:
+
+  # Profile information
+
+  first_name: Martin  
+
+  last_name: Gallo
+
+  motto: Full Stack Developer
+
+  avatar: ""
+
+  summary: |
+
+    Summarise your career:   I love to get along with people and spend quality time and form strong bonds. I graduated highschool in 2020 and i have around 4 years of work experince in sales also i have a degree in Industrial and organizational psychology.
+    I am learning to code to start my professional career
+
+
+
+    Second paragraph if required.
+
+
+
+  # Sidebar links
+
+  email: martin.gallo
+
+  phone: +584241318639
+
+  website: #do not add http://
+
+  linkedin: https://www.linkedin.com/in/martin-gallo-467372254/
+
+  github: MRTN74
+
+  twitter:
+
+  stack-overflow: Martin Gallo
+
+
+
+
+  languages:
+
+    - idiom: Español
+
+      level: Native
+
+
+
+
+    - idiom: English
+
+      level: B2
+
+
+
+
+    - idiom: Japaneese
+
+      level: N5
+
+
+
+
+  interests:
+
+    - item: Movies
+
+
+
+
+    - item: Videogames
+
+
+
+
+    - item: Music
+
+
+
+
+education:
+
+  - degree: Full Stack Develpor
+
+    university: 4 Geeks Academy
+
+    time: 2023 - 2023
+
+    details: |
+
+      Front end coding Java Script, React, Html, Css, Bootstrap
+
+      Back end coding, Python, SQLalchemy, Flask
+
+
+
+        - JWT Authentication
+
+
+
+projects:
+
+  intro: >
+
+    You can list your side projects or open source libraries in this
+
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+
+
+  assignments:
+
+    - title: Velocity
+
+      link: "#hook"
+
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+
+
+    - title: DevStudio
+
+      link: "#"
+
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+
+
+
+    - title: Tempo
+
+      link: "#"
+
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+
+
+
+    - title: Atom
+
+      link: "#"
+
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+
+
+
+    - title: Delta
+
+      link: "#"
+
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+
+
+
+skills:
+
+  toolset:
+
+    - name: Python & Flask
+
+      level: none
+
+
+
+
+    - name: Javascript & React
+
+      level: none
+
+
+
+
+    - name: HTML5 & CSS
+
+      level: 90%
+
+
+
+
+    - name: Figma & Photoshop
+
+      level: none
