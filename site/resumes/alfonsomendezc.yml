@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alfonso
+    last_name: Mendez
+    
+    # Define yourself in 4-5 words
+    motto: I like studying. Introvert.
+    
+    # focus
+    focus: Becoming a professional coder and programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a teenager with hopes of dedicating my life to coding, I love its environment and I hope I can create some cool projects in the future. I have a special liking for Artificial Intelligence.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/originals/8d/88/fc/8d88fc39eafd6a57d5d3eeab086b7470.jpg
+
+    # Contact Information
+    email: alfonsomendez2209@gmail.com #optional
+    phone: +1 (954) 288-2303 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alfonsomendezc
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional/Semi-professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Sports
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: march-2022 / june-2022
+      details:
+          -Real “Senior” Mentoring
+          staff has 10  years coding and holds senior possitions in Miami's tech industry.
+          -Top-notch Technology Stack
+          -Part-time
+          The world of Coding grows and changes EVERY DAY.
+          It is not about teaching on after-hours, it requires much more!
+          This program is meant for employed professionals. We have designed
+          the perfect method for both flexible and blended learning in an “after-hours” setting.
+
+# Your previous job experiences or voluntier
+experiences:
+
+
+# Your project portfolio
+projects:
+    intro: >
+      No projects yet other than the ones found in activities I did from learning in 4geeks's course!
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 35%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
