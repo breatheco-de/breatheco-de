@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+    first_name: Jess
+    last_name: Morrison
+  
+    motto: Never stop learning
+    
+    focus: Working towards a new career field and expertise
+    
+    summary: |
+      I have spent the majority of my working career at Publix Supermarkets. First started there in March of 2011 and moved through positions gaining experience and knowledge along the way. I was a manager for a time before my first daughter was born
+       at which time I decided to step down from management so to have a more flexible schedule for my family. After some time as a meat cutter now I am coming to the realization that a retail job and hours is still too strenuous on our family schedule.
+        I am pursuing a job in coding as it offers a rapidly growing job field with countless interesting areas of expertise. Going through the 4Geeks Academy Full stack developer Bootcamp has shown me how fun, challenging and rewarding coding truly is. 
+        I can't wait to continue learning more and more about coding and eventually land my dream job as a software engineer and get to go coding everyday for a living!
+    
+    avatar: https://media.licdn.com/dms/image/D4D03AQEaCG_BePdyXQ/profile-displayphoto-shrink_200_200/0/1688154531982?e=1693440000&v=beta&t=EgDbihwYXbSNpwbIku5EYlDvOrCwMq03pH0LD0yavM0
+
+    email: jessmor1993@gmail.com
+    phone: 727-403-0565
+    website: coming soon
+    linkedin: https://www.linkedin.com/in/jesswmorrison/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jessmor2
+
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Hockey
+
+      - item: Football
+
+      - item: F1 Racing
+
+education:
+
+      - degree: Full Stack Web Development Bootcamp
+        university: 4 Geeks Academy
+        time: June 2023 - October 2023
+        details: |
+              Through an 18 week coding bootcamp with 4 Geeks Academy I learned how the following coding languages; 
+              HTML, CSS, JavaScript, Python and React. Through these languages I learned how to develop a fully responsive website from 
+              front-end to back-end.
+experiences:
+    - role: Meat Cutter
+      time: 2012-2017, 2019 - Present
+      company: Publix Supermarkets
+      details: |
+        
+
+    - role: Assistant Meat Manager
+      time: 2017 - 2019
+      company: Publix Supermarkets
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 25%
+
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 40%
