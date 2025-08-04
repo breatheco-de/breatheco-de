@@ -1,0 +1,72 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Jonathan
+  last_name: Montero Calderon
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+    Me gusta la computacion y la electronica, me desempeño como Tecnico en Soporte desde hace 15 años
+   tanto en Hardware como Software, durante mi carrera he realizado varias funciones y he aprendido de 
+   diferentes tecnologias, como servidores, sistemas operativos en Linux, Mac y Windows, redes.  
+
+    Me siento muy contento de cursar el Bootcamp de Full Stack Developer con 4geeks Academy, porque voy
+   aprender nuevas cosas, avanzar profesionalmente y reforzar los conocimientos. 
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  linkedin: https://www.linkedin.com/in/jonathan-arturo-montero-calderon-945b9664/
+
+  # Contact Information
+  email: jonmoncal@gmail.com #optional
+  phone: +506 88360532 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: dyatroniccr
+
+  twitter: "" #optional
+
+
+  # Interests or hobies
+  interests:
+    - item: Watch Movies
+
+    - item: Web Development
+
+    - item: Electronica Automotriz
+
+  languages:
+    Spanish (Native)
+
+# Your previous education
+education:
+  - degree: Bachiller Ingenieria Informatica
+    academy: Universidad Central
+    # optional
+    university_logo: 
+    time: ene-2007 - actualidad
+    details: |
+      Conclucion de todas las materias teorias, pendiente Proyecto de Final.
+
+experiences:
+    Dyatronic CR: Profesional Independiente
+    details: 
+      Servicio de Administracion de Servidores Virtualizados para Apliciaciones Financieras y Administrativas en sistemas operativos Linux y Windows.
+     Administracion de equipos de redes. 
+     Asistencia de software y hardware a usuarios final en sistemas operativos Windows y macOS X.
+      Tecnologias: Linux, Windows, Mac, SAP Business One, Proxmox.
+
+    Macintegra: 
+      Tecnico de Soporte MAC. Encargado en la administración de servidores en sistemas operativos OS x, Linux (Unix) y Windows para aplicaciones Web y Financieras, 
+     programación de scripts para la automatización de procesos en servidores. Servicio al cliente en solución de averías de usuarios en Mac; mantenimientos preventivos y correctivos a equipos Apple. 
+     Diagnóstico y reparación de dispositivos Apple a nivel de hardware (iPhones, iPods e iPads). 
+      Tecnologias: Linux, Windows, Mac.
+
+    Smart Supplies S.R.L: 
+     Tecnico de Soporte Junior. Administración de servidores en sistemas operativos Linux (Unix) y Windows para servicios web, correo, compartir archivos dentro de la red LAN,
+     programación de scripts para la automatización de procesos. Mantenimiento preventivo y correctivo, administrador de los equipos de cómputo, impresoras y cableado. Instalación de sistemas operativos,
+     aplicaciones para windows, office y aplicaciones cliente-servidor.
+      Tecnologias: Linux, Windows.
+ 
