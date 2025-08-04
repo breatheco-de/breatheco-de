@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mario
+    last_name: Brambilla
+    
+    # Define yourself in 4-5 words
+    motto: however, something will have happen
+    
+    # focus
+    focus: Understand those instructions
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Started as police intern, changed to event planner, became an HSE Technician aimng to be a programmer
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: waro.brambilla@gmail.com #optional
+    phone: +393385228466 #optional
+    website: example.com #optional
+    linkedin: https://www.linkedin.com/in/mario-brambilla-243832b1/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: waro
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:     
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Not that bad
+
+    # Interests or hobies
+    interests:
+      - item: Photography
+
+      - item: Scuba diving
+
+      - item: Trekking and Hiking
+
+# Your previous education
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2020 - 2021
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+
+experiences:
+  - role: Food and Beverage Server
+    time: 01/2020 - 05/2021
+    company: Fritz and Franz Bierhaus
+    details: |
+      Giving our best to please costumers.
+        - Giving recommendations for food and drinks 
+        - Cleaning of FOH
+projects:
+  intro: >
+    As a recently graduated Web Dev, I don't have a lot of proyects.
+    In time, this list will grow.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 95%
+
+    - name: React.js
+      level: 95%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 75%
+
+    - name: FlaskSQL
+      level: 75%
