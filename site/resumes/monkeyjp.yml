@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Pestana
+    
+    # Define yourself in 4-5 words
+    motto: Do not leave for tomorrow what you can do today
+    
+    # focus
+    focus: Music
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      2014 - Accounting Degree.
+      Dec 19 - March 22 - Credit and Collection Senior at Linde Gas España.
+      Mar 22 - Dec 22 - Cash Application Specialist at Adidas Business Services Lda.
+      Jan 23 - Present - Cash Application Specialist at NORS
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4E03AQF9Vxtm8LKvAw/profile-displayphoto-shrink_800_800/0/1544551871610?e=1686182400&v=beta&t=sRvET2GrA8aFvqYr2iQleKCLGR-TAou_cvOqnK1XPVE
+
+    # Contact Information
+    email: javier.pestana85@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/javier-pestana-00035080/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: monkeyjp
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Postuguese
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Biking
+
+      - item: Gaming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Accounting Degree
+      university: Andrés Bello Catholic University (Venezuela)
+      # optional
+      university_logo: https://www.ucab.edu.ve/wp-content/uploads/2019/04/Logo_UCAB_3.png
+      time: 2008 - 2014
+      details: |
+        
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Cash application specialist
+      time: 2023 - Present
+      company: NORS
+      # optional
+      company_logo: 
+      details: |
+        
+    - role: Cash application specialist
+      time: March 2022 - December 2022
+      company: Adidas Business Services Lda.
+      # optional
+      company_logo: 
+      details: |
+        
+    - role: Credit and Colletion Senior
+      time: Dec 19 - March 22
+      company: Linde Gas España
+      # optional
+      company_logo: 
+      details: |
+        
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 
+
+      - name: Javascript & jQuery
+        level: 
+
+      - name: Angular
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
+
+      - name: Ruby on Rails
+        level: 
+
+      - name: Sketch & Photoshop
+        level: 
