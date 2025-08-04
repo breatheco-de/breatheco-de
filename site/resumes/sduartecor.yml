@@ -1,0 +1,72 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Santiago
+  last_name: Duarte Cor
+  motto: I like play video-games and football
+  focus: To have peace of mind
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/men/14.jpg
+  email: santiagoduartecor@gmail.com
+  phone: 099 999 999
+  website: sdc.com
+  linkedin: https://www.linkedin.com/in/santiago-duarte-cor-288702207/
+  github: sduartecor
+  Instagram: santyduartecor
+  stack-overflow: ---
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+  interests:
+    - item: Football
+    - item: Gaming
+    - item: Music
+    - item: Calisthenics
+education:
+  - degree: UTEC
+    university: Universidad Tecnologica del Uruguay
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Instagram Photo Feed
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/sduartecor/instagram-feed-bootstrap
+      tagline: Instagram photo feed with Bootstrap.
+    - title: Form in HTML5
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/sduartecor/html5-form
+      tagline: A form designed in HTML5
+skills:
+  toolset:
+    - name: Python & Django
+      level: 70%
+    - name: Javascript & jQuery
+      level: 95%
+    - name: Angular
+      level: 40%
+    - name: HTML5 & CSS
+      level: 90%
+    - name: Ruby on Rails
+      level: 60%
