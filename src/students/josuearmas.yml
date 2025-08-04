@@ -1,0 +1,14 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  Name: Josue Armas
+  Tagline: Full Stack Developer
+  avatar: profile.png
+
+  email: josuearmas00z@gmail.com
+  phone: +(786)-8636439
+  website: https://www.youtube.com/channel/UCZTkNCZ0Mh7cvHf1fW-l2aw
+  linkedin: https://www.linkedin.com/in/josue-armas-montevideo-a76072207/
+  github: TitoJosu23
+  Instagram: iamjosu23
