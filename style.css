@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.ContenedorF{
+    width: 100%;
+    margin-right: 10px;
+}
+
+
+.img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+body{
+    margin: 50px 25px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.perfil{
+    background-color: rgb(73, 122, 85);
+    border: solid 1px rgb(73, 122, 85);
+    border-top-right-radius: 5%;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Contact{
+    margin: 10px 0px;
+    font-size: large;
+    color: white;
+}
+
+.text-contact{
+    background-color: rgb(95, 159, 107);
+    border: solid 1px rgb(95, 159, 107);
+}
+
+.Contact > li{
+    margin: 7px 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+i{
+    margin-right: 5px;
+    color: rgb(203, 202, 202);
+}
+
+.education{
+    padding: 10px;
+    color: white;
+}
+
+.education > h2{
+    margin-bottom: 3px;
+}
+
+.education > h4{
+    margin-bottom: 10px;
+}
+
+.perfil_pro{
+    display: flex;
+    font-size: x-large;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.careerprofile > h2{
+    margin-top: 20px;
+}
+
+.exp-lab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp-lab > h5{
+    margin-right: 20px;
+    color: rgb(76, 74, 74);
+
+}
+
+.experiencia{
+    line-height: 1.5;
+    font-size: x-large;
+    
+}
+
+.experiencia > span{
+    display: flex;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.Proyectos{
+    margin-top: 20px;
+}
+
+.Proyectos > li{
+    margin: 20px;
+    font-size: larger;
+}
