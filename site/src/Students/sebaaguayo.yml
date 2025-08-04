@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sebastián
+    last_name: Aguayo
+    
+    # Define yourself in 4-5 words
+    motto: Diseñador empedernido
+    
+    # focus
+    focus: Tratando de convertirme en desarrollador
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQHSyIx2TgOJFA/profile-displayphoto-shrink_200_200/0/1658856187099?e=1680739200&v=beta&t=KTGcImzYy3xSC28XigoRD3UU6WBjUxPYX7cCe-H7zW8
+
+    # Contact Information
+    email: sebaaguayoc@gmail.com #optional
+    phone: 997103282 #optional
+    website: sebaaguayoc.cl #optional
+    linkedin: sebaaguayo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sebaaguayo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Fotografía
+
+      - item: Fotografía de Dron
+
+      - item: Diseño
+
+      - item: Modelado 3d
+
+      - item: Ilustración
+
+
+
+# Your previous education
+education:
+    - degree: Diseñador Gráfico
+      university: DuocUC, sede san carlos de apoquindo
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_DuocUC.svg/1280px-Logo_DuocUC.svg.png
+      time: 2010 - 2014
+      details: |
+       Estudiante de diseño en el periodo de 2010 al 2014. Educaciòn enfocada en medios impresos y digitales. 
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: CEO - Diseñador Gráfico 
+      time: 2019 - Present
+      company: Kelwo 
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4D0BAQFw8KnKSsnVww/company-logo_200_200/0/1671047666934?e=1683763200&v=beta&t=NeTmybHQNDd6TJoHmKej-9XWwbDHsYIFE3r2d3Pakrw
+      details: |
+       Startup enfocada en generar soluciones visuales e integrales para emprendedores, pequeñas empresas y personas naturales. Atraves del diseño gráfico ayudamos a mostrar el valor 
+       de sus productos y servicios con un diseño contemporaneo e identitario. Ofrecemos tambièn fotografía y fotograía de dron.
+    - role: Diseñador Gráfico
+      time: 2018 - 2019
+      company: Google, London
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4E0BAQFgBY2uq9MeTA/company-logo_200_200/0/1537541914049?e=1683763200&v=beta&t=xGHsbdHNAbtA0IJeQa2OTt_25qK3gdjQOcA-VEN1cOc
+      details: |
+        Diseñador Gráfico y encargado de marketing digital. Entra las taréas realizadas se encuentran: Coordinaciòn con proovedores, generar contenido para redes sociales y sitio
+        web, generar productos impresos y digitales, y fotografía.
+    - role: Diseñador Gráfico
+      time: 2017 - 2018
+      company: Fundación Ceis Maristas
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4D0BAQHs3Iwz6jH7Xw/company-logo_200_200/0/1519909912509?e=1683763200&v=beta&t=pVZToudyOhh7LTI_ou_PSdooF0m1c46KNL10ov473zs
+      details: |
+      Rol de diseñador Gràfico enfocado en generar material educativo y editorial. Principalmente diagramar infografìas, pruebas, controles y material didactico.
+
+skills:
+    toolset:
+      - name: Adobe Illustrator
+        level: 90%
+
+      - name: Adobe Photoshop
+        level: 80%
+
+      - name: Adobe Indesign
+        level: 90%
+
+      - name: Adobe Lightroom
+        level: 90%
+
+      - name: Adobe Premiere
+        level: 85%
+
+      - name: Adobe After Effects
+        level: 75%
+
+      - name: Final Cut Pro
+        level: 90%
+
+      - name: Clip Studio paint
+        level: 80%
+
+      - name: Blender
+        level: 70%
+
+      - name: Figma
+        level: 70%
