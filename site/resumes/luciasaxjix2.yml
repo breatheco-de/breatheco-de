@@ -1,0 +1,179 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+
+    first_name: Mariela Lucía
+    last_name: Sánchez
+    
+    
+    motto: Dedicación, aprendizaje, solidaridad, activa, proactiva
+    
+    
+    focus: Crear mi mejor versión, ayudar e inspirar a más chicas en el mundo STEM.
+    
+    
+    summary: |
+      Soy una chica proactiva, soñadora, siempre con hambre de ser mejor y aprender muchísimas cosas nuevas.
+      Además soy deportista, el taekwondo me ha dado disciplina y perseverancia por seguir luchando por mis sueños. Uno de mis sueños es ser emprendedora. 
+      Desde mis 15 años trabajo en servicio al cliente porque me apasiona servir y  colaborar con personas.
+      Ahora también quiero seguir motivando a más chicas a involucrarse en programación, creer en nosotras y lograr cosas
+      increíbles.
+
+    
+   
+    avatar: https://avatars.githubusercontent.com/u/128443618?v=4
+    
+    email: marie.lucia2002@gmail.com
+    # phone: 84173078
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/mariela-s%C3%A1nchez-jim%C3%A9nez-1257b71a6/
+    
+    
+    github: luciasaxjix2
+    
+    twitter: '@lucia_saxjix' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Español
+        level: Nativo
+
+    
+    interests:
+      - item: Taekwondo
+
+      - item: Salud y deporte
+
+      - item: Emprendedurismogit add .
+
+
+
+
+
+# education:
+#     - degree: Health Services Administration 
+#       university: Florida International University 
+#       # optional
+#       university_logo: https://www.vhv.rs/dpng/d/461-4617822_fiu-panther-logo-png-mascot-florida-international-university.png
+#       time: 2011 - 2015
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+
+experiences:
+    - role: Professional bike rider 
+      time: 2002 - Present
+      company: Profile Racing
+    
+      # details: |
+      #     - Confirms insurance coverage. Determines necessity for pre-authorization and obtains authorization for scheduled procedures.
+      #     - Notifies patient of his/her financial responsibility for services to be provided. Notifies patients and practitioners of any services requested and/or referred that are not authorized by insurance.
+      #     - Communicates with patients and practitioners regarding financial responsibility and insurance coverage issues.
+      #     - Enters patient insurance information into the patient record and documents insurance coverage of services to be provided.
+      #     - Communicated with adjusters for workers compensation and automobile cases to ensure necessary information was obtained. 
+
+
+
+#     - role: Manager
+#       time: 2011- 2017
+#       company: Kumon, Miramar/Sunrise
+#       # optional
+#       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
+#       details: |
+       
+#           - Worked with students to develop fundamental math/reading skills using Kumon proprietary learning methods. 
+#           -  Ensured necessary billing and payments were obtained on time. 
+#           - Developed marketing strategy and worked with small businesses to promote the Kumon brand.
+#           - Provide feedback to parents on the progress of students.
+#           - Manage employees and create a successful team environment through effective communication. 
+#           - Answering phone calls and setting up student orientations for enrollment. 
+#           - Proctor exams and grade classwork and homework.
+#           - Data entry of student progress into Content Management System. 
+#           - Managed day to day operations. 
+#           - Communication and coordination skills developed through handling and adapting to unexpected situations that affected the business. 
+#           - Scheduling and coordinating meetings, interviews, events, and other activities. 
+#           - Assists with the hiring and training of new employees including interviews and documentation. 
+
+
+#     - role: UI Developer
+#       time: 2012 - 2014
+#       company: Amazon, London
+#       # optional
+#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# skills:
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
