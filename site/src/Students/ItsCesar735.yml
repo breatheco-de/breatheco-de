@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Cesar 
+    last_name: Gonzalez
+    motto: Psychologist
+    avatar: ~
+    summary: |
+        Studying at 4 Geeks FullSctack Developer. Interested in Software Development, using Java, Python, Javascript and other tools. 
+         
+
+    # Sidebar links
+    email: cesar735@gmail.com
+    phone: +569 69 17 16 17
+    website: ~
+    linkedin: www.linkedin.com/in/cesar-alberto-gonzalez-briceño-psicologo
+    github: ItsCesar735
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+    interests:
+      - item: Web Development
+      - item: Talent Acquisition
+      - item: Psychology
+
+education:
+    - degree: Psychologist
+      university: Universidad Yacambu
+      time: 2007 - 2012
+
+experiences: 
+      - Talent Acquisition Especialist in Salfa
+      - Talent Acquisition Especialist in WOM Chile
+      - Talent Acquisition Especialist in Inchcape Americas
+      - Talent Acquisition Especialist in AFP Modelo
+      
+
+projects:
+
+skills:
+    toolset:
+      - name: HTML5 / CCS 
+        level: Junior
+
+      - name: Javascript
+        level: Junior
+
+      - name: Node.js
+        level: Junior
+
+      - name: React
+        level: Junior
+
+      - name: Bootstrap
+        level: Junior
