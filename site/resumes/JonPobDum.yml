@@ -1,0 +1,124 @@
+---
+template: online-cv
+skin: berry
+basic_info:
+  first_name: Jonathan
+  last_name: Poblete
+  motto: I may not have money, but I do have ambitions.
+  focus: Full stack development
+  summary: A simple, loyal and ambitious person who want a place in the tech
+    world. I want to be a Fullstack developer and make money form the things I
+    love. My past jobs were as publicist and for "professional deformation" I'm
+    a creative and team-player person. I love read about technology, philosophy,
+    animation and mental health.
+  avatar: https://ibb.co/0fnqkts
+  email: jpoblete@gmail.com
+  phone: + 569 5535 9393
+  linkedin: https://www.linkedin.com/in/jonathan-poblete-dumihual-54b08b89/
+  github: JonPobDum
+  languages:
+    - language: Spanish
+      level: Native
+    - language: English
+      level: Professional
+  interests:
+    - item: Mental Health
+    - item: Philosophy
+    - item: Technology
+    - item: Music
+    - item: Anime
+    - item: Gaming
+    - item: Some TV Series
+education:
+  - degree: Bachelor Degree - Advertising Communication, Minor in Business Management
+    university: Universidad de Santiago de Chile
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Escudo_USACH.svg/1200px-Escudo_USACH.svg.png
+    time: 2009 - 2015
+    details: >
+      Bachelor degree in communication, Marketing and Business Mangement.
+
+      Skills in advertisement campaigns, strategic communication and marketing planning.
+
+      Prized with Best Academic Performance
+experiences:
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Postcard
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: InstagramFULL
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: FormHTML5
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: InstagramFeed
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Generador de excusas
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Javascript, React JS
+      level: Basic
+    - name: HTML5 & CSS
+      level: intermediate
+    - name: Python
+      level: Basic
+    - name: MS Office
+      level: intermediate
