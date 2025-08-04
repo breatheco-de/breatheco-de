@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tristan
+    last_name: Gonzales
+    
+    # Define yourself in 4-5 words
+    motto: Whatever happens, happens.
+    
+    # focus
+    focus: To become a web developer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I graduated in 2018 with a BS in Information Technology from FIU. Since then, I have worked for different tech companies.
+      I worked at Corsair Gaming from 2020 to 2022. At Corsair, I was part of the D2C team that provided sales and tech support through phone, chat, and email.
+      Since 2022, I have been working as an SMB sales associate for Microsoft. I will meet with clients by phone or virtually to 
+      assist them with getting software or devices for their business.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Tgonz089
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Collecting trading cards
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: BS in Information Technology
+      university: Florida International University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2018
+      details: |
+        During my time at school, I was exposed to a variety of disciplines. 
+        I have some exposure to many different fields in IT that include but are not limited to:
+
+          - C++
+          - Java
+          - UX design
+          - Networking
+
+    - degree: MS in Information Technology
+      university: Florida International University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2023
+      details: |
+        The Maters program at Florida International University will have us specialize in a specific field in IT.
+        Currently, I am studying software engineering and system administration. Some courses in the program are:
+
+          - Operating systems
+          - Internetworking
+          - Advanced software engineering
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Direct sales agent SMB
+      time: 2022 - Present
+      company: Microsoft
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Since 2022, I have been working as an SMB sales associate for Microsoft. I will meet with clients by phone or virtually to 
+        assist them with getting software or devices for their business. These are some of the products that I have worked with:
+
+          - Azure
+          - Microsoft 365
+          - Surface devices
+
+    - role: Direct to Consumer agent
+      time: 2020 - 2022
+      company: Corsair Gaming
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I worked at Corsair Gaming from 2020 to 2022. At Corsair, I was part of the D2C team that provided sales and tech support through phone, chat, and email.
+        These are some of the products that I worked with:
+
+          - Gaming peripherals
+          - Gaming PCs
+          - PC components
+
+# Your project portfolio
+projects:
+    intro: >
+      This is a list of some of the projects that I completed during my time at 4Geeks Academy.
+
+    assignments:
+      - title: Instagram feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Tgonz089/Insta-feed-pt-41
+        tagline: "A responsive website template designed simulate an Instagram photo feed."
+
+      - title: Excuse generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Tgonz089/Excuse-Generator
+        tagline: "A site that will generate different excuses."
+
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Tgonz089/Postcard
+        tagline: "A site that will have the appearance of a Postcard."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
