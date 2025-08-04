@@ -1,0 +1,108 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: abrahamjferrer@gmail.com
+  first_name: Abraham
+  focus: "Be better"
+  github: abrahamjf
+  interests: 
+    - 
+      item: Libros
+    - 
+      item: Videojuegos
+    - 
+      item: Aprender
+  languages: 
+    - 
+      idiom: Spanish
+      level: Nativo
+    - 
+      idiom: English
+      level: Avanzado
+    - 
+      idiom: ~
+      level: ~
+  last_name: Ferrer
+  linkedin: ~
+  motto: "Me gusta aprender"
+  phone: 04129062537
+  stack-overflow: ~
+  summary: "Soy una persona amable, educada y con muchas ganas de aprender. Quiero ser capaz de construir excelentes productos que puedan ser utilizados por las personas. Estoy aprendiendo \n"
+  twitter: unjoemas
+  website: ~
+education: 
+  - 
+    degree: "Caracas, Venezuela"
+    details: "Educacion Mencion Biologia y Quimica  \n"
+    time: 2015-2020
+    university: "Universidad Catolica Andres Bello"
+    university_logo: ~
+  - 
+    degree: "Caracas, Venezuela"
+    details: "Full Stack Developer \n"
+    time: 2022-Actualidad
+    university: "4geeks Academy"
+    university_logo: ~
+experiences: 
+  - 
+    company: "Colegio Internacional de Caracas"
+    company_logo: ~
+    details: "Profesor en el area de biologia y quimica. \n"
+    role: Profesor
+    time: 2019-Actualidad
+  - 
+    company: Banesco
+    company_logo: ~
+    details: "Asistente del departamento de recursos humanos y capacitacion \n"
+    role: "Asistente administrativo"
+    time: 2015-2018
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      project_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.\n"
+skills: 
+  toolset: 
+    - 
+      level: 95%
+      name: "HTML5 - CSS & Bootstrap"
+    - 
+      level: 95%
+      name: Javascript
+    - 
+      level: 80%
+      name: PHP
+    - 
+      level: 95%
+      name: "Python & Django"
+    - 
+      level: 95%
+      name: "C#"
+    - 
+      level: 60%
+      name: "Photoshop - Gimp - Illustrator - Blender"
+skin: orange
+template: online-cv
