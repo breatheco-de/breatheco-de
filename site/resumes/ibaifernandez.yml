@@ -1,0 +1,441 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Ibai
+  last_name: Fernández
+
+  motto: |
+    'Nulla dies sine linea'
+
+    'Nulla dies sine linea' is a Latin phrase meaning “no day without a single line”. It finds its source
+    in Pliny the Elder (Natural History, XXXV, 84), where the idea applies to the Greek painter Apelles,
+    who did not go a day without drawing at least one line. But it is only in the “Proverbiorum libellus”
+    by Polydore Vergil (1470-1555) in which the phrase itself is attested for the first time.
+
+  focus: |
+    Organized and motivated employee specially focused on time management, capable of working under pressure
+    in many different environments. Seeking to join an organization where I can make the best out of my potential,
+    contributing to the organization's growth, as the organization contributes to mine.
+
+  summary: |
+    Highly versatile entrepreneur with 9+ years of experience in setting up self-sustainable businesses and partaking
+    in corporate environments. Responsible for planning and directing daily operations, coming up with new ideas,
+    managing conflicts, supervision, sales, customer service, and marketing.
+
+    Always with the most positive attitude and ready to help others along the same path that I have chosen, I have
+    created my theoretical business model, regarding which I am always open to performing any adjustments necessary
+    based on each venture's particular needs.
+
+    Used to working outside the typical workdays, the strongest parts of my skill set are related to time management,
+    project managing (both planning and decision making), and leadership (for which a strong sense of communication
+    always comes in quite handy).
+
+  avatar: https://ibaifernandez.com/wp-content/uploads/2022/12/Ibai-Fernandez.jpg
+
+  email: info@ibaifernandez.com
+  phone: +593 98 403 8732
+  website: ibaifernandez.com
+  portfolio: ibaifernandez.github.io
+  linkedin: ibaifernandez
+
+  github: ibaifernandez
+
+  twitter: "ibaifernandezec"
+  stack-overflow: 20425982/ibai-fernández
+
+  languages:
+    - idiom: English
+      level: Bilingual
+
+    - idiom: Spanish
+      level: Native
+
+    - idiom: Mandarin
+      level: Basic
+
+    - idiom: French
+      level: Basic
+
+    - idiom: Italian
+      level: Basic
+
+  interests:
+    - item: Writing
+
+    - item: Mixology
+
+    - item: Music
+
+education:
+  - degree: BA in Audiovisual Communication
+    university: University of Málaga (Málaga, Spain)
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Universidad-de-Malaga.jpg
+    time: 2011 - 2012
+    details: |
+      The BA in Audiovisual Communication aims to provide general and systematic training, with the
+      appropriate scientific and humanistic foundation, so that communication through images contemplates
+      a reflective and critical process on its role in history and the generation of social imaginaries.
+
+        - Communication Theories
+        - Audiovisual Law
+        - Still Image History
+        - History of Cinema
+        - Communication Psychology
+        - Analysis of the Current Context and its Historical Evolution
+        - Sociology of Communication
+        - Journalistic Construction of Reality
+        - Advertising
+        - Public relations
+        - Audiovisual Narrative
+        - Theories and Research in Audiovisual Communication
+        - History of Audiovisual Media
+        - Still Image Technique and Editing
+        - Audiovisual Production
+        - Film Script
+        - Spanish literature
+        - Management and Audiovisual Production
+        - Promotion and Marketing of Audiovisual Products
+        - Audiovisual production
+        - Image Theory and Analysis
+        - Spanish cinema
+        - Audiovisual Creation
+        - Stage Direction
+        - Art Direction
+        - Direction of Photography
+        - Graphic Design
+        - Informative Documentation
+        - Contemporary Art Movements
+        - Photography
+        - Film and Video Postproduction
+
+  - degree: ExEd in Intercultural Communication
+    university: Haagse Hogeschool - The Hague (Netherlands)
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Haagse-Hogeschool.jpg
+    time: 2006
+    details: |
+      Intercultural communication students study the ways in which ideas, information and data are represented,
+      negotiated and communicated across different languages, cultures and media. They explore how language and
+      culture affects the interpretation of messages.
+
+        - American Studies
+        - Art and Globalization
+        - Contemporary British Studies
+        - Dutch Language
+        - Events Organization
+        - Introduction to Advanced Writing
+        - Italian Language
+        - Japanese Studies
+        - Project "Europe Calling"
+
+  - degree: ExEd in Production and Media Management
+    university: Missouri State University (Springfielf, MO, USA)
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Missouri-State-University.jpg
+    time: 2007-2008
+    details: |
+      Media Production and Management involves the studdy of the planning, scheduling, filming, editing, and commercialization
+      of audiovisual products. Everything that working behind the scenes entails in video, radio, television, and movies.
+
+        - TV Production
+        - Media Analysis and Criticism
+        - Communication Research Methods
+        - Introduction to Media Business
+        - Broadcast Industry
+        - Investment Opportunities
+        - Introduction to Multimedia Production
+        - TV & Film Production
+        - Sound Editing & Mixing
+        - Media Design & Production
+        — Broadcast Management
+
+        - GPA: 3.16
+
+  - degree: Master's Degree in Learning Disabilities - Spanish Language and Literature
+    university: Universidad de Salamanca (Salamanca, Spain)
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Universidad-de-Salamanca.jpg
+    time: 2016-2018
+    details: |
+      The Master's Degree in Learning Disabilities provides all the necessary knowledge and skills to address
+      and understand the way in which people with learning disorders and difficulties understand the world,
+      what is their way of processing information, feeling and perceive.
+
+        - Processes and Acquisition of Reading and Writing
+        - Difficulties in Learning to Read and Write - Assessment and Intervention
+        - Processes and Acquisition of Skills of Texts Comprehension and Writing
+        - Difficulties in Comprehension and Writing - Assessment and Intervention
+        - Processes and Acquisition of Linguistic Skills
+        - Disability and Learning Difficulties
+        - Difficulties in Learning - Linguistic Problem Resolution
+        - Cognitive and Emotional Processes in the Human Mind
+        - Attention Deficit Disorders and Behavioral Difficulties
+        - Specific Oral Language Difficulties
+        - Counseling and Intervention in Academic Centers
+        - Analysis of Educational Practice
+        - Organization of Interventional Aid
+
+  - degree: ExEd in Digital Marketing
+    university: Universidad de Especialidades del Espíritu Santo - UEES (Guayaquil, Ecuador)
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/UEES.jpg
+    time: 2018
+    details: |
+      The goal of the Digital Marketing Exed is to create effective, cutting-edge professionals who are able to
+      sell a company's brand, goods, and services thru a successful use of all marketing tools and strategies,
+      including PPC, SEO, SEM, email, social media, and display advertising.
+
+        - Fundamentals of Online Marketing
+        - Introduction to SEO: Search Engines
+        - SEM
+        - Social Media
+        - Digital Advertising
+        - Programmatic Advertising
+        - Branded Conten.
+        - Inbound Marketing
+        - Marketing Plan: Branding
+        - Marketing Plan: Performance
+
+  - degree: ExEd in Design Thinking
+    university: Massachusetts Institute of Technology
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/MIT.jpg
+    time: 2018
+    details: |
+      Design thinking is a powerful approach to new product development that begins with understanding unmet customer
+      needs. It's a human-centered design process that approaches problem-solving with understanding the user needs.
+      Design thinking encompasses concept development, applied creativity, prototyping, and experimentation. When design
+      thinking approaches are applied to business, the success rate for innovation has been seen to improve substantially.
+
+  - degree: Full-Stack Certificate
+    academy: 4Geeks Academy
+    university_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/4GeeksAcademy.jpg
+    time: 2022-2023
+    details: |
+      4Geeks Academy is the place where developers grow and thrive. Licensed by the USA F. Dep. of Education. Chosen
+      as one of the top 35 bootcamps of the world and top coding bootcamp in Miami according to SwitchUp. Recognized
+      as the top 10 coding bootcamps in the United States according to Newsweek..
+
+        - HTML
+        - CSS
+        - JS
+        - Python
+        - SQL
+        - React
+        - Node.js
+
+experiences:
+  - role: Founder & Owner
+    time: 2008 - Present
+    company: Elm St. Productions
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Elm-St-Productions.jpg
+    details: |
+      Creative laboratory run by professionals who are experts in graphic design, photography, communication, advertising,
+      film and television, writing, musical composition, and audiovisual production.
+
+        - Website: https://www.elmst.net
+        - Portfolio: https://youtube.com/elmstproductions
+
+  - role: Audiovisual Producer
+    time: 2014-2015
+    company: teleSUR English (Quito, Ecuador)
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/telesur.jpg
+    details: |
+      teleSUR English is an alternative representation for world news focused on the people, the common citizens,
+      and their stories, generally untold by traditonal media.
+
+        - Digital Content Production: Documentary pieces, Newscasts, Late Night format
+        - Production Studio Management
+        - Shooting Crew Management
+
+  - role: Founder & Owner
+    time: 2016 - Present
+    company: AGLAYA - Digital Marketing & Innovation
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/AGLAYA.jpg
+    details: |
+      Marketing agency specialized in the implementation of marketing, communication and creativity strategies
+      applied to the optimization of businesses of any size.
+
+        - Project Management
+          - Planning, Supervision and Execution
+          - Teams Coordination and Training
+
+        - Clients' Lifecycle Management
+          - Requirements Gathering
+          - Solution Proposal Development and Presentation
+          - Milestones Presentation and Deliverables Management
+          - Clients' Training
+          - Implementation and Post-implementation Supervision and Assistance
+
+        - Budget and Resources Preparation and Management
+
+        - Website: https://www.aglaya.biz
+
+  - role: Creative Director
+    time: 2016 - 2017
+    company: NIC.ec
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/nic-ec.jpg
+    details: |
+      NIC.ec is the company designated by EcuadorDomains, the only company authorized by ICANN as provider of the .ec
+      territorial domain, for the administration of said ccTLD.
+
+        - Campaign Planning
+        - Production Planning
+        - Team Management
+        - Creative Direction
+        - Art Direction
+        - Photography
+        - Publicity Campaigns
+        - Video Ads Production
+
+  - role: Communications Director
+    time: 2017 - 2018
+    company: NIC.ec
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/nic-ec.jpg
+    details: |
+      NIC.ec has 18 years of operation, more than 45,000 nationally and internationally active domains and 1,000 more
+      being activated monthly.
+
+        - Improvement of communication flow among departments
+        - Public Relationships
+        - Coordination and execution of a national project to digitize entrepreneurs
+
+  - role: Marketing Manager
+    time: 2018 - 2019
+    company: NIC.ec
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/nic-ec.jpg
+    details: |
+      NIC.ec is the only company authorized by ICANN as a provider and administrator of the .ec territorial domain.
+      NIC.ec has been in operation for 18 years, has more than 45,000 nationally and internationally active domains
+      and 1,000 more being activated monthly.
+
+        - Commercial Strategy Planning
+        - Commercial Operations Pitching & Supervision
+        - Digital Strategy Planning & Execution
+
+  - role: Founder & Owner
+    time: 2016 - Present
+    company: Andariega Store
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Andariega.jpg
+    details: |
+      Crafts & design workshop focused on customization and exclusivity.
+
+        - Website: https://www.andariega.store
+
+  - role: Founder & Owner
+    time: 2018 - Present
+    company: Kombutxa Índika
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Kombutxa-Indika.jpg
+    details: |
+      Best kombucha ever brewed. 20 times as alcoholic as any other kombutxa without the sour taste.
+
+        - Website: https://www.indika.ec
+
+  - role: Founder & Owner
+    time: 2021 - Present
+    company: Restaurante Chankete
+    company_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Restaurante-Chankete.jpg
+    details: |
+      Spanish restaurant in Salinas, Santa Elena, Ecuador. An experience beyond the gastronomic.
+
+        - Website: https://www.chankete.com
+
+# Your project portfolio
+projects:
+  intro: >
+    Here is some of the works which I've done mainly using HTML, CSS, and JS.
+
+  assignments:
+    - title: Tribute to Charles Bukoswki
+      # optional
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/bukowski.jpeg
+      link: "https://ibaifernandez.github.io/freecodecamp-projects/tribute-page/index.html"
+      tagline: "A tribute page to Charles Bukoswki as requested by Free Code Camp's exercises."
+
+    - title: Elm St. Productions' Website
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/elmst.jpeg
+      link: "https://elmst.net"
+      tagline: "Elm St. Productions' Website - An Audiovisual Production Company."
+
+    - title: Humans vs. Zombies
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/humans-vs-zombies.jpeg
+      link: "https://ibaifernandez.github.io/rock-paper-scissors-vs-zombies/"
+      tagline: "Defeat zombies in a deadly game of rock, paper and scissors."
+
+    - title: Google Custom Homepage
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/google-custom.jpeg
+      link: "https://ibaifernandez.github.io/google-homepage/google-homepage-custom.html"
+      tagline: "Google's custom homepage, as requested by The Odin Project's exercises."
+
+    - title: Google Standard Homepage
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/google-standard.jpeg
+      link: "https://ibaifernandez.github.io/google-homepage/google-homepage-standard.html"
+      tagline: "Google's standard homepage, as requested by The Odin Project's exercises."
+
+    - title: Google Results Page
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/google-results.jpeg
+      link: "https://ibaifernandez.github.io/google-homepage/google-homepage-results.html"
+      tagline: "Google's result page, as requested by The Odin Project's exercises."
+
+    - title: Text-Based Role Playing Game
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/rpg.jpeg
+      link: "https://ibaifernandez.github.io/rpg/"
+      tagline: "Text-based Role Playing Game (in process)."
+
+    - title: My Beautiful Postcard
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/my-beautiful-postcard.jpeg
+      link: "https://ibaifernandez.github.io/my-beautiful-postcard/"
+      tagline: "My Beautiful Postcard is one of the exercises requested by 4Geeks Academy."
+
+    - title: Instagram Mockup
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/instagram-mockup.jpeg
+      link: "https://ibaifernandez.github.io/instagram-mockup/"
+      tagline: "Instagram Mockup is one of the exercises requested by 4Geeks Academy."
+
+    - title: My Portfolio
+      project_logo: https://ibaifernandez.com/wp-content/uploads/2022/12/Portafolio-Ibai-Fernandez.jpg
+      link: "https://ibaifernandez.github.io/"
+      tagline: "My portfolio."
+
+skills:
+  toolset:
+    - name: Creativity
+      level: 90%
+
+    - name: Communication
+      level: 90%
+
+    - name: Writing
+      level: 90%
+
+    - name: Teaching
+      level: 90%
+
+    - name: Photography
+      level: 90%
+
+    - name: Audiovisual Production
+      level: 90%
+
+    - name: Project Management
+      level: 90%
+
+    - name: Team Management
+      level: 90%
+
+    - name: Marketing & Digital Marketing
+      level: 90%
+
+    - name: Digital Advertising
+      level: 90%
+
+    - name: Graphic Design
+      level: 75%
+
+    - name: HTML
+      level: 85%
+
+    - name: CSS
+      level: 75%
+
+    - name: JavaScript
+      level: 65%
+
+    - name: Wordpress
+      level: 85%
