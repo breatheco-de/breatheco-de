@@ -1,0 +1,187 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aily
+    last_name: Gucfa
+    
+    # Define yourself in 4-5 words
+    motto: Smile Radiate Happiness Within
+    
+    # focus
+    focus: I am focused on continuous improvement in full stack development. To enhance my skills and stay updated with the latest technologies and frameworks.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+          Good interpersonal treatment, passionate about technology, responsible, creative, collaborative and persevering. Strategic logical thinking.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: almacin.aily@gmail.com #optional
+    phone: 3474164157 #optional
+    website:   #optional
+    linkedin: www.linkedin.com/in/aily-gucfa-252b9273 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AilyGucfa
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Bisaya/Tagalog
+        level: Native
+
+      - idiom: English
+        level: Level 1+ intermediate
+
+      - idiom: Japanese
+        level: Beginner
+
+    # Interests or hobies
+    interests:
+      - item:  learning full stack development
+
+      - item: travel with my husband 
+ 
+
+      
+
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2021
+      details: |
+        I am currently pursuing my studies in full stack web development, where I am dedicated to expanding my knowledge and skills in both front-end and back-end technologies. This ongoing journey allows me to stay up-to-date with the latest industry trends and continuously enhance my abilities in creating dynamic and interactive web applications.In my studies, I am immersing myself in front-end technologies such as HTML, CSS, and JavaScript, honing my skills in building visually appealing and user-friendly interfaces. throughout my studies, I am actively engaged in practical projects that allow me to apply my knowledge and skills in real-world scenarios. These projects provide me with valuable experience.By still studying full stack web development, I am demonstrating my commitment to continuous learning and professional growth. I am eager to further expand my skill set, stay updated with emerging technologies, and contribute to the ever-evolving field of web development. I am excited about the opportunities that lie ahead and the potential to make a meaningful impact in the industry.
+        
+
+          
+          
+
+    - degree: Bachelor in Information Technology
+      university: University of Cebu
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        I pursued a degree in information technology, where I gained a comprehensive understanding of various aspects of technology and its applications. Throughout my studies, I focused on areas such as computer systems, software development, networking and database management.
+
+          
+          
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Server
+      time: April 2023 - up to present
+      company: Komodo Restaurant
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Responsible to promote and ensure guest satisfaction, maintain a safe and sanitary work environment and ensure only the highest quality are being served.
+        Established rapport with guest to build guest loyalty and gather constructive feedback to ensure satisfaction of every individual guest
+          
+          
+
+    - role: Server
+      time: 2017 - 2021
+      company: Marina Bay Sands
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        To be involved in the setting of department targets and objectives.
+        Ordering and inventory of the stock.
+        To ensure mise en place are prepared according to Bar standards.
+        To delegate and manage distribution of workload effectively.
+        To build positive relationships with the guests. To ensure customer satisfaction
+
+          
+
+    - role: Technical Support Specialist
+      time: May 2011 - Dec 2012
+      company: Sykes Asia Inc
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Smartphone Account
+          Receives calls from North America clients for Palm devices and its software.
+          Performs troubleshooting for the Palm devices and customers computer interface
+          Handles customers technical and hardware warranties
+          C1oordinate with floor Supervisor for case escalation queued on the system. 
+          ISP Account
+          Performs troubleshooting for Internet, TV and phone connection issue in a timely manner
+          Accurately process and record call transaction using a computer and designated tracking software
+          Follow up and make scheduled call backs to customer where necessary
+          Stay current with system information changes and updates
+          Renders good customer service skills like patience, clarity of communication and professionalism.
+
+          
+          
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: Instagram Post Using Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/instagram-ailygucfa"
+        tagline: "An instagram post using bootstrap for a beginner like me ."
+
+      - title: HTML Form using bootstrap and css
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/html-form-ailygucfa"
+        tagline: "We are tasked to replicate an html form and I did use bootstrap with a little css."
+
+      - title: Fix the misspell challenge
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AilyGucfa/ailygucfa--fix-the-misspell-challenge.git"
+        tagline: ""
+
+skills:
+    toolset:
+      - name: HTML
+        level: 70%
+
+      - name: CSS
+        level: 50%
+
+      - name: BOOTSTRAP
+        level: 70%
+
+      - name: JAVASCRIPT
+        level: 10%
+
+      - name: PYTHON
+        level: -%
+
+      - name: GIT
+        level: 10%
+
+      - bask command line:
+        level: 20%
+
+    software:
+
+   
+    soft skills and knowledge: Customer management,food & beverage  
