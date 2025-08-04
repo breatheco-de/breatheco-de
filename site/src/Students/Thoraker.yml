@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felix Antonio
+    last_name: Pacheco Lobos
+    
+    # Define yourself in 4-5 words
+    motto: Gamer, tecnology enthusiast
+    
+    # focus
+    focus: Ready to learn
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Llevo fascinado por la tecnología toda una vida desde que me regalaron un Atari 800XE a los 10 años, en el mismo manual incluido venian lineas de código que si lo tecleabas correctamente podias ver y oir en tu televisor como caía una bomba (en 8 bits), ahora decidí que hora de convertir una pasión en una profesión.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.canva.com/design/DAFcYV78TPY/2l2F8bg-1hzJNXwwCB0mjQ/view?utm_content=DAFcYV78TPY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+    # Contact Information
+    email: pachecolobos.felix@gmail.com #optional
+    phone: 56 9 63546825 #optional
+    website: asd.com #optional
+    linkedin: linkedin.com/in/felix-antonio-pacheco-lobos-b5514016a #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Thoraker
+    
+    twitter: 'thoraker2' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Cooking
+
+      - item: Movies
+
+      - item: Bonsai
+
+# Your previous education
+education:
+    - degree: Full-stack developer 
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: jan-2023 / jul-2023
+      details: |
+        Estoy actualmente en el Bootcamp 4geeks Academy, en le cual redescubrí la sensacion de no estar tranquilo hasta ver tu código corriendo como lo habias imaginado.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Back-office executive in customer services 
+      time: 2012 - 2023
+      company: VTR, Santiago
+      # optional
+      company_logo: https://static.wikia.nocookie.net/tvcable/images/0/0d/VTRlogo.png/revision/latest?cb=20150418025832&path-prefix=es
+      details: |
+        Back office executive in customers services and formals claims, problem solving specialist and give a solution to the claim made for the client to Sernac and/or Subtel.
+    
+# Your project portfolio
+projects:
+    intro: >
+      Still a work in progress.
+    assignments:
+      - title: Excuse generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Random generator to make a viable excuse"
+
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+        
+Footer:
+copyrightText: © 2023 GitHub, Inc.
+columns:
+    - group: Legal
+      permission: read-docs
+      items:
+        - label: Terms of Use
+          href: ''
+        - label: Privacy Notice
+          href: ''
+          external: true
+    - group: Support
+      items:
+        - label: FAQ
+          page: developer-portal/faq.md
+          permission: read-docs
+          external: true
+    - group: Contacts
+      items:
+        - label: Contact us
+          page: developer-portal/contact.mdx
+        - label: 
+          page: 
+          permission: 
+        - label: 
+          page: 
+          permission: 
+        - label: 
+          page: 
+          permission: 
+          external: true
