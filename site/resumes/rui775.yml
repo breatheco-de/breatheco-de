@@ -1,0 +1,102 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rui
+    last_name: Silva
+    
+    # Define yourself in 4-5 words
+    motto: My world is my family.
+    
+    # focus
+    focus: Addicted in new challenges and always focused in the solution.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      All started with a Zx Spectrum 48k... The passion for IT became from long time ago but life didn't provide me that path. 
+      Twenty five years I embraced my first challenge when got back to school and get my first degree in Environmental Managment and after that I took a superior degree in Environmental Engineer, while at that time already working as a freelancer.
+      And that's what I've done for more about 15 years and later working in a coordinator role. From two years until now, I started to take some introdutory courses to get into the IT universe. 
+      At the same time I have been studying english to improve my skills. This took me to the actual stage where I want to embrace this new challenge, that is to say I intend to change career to became a Full Stack Developer.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    #avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: rsilva6420@gmail.com
+    phone: #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/rui-silva-3183a6a1/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: rui775
+    
+    vercel: vercel.com/rui775
+    stack-overflow: 21304362/rui775
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Intermediate B2
+
+      - idiom: French
+        level: Basic A2
+      
+      - idiom: Spanish
+        level: Basic A1
+
+    # Interests or hobies
+    interests:
+      - item: Movies/Tv series
+
+      - item: Travel
+
+      - item: Meditation
+
+# Your previous education
+education:
+    - degree: Degree in Environmental Engineering
+      university: Polytechnic Institute of Viana do Castelo
+      # optional
+      university_logo: https://www.phosphorland.pt/wp-content/uploads/2017/07/esapl.jpg
+      time: 2001 - 2006
+      details: |
+        Geographic Information Systems, Water and Waste Water Treatment, Rural Planning.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Land registry technician
+      time: 2019 - 2022
+      company: Trancoso city council
+      # optional
+      details: |
+        Technician at the City Council of Trancoso. Technical coordinator of BUPi (Balcão Único do Predio). 
+        Technical support to the chestnut sector within the scope of the TancastNut project. 
+        Technical support to producers (plant health, cultural practices, projects).
+
+    - role: Technical coordinator engineer
+      time: 2015 - 2019
+      company: Piscotávora - Forest Producers Association
+      details: 
+        Project elaboration and monitoring. 
+        Forestry technician and follow-up technician for the team of forest sappers. 
+        Preparation of candidacies and projects. Development of forest management plans.
+
+# Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    
