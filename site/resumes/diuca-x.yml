@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: blue
+
+basic_info:
+  first_name: Diuca 
+  last_name: Puig
+  motto: Learing to be a Full-stack developer
+
+  focus: back-end 
+
+  summary: An entry-level programmer working hard to improve my skills on different technologies such as, Java, JavaScript, Python, SQL, HTML, CSS. And become a Full-stack developer. 
+
+  avatar: 
+
+  email: diucapuig@gmail.com
+  phone: +34 722617903
+  linkedin: https://www.linkedin.com/in/diuca-puig-42b871252/
+
+  github: diuca-x
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: professional
+
+  interests:
+    - item: Snowboarding
+    - item: Gaming
+    - item: Volleyball
+
+education: 
+  - degree: Ingenieria en Sistemas de Informacion
+    university: Universidad Tecnologica Nacional
+    university_logo: https://www.efundaap.com/wp-content/uploads/2020/02/UTN-FRC_logo.png
+    time: 2017-2019
+    details: 
+      degree in software engineering
+
+  - degree: Ingenieria Naval
+    university: Universidad Tecnologica Nacional
+    university_logo: https://www.frba.utn.edu.ar/wp-content/uploads/2016/08/logo-utn.ba-horizontal-e1471367724904.jpg
+    time: 2019-2021
+    details: 
+      degree in marine engineering
+
+experiences:
+  - role: Web Developer
+    time: 2022- Now
+    company: MC Marketing Digital
+    details: |
+        Web development using the Wordpress tool.
+
+projects:
+  intro: >
+    Software development projects as part of the 4GeeksAcademy Full-stack developer program.
+  
+  assignments:
+
+    
+      - title: Instagram photo feed with bootstrap
+        link: https://github.com/diuca-x/Instagram-feed-with-bootstrap
+        tagline: " An interactive instagram feed using Bootstrap "
+
+      - title: Create an HTML5 form
+        link: https://github.com/diuca-x/html5-form-using-bootstrap
+        tagline: " Created an HTML form using Bootstrap "
+
+skills:
+  toolset:
+    - name: Java
+      level: 90%
+
+    - name: JavaScript
+      level: 70%
+    
+    - name: Python
+      level: 60%
+    
+    - name: HTML & CSS
+      level: 70%
+    
+    
+      
+   
+
