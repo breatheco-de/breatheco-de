@@ -1,0 +1,99 @@
+template: "online-cv"
+skin: "orange"
+
+
+basic_info:
+
+   
+    first_name: Cesar Eduardo
+    last_name: Vallenilla Torrealba
+    
+   
+    motto: Frontend Developer
+    
+    
+
+    
+    
+   
+    summary: |
+      Después de varios años trabajando en distintos sectores fuera de la tecnologia, decidi introducirme en este mundo de la programacion a travez del desarrollo web. Partiendo desde el punto de vista del diseño que es algo que me apasiona
+      
+    
+ 
+    avatar:
+ 
+    email: cesarev17@gmail.com
+    phone: 1137966282
+    linkedin: https://www.linkedin.com/in/c%C3%A9sar-eduardo-vallenilla-torrealba-a09892168/
+    
+  
+  
+    github: cesarvallenilla
+    
+   
+    languages:
+      - idiom: Inglés
+        level: intermedio
+
+      - idiom: Español
+        level: Nativo
+
+      - idiom: 
+        level: 
+
+ 
+    interests:
+      - item: Tecnología
+
+      - item: Musica
+
+      - item: Cine de autor
+
+
+education:
+    - degree: Secundario
+      university: Colegio Santos Luzardo
+      time: 2007 - 2012
+      
+experiences:
+    - role: Vendedor
+      time: 2016 - 2020
+      company: El Corte Inglés
+      details: |
+        Ventas, gestión de pedidos, stock y SAP Retail. 
+    - role: Mozo de Almacen
+      time: 2015 - 2019
+      company: Vocento
+      details: |
+        Realizado funciones de soporte y coordinación logística en eventos.
+          
+assignments:
+- title: Instagram Post
+  link: "https://github.com/alexcastillla/SecurityCompany-LoginAccessTemplate-Bootstrap"
+  tagline: "Realizado login template usando Bootstrap, CSS y HTML."
+
+- title: Proyecto colaborativo de diseño de pagina web
+  link: "https://github.com/alexcastillla/execise-collaborativehtml"
+  tagline: "Primer proyecto colaborativo usando Github y Gitpod. Para realizar el template se han utilizado CSS, HTML y Bootstrap"
+
+- title:
+  link: 
+  tagline: 
+
+skills:
+    toolset:
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Git
+        level: 40%
+
+      - name: Github
+        level: 40%
