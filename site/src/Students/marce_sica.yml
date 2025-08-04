@@ -1,0 +1,89 @@
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Marcelo
+  last_name: Sica
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary:
+    Estoy en el Bootcamp 4geeks Academy, el cual me permite convertirme en programador. En el aprendo tecnologias como JavaScript,
+    React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+    el trabajo grupal con github.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/100654531?v=4
+
+  # Contact Information
+  email: marcelosica10@gmail.com #optional
+  phone: 54 9 1156986626 #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Marce-Sica
+
+
+
+  # Interests or hobies
+  interests:
+    - item: Teatro
+
+    - item: Taekwon-do
+
+    - item: Aviación
+
+# Your previous education
+education:
+  - degree: técnico electrónico
+    institute: Instituto Cardenal Stepinac
+    # optional
+    university_logo: https://pbs.twimg.com/profile_images/438711094807244801/54l9dsj5_400x400.jpeg
+    time: mar-2013 - dic-2019
+    details: |
+      Conocimientos: carpintería, electricidad, electrónica, robótica.
+
+    education:
+  - degree: desarrollador full-stack
+    academy: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: ene-2023 - jul-2023
+    details: |
+      Tecnologias aprendidas: JavaScript,
+      React, Bootstrap, Flux , Python, Sql, SqlAlchemy, Flask, Jwt, Jest y Habilidades como
+      el trabajo grupal con git
+
+experiences:
+ 
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: 
+      Instagram Feed: modelo de Instagram.
+      Tecnologias: Html, Css, Bootstrap.
+
+      Random Card Generator: 
+        Tecnologias: Html, Css, Bootstrap, JavaScript.
+
+      Sitio web(Colaborativo): 
+        Tecnologias: Html, Css, Bootstrap, Javascript, Git.
+
+      Simple Counter: 
+        Tecnologias: Html, Css, Bootstrap, Javascript, Git, React.
+ 
+skills:
+    toolset:
+      - name: HTML5
+        level: 90%
+
+      - name: CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 80%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: React
+        level: 50%
+
