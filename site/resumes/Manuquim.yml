@@ -1,0 +1,72 @@
+--- 
+basic_info: 
+  avatar: ~
+  email: manuelcabreraosorio11@gmail.com
+  first_name: Manuel
+  github: Manuquim
+  interests: 
+    - 
+      item: Engineering
+    - 
+      item: Chemistry
+    - 
+      item: Informatics
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: Catalonian
+      level: Native
+    - 
+      idiom: English
+      level: Professional
+  last_name: Cabrera
+  linkedin: ~
+  motto: "Full-stack Developer Student"
+  phone: "619 07 43 13"
+  stack-overflow: ~
+  summary: "Working on printing ink flexographic industry since 1995 and as a paint formulator in Spain and US (BFGoodrich). Right now, changing my professional profile in 4GeeksAcademy as a Front-End Web Developer."
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "industrial engineering"
+    details: ~
+    time: 1987-1993
+    university: "Catalonian Polytechnic University"
+  - 
+    degree: MBA
+    details: ~
+    time: 1995-1997
+    university: "Catalonian Polytechnic University"
+experiences: 
+  - 
+    company: "4Geeks Academy"
+    details: "Developing skills in Web Design."
+    role: Student
+    time: Currently
+projects: 
+  assignments: 
+    - 
+      link: "https://github.com/Manuquim/excuseGenII"
+      tagline: "Random excuse generator based on HTML and Javascript"
+      title: "Excuse Generator"
+    - 
+      link: "https://github.com/Manuquim/photoFeedBootstrapInstagram"
+      tagline: "Photo Feed Instagram style based on Bootstrap and HTML"
+      title: "Instagram Photo Feed"
+  intro: "There are some of my github projects for the 4GeeksAcademy cours!\n"
+skills: 
+  toolset: 
+    - 
+      level: 50%
+      name: "HTML5 & CSS"
+    - 
+      level: 50%
+      name: Javascript
+    - 
+      level: 75%
+      name: C++
+skin: orange
+template: online-cv
