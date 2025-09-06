@@ -1,0 +1,85 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    #Your full name
+    first_name: Gregoriant Angelo
+    last_name: Bere
+
+    #Define yourself in few words
+    moto: dare to dream dare achive 
+    
+    focus: keep learning 
+
+    summary: |
+        I graduated as a mathematics teacher and have dedicated much of my time 
+        to volunteering in various activities with young people. 
+        I enjoy teaching and sharing my knowledge with them,
+        helping to inspire their interest in learning.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/gregoriant
+
+    # Contact Information
+    email: gregangel1550@gmail.com 
+    phone: 613642913
+    website: 
+    linkedin: www.linkedin.com/in/gregoriant-angelo-bere-544373324
+
+    github: gregangel1550-del
+    languages:
+      - idiom: Indonesian
+        level: Native
+
+      - idiom: Spanish
+        level: Personal
+        
+      - idiom: English
+        level: Profesional
+
+    interests:
+      - item: Mathematics
+
+      - item: Coding
+
+      - item: Playing Guittar
+
+      - item: Reading
+
+      - item: Machine Learning
+
+
+education:
+    - degree: Mathematics Education
+      university: Sanata Dharma University
+      time: 4 years
+      details: Yogyakarta - Indonesian
+
+    - degree: Philosophy
+      university: Pontificia de Comillas
+      time: 2 years
+      details: Madrid - Spain
+   
+      
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: Basic
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
