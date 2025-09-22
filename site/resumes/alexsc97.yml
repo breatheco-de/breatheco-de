@@ -1,0 +1,112 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    first_name: Alejandro
+    last_name: Silva 
+    
+    motto: Videojuegos, Matemáticas, Datos, IA
+    
+    focus: Estudiante de Ingeniería en Sistemas
+    
+    summary: |
+      Estudiante de Ingeniería en Sistemas en la UVM con interés en el 
+      análisis de datos, programación y bases de datos. Actualmente 
+      aprendiendo Python y SQL en el Bootcamp de Data Science en 4Geeks Academy.  
+
+      Me caracterizo por mi curiosidad, disciplina y enfoque en aprender rápido, 
+      cualidades que me permiten desarrollar un gran potencial para crecer en 
+      el área de Data Science e Inteligencia Artificial.
+    
+    avatar: "https://lh3.googleusercontent.com/pw/AP1GczOrAUKQqaJ1VQfhF8x-CQ83FFaU5yxWSOd3uPndNnmumYG_pL9hx5JcVNTRRoLnIz6seBdaO4iom0hl1w9Lz7tajvtGAVNncEu11osXkdjqLCFetGWlrpcT3gJfFg58o1XypbAuPmHycP5dMWeI4H-gaw=w245-h512-s-no-gm?authuser=0"
+
+    email: asjerk00@gmail.com
+    phone: +52 66260306040
+    github: alexsc97
+    linkedin: https://www.linkedin.com/in/alejandro-silva-ab8a8237b/
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+    interests:
+      - item: Videojuegos
+      - item: Matemáticas aplicadas
+      - item: Inteligencia Artificial
+      - item: Lectura
+
+# Education
+education:
+    - degree: Ingeniería en Sistemas (en curso)
+      university: Universidad del Valle de México (UVM)
+      time: 2023 - Actualidad
+      details: |
+        Formación en fundamentos de programación, matemáticas aplicadas 
+        y sistemas computacionales.
+
+          - Programación en Python
+          - Bases de datos (SQL)
+          - Fundamentos de estadística
+
+    - degree: Bootcamp en Data Science
+      university: 4Geeks Academy
+      time: 2025
+      details: |
+        Entrenamiento intensivo en programación y análisis de datos.
+
+          - Python para ciencia de datos
+          - SQL y manejo de bases de datos
+          - Visualización de datos
+
+# Experiences
+experiences:
+    - role: Estudiante de Ingeniería en Sistemas
+      time: 2023 - Actualidad
+      company: UVM
+      details: |
+        Participación en proyectos académicos y prácticas con fundamentos 
+        de programación, bases de datos y lógica computacional.
+
+    - role: Bootcamp Student en Data Science
+      time: 2025
+      company: 4Geeks Academy
+      details: |
+        Aprendizaje intensivo de Python, SQL y análisis de datos 
+        en proyectos prácticos.
+
+# Projects
+projects:
+    intro: >
+      Algunos proyectos académicos y de práctica en programación y análisis de datos.
+
+    assignments:
+      - title: Análisis de Datos con Python
+        link: "#"
+        tagline: "Exploración de datasets con pandas y matplotlib."
+
+      - title: Proyecto SQL
+        link: "#"
+        tagline: "Consultas y normalización de bases de datos relacionales."
+
+# Skills
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: SQL
+        level: 50%
+
+      - name: Análisis de Datos
+        level: 55%
+
+      - name: Estadística Básica
+        level: 40%
+
+      - name: HTML & CSS
+        level: 40%
