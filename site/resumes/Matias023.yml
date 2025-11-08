@@ -1,0 +1,117 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  first_name: Matías
+  last_name: Gutiérrez Navarrete
+
+  motto: Soporte Informático & Desarrollo Web
+
+  focus: Infraestructura de redes, soporte técnico y desarrollo Front-End.
+
+  summary: |
+    Técnico Informático con experiencia en soporte de redes, diagnóstico y resolución de incidencias,
+    administración de sistemas y acompañamiento a usuarios finales. He trabajado en entornos educativos
+    gestionando infraestructura tecnológica, inventarios, documentación y procesos de soporte, así como
+    desarrollo web y automatización básica. Me caracterizo por mi proactividad, comunicación efectiva,
+    responsabilidad y capacidad de gestión en situaciones de presión.
+
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+  email: mj.gutierreznn@gmail.com
+  phone: "+56 9 6353 2315"
+  linkedin: https://github.com/Matias023
+  github: https://github.com/Matias023
+
+  languages:
+    - idiom: Español
+      level: Nativo
+
+    - idiom: Inglés
+      level: Avanzado B2
+
+  interests:
+    - item: Tocar música
+    - item: Aprender idiomas
+    - item: Viajes y naturaleza
+    - item: Tecnología y automatización
+
+education:
+  - degree: Técnico en Computación Informática
+    university: Instituto Profesional IACC
+    time: 2020 - 2022
+    details: |
+      Formación en soporte tecnológico, redes, administración de sistemas y fundamentos
+      de programación. Desarrollo de trabajo con sistemas operativos, hardware y
+      diagnóstico de fallas.
+        - Gestión y soporte en redes.
+        - Mantenimiento y configuración de equipos.
+
+  - degree: Traducción e Interpretación en Inglés (en pausa)
+    university: Universidad de las Américas
+    time: 2016 - 2019
+    details: |
+      Estudios orientados a comprensión lingüística, comunicación efectiva y traducción
+      de documentos técnicos, literarios y funcionales.
+        - Gramática y lingüística aplicada.
+        - Traducción técnico-profesional.
+
+  - degree: Formación en Redes Cisco Meraki
+    university: Cisco Networking Academy
+    time: 2023 - Actual
+    details: |
+      Estudio y práctica en redes, switches, access points, gestión cloud, routing y seguridad.
+
+experiences:
+  - role: Soporte Redes y TI
+    time: Marzo 2022 – Mayo 2022
+    company: Cognita Chile
+    details: |
+      Asesoría y soporte integral en redes, equipos tecnológicos y servicios TI.
+        - Levantamiento de requerimientos y atención a usuarios.
+        - Mantenimiento preventivo y correctivo de equipos.
+        - Validación de ambientes y pruebas de funcionamiento.
+
+  - role: Soporte Redes y TI
+    time: Abril 2022 – Agosto 2023
+    company: American British School
+    details: |
+      Gestión, soporte técnico y administración básica de infraestructura tecnológica escolar.
+        - Atención a usuarios y resolución de incidencias.
+        - Organización e inventario de equipos tecnológicos.
+        - Soporte a redes, telecomunicaciones y servidores.
+
+projects:
+  intro: >
+    Algunos proyectos personales y de estudio orientados al desarrollo web y automatización.
+
+  assignments:
+    - title: Front-End Personal Portfolio
+      tagline: Portafolio profesional desarrollado con HTML, CSS y JavaScript.
+
+    - title: Gestión de Inventario TI
+      tagline: Sistema básico de control de equipos tecnológicos con planillas, macros y reportes.
+
+    - title: Aplicación Flask Básica
+      tagline: Proyecto CRUD simple usando Python, Flask y SQL.
+
+skills:
+  toolset:
+    - name: Soporte Técnico (Hardware/Software)
+      level: 90%
+
+    - name: Redes y Telecomunicaciones
+      level: 85%
+
+    - name: HTML, CSS y JavaScript
+      level: 80%
+
+    - name: Python / Flask / Django (Nivel estudiante)
+      level: 60%
+
+    - name: SQL / PostgreSQL / MS SQL Server
+      level: 70%
+
+    - name: Microsoft Office Avanzado
+      level: 95%
