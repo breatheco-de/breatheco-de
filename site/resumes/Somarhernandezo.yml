@@ -1,0 +1,100 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Sergio Omar
+  last_name: Hernández Ortiz
+  motto: Perseverante, adaptable, constante, ambicioso
+  focus: El único modo de hacer un gran trabajo es amar lo que haces
+  summary: >
+    Analista administrativo y comunicólogo con experiencia en gestión
+    operativa, análisis de datos, control de información y soporte corporativo
+    en entornos de alto volumen. Destacado por optimizar procesos, garantizar
+    cumplimiento de políticas y mejorar la eficiencia administrativa en
+    instituciones públicas y privadas. Enfocado en resultados, análisis y mejora
+    continua
+
+
+    Second paragraph if required. https://ibb.co/VWnJqHsZ avatar: https://ibb.co/WNJSH4Mp
+  email: sohernandezo@yahoo.com.mx
+  phone: 55 3054 7260
+  website: null
+  linkedin: https://www.linkedin.com/in/sergio-omar-hernandez-ortiz/
+  github: Somarhernandezo
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Professional
+  interests:
+    - item: Viajar
+    - item: Hacer deporte
+    - item: Escuchar música
+education:
+  - degree: Licenciado en Ciencias de la Comunicación
+    university: Universidad Tecnológica de México
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/6/60/UNITEC_logo.jpg
+    time: 2001 - 2004
+    details: >
+      Educación práctica enfocada a las áreas de comunicación organizacional,
+      administrativa, publicidad, periodismo, producción audiovisual y medios
+      interactivos, con un enfoque en estrategias creativas e innovadoras..
+
+        - Diseño de estrategias de comunicación interna/externa.
+        - Áreas de comunicación social, comunicación organizacional e imagen institucional.
+experiences:
+  - role: Analista de Información
+    time: 2024 - 2025
+    company: Grupo Televisa
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logotipo_de_Televisa.svg/3840px-Logotipo_de_Televisa.svg.png
+    details: >+
+      - Automatizar el seguimiento y clasificación diaria de contenidos
+      noticiosos, reduciendo el tiempo de procesamiento. Elaborar informes
+      estratégicos para la alta dirección y participación en reportes
+      ejecutivos. Proponer mejoras en la gestión de recursos informativos para
+      incrementar la eficiencia operativa del área. Coordinar la atención
+      inmediata a eventos de comunicación relevantes.
+
+        
+  - role: Jefe de Departamento
+    time: 2016 - 2022
+    company: Comisión Nacional de los Derechos Humanos
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/d/dd/Logo_de_la_CNDH.svg
+    details: >
+      Participar en proyectos de difusión y campañas institucionales con
+      impacto nacional. Supervisar el inventario y distribución de
+      publicaciones, logrando un control de insumos 100 % actualizado y sin
+      pérdidas. Coordinación de eventos y materiales de comunicación con
+      reducción del 20 % en tiempos de entrega y cumplimiento total de
+      normativas internas. Gestionar reportes administrativos y documentación
+      con cero observaciones en auditorías internas.
+  - role: Coordinador de edición y asistente de producción
+    time: 2012 - 2016
+    company: TV Azteca
+    company_logo: https://tvazteca.brightspotcdn.com/dims4/default/b00e259/2147483647/strip/true/crop/394x92+0+0/resize/1156x270!/quality/70/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F84%2F6c%2Fcde3ad04432cbccd772588a79542%2F1.%20LogoTVASitioOK.png
+    details: >
+      Coordinación de flujos de edición y postproducción para noticieros
+      nacionales y deportivos, optimizando tiempos de salida al aire.
+      Implementar nuevas plantillas gráficas y visuales que aumentaron la
+      consistencia visual de programas en un 30 %. Soporte en cabina y control
+      de producto integrado, asegurando la operación diaria sin interrupciones.
+skills:
+  toolset:
+    - name: Microsoft Office
+      level: 60%
+    - name: Google Workspace
+      level: 60%
+    - name: Outlook
+      level: 70%
+    - name: Acrobat
+      level: 50%
+    - name: Photoshop
+      level: 40%
+    - name: Final Cut
+      level: 50%
+    - name: Premier
+      level: 38%
+    - name: After Effects
+      level: 35%
