@@ -1,0 +1,115 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Arias
+    
+    # Define yourself in 4-5 words
+    motto: I enjoy sports
+    
+    # Focus
+    focus: Technology, Business and Finance
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Recent graduate in Business Administration with knowledge of coding and basic experience in artificial intelligence.
+      Interested in applying technology and analytical skills to improve business processes, support data-driven decisions,
+      and contribute to innovative projects.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: danielcfc3008@gmail.com #optional
+    phone: 58 412 551 33 26 #optional
+    
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Dsha40
+    
+  
+    stack-overflow: Daniel Arias
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Swimming
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Business Administration –
+      university: Universidad Católica Andrés Bello (UCAB)
+      # optional
+      university_logo: https://cambiodigital-ol.com/wp-content/uploads/2021/07/UCAB-logo-1068x601.jpg
+      time: 2018 - 2026
+      details: |
+        Bachelor’s Degree in Business Administration from Universidad Católica Andrés Bello (UCAB), 
+        with academic training in finance, accounting, marketing, economics, and strategic management. 
+        The program focuses on developing analytical thinking, leadership, and decision-making skills to manage 
+        organizations, improve business processes, and adapt to dynamic economic environments.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2025 - 2026
+      company: Healthcare Center Santa Inés
+      # optional
+      company_logo: https://somoscomunidad.org.ve/wp-content/uploads/2017/08/Logo-Salud-Santa-Ines.jpg
+      details: |
+        Administrative intern at the Sustainability Department of the Centro de Salud Santa Inés (UCAB), 
+        where I supported operational and financial processes related to institutional partnerships and healthcare service management.
+         My responsibilities included reviewing and validating invoices, monitoring accounts receivable in the Profit system, 
+         organizing patient and billing data, and assisting in the development of strategic initiatives such as marketing planning 
+         and partnership prospecting. This experience strengthened my skills in administrative management, data analysis, and strategic 
+         coordination within the healthcare sector.
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects completed during a full-stack development course, involving the creation of web applications using both front-end and back-end technologies, 
+      including user interfaces, databases, and application logic.
+
+    assignments:
+      - title: Instagram Post
+        # optional
+    
+        link: https://github.com/Dsha40/instagram-post
+        tagline: Template
+
+      - title: DevStudio
+        
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: JavaScript & jQuery
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby
+        level: 85%
