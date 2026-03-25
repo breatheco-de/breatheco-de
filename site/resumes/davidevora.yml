@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: David
+    last_name: Evora
+    motto: Student FullStack Developer
+    avatar: https://avatars2.githubusercontent.com/u/56396346?v=4
+    summary: |
+
+        I started studying full-stack development at the 4geeks academy. I'm eager to continue learning and dedicate myself to this for life.
+
+        I'm turning 24 soon, and I've been working to support myself since I was 15. I've been working in warehouses since I was 18.
+
+        My passion has always been technology, and I want to learn more and more every day.
+
+    # Sidebar links
+    email: evoradavid17@gmail.com
+    phone: 642 62 39 07 
+    website: github.com/devdeividea #do not add http://
+    linkedin: David evora
+    github: davidevora
+    twitter: '@DavidEvora_'
+    stack-overflow: David Evora # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: Gym
+      - item: Java Development
+      - item: Food
+
+education:
+    - degree: Bachelor in Sciences
+      university: Colegio Militar Proceres
+      time: 2015-2020
+
+experiences:
+    - role: Warehouse Worker
+      time: 2020 - 02/2026
+      company: Uvesco
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: None:(
+        link: "#hook"
+        tagline: ""
+
+skills:
+    toolset:
+      - name: Java
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 30%
+

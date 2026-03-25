@@ -1,0 +1,61 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  # Profile information
+  first_name: Lainneker
+  last_name: Rubio 
+  summary: 
+  
+    En la intersección donde la palabra encuentra su cauce y el código su estructura,
+    habita una curiosidad que no conoce fronteras. Soy un comunicador social por esencia,
+    un tejedor de relatos que ha entendido que las historias hoy no solo se narran, 
+    sino que también se dibujan y se construyen.
+
+    Mi camino ha sido el de integrar lenguajes
+
+    La Voz del Comunicador El cimiento de todo, la búsqueda incansable de la verdady el puente tendido hacia el otro.
+
+    El Trazo del Ilustrador Donde la imaginación cobra forma y color, dando rostro a lo que las palabras, a veces, solo pueden susurrar.
+
+    El Rigor del Programador La arquitectura invisible, el styles.css que ordena el caos y convierte la abstracción en una experiencia tangible y funcional.
+
+    No veo estas disciplinas como compartimentos estancos, sino como una tríada armónica. Soy, en definitiva, un arquitecto de mensajes que utiliza el pincel
+    y el algoritmo para que la comunicación no solo informe, sino que también emocione y perdure en el ecosistema digital.
+   
+
+  # Sidebar links
+  email: lainneker@gmail.com
+  phone: +34625598700
+  github: lnkr
+  stack-overflow: #none
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: 1
+
+    - idiom: Francés
+      level: 1
+
+  interests:
+    - item: Gaming
+
+    - item: Outdoors
+
+    - item: Learning
+
+education:
+  - degree: Full Stack Develpor (Bootcamp)
+    university: 4 Geeks Academy
+    time: 2026
+    details: |
+      
+
+experiences:
+  - role: 
+    time: 
+    company: 
+    details: |
