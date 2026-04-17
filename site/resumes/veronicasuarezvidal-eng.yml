@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria Veronica
+    last_name: Suarez
+    
+    # Define yourself in 4-5 words
+    motto: Observing the world while I find my space
+    
+    # Focus
+    focus: here and now 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a final-year student of Business Administration with a specialization in Management and a Higher Technical Degree 
+      in Logistics. I have experience in data analysis and operations at companies such as Empresas Polar and TradePoint Express, 
+      where I focused on process optimization and inventory management. My profile combines a strategic vision with technical skills 
+      in analysis and logistics to add value in dynamic environments.
+
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1hVMRakGxbVLP59pHijHwuY0sT_SUhRoZ/view?usp=sharing
+
+    # Contact Information
+    email: veronicasuarezvidal@gmail.com #optional
+    phone: 0412 4870 236 #optional
+    linkedin: mariaveronicasuarezvidal #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/veronicasuarezvidal-eng
+    
+    twitter: -
+    stack-overflow: -
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Sewing
+
+      - item: Walking and Exercising 
+
+# Your previous education
+education:
+    - degree: Business Administration, mention in Management
+      university: Univerisdad Metropolitana
+      time: 2023 - 2026
+      
+      - degree: Minor in Cost Management
+      university: Univerisdad Metropolitana
+      time: Sep. 2024 - Jul. 2025
+  
+      - degree: Higher Technician in Logistics
+      university: Universidad Tecnológica del Centro
+      time: Apr. 2020– Jan. 2023
+     
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operations Intern
+      time: May. 2025– Nov. 2025
+      company: TradePoint Express
+      # optional
+         details: 
+        - Managed and updated the customer database in the CRM area, 
+        ensuring the integrity and validation of information
+        - Established direct contact with clients to validate data and 
+        promote the company service.
+        - Reported irregularities and met established deadlines, 
+        strengthening company-client communication.
+        
+  
+    - role: Logistics Department Intern
+      time: Oct. 2022– Nov. 2022
+      company: Empresas Polar C.A.
+       # optional   
+      details: 
+        - Supported inventory management and optimized distribution processes 
+        to improve operational efficiency
+        - Analyzed logistics data and proposed strategies to correct distribution 
+        deviations
+        
+
+
+    - role: English teacher
+      time: Sept. 2018 – Jul. 2019
+      company: Big Kids
+      # optional
+       details: 
+        - Taught English to children ages 3 to 7 using interactive,
+        age-appropriate methods.
+       - Organized and led craft activities to develop creativity, 
+       fine motor skills, and content comprehension.
+
+
+
+        Aditional information:
+          - Proficiency in the Microsoft Office suite (Word, Excel, and PowerPoint)
+          - Proficiency in Google Workspace tools
+          - Proficiency in Canva and Power BI
+          - Knowledge of SEO and Digital Marketing
+          - Knowledge of SQL and Tableau
