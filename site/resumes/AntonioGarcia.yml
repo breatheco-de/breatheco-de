@@ -1,0 +1,159 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio
+    last_name: García
+    
+    # Define yourself in 4-5 words
+    motto: Reach Beyond the Horizon.
+    
+    # Focus
+    focus: Beyond the Edge.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Results-oriented Professional with over 6 years of experience in Operational Management and Customer Experience across retail, financial, and digital sectors. Proven track record leading teams and managing store operations, consistently meeting sales KPIs, inventory control, and quality standards. Currently advancing in Systems Engineering and Data Analytics, specializing in Python and statistical thinking to optimize business processes. Expert in merging operational expertise with analytical tools to drive data-informed decision-making and continuous improvement in high-pressure environments.
+
+  
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: antoniogarcia271294@gmail.com #optional
+    phone: +52 55 74 67 92 97 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/antoniogarcía27121994 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Antonio-garcia-2025
+
+    
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: advancing
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: coding
+
+      - item: walk
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: UTEL Engineer computer Systems 
+      university: University of London
+      # optional
+      university_logo: 
+      time: 2023 - 2026
+      details: |
+        Focus on information systems architecture, software development lifecycles, and business process optimization.
+
+    - degree: 
+      university:  # optional
+      university_logo: 
+      time:
+      details: |
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Contact Center Executive 
+      time: 2025 - Present
+      company: Atento (for Alsea)
+      # optional
+      company_logo: 
+      details: |
+        Provide high-level digital support via social media and email, ensuring a seamless customer experience for premium brands.
+
+        Manage and track complex cases through specialized CRM tools, ensuring 100% compliance with quality standards and service level agreements (SLAs).
+
+        Demonstrate high efficiency in simultaneous task management, handling multiple digital platforms and customer interactions concurrently without compromising accuracy.
+
+        Monitor and report on performance KPIs (response time, resolution rate, and satisfaction scores) to drive continuous service improvement.
+
+    - role: Store Manager
+      time: nov 2020 - oct 2025
+      company: Nutrisa S.a de C.v 
+      # optional
+      company_logo: 
+      details: |
+        Comprehensive Branch Management: Oversaw all aspects of store operations, including sales growth, financial control, and daily administrative tasks.
+
+        Team Leadership & Development: Led recruitment, onboarding, and continuous training programs for staff, fostering a high-performance work environment.
+
+        Performance Monitoring: Tracked key performance indicators (KPIs) and sales metrics to ensure the achievement of commercial goals.
+
+        Inventory & Process Optimization: Managed stock control and implemented improvements in operational processes to reduce waste and increase efficiency.
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+     
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: calculator (html,CSS,JavaScript)
+        # optional
+        project_logo: 
+        link: https://github.com/GuerreroAntonio/proyecto.git
+        tagline: "It's a project where I put my knowledge of HTML, CSS, and JS to the test."
+
+      - title: basic index
+        # optional
+        project_logo:
+        link: "https://github.com/GuerreroAntonio/portalproject.git"
+        tagline: "project intended to use buttons in html"
+
+      - title: Youtube clone
+        # optional
+        project_logo:
+        link: "https://github.com/GuerreroAntonio/youtube_clone.git"
+        tagline: "Project designed based on Project Odin, in which we had to create a clone of a page"
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 40%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 10%
