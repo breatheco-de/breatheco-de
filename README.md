@@ -68,3 +68,10 @@ Every location has a full hands on team with -almost- full independence:
 - You can read more about our graduates in our [outcomes](https://4geeksacademy.com/us/outcomes) and [testimonials](https://4geeksacademy.com/us/testimonials).
 - You can [see the projects they have built during the program here](https://4geeksacademy.com/us/students-and-projects).
 
+---
+
+## Sobre esta copia
+
+Este repositorio conserva el material informativo original de **4Geeks Academy**, incluyendo sus enlaces, referencias y créditos. La información institucional puede cambiar; consulta los canales oficiales de la academia para conocer los datos vigentes.
+
+Mantenimiento de esta copia: **KNJ** · [KNJ Marketing](https://www.marketingknj.site/).
